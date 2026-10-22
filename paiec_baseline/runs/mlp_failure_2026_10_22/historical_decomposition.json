@@ -1,0 +1,431 @@
+{
+  "source_files": [
+    "runs\\mlp_cv\\fold0\\mixes.json",
+    "runs\\mlp_cv\\fold1\\mixes.json",
+    "runs\\mlp_cv\\fold2\\mixes.json"
+  ],
+  "scope": "historical diagnostic only",
+  "budgets": [
+    0,
+    1,
+    3,
+    7,
+    15,
+    31
+  ],
+  "alc_weights": [
+    0.1,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.1
+  ],
+  "total_pairs": 737,
+  "brier": {
+    "smoothed_mean_2": [
+      0.25,
+      0.2289715731665593,
+      0.21196112284383747,
+      0.19598845178400404,
+      0.18847180624287752,
+      0.1825231266610155
+    ],
+    "constant_0.5": [
+      0.25,
+      0.25,
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "empirical_mean": [
+      0.25,
+      0.35358141681616634,
+      0.24004675365549738,
+      0.20229236270064738,
+      0.1905086407819548,
+      0.1830685490668401
+    ],
+    "mlp:prior": [
+      0.2750334163250723,
+      0.2750334163250723,
+      0.2750334163250723,
+      0.2750334163250723,
+      0.2750334163250723,
+      0.2750334163250723
+    ],
+    "mlp:residual_2": [
+      0.2750334163250723,
+      0.241218197972007,
+      0.21729160037164652,
+      0.198771916613238,
+      0.19003401229330535,
+      0.1837201362308001
+    ]
+  },
+  "delta_vs_smoothed2": {
+    "constant_0.5": {
+      "delta_brier": [
+        0.0,
+        0.021028426833440694,
+        0.038038877156162526,
+        0.054011548215995964,
+        0.061528193757122485,
+        0.0674768733389845
+      ],
+      "weighted_contribution": [
+        0.0,
+        0.004205685366688139,
+        0.007607775431232505,
+        0.010802309643199193,
+        0.012305638751424498,
+        0.00674768733389845
+      ],
+      "delta_alc": 0.04166909652644279
+    },
+    "empirical_mean": {
+      "delta_brier": [
+        0.0,
+        0.12460984364960703,
+        0.028085630811659906,
+        0.0063039109166433405,
+        0.002036834539077298,
+        0.0005454224058246138
+      ],
+      "weighted_contribution": [
+        0.0,
+        0.024921968729921407,
+        0.005617126162331981,
+        0.0012607821833286682,
+        0.0004073669078154596,
+        5.4542240582461377e-05
+      ],
+      "delta_alc": 0.032261786223979974
+    },
+    "mlp:prior": {
+      "delta_brier": [
+        0.025033416325072277,
+        0.04606184315851297,
+        0.0630722934812348,
+        0.07904496454106824,
+        0.08656161008219476,
+        0.09251028966405678
+      ],
+      "weighted_contribution": [
+        0.002503341632507228,
+        0.009212368631702595,
+        0.012614458696246961,
+        0.015808992908213648,
+        0.017312322016438952,
+        0.009251028966405677
+      ],
+      "delta_alc": 0.06670251285151506
+    },
+    "mlp:residual_2": {
+      "delta_brier": [
+        0.025033416325072277,
+        0.012246624805447692,
+        0.005330477527809047,
+        0.0027834648292339725,
+        0.001562206050427839,
+        0.0011970095697846073
+      ],
+      "weighted_contribution": [
+        0.002503341632507228,
+        0.002449324961089539,
+        0.0010660955055618094,
+        0.0005566929658467945,
+        0.0003124412100855678,
+        0.00011970095697846073
+      ],
+      "delta_alc": 0.007007597232069399
+    }
+  },
+  "folds": [
+    {
+      "pairs": 246,
+      "alc": {
+        "smoothed_mean_2": 0.17740626074316934,
+        "constant_0.5": 0.25,
+        "empirical_mean": 0.1964673115813166,
+        "mlp:prior": 0.2776827165872101,
+        "mlp:residual_2": 0.1852933213553899
+      }
+    },
+    {
+      "pairs": 246,
+      "alc": {
+        "smoothed_mean_2": 0.23991338531403875,
+        "constant_0.5": 0.25,
+        "empirical_mean": 0.2855787834879465,
+        "mlp:prior": 0.2661301652953877,
+        "mlp:residual_2": 0.2446973805595
+      }
+    },
+    {
+      "pairs": 245,
+      "alc": {
+        "smoothed_mean_2": 0.20767037930587137,
+        "constant_0.5": 0.25,
+        "empirical_mean": 0.23972846089814773,
+        "mlp:prior": 0.2813128934222825,
+        "mlp:residual_2": 0.2160276014244241
+      }
+    }
+  ],
+  "benchmarks": [
+    {
+      "benchmark": "abstract_reason/formatted_tables",
+      "pairs": 1,
+      "baseline_alc": 0.2616845846176148,
+      "prior_delta_alc": 0.02424610853195186,
+      "residual_delta_alc": 0.03341949880123135
+    },
+    {
+      "benchmark": "appworld/formatted_tables",
+      "pairs": 18,
+      "baseline_alc": 0.1694739644852234,
+      "prior_delta_alc": 0.2212942472636415,
+      "residual_delta_alc": 0.03305593598407641
+    },
+    {
+      "benchmark": "bertaqa/formatted_tables",
+      "pairs": 6,
+      "baseline_alc": 0.2005207737286886,
+      "prior_delta_alc": 0.16288896898428595,
+      "residual_delta_alc": 0.030707688381274523
+    },
+    {
+      "benchmark": "emoji_attack/formatted_tables",
+      "pairs": 10,
+      "baseline_alc": 0.2269908396154642,
+      "prior_delta_alc": 0.12826199553906917,
+      "residual_delta_alc": 0.03044700540602205
+    },
+    {
+      "benchmark": "evouna/formatted_tables",
+      "pairs": 5,
+      "baseline_alc": 0.2135261695086956,
+      "prior_delta_alc": 0.1429730315506458,
+      "residual_delta_alc": 0.030061834454536446
+    },
+    {
+      "benchmark": "algotune/formatted_tables",
+      "pairs": 18,
+      "baseline_alc": 0.21901389666729504,
+      "prior_delta_alc": 0.14693448237246937,
+      "residual_delta_alc": 0.026918467713726885
+    },
+    {
+      "benchmark": "benger/formatted_tables",
+      "pairs": 25,
+      "baseline_alc": 0.17359442058205604,
+      "prior_delta_alc": 0.16638740715384487,
+      "residual_delta_alc": 0.02144718756526709
+    },
+    {
+      "benchmark": "bird_sql/formatted_tables",
+      "pairs": 100,
+      "baseline_alc": 0.11652512508822838,
+      "prior_delta_alc": 0.21017725568817697,
+      "residual_delta_alc": 0.02034456463431708
+    },
+    {
+      "benchmark": "healthadminbench/formatted_tables",
+      "pairs": 7,
+      "baseline_alc": 0.2565560964601381,
+      "prior_delta_alc": 0.048717389575072656,
+      "residual_delta_alc": 0.01931934271539959
+    },
+    {
+      "benchmark": "egoschema/formatted_tables",
+      "pairs": 11,
+      "baseline_alc": 0.2655130160125819,
+      "prior_delta_alc": 0.011538874425671308,
+      "residual_delta_alc": 0.016757439076900527
+    },
+    {
+      "benchmark": "fewshot_ttt_bbh/formatted_tables",
+      "pairs": 11,
+      "baseline_alc": 0.26467616111040115,
+      "prior_delta_alc": 0.014511156488548616,
+      "residual_delta_alc": 0.01575806357643822
+    },
+    {
+      "benchmark": "beavertails/formatted_tables",
+      "pairs": 4,
+      "baseline_alc": 0.1793676323242835,
+      "prior_delta_alc": 0.12596168304007732,
+      "residual_delta_alc": 0.012587080874072842
+    },
+    {
+      "benchmark": "braveguard/formatted_tables",
+      "pairs": 2,
+      "baseline_alc": 0.13623172957450153,
+      "prior_delta_alc": 0.14725913684815167,
+      "residual_delta_alc": 0.01242991555482148
+    },
+    {
+      "benchmark": "exploitgym/formatted_tables",
+      "pairs": 5,
+      "baseline_alc": 0.11090450943331234,
+      "prior_delta_alc": 0.17336425124784002,
+      "residual_delta_alc": 0.008185088905738672
+    },
+    {
+      "benchmark": "engdesign/formatted_tables",
+      "pairs": 12,
+      "baseline_alc": 0.22999113717426856,
+      "prior_delta_alc": 0.05834117364138369,
+      "residual_delta_alc": 0.005935519312818882
+    },
+    {
+      "benchmark": "financebench/formatted_tables",
+      "pairs": 16,
+      "baseline_alc": 0.19564656582660975,
+      "prior_delta_alc": 0.07508668354712425,
+      "residual_delta_alc": 0.005451805889606476
+    },
+    {
+      "benchmark": "alignment_faking/formatted_tables",
+      "pairs": 100,
+      "baseline_alc": 0.19545418659719874,
+      "prior_delta_alc": 0.07548135233548234,
+      "residual_delta_alc": 0.004893928664561814
+    },
+    {
+      "benchmark": "ceval/formatted_tables",
+      "pairs": 11,
+      "baseline_alc": 0.22923751649531451,
+      "prior_delta_alc": 0.03242483125491577,
+      "residual_delta_alc": 0.004589937627315549
+    },
+    {
+      "benchmark": "finegrain_t2i/formatted_tables",
+      "pairs": 5,
+      "baseline_alc": 0.27796950280666355,
+      "prior_delta_alc": -0.0036218816041946877,
+      "residual_delta_alc": 0.004036739170551251
+    },
+    {
+      "benchmark": "agi_elo/formatted_tables",
+      "pairs": 20,
+      "baseline_alc": 0.20928374130278826,
+      "prior_delta_alc": 0.05245781641453506,
+      "residual_delta_alc": 0.003157147467136412
+    },
+    {
+      "benchmark": "faithcot/formatted_tables",
+      "pairs": 4,
+      "baseline_alc": 0.21667292080819608,
+      "prior_delta_alc": 0.01995845772325991,
+      "residual_delta_alc": 0.002817307040095335
+    },
+    {
+      "benchmark": "hallusionbench/formatted_tables",
+      "pairs": 100,
+      "baseline_alc": 0.25322785809636117,
+      "prior_delta_alc": -0.0022190640866756595,
+      "residual_delta_alc": 0.002649589210748704
+    },
+    {
+      "benchmark": "adaptivestep/formatted_tables",
+      "pairs": 2,
+      "baseline_alc": 0.21964282244443895,
+      "prior_delta_alc": 0.026258657872676838,
+      "residual_delta_alc": 0.0017449803650378959
+    },
+    {
+      "benchmark": "devbench/formatted_tables",
+      "pairs": 19,
+      "baseline_alc": 0.22148188981962835,
+      "prior_delta_alc": 0.024744507964504364,
+      "residual_delta_alc": 0.0012413465074802565
+    },
+    {
+      "benchmark": "dave/formatted_tables",
+      "pairs": 8,
+      "baseline_alc": 0.2424070168286562,
+      "prior_delta_alc": -0.003765400871634489,
+      "residual_delta_alc": 0.0011683152988553325
+    },
+    {
+      "benchmark": "edu_circuit_hw/formatted_tables",
+      "pairs": 6,
+      "baseline_alc": 0.23357156005998453,
+      "prior_delta_alc": 0.017896785462896025,
+      "residual_delta_alc": -0.00012569651007648952
+    },
+    {
+      "benchmark": "bbq/formatted_tables",
+      "pairs": 7,
+      "baseline_alc": 0.2424398175307683,
+      "prior_delta_alc": -0.0032079862696784145,
+      "residual_delta_alc": -0.0006481579371861446
+    },
+    {
+      "benchmark": "cruxeval/formatted_tables",
+      "pairs": 31,
+      "baseline_alc": 0.24177647872317223,
+      "prior_delta_alc": -0.004549924740868211,
+      "residual_delta_alc": -0.001524369226348049
+    },
+    {
+      "benchmark": "editbench/formatted_tables",
+      "pairs": 44,
+      "baseline_alc": 0.2605248859998855,
+      "prior_delta_alc": -0.0030365661802616573,
+      "residual_delta_alc": -0.0021493542939424737
+    },
+    {
+      "benchmark": "ai2d_test/formatted_tables",
+      "pairs": 100,
+      "baseline_alc": 0.22042529404163363,
+      "prior_delta_alc": 0.00912934765219689,
+      "residual_delta_alc": -0.004106587715446974
+    },
+    {
+      "benchmark": "cmmlu/formatted_tables",
+      "pairs": 22,
+      "baseline_alc": 0.2133633800208124,
+      "prior_delta_alc": 0.018288984113976142,
+      "residual_delta_alc": -0.005707279362832163
+    },
+    {
+      "benchmark": "aegis/formatted_tables",
+      "pairs": 1,
+      "baseline_alc": 0.20921064913272858,
+      "prior_delta_alc": -0.008633419871330261,
+      "residual_delta_alc": -0.008278298377990712
+    },
+    {
+      "benchmark": "felm/formatted_tables",
+      "pairs": 1,
+      "baseline_alc": 0.201798215508461,
+      "prior_delta_alc": 0.018321290612220764,
+      "residual_delta_alc": -0.009052783250808716
+    },
+    {
+      "benchmark": "cellverse/formatted_tables",
+      "pairs": 1,
+      "baseline_alc": 0.3287386626005173,
+      "prior_delta_alc": -0.0668700367212296,
+      "residual_delta_alc": -0.028782236576080367
+    },
+    {
+      "benchmark": "agentic_review_perturbation/formatted_tables",
+      "pairs": 3,
+      "baseline_alc": 0.17318161601821586,
+      "prior_delta_alc": -0.055366729944944404,
+      "residual_delta_alc": -0.03285762332379821
+    },
+    {
+      "benchmark": "enginemt_qa/formatted_tables",
+      "pairs": 1,
+      "baseline_alc": 0.21848509907722474,
+      "prior_delta_alc": -0.027681064605712874,
+      "residual_delta_alc": -0.03335138410329819
+    }
+  ]
+}

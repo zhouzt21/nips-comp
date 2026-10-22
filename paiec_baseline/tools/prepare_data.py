@@ -8,12 +8,14 @@ embeddings/ at its root) or published as a public HF repo that the platform
 pre-downloads via models.txt.
 
 Run on a development machine with internet access and the dependencies from
-ble/requirements.txt installed. Each build downloads the current main
-branches of measurement-db and measurement-db-embed for later offline use;
-it does not generate item embeddings. No historical commit is hardcoded.
+ble/requirements.txt installed. A new build resolves the current main branches
+of measurement-db and measurement-db-embed; an interrupted build can resume
+those recorded revisions with --resume. It does not generate item embeddings.
 
     python tools/prepare_data.py --out payload                # build payload/
     python tools/prepare_data.py --out payload --no-embeddings
+    python tools/prepare_data.py --out payload --no-embeddings --no-traces
+    python tools/prepare_data.py --out payload --no-embeddings --no-traces --resume
 
 The payload layout:
     data/<benchmark_dir>/{benchmarks,subjects,items,response[,traces]}.parquet
@@ -62,23 +64,69 @@ def main():
         action="store_true",
         help="skip measurement-db-embed; prepare only the seven keyword/table tools",
     )
+    ap.add_argument(
+        "--no-traces",
+        action="store_true",
+        help="skip large traces.parquet tables; sufficient for mean/MLP experiments",
+    )
+    ap.add_argument(
+        "--resume",
+        action="store_true",
+        help="resume an interrupted build using its recorded Hugging Face revisions",
+    )
+    ap.add_argument(
+        "--workers",
+        type=int,
+        default=16,
+        help="concurrent metadata and file requests (default: 16)",
+    )
     args = ap.parse_args()
+    if args.workers < 1:
+        ap.error("--workers must be at least 1")
     out = os.path.abspath(args.out)
-    if os.path.exists(out) and any(os.scandir(out)):
-        raise RuntimeError("--out must be a new or empty directory")
+    state_path = os.path.join(out, ".prepare_state.json")
+    previous = None
+    nonempty = False
+    if os.path.exists(out):
+        with os.scandir(out) as entries:
+            nonempty = next(entries, None) is not None
+    if nonempty:
+        if not args.resume or not os.path.isfile(state_path):
+            raise RuntimeError("--out must be new/empty, or an interrupted build with --resume")
+        with open(state_path, encoding="utf-8") as handle:
+            previous = json.load(handle)
+        if (
+            previous.get("repo") != PUBLIC_DATA_REPO
+            or previous.get("no_embeddings") != args.no_embeddings
+            or previous.get("no_traces") != args.no_traces
+        ):
+            raise RuntimeError("--resume options do not match the interrupted build")
 
-    # Resolve main afresh for every build. Use that snapshot consistently within
-    # this download and record it for provenance, not as a future download pin.
+    # A new build resolves main; an interrupted build resumes its exact snapshot.
     print(f"Listing public training release {PUBLIC_DATA_REPO} ...")
     api = HfApi()
-    data_info = api.repo_info(PUBLIC_DATA_REPO, repo_type="dataset", revision="main")
+    data_info = api.repo_info(
+        PUBLIC_DATA_REPO, repo_type="dataset",
+        revision=previous["data_revision"] if previous else "main",
+    )
     data_revision = data_info.sha
     files = {entry.rfilename for entry in data_info.siblings}
     embedding_info = None
     if not args.no_embeddings:
         embedding_info = api.repo_info(
-            PUBLIC_EMBEDDINGS_REPO, repo_type="dataset", revision="main"
+            PUBLIC_EMBEDDINGS_REPO, repo_type="dataset",
+            revision=previous["embedding_revision"] if previous else "main",
         )
+    if previous is None:
+        os.makedirs(out, exist_ok=True)
+        with open(state_path, "w", encoding="utf-8") as handle:
+            json.dump({
+                "repo": PUBLIC_DATA_REPO,
+                "data_revision": data_revision,
+                "embedding_revision": embedding_info.sha if embedding_info else None,
+                "no_embeddings": args.no_embeddings,
+                "no_traces": args.no_traces,
+            }, handle, indent=2)
     data_out = os.path.join(out, "data")
     os.makedirs(data_out, exist_ok=True)
     dirs = sorted(
@@ -97,7 +145,7 @@ def main():
         )
 
     eligible = []
-    with cf.ThreadPoolExecutor(max_workers=16) as ex:
+    with cf.ThreadPoolExecutor(max_workers=args.workers) as ex:
         for d, ok in ex.map(_elig, dirs):
             if ok:
                 eligible.append(d)
@@ -113,6 +161,8 @@ def main():
         os.makedirs(os.path.join(data_out, d), exist_ok=True)
         got = []
         for t in _TABLES:
+            if args.no_traces and t == "traces":
+                continue
             source_name = f"{d}/{t}.parquet"
             # The current release uses both spellings. Keep one local schema
             # so the retrieval code can always load response.parquet.
@@ -123,12 +173,14 @@ def main():
             src = _fetch(source_name, data_revision)
             dst = os.path.join(data_out, d, f"{t}.parquet")
             if not os.path.exists(dst) or os.path.getsize(dst) != os.path.getsize(src):
-                shutil.copyfile(src, dst)
+                partial = dst + ".part"
+                shutil.copyfile(src, partial)
+                os.replace(partial, dst)
             got.append(f"{d}/{t}.parquet")
         return got
 
     t0 = time.time()
-    with cf.ThreadPoolExecutor(max_workers=16) as ex:
+    with cf.ThreadPoolExecutor(max_workers=args.workers) as ex:
         for i, got in enumerate(ex.map(_one, eligible), 1):
             manifest_files.extend(got)
             if i % 25 == 0 or i == len(eligible):
@@ -220,6 +272,7 @@ def main():
     emb_dir = os.path.join(out, "embeddings")
     if os.path.isdir(emb_dir):
         print(f"  embeddings: {_du(emb_dir):.2f} GB")
+    os.remove(state_path)
 
 
 if __name__ == "__main__":

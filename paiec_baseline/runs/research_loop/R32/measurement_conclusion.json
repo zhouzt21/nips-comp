@@ -1,0 +1,239 @@
+{
+  "scope": "cap-effect estimate: exact 4278-pair dominant benchmark plus count-stratified sample of other 964 pairs; NOT actual all-pair full-query performance",
+  "original_stratified_cap_effect": -0.00024070245224305938,
+  "hybrid_cap_effect": 1.8690490164230804e-05,
+  "design_standard_error": 9.157235477678631e-05,
+  "approx_design_ci95": [
+    -0.00016079132519827036,
+    0.000198172305526732
+  ],
+  "R31_actual_capped_delta": -0.0035634367919903376,
+  "cap_corrected_delta_estimate": -0.0035447463018261067,
+  "cap_corrected_gain_estimate": 0.0035447463018261067,
+  "remaining_gain_to_gate_estimate": 0.0014552536981738934,
+  "by_benchmark": {
+    "abstract_reason/formatted_tables": {
+      "represented_pairs": 1.0,
+      "selected_pairs": 1,
+      "estimated_cap_effect": -0.006538010197074438,
+      "conditional_subset_delta_rms_sd": 0.005630910365709469
+    },
+    "adaptivestep/formatted_tables": {
+      "represented_pairs": 2.0,
+      "selected_pairs": 2,
+      "estimated_cap_effect": 0.0004884457982652054,
+      "conditional_subset_delta_rms_sd": 0.0016516515553870942
+    },
+    "aegis/formatted_tables": {
+      "represented_pairs": 1.0,
+      "selected_pairs": 1,
+      "estimated_cap_effect": -0.0023511672120862916,
+      "conditional_subset_delta_rms_sd": 0.0015136310298535733
+    },
+    "agentic_review_perturbation/formatted_tables": {
+      "represented_pairs": 3.0,
+      "selected_pairs": 2,
+      "estimated_cap_effect": 0.0,
+      "conditional_subset_delta_rms_sd": 1.209238398253305e-17
+    },
+    "agi_elo/formatted_tables": {
+      "represented_pairs": 20.0,
+      "selected_pairs": 2,
+      "estimated_cap_effect": 0.0016580429189025317,
+      "conditional_subset_delta_rms_sd": 0.003992060828275586
+    },
+    "ai2d_test/formatted_tables": {
+      "represented_pairs": 254.0,
+      "selected_pairs": 2,
+      "estimated_cap_effect": 0.0007653280585013957,
+      "conditional_subset_delta_rms_sd": 0.001297112904176583
+    },
+    "algotune/formatted_tables": {
+      "represented_pairs": 18.0,
+      "selected_pairs": 2,
+      "estimated_cap_effect": -2.4323097223742797e-05,
+      "conditional_subset_delta_rms_sd": 0.0016925071888106908
+    },
+    "alignment_faking/formatted_tables": {
+      "represented_pairs": 4278.0,
+      "selected_pairs": 55,
+      "estimated_cap_effect": -0.0003071532930227709,
+      "conditional_subset_delta_rms_sd": 0.0018656739586534964,
+      "actual_cap_effect_all_pairs": 1.069098096018184e-05
+    },
+    "appworld/formatted_tables": {
+      "represented_pairs": 18.0,
+      "selected_pairs": 2,
+      "estimated_cap_effect": 8.209858100971798e-05,
+      "conditional_subset_delta_rms_sd": 0.002273921208965464
+    },
+    "bbq/formatted_tables": {
+      "represented_pairs": 7.0,
+      "selected_pairs": 2,
+      "estimated_cap_effect": 0.0017223864781083808,
+      "conditional_subset_delta_rms_sd": 0.0029096144488780294
+    },
+    "beavertails/formatted_tables": {
+      "represented_pairs": 4.0,
+      "selected_pairs": 2,
+      "estimated_cap_effect": 0.00042206637059982776,
+      "conditional_subset_delta_rms_sd": 0.0018865787337313665
+    },
+    "benger/formatted_tables": {
+      "represented_pairs": 25.0,
+      "selected_pairs": 4,
+      "estimated_cap_effect": 0.0,
+      "conditional_subset_delta_rms_sd": 0.0
+    },
+    "bertaqa/formatted_tables": {
+      "represented_pairs": 6.0,
+      "selected_pairs": 2,
+      "estimated_cap_effect": -0.00029823823159230153,
+      "conditional_subset_delta_rms_sd": 0.002388049786795013
+    },
+    "bird_sql/formatted_tables": {
+      "represented_pairs": 120.0,
+      "selected_pairs": 2,
+      "estimated_cap_effect": -0.00014415439191961052,
+      "conditional_subset_delta_rms_sd": 0.0008694847186727993
+    },
+    "braveguard/formatted_tables": {
+      "represented_pairs": 2.0,
+      "selected_pairs": 2,
+      "estimated_cap_effect": -6.451603430800627e-06,
+      "conditional_subset_delta_rms_sd": 0.0005578528566850894
+    },
+    "cellverse/formatted_tables": {
+      "represented_pairs": 1.0,
+      "selected_pairs": 1,
+      "estimated_cap_effect": 0.0006841533851054451,
+      "conditional_subset_delta_rms_sd": 0.0012880565065494353
+    },
+    "ceval/formatted_tables": {
+      "represented_pairs": 11.0,
+      "selected_pairs": 2,
+      "estimated_cap_effect": -0.0007314730106309075,
+      "conditional_subset_delta_rms_sd": 0.0016734650136829695
+    },
+    "cmmlu/formatted_tables": {
+      "represented_pairs": 22.0,
+      "selected_pairs": 2,
+      "estimated_cap_effect": -0.0003006324812958895,
+      "conditional_subset_delta_rms_sd": 0.0013969557659844754
+    },
+    "cruxeval/formatted_tables": {
+      "represented_pairs": 31.0,
+      "selected_pairs": 2,
+      "estimated_cap_effect": 0.00013396629723400356,
+      "conditional_subset_delta_rms_sd": 0.0022363429235894394
+    },
+    "dave/formatted_tables": {
+      "represented_pairs": 8.0,
+      "selected_pairs": 2,
+      "estimated_cap_effect": -0.0020600379127517212,
+      "conditional_subset_delta_rms_sd": 0.0047305691101713525
+    },
+    "devbench/formatted_tables": {
+      "represented_pairs": 19.0,
+      "selected_pairs": 2,
+      "estimated_cap_effect": 0.0010189519550627495,
+      "conditional_subset_delta_rms_sd": 0.002454280254209955
+    },
+    "editbench/formatted_tables": {
+      "represented_pairs": 44.0,
+      "selected_pairs": 3,
+      "estimated_cap_effect": 0.00012950700154973056,
+      "conditional_subset_delta_rms_sd": 0.0021269614502451633
+    },
+    "edu_circuit_hw/formatted_tables": {
+      "represented_pairs": 6.0,
+      "selected_pairs": 2,
+      "estimated_cap_effect": 0.0,
+      "conditional_subset_delta_rms_sd": 0.0
+    },
+    "egoschema/formatted_tables": {
+      "represented_pairs": 11.0,
+      "selected_pairs": 2,
+      "estimated_cap_effect": -0.0006971089807811058,
+      "conditional_subset_delta_rms_sd": 0.001962580467974702
+    },
+    "emoji_attack/formatted_tables": {
+      "represented_pairs": 10.0,
+      "selected_pairs": 2,
+      "estimated_cap_effect": -0.0005144914602546362,
+      "conditional_subset_delta_rms_sd": 0.001514549221118123
+    },
+    "engdesign/formatted_tables": {
+      "represented_pairs": 12.0,
+      "selected_pairs": 2,
+      "estimated_cap_effect": 0.0,
+      "conditional_subset_delta_rms_sd": 2.1604147165019706e-17
+    },
+    "enginemt_qa/formatted_tables": {
+      "represented_pairs": 1.0,
+      "selected_pairs": 1,
+      "estimated_cap_effect": -0.003024933677615679,
+      "conditional_subset_delta_rms_sd": 0.005535411173167952
+    },
+    "evouna/formatted_tables": {
+      "represented_pairs": 5.0,
+      "selected_pairs": 2,
+      "estimated_cap_effect": 0.0015162845063980883,
+      "conditional_subset_delta_rms_sd": 0.0035091239131995406
+    },
+    "exploitgym/formatted_tables": {
+      "represented_pairs": 5.0,
+      "selected_pairs": 2,
+      "estimated_cap_effect": 5.350379718976432e-05,
+      "conditional_subset_delta_rms_sd": 0.002061453869039425
+    },
+    "faithcot/formatted_tables": {
+      "represented_pairs": 4.0,
+      "selected_pairs": 3,
+      "estimated_cap_effect": -0.0014872896250088703,
+      "conditional_subset_delta_rms_sd": 0.002814606087045421
+    },
+    "felm/formatted_tables": {
+      "represented_pairs": 1.0,
+      "selected_pairs": 1,
+      "estimated_cap_effect": 0.0007556433636987696,
+      "conditional_subset_delta_rms_sd": 0.001478602985161686
+    },
+    "fewshot_ttt_bbh/formatted_tables": {
+      "represented_pairs": 11.0,
+      "selected_pairs": 2,
+      "estimated_cap_effect": 0.00034093272302010603,
+      "conditional_subset_delta_rms_sd": 0.0031442023197931763
+    },
+    "financebench/formatted_tables": {
+      "represented_pairs": 16.0,
+      "selected_pairs": 2,
+      "estimated_cap_effect": -0.0005300820460545522,
+      "conditional_subset_delta_rms_sd": 0.0014215231231780169
+    },
+    "finegrain_t2i/formatted_tables": {
+      "represented_pairs": 5.0,
+      "selected_pairs": 2,
+      "estimated_cap_effect": 0.0015469860710536504,
+      "conditional_subset_delta_rms_sd": 0.0019773613540374196
+    },
+    "hallusionbench/formatted_tables": {
+      "represented_pairs": 253.0,
+      "selected_pairs": 3,
+      "estimated_cap_effect": -0.000610646917759104,
+      "conditional_subset_delta_rms_sd": 0.0029571121968931563
+    },
+    "healthadminbench/formatted_tables": {
+      "represented_pairs": 7.0,
+      "selected_pairs": 2,
+      "estimated_cap_effect": 0.00040441343717714177,
+      "conditional_subset_delta_rms_sd": 0.0013913987785166746
+    }
+  },
+  "interpretation_limits": [
+    "Design interval concerns pair sampling within this fixed reused benchmark population, not generalization to unseen benchmarks.",
+    "Seed-averaged pairs are the sampling units; repeated seeds are not counted as independent pairs.",
+    "Conditional subset SD is within pair with support fixed, not uncertainty of the final competition score.",
+    "Empirical within-item variance cancels between model Briers; it is not a population irreducible-noise estimate."
+  ]
+}

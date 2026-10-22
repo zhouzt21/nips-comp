@@ -1,0 +1,5 @@
+# R32c: complete the dominant benchmark while stratified encoding runs
+
+Frozen before extended scores. The selection is driven solely by census weight4278/5242 and complete existing cache, not partial score changes. R32b remains the original125-pair representative contrast. Add a separately labelled full4278-pair alignment_faking contrast with the same frozen predictor, original seeds0/1/2 and ALL evaluation items/responses. No new embeddings needed. Run in a separate CPU1process while R32b CPU4encodes large non-dominant query pools.
+
+Replay all original R31 capped pair/seed/budget scores. Store every pair's three-seed mean full/capped budget scores and within-item diagnostic. This removes sampling uncertainty for81.6%of the R31 pair weight. Do not silently substitute it into the original R32b summary. Report a separate hybrid estimate using exact dominant results and design-weighted R32b non-dominant results only after both finish; remaining sampling/generalization limitations remain explicit. No predictor/gate changes.

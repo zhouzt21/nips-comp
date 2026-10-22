@@ -1,0 +1,13 @@
+# PAIEC-LOOP-R7: frozen semantic representation, matched text control
+
+Registered2026-10-22 before R7 scores. R6 covariance ALC0.208546 worsens B1/B3 and loses its matched shrinkage control. R5 learned hash metric added essentially no improvement. R3's repeatable high-budget benefit suggests local item relations have some information, but lexical features may limit it.
+
+Primary pretrained source: sentence-transformers/all-MiniLM-L6-v2, revision1110a243fdf4706b3f48f1d95db1a4f5529b4d41. Official model card describes384-dimensional mean-pooled normalized embeddings and contrastive sentence-pair training. This is general text similarity, **not a difficulty model**. No competition-specific external data or fine-tuning is introduced. Disclose pretrained source and its training-data provenance; pretraining is allowed by current official rules. English uncased model limitations apply, and all existing multilingual benchmarks remain in evaluation.
+
+Canonical input: existing generic structured-text extraction on item_content only; bound long strings to first16000+last4000characters. Frozen model tokenizer selects at most126wordpieces (first96+last30), plusCLS/SEP. This128-token limit is a resource choice; it differs from model-card default256. Both semantic and hash controls receive exactly this retained text window. Hash control uses decoded retained tokens with original hash encoding and no subject information. Missing metadata sentinel constants remain as in the existing encoder; neither branch receives item metadata/interactors or benchmark ID.
+
+Keep R3 centered local ridge and smoothed2 intercept. Select ridge from off,16,4,1,0.25 on each fold's outer-training episodes (seed73,25pairs/BM,64queryitems), separately for the matched text-hash and semantic representations. All selections precede outer scoring. No outer model choice and no alternative embedding sweep.
+
+Outer seed0,100pairs/BM,64eval items, same nested acquisition. Assert original baseline replay. Primary comparison semantic versus matched text-hash, frozen smoothed2, training-selected means and R3. B0/B1 are unchanged by design. Gate unchanged; meaningful high-budget benefit would justify a subsequent prior/adaptation experiment, not automatic promotion.
+
+Resource/runtime boundary: model and development-only dependencies on D:/paiec_pretrained and D:/paiec_research_deps; embeddings cached on D:/paiec_research_cache. No changes to global Python installation. Pretrained inference is CPU/offline after download. Transformer/tokenizer dependencies are not assumed available in hosted scoring; any successful candidate needs a separately validated portable package or organizer-supported environment before submission gate can pass.

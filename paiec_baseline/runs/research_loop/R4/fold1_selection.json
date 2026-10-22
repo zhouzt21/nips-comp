@@ -1,0 +1,52 @@
+{
+  "fold": 1,
+  "selection_benchmarks": [
+    "ai2d_test/formatted_tables",
+    "adaptivestep/formatted_tables",
+    "bertaqa/formatted_tables"
+  ],
+  "selection_pairs": 33,
+  "heldout_benchmarks": [
+    "aegis/formatted_tables",
+    "appworld/formatted_tables",
+    "bbq/formatted_tables",
+    "beavertails/formatted_tables",
+    "cmmlu/formatted_tables",
+    "devbench/formatted_tables",
+    "editbench/formatted_tables",
+    "emoji_attack/formatted_tables",
+    "enginemt_qa/formatted_tables",
+    "faithcot/formatted_tables",
+    "fewshot_ttt_bbh/formatted_tables",
+    "finegrain_t2i/formatted_tables",
+    "hallusionbench/formatted_tables"
+  ],
+  "ridge_grid": [
+    null,
+    10.0,
+    1.0,
+    0.1,
+    0.01
+  ],
+  "inner_alc": {
+    "raw_full": [
+      0.21954976237627724,
+      0.21928360716705347,
+      0.21750684975610315,
+      0.21279427637207687,
+      0.21489011009917858
+    ],
+    "hidden": [
+      0.21954976237627724,
+      0.21952921876953374,
+      0.21966981752733766,
+      0.22110736046222396,
+      0.22661215143522595
+    ]
+  },
+  "selected_ridge": {
+    "raw_full": 0.1,
+    "hidden": 10.0
+  },
+  "weight_sha256": "2f0d7abdd8dc7e74f60ebbf409c3146791865968dcc6a5f1ab3d875b166ea78e"
+}

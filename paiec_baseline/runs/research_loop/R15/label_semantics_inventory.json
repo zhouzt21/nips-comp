@@ -1,0 +1,551 @@
+[
+  {
+    "directory": "abstract_reason/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "incorrect or unsolved",
+      "1": "correct or solved"
+    },
+    "n_responses": 9095
+  },
+  {
+    "directory": "adaptivestep/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "Answer fails the specified checker",
+      "1": "Answer passes the specified checker"
+    },
+    "n_responses": 988160
+  },
+  {
+    "directory": "advprompter/formatted_tables",
+    "direction": "lower_is_better",
+    "meanings": {
+      "0": "The released judge did not classify the response as unsafe.",
+      "1": "The released judge classified the response as unsafe (attack success)."
+    },
+    "n_responses": 100
+  },
+  {
+    "directory": "aegis/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "native response_label is unsafe",
+      "1": "native response_label is safe"
+    },
+    "n_responses": 11608
+  },
+  {
+    "directory": "afrieval/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "At least one predicted BIO tag differs from the original reference.",
+      "1": "All predicted BIO tags exactly match the original reference."
+    },
+    "n_responses": 1403380
+  },
+  {
+    "directory": "afrimedqa/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "Extracted prediction does not match the reference letter",
+      "1": "Extracted prediction matches the reference letter"
+    },
+    "n_responses": 302354
+  },
+  {
+    "directory": "agentic_review_perturbation/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "injected error not detected",
+      "1": "injected error detected"
+    },
+    "n_responses": 315
+  },
+  {
+    "directory": "agi_elo/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "incorrect",
+      "1": "correct"
+    },
+    "n_responses": 277106
+  },
+  {
+    "directory": "ai2d_test/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "incorrect_or_unparseable_model_output",
+      "1": "correct_answer"
+    },
+    "n_responses": 784352
+  },
+  {
+    "directory": "aider/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "Recorded build or unit tests failed within the run budget",
+      "1": "Recorded build and unit tests passed within the run budget"
+    },
+    "n_responses": 5356
+  },
+  {
+    "directory": "algotune/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "failure",
+      "1": "success"
+    },
+    "n_responses": 2772
+  },
+  {
+    "directory": "alignment_faking/formatted_tables",
+    "direction": "unordered",
+    "meanings": {
+      "0": "The released classifier did not report alignment-faking reasoning.",
+      "1": "The released classifier reported alignment-faking reasoning."
+    },
+    "n_responses": 2138969
+  },
+  {
+    "directory": "alpha_sql/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "different_result_or_failed_predicted_query",
+      "1": "equal_complete_result_sets"
+    },
+    "n_responses": 1534
+  },
+  {
+    "directory": "appworld/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "failure",
+      "1": "success"
+    },
+    "n_responses": 10530
+  },
+  {
+    "directory": "auditing_sabotage_bench/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "Recorded verdict does not match the target, including uncertain verdicts",
+      "1": "Recorded verdict matches the target"
+    },
+    "n_responses": 1869
+  },
+  {
+    "directory": "averimatec/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "Predicted verdict differs from the reference under the upstream comparison.",
+      "1": "Predicted verdict matches the reference under the upstream comparison."
+    },
+    "n_responses": 152
+  },
+  {
+    "directory": "babilong/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "Answer fails the upstream substring-label comparison.",
+      "1": "Answer passes the upstream substring-label comparison."
+    },
+    "n_responses": 2020951
+  },
+  {
+    "directory": "bbq/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "The parsed choice differs from the reference option.",
+      "1": "The parsed choice matches the reference option."
+    },
+    "n_responses": 380198
+  },
+  {
+    "directory": "beavertails/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "The named judge flagged the generated answer as unsafe.",
+      "1": "The named judge did not flag the generated answer as unsafe."
+    },
+    "n_responses": 1680
+  },
+  {
+    "directory": "benger/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "Incorrect normalized decision or nonpassing recorded case-solution grade.",
+      "1": "Correct normalized decision or passing recorded case-solution grade."
+    },
+    "n_responses": 9328
+  },
+  {
+    "directory": "bertaqa/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "Response text does not exactly match the correct letter",
+      "1": "Response text exactly matches the correct letter"
+    },
+    "n_responses": 57072
+  },
+  {
+    "directory": "bird_sql/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "The published Petavue execution verdict is no match.",
+      "1": "The published Petavue execution verdict is a match."
+    },
+    "n_responses": 43200
+  },
+  {
+    "directory": "brace/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "Released prediction disagrees with the evaluated annotation, including raw ties.",
+      "1": "Released prediction agrees with the evaluated annotation."
+    },
+    "n_responses": 202096
+  },
+  {
+    "directory": "braveguard/formatted_tables",
+    "direction": "unordered",
+    "meanings": {
+      "0": "The guard classified the recorded trajectory as non-harmful.",
+      "1": "The guard classified the recorded trajectory as harmful."
+    },
+    "n_responses": 536
+  },
+  {
+    "directory": "bridging_gap/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "The released or explicitly specified answer parser marks the response incorrect.",
+      "1": "The released or explicitly specified answer parser marks the response correct."
+    },
+    "n_responses": 4706881
+  },
+  {
+    "directory": "causal_axioms/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "incorrect",
+      "1": "correct"
+    },
+    "n_responses": 9000
+  },
+  {
+    "directory": "cellverse/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "incorrect cell type",
+      "1": "correct cell type"
+    },
+    "n_responses": 748
+  },
+  {
+    "directory": "ceval/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "The predicted option differs from the scoring reference under this item protocol.",
+      "1": "The predicted option equals the scoring reference under this item protocol."
+    },
+    "n_responses": 14806
+  },
+  {
+    "directory": "chartmuseum/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "The upstream judge considers the predicted answer incorrect.",
+      "1": "The upstream judge considers the predicted answer correct."
+    },
+    "n_responses": 162
+  },
+  {
+    "directory": "chi_bench/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "The recorded trial reward is failure.",
+      "1": "The recorded trial reward is success."
+    },
+    "n_responses": 7700
+  },
+  {
+    "directory": "clasheval/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "Recorded incorrect answer.",
+      "1": "Recorded correct answer."
+    },
+    "n_responses": 75216
+  },
+  {
+    "directory": "cmmlu/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "The reference parser's extracted option does not exactly equal the recorded gold, including no match.",
+      "1": "The reference parser's extracted option exactly equals the recorded gold."
+    },
+    "n_responses": 254804
+  },
+  {
+    "directory": "confagents/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "criterion not satisfied",
+      "1": "criterion satisfied"
+    },
+    "n_responses": 64
+  },
+  {
+    "directory": "critic_discernment_game/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "The released extractive_match judgment is incorrect.",
+      "1": "The released extractive_match judgment is correct."
+    },
+    "n_responses": 7276
+  },
+  {
+    "directory": "crow/formatted_tables",
+    "direction": "lower_is_better",
+    "meanings": {
+      "0": "The historical attack keyword rule did not fire.",
+      "1": "The historical attack keyword rule fired."
+    },
+    "n_responses": 5900
+  },
+  {
+    "directory": "cruxeval/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "The original execution grader returned false.",
+      "1": "The original execution grader returned true."
+    },
+    "n_responses": 992000
+  },
+  {
+    "directory": "dave/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "incorrect multiple-choice answer",
+      "1": "correct multiple-choice answer"
+    },
+    "n_responses": 19248
+  },
+  {
+    "directory": "dbpa/formatted_tables",
+    "direction": "unordered",
+    "meanings": {
+      "0": "The recorded test rejects at alpha 0.05 (p-value < 0.05).",
+      "1": "The recorded test does not reject at alpha 0.05; this is not proof of equivalence or correctness."
+    },
+    "n_responses": 409
+  },
+  {
+    "directory": "devbench/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "The target did not strictly outrank every distractor, including ties.",
+      "1": "The target strictly outranked every distractor."
+    },
+    "n_responses": 5149
+  },
+  {
+    "directory": "disco/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "Saved title does not exactly match an accepted title.",
+      "1": "Saved title exactly matches an accepted title."
+    },
+    "n_responses": 111906
+  },
+  {
+    "directory": "editbench/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "failure",
+      "1": "success"
+    },
+    "n_responses": 23328
+  },
+  {
+    "directory": "edu_circuit_hw/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "Published judge reports a significant recognition error.",
+      "1": "Published judge reports no significant recognition errors."
+    },
+    "n_responses": 3078
+  },
+  {
+    "directory": "egoschema/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "Recorded choice is incorrect or unparsed (-1).",
+      "1": "Recorded choice matches the public reference."
+    },
+    "n_responses": 5500
+  },
+  {
+    "directory": "ehrflowbench/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "The published framework manifest reports non-completion.",
+      "1": "The published framework manifest reports completion; report quality is not established by this flag."
+    },
+    "n_responses": 140
+  },
+  {
+    "directory": "elicitation_game/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "The original evaluator did not mark the answer correct.",
+      "1": "The original evaluator marked the answer correct."
+    },
+    "n_responses": 14070
+  },
+  {
+    "directory": "emoji_attack/formatted_tables",
+    "direction": "lower_is_better",
+    "meanings": {
+      "0": "The original annotation does not mark this attempt as a successful jailbreak.",
+      "1": "The original annotation marks a successful jailbreak of the target model."
+    },
+    "n_responses": 58860
+  },
+  {
+    "directory": "engdesign/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "The native evaluator records that the design did not pass.",
+      "1": "The native evaluator records that the design passed."
+    },
+    "n_responses": 5394
+  },
+  {
+    "directory": "enginemt_qa/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "Incorrect under the released option-set exact-match rule.",
+      "1": "Correct under the released option-set exact-match rule."
+    },
+    "n_responses": 676
+  },
+  {
+    "directory": "erbench/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "Released parsed answer does not match the gold answer",
+      "1": "Released parsed answer matches the gold answer"
+    },
+    "n_responses": 213110
+  },
+  {
+    "directory": "evouna/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "incorrect",
+      "1": "correct"
+    },
+    "n_responses": 27548
+  },
+  {
+    "directory": "exploitgym/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "Not judged on-target",
+      "1": "Judged on-target"
+    },
+    "n_responses": 6357
+  },
+  {
+    "directory": "faithcot/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "Incorrect parsed answer or human-annotated unfaithful reasoning, according to the item protocol.",
+      "1": "Correct parsed answer or human-annotated faithful reasoning, according to the item protocol."
+    },
+    "n_responses": 2728
+  },
+  {
+    "directory": "felm/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "The released human annotation marks this segment as containing a factual error.",
+      "1": "The released human annotation marks this segment as factual."
+    },
+    "n_responses": 4426
+  },
+  {
+    "directory": "fewshot_ttt_bbh/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "unsuccessful",
+      "1": "successful"
+    },
+    "n_responses": 7425
+  },
+  {
+    "directory": "financebench/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "incorrect answer or refusal",
+      "1": "correct answer"
+    },
+    "n_responses": 2400
+  },
+  {
+    "directory": "finegrain_t2i/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "The specified failure mode is present.",
+      "1": "The specified failure mode is absent."
+    },
+    "n_responses": 12861
+  },
+  {
+    "directory": "haiid/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "Incorrect choice or neutral slider",
+      "1": "Correct choice"
+    },
+    "n_responses": 71364
+  },
+  {
+    "directory": "hallusionbench/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "Incorrect or unparseable output under the declared exact matcher",
+      "1": "Extracted answer equals the reference"
+    },
+    "n_responses": 240857
+  },
+  {
+    "directory": "harmbench/formatted_tables",
+    "direction": "lower_is_better",
+    "meanings": {
+      "0": "This evaluator did not mark attack success",
+      "1": "This evaluator marked attack success"
+    },
+    "n_responses": 107274
+  },
+  {
+    "directory": "healthadminbench/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "At least one check required by this scoring protocol did not pass",
+      "1": "All checks required by this scoring protocol passed"
+    },
+    "n_responses": 7020
+  },
+  {
+    "directory": "helm_afr/formatted_tables",
+    "direction": "higher_is_better",
+    "meanings": {
+      "0": "incorrect",
+      "1": "correct"
+    },
+    "n_responses": 745360
+  }
+]

@@ -1,0 +1,496 @@
+{
+  "source_files": [
+    "runs\\research_loop\\R10\\semantic\\fold0_evaluation.json",
+    "runs\\research_loop\\R10\\semantic\\fold1_evaluation.json",
+    "runs\\research_loop\\R10\\semantic\\fold2_evaluation.json"
+  ],
+  "scope": "Post hoc mechanism diagnosis on reused public benchmarks; mean/query-shuffle controls are not deployable predictors",
+  "pair_equal_brier": {
+    "actual": [
+      0.25,
+      0.22829608351029024,
+      0.2099940991826708,
+      0.1948434055411922,
+      0.18440261212805148,
+      0.17736501158089352
+    ],
+    "baseline": [
+      0.25,
+      0.22829608351029024,
+      0.21041889205346376,
+      0.19585094207378326,
+      0.1865926882481124,
+      0.18176645708768277
+    ],
+    "mean_only": [
+      0.25,
+      0.22829608351029024,
+      0.2103941310305289,
+      0.1957095304044619,
+      0.18648620369293784,
+      0.1815623170215938
+    ],
+    "query_permutation_expectation": [
+      0.25,
+      0.22829608351029027,
+      0.21075366027786943,
+      0.19668117998231877,
+      0.18834854215736083,
+      0.1848058463008601
+    ],
+    "support_permuted": [
+      0.25,
+      0.22829608351029024,
+      0.2109210070477935,
+      0.19689593558310925,
+      0.1883489317387819,
+      0.1844679786032257
+    ]
+  },
+  "pair_equal_alc": {
+    "actual": 0.2062437412305303,
+    "baseline": 0.20740836688589823,
+    "mean_only": 0.20733342142980316,
+    "query_permutation_expectation": 0.20829647781565386,
+    "support_permuted": 0.20833918943631757
+  },
+  "benchmark_equal_alc": {
+    "actual": 0.21330453859999998,
+    "baseline": 0.21485437217827974,
+    "mean_only": 0.21455936315140053,
+    "query_permutation_expectation": 0.21598225775597524,
+    "support_permuted": 0.21621892445606758
+  },
+  "folds": [
+    {
+      "source": "runs\\research_loop\\R10\\semantic\\fold0_evaluation.json",
+      "pairs": 246,
+      "alc": {
+        "actual": 0.17528557870237743,
+        "baseline": 0.17636675265110557,
+        "mean_only": 0.17635571569908157,
+        "query_permutation_expectation": 0.17679026416965143,
+        "support_permuted": 0.17677065000735323
+      }
+    },
+    {
+      "source": "runs\\research_loop\\R10\\semantic\\fold1_evaluation.json",
+      "pairs": 246,
+      "alc": {
+        "actual": 0.23880970409892002,
+        "baseline": 0.23990249859246587,
+        "mean_only": 0.23986810952006288,
+        "query_permutation_expectation": 0.2405379290311154,
+        "support_permuted": 0.24052296942561197
+      }
+    },
+    {
+      "source": "runs\\research_loop\\R10\\semantic\\fold2_evaluation.json",
+      "pairs": 245,
+      "alc": {
+        "actual": 0.20462937843992512,
+        "baseline": 0.20594992077138127,
+        "mean_only": 0.20577008404022612,
+        "query_permutation_expectation": 0.20755823927652356,
+        "support_permuted": 0.20772143769002693
+      }
+    }
+  ],
+  "by_benchmark": [
+    {
+      "benchmark": "adaptivestep/formatted_tables",
+      "pairs": 2,
+      "actual": 0.2502963978149382,
+      "baseline": 0.2554421612837087,
+      "mean_only": 0.2541483069522364,
+      "query_permutation_expectation": 0.2548164467927178,
+      "support_permuted": 0.25619785156387104
+    },
+    {
+      "benchmark": "ai2d_test/formatted_tables",
+      "pairs": 100,
+      "actual": 0.2180353663558412,
+      "baseline": 0.21991038260335405,
+      "mean_only": 0.21987527641483595,
+      "query_permutation_expectation": 0.2204738051327866,
+      "support_permuted": 0.22041983787843916
+    },
+    {
+      "benchmark": "bird_sql/formatted_tables",
+      "pairs": 100,
+      "actual": 0.11378765646625764,
+      "baseline": 0.11414026122593349,
+      "mean_only": 0.11419955883635577,
+      "query_permutation_expectation": 0.11444436598564225,
+      "support_permuted": 0.11438956450389506
+    },
+    {
+      "benchmark": "braveguard/formatted_tables",
+      "pairs": 2,
+      "actual": 0.14231701328374247,
+      "baseline": 0.1427298461890173,
+      "mean_only": 0.14262739990789103,
+      "query_permutation_expectation": 0.1427446553319286,
+      "support_permuted": 0.14286564632720145
+    },
+    {
+      "benchmark": "ceval/formatted_tables",
+      "pairs": 11,
+      "actual": 0.24627772739710987,
+      "baseline": 0.24652380813961172,
+      "mean_only": 0.24635801599633628,
+      "query_permutation_expectation": 0.246822377285387,
+      "support_permuted": 0.24698801693520028
+    },
+    {
+      "benchmark": "edu_circuit_hw/formatted_tables",
+      "pairs": 6,
+      "actual": 0.2313423752937689,
+      "baseline": 0.2313423752937689,
+      "mean_only": 0.2313423752937689,
+      "query_permutation_expectation": 0.23134237529376891,
+      "support_permuted": 0.2313423752937689
+    },
+    {
+      "benchmark": "engdesign/formatted_tables",
+      "pairs": 12,
+      "actual": 0.22295976185115596,
+      "baseline": 0.22393953218204055,
+      "mean_only": 0.2240568059164134,
+      "query_permutation_expectation": 0.22480383191139847,
+      "support_permuted": 0.22471192452769495
+    },
+    {
+      "benchmark": "exploitgym/formatted_tables",
+      "pairs": 5,
+      "actual": 0.11187199554142327,
+      "baseline": 0.11163791334480042,
+      "mean_only": 0.11181625463521089,
+      "query_permutation_expectation": 0.11199539633682806,
+      "support_permuted": 0.11175182939596855
+    },
+    {
+      "benchmark": "felm/formatted_tables",
+      "pairs": 1,
+      "actual": 0.18953999564708646,
+      "baseline": 0.1909630073998477,
+      "mean_only": 0.19103961185211937,
+      "query_permutation_expectation": 0.19146946746414126,
+      "support_permuted": 0.19153276114141807
+    },
+    {
+      "benchmark": "healthadminbench/formatted_tables",
+      "pairs": 7,
+      "actual": 0.2330281268112438,
+      "baseline": 0.23550995038444067,
+      "mean_only": 0.23509659134102698,
+      "query_permutation_expectation": 0.23589611937930488,
+      "support_permuted": 0.2363936038985585
+    },
+    {
+      "benchmark": "aegis/formatted_tables",
+      "pairs": 1,
+      "actual": 0.2272786969251339,
+      "baseline": 0.22808383273271998,
+      "mean_only": 0.2281685305001758,
+      "query_permutation_expectation": 0.22885869217842925,
+      "support_permuted": 0.22839430414772272
+    },
+    {
+      "benchmark": "appworld/formatted_tables",
+      "pairs": 18,
+      "actual": 0.17860097339619743,
+      "baseline": 0.1811467575617763,
+      "mean_only": 0.18099792375900756,
+      "query_permutation_expectation": 0.18179538316658622,
+      "support_permuted": 0.18182773711094585
+    },
+    {
+      "benchmark": "bbq/formatted_tables",
+      "pairs": 7,
+      "actual": 0.2414432790256279,
+      "baseline": 0.24206612700319668,
+      "mean_only": 0.2420933000666807,
+      "query_permutation_expectation": 0.24263380443189925,
+      "support_permuted": 0.24254408524743945
+    },
+    {
+      "benchmark": "beavertails/formatted_tables",
+      "pairs": 4,
+      "actual": 0.18758000305857997,
+      "baseline": 0.1914380611948096,
+      "mean_only": 0.19122396616784132,
+      "query_permutation_expectation": 0.19191798831179763,
+      "support_permuted": 0.19163920578549098
+    },
+    {
+      "benchmark": "cmmlu/formatted_tables",
+      "pairs": 22,
+      "actual": 0.2083877361210466,
+      "baseline": 0.2084688085889322,
+      "mean_only": 0.2083164093041186,
+      "query_permutation_expectation": 0.20845871597791166,
+      "support_permuted": 0.2086629948176721
+    },
+    {
+      "benchmark": "devbench/formatted_tables",
+      "pairs": 19,
+      "actual": 0.21478782464224438,
+      "baseline": 0.2170631783894666,
+      "mean_only": 0.2168723118872538,
+      "query_permutation_expectation": 0.2173909274247998,
+      "support_permuted": 0.21741571515139624
+    },
+    {
+      "benchmark": "editbench/formatted_tables",
+      "pairs": 44,
+      "actual": 0.25987468958538873,
+      "baseline": 0.26070348859743403,
+      "mean_only": 0.26065178750813073,
+      "query_permutation_expectation": 0.2613472028307103,
+      "support_permuted": 0.26140793552133956
+    },
+    {
+      "benchmark": "emoji_attack/formatted_tables",
+      "pairs": 10,
+      "actual": 0.21145833297263622,
+      "baseline": 0.2151728699984273,
+      "mean_only": 0.2149981381391594,
+      "query_permutation_expectation": 0.2156449002521902,
+      "support_permuted": 0.21570338783697496
+    },
+    {
+      "benchmark": "enginemt_qa/formatted_tables",
+      "pairs": 1,
+      "actual": 0.16706403137072282,
+      "baseline": 0.18153068376876313,
+      "mean_only": 0.1820400025756122,
+      "query_permutation_expectation": 0.1844904981918166,
+      "support_permuted": 0.18240825505151126
+    },
+    {
+      "benchmark": "faithcot/formatted_tables",
+      "pairs": 4,
+      "actual": 0.215925371808464,
+      "baseline": 0.21672777943780305,
+      "mean_only": 0.2168537151851525,
+      "query_permutation_expectation": 0.21745006487749033,
+      "support_permuted": 0.21724998847952354
+    },
+    {
+      "benchmark": "fewshot_ttt_bbh/formatted_tables",
+      "pairs": 11,
+      "actual": 0.2654868779456172,
+      "baseline": 0.26915951159761997,
+      "mean_only": 0.2689224842006539,
+      "query_permutation_expectation": 0.2704669693570083,
+      "support_permuted": 0.2705310094708126
+    },
+    {
+      "benchmark": "finegrain_t2i/formatted_tables",
+      "pairs": 5,
+      "actual": 0.2693555331313603,
+      "baseline": 0.26929764512030474,
+      "mean_only": 0.26917058326210175,
+      "query_permutation_expectation": 0.26979217267393485,
+      "support_permuted": 0.2700017631754036
+    },
+    {
+      "benchmark": "hallusionbench/formatted_tables",
+      "pairs": 100,
+      "actual": 0.25352200648851625,
+      "baseline": 0.2537819301977724,
+      "mean_only": 0.2538622475050333,
+      "query_permutation_expectation": 0.25454412784549973,
+      "support_permuted": 0.2544526584248219
+    },
+    {
+      "benchmark": "abstract_reason/formatted_tables",
+      "pairs": 1,
+      "actual": 0.2515418486838178,
+      "baseline": 0.2545593019977872,
+      "mean_only": 0.25397134896027457,
+      "query_permutation_expectation": 0.2570589056172808,
+      "support_permuted": 0.2580225930080735
+    },
+    {
+      "benchmark": "agentic_review_perturbation/formatted_tables",
+      "pairs": 3,
+      "actual": 0.13004800039261044,
+      "baseline": 0.14323988397673104,
+      "mean_only": 0.13564198207027733,
+      "query_permutation_expectation": 0.14667729331666263,
+      "support_permuted": 0.15413870760650006
+    },
+    {
+      "benchmark": "agi_elo/formatted_tables",
+      "pairs": 20,
+      "actual": 0.2074121630094652,
+      "baseline": 0.2066012436408256,
+      "mean_only": 0.20665031342410434,
+      "query_permutation_expectation": 0.20920016436472003,
+      "support_permuted": 0.20897336017022125
+    },
+    {
+      "benchmark": "algotune/formatted_tables",
+      "pairs": 18,
+      "actual": 0.2231727571892456,
+      "baseline": 0.22234186044140503,
+      "mean_only": 0.22257355655648708,
+      "query_permutation_expectation": 0.2263835655371102,
+      "support_permuted": 0.22649780443563639
+    },
+    {
+      "benchmark": "alignment_faking/formatted_tables",
+      "pairs": 100,
+      "actual": 0.1893193214579415,
+      "baseline": 0.1935997197119596,
+      "mean_only": 0.1933160515197318,
+      "query_permutation_expectation": 0.1941660403027438,
+      "support_permuted": 0.19434082038879974
+    },
+    {
+      "benchmark": "benger/formatted_tables",
+      "pairs": 25,
+      "actual": 0.16819344222519494,
+      "baseline": 0.16819344222519494,
+      "mean_only": 0.16819344222519494,
+      "query_permutation_expectation": 0.16819344222519492,
+      "support_permuted": 0.16819344222519494
+    },
+    {
+      "benchmark": "bertaqa/formatted_tables",
+      "pairs": 6,
+      "actual": 0.21511621497835787,
+      "baseline": 0.21244417330604717,
+      "mean_only": 0.21192278936704861,
+      "query_permutation_expectation": 0.21429217925246047,
+      "support_permuted": 0.2149264467277953
+    },
+    {
+      "benchmark": "cellverse/formatted_tables",
+      "pairs": 1,
+      "actual": 0.28423273054555487,
+      "baseline": 0.2849192825417858,
+      "mean_only": 0.2849913242618333,
+      "query_permutation_expectation": 0.28514708591649723,
+      "support_permuted": 0.2850149320854285
+    },
+    {
+      "benchmark": "cruxeval/formatted_tables",
+      "pairs": 31,
+      "actual": 0.24805505891040142,
+      "baseline": 0.24593589971731644,
+      "mean_only": 0.24612497764279517,
+      "query_permutation_expectation": 0.24868124958026883,
+      "support_permuted": 0.24847384879375398
+    },
+    {
+      "benchmark": "dave/formatted_tables",
+      "pairs": 8,
+      "actual": 0.24083012995268355,
+      "baseline": 0.237682415408505,
+      "mean_only": 0.23820838954822499,
+      "query_permutation_expectation": 0.24093510070722096,
+      "support_permuted": 0.24019249308822596
+    },
+    {
+      "benchmark": "egoschema/formatted_tables",
+      "pairs": 11,
+      "actual": 0.2623411100883011,
+      "baseline": 0.26091436987192773,
+      "mean_only": 0.2607719826742586,
+      "query_permutation_expectation": 0.262755510185933,
+      "support_permuted": 0.2630205461488746
+    },
+    {
+      "benchmark": "evouna/formatted_tables",
+      "pairs": 5,
+      "actual": 0.20566370436798168,
+      "baseline": 0.20376215013544624,
+      "mean_only": 0.20328987095456383,
+      "query_permutation_expectation": 0.2054370265644434,
+      "support_permuted": 0.20619295288858464
+    },
+    {
+      "benchmark": "financebench/formatted_tables",
+      "pairs": 16,
+      "actual": 0.19281513486433918,
+      "baseline": 0.1937837432075899,
+      "mean_only": 0.193749447038509,
+      "query_permutation_expectation": 0.1968334272105955,
+      "support_permuted": 0.1970608811642735
+    }
+  ],
+  "comparisons": {
+    "baseline": {
+      "pair_equal_delta": -0.001164625655367929,
+      "fold_deltas": [
+        -0.0010811739487281424,
+        -0.0010927944935458511,
+        -0.0013205423314561482
+      ],
+      "benchmarks_improved": 25,
+      "benchmarks_total": 36,
+      "worst_benchmark": "dave/formatted_tables",
+      "worst_benchmark_delta": 0.0031477145441785592,
+      "cluster_bootstrap_ci95": [
+        -0.0021919873459848305,
+        -0.0002463948555936064
+      ]
+    },
+    "mean_only": {
+      "pair_equal_delta": -0.0010896801992728578,
+      "fold_deltas": [
+        -0.0010701369967041352,
+        -0.001058405421142855,
+        -0.0011407056003009952
+      ],
+      "benchmarks_improved": 24,
+      "benchmarks_total": 36,
+      "worst_benchmark": "bertaqa/formatted_tables",
+      "worst_benchmark_delta": 0.003193425611309253,
+      "cluster_bootstrap_ci95": [
+        -0.0020038623898223943,
+        -0.00020334258189245077
+      ]
+    },
+    "query_permutation_expectation": {
+      "pair_equal_delta": -0.00205273658512356,
+      "fold_deltas": [
+        -0.0015046854672740029,
+        -0.0017282249321953769,
+        -0.0029288608365984348
+      ],
+      "benchmarks_improved": 33,
+      "benchmarks_total": 36,
+      "worst_benchmark": "bertaqa/formatted_tables",
+      "worst_benchmark_delta": 0.0008240357258973985,
+      "cluster_bootstrap_ci95": [
+        -0.003040531790224807,
+        -0.0012270237161387952
+      ]
+    },
+    "support_permuted": {
+      "pair_equal_delta": -0.002095448205787276,
+      "fold_deltas": [
+        -0.001485071304975799,
+        -0.0017132653266919429,
+        -0.0030920592501018085
+      ],
+      "benchmarks_improved": 31,
+      "benchmarks_total": 36,
+      "worst_benchmark": "dave/formatted_tables",
+      "worst_benchmark_delta": 0.0006376368644575858,
+      "cluster_bootstrap_ci95": [
+        -0.0031563737244639507,
+        -0.001245361698721918
+      ]
+    }
+  },
+  "bootstrap_unit": "benchmark after averaging three trajectory seeds; permutations are not independent test units",
+  "components": {
+    "mean_gain": 7.49454560950713e-05,
+    "item_gain": 0.0010896801992728578
+  }
+}

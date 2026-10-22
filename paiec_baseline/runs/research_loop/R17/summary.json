@@ -1,0 +1,427 @@
+{
+  "source_files": [
+    "runs\\research_loop\\R17\\fold0_evaluation.json",
+    "runs\\research_loop\\R17\\fold1_evaluation.json",
+    "runs\\research_loop\\R17\\fold2_evaluation.json"
+  ],
+  "scope": "EVALUATION-LABEL ORACLE: empirical bound only for convex shrinkage between frozen R7 and smoothed2; NOT deployable or a candidate",
+  "pair_equal_brier": {
+    "oracle_pair": [
+      0.25,
+      0.22829608351029024,
+      0.2090522196592412,
+      0.19345456020581359,
+      0.1828046046532608,
+      0.17555397258704217
+    ],
+    "oracle_benchmark": [
+      0.25,
+      0.22829608351029024,
+      0.20985735439479045,
+      0.19449008322456784,
+      0.18380082523837132,
+      0.17663661202518027
+    ],
+    "actual": [
+      0.25,
+      0.22829608351029024,
+      0.2099940991826708,
+      0.1948434055411922,
+      0.18440261212805148,
+      0.17736501158089352
+    ],
+    "base": [
+      0.25,
+      0.22829608351029024,
+      0.21041889205346376,
+      0.19585094207378326,
+      0.1865926882481124,
+      0.18176645708768277
+    ]
+  },
+  "pair_equal_alc": {
+    "oracle_pair": 0.2052768908644254,
+    "oracle_benchmark": 0.205952530476122,
+    "actual": 0.2062437412305303,
+    "base": 0.20740836688589823
+  },
+  "benchmark_equal_alc": {
+    "oracle_pair": 0.2121802046508649,
+    "oracle_benchmark": 0.21284174891109506,
+    "actual": 0.21330453859999998,
+    "base": 0.21485437217827974
+  },
+  "folds": [
+    {
+      "source": "runs\\research_loop\\R17\\fold0_evaluation.json",
+      "pairs": 246,
+      "alc": {
+        "oracle_pair": 0.17486250401330938,
+        "oracle_benchmark": 0.17527003969569704,
+        "actual": 0.17528557870237743,
+        "base": 0.17636675265110557
+      }
+    },
+    {
+      "source": "runs\\research_loop\\R17\\fold1_evaluation.json",
+      "pairs": 246,
+      "alc": {
+        "oracle_pair": 0.23798463326188823,
+        "oracle_benchmark": 0.2387544427721472,
+        "actual": 0.23880970409892002,
+        "base": 0.23990249859246587
+      }
+    },
+    {
+      "source": "runs\\research_loop\\R17\\fold2_evaluation.json",
+      "pairs": 245,
+      "alc": {
+        "oracle_pair": 0.2029741746831955,
+        "oracle_benchmark": 0.20382445826045814,
+        "actual": 0.20462937843992512,
+        "base": 0.20594992077138127
+      }
+    }
+  ],
+  "by_benchmark": [
+    {
+      "benchmark": "adaptivestep/formatted_tables",
+      "pairs": 2,
+      "oracle_pair": 0.25005097160772916,
+      "oracle_benchmark": 0.2502963978149382,
+      "actual": 0.2502963978149382,
+      "base": 0.2554421612837087
+    },
+    {
+      "benchmark": "ai2d_test/formatted_tables",
+      "pairs": 100,
+      "oracle_pair": 0.21752701934595603,
+      "oracle_benchmark": 0.21803536635584123,
+      "actual": 0.2180353663558412,
+      "base": 0.21991038260335405
+    },
+    {
+      "benchmark": "bird_sql/formatted_tables",
+      "pairs": 100,
+      "oracle_pair": 0.11349049006738532,
+      "oracle_benchmark": 0.11378519430694993,
+      "actual": 0.11378765646625764,
+      "base": 0.11414026122593349
+    },
+    {
+      "benchmark": "braveguard/formatted_tables",
+      "pairs": 2,
+      "oracle_pair": 0.1422596740140642,
+      "oracle_benchmark": 0.14229922956214996,
+      "actual": 0.14231701328374247,
+      "base": 0.1427298461890173
+    },
+    {
+      "benchmark": "ceval/formatted_tables",
+      "pairs": 11,
+      "oracle_pair": 0.24531051565917578,
+      "oracle_benchmark": 0.24621881366640724,
+      "actual": 0.24627772739710987,
+      "base": 0.24652380813961172
+    },
+    {
+      "benchmark": "edu_circuit_hw/formatted_tables",
+      "pairs": 6,
+      "oracle_pair": 0.2313423752937689,
+      "oracle_benchmark": 0.2313423752937689,
+      "actual": 0.2313423752937689,
+      "base": 0.2313423752937689
+    },
+    {
+      "benchmark": "engdesign/formatted_tables",
+      "pairs": 12,
+      "oracle_pair": 0.22226872607455556,
+      "oracle_benchmark": 0.22284124939333882,
+      "actual": 0.22295976185115596,
+      "base": 0.22393953218204055
+    },
+    {
+      "benchmark": "exploitgym/formatted_tables",
+      "pairs": 5,
+      "oracle_pair": 0.1114240933380456,
+      "oracle_benchmark": 0.11158587454431212,
+      "actual": 0.11187199554142327,
+      "base": 0.11163791334480042
+    },
+    {
+      "benchmark": "felm/formatted_tables",
+      "pairs": 1,
+      "oracle_pair": 0.18910038149093453,
+      "oracle_benchmark": 0.18949998889475556,
+      "actual": 0.18953999564708646,
+      "base": 0.1909630073998477
+    },
+    {
+      "benchmark": "healthadminbench/formatted_tables",
+      "pairs": 7,
+      "oracle_pair": 0.23284118137243046,
+      "oracle_benchmark": 0.23302812681124385,
+      "actual": 0.2330281268112438,
+      "base": 0.23550995038444067
+    },
+    {
+      "benchmark": "aegis/formatted_tables",
+      "pairs": 1,
+      "oracle_pair": 0.226833404814018,
+      "oracle_benchmark": 0.22695038526827052,
+      "actual": 0.2272786969251339,
+      "base": 0.22808383273271998
+    },
+    {
+      "benchmark": "appworld/formatted_tables",
+      "pairs": 18,
+      "oracle_pair": 0.1783643677447586,
+      "oracle_benchmark": 0.17860097339619743,
+      "actual": 0.17860097339619743,
+      "base": 0.1811467575617763
+    },
+    {
+      "benchmark": "bbq/formatted_tables",
+      "pairs": 7,
+      "oracle_pair": 0.24071593356351065,
+      "oracle_benchmark": 0.2414432721370754,
+      "actual": 0.2414432790256279,
+      "base": 0.24206612700319668
+    },
+    {
+      "benchmark": "beavertails/formatted_tables",
+      "pairs": 4,
+      "oracle_pair": 0.18733153759006466,
+      "oracle_benchmark": 0.18758000305857997,
+      "actual": 0.18758000305857997,
+      "base": 0.1914380611948096
+    },
+    {
+      "benchmark": "cmmlu/formatted_tables",
+      "pairs": 22,
+      "oracle_pair": 0.20784070783444286,
+      "oracle_benchmark": 0.20831163020590582,
+      "actual": 0.2083877361210466,
+      "base": 0.2084688085889322
+    },
+    {
+      "benchmark": "devbench/formatted_tables",
+      "pairs": 19,
+      "oracle_pair": 0.21434256830441661,
+      "oracle_benchmark": 0.21478782464224438,
+      "actual": 0.21478782464224438,
+      "base": 0.2170631783894666
+    },
+    {
+      "benchmark": "editbench/formatted_tables",
+      "pairs": 44,
+      "oracle_pair": 0.2589408014055466,
+      "oracle_benchmark": 0.259858658394975,
+      "actual": 0.25987468958538873,
+      "base": 0.26070348859743403
+    },
+    {
+      "benchmark": "emoji_attack/formatted_tables",
+      "pairs": 10,
+      "oracle_pair": 0.21117069836980945,
+      "oracle_benchmark": 0.21145833297263625,
+      "actual": 0.21145833297263622,
+      "base": 0.2151728699984273
+    },
+    {
+      "benchmark": "enginemt_qa/formatted_tables",
+      "pairs": 1,
+      "oracle_pair": 0.16706403137072284,
+      "oracle_benchmark": 0.16706403137072284,
+      "actual": 0.16706403137072282,
+      "base": 0.18153068376876313
+    },
+    {
+      "benchmark": "faithcot/formatted_tables",
+      "pairs": 4,
+      "oracle_pair": 0.21506682357511836,
+      "oracle_benchmark": 0.2158455916419157,
+      "actual": 0.215925371808464,
+      "base": 0.21672777943780305
+    },
+    {
+      "benchmark": "fewshot_ttt_bbh/formatted_tables",
+      "pairs": 11,
+      "oracle_pair": 0.2649071812711018,
+      "oracle_benchmark": 0.2654868779456172,
+      "actual": 0.2654868779456172,
+      "base": 0.26915951159761997
+    },
+    {
+      "benchmark": "finegrain_t2i/formatted_tables",
+      "pairs": 5,
+      "oracle_pair": 0.2679353707753076,
+      "oracle_benchmark": 0.26904685567581943,
+      "actual": 0.2693555331313603,
+      "base": 0.26929764512030474
+    },
+    {
+      "benchmark": "hallusionbench/formatted_tables",
+      "pairs": 100,
+      "oracle_pair": 0.25241396283686346,
+      "oracle_benchmark": 0.25343176932797434,
+      "actual": 0.25352200648851625,
+      "base": 0.2537819301977724
+    },
+    {
+      "benchmark": "abstract_reason/formatted_tables",
+      "pairs": 1,
+      "oracle_pair": 0.2511399537847341,
+      "oracle_benchmark": 0.25138568655094556,
+      "actual": 0.2515418486838178,
+      "base": 0.2545593019977872
+    },
+    {
+      "benchmark": "agentic_review_perturbation/formatted_tables",
+      "pairs": 3,
+      "oracle_pair": 0.1283552199318535,
+      "oracle_benchmark": 0.129833366547737,
+      "actual": 0.13004800039261044,
+      "base": 0.14323988397673104
+    },
+    {
+      "benchmark": "agi_elo/formatted_tables",
+      "pairs": 20,
+      "oracle_pair": 0.20476814822056671,
+      "oracle_benchmark": 0.20613660492845637,
+      "actual": 0.2074121630094652,
+      "base": 0.2066012436408256
+    },
+    {
+      "benchmark": "algotune/formatted_tables",
+      "pairs": 18,
+      "oracle_pair": 0.21963795896225058,
+      "oracle_benchmark": 0.2216258501920127,
+      "actual": 0.2231727571892456,
+      "base": 0.22234186044140503
+    },
+    {
+      "benchmark": "alignment_faking/formatted_tables",
+      "pairs": 100,
+      "oracle_pair": 0.188913113767749,
+      "oracle_benchmark": 0.1893193214579415,
+      "actual": 0.1893193214579415,
+      "base": 0.1935997197119596
+    },
+    {
+      "benchmark": "benger/formatted_tables",
+      "pairs": 25,
+      "oracle_pair": 0.16819344222519494,
+      "oracle_benchmark": 0.16819344222519494,
+      "actual": 0.16819344222519494,
+      "base": 0.16819344222519494
+    },
+    {
+      "benchmark": "bertaqa/formatted_tables",
+      "pairs": 6,
+      "oracle_pair": 0.21112470205069842,
+      "oracle_benchmark": 0.2123873262822623,
+      "actual": 0.21511621497835787,
+      "base": 0.21244417330604717
+    },
+    {
+      "benchmark": "cellverse/formatted_tables",
+      "pairs": 1,
+      "oracle_pair": 0.28397186231476845,
+      "oracle_benchmark": 0.28423273054555487,
+      "actual": 0.28423273054555487,
+      "base": 0.2849192825417858
+    },
+    {
+      "benchmark": "cruxeval/formatted_tables",
+      "pairs": 31,
+      "oracle_pair": 0.24481141738782752,
+      "oracle_benchmark": 0.2458873834286751,
+      "actual": 0.24805505891040142,
+      "base": 0.24593589971731644
+    },
+    {
+      "benchmark": "dave/formatted_tables",
+      "pairs": 8,
+      "oracle_pair": 0.23669458640188312,
+      "oracle_benchmark": 0.2376630740970284,
+      "actual": 0.24083012995268355,
+      "base": 0.237682415408505
+    },
+    {
+      "benchmark": "egoschema/formatted_tables",
+      "pairs": 11,
+      "oracle_pair": 0.25934611795427037,
+      "oracle_benchmark": 0.26077826196637555,
+      "actual": 0.2623411100883011,
+      "base": 0.26091436987192773
+    },
+    {
+      "benchmark": "evouna/formatted_tables",
+      "pairs": 5,
+      "oracle_pair": 0.20241571854922483,
+      "oracle_benchmark": 0.20368796391775112,
+      "actual": 0.20566370436798168,
+      "base": 0.20376215013544624
+    },
+    {
+      "benchmark": "financebench/formatted_tables",
+      "pairs": 16,
+      "oracle_pair": 0.1905723081603886,
+      "oracle_benchmark": 0.19237312597784592,
+      "actual": 0.19281513486433918,
+      "base": 0.1937837432075899
+    }
+  ],
+  "comparisons": {
+    "oracle_benchmark": {
+      "pair_equal_delta": -0.0006756396116965879,
+      "fold_deltas": [
+        -0.0004075356823876608,
+        -0.0007698095102589564,
+        -0.0008502835772626338
+      ],
+      "benchmarks_improved": 33,
+      "benchmarks_total": 36,
+      "worst_benchmark": "edu_circuit_hw/formatted_tables",
+      "worst_benchmark_delta": 0.0,
+      "cluster_bootstrap_ci95": [
+        -0.0008966234976620305,
+        -0.0005006336147562869
+      ]
+    },
+    "actual": {
+      "pair_equal_delta": -0.0009668503661048877,
+      "fold_deltas": [
+        -0.0004230746890680481,
+        -0.0008250708370317883,
+        -0.0016552037567296174
+      ],
+      "benchmarks_improved": 33,
+      "benchmarks_total": 36,
+      "worst_benchmark": "enginemt_qa/formatted_tables",
+      "worst_benchmark_delta": 2.7755575615628914e-17,
+      "cluster_bootstrap_ci95": [
+        -0.0014732682108438962,
+        -0.0006423405525002118
+      ]
+    },
+    "base": {
+      "pair_equal_delta": -0.002131476021472817,
+      "fold_deltas": [
+        -0.0015042486377961906,
+        -0.0019178653305776394,
+        -0.0029757460881857656
+      ],
+      "benchmarks_improved": 34,
+      "benchmarks_total": 36,
+      "worst_benchmark": "edu_circuit_hw/formatted_tables",
+      "worst_benchmark_delta": 0.0,
+      "cluster_bootstrap_ci95": [
+        -0.003038238341792974,
+        -0.0013884009361560523
+      ]
+    }
+  },
+  "can_family_meet_absolute_gain_005": false
+}

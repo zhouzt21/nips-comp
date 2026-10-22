@@ -1,0 +1,50 @@
+{
+  "fold": 0,
+  "selection_benchmarks": [
+    "hallusionbench/formatted_tables",
+    "agentic_review_perturbation/formatted_tables",
+    "dave/formatted_tables",
+    "abstract_reason/formatted_tables"
+  ],
+  "selection_pairs": 37,
+  "heldout_benchmarks": [
+    "adaptivestep/formatted_tables",
+    "ai2d_test/formatted_tables",
+    "bird_sql/formatted_tables",
+    "braveguard/formatted_tables",
+    "ceval/formatted_tables",
+    "edu_circuit_hw/formatted_tables",
+    "engdesign/formatted_tables",
+    "exploitgym/formatted_tables",
+    "felm/formatted_tables",
+    "healthadminbench/formatted_tables"
+  ],
+  "ridge_grid": [
+    null,
+    10.0,
+    1.0,
+    0.1,
+    0.01
+  ],
+  "inner_alc": {
+    "raw_full": [
+      0.23380407944998308,
+      0.23373910926477307,
+      0.2334765139317239,
+      0.23571156169667445,
+      0.25131449835087327
+    ],
+    "hidden": [
+      0.23380407944998308,
+      0.23381726759208357,
+      0.23396792169614625,
+      0.23600336752760084,
+      0.24894778904386952
+    ]
+  },
+  "selected_ridge": {
+    "raw_full": 1.0,
+    "hidden": null
+  },
+  "weight_sha256": "ae8f1ac2620d40173f67cbee1c2296c832f546f3586f927277091e290f8c7ffb"
+}

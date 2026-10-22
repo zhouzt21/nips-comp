@@ -1,0 +1,295 @@
+﻿Building an AI Measurement Data Bank
+Stanford AI Measurement Science
+September 05, 2026
+
+
+The AI community invests enormous effort in designing and running evaluations. Yet much of the resulting measurement data remains difficult to find, compare, and reuse. Item-level data about which system answered which item, under what conditions, and with what outcome is scattered across papers, repositories, leaderboards, and incompatible file formats. In many cases, only aggregate scores are readily available. As a result, benchmark results remain isolated observations rather than accumulating into a shared body of evidence:
+* Researchers struggle to determine which benchmarks are appropriate, which are redundant, and where new benchmarks are needed.
+* Practitioners struggle to find evaluations relevant to their systems and use cases.
+* Benchmark builders struggle to assess the validity of their results because they cannot easily compare item-level response patterns across related benchmarks.
+* The community struggles to track capabilities over time as old benchmarks are replaced by new ones.
+Despite creating thousands of benchmarks, we still have difficulty answering basic measurement questions:
+* Do software-engineering benchmarks such as SWE-bench and Terminal-Bench measure the same capabilities, complementary capabilities, or different combinations of model and harness performance?
+* When benchmark scores improve, how much reflects genuine capability growth rather than changes in prompts, scaffolds, graders, or item composition?
+* How can we track capabilities over time when the benchmarks used to measure them continually change?
+* Which benchmark items provide unique information, and which are redundant?
+* Can we predict how an AI system will perform on an item it has not yet attempted using evidence from related systems, items, and benchmarks?
+Answering these questions requires more than creating another benchmark. We need community-owned infrastructure that serves as a public good and enables the systematic, sustained study of modern AI systems. 
+
+
+We are aiming to build this infrastructure. We attempt to turn fragmented evaluation results into shared, item-level measurement data by representing evaluated systems, items, experimental conditions, responses, and traces in a common schema. This foundation will allow the community to discover existing evidence, compare benchmarks, study validity and reliability, track capabilities over time, and design better evaluations. Building this resource requires community expertise. Benchmark releases are highly heterogeneous, and reliable curation often requires detailed knowledge of the benchmark, its harness, its grading procedure, and its released data. By curating a benchmark, contributors can help transform a one-off evaluation into reusable evidence for the broader AI community.
+
+
+Who this guide is for
+This guide is for anyone interested in making AI evaluation evidence easier to understand and reuse. This includes benchmark authors, evaluation researchers, practitioners, students, and participants in the Predictive AI Evaluation Competition. For competition participants, the connection is immediate. The competition asks teams to predict whether a particular AI system will successfully answer a previously unseen item. The public Measurement Data Bank provides training data for this task. Candidate benchmarks for community curation are listed in the Predictive AI Evaluation Benchmark Name List. Before starting, check the benchmark’s curation status and contact the organizers to coordinate your contribution. Curating additional benchmarks can help participants understand the structure and limitations of the available evidence while expanding the public data available for developing predictive methods. For the broader community, the same curated data supports other forms of research. It can be used to compare benchmarks, investigate validity and reliability, study differences among models and evaluation conditions, and track AI capabilities over time. The value of the data should therefore continue well beyond the competition.
+
+
+Why contribute?
+Curating a benchmark is not simply a data-cleaning task. It requires reconstructing what was measured, which systems were evaluated, how the evaluation was conducted, and what each recorded outcome means. Contributors will gain firsthand experience with the structure and limitations of modern AI evaluation data. For participants in the Predictive AI Evaluation Competition, this work can also inform the development of prediction methods and expand the public evidence available for training them. For benchmark authors, curation makes their results easier to discover, compare, and reuse. For measurement researchers and practitioners, it creates a common foundation for studying the validity, reliability, and generalizability of AI evaluations. Under appropriate conditions, contributors will also be eligible for the Data Curator Award under the NeurIPS 2026 Predictive AI Evaluation Competition. 
+
+
+Data Collection Guidance
+These instructions guide benchmark data curation for a data schema that meets the AI Measurement Data Bank quality standard. Some steps require human supervision to ensure data integrity. A human or an AI agent, such as Codex or Claude Code, can use these instructions to curate data, but the human is ultimately responsible for the final data quality. 
+
+
+The benchmark inventory describes current coverage and is not an exhaustive eligibility list for general Measurement Data Bank contributions. For the competition, eligible base models are currently restricted to releases from 2025–2026. This restriction does not apply to general Data Bank curation. We welcome reasonable suggestions for additional base models; contact the organizers with the proposed model and a brief rationale. Additions to the competition’s eligible model list require organizer confirmation.
+
+
+How did we create the benchmark name list? See the “Inventory Construction” tab.
+List of candidate benchmarks for community curation: Benchmark Name List
+Step-by-step data collection instructions: See the “Step-by-step” tab.
+Data schema definition: See the “Data Schema” tab
+GitHub repository: https://github.com/aims-foundations/measurement-db 
+HuggingFace repository: https://huggingface.co/datasets/aims-foundations/measurement-db
+
+
+Verification protocol:
+* Check the correctness of the characteristic test
+* Check if the curated table matches the characteristic test
+* Obtain two independent peer reviews. Seek one review from a benchmark author. If no author responds within 7 calendar days of the documented review request, record the contact attempt and obtain a second qualified community or maintainer review. Both reviewers must be independent of the curation.
+
+
+AI Policy:
+You are allowed to use AI as a coding assistant. An assistant that has read the data curation instruction writes considerably better measurement-db code than one that hasn’t. It still isn’t a substitute for knowing the benchmark. Check what it gives you. You are fully responsible for the data and code you submit. 
+
+
+Why participate?
+Curators whose contributions meet the program requirements may be eligible for:
+* The Data Curator Award in the NeurIPS 2026 Predictive AI Evaluation Competition.
+* Co-authorship on resulting papers, based on the quality, difficulty, and substantive contribution of their reviewed and merged curations, together with their contribution to the resulting paper. Curation count alone does not determine authorship.
+# Definition of Data Schema
+- A **subject** is the complete configuration of an AI system under evaluation: the **base model** (typically a large language model) together with the setting that alters its behavior, including its **access date**, **harness name**, **harness version**, and **reasoning effort**. [*Anthropic's Demystifying evals for AI agents*](https://www.anthropic.com/engineering/demystifying-evals-for-ai-agents) defines a harness (which is also called a scaffold) as "the system that enables a model to act as an agent: it processes inputs, orchestrates tool calls, and returns results." Two evaluations of the same base model under different configurations (e.g., the same base model with two harnesses) can behave quite differently, constituting two different subjects.
+
+
+- An **item** (i.e., a question or task) records the complete stimulus presented to the subject, including the prompt, required attachments, and item features such as few-shot examples or prompt phrasing. Its identity also includes its grading criterion, verifier, and effective response scale. Thus, the same stimulus evaluated under different grading protocols can constitute different items.
+
+
+- An **interactor** is any party other than the subject that participates in producing a response, such as the **attacker** probing the subject in an adversarial evaluation, the **simulated user** or **human user** the agent converses with, or the **opponent subject** in a pairwise comparison.
+
+
+- A **test condition** records a setting of the measurement occasion that varied while the model and the prompt content were held fixed, including the **sampling temperature**. The test condition is null when all experimental information is captured in other fields. We expect most information about the experiment to be documented in specific fields, and test conditions should be null most of the time.
+
+
+- A **response** records the grade for an observed (subject, item, trial, interactor, test condition) tuple. For binary success grading, 1 denotes success and 0 denotes failure. An explicit null denotes a recorded attempt without an available grade; no row denotes no recorded observation. Other discrete or continuous grades retain the benchmark's declared structured response scale. Grades use nullable float64 storage and must be finite when present; trial numbers are positive int64 values. A trace need not be available for every recorded response.
+
+
+Worked example: SWE-rebench
+The following simplified example follows one recorded SWE-rebench attempt on item numpy__numpydoc-101. It summarizes the schema components; the linked tables contain the complete records.
+
+
+Component
+	Concrete example
+	Subject
+	Qwen3-Coder-480B-A35B-Instruct running through OpenHands v0.54.0.
+	Item
+	A numpydoc issue requesting more context in “Unknown section” error messages.
+	Trace
+	The agent’s recorded interaction, including its actions and proposed code changes.
+	Grading criterion
+	The designated failing test must pass, and existing passing tests must remain passing.
+	Verifier
+	The test-running procedure that checks those requirements.
+	Response
+	1.0 for the successful recorded attempt.
+	Trial
+	1, identifying this recorded attempt.
+	Test condition
+	Null: no additional measurement-condition value is recorded for this observation.
+	Interactor
+	Null: no separate interacting party is recorded for this observation.
+	
+
+In a customer-service benchmark, a simulated customer is an interactor, whereas the system that grades the completed interaction is a verifier.
+Explore the SWE-rebench tables on Hugging Face: subjects, items, responses, and traces. The subject_id and item_id fields connect each response to its subject and item definitions; response_id connects an available trace to its response.
+
+
+# Implementation of Data Schema
+Each benchmark has a folder, `benchmarks/<slug>/`, containing `build.py`, `metadata.yaml`, `characterization.yaml`, `test.py`, and a curation record. The builder transforms captured upstream records into the shared table schemas. Exact source inputs are preserved under `raw/`; optional environment instructions belong under `docker/`. Normal rebuilds use an immutable source snapshot so that upstream changes do not silently alter the curated data.
+
+
+The public measurement-db repository defines the authoring contract. Use `benchmark_metadata_schema.yaml` for benchmark facts and compact upstream references, `parquet_schemas.yaml` for the six fixed table schemas, and `characterization_schema.yaml` with `characterization.md` for reviewed expectations and source claims. Keep `characterization.yaml` beside `metadata.yaml`. Use `build.contract_version: 2` and the current `benchmarks/_template/` files; do not duplicate the shared schema or identifier logic in individual builders. Human reviewers assess the source interpretation and accepted expectations.
+
+
+Record accepted upstream URLs and known revisions in `metadata.yaml` under `sources.upstream`. Keep per-file checksums and source/run identifiers with the archived inputs rather than expanding metadata into an artifact inventory. In the curation record, identify each producer, the files and runs included, their configurations, and the evidence supporting a classification of `provider_release` or `verified_third_party`. Preserve enough raw identifiers and documented parsing logic to trace curated observations back to their source records, and verify that correspondence in `test.py`. These classifications are documentation, not additional Parquet columns or subject/item features.
+
+
+A qualifying item-level curation produces `items.parquet`, `subjects.parquet`, `benchmarks.parquet`, and `responses.parquet`, plus `traces.parquet` and `assets.parquet` when applicable. Each table uses exactly the columns and storage types declared in `parquet_schemas.yaml`, including when a column is entirely null. Benchmark-specific source fields remain in the raw capture; the output tables do not accept extension columns.
+- `items.parquet` contains the administered item content and features, its `grading_criterion`, and its required `verifier`. The criterion supplies a reference answer, a grading rule, or both; the verifier describes how that criterion is applied. The effective response scale is inherited from the benchmark, with item-specific scales required for mixed-scale benchmarks.
+
+
+- The file `subjects.parquet` lists the AI subjects the benchmark evaluated.
+
+
+- The file `benchmarks.parquet` is a single row of metadata about the benchmark itself.
+
+
+- The file `responses.parquet` is a long-form table with one row per (subject, item, trial, test condition, interactors) tuple.
+
+
+- `traces.parquet` contains available interaction traces, linked to observations by `response_id`. It may cover only a subset of responses and is omitted when no traces are available; missing traces must not cause otherwise valid graded responses to be discarded.
+
+
+- `assets.parquet` preserves exact bytes of external item files when applicable. Items link to these assets through `asset_manifest`, which records their logical paths, media types, roles, and ordering. Omit the table when there are no item assets.
+
+
+Shared authoring methods are provided by `build_base.py`, with registration, identifier construction, scale handling, and validation helpers in `scripts/build_measurement_tables/`. Reuse these implementations through `BenchmarkBuild`; benchmark-specific builders should implement source parsing and documented transformations.
+
+
+Benchmark Inventory Curation Procedure
+
+
+We first used a Python program to retrieve the complete set of papers within each selected conference from OpenReview, such as NeurIPS 2025. For each paper, the program downloaded the official PDF and recorded its OpenReview identifier, submission number, title, authors, acceptance decision, presentation type, venue, PDF path, dataset URL, code URL, and, when available, the Croissant metadata file. We deduplicated papers using their OpenReview identifiers. We did not use titles or benchmark-related keywords to remove papers before classification.
+
+
+We then processed every PDF locally using pypdf. The program extracted text from the first three physical pages, which generally contain the title, abstract, introduction, and statement of contributions. We inserted physical page markers into the extracted text so subsequent evidence could be traced to its source page. We removed null characters and irrelevant accessibility data. We sent only the resulting plain text to the language model. The complete PDF and page images were not uploaded.
+
+
+For each paper, we combined the extracted text with a classification prompt. The prompt defined a new benchmark as a materially new and reusable evaluation task, dataset, test set, suite, challenge, testbed, generator, or protocol. A paper qualified only if it presented the benchmark as an explicit and substantive contribution. The paper also had to specify both what was evaluated and how the evaluation was performed or scored. The prompt explicitly excluded papers that only evaluated a new method on established benchmarks. A training dataset, model, metric, leaderboard result, or small diagnostic set created for a single experiment did not qualify on its own. An extension of an existing benchmark qualified only if it introduced a substantive, independently reusable evaluation artifact or protocol.
+
+
+Claude Haiku 4.5 received the extracted text, selected paper metadata, and classification prompt. The model applied the predefined criteria and assigned each paper to one of five categories: a paper proposing a new benchmark, a paper analyzing existing benchmarks, other benchmark-focused work, a paper unrelated to benchmark development, or a case requiring review. The LLM was required to provide a concise justification and page-numbered evidence from the supplied text.
+
+
+The model returned a structured JSON annotation for each paper. 
+
+
+This annotation contained the primary class, names of newly introduced benchmarks, confidence level, concise justification, and supporting evidence. Each evidence item included the physical PDF page, section, evidence criterion, exact excerpt, and interpretation. A positive new benchmark decision required evidence for both the evaluation artifact and the evaluation protocol.
+
+
+The program preserved the original metadata and added five fields to each JSON Lines record: is_benchmark_paper, is_proposing_new_benchmark, is_meta_benchmark, annotation_status, and annotation. The three indicator fields were derived programmatically from the primary class rather than generated independently by the model.
+Instructions for Curator to Curate a New Benchmark
+
+
+Step 1: If you would like to curate a benchmark, start by reviewing the benchmark inventory spreadsheet and contacting the organizers via Discord. We will mark it as in progress and add your name to help avoid duplicated work. You can use the Discord channel named data-software for questions and updates or join the weekly office hours for further discussions.
+Step 2: Search for data
+For current coverage and competition-specific base-model eligibility, see “Data Collection Guidance” in the Overview. Before starting a new search, inspect existing builders, curation notes, source links, raw caches, and published HF files. Absence from the website or from the local checkout does not establish that upstream data are unavailable. Benchmarks outside the inventory may be proposed to the organizers.
+
+
+Locate the released item content, subject configurations, item-level grades, and traces where available, beginning with sources already documented by earlier curators. Paper tables can support validation claims but must not be expanded into synthetic item-level observations. Search beyond the paper for the underlying records, and record both useful leads and coverage gaps. Provider-released Docker images, Dockerfiles, or environment instructions are helpful but optional. Source locations to check include:
+- HuggingFace: the author org, and search HF for `<benchmark>`, `<benchmark> results`, `<benchmark> predictions`, `<author> eval`.
+- GitHub: the main repo and sibling repos named `*-experiments`, `*-results`, `*-leaderboard`, `*-logs`, and folders `results/`, `outputs`, `predictions/`, `logs/`, `pred_folder/`, `evaluation/`.
+- Zenodo, Harvard Dataverse, 4TU, OSF, Kaggle — large/archival drops.
+- Cloud buckets referenced in code (e.g., `dl.fbaipublicfiles.com`, S3/GCS, MinIO), and leaderboard backend JSON (the file the leaderboard UI fetches).
+- Supplementary material on the paper page (OpenReview attachments, etc.).
+
+
+Qualification rule:
+1. Item content must be available. Each item's actual content, the prompt/question/task as the subject saw it, must be available upstream for ingestion into `items.parquet`. A benchmark that exposes only item IDs or category labels, with no recoverable prompt content, does not qualify.
+
+
+2. Item-level responses must be available. The graded outcome of individual subjects on individual items must be ingestible into `responses.parquet`. Aggregate scores (one number per model per category/dataset/metric) do NOT satisfy this requirement and should not be ingested. If you find a benchmark that releases only aggregate scores, please report to me so that I can review it.
+
+
+3. Preserve provenance and verify source quality. Ingest benchmark-provider releases and third-party reruns that meet the item-content, item-level-response, documentation, and validation requirements. Assign each accepted source or run a `provenance_tier`: `provider_release` for a release attributable to the benchmark provider, or `verified_third_party` for a rerun by another party whose data and evaluation procedure have been checked. Both tiers must pass the same curation quality checks; provider origin alone does not establish quality.
+- For `provider_release`, document evidence linking the release to the benchmark provider, such as URLs in its code, CI, or documentation and its own run metadata. For a mirror, compare overlapping files with the provider’s release using hashes; matching file sizes alone are not proof.
+- For `verified_third_party`, identify the producer and source release, pin the ingested files or revision, and verify the benchmark version, split, item mapping, subject configurations, and grading procedure to the extent needed to assess the results. Record missing information and the evidence supporting inclusion. Item content and responses may come from different accepted sources only when their correspondence is verified.
+- For every accepted source, preserve the exact captured inputs and verify the transformation against those records. Document the source/run attribution and its mapping to curated observations as described in the Data Schema tab. Do not count copies of the same evaluation from different locations as additional trials.
+If a source’s attribution or quality cannot be established, exclude it and document what it contains, the coverage it would add, and why it was rejected. Contact the organizers if the evidence is inconclusive.
+
+
+How to handle incomplete or alternative data sources:
+- You find THIRD-PARTY ONLY: a benchmark can qualify using a verified third-party rerun if recoverable item content, item-level responses, and the provenance and validation requirements above are satisfied. Third-party results may also extend partial provider coverage. Preserve each source/run’s provenance and actual subject configuration, and do not duplicate an evaluation already included from another release. If the third-party source cannot be verified, exclude it and report the gap.
+- You find PARTIAL per-item responses: include the subjects, splits, and attempts for which corresponding item content and grades are available, and document the coverage. Preserve recorded attempts without grades as null where the source establishes that an attempt occurred. Do not turn absent observations into failures or fabricate unreleased outcomes.
+- You find GATED data: report the dataset URL and required access to the organizers. Once access is granted through the provider's normal process, download and verify the source. Keep the benchmark pending if essential inputs remain inaccessible; task identifiers or invented text are not substitutes for item content.
+- If you genuinely find nothing after the wide search above, please consider contacting the benchmark authors to ask whether the data can be released. Record what is missing, whom you contacted, and the outcome. If the data remain unavailable, please report the benchmark to the organizer.
+
+
+If recoverable item content and item-level responses are available from accepted sources and their correspondence is verified, create `benchmarks/<slug>/metadata.yaml`. Use `benchmark_metadata_schema.yaml` for the required metadata fields and begin with `benchmarks/_template/metadata.yaml`. Replace every example value with evidence from the relevant upstream sources and remove optional sections that do not apply. Consult `parquet_schemas.yaml` for the output-table columns and their meanings.
+________________
+Step 3: Write and Test the Build File
+Create `benchmarks/<slug>/build.py` by subclassing the shared base. Before writing it, read `build_base.py` for the authoring contract and follow `benchmarks/_template/build.py` as the implementation template. Begin by copying the complete `benchmarks/_template/` folder to `benchmarks/<slug>/` and adapting its files.
+
+
+The shared base (`BenchmarkBuild`) handles source-snapshot verification and restoration, registration, validation, and Parquet output. For new sources, capture the upstream inputs and coordinate their immutable HF archive revision with the maintainers. Complete the benchmark-specific work in these places:
+- `metadata.yaml` — record the benchmark definition, structured response scale, build contract, and compact `sources.upstream` references. Record source interpretation and run attribution in the curation record; record reviewed expectations in `characterization.yaml`.
+- `build_subject_item_response_rows(self)` — read the downloaded source records and register each subject, item, and response with `add_subject`, `add_item`, and `add_response`.
+- Source capture — preserve the exact inputs under `self.raw_dir` and document any acquisition script or extraction step. Normal contract-2 rebuilds restore the configured immutable archive through the shared loader; they must not silently refresh mutable upstream URLs. Coordinate any exceptional download requirement with the maintainers.
+
+
+Pass final subject features through `add_subject(features=...)`, final item features through `add_item(features=...)`, verifier features through `add_item(verifier_features=...)`, and observation-level values through `add_response(...)`. Canonical setting names and aliases are defined in `scripts/build_measurement_tables/normalize_evaluation_settings.py`. For example, `scaffold`, `agent`, and `framework` all normalize to `harness`.
+
+
+Pass only the supported response fields to `add_response(...)`. Keep source/run identifiers and classifications in the archived records and curation documentation, with tests that establish their correspondence to the curated observations. Do not introduce response extension columns or place provenance in subject features, item features, or `test_condition` merely to retain it.
+
+
+A benchmark-specific feature may remain outside the global vocabulary when the receiving `add_subject` or `add_item` call makes its placement explicit. Do not pass `metric` or `model` as features.
+
+
+All raw subject strings in the database must resolve to one canonical model in `scripts/build_measurement_tables/map_model_registry.json`. After building a benchmark, resolve any subject labels that are not yet in the registry:
+
+
+1. List the subject names introduced by the benchmark that the registry does not know. `build.py` reports these names at save time, or you can check them manually:
+```bash
+python3 - <<'EOF'
+import json, pandas as pd
+reg = json.load(open('scripts/build_measurement_tables/map_model_registry.json'))
+subj = pd.read_parquet('benchmarks/<slug>/subjects.parquet')
+missing = sorted(set(subj['display_name']) - set(reg))
+print('\n'.join(missing) if missing else 'every subject already mapped')
+EOF
+```
+2. If nothing is missing, continue to the next phase. Otherwise, add one entry per missing name to `scripts/build_measurement_tables/map_model_registry.json`, keyed byte-for-byte by the printed string. Use family-level granularity: merge date, quantization, serving, and effort suffixes; keep parameter sizes, tiers, and major or minor versions distinct; map agent scaffolds to the identifiable embedded base model; and retain unidentifiable names with `"company": "Unknown"`. Do not guess.
+If a mapping introduced a brand-new canonical model, also date it: web-search the model's FIRST public release/announcement (provider blog post or release notes preferred; the model's official HuggingFace repo or its paper's arXiv v1 date are acceptable) and add `"release_date": "YYYY-MM-DD"` (or `"YYYY-MM"`) plus `"release_date_url": "<the source you used>"` to the entry. Every alias of the same canonical model must carry the identical date. Never guess — if no evidence is found, leave the entry undated.
+
+
+
+
+
+
+
+
+
+
+Feature placement is identity-bearing: changing a subject or item feature can create a distinct identity, and the shared registration methods reject globally classified features passed to the wrong method. Item identity also includes the grading criterion, verifier, and effective response scale, including a scale inherited from benchmark metadata. When migrating existing data, preserve the earlier snapshot and review resulting identifier changes together with their linked responses and traces.
+
+
+`test_condition` should contain only a true property of the measurement occasion, such as temperature. Pass `None` when the benchmark has no such condition.
+
+
+Some good practices:
+- Use Python’s `logging` module for diagnostics in `build.py`, including the source and record context needed to investigate recoverable issues.
+- Do not silently keep the best run. If upstream released several harnesses, several attempts, or several seeds per (model, item), ingest them all – incrementing `trial` for repeats of the SAME setup.
+- An unrecoverable error must cause the benchmark build to fail; do not suppress it and produce an apparently successful output. Preserve the shared build code’s validation failures. Put validation assertions in `test.py`; a failed validation blocks acceptance. If running several benchmarks, isolate failures between builds so a failed benchmark does not prevent the others from running.
+- After writing any build.py files, you should run it with `python benchmarks/<slug>/build.py` to check if the code works successfully and correctly.
+
+
+After building, review representative records for completeness and usability as well as schema validity. Verify that item content contains the administered prompt, required context and answer choices, and correctly linked assets; task-ID placeholders are insufficient. Keep curator commentary and grading information out of the stimulus unless they were actually shown to the subject. Check grades and subject configurations against source records, fix curation errors, and document source limitations without guessing missing details.
+
+
+Use `test.py` and the colocated `characterization.yaml` to establish and preserve confidence in the curation. The tests independently check source interpretation and table integrity; the YAML records reviewed table counts and logical hashes plus required `source_claims`. Follow `characterization_schema.yaml` and `characterization.md`. Each claim identifies a source URL, a precise locator, its scope, and an expected count or aggregate; aggregate comparisons also require a justified tolerance. Claims may cite a paper, official blog, or released data, and must distinguish reported quantities from quantities independently derived from the raw records.
+
+
+Adapt `benchmarks/_template/test.py` into a read-only suite that inspects generated tables and pinned source inputs without downloading or modifying data. Use the shared dataset and characterization validators, and check canonical Arrow storage types. Add focused checks for item text, configured subjects, grading, repeated attempts, asset links, trace attribution, and correspondence to source runs. Reconstruct comparable reported results using the declared split, aggregation, units, and tolerance. Compute source observations independently of the builder and reconcile them with the curated output; do not return the expected values or copy builder output as evidence.
+
+
+After independently reviewing the source reconciliation and recording the characterization, run: MEASUREMENT_DB_FULL_TEST=1 python benchmarks/<slug>/test.py
+
+
+Use each failure to identify a problem in the source interpretation, the transformation in build.py, or the test’s comparison logic. Fix the underlying issue and, ideally, add a focused test when it reveals an important case that wasn't previously covered. Continue until the generated tables pass the schema, integrity, source-reconciliation, and published-result checks, then review representative rows and any documented coverage gaps.
+
+
+Treat the reviewed `characterization.yaml` as the accepted snapshot. Neither the builder nor the tests should update it automatically. When an intentional correction or source update changes the data, review and document the differences before revising expectations; a failing hash alone is not a reason to replace the stored hash. Separate schema migration from changes to source coverage or grading so reviewers can assess each change.
+
+
+Optional: Docker environment
+Curators should try to find provider-released Docker images, Dockerfiles, or instructions for reconstructing the benchmark’s evaluation environment. Record any sources you find, or note that none were found, in `record_curation.md`. Reconstructing or packaging the environment is optional. A curation can qualify without a Docker environment if it meets the data, provenance, validation, and review requirements.
+
+
+If you choose to provide environment support, reuse upstream images when available and store Dockerfiles and reconstruction instructions under `benchmarks/<slug>/docker/`. Determine the image structure by examining the benchmark’s grading system, such as its test command or verifier script. Use one image for the whole item bank when the environment is identical across items and the grader only needs the subject’s output plus a checker. Use one image per item when the environment is item-specific, such as a repository at the item’s base commit, item-specific installs, fixtures, services, or tests. Name each item-specific image by its `item_id`. Where useful, share a base image and give each item a thin `FROM` plus its own layers.
+
+
+Pin everything: no `:latest`, no unpinned `pip install`, and no `git clone` without a commit SHA. Keep ground truth out of the image. If you cannot reconstruct an environment from the upstream source, document the limitation and continue with the core curation.
+________________
+Step 4: Submit Pull Requests and Document the Curation
+When your curation is ready:
+* GitHub pull request: Include the files required by the benchmark schema and curation instructions so reviewers can reproduce and assess the curation. Please do not include downloaded raw data or generated Parquet files in the pull request, push directly to the main branch of either repository, or use a maintainer upload script.
+* Hugging Face pull request: Include the generated tables under the benchmark directory: response.parquet (the published name for local responses.parquet), items.parquet, subjects.parquet, and benchmarks.parquet, plus traces.parquet and assets.parquet when applicable. Include or reference the immutable raw-input archive, together with metadata.yaml, characterization.yaml, and the curation record, so reviewers can reproduce the build. Coordinate the archive revision with the maintainers and respect source access and redistribution conditions.
+* Review: Link the Hugging Face pull request from the GitHub pull request and note which validation checks you ran. Obtain two independent peer reviews and seek one from a benchmark author. If no author responds within 7 calendar days of the documented review request, record the contact attempt in `record_curation.md` and obtain a second qualified community or maintainer review. Both reviewers must be independent of the curation. Reviewers may request clarifications or revisions.
+
+
+To record your work 
+- Complete `benchmarks/<slug>/record_curation.md` using `benchmarks/_template/record_curation.md`. Record exactly what you found, where you found it, how you processed it, and which item content, subjects, item-level responses, and model traces were included. Note every coverage gap, including models or splits without per-item data.
+- State who produced each ingested source/run, its pinned files, its documented classification as `provider_release` or `verified_third_party`, and the evidence supporting inclusion. Explain how source records map to curated observations. Under “Deliberately excluded,” list discovered sources, the coverage they would add, and why they were not ingested; third-party origin alone is not a reason for exclusion. Document the available harness and evaluation configuration (version, tools, budget, environment, grader, and metric), identify missing information, and summarize the paper.
+Benchmark and Subject Inventory Construction
+(for the NeurIPS Predictive AI Evaluation Competition)
+The inventory includes benchmarks and base-model releases from 2025 and 2026. Current model coverage includes releases from Anthropic, Google, Moonshot, OpenAI, Zhipu, Alibaba, ByteDance, DeepSeek, and xAI. These details describe current coverage and do not restrict general contributions to the Measurement Data Bank. For the competition, eligible base models are currently restricted to releases from 2025–2026. We welcome reasonable suggestions for additional base models: contact the organizers with the proposed model and a brief rationale. Additions to the competition’s eligible model list require organizer confirmation.

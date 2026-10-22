@@ -1,0 +1,162 @@
+{
+  "fold": 1,
+  "source_revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+  "train_benchmarks": [
+    "abstract_reason/formatted_tables",
+    "advprompter/formatted_tables",
+    "agentic_review_perturbation/formatted_tables",
+    "agi_elo/formatted_tables",
+    "aider/formatted_tables",
+    "algotune/formatted_tables",
+    "alignment_faking/formatted_tables",
+    "auditing_sabotage_bench/formatted_tables",
+    "benger/formatted_tables",
+    "bird_sql/formatted_tables",
+    "braveguard/formatted_tables",
+    "cellverse/formatted_tables",
+    "ceval/formatted_tables",
+    "chartmuseum/formatted_tables",
+    "chi_bench/formatted_tables",
+    "confagents/formatted_tables",
+    "cruxeval/formatted_tables",
+    "dave/formatted_tables",
+    "dbpa/formatted_tables",
+    "edu_circuit_hw/formatted_tables",
+    "egoschema/formatted_tables",
+    "ehrflowbench/formatted_tables",
+    "engdesign/formatted_tables",
+    "evouna/formatted_tables",
+    "exploitgym/formatted_tables",
+    "felm/formatted_tables",
+    "financebench/formatted_tables",
+    "haiid/formatted_tables",
+    "healthadminbench/formatted_tables"
+  ],
+  "validation_benchmarks": [
+    "ai2d_test/formatted_tables",
+    "adaptivestep/formatted_tables",
+    "bertaqa/formatted_tables"
+  ],
+  "training_episodes": 227,
+  "validation_episodes": 33,
+  "best_epoch": 20,
+  "inner_alc": 0.21719396791674875,
+  "history": [
+    {
+      "epoch": 0,
+      "inner_alc": 0.21750685369426553
+    },
+    {
+      "epoch": 1,
+      "training_alc": 0.19987837809429296,
+      "inner_alc": 0.21747481664924911
+    },
+    {
+      "epoch": 2,
+      "training_alc": 0.19982318248649,
+      "inner_alc": 0.2174761618177096
+    },
+    {
+      "epoch": 3,
+      "training_alc": 0.19978680999924958,
+      "inner_alc": 0.2174690690907565
+    },
+    {
+      "epoch": 4,
+      "training_alc": 0.19975888259741703,
+      "inner_alc": 0.2174410501664335
+    },
+    {
+      "epoch": 5,
+      "training_alc": 0.19973200612131195,
+      "inner_alc": 0.21740409596399826
+    },
+    {
+      "epoch": 6,
+      "training_alc": 0.19970197036928017,
+      "inner_alc": 0.21739039344317984
+    },
+    {
+      "epoch": 7,
+      "training_alc": 0.19968145019026054,
+      "inner_alc": 0.21736489168622278
+    },
+    {
+      "epoch": 8,
+      "training_alc": 0.19966326972330195,
+      "inner_alc": 0.21735282490650812
+    },
+    {
+      "epoch": 9,
+      "training_alc": 0.1996448699729558,
+      "inner_alc": 0.2173374898054383
+    },
+    {
+      "epoch": 10,
+      "training_alc": 0.19962806704285913,
+      "inner_alc": 0.21733329738631393
+    },
+    {
+      "epoch": 11,
+      "training_alc": 0.19961237369129836,
+      "inner_alc": 0.21731592308391223
+    },
+    {
+      "epoch": 12,
+      "training_alc": 0.1995978539867023,
+      "inner_alc": 0.21730844992579837
+    },
+    {
+      "epoch": 13,
+      "training_alc": 0.1995815809340204,
+      "inner_alc": 0.21729132758848596
+    },
+    {
+      "epoch": 14,
+      "training_alc": 0.19957047730421704,
+      "inner_alc": 0.2172777937217192
+    },
+    {
+      "epoch": 15,
+      "training_alc": 0.19955759190252698,
+      "inner_alc": 0.217263146331816
+    },
+    {
+      "epoch": 16,
+      "training_alc": 0.19954473718935173,
+      "inner_alc": 0.21724961585167682
+    },
+    {
+      "epoch": 17,
+      "training_alc": 0.19953042416451786,
+      "inner_alc": 0.21723552228826465
+    },
+    {
+      "epoch": 18,
+      "training_alc": 0.19951725472175078,
+      "inner_alc": 0.2172085369626681
+    },
+    {
+      "epoch": 19,
+      "training_alc": 0.19950210867605545,
+      "inner_alc": 0.2172037155339212
+    },
+    {
+      "epoch": 20,
+      "training_alc": 0.19949079547815912,
+      "inner_alc": 0.21719396791674875
+    }
+  ],
+  "export_max_abs_error": 5.7037558343076e-08,
+  "ridge": 1.0,
+  "alpha": 2.0,
+  "learning_rate": 0.01,
+  "log_weight_l2": 0.01,
+  "seed": 2026,
+  "episode_seed": 73,
+  "max_pairs_per_benchmark": 25,
+  "weight_sha256": "ddb420e2aca4e84bd3e36f05cced35e60b080c5254f1770ff51261276c3cb1aa",
+  "log_weight_std": 0.11740844696760178,
+  "log_weight_min": -1.1905518770217896,
+  "log_weight_max": 1.0635422468185425
+}

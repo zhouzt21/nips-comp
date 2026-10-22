@@ -1,0 +1,105 @@
+epoch=1 validation_pair_brier=0.240106
+epoch=2 validation_pair_brier=0.240877
+epoch=3 validation_pair_brier=0.241927
+epoch=4 validation_pair_brier=0.256198
+epoch=5 validation_pair_brier=0.271538
+epoch=6 validation_pair_brier=0.286834
+{
+  "source_revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+  "seed": 2026,
+  "train_benchmarks": [
+    "advprompter/formatted_tables",
+    "aegis/formatted_tables",
+    "ai2d_test/formatted_tables",
+    "aider/formatted_tables",
+    "appworld/formatted_tables",
+    "auditing_sabotage_bench/formatted_tables",
+    "bbq/formatted_tables",
+    "beavertails/formatted_tables",
+    "bird_sql/formatted_tables",
+    "braveguard/formatted_tables",
+    "ceval/formatted_tables",
+    "chartmuseum/formatted_tables",
+    "chi_bench/formatted_tables",
+    "cmmlu/formatted_tables",
+    "confagents/formatted_tables",
+    "dbpa/formatted_tables",
+    "devbench/formatted_tables",
+    "editbench/formatted_tables",
+    "ehrflowbench/formatted_tables",
+    "emoji_attack/formatted_tables",
+    "engdesign/formatted_tables",
+    "enginemt_qa/formatted_tables",
+    "exploitgym/formatted_tables",
+    "faithcot/formatted_tables",
+    "felm/formatted_tables",
+    "fewshot_ttt_bbh/formatted_tables",
+    "finegrain_t2i/formatted_tables",
+    "haiid/formatted_tables",
+    "healthadminbench/formatted_tables"
+  ],
+  "validation_benchmarks": [
+    "hallusionbench/formatted_tables",
+    "adaptivestep/formatted_tables",
+    "edu_circuit_hw/formatted_tables"
+  ],
+  "development_benchmarks_untouched": [
+    "abstract_reason/formatted_tables",
+    "agentic_review_perturbation/formatted_tables",
+    "agi_elo/formatted_tables",
+    "algotune/formatted_tables",
+    "alignment_faking/formatted_tables",
+    "benger/formatted_tables",
+    "bertaqa/formatted_tables",
+    "cellverse/formatted_tables",
+    "cruxeval/formatted_tables",
+    "dave/formatted_tables",
+    "egoschema/formatted_tables",
+    "evouna/formatted_tables",
+    "financebench/formatted_tables"
+  ],
+  "early_stopping_pool": "training",
+  "fixed_epochs": null,
+  "train_rows": 10304,
+  "validation_rows": 1200,
+  "train_pairs": 949,
+  "validation_pairs": 202,
+  "max_rows_per_benchmark": 400,
+  "sampling": "response",
+  "best_epoch": 1,
+  "validation_pair_brier_at_budget_0": 0.24010586663992545,
+  "validation_history": [
+    {
+      "epoch": 1,
+      "pair_brier": 0.24010586663992545
+    },
+    {
+      "epoch": 2,
+      "pair_brier": 0.2408768082181904
+    },
+    {
+      "epoch": 3,
+      "pair_brier": 0.24192700517487006
+    },
+    {
+      "epoch": 4,
+      "pair_brier": 0.25619818184691023
+    },
+    {
+      "epoch": 5,
+      "pair_brier": 0.27153793872141374
+    },
+    {
+      "epoch": 6,
+      "pair_brier": 0.2868339549365019
+    }
+  ],
+  "split_file": "runs\\mlp_cv\\fold2_split.json",
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "feature_mode": "retained_block",
+  "network_kind": "mlp",
+  "batch_size": 512,
+  "export_max_abs_error": 5.960464477539063e-08,
+  "weight_file": "runs\\research_loop\\R8\\retained_fold2\\weights.npz"
+}

@@ -1,0 +1,3 @@
+# R19 verification before seeds1/2
+
+Seed0 matched-item ALC0.205095 versus peer0.205721; all folds improve, and shuffled associations score0.206232. This justifies a fixed-parameter replication, not parameter retuning or promotion. Freeze R19 train-selected taus4/4/1, R12alpha4/kappa8, cohort4/193. Evaluate trajectories0/1/2 on identical targets and average within benchmark before clustered uncertainty. Preserve exact R13 combined comparator; no mechanism combination yet. Worst seed0 regression against smoothed2 is braveguard+0.03081, requiring inspection even if mean gains persist. Official hosted alignment remains unverified.

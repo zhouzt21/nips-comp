@@ -1,0 +1,13 @@
+# R23: does hard group centering discard useful low-budget peer information?
+
+Registered2026-10-22 after R20/R21, while the independently frozen R22 training-pool test is evaluated. R20 shared slopes give real current-label benefits mainly15/31. With one label per distinct visible subject, hard within-subject centering makes every feature and residual zero: no item effect is possible even with several observed subjects. This is a computational restriction, not evidence that low-budget context lacks all information.
+
+Rivals: (A) regularized subject effects permit useful low-budget item estimation; (B) unknown subject differences confound item effects so hard centering is necessary. New information scope distinguishes this test from failed R6 single-pair uncentered lexical covariance. Do not erase that negative result.
+
+Keep R7frozen128semantic vectors and samecurrentcohort4/193. Model y≈0.5+global+subject+item+noise with Gaussian variances g=.25/8,h=.25/4 and noise=.25; these ratios are fixed from R12kappa8/alpha4, not optimized on outerdata. Item Gram matrix uses linearsemantic kernel centered over all CURRENT acquired vectors, not separately by subject. K=g11'+h subject-indicator +(.25/lambda)Kitem + .25I. Query uses corresponding visible subject indicator and the same feature center. Compute Gaussian conditional mean and clip; this is an approximate Bernoulli predictor, not an exact binary posterior.
+
+Fit itemlambda from off/16/4/1/.25 on outer-trainingseed73,max25pairs. Off is a mandatory matched mean-only Gaussian control, alongside R12peer, originalsmoothed2, and R20hard-centered candidate. Allthree selections before outerseed0. No query/evaluation label enters conditioning. n0returns0.5. No special case silently imports a historical score.
+
+Control permutes acquired item VECTOR associations across peer row positions while leaving subject keys and labels fixed, within the current budget only; target rows preserved. Eight permutations retain all subject sums and mean-only predictions, including n1. This is deliberately a counterfactual association diagnostic, not a deployable predictor. Before scoring test Gaussianconditioningagainst directsmallmatrix calculation, zeroitem limit, labelcomplement, orderinvariance, validprobabilities and no cross-callstate.
+
+Accept further3seed verification only if the candidate improves both matchedmeancontrol and frozenhardcentering in allfolds and does not merely replace the mean estimator. If source selection turns itemoff or outer itemeffect fails, stop this softintercept route. Do not grid-search g/h to rescue it. Conditional hosted scope and originalisolated gate remain unresolved and cannot be redefined after seeing results.

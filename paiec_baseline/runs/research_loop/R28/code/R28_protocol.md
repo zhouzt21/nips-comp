@@ -1,0 +1,11 @@
+# R28: distinguish prior asymmetry from higher-order prior shape
+
+Frozen before scoring, 2026-10-22. Audit found that plan_1 E3 already evaluated benchmark-balanced multimodal empirical Bayes and failed. Do NOT repeat that experiment as a new idea. E3's largest losses were B0/B1. The new, narrower question is whether nontransferable orientation/odd moments, rather than all prevalence-shape information, caused the failure.
+
+Operator: retrieve prior negative evidence -> impose label-complement symmetry -> moment-matched control -> assess what was removed. Reuse E3's exact training-only pair-rate cache and benchmark-equal prior weights. Replace each prior atom q with equal-weight atoms q and 1-q. This keeps even central moments around 0.5 and removes odd ones; it enforces zero-label mean 0.5 and p(n,n-s)=1-p(n,s). It does not flip any observed target label. Compare a symmetric Beta prior with the SAME variance: total strength alpha=1/(4*variance)-1. This control tests higher-order shape beyond mean/variance. Also replay original E3 and fixed/training-selected smoothing.
+
+No parameter grid, no outer score selection, no source reweighting. Three original outer folds, seeds0/1/2, isolated pairs, exact shared-record replay, 64 evaluation items with all repeated responses. Preserve heldout benchmark isolation. Check original seed0 E3 and smoothed2 scores. Use the existing cluster-bootstrap machinery after averaging seeds within benchmark. Reused public benchmarks are not independent validation.
+
+The prior distribution still assumes relevance/exchangeability between source and target problems; symmetry does not ensure this. AnySearch primary tutorial https://arxiv.org/html/2404.03422v1, sections1-2 read: compound-decision improvement depends on the common sampling model and relevance of the mixing distribution. This motivates the assumption audit, not a guarantee for PAIEC. No novelty claim for empirical Bayes or symmetrization.
+
+Only continue a shape-based candidate if it improves all folds and paired CI upper<0 versus both fixed smoothing and matched-Beta control. The 0.005 research gate is unchanged. If unsuccessful, stop generic source-prevalence-shape fitting; do not broaden an EM/grid prior search without new evidence of conditional relevance. Source-only learned prior tables and all negative scores will be retained.

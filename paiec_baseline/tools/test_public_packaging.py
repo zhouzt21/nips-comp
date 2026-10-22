@@ -1,6 +1,7 @@
 """Verify that sharing a BLE archive cannot silently include local credentials."""
 
 import json
+import os
 from pathlib import Path
 import shutil
 import subprocess
@@ -55,8 +56,12 @@ class PublicPackagingTests(unittest.TestCase):
         }))
 
     def build(self, *args):
+        # Git Bash cannot resolve native Windows temporary paths passed as
+        # subprocess arguments. The shell wrapper only execs this Python file.
+        command = ([sys.executable, str(self.root / "tools/ble_packaging.py")]
+                   if os.name == "nt" else ["bash", str(self.root / "tools/build_zip.sh")])
         return subprocess.run(
-            ["bash", str(self.root / "tools/build_zip.sh"), *args],
+            [*command, *args],
             capture_output=True, text=True,
         )
 
@@ -133,9 +138,9 @@ class PublicSourceCheckTests(unittest.TestCase):
         self.root = Path(self.temporary.name)
         subprocess.run(["git", "init", "-q", str(self.root)], check=True)
 
-    def check(self):
+    def check(self, *args):
         return subprocess.run(
-            [sys.executable, str(Path(__file__).with_name("check_public_source.py"))],
+            [sys.executable, str(Path(__file__).with_name("check_public_source.py")), *args],
             cwd=self.root, capture_output=True, text=True,
         )
 
@@ -168,6 +173,43 @@ class PublicSourceCheckTests(unittest.TestCase):
         result = self.check()
         self.assertNotEqual(result.returncode, 0)
         self.assertNotIn(secret, result.stdout + result.stderr)
+
+    def test_research_records_require_explicit_option(self):
+        self.stage("runs/R1/metrics.json", '{"alc": 0.25}')
+        self.stage("paiec_baseline/runs/R1/train.log", "completed\n")
+        self.stage("paiec_baseline/runs/R1/code/model.py", "# snapshot\n")
+        self.assertNotEqual(self.check().returncode, 0)
+        self.assertEqual(self.check("--research-records").returncode, 0)
+
+    def test_research_option_still_rejects_data_and_private_paths(self):
+        self.stage("paiec_baseline/runs/R1/weights.npz", "synthetic array")
+        self.stage("paiec_baseline/runs/R1/predictions.csv", "y,p\n")
+        self.stage("paiec_baseline/runs/R1/payload/labels.json", "{}")
+        self.stage("paiec_baseline/runs/R1/submission_config.json", "{}")
+        self.stage("paiec_baseline/runs/R1/.env", "synthetic settings")
+        result = self.check("--research-records")
+        self.assertNotEqual(result.returncode, 0)
+        for name in ("weights.npz", "predictions.csv", "labels.json",
+                     "submission_config.json", ".env"):
+            self.assertIn(name, result.stderr)
+
+    def test_research_option_scans_log_credentials(self):
+        secret = "github_pat_" + "a" * 40
+        self.stage("paiec_baseline/runs/R1/train.log", secret)
+        result = self.check("--research-records")
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn("possible credential", result.stderr)
+        self.assertNotIn(secret, result.stdout + result.stderr)
+
+    def test_research_option_preserves_raw_markdown_search_export(self):
+        self.stage("paiec_baseline/research_loop/literature/raw/search.json",
+                   "## Query 1: historical query\n\nSearch results\n")
+        self.assertNotEqual(self.check().returncode, 0)
+        self.assertEqual(self.check("--research-records").returncode, 0)
+
+    def test_research_option_does_not_allow_invalid_json_configuration(self):
+        self.stage("paiec_baseline/runs/R1/config.json", "## Query invalid configuration")
+        self.assertNotEqual(self.check("--research-records").returncode, 0)
 
 
 if __name__ == "__main__":

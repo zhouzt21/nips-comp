@@ -1,0 +1,11 @@
+# R26: discriminate label representativeness from item-design coverage
+
+Registered2026-10-22 after R25three-seed verification. R25isolated0.205953 versusbase0.207408, allthreefolds improve but0.001455<0.005. Addedmetadata increment is small andthirdfoldslightlyworse; do not tune morefieldweights. Current item evidence has replicated value (R10,R25), so a bounded acquisition diagnostic now has a concrete predictor to hold fixed.
+
+High-level question: is uniform acquisition leaving predictable item variation poorly covered, or does its unbiased prevalence estimate matter more than feature diversity? This changes evidence allocation, not representation/model. Freeze R25semanticlambda4/4/1 andmetadata16. Candidate acquisition uses only current item's vectors, previously accepted vectors, labelsacquired/itemsremaining; never labels of unaccepteditems or futurevectors. Firstcandidatealwaysaccepted. If remainingitems<=remaining31slots, accept. Otherwise accept when centered ridge variance proxy v=||x−meanS||²−k'(ScSc'+I)^−1k exceeds tau. This is a slope-design heuristic, not an exact Bernoulli uncertainty estimate.
+
+Use first min(64,acquisitionpoolsize) candidates from the frozen random item order; score the same evaluationitems as earlier. Preserve original first31 response draws exactly; select one response for additionalcandidates separately. Randomfirst31 therefore exactlyreplays R25. Return31acceptedindices, and six nestedprefixbudgets. Rejected candidates cannot be revisited. Futureoutcomes are only in simulator storage, not selectorarguments.
+
+Select tau from0/0.05/0.1/0.2 on original sourceepisodes(seed73,max25pairs); tau0acceptsall and is the explicit offcontrol. Freezeallthreebeforeouterseed0. Compare samefrozenpredictor randomversusactive, plus smoothed2 under eachtrajectory to measure prevalence-cost. No inferencefeaturesfromrejecteditems. Explicitly distinguish chosen-inputcoverage from outcome-predictionquality. If sourcechoosestau0 or activefailsmean/ALC, stopthisheuristic; do not scan thresholds usingouterresults.
+
+This is a bounded64candidate localprotocol, not confirmationofhostedfullpoolsize. It obeys onlinearrival/irreversibleskip and perpair31labelcap. No labeling.pysubmissionchange until evidencejustifies it. Original0.005gate/allfolds/CI/strongbaseline remain unchanged.

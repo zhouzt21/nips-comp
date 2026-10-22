@@ -1,0 +1,7 @@
+# R24a: audit remaining structured item information before another model
+
+Registered2026-10-22 after R22 and R23. More source coverage under matched update opportunity leaves semanticMLPprior0.263743 andresidual0.211483, stillworsebase0.208331; nofurtherpoolenlargementnow. Softsubjecteffects R23 add only−0.000148versushardcenter withtwofoldsworse andCIcrossingzero; stopthatroute. These failures do not show that all visible fields have been effectively used.
+
+CurrentR7/R20semantic slope uses only item_content. EarlierR3 hashedallitem fields, but comparison withsemanticfeatures changed multiple representations; it does not isolate the contribution of structured metadata. Audit item_features alone, without responses/outcomes: sameinput-onlyseed123, up100items per36outerbenchmarks. Report nonempty coverage, withinbenchmark uniqueness, JSON keys and categorical/numeric variation. Distinguish missing/empty/constant metadata from variation that could support a local difficulty relation. Do not treat metadata correlation as proven outcome information.
+
+Proceed to a controlled metadata kernel only if a material set of eligiblebenchmarks has nonconstant metadata; otherwise stop this feature branch. Exact field content must be available in officialinput. Referenceanswers are itemattributes, but response-outcome-looking fields need explicit audit before use. No outcome-informed key filtering. This is an information-access audit, not a new prediction score.

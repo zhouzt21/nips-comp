@@ -1,0 +1,367 @@
+{
+  "source_files": [
+    "runs\\research_loop\\R25\\fold0_attribution.json",
+    "runs\\research_loop\\R25\\fold1_attribution.json",
+    "runs\\research_loop\\R25\\fold2_attribution.json"
+  ],
+  "scope": "reused public grouped CV folds; historical comparison, not blind test",
+  "pair_equal_brier": {
+    "combined": [
+      0.25,
+      0.2289715830926533,
+      0.21179751403917052,
+      0.19521605180891355,
+      0.1865058872038419,
+      0.17893686648174498
+    ],
+    "same_ridge_semantic": [
+      0.25,
+      0.2289715830926533,
+      0.21179617781453106,
+      0.1955098126281579,
+      0.18737171218134285,
+      0.1802954444678016
+    ],
+    "original_semantic": [
+      0.25,
+      0.2289715830926533,
+      0.2117645927715279,
+      0.1951551521051433,
+      0.18611337700812774,
+      0.1777909405087817
+    ]
+  },
+  "pair_equal_alc": {
+    "combined": 0.20739189387709034,
+    "same_ridge_semantic": 0.2077594015901172,
+    "original_semantic": 0.20718003504636862
+  },
+  "benchmark_equal_alc": {
+    "combined": 0.21593989512717293,
+    "same_ridge_semantic": 0.21660752099958716,
+    "original_semantic": 0.21600114055396058
+  },
+  "folds": [
+    {
+      "source": "runs\\research_loop\\R25\\fold0_attribution.json",
+      "pairs": 246,
+      "alc": {
+        "combined": 0.17623271925676318,
+        "same_ridge_semantic": 0.17696886956968383,
+        "original_semantic": 0.17630140109762102
+      }
+    },
+    {
+      "source": "runs\\research_loop\\R25\\fold1_attribution.json",
+      "pairs": 246,
+      "alc": {
+        "combined": 0.23869018348164348,
+        "same_ridge_semantic": 0.2394353962934171,
+        "original_semantic": 0.23882268276434587
+      }
+    },
+    {
+      "source": "runs\\research_loop\\R25\\fold2_attribution.json",
+      "pairs": 245,
+      "alc": {
+        "combined": 0.2072522110766023,
+        "same_ridge_semantic": 0.20687032477385126,
+        "original_semantic": 0.2064129028535911
+      }
+    }
+  ],
+  "by_benchmark": [
+    {
+      "benchmark": "adaptivestep/formatted_tables",
+      "pairs": 2,
+      "combined": 0.2176588864324877,
+      "same_ridge_semantic": 0.2176588864324877,
+      "original_semantic": 0.21404152084418915
+    },
+    {
+      "benchmark": "ai2d_test/formatted_tables",
+      "pairs": 100,
+      "combined": 0.21891298616673105,
+      "same_ridge_semantic": 0.21972767990052364,
+      "original_semantic": 0.21859781655310573
+    },
+    {
+      "benchmark": "bird_sql/formatted_tables",
+      "pairs": 100,
+      "combined": 0.11555690391918295,
+      "same_ridge_semantic": 0.11634834032604276,
+      "original_semantic": 0.11612618468191345
+    },
+    {
+      "benchmark": "braveguard/formatted_tables",
+      "pairs": 2,
+      "combined": 0.13621658458000674,
+      "same_ridge_semantic": 0.13621658458000674,
+      "original_semantic": 0.13631371651864843
+    },
+    {
+      "benchmark": "ceval/formatted_tables",
+      "pairs": 11,
+      "combined": 0.22896144954290026,
+      "same_ridge_semantic": 0.22920094380284334,
+      "original_semantic": 0.2294829217966496
+    },
+    {
+      "benchmark": "edu_circuit_hw/formatted_tables",
+      "pairs": 6,
+      "combined": 0.2335715559964811,
+      "same_ridge_semantic": 0.2335715559964811,
+      "original_semantic": 0.2335715559964811
+    },
+    {
+      "benchmark": "engdesign/formatted_tables",
+      "pairs": 12,
+      "combined": 0.2292878022514139,
+      "same_ridge_semantic": 0.2292878022514139,
+      "original_semantic": 0.22824237613070383
+    },
+    {
+      "benchmark": "exploitgym/formatted_tables",
+      "pairs": 5,
+      "combined": 0.11113695110997511,
+      "same_ridge_semantic": 0.11096448377724485,
+      "original_semantic": 0.11121685058484407
+    },
+    {
+      "benchmark": "felm/formatted_tables",
+      "pairs": 1,
+      "combined": 0.2018110918143962,
+      "same_ridge_semantic": 0.20127651580892175,
+      "original_semantic": 0.20028749827454187
+    },
+    {
+      "benchmark": "healthadminbench/formatted_tables",
+      "pairs": 7,
+      "combined": 0.2527934616021897,
+      "same_ridge_semantic": 0.2555423814197598,
+      "original_semantic": 0.2537160473254201
+    },
+    {
+      "benchmark": "aegis/formatted_tables",
+      "pairs": 1,
+      "combined": 0.20898080810369113,
+      "same_ridge_semantic": 0.20898080810369113,
+      "original_semantic": 0.20931742201828596
+    },
+    {
+      "benchmark": "appworld/formatted_tables",
+      "pairs": 18,
+      "combined": 0.16874651447747324,
+      "same_ridge_semantic": 0.16874651447747324,
+      "original_semantic": 0.16757373547461546
+    },
+    {
+      "benchmark": "bbq/formatted_tables",
+      "pairs": 7,
+      "combined": 0.23865810739773408,
+      "same_ridge_semantic": 0.2423384473940554,
+      "original_semantic": 0.24250527145959086
+    },
+    {
+      "benchmark": "beavertails/formatted_tables",
+      "pairs": 4,
+      "combined": 0.17794973583715673,
+      "same_ridge_semantic": 0.17794973583715673,
+      "original_semantic": 0.17536769288401816
+    },
+    {
+      "benchmark": "cmmlu/formatted_tables",
+      "pairs": 22,
+      "combined": 0.21347248923684445,
+      "same_ridge_semantic": 0.2134286685240916,
+      "original_semantic": 0.2136922207578627
+    },
+    {
+      "benchmark": "devbench/formatted_tables",
+      "pairs": 19,
+      "combined": 0.21670355575766365,
+      "same_ridge_semantic": 0.22074435373191573,
+      "original_semantic": 0.2193353396710781
+    },
+    {
+      "benchmark": "editbench/formatted_tables",
+      "pairs": 44,
+      "combined": 0.2600394592058833,
+      "same_ridge_semantic": 0.25993459613179803,
+      "original_semantic": 0.25901017626525014
+    },
+    {
+      "benchmark": "emoji_attack/formatted_tables",
+      "pairs": 10,
+      "combined": 0.22607914324853678,
+      "same_ridge_semantic": 0.22607914324853678,
+      "original_semantic": 0.22433572771816318
+    },
+    {
+      "benchmark": "enginemt_qa/formatted_tables",
+      "pairs": 1,
+      "combined": 0.2041023138286735,
+      "same_ridge_semantic": 0.21199918802003614,
+      "original_semantic": 0.20042587366660378
+    },
+    {
+      "benchmark": "faithcot/formatted_tables",
+      "pairs": 4,
+      "combined": 0.2146768197504766,
+      "same_ridge_semantic": 0.2162012615784366,
+      "original_semantic": 0.21569507393917936
+    },
+    {
+      "benchmark": "fewshot_ttt_bbh/formatted_tables",
+      "pairs": 11,
+      "combined": 0.2616459341348174,
+      "same_ridge_semantic": 0.26305976518289087,
+      "original_semantic": 0.2605438738489115
+    },
+    {
+      "benchmark": "finegrain_t2i/formatted_tables",
+      "pairs": 5,
+      "combined": 0.2782154926551362,
+      "same_ridge_semantic": 0.2782154926551362,
+      "original_semantic": 0.2792453922122059
+    },
+    {
+      "benchmark": "hallusionbench/formatted_tables",
+      "pairs": 100,
+      "combined": 0.25240679080913647,
+      "same_ridge_semantic": 0.25297495139033216,
+      "original_semantic": 0.25291906541616044
+    },
+    {
+      "benchmark": "abstract_reason/formatted_tables",
+      "pairs": 1,
+      "combined": 0.26043384711783973,
+      "same_ridge_semantic": 0.26043384711783973,
+      "original_semantic": 0.2606869115597529
+    },
+    {
+      "benchmark": "agentic_review_perturbation/formatted_tables",
+      "pairs": 3,
+      "combined": 0.16397504707049249,
+      "same_ridge_semantic": 0.16397504707049249,
+      "original_semantic": 0.1612409803129371
+    },
+    {
+      "benchmark": "agi_elo/formatted_tables",
+      "pairs": 20,
+      "combined": 0.2087538237716228,
+      "same_ridge_semantic": 0.20898903650881273,
+      "original_semantic": 0.21007847468122692
+    },
+    {
+      "benchmark": "algotune/formatted_tables",
+      "pairs": 18,
+      "combined": 0.21819745567471804,
+      "same_ridge_semantic": 0.21819745567471804,
+      "original_semantic": 0.219554268318784
+    },
+    {
+      "benchmark": "alignment_faking/formatted_tables",
+      "pairs": 100,
+      "combined": 0.194069951670982,
+      "same_ridge_semantic": 0.194069951670982,
+      "original_semantic": 0.19145420630628568
+    },
+    {
+      "benchmark": "benger/formatted_tables",
+      "pairs": 25,
+      "combined": 0.17359442345583692,
+      "same_ridge_semantic": 0.17359442345583692,
+      "original_semantic": 0.17359442345583692
+    },
+    {
+      "benchmark": "bertaqa/formatted_tables",
+      "pairs": 6,
+      "combined": 0.19962351689286875,
+      "same_ridge_semantic": 0.2010723604074498,
+      "original_semantic": 0.2030875441875963
+    },
+    {
+      "benchmark": "cellverse/formatted_tables",
+      "pairs": 1,
+      "combined": 0.3288581731241169,
+      "same_ridge_semantic": 0.3288581731241169,
+      "original_semantic": 0.32921613926702886
+    },
+    {
+      "benchmark": "cruxeval/formatted_tables",
+      "pairs": 31,
+      "combined": 0.24617727366690462,
+      "same_ridge_semantic": 0.24170522325176924,
+      "original_semantic": 0.24299623211769367
+    },
+    {
+      "benchmark": "dave/formatted_tables",
+      "pairs": 8,
+      "combined": 0.2388802734023796,
+      "same_ridge_semantic": 0.24283953626036742,
+      "original_semantic": 0.24546945798091127
+    },
+    {
+      "benchmark": "egoschema/formatted_tables",
+      "pairs": 11,
+      "combined": 0.2650664196830056,
+      "same_ridge_semantic": 0.2650664196830056,
+      "original_semantic": 0.2660853672491783
+    },
+    {
+      "benchmark": "evouna/formatted_tables",
+      "pairs": 5,
+      "combined": 0.213441833321478,
+      "same_ridge_semantic": 0.213441833321478,
+      "original_semantic": 0.21451042771418943
+    },
+    {
+      "benchmark": "financebench/formatted_tables",
+      "pairs": 16,
+      "combined": 0.19517934786699204,
+      "same_ridge_semantic": 0.19517934786699204,
+      "original_semantic": 0.1965032727527379
+    }
+  ],
+  "comparisons": {
+    "same_ridge_semantic": {
+      "pair_equal_delta": -0.0003675077130268489,
+      "fold_deltas": [
+        -0.0007361503129206526,
+        -0.0007452128117736156,
+        0.0003818863027510444
+      ],
+      "benchmarks_improved": 13,
+      "benchmarks_total": 36,
+      "worst_benchmark": "cruxeval/formatted_tables",
+      "worst_benchmark_delta": 0.004472050415135376,
+      "cluster_bootstrap_ci95": [
+        -0.0008371969189481948,
+        0.0002278357498953032
+      ]
+    },
+    "original_semantic": {
+      "pair_equal_delta": 0.00021185883072172285,
+      "fold_deltas": [
+        -6.868184085784268e-05,
+        -0.00013249928270239741,
+        0.0008393082230112037
+      ],
+      "benchmarks_improved": 21,
+      "benchmarks_total": 36,
+      "worst_benchmark": "enginemt_qa/formatted_tables",
+      "worst_benchmark_delta": 0.003676440162069722,
+      "cluster_bootstrap_ci95": [
+        -0.0005569931372125059,
+        0.0010248327547271584
+      ]
+    }
+  },
+  "components": {
+    "added_field_delta": -0.0003675077130268489,
+    "regularization_delta": 0.0005793665437485718,
+    "net_delta": 0.00021185883072172285
+  },
+  "elapsed_seconds": 2.3777050971984863
+}

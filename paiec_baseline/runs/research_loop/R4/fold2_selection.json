@@ -1,0 +1,52 @@
+{
+  "fold": 2,
+  "selection_benchmarks": [
+    "hallusionbench/formatted_tables",
+    "adaptivestep/formatted_tables",
+    "edu_circuit_hw/formatted_tables"
+  ],
+  "selection_pairs": 33,
+  "heldout_benchmarks": [
+    "abstract_reason/formatted_tables",
+    "agentic_review_perturbation/formatted_tables",
+    "agi_elo/formatted_tables",
+    "algotune/formatted_tables",
+    "alignment_faking/formatted_tables",
+    "benger/formatted_tables",
+    "bertaqa/formatted_tables",
+    "cellverse/formatted_tables",
+    "cruxeval/formatted_tables",
+    "dave/formatted_tables",
+    "egoschema/formatted_tables",
+    "evouna/formatted_tables",
+    "financebench/formatted_tables"
+  ],
+  "ridge_grid": [
+    null,
+    10.0,
+    1.0,
+    0.1,
+    0.01
+  ],
+  "inner_alc": {
+    "raw_full": [
+      0.23879841753941508,
+      0.2386647738262685,
+      0.23794485953669423,
+      0.23864100272884656,
+      0.2524263448658241
+    ],
+    "hidden": [
+      0.23879841753941508,
+      0.2388112059932276,
+      0.23900471280270305,
+      0.24166732056587475,
+      0.2529671155265527
+    ]
+  },
+  "selected_ridge": {
+    "raw_full": 1.0,
+    "hidden": null
+  },
+  "weight_sha256": "3346688d75c404dcb5af4cc4c46f01070620a3d31bee282a874c597c105dd483"
+}

@@ -1,0 +1,819 @@
+{
+  "scope": "Input-only sample, not performance or information-theoretic bound",
+  "seed": 123,
+  "max_items_per_benchmark": 100,
+  "benchmarks": [
+    {
+      "benchmark": "abstract_reason/formatted_tables",
+      "items": 100,
+      "modality": [
+        "text"
+      ],
+      "raw_unique": 100,
+      "canonical_unique": 100,
+      "window_unique": 100,
+      "over126": 89,
+      "over254": 81,
+      "token_quantiles": [
+        80.0,
+        1151.5,
+        1519.5,
+        1913.75,
+        4230.45,
+        6844.0
+      ],
+      "image_reference_syntax": 0,
+      "empty_canonical": 0
+    },
+    {
+      "benchmark": "adaptivestep/formatted_tables",
+      "items": 100,
+      "modality": [
+        "text"
+      ],
+      "raw_unique": 100,
+      "canonical_unique": 100,
+      "window_unique": 100,
+      "over126": 24,
+      "over254": 15,
+      "token_quantiles": [
+        20.0,
+        57.75,
+        80.0,
+        114.75,
+        1482.6999999999998,
+        1991.0
+      ],
+      "image_reference_syntax": 1,
+      "empty_canonical": 0
+    },
+    {
+      "benchmark": "aegis/formatted_tables",
+      "items": 100,
+      "modality": [
+        "text"
+      ],
+      "raw_unique": 100,
+      "canonical_unique": 100,
+      "window_unique": 100,
+      "over126": 0,
+      "over254": 0,
+      "token_quantiles": [
+        5.0,
+        9.0,
+        13.0,
+        22.0,
+        40.0,
+        66.0
+      ],
+      "image_reference_syntax": 0,
+      "empty_canonical": 0
+    },
+    {
+      "benchmark": "agentic_review_perturbation/formatted_tables",
+      "items": 100,
+      "modality": [
+        "text"
+      ],
+      "raw_unique": 6,
+      "canonical_unique": 6,
+      "window_unique": 6,
+      "over126": 100,
+      "over254": 100,
+      "token_quantiles": [
+        4827.0,
+        5037.0,
+        5531.0,
+        6230.0,
+        8012.0,
+        8012.0
+      ],
+      "image_reference_syntax": 81,
+      "empty_canonical": 0
+    },
+    {
+      "benchmark": "agi_elo/formatted_tables",
+      "items": 100,
+      "modality": [
+        "text"
+      ],
+      "raw_unique": 100,
+      "canonical_unique": 100,
+      "window_unique": 100,
+      "over126": 21,
+      "over254": 11,
+      "token_quantiles": [
+        24.0,
+        44.0,
+        71.0,
+        106.0,
+        336.5,
+        489.0
+      ],
+      "image_reference_syntax": 0,
+      "empty_canonical": 0
+    },
+    {
+      "benchmark": "ai2d_test/formatted_tables",
+      "items": 100,
+      "modality": [
+        "text",
+        "image"
+      ],
+      "raw_unique": 100,
+      "canonical_unique": 100,
+      "window_unique": 100,
+      "over126": 0,
+      "over254": 0,
+      "token_quantiles": [
+        43.0,
+        50.0,
+        55.0,
+        61.25,
+        77.05,
+        89.0
+      ],
+      "image_reference_syntax": 100,
+      "empty_canonical": 0
+    },
+    {
+      "benchmark": "algotune/formatted_tables",
+      "items": 100,
+      "modality": [
+        "text"
+      ],
+      "raw_unique": 100,
+      "canonical_unique": 100,
+      "window_unique": 100,
+      "over126": 99,
+      "over254": 78,
+      "token_quantiles": [
+        110.0,
+        258.5,
+        334.0,
+        492.5,
+        935.0,
+        1716.0
+      ],
+      "image_reference_syntax": 4,
+      "empty_canonical": 0
+    },
+    {
+      "benchmark": "alignment_faking/formatted_tables",
+      "items": 100,
+      "modality": [
+        "text"
+      ],
+      "raw_unique": 100,
+      "canonical_unique": 100,
+      "window_unique": 100,
+      "over126": 0,
+      "over254": 0,
+      "token_quantiles": [
+        22.0,
+        33.0,
+        108.5,
+        112.0,
+        117.05,
+        126.0
+      ],
+      "image_reference_syntax": 1,
+      "empty_canonical": 0
+    },
+    {
+      "benchmark": "appworld/formatted_tables",
+      "items": 100,
+      "modality": [
+        "text",
+        "gui_screenshot"
+      ],
+      "raw_unique": 97,
+      "canonical_unique": 97,
+      "window_unique": 97,
+      "over126": 0,
+      "over254": 0,
+      "token_quantiles": [
+        10.0,
+        21.75,
+        33.5,
+        53.75,
+        88.69999999999996,
+        114.0
+      ],
+      "image_reference_syntax": 0,
+      "empty_canonical": 0
+    },
+    {
+      "benchmark": "bbq/formatted_tables",
+      "items": 100,
+      "modality": [
+        "text"
+      ],
+      "raw_unique": 100,
+      "canonical_unique": 100,
+      "window_unique": 100,
+      "over126": 1,
+      "over254": 0,
+      "token_quantiles": [
+        22.0,
+        51.75,
+        68.5,
+        88.0,
+        114.14999999999999,
+        144.0
+      ],
+      "image_reference_syntax": 0,
+      "empty_canonical": 0
+    },
+    {
+      "benchmark": "beavertails/formatted_tables",
+      "items": 100,
+      "modality": [
+        "text"
+      ],
+      "raw_unique": 75,
+      "canonical_unique": 75,
+      "window_unique": 75,
+      "over126": 0,
+      "over254": 0,
+      "token_quantiles": [
+        7.0,
+        15.0,
+        19.0,
+        23.0,
+        37.0,
+        61.0
+      ],
+      "image_reference_syntax": 0,
+      "empty_canonical": 0
+    },
+    {
+      "benchmark": "benger/formatted_tables",
+      "items": 100,
+      "modality": [
+        "text"
+      ],
+      "raw_unique": 100,
+      "canonical_unique": 100,
+      "window_unique": 4,
+      "over126": 100,
+      "over254": 100,
+      "token_quantiles": [
+        265.0,
+        747.25,
+        870.5,
+        978.0,
+        1008.25,
+        1025.0
+      ],
+      "image_reference_syntax": 0,
+      "empty_canonical": 0
+    },
+    {
+      "benchmark": "bertaqa/formatted_tables",
+      "items": 100,
+      "modality": [
+        "text"
+      ],
+      "raw_unique": 100,
+      "canonical_unique": 100,
+      "window_unique": 100,
+      "over126": 100,
+      "over254": 73,
+      "token_quantiles": [
+        210.0,
+        251.25,
+        304.5,
+        348.0,
+        382.25,
+        435.0
+      ],
+      "image_reference_syntax": 0,
+      "empty_canonical": 0
+    },
+    {
+      "benchmark": "bird_sql/formatted_tables",
+      "items": 100,
+      "modality": [
+        "text"
+      ],
+      "raw_unique": 100,
+      "canonical_unique": 100,
+      "window_unique": 100,
+      "over126": 100,
+      "over254": 10,
+      "token_quantiles": [
+        169.0,
+        189.0,
+        211.5,
+        239.0,
+        265.05,
+        308.0
+      ],
+      "image_reference_syntax": 14,
+      "empty_canonical": 0
+    },
+    {
+      "benchmark": "braveguard/formatted_tables",
+      "items": 100,
+      "modality": [
+        "text"
+      ],
+      "raw_unique": 100,
+      "canonical_unique": 100,
+      "window_unique": 100,
+      "over126": 100,
+      "over254": 100,
+      "token_quantiles": [
+        404.0,
+        532.0,
+        551.0,
+        571.0,
+        674.05,
+        852.0
+      ],
+      "image_reference_syntax": 9,
+      "empty_canonical": 0
+    },
+    {
+      "benchmark": "cellverse/formatted_tables",
+      "items": 100,
+      "modality": [
+        "text"
+      ],
+      "raw_unique": 100,
+      "canonical_unique": 100,
+      "window_unique": 100,
+      "over126": 100,
+      "over254": 100,
+      "token_quantiles": [
+        575.0,
+        778.5,
+        951.5,
+        975.25,
+        994.05,
+        1015.0
+      ],
+      "image_reference_syntax": 0,
+      "empty_canonical": 0
+    },
+    {
+      "benchmark": "ceval/formatted_tables",
+      "items": 100,
+      "modality": [
+        "text"
+      ],
+      "raw_unique": 100,
+      "canonical_unique": 100,
+      "window_unique": 100,
+      "over126": 21,
+      "over254": 3,
+      "token_quantiles": [
+        31.0,
+        57.0,
+        81.5,
+        114.5,
+        211.29999999999998,
+        373.0
+      ],
+      "image_reference_syntax": 0,
+      "empty_canonical": 0
+    },
+    {
+      "benchmark": "cmmlu/formatted_tables",
+      "items": 100,
+      "modality": [
+        "text"
+      ],
+      "raw_unique": 100,
+      "canonical_unique": 100,
+      "window_unique": 100,
+      "over126": 56,
+      "over254": 1,
+      "token_quantiles": [
+        90.0,
+        111.0,
+        129.5,
+        155.25,
+        219.14999999999998,
+        270.0
+      ],
+      "image_reference_syntax": 0,
+      "empty_canonical": 0
+    },
+    {
+      "benchmark": "cruxeval/formatted_tables",
+      "items": 100,
+      "modality": [
+        "text"
+      ],
+      "raw_unique": 100,
+      "canonical_unique": 100,
+      "window_unique": 100,
+      "over126": 100,
+      "over254": 60,
+      "token_quantiles": [
+        138.0,
+        231.75,
+        267.0,
+        298.25,
+        369.1,
+        442.0
+      ],
+      "image_reference_syntax": 0,
+      "empty_canonical": 0
+    },
+    {
+      "benchmark": "dave/formatted_tables",
+      "items": 100,
+      "modality": [
+        "text",
+        "audio",
+        "video"
+      ],
+      "raw_unique": 100,
+      "canonical_unique": 100,
+      "window_unique": 100,
+      "over126": 75,
+      "over254": 0,
+      "token_quantiles": [
+        110.0,
+        126.75,
+        131.0,
+        134.25,
+        143.0,
+        147.0
+      ],
+      "image_reference_syntax": 0,
+      "empty_canonical": 0
+    },
+    {
+      "benchmark": "devbench/formatted_tables",
+      "items": 100,
+      "modality": [
+        "image",
+        "text"
+      ],
+      "raw_unique": 100,
+      "canonical_unique": 90,
+      "window_unique": 90,
+      "over126": 0,
+      "over254": 0,
+      "token_quantiles": [
+        22.0,
+        22.0,
+        36.0,
+        38.5,
+        43.05,
+        50.0
+      ],
+      "image_reference_syntax": 100,
+      "empty_canonical": 0
+    },
+    {
+      "benchmark": "editbench/formatted_tables",
+      "items": 100,
+      "modality": [
+        "text"
+      ],
+      "raw_unique": 100,
+      "canonical_unique": 100,
+      "window_unique": 67,
+      "over126": 99,
+      "over254": 96,
+      "token_quantiles": [
+        120.0,
+        711.0,
+        1407.5,
+        3807.25,
+        6864.25,
+        9563.0
+      ],
+      "image_reference_syntax": 20,
+      "empty_canonical": 0
+    },
+    {
+      "benchmark": "edu_circuit_hw/formatted_tables",
+      "items": 100,
+      "modality": [
+        "text",
+        "image"
+      ],
+      "raw_unique": 100,
+      "canonical_unique": 1,
+      "window_unique": 1,
+      "over126": 0,
+      "over254": 0,
+      "token_quantiles": [
+        41.0,
+        41.0,
+        41.0,
+        41.0,
+        41.0,
+        41.0
+      ],
+      "image_reference_syntax": 100,
+      "empty_canonical": 0
+    },
+    {
+      "benchmark": "egoschema/formatted_tables",
+      "items": 100,
+      "modality": [
+        "text"
+      ],
+      "raw_unique": 100,
+      "canonical_unique": 100,
+      "window_unique": 100,
+      "over126": 100,
+      "over254": 100,
+      "token_quantiles": [
+        327.0,
+        394.75,
+        449.5,
+        2220.0,
+        2397.3,
+        2434.0
+      ],
+      "image_reference_syntax": 3,
+      "empty_canonical": 0
+    },
+    {
+      "benchmark": "emoji_attack/formatted_tables",
+      "items": 100,
+      "modality": [
+        "text"
+      ],
+      "raw_unique": 100,
+      "canonical_unique": 100,
+      "window_unique": 100,
+      "over126": 71,
+      "over254": 1,
+      "token_quantiles": [
+        9.0,
+        108.5,
+        157.5,
+        167.0,
+        182.14999999999998,
+        286.0
+      ],
+      "image_reference_syntax": 0,
+      "empty_canonical": 0
+    },
+    {
+      "benchmark": "engdesign/formatted_tables",
+      "items": 100,
+      "modality": [
+        "text"
+      ],
+      "raw_unique": 100,
+      "canonical_unique": 100,
+      "window_unique": 96,
+      "over126": 100,
+      "over254": 100,
+      "token_quantiles": [
+        321.0,
+        500.0,
+        569.0,
+        609.5,
+        637.3,
+        876.0
+      ],
+      "image_reference_syntax": 16,
+      "empty_canonical": 0
+    },
+    {
+      "benchmark": "enginemt_qa/formatted_tables",
+      "items": 100,
+      "modality": [
+        "text",
+        "time_series"
+      ],
+      "raw_unique": 7,
+      "canonical_unique": 7,
+      "window_unique": 7,
+      "over126": 0,
+      "over254": 0,
+      "token_quantiles": [
+        25.0,
+        30.0,
+        67.0,
+        79.0,
+        79.0,
+        79.0
+      ],
+      "image_reference_syntax": 0,
+      "empty_canonical": 0
+    },
+    {
+      "benchmark": "evouna/formatted_tables",
+      "items": 100,
+      "modality": [
+        "text"
+      ],
+      "raw_unique": 100,
+      "canonical_unique": 100,
+      "window_unique": 100,
+      "over126": 0,
+      "over254": 0,
+      "token_quantiles": [
+        6.0,
+        9.0,
+        10.0,
+        14.0,
+        24.249999999999986,
+        49.0
+      ],
+      "image_reference_syntax": 0,
+      "empty_canonical": 0
+    },
+    {
+      "benchmark": "exploitgym/formatted_tables",
+      "items": 100,
+      "modality": [
+        "text"
+      ],
+      "raw_unique": 97,
+      "canonical_unique": 97,
+      "window_unique": 97,
+      "over126": 100,
+      "over254": 100,
+      "token_quantiles": [
+        716.0,
+        739.0,
+        772.5,
+        833.25,
+        912.3,
+        962.0
+      ],
+      "image_reference_syntax": 100,
+      "empty_canonical": 0
+    },
+    {
+      "benchmark": "faithcot/formatted_tables",
+      "items": 100,
+      "modality": [
+        "text"
+      ],
+      "raw_unique": 92,
+      "canonical_unique": 92,
+      "window_unique": 92,
+      "over126": 91,
+      "over254": 24,
+      "token_quantiles": [
+        109.0,
+        139.75,
+        163.0,
+        250.0,
+        386.0,
+        769.0
+      ],
+      "image_reference_syntax": 0,
+      "empty_canonical": 0
+    },
+    {
+      "benchmark": "felm/formatted_tables",
+      "items": 100,
+      "modality": [
+        "text"
+      ],
+      "raw_unique": 86,
+      "canonical_unique": 86,
+      "window_unique": 86,
+      "over126": 1,
+      "over254": 0,
+      "token_quantiles": [
+        5.0,
+        11.75,
+        16.0,
+        35.75,
+        78.05,
+        130.0
+      ],
+      "image_reference_syntax": 0,
+      "empty_canonical": 0
+    },
+    {
+      "benchmark": "fewshot_ttt_bbh/formatted_tables",
+      "items": 100,
+      "modality": [
+        "text"
+      ],
+      "raw_unique": 100,
+      "canonical_unique": 100,
+      "window_unique": 99,
+      "over126": 34,
+      "over254": 2,
+      "token_quantiles": [
+        9.0,
+        33.75,
+        84.5,
+        149.25,
+        214.0,
+        562.0
+      ],
+      "image_reference_syntax": 0,
+      "empty_canonical": 0
+    },
+    {
+      "benchmark": "financebench/formatted_tables",
+      "items": 100,
+      "modality": [
+        "text"
+      ],
+      "raw_unique": 100,
+      "canonical_unique": 100,
+      "window_unique": 100,
+      "over126": 1,
+      "over254": 0,
+      "token_quantiles": [
+        9.0,
+        20.75,
+        30.0,
+        42.25,
+        77.44999999999997,
+        173.0
+      ],
+      "image_reference_syntax": 0,
+      "empty_canonical": 0
+    },
+    {
+      "benchmark": "finegrain_t2i/formatted_tables",
+      "items": 100,
+      "modality": [
+        "text",
+        "image"
+      ],
+      "raw_unique": 100,
+      "canonical_unique": 100,
+      "window_unique": 100,
+      "over126": 0,
+      "over254": 0,
+      "token_quantiles": [
+        10.0,
+        20.0,
+        23.0,
+        27.0,
+        34.05,
+        76.0
+      ],
+      "image_reference_syntax": 3,
+      "empty_canonical": 0
+    },
+    {
+      "benchmark": "hallusionbench/formatted_tables",
+      "items": 100,
+      "modality": [
+        "text",
+        "image"
+      ],
+      "raw_unique": 99,
+      "canonical_unique": 96,
+      "window_unique": 95,
+      "over126": 0,
+      "over254": 0,
+      "token_quantiles": [
+        19.0,
+        28.75,
+        33.5,
+        39.0,
+        45.0,
+        48.0
+      ],
+      "image_reference_syntax": 95,
+      "empty_canonical": 0
+    },
+    {
+      "benchmark": "healthadminbench/formatted_tables",
+      "items": 100,
+      "modality": [
+        "text",
+        "image"
+      ],
+      "raw_unique": 96,
+      "canonical_unique": 96,
+      "window_unique": 96,
+      "over126": 100,
+      "over254": 65,
+      "token_quantiles": [
+        153.0,
+        197.0,
+        382.0,
+        632.25,
+        698.55,
+        787.0
+      ],
+      "image_reference_syntax": 32,
+      "empty_canonical": 0
+    }
+  ],
+  "totals": {
+    "items": 3600,
+    "raw_unique": 3355,
+    "canonical_unique": 3243,
+    "window_unique": 3108,
+    "over126": 1783,
+    "over254": 1220,
+    "image_reference_syntax": 679,
+    "empty_canonical": 0
+  }
+}

@@ -1,0 +1,9 @@
+# R24b: explicitly preserve structured item categories in isolated-pair adaptation
+
+Registered after input-onlyaudit, before predictor scoring. Corpusmetadata uses semicolonkey=value strings, not JSONobjects. Raw2900/3600nonempty and25varyingbenchmarks include identifiers. A declared generic-field whitelist leaves1900nonempty items and18varyingbenchmarks, including category,difficulty,task,language,visual_input. No response labels were used to choose fields. IDs,paths,sourceprovenance,revision,date,outcome-looking and unreviewedfailure_mode fields are excluded; see metadata_features.py exact21keys. Hiddenunknown fields fall back toempty.
+
+This returns to the original isolated-pair gate. Keep smoothed2intercept, R7semanticvectors, exactsameepisodes. Test metadata-only256signedhash(field=value), and concatenate semantic384+metadata256 without rescalingsemanticcoordinates. Each metadata vector isunitnormorzero. Empty/constant metadata must exactlyreduce the centered combinedprediction tosemantic-only at the same ridge. No benchmarkname/IDfeature. A categorical difficulty value has no assumed universal numeric scale.
+
+Select eachnewmethod's ridge off/16/4/1/.25 on outer-trainingseed73/max25pairs, freeze threefoldselections before outerseed0. Compare originalR7semantic (its frozen selection), semantic matched-windowlexical,smoothed2,training-selectedsmoothed. Same737pairs and64evalitems. Permute metadata vectors only among CURRENT acquired rows eighttimes, leaving semanticfeatures,labels andquerymetadata fixed. This preserves feature scales while breaking the added correspondence.
+
+If combinedbeatsstrongbaselines in allfolds and beats the metadata-permutation control, verify seeds1/2 and examine whichbudget/benchmarks contribute. Ifmetadata-onlybeatscombined, the extra semantic geometry may be unnecessary and needs its owncontrol. No promotion solelyonoverallpointestimate; frozen0.005andallothergates apply. Noindependentblindclaim.

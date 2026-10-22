@@ -1,0 +1,7 @@
+# R46: frozen equal ensemble, outer paired evaluation
+
+R45 source-only entry condition passed in all three source pools for pair-equal, benchmark-equal and permuted-correspondence comparisons. Execute its predeclared next step without new selection. Keep original semantic/metadata and lexical/metadata predictors, ridge4/4/1,1,16, fixed1:1 probability average, same original128token window. No R42 template removal, no new encodings or weights.
+
+All5242eligiblepairs, original seeds0/1/2,31nested acquisition labels,64queryitems and all recorded responses. Query permutation control now permutes distinct query-item predictions, preserving repeated-response membership and weighting; four deterministic permutations, mean losses. It is a destructive diagnostic, not a deployed strategy. Report exact Brier averaging identity/disagreement dividend. Controls: R25, standalone lexical, smoothed2, training-selected smoothing[2,2,4], empirical and permutation. Replay every original R31 per-benchmark/budget score to1e-7.
+
+Benchmark-cluster paired bootstrap, all-fold signs, per-budget/BM results and worst regression. Original gate0.005 against BOTH simple baselines, benchmark-equal improvement, upperCI<0, no unexplained>.03regression. Incremental mechanism additionally requires beating R25 and permutation with allfold/CI criteria. Public folds have been reused; no new blind test. If promising, full-query confirmation required, followed by separately audited packaging. If fails, do not tune mixture weight or choose a favorable subset/seed.

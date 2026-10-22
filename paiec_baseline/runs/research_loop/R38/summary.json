@@ -1,0 +1,490 @@
+{
+  "scope": "retrospective full-rate similarity proxies,not Brier/ALC or a deployed predictor; conditional fixed cohorts",
+  "targets": 5200,
+  "extra_token_coverage": 0.8901923076923077,
+  "mean_selected_peer_count": 1.634423076923077,
+  "pair_equal_proxy": {
+    "configuration": 0.1231576158455187,
+    "name": 0.13461785227066123,
+    "all": 0.13588016490130583,
+    "permuted_configuration": 0.13576906756763976,
+    "configuration_mean_error": 0.10973668838496475,
+    "name_mean_error": 0.10077455895758347,
+    "all_mean_error": 0.09069556365789115,
+    "permuted_configuration_mean_error": 0.12149761176167365
+  },
+  "benchmark_equal_proxy": {
+    "configuration": 0.053456082497161626,
+    "name": 0.061137190377284274,
+    "all": 0.060708592439192216,
+    "permuted_configuration": 0.06181004321280826,
+    "configuration_mean_error": 0.04737388040780885,
+    "name_mean_error": 0.04922839664102748,
+    "all_mean_error": 0.04712713488302657,
+    "permuted_configuration_mean_error": 0.054177573219317106
+  },
+  "folds": {
+    "0": {
+      "configuration": 0.03707983788665236,
+      "name": 0.040626961469144185,
+      "all": 0.04094436457108364,
+      "permuted_configuration": 0.04064620037287058,
+      "configuration_mean_error": 0.02753921720105319,
+      "name_mean_error": 0.028249515213433746,
+      "all_mean_error": 0.02826508081508117,
+      "permuted_configuration_mean_error": 0.030989093375932378
+    },
+    "1": {
+      "configuration": 0.026724075049258337,
+      "name": 0.028255121812705956,
+      "all": 0.028937725259625614,
+      "permuted_configuration": 0.029446068307322673,
+      "configuration_mean_error": 0.02084948642990468,
+      "name_mean_error": 0.019418876501076158,
+      "all_mean_error": 0.019394463072487617,
+      "permuted_configuration_mean_error": 0.022300127430299223
+    },
+    "2": {
+      "configuration": 0.13923780974362016,
+      "name": 0.1522653893579812,
+      "all": 0.15366412430459686,
+      "permuted_configuration": 0.15351856024547805,
+      "configuration_mean_error": 0.12482413472575674,
+      "name_mean_error": 0.11433178807904834,
+      "all_mean_error": 0.10247205962190886,
+      "permuted_configuration_mean_error": 0.13822132080425076
+    }
+  },
+  "by_benchmark": [
+    {
+      "benchmark": "adaptivestep/formatted_tables",
+      "fold": 0,
+      "targets": 2,
+      "configuration": 0.005728615860377297,
+      "name": 0.005728615860377297,
+      "all": 0.005728615860377297,
+      "permuted_configuration": 0.005728615860377297,
+      "configuration_mean_error": 0.005728615860377297,
+      "name_mean_error": 0.005728615860377297,
+      "all_mean_error": 0.005728615860377297,
+      "permuted_configuration_mean_error": 0.005728615860377297
+    },
+    {
+      "benchmark": "ai2d_test/formatted_tables",
+      "fold": 0,
+      "targets": 254,
+      "configuration": 0.04532066467738593,
+      "name": 0.04746838818707273,
+      "all": 0.04746838818707273,
+      "permuted_configuration": 0.04702523745637625,
+      "configuration_mean_error": 0.03137492668629118,
+      "name_mean_error": 0.03164560561175129,
+      "all_mean_error": 0.03164560561175129,
+      "permuted_configuration_mean_error": 0.03330566951458425
+    },
+    {
+      "benchmark": "bird_sql/formatted_tables",
+      "fold": 0,
+      "targets": 120,
+      "configuration": 0.01620459319272977,
+      "name": 0.021429355281207135,
+      "all": 0.022516460905349794,
+      "permuted_configuration": 0.02214502288022976,
+      "configuration_mean_error": 0.014326926511774118,
+      "name_mean_error": 0.01495766175125743,
+      "all_mean_error": 0.015010973936899864,
+      "permuted_configuration_mean_error": 0.01969781597400834
+    },
+    {
+      "benchmark": "braveguard/formatted_tables",
+      "fold": 0,
+      "targets": 2,
+      "configuration": 0.5329555147537192,
+      "name": 0.5329555147537192,
+      "all": 0.5329555147537192,
+      "permuted_configuration": 0.5329555147537192,
+      "configuration_mean_error": 0.5329555147537192,
+      "name_mean_error": 0.5329555147537192,
+      "all_mean_error": 0.5329555147537192,
+      "permuted_configuration_mean_error": 0.5329555147537192
+    },
+    {
+      "benchmark": "ceval/formatted_tables",
+      "fold": 0,
+      "targets": 4,
+      "configuration": 0.06007472105635394,
+      "name": 0.06007472105635394,
+      "all": 0.06007472105635394,
+      "permuted_configuration": 0.06041684605460606,
+      "configuration_mean_error": 0.04793067885793236,
+      "name_mean_error": 0.04793067885793236,
+      "all_mean_error": 0.04793067885793236,
+      "permuted_configuration_mean_error": 0.050798756614661954
+    },
+    {
+      "benchmark": "edu_circuit_hw/formatted_tables",
+      "fold": 0,
+      "targets": 6,
+      "configuration": 0.04261146622049958,
+      "name": 0.06813094763215086,
+      "all": 0.06813094763215086,
+      "permuted_configuration": 0.07738070377724272,
+      "configuration_mean_error": 0.03149490399457467,
+      "name_mean_error": 0.04655655992493257,
+      "all_mean_error": 0.04655655992493257,
+      "permuted_configuration_mean_error": 0.06174029310893325
+    },
+    {
+      "benchmark": "engdesign/formatted_tables",
+      "fold": 0,
+      "targets": 12,
+      "configuration": 0.009956289085835584,
+      "name": 0.01045484606050548,
+      "all": 0.01045484606050548,
+      "permuted_configuration": 0.008876312433217523,
+      "configuration_mean_error": 0.0075343937730748475,
+      "name_mean_error": 0.006969897373670317,
+      "all_mean_error": 0.006969897373670317,
+      "permuted_configuration_mean_error": 0.007603085131911327
+    },
+    {
+      "benchmark": "exploitgym/formatted_tables",
+      "fold": 0,
+      "targets": 4,
+      "configuration": 0.010466513626320456,
+      "name": 0.03421624167580822,
+      "all": 0.03421624167580822,
+      "permuted_configuration": 0.03848889929396873,
+      "configuration_mean_error": 0.010466513626320456,
+      "name_mean_error": 0.022810827783872147,
+      "all_mean_error": 0.022810827783872147,
+      "permuted_configuration_mean_error": 0.030921606471660465
+    },
+    {
+      "benchmark": "healthadminbench/formatted_tables",
+      "fold": 0,
+      "targets": 7,
+      "configuration": 0.007019413416944279,
+      "name": 0.011487425697302238,
+      "all": 0.011487425697302238,
+      "permuted_configuration": 0.008569154174015282,
+      "configuration_mean_error": 0.005688075641779345,
+      "name_mean_error": 0.00776215733664293,
+      "all_mean_error": 0.00776215733664293,
+      "permuted_configuration_mean_error": 0.0067444157303982386
+    },
+    {
+      "benchmark": "appworld/formatted_tables",
+      "fold": 1,
+      "targets": 18,
+      "configuration": 0.08089330984867546,
+      "name": 0.08179543997207814,
+      "all": 0.09780937925287403,
+      "permuted_configuration": 0.09611226099355255,
+      "configuration_mean_error": 0.0635296475768144,
+      "name_mean_error": 0.06224967510184351,
+      "all_mean_error": 0.06549889115257902,
+      "permuted_configuration_mean_error": 0.08656605984439159
+    },
+    {
+      "benchmark": "bbq/formatted_tables",
+      "fold": 1,
+      "targets": 7,
+      "configuration": 0.00685946398624714,
+      "name": 0.007080863149037252,
+      "all": 0.007080863149037252,
+      "permuted_configuration": 0.007166798664275191,
+      "configuration_mean_error": 0.005173578540174784,
+      "name_mean_error": 0.005168270540480536,
+      "all_mean_error": 0.005168270540480536,
+      "permuted_configuration_mean_error": 0.005684007793612882
+    },
+    {
+      "benchmark": "beavertails/formatted_tables",
+      "fold": 1,
+      "targets": 4,
+      "configuration": 0.06313397581254723,
+      "name": 0.1258843537414966,
+      "all": 0.1258843537414966,
+      "permuted_configuration": 0.13650085034013607,
+      "configuration_mean_error": 0.04220867976820359,
+      "name_mean_error": 0.08392290249433107,
+      "all_mean_error": 0.08392290249433107,
+      "permuted_configuration_mean_error": 0.11504771352985638
+    },
+    {
+      "benchmark": "cmmlu/formatted_tables",
+      "fold": 1,
+      "targets": 22,
+      "configuration": 0.0966349014135937,
+      "name": 0.08861438665969844,
+      "all": 0.08861438665969844,
+      "permuted_configuration": 0.09614258043973938,
+      "configuration_mean_error": 0.09006047406385281,
+      "name_mean_error": 0.059083018776389835,
+      "all_mean_error": 0.059083018776389835,
+      "permuted_configuration_mean_error": 0.07088641756271959
+    },
+    {
+      "benchmark": "editbench/formatted_tables",
+      "fold": 1,
+      "targets": 44,
+      "configuration": 0.015416367897077772,
+      "name": 0.013471390863366172,
+      "all": 0.013471390863366172,
+      "permuted_configuration": 0.013509555430851724,
+      "configuration_mean_error": 0.011853391164733752,
+      "name_mean_error": 0.008980927242244113,
+      "all_mean_error": 0.008980927242244113,
+      "permuted_configuration_mean_error": 0.01079498095235621
+    },
+    {
+      "benchmark": "emoji_attack/formatted_tables",
+      "fold": 1,
+      "targets": 4,
+      "configuration": 0.03068852786782816,
+      "name": 0.03068852786782816,
+      "all": 0.03068852786782816,
+      "permuted_configuration": 0.03027180943306159,
+      "configuration_mean_error": 0.02715993784612706,
+      "name_mean_error": 0.02715993784612706,
+      "all_mean_error": 0.02715993784612706,
+      "permuted_configuration_mean_error": 0.027194472927766666
+    },
+    {
+      "benchmark": "faithcot/formatted_tables",
+      "fold": 1,
+      "targets": 4,
+      "configuration": 0.02557720788467681,
+      "name": 0.02557720788467681,
+      "all": 0.02557720788467681,
+      "permuted_configuration": 0.02557720788467681,
+      "configuration_mean_error": 0.017051471923117886,
+      "name_mean_error": 0.017051471923117886,
+      "all_mean_error": 0.017051471923117886,
+      "permuted_configuration_mean_error": 0.017051471923117886
+    },
+    {
+      "benchmark": "fewshot_ttt_bbh/formatted_tables",
+      "fold": 1,
+      "targets": 11,
+      "configuration": 0.0044731096978010525,
+      "name": 0.0044731096978010525,
+      "all": 0.004480824707985198,
+      "permuted_configuration": 0.0042102007731637334,
+      "configuration_mean_error": 0.0032588602070083516,
+      "name_mean_error": 0.0032588602070083516,
+      "all_mean_error": 0.0032258829723850273,
+      "permuted_configuration_mean_error": 0.0032263222069806407
+    },
+    {
+      "benchmark": "finegrain_t2i/formatted_tables",
+      "fold": 1,
+      "targets": 4,
+      "configuration": 0.0,
+      "name": 0.0,
+      "all": 0.0,
+      "permuted_configuration": 0.0,
+      "configuration_mean_error": 0.0,
+      "name_mean_error": 0.0,
+      "all_mean_error": 0.0,
+      "permuted_configuration_mean_error": 0.0
+    },
+    {
+      "benchmark": "hallusionbench/formatted_tables",
+      "fold": 1,
+      "targets": 252,
+      "configuration": 0.02005047964896505,
+      "name": 0.02227162238098111,
+      "all": 0.022129668028576046,
+      "permuted_configuration": 0.022180905148442367,
+      "configuration_mean_error": 0.014484737348495697,
+      "name_mean_error": 0.015019604510757609,
+      "all_mean_error": 0.014753112019050696,
+      "permuted_configuration_mean_error": 0.015658434489575865
+    },
+    {
+      "benchmark": "agentic_review_perturbation/formatted_tables",
+      "fold": 2,
+      "targets": 3,
+      "configuration": 0.002947845804988663,
+      "name": 0.0034467120181405904,
+      "all": 0.0034467120181405904,
+      "permuted_configuration": 0.004223356009070295,
+      "configuration_mean_error": 0.0025774754346182924,
+      "name_mean_error": 0.0025850340136054422,
+      "all_mean_error": 0.0025850340136054422,
+      "permuted_configuration_mean_error": 0.004065570672713531
+    },
+    {
+      "benchmark": "agi_elo/formatted_tables",
+      "fold": 2,
+      "targets": 20,
+      "configuration": 0.06022979102061767,
+      "name": 0.07797466122684621,
+      "all": 0.07797466122684621,
+      "permuted_configuration": 0.08442592562736664,
+      "configuration_mean_error": 0.05465822324042459,
+      "name_mean_error": 0.05198310748456414,
+      "all_mean_error": 0.05198310748456414,
+      "permuted_configuration_mean_error": 0.07493501421093036
+    },
+    {
+      "benchmark": "algotune/formatted_tables",
+      "fold": 2,
+      "targets": 18,
+      "configuration": 0.026509685600594704,
+      "name": 0.03312188052447794,
+      "all": 0.03312188052447794,
+      "permuted_configuration": 0.03655057064147974,
+      "configuration_mean_error": 0.02177308021463867,
+      "name_mean_error": 0.023486774569025662,
+      "all_mean_error": 0.023486774569025662,
+      "permuted_configuration_mean_error": 0.030145657513081767
+    },
+    {
+      "benchmark": "alignment_faking/formatted_tables",
+      "fold": 2,
+      "targets": 4278,
+      "configuration": 0.14228094839979635,
+      "name": 0.15535696265933757,
+      "all": 0.1569340865262157,
+      "permuted_configuration": 0.15674787773887544,
+      "configuration_mean_error": 0.12760310277536777,
+      "name_mean_error": 0.11667929090177823,
+      "all_mean_error": 0.10464382829346282,
+      "permuted_configuration_mean_error": 0.1412644432995428
+    },
+    {
+      "benchmark": "benger/formatted_tables",
+      "fold": 2,
+      "targets": 24,
+      "configuration": 0.023207070781334507,
+      "name": 0.025005660196512774,
+      "all": 0.02254308902388008,
+      "permuted_configuration": 0.023348087050826295,
+      "configuration_mean_error": 0.022582784069000997,
+      "name_mean_error": 0.018944240094426745,
+      "all_mean_error": 0.015028726015920054,
+      "permuted_configuration_mean_error": 0.021336721865488035
+    },
+    {
+      "benchmark": "bertaqa/formatted_tables",
+      "fold": 2,
+      "targets": 6,
+      "configuration": 0.009647955238044376,
+      "name": 0.008463161126637512,
+      "all": 0.012142157656205778,
+      "permuted_configuration": 0.010399681479675602,
+      "configuration_mean_error": 0.00859288679787766,
+      "name_mean_error": 0.007131402629944247,
+      "all_mean_error": 0.009305682993739642,
+      "permuted_configuration_mean_error": 0.010126136641240286
+    },
+    {
+      "benchmark": "cruxeval/formatted_tables",
+      "fold": 2,
+      "targets": 31,
+      "configuration": 0.022388399424563173,
+      "name": 0.029687676096270165,
+      "all": 0.029687676096270165,
+      "permuted_configuration": 0.028895509838473412,
+      "configuration_mean_error": 0.01886207321068548,
+      "name_mean_error": 0.019890603846396165,
+      "all_mean_error": 0.019890603846396165,
+      "permuted_configuration_mean_error": 0.023016107246535654
+    },
+    {
+      "benchmark": "dave/formatted_tables",
+      "fold": 2,
+      "targets": 8,
+      "configuration": 0.023444091351007355,
+      "name": 0.04438068378513401,
+      "all": 0.04438068378513401,
+      "permuted_configuration": 0.04655134901040555,
+      "configuration_mean_error": 0.01644684412087911,
+      "name_mean_error": 0.02958712252342268,
+      "all_mean_error": 0.02958712252342268,
+      "permuted_configuration_mean_error": 0.03656563442762933
+    },
+    {
+      "benchmark": "egoschema/formatted_tables",
+      "fold": 2,
+      "targets": 11,
+      "configuration": 0.002807333333333331,
+      "name": 0.002807333333333331,
+      "all": 0.004208484848484847,
+      "permuted_configuration": 0.004684333333333331,
+      "configuration_mean_error": 0.0024001515151515136,
+      "name_mean_error": 0.0024001515151515136,
+      "all_mean_error": 0.0030555353535353523,
+      "permuted_configuration_mean_error": 0.003992108585858584
+    },
+    {
+      "benchmark": "evouna/formatted_tables",
+      "fold": 2,
+      "targets": 4,
+      "configuration": 0.005202366161138229,
+      "name": 0.006050429337784819,
+      "all": 0.006050429337784819,
+      "permuted_configuration": 0.0061593011593858524,
+      "configuration_mean_error": 0.004357907155693766,
+      "name_mean_error": 0.004033619558523209,
+      "all_mean_error": 0.004033619558523209,
+      "permuted_configuration_mean_error": 0.004829394639441212
+    },
+    {
+      "benchmark": "financebench/formatted_tables",
+      "fold": 2,
+      "targets": 16,
+      "configuration": 0.2109518518518518,
+      "name": 0.2560175925925926,
+      "all": 0.22199814814814814,
+      "permuted_configuration": 0.2190568287037037,
+      "configuration_mean_error": 0.17908055555555555,
+      "name_mean_error": 0.20091836419753084,
+      "all_mean_error": 0.14799876543209875,
+      "permuted_configuration_mean_error": 0.17344475308641977
+    }
+  ],
+  "comparisons": {
+    "all": {
+      "pair_equal_proxy_delta": 0.019041124727073602,
+      "fold_deltas": [
+        -0.0007258636140279814,
+        0.0014550233574170644,
+        0.022352075103847874
+      ],
+      "cluster_ci95": [
+        -0.0004736553882213536,
+        0.0221462216490132
+      ]
+    },
+    "name": {
+      "pair_equal_proxy_delta": 0.008962129427381282,
+      "fold_deltas": [
+        -0.0007102980123805565,
+        0.0014306099288285239,
+        0.010492346646708395
+      ],
+      "cluster_ci95": [
+        -0.0014724118186702215,
+        0.010518408377054263
+      ]
+    },
+    "permuted_configuration": {
+      "pair_equal_proxy_delta": -0.011760923376708893,
+      "fold_deltas": [
+        -0.0034498761748791885,
+        -0.001450641000394541,
+        -0.013397186078494022
+      ],
+      "cluster_ci95": [
+        -0.013323431228042134,
+        -0.0014779298992596657
+      ]
+    }
+  },
+  "elapsed_seconds": 2.4483437538146973,
+  "entry_condition_met": false
+}

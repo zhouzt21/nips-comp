@@ -1,0 +1,80 @@
+{
+  "fold": 1,
+  "train_benchmarks": [
+    "abstract_reason/formatted_tables",
+    "adaptivestep/formatted_tables",
+    "advprompter/formatted_tables",
+    "agentic_review_perturbation/formatted_tables",
+    "agi_elo/formatted_tables",
+    "ai2d_test/formatted_tables",
+    "aider/formatted_tables",
+    "algotune/formatted_tables",
+    "alignment_faking/formatted_tables",
+    "auditing_sabotage_bench/formatted_tables",
+    "benger/formatted_tables",
+    "bertaqa/formatted_tables",
+    "bird_sql/formatted_tables",
+    "braveguard/formatted_tables",
+    "cellverse/formatted_tables",
+    "ceval/formatted_tables",
+    "chartmuseum/formatted_tables",
+    "chi_bench/formatted_tables",
+    "confagents/formatted_tables",
+    "cruxeval/formatted_tables",
+    "dave/formatted_tables",
+    "dbpa/formatted_tables",
+    "edu_circuit_hw/formatted_tables",
+    "egoschema/formatted_tables",
+    "ehrflowbench/formatted_tables",
+    "engdesign/formatted_tables",
+    "evouna/formatted_tables",
+    "exploitgym/formatted_tables",
+    "felm/formatted_tables",
+    "financebench/formatted_tables",
+    "haiid/formatted_tables",
+    "healthadminbench/formatted_tables"
+  ],
+  "heldout_benchmarks": [
+    "aegis/formatted_tables",
+    "appworld/formatted_tables",
+    "bbq/formatted_tables",
+    "beavertails/formatted_tables",
+    "cmmlu/formatted_tables",
+    "devbench/formatted_tables",
+    "editbench/formatted_tables",
+    "emoji_attack/formatted_tables",
+    "enginemt_qa/formatted_tables",
+    "faithcot/formatted_tables",
+    "fewshot_ttt_bbh/formatted_tables",
+    "finegrain_t2i/formatted_tables",
+    "hallusionbench/formatted_tables"
+  ],
+  "training_pairs": 260,
+  "training_alc": {
+    "pooled4": [
+      0.20021810484556496,
+      0.1994360252836334,
+      0.19845161121635493,
+      0.1986192772803208,
+      0.20180605069428972
+    ],
+    "own4": [
+      0.20021810484556496,
+      0.19996640427862414,
+      0.19961936212979134,
+      0.19964653846595484,
+      0.200784235096524
+    ]
+  },
+  "ridges": [
+    null,
+    16.0,
+    4.0,
+    1.0,
+    0.25
+  ],
+  "selected_ridge": {
+    "pooled4": 4.0,
+    "own4": 4.0
+  }
+}

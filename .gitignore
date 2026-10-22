@@ -1,0 +1,20 @@
+# Local environments, caches and credentials.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+.ruff_cache/
+.env
+.env.*
+!.env.example
+.git-detached-empty/
+
+# Data/model artifacts stay in local storage or separately managed releases.
+*.parquet
+*.sqlite
+*.sqlite3
+*.safetensors
+*.npz
+*.pt
+*.pth
+*.zip

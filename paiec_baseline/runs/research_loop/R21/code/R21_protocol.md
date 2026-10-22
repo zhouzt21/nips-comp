@@ -1,0 +1,9 @@
+# R21 / V2-12: distinguish linear geometry from available local evidence
+
+Registered after R20three-seed verification: shared item0.202835, own-selected0.203918, peer0.204959. Added peer correspondence is useful, but strongpeer gain0.002125 misses0.005. R18lengthrepair failed; a larger encoder is not warranted. R19exactmatching supports local item structure but covers few queries.
+
+Question: does the shared linear slope underuse interactions in the fixed representation? Rival: the remaining effect is weak regardless of this geometric lift. Test one fixed homogeneous polynomial kernel k(x,z)=(x·z)^4 against R20linear k=x·z, using the same frozen normalized384-vectors, current groups, peer mean, centering and source selection. This tensor-product lift changes function class without extra data. It is not guaranteed to improve difficulty prediction. Source: AnySearch retrieved arXiv2202.02031, introduction and section2 equations1–2 read; this supplies the kernel identity only, not evidence for PAIEC performance. No randomized sketches or paper performance claim is imported.
+
+Use block-centering P for each visible subject, Kc=PKP, yc=Py. Query row is centered relative to target's support mean in lifted space, then right-multiplied by P. Prediction=peermean+queryc(Kc+lambdaI)^−1yc. Implement power1 identity check against R20 on unequal group sizes, emptybudget, missingpeers, repeatedvectors and complement labels. No train/eval feature mismatch.
+
+Independently select ridge for power4 own-only and pooled from off/16/4/1/.25 on the same source seed73/max25pairs; freeze all selections before outerseed0. Compare R20frozenlinearown/pooled, peer, base, and originalR13. No other polynomial degree is selected after seeing results. If power4 fails, stop this geometry expansion; if it improves all folds, fixed3seed verification and then new mechanism audit. Current cohort scope, originalisolated gate and all thresholds remain unchanged.

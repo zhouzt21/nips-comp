@@ -11,6 +11,8 @@ the value of test-time adaptation.
 | --- | --- | --- | --- |
 | [Bayesian Linguistic Evaluator (BLE)](ble/README.md) | An LLM retrieves public evidence and revises an explicit belief state. | Uncertainty sampling using the current prediction. | Public data payload and model API credentials. |
 | [Empirical Mean](empirical_mean/README.md) | The mean acquired response for the target subject–benchmark pair; 0.5 without matching labels. | The evaluator's default random policy. | Python standard library only. |
+| [Smoothed Mean](smoothed_mean/README.md) | A 0.5 prior with two pseudo-observations plus matching revealed labels. | The evaluator's default random policy. | Python standard library only. |
+| [MLP](mlp/README.md) | Hashed subject/item features with a fitted offline MLP and shrunk revealed-label correction. | The evaluator's default random policy. | NumPy at inference; PyTorch only for local training. |
 | [Empirical Mean with BLE Acquisition](empirical_mean_ble_acquisition/README.md) | The same empirical mean predictor. | Uncertainty sampling from a separate BLE estimate. | Public data payload and API credentials for acquisition only. |
 
 ## Repository layout
@@ -18,6 +20,8 @@ the value of test-time adaptation.
 ```text
 ble/                    Bayesian Linguistic Evaluator and its README
 empirical_mean/         Empirical mean predictor and its README
+smoothed_mean/          Smoothed empirical mean control
+mlp/                    Offline MLP predictor, trainer, and experiment tools
 empirical_mean_ble_acquisition/  Empirical mean with BLE acquisition
 tools/                  Data preparation, packaging, and local tests
 check_submission_zip.py Submission archive validator
@@ -51,6 +55,17 @@ shared. The BLE-acquisition mean baseline has its own
 All predictors use the competition's published
 [input and evaluation rules](https://aimslab.stanford.edu/competition).
 
+The public-data audit, benchmark-disjoint MLP experiments, six-budget Brier
+tables, and limitations are documented in
+[`reports/mlp_benchmark_holdout_2026-10-22.md`](reports/mlp_benchmark_holdout_2026-10-22.md).
+The locally built MLP candidate can be checked without submitting it:
+
+```powershell
+python tools/build_mlp_zip.py --out 'dist\mlp_candidate_internal_alpha4.zip'
+python check_submission_zip.py 'dist\mlp_candidate_internal_alpha4.zip'
+python tools/smoke_mlp_zip.py 'dist\mlp_candidate_internal_alpha4.zip'
+```
+
 ## Submitting to Codabench
 
 Install `requests` for the submission utility, then authenticate with an approved
@@ -74,8 +89,9 @@ its location. Login, list, and status commands do not submit evaluations.
 
 Add each predictor in its own directory with a method README, a `model.py` entry
 point, and an optional `labeling.py`. Shared development tools belong in `tools/`.
-Commit source, documentation, and synthetic tests; keep credentials, datasets,
-run outputs, and generated archives in ignored paths. The existing tests run
+Commit source, documentation, synthetic tests, and reviewed text experiment
+records as described in [runs/README.md](runs/README.md); keep credentials,
+datasets, large run artifacts, and generated archives in ignored paths. The existing tests run
 without paid API calls:
 
 ```bash
@@ -88,7 +104,7 @@ manual review is still needed to establish the provenance of example data.
 
 ```bash
 git diff --cached
-python tools/check_public_source.py
+python tools/check_public_source.py --research-records
 ```
 
 ## Citation

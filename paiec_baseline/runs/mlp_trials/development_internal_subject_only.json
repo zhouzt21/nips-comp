@@ -1,0 +1,505 @@
+{
+  "source_revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+  "split_file": "runs\\mlp_split_2026.json",
+  "split_sha256": "376ba49beb2447ab68af0584644711883e7b75423d200ae395ae2ad8058d45be",
+  "role": "development",
+  "budgets": [
+    0,
+    1,
+    3,
+    7,
+    15,
+    31
+  ],
+  "alc_weights": [
+    0.1,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.1
+  ],
+  "seeds": 1,
+  "max_evaluation_items_per_pair": 64,
+  "max_pairs_per_benchmark": 0,
+  "benchmarks_used": [
+    "afrieval/formatted_tables",
+    "alpha_sql/formatted_tables",
+    "babilong/formatted_tables",
+    "causal_axioms/formatted_tables",
+    "clasheval/formatted_tables",
+    "critic_discernment_game/formatted_tables",
+    "disco/formatted_tables",
+    "elicitation_game/formatted_tables"
+  ],
+  "pairs_per_seed": [
+    1061
+  ],
+  "evaluation_responses_per_seed": [
+    68556
+  ],
+  "public_prior_file": null,
+  "public_prior_name_hits_per_seed": null,
+  "by_benchmark": {
+    "afrieval/formatted_tables": {
+      "pairs_per_seed": [
+        948
+      ],
+      "alc_mean": {
+        "empirical_mean": 0.23347295475927207,
+        "constant_0.5": 0.25,
+        "smoothed_mean_2": 0.2031195554096362,
+        "smoothed_mean_4": 0.20467692285398892,
+        "smoothed_mean_8": 0.21029180420586202,
+        "internal_subject:prior": 0.240423596703805,
+        "internal_subject:residual_2": 0.20071992907075814,
+        "internal_subject:shrink_2": 0.20071992887663437,
+        "internal_subject:residual_4": 0.20134986027493634,
+        "internal_subject:shrink_4": 0.20134986003483588,
+        "internal_subject:residual_8": 0.20583278761217805,
+        "internal_subject:shrink_8": 0.20583278764007842
+      }
+    },
+    "alpha_sql/formatted_tables": {
+      "pairs_per_seed": [
+        1
+      ],
+      "alc_mean": {
+        "empirical_mean": 0.317521932721138,
+        "constant_0.5": 0.25,
+        "smoothed_mean_2": 0.2510401695966721,
+        "smoothed_mean_4": 0.2439448803663254,
+        "smoothed_mean_8": 0.2410831034183502,
+        "internal_subject:prior": 0.2967687249183655,
+        "internal_subject:residual_2": 0.26860149502754216,
+        "internal_subject:shrink_2": 0.2686014994978905,
+        "internal_subject:residual_4": 0.26424373090267184,
+        "internal_subject:shrink_4": 0.26424373090267184,
+        "internal_subject:residual_8": 0.26501388251781466,
+        "internal_subject:shrink_8": 0.2650138840079308
+      }
+    },
+    "babilong/formatted_tables": {
+      "pairs_per_seed": [
+        83
+      ],
+      "alc_mean": {
+        "empirical_mean": 0.2579956162855568,
+        "constant_0.5": 0.25,
+        "smoothed_mean_2": 0.22242630358598847,
+        "smoothed_mean_4": 0.22153942852886954,
+        "smoothed_mean_8": 0.22419919434104518,
+        "internal_subject:prior": 0.2642220524420221,
+        "internal_subject:residual_2": 0.22590500793745183,
+        "internal_subject:shrink_2": 0.22590500757207604,
+        "internal_subject:residual_4": 0.2262281556024654,
+        "internal_subject:shrink_4": 0.2262281559480646,
+        "internal_subject:residual_8": 0.23042479262025245,
+        "internal_subject:shrink_8": 0.23042479269094318
+      }
+    },
+    "causal_axioms/formatted_tables": {
+      "pairs_per_seed": [
+        2
+      ],
+      "alc_mean": {
+        "empirical_mean": 0.24551902413368226,
+        "constant_0.5": 0.25,
+        "smoothed_mean_2": 0.2216006174683571,
+        "smoothed_mean_4": 0.22340417802333834,
+        "smoothed_mean_8": 0.2271663099527359,
+        "internal_subject:prior": 0.21954995393753052,
+        "internal_subject:residual_2": 0.21236240714788437,
+        "internal_subject:shrink_2": 0.2123624086380005,
+        "internal_subject:residual_4": 0.2110465377569199,
+        "internal_subject:shrink_4": 0.2110465377569199,
+        "internal_subject:residual_8": 0.2113287575542927,
+        "internal_subject:shrink_8": 0.21132875308394433
+      }
+    },
+    "clasheval/formatted_tables": {
+      "pairs_per_seed": [
+        6
+      ],
+      "alc_mean": {
+        "empirical_mean": 0.31541484370827677,
+        "constant_0.5": 0.25,
+        "smoothed_mean_2": 0.25039454326033594,
+        "smoothed_mean_4": 0.2433056304852168,
+        "smoothed_mean_8": 0.24082202638189,
+        "internal_subject:prior": 0.29440216968456906,
+        "internal_subject:residual_2": 0.26803039213021596,
+        "internal_subject:shrink_2": 0.26803039585550625,
+        "internal_subject:residual_4": 0.2642570855716865,
+        "internal_subject:shrink_4": 0.2642570888002714,
+        "internal_subject:residual_8": 0.2655740283429623,
+        "internal_subject:shrink_8": 0.2655740335583687
+      }
+    },
+    "critic_discernment_game/formatted_tables": {
+      "pairs_per_seed": [
+        4
+      ],
+      "alc_mean": {
+        "empirical_mean": 0.25381522737443446,
+        "constant_0.5": 0.25,
+        "smoothed_mean_2": 0.22466548867523672,
+        "smoothed_mean_4": 0.22527568712830548,
+        "smoothed_mean_8": 0.2284696873277426,
+        "internal_subject:prior": 0.2728721648454666,
+        "internal_subject:residual_2": 0.22857430689036845,
+        "internal_subject:shrink_2": 0.22857430204749107,
+        "internal_subject:residual_4": 0.23163995370268822,
+        "internal_subject:shrink_4": 0.23163995556533337,
+        "internal_subject:residual_8": 0.2378795199096203,
+        "internal_subject:shrink_8": 0.2378795139491558
+      }
+    },
+    "disco/formatted_tables": {
+      "pairs_per_seed": [
+        4
+      ],
+      "alc_mean": {
+        "empirical_mean": 0.15654456447809934,
+        "constant_0.5": 0.25,
+        "smoothed_mean_2": 0.13946694610640406,
+        "smoothed_mean_4": 0.1485065701417625,
+        "smoothed_mean_8": 0.1638442501425743,
+        "internal_subject:prior": 0.19026444107294083,
+        "internal_subject:residual_2": 0.12149501107633115,
+        "internal_subject:shrink_2": 0.12149500986561179,
+        "internal_subject:residual_4": 0.12542395680211485,
+        "internal_subject:shrink_4": 0.12542395750060678,
+        "internal_subject:residual_8": 0.13449578955769537,
+        "internal_subject:shrink_8": 0.1344957921653986
+      }
+    },
+    "elicitation_game/formatted_tables": {
+      "pairs_per_seed": [
+        13
+      ],
+      "alc_mean": {
+        "empirical_mean": 0.29565871185981313,
+        "constant_0.5": 0.25,
+        "smoothed_mean_2": 0.25151559825126946,
+        "smoothed_mean_4": 0.24768087279338102,
+        "smoothed_mean_8": 0.24632026656315878,
+        "internal_subject:prior": 0.24778814155321857,
+        "internal_subject:residual_2": 0.2509134563115927,
+        "internal_subject:shrink_2": 0.2509134582602061,
+        "internal_subject:residual_4": 0.24689640758129267,
+        "internal_subject:shrink_4": 0.24689640792516565,
+        "internal_subject:residual_8": 0.24530696181150585,
+        "internal_subject:shrink_8": 0.24530696364549492
+      }
+    }
+  },
+  "weight_sha256": {
+    "internal_subject": "adf69e015e430bd600ba67a627a1e8608b9a13ced66f098b49cac72a42a22af5"
+  },
+  "weight_feature_modes": {
+    "internal_subject": "subject"
+  },
+  "results": {
+    "empirical_mean": {
+      "brier_by_seed": [
+        [
+          0.25,
+          0.3496938626001906,
+          0.23506182497832484,
+          0.1984347104113356,
+          0.1846469805438096,
+          0.17937754008929535
+        ]
+      ],
+      "brier_mean": [
+        0.25,
+        0.3496938626001906,
+        0.23506182497832484,
+        0.1984347104113356,
+        0.1846469805438096,
+        0.17937754008929535
+      ],
+      "alc_by_seed": [
+        0.23650522971566165
+      ],
+      "alc_mean": 0.23650522971566165,
+      "alc_std": null
+    },
+    "constant_0.5": {
+      "brier_by_seed": [
+        [
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ]
+      ],
+      "brier_mean": [
+        0.25,
+        0.25,
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "alc_by_seed": [
+        0.25
+      ],
+      "alc_mean": 0.25,
+      "alc_std": null
+    },
+    "smoothed_mean_2": {
+      "brier_by_seed": [
+        [
+          0.25,
+          0.22767571385152827,
+          0.2088347779381511,
+          0.19281467343228506,
+          0.18330261692480235,
+          0.1788590719596295
+        ]
+      ],
+      "brier_mean": [
+        0.25,
+        0.22767571385152827,
+        0.2088347779381511,
+        0.19281467343228506,
+        0.18330261692480235,
+        0.1788590719596295
+      ],
+      "alc_by_seed": [
+        0.20541146362531632
+      ],
+      "alc_mean": 0.20541146362531632,
+      "alc_std": null
+    },
+    "smoothed_mean_4": {
+      "brier_by_seed": [
+        [
+          0.25,
+          0.22993876409350872,
+          0.21073839614741877,
+          0.19431964354721248,
+          0.18394276920906166,
+          0.178916922131857
+        ]
+      ],
+      "brier_mean": [
+        0.25,
+        0.22993876409350872,
+        0.21073839614741877,
+        0.19431964354721248,
+        0.18394276920906166,
+        0.178916922131857
+      ],
+      "alc_by_seed": [
+        0.20667960681262604
+      ],
+      "alc_mean": 0.20667960681262604,
+      "alc_std": null
+    },
+    "smoothed_mean_8": {
+      "brier_by_seed": [
+        [
+          0.25,
+          0.23638574040295604,
+          0.21931245699735546,
+          0.20134243954756034,
+          0.18763914891289551,
+          0.18012139542532152
+        ]
+      ],
+      "brier_mean": [
+        0.25,
+        0.23638574040295604,
+        0.21931245699735546,
+        0.20134243954756034,
+        0.18763914891289551,
+        0.18012139542532152
+      ],
+      "alc_by_seed": [
+        0.21194809671468562
+      ],
+      "alc_mean": 0.21194809671468562,
+      "alc_std": null
+    },
+    "internal_subject:prior": {
+      "brier_by_seed": [
+        [
+          0.24262777939930374,
+          0.24262777939930374,
+          0.24262777939930374,
+          0.24262777939930374,
+          0.24262777939930374,
+          0.24262777939930374
+        ]
+      ],
+      "brier_mean": [
+        0.24262777939930374,
+        0.24262777939930374,
+        0.24262777939930374,
+        0.24262777939930374,
+        0.24262777939930374,
+        0.24262777939930374
+      ],
+      "alc_by_seed": [
+        0.24262777939930377
+      ],
+      "alc_mean": 0.24262777939930377,
+      "alc_std": null
+    },
+    "internal_subject:residual_2": {
+      "brier_by_seed": [
+        [
+          0.24262777939930374,
+          0.2243049874073149,
+          0.20749806990525724,
+          0.19229280981994484,
+          0.18307733576846616,
+          0.1788059211503732
+        ]
+      ],
+      "brier_mean": [
+        0.24262777939930374,
+        0.2243049874073149,
+        0.20749806990525724,
+        0.19229280981994484,
+        0.18307733576846616,
+        0.1788059211503732
+      ],
+      "alc_by_seed": [
+        0.20357801063516434
+      ],
+      "alc_mean": 0.20357801063516434,
+      "alc_std": null
+    },
+    "internal_subject:shrink_2": {
+      "brier_by_seed": [
+        [
+          0.24262777939930374,
+          0.22430498733709264,
+          0.20749806977183496,
+          0.19229280916161126,
+          0.18307733563636056,
+          0.1788059214096469
+        ]
+      ],
+      "brier_mean": [
+        0.24262777939930374,
+        0.22430498733709264,
+        0.20749806977183496,
+        0.19229280916161126,
+        0.18307733563636056,
+        0.1788059214096469
+      ],
+      "alc_by_seed": [
+        0.20357801046227497
+      ],
+      "alc_mean": 0.20357801046227497,
+      "alc_std": null
+    },
+    "internal_subject:residual_4": {
+      "brier_by_seed": [
+        [
+          0.24262777939930374,
+          0.2251527264335041,
+          0.2081708009727826,
+          0.19313351972894102,
+          0.1834187003442426,
+          0.1787742856423863
+        ]
+      ],
+      "brier_mean": [
+        0.24262777939930374,
+        0.2251527264335041,
+        0.2081708009727826,
+        0.19313351972894102,
+        0.1834187003442426,
+        0.1787742856423863
+      ],
+      "alc_by_seed": [
+        0.2041153560000631
+      ],
+      "alc_mean": 0.2041153560000631,
+      "alc_std": null
+    },
+    "internal_subject:shrink_4": {
+      "brier_by_seed": [
+        [
+          0.24262777939930374,
+          0.22515272641945963,
+          0.2081708003267379,
+          0.1931335198658744,
+          0.18341869995450913,
+          0.1787742859144975
+        ]
+      ],
+      "brier_mean": [
+        0.24262777939930374,
+        0.22515272641945963,
+        0.2081708003267379,
+        0.1931335198658744,
+        0.18341869995450913,
+        0.1787742859144975
+      ],
+      "alc_by_seed": [
+        0.20411535584469637
+      ],
+      "alc_mean": 0.20411535584469637,
+      "alc_std": null
+    },
+    "internal_subject:residual_8": {
+      "brier_by_seed": [
+        [
+          0.24262777939930374,
+          0.23051890584795573,
+          0.21528323042460143,
+          0.1990182206217238,
+          0.1864779181497542,
+          0.17973653529046504
+        ]
+      ],
+      "brier_mean": [
+        0.24262777939930374,
+        0.23051890584795573,
+        0.21528323042460143,
+        0.1990182206217238,
+        0.1864779181497542,
+        0.17973653529046504
+      ],
+      "alc_by_seed": [
+        0.20849608647778392
+      ],
+      "alc_mean": 0.20849608647778392,
+      "alc_std": null
+    },
+    "internal_subject:shrink_8": {
+      "brier_by_seed": [
+        [
+          0.24262777939930374,
+          0.23051890574964456,
+          0.21528323050886813,
+          0.19901822017230142,
+          0.18647791869397662,
+          0.17973653575656523
+        ]
+      ],
+      "brier_mean": [
+        0.24262777939930374,
+        0.23051890574964456,
+        0.21528323050886813,
+        0.19901822017230142,
+        0.18647791869397662,
+        0.17973653575656523
+      ],
+      "alc_by_seed": [
+        0.20849608654054508
+      ],
+      "alc_mean": 0.20849608654054508,
+      "alc_std": null
+    }
+  }
+}

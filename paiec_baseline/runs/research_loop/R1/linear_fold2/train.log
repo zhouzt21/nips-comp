@@ -1,0 +1,170 @@
+epoch=1 validation_pair_brier=0.242631
+epoch=2 validation_pair_brier=0.241870
+epoch=3 validation_pair_brier=0.241506
+epoch=4 validation_pair_brier=0.241697
+epoch=5 validation_pair_brier=0.241235
+epoch=6 validation_pair_brier=0.241566
+epoch=7 validation_pair_brier=0.241237
+epoch=8 validation_pair_brier=0.241287
+epoch=9 validation_pair_brier=0.240284
+epoch=10 validation_pair_brier=0.240797
+epoch=11 validation_pair_brier=0.241125
+epoch=12 validation_pair_brier=0.240390
+epoch=13 validation_pair_brier=0.240400
+epoch=14 validation_pair_brier=0.240223
+epoch=15 validation_pair_brier=0.240678
+epoch=16 validation_pair_brier=0.240583
+epoch=17 validation_pair_brier=0.240676
+epoch=18 validation_pair_brier=0.240600
+epoch=19 validation_pair_brier=0.240976
+{
+  "source_revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+  "seed": 2026,
+  "train_benchmarks": [
+    "advprompter/formatted_tables",
+    "aegis/formatted_tables",
+    "ai2d_test/formatted_tables",
+    "aider/formatted_tables",
+    "appworld/formatted_tables",
+    "auditing_sabotage_bench/formatted_tables",
+    "bbq/formatted_tables",
+    "beavertails/formatted_tables",
+    "bird_sql/formatted_tables",
+    "braveguard/formatted_tables",
+    "ceval/formatted_tables",
+    "chartmuseum/formatted_tables",
+    "chi_bench/formatted_tables",
+    "cmmlu/formatted_tables",
+    "confagents/formatted_tables",
+    "dbpa/formatted_tables",
+    "devbench/formatted_tables",
+    "editbench/formatted_tables",
+    "ehrflowbench/formatted_tables",
+    "emoji_attack/formatted_tables",
+    "engdesign/formatted_tables",
+    "enginemt_qa/formatted_tables",
+    "exploitgym/formatted_tables",
+    "faithcot/formatted_tables",
+    "felm/formatted_tables",
+    "fewshot_ttt_bbh/formatted_tables",
+    "finegrain_t2i/formatted_tables",
+    "haiid/formatted_tables",
+    "healthadminbench/formatted_tables"
+  ],
+  "validation_benchmarks": [
+    "hallusionbench/formatted_tables",
+    "adaptivestep/formatted_tables",
+    "edu_circuit_hw/formatted_tables"
+  ],
+  "development_benchmarks_untouched": [
+    "abstract_reason/formatted_tables",
+    "agentic_review_perturbation/formatted_tables",
+    "agi_elo/formatted_tables",
+    "algotune/formatted_tables",
+    "alignment_faking/formatted_tables",
+    "benger/formatted_tables",
+    "bertaqa/formatted_tables",
+    "cellverse/formatted_tables",
+    "cruxeval/formatted_tables",
+    "dave/formatted_tables",
+    "egoschema/formatted_tables",
+    "evouna/formatted_tables",
+    "financebench/formatted_tables"
+  ],
+  "early_stopping_pool": "training",
+  "fixed_epochs": null,
+  "train_rows": 10304,
+  "validation_rows": 1200,
+  "train_pairs": 949,
+  "validation_pairs": 202,
+  "max_rows_per_benchmark": 400,
+  "sampling": "response",
+  "best_epoch": 14,
+  "validation_pair_brier_at_budget_0": 0.2402227931039696,
+  "validation_history": [
+    {
+      "epoch": 1,
+      "pair_brier": 0.24263065492052371
+    },
+    {
+      "epoch": 2,
+      "pair_brier": 0.24187010172232754
+    },
+    {
+      "epoch": 3,
+      "pair_brier": 0.24150589730939917
+    },
+    {
+      "epoch": 4,
+      "pair_brier": 0.2416967324272205
+    },
+    {
+      "epoch": 5,
+      "pair_brier": 0.24123494998414657
+    },
+    {
+      "epoch": 6,
+      "pair_brier": 0.24156596342590264
+    },
+    {
+      "epoch": 7,
+      "pair_brier": 0.2412371128835277
+    },
+    {
+      "epoch": 8,
+      "pair_brier": 0.24128697227087742
+    },
+    {
+      "epoch": 9,
+      "pair_brier": 0.24028441802895512
+    },
+    {
+      "epoch": 10,
+      "pair_brier": 0.24079675729381492
+    },
+    {
+      "epoch": 11,
+      "pair_brier": 0.24112534699768842
+    },
+    {
+      "epoch": 12,
+      "pair_brier": 0.24039017275453758
+    },
+    {
+      "epoch": 13,
+      "pair_brier": 0.24040009689185274
+    },
+    {
+      "epoch": 14,
+      "pair_brier": 0.2402227931039696
+    },
+    {
+      "epoch": 15,
+      "pair_brier": 0.24067832191442132
+    },
+    {
+      "epoch": 16,
+      "pair_brier": 0.24058300637140784
+    },
+    {
+      "epoch": 17,
+      "pair_brier": 0.24067607508270272
+    },
+    {
+      "epoch": 18,
+      "pair_brier": 0.24060029688544046
+    },
+    {
+      "epoch": 19,
+      "pair_brier": 0.24097611629542168
+    }
+  ],
+  "split_file": "runs\\mlp_cv\\fold2_split.json",
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "feature_mode": "all",
+  "network_kind": "linear",
+  "batch_size": 512,
+  "export_max_abs_error": 8.940696716308594e-08,
+  "weight_file": "runs\\research_loop\\R1\\linear_fold2\\weights.npz"
+}

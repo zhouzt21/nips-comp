@@ -1,0 +1,7 @@
+# R31: actual full-pair coverage sensitivity with frozen predictors
+
+Frozen after R30 input-count audit and before expanded scoring. R30 found5242 eligible pairs versus737 evaluated; total variation in benchmark weights0.6804. Stratified extrapolation is NOT an actual full evaluation. R31 now computes actual scores on every eligible pair in the same36 outer benchmarks, retaining the64-evaluation-item cap and three seeds0/1/2. No predictor or hyperparameter is changed.
+
+Only four benchmarks were capped: ai2d254, bird_sql120, hallusionbench253, alignment_faking4278. Reuse the exact uncapped benchmark results from R25_verify and R27; compute these four fully. Replay the originally sampled100-pair subset per benchmark against historical per-budget scores to1e-7, with the same seeds/acquisition/evaluation items/repeated responses. Stream predictions to control memory; any missing MiniLM vectors are generated offline with the same frozen model and unchanged encoder on D.
+
+Compare frozen R25, R7 semantic, smoothed2, previously training-selected smoothing and empirical mean. All source training/selection remains unchanged and benchmark-disjoint. Save actual per-pair per-budget Brier for newly evaluated benchmarks, per-seed counts, subsets, runtime and provenance. Pair-equal and benchmark-equal summaries plus cluster intervals use the expanded counts. They are a coverage sensitivity result, not a new independent test or replacement promotion gate. More seeds do not remove benchmark reuse or alignment_faking dominance. Hosted weighting is still unknown.

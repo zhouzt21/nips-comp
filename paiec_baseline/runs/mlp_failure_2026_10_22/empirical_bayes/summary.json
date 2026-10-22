@@ -1,0 +1,426 @@
+{
+  "source_files": [
+    "runs\\mlp_failure_2026_10_22\\empirical_bayes\\fold0_evaluation.json",
+    "runs\\mlp_failure_2026_10_22\\empirical_bayes\\fold1_evaluation.json",
+    "runs\\mlp_failure_2026_10_22\\empirical_bayes\\fold2_evaluation.json"
+  ],
+  "scope": "reused public grouped CV folds; historical comparison, not blind test",
+  "pair_equal_brier": {
+    "empirical_bayes": [
+      0.2559729619419235,
+      0.23488336696391837,
+      0.21342696656385787,
+      0.19615726836981048,
+      0.18856016884344975,
+      0.18263883469796113
+    ],
+    "smoothed_mean_2": [
+      0.25,
+      0.2289715731665593,
+      0.21196112284383747,
+      0.19598845178400404,
+      0.18847180624287752,
+      0.1825231266610155
+    ],
+    "smoothed_mean_4": [
+      0.25,
+      0.23071628246896142,
+      0.21301295309045745,
+      0.19700664176708,
+      0.18856580802485892,
+      0.18253590683914023
+    ],
+    "empirical_mean": [
+      0.25,
+      0.35358141681616634,
+      0.24004675365549738,
+      0.20229236270064738,
+      0.1905086407819548,
+      0.1830685490668401
+    ]
+  },
+  "pair_equal_alc": {
+    "empirical_bayes": 0.21046673381219577,
+    "smoothed_mean_2": 0.2083309034735572,
+    "smoothed_mean_4": 0.20911392775418558,
+    "empirical_mean": 0.24059268969753722
+  },
+  "benchmark_equal_alc": {
+    "empirical_bayes": 0.21826661381889556,
+    "smoothed_mean_2": 0.21747527044783366,
+    "smoothed_mean_4": 0.2166823337616988,
+    "empirical_mean": 0.2546187182614606
+  },
+  "folds": [
+    {
+      "source": "runs\\mlp_failure_2026_10_22\\empirical_bayes\\fold0_evaluation.json",
+      "pairs": 246,
+      "alc": {
+        "empirical_bayes": 0.1855547036260094,
+        "smoothed_mean_2": 0.17740626074316934,
+        "smoothed_mean_4": 0.1829181650165105,
+        "empirical_mean": 0.1964673115813166
+      }
+    },
+    {
+      "source": "runs\\mlp_failure_2026_10_22\\empirical_bayes\\fold1_evaluation.json",
+      "pairs": 246,
+      "alc": {
+        "empirical_bayes": 0.2384502975672519,
+        "smoothed_mean_2": 0.23991338531403875,
+        "smoothed_mean_4": 0.23594760187538114,
+        "empirical_mean": 0.2855787834879465
+      }
+    },
+    {
+      "source": "runs\\mlp_failure_2026_10_22\\empirical_bayes\\fold2_evaluation.json",
+      "pairs": 245,
+      "alc": {
+        "empirical_bayes": 0.2073826633716164,
+        "smoothed_mean_2": 0.20767037930587137,
+        "smoothed_mean_4": 0.20847341265073238,
+        "empirical_mean": 0.23972846089814773
+      }
+    }
+  ],
+  "by_benchmark": [
+    {
+      "benchmark": "adaptivestep/formatted_tables",
+      "pairs": 2,
+      "empirical_bayes": 0.21507123857736588,
+      "smoothed_mean_2": 0.21964282244443895,
+      "smoothed_mean_4": 0.22377761602401736,
+      "empirical_mean": 0.2330688528716564
+    },
+    {
+      "benchmark": "ai2d_test/formatted_tables",
+      "pairs": 100,
+      "empirical_bayes": 0.2132854539230466,
+      "smoothed_mean_2": 0.22042529404163363,
+      "smoothed_mean_4": 0.21912942227721216,
+      "empirical_mean": 0.2595442641153931
+    },
+    {
+      "benchmark": "bird_sql/formatted_tables",
+      "pairs": 100,
+      "empirical_bayes": 0.14056357802869754,
+      "smoothed_mean_2": 0.11652512508822838,
+      "smoothed_mean_4": 0.13167740833968855,
+      "empirical_mean": 0.107693828208372
+    },
+    {
+      "benchmark": "braveguard/formatted_tables",
+      "pairs": 2,
+      "empirical_bayes": 0.1488628126680851,
+      "smoothed_mean_2": 0.13623172957450153,
+      "smoothed_mean_4": 0.14912985265254974,
+      "empirical_mean": 0.13327813521027565
+    },
+    {
+      "benchmark": "ceval/formatted_tables",
+      "pairs": 11,
+      "empirical_bayes": 0.23225612653927372,
+      "smoothed_mean_2": 0.22923751649531451,
+      "smoothed_mean_4": 0.22852265956726944,
+      "empirical_mean": 0.26442974927750507
+    },
+    {
+      "benchmark": "edu_circuit_hw/formatted_tables",
+      "pairs": 6,
+      "empirical_bayes": 0.2376379794130723,
+      "smoothed_mean_2": 0.23357156005998453,
+      "smoothed_mean_4": 0.23006774062911672,
+      "empirical_mean": 0.27410779520869255
+    },
+    {
+      "benchmark": "engdesign/formatted_tables",
+      "pairs": 12,
+      "empirical_bayes": 0.23921044481297335,
+      "smoothed_mean_2": 0.22999113717426856,
+      "smoothed_mean_4": 0.22611885269482931,
+      "empirical_mean": 0.2777497859671712
+    },
+    {
+      "benchmark": "exploitgym/formatted_tables",
+      "pairs": 5,
+      "empirical_bayes": 0.135395878078416,
+      "smoothed_mean_2": 0.11090450943331234,
+      "smoothed_mean_4": 0.12739779339637608,
+      "empirical_mean": 0.09600875669158997
+    },
+    {
+      "benchmark": "felm/formatted_tables",
+      "pairs": 1,
+      "empirical_bayes": 0.19845133423805236,
+      "smoothed_mean_2": 0.201798215508461,
+      "smoothed_mean_4": 0.20979373157024384,
+      "empirical_mean": 0.20249914824962617
+    },
+    {
+      "benchmark": "healthadminbench/formatted_tables",
+      "pairs": 7,
+      "empirical_bayes": 0.2581549233623913,
+      "smoothed_mean_2": 0.2565560964601381,
+      "smoothed_mean_4": 0.24528656644480568,
+      "empirical_mean": 0.3293630091207368
+    },
+    {
+      "benchmark": "aegis/formatted_tables",
+      "pairs": 1,
+      "empirical_bayes": 0.21128617823123935,
+      "smoothed_mean_2": 0.20921064913272858,
+      "smoothed_mean_4": 0.21487346887588502,
+      "empirical_mean": 0.2184995770454407
+    },
+    {
+      "benchmark": "appworld/formatted_tables",
+      "pairs": 18,
+      "empirical_bayes": 0.16934144106352406,
+      "smoothed_mean_2": 0.1694739644852234,
+      "smoothed_mean_4": 0.17812180739387662,
+      "empirical_mean": 0.17516534545769297
+    },
+    {
+      "benchmark": "bbq/formatted_tables",
+      "pairs": 7,
+      "empirical_bayes": 0.24095984037433354,
+      "smoothed_mean_2": 0.2424398175307683,
+      "smoothed_mean_4": 0.23886310287884305,
+      "empirical_mean": 0.2865820490888187
+    },
+    {
+      "benchmark": "beavertails/formatted_tables",
+      "pairs": 4,
+      "empirical_bayes": 0.18539892518892886,
+      "smoothed_mean_2": 0.1793676323242835,
+      "smoothed_mean_4": 0.18483273385791107,
+      "empirical_mean": 0.19760562479496002
+    },
+    {
+      "benchmark": "cmmlu/formatted_tables",
+      "pairs": 22,
+      "empirical_bayes": 0.2129694047178253,
+      "smoothed_mean_2": 0.2133633800208124,
+      "smoothed_mean_4": 0.2113942067805593,
+      "empirical_mean": 0.2567092054608194
+    },
+    {
+      "benchmark": "devbench/formatted_tables",
+      "pairs": 19,
+      "empirical_bayes": 0.22231076661693427,
+      "smoothed_mean_2": 0.22148188981962835,
+      "smoothed_mean_4": 0.2199707296529883,
+      "empirical_mean": 0.26257525762837186
+    },
+    {
+      "benchmark": "editbench/formatted_tables",
+      "pairs": 44,
+      "empirical_bayes": 0.259060865606774,
+      "smoothed_mean_2": 0.2605248859998855,
+      "smoothed_mean_4": 0.25437713959677655,
+      "empirical_mean": 0.3114421709694646
+    },
+    {
+      "benchmark": "emoji_attack/formatted_tables",
+      "pairs": 10,
+      "empirical_bayes": 0.22356301836669445,
+      "smoothed_mean_2": 0.2269908396154642,
+      "smoothed_mean_4": 0.22304350204765797,
+      "empirical_mean": 0.2772645683959126
+    },
+    {
+      "benchmark": "enginemt_qa/formatted_tables",
+      "pairs": 1,
+      "empirical_bayes": 0.21896109879016878,
+      "smoothed_mean_2": 0.21848509907722474,
+      "smoothed_mean_4": 0.21132587492465976,
+      "empirical_mean": 0.299321873486042
+    },
+    {
+      "benchmark": "faithcot/formatted_tables",
+      "pairs": 4,
+      "empirical_bayes": 0.21801964975893495,
+      "smoothed_mean_2": 0.21667292080819608,
+      "smoothed_mean_4": 0.21722936034202578,
+      "empirical_mean": 0.24618918299674988
+    },
+    {
+      "benchmark": "fewshot_ttt_bbh/formatted_tables",
+      "pairs": 11,
+      "empirical_bayes": 0.26123765043236996,
+      "smoothed_mean_2": 0.26467616111040115,
+      "smoothed_mean_4": 0.25595948574217886,
+      "empirical_mean": 0.32530627155845815
+    },
+    {
+      "benchmark": "finegrain_t2i/formatted_tables",
+      "pairs": 5,
+      "empirical_bayes": 0.27423777550458905,
+      "smoothed_mean_2": 0.27796950280666355,
+      "smoothed_mean_4": 0.26766087949275974,
+      "empirical_mean": 0.34113260090351105
+    },
+    {
+      "benchmark": "hallusionbench/formatted_tables",
+      "pairs": 100,
+      "empirical_bayes": 0.250916440308094,
+      "smoothed_mean_2": 0.25322785809636117,
+      "smoothed_mean_4": 0.24723423771560193,
+      "empirical_mean": 0.30403663881123066
+    },
+    {
+      "benchmark": "abstract_reason/formatted_tables",
+      "pairs": 1,
+      "empirical_bayes": 0.2556649729609489,
+      "smoothed_mean_2": 0.2616845846176148,
+      "smoothed_mean_4": 0.2559033930301666,
+      "empirical_mean": 0.3140195071697235
+    },
+    {
+      "benchmark": "agentic_review_perturbation/formatted_tables",
+      "pairs": 3,
+      "empirical_bayes": 0.17962881835798425,
+      "smoothed_mean_2": 0.17318161601821586,
+      "smoothed_mean_4": 0.17593986243009568,
+      "empirical_mean": 0.20404690292974315
+    },
+    {
+      "benchmark": "agi_elo/formatted_tables",
+      "pairs": 20,
+      "empirical_bayes": 0.20991874516010287,
+      "smoothed_mean_2": 0.20928374130278826,
+      "smoothed_mean_4": 0.20916684228926896,
+      "empirical_mean": 0.24387117478996517
+    },
+    {
+      "benchmark": "algotune/formatted_tables",
+      "pairs": 18,
+      "empirical_bayes": 0.21675948674480122,
+      "smoothed_mean_2": 0.21901389666729504,
+      "smoothed_mean_4": 0.2182381007406447,
+      "empirical_mean": 0.25841152643164
+    },
+    {
+      "benchmark": "alignment_faking/formatted_tables",
+      "pairs": 100,
+      "empirical_bayes": 0.1951879358094302,
+      "smoothed_mean_2": 0.19545418659719874,
+      "smoothed_mean_4": 0.1981794379390776,
+      "empirical_mean": 0.22155169714638032
+    },
+    {
+      "benchmark": "benger/formatted_tables",
+      "pairs": 25,
+      "empirical_bayes": 0.17662658040970564,
+      "smoothed_mean_2": 0.17359442058205604,
+      "smoothed_mean_4": 0.18000688266009093,
+      "empirical_mean": 0.1884417255446315
+    },
+    {
+      "benchmark": "bertaqa/formatted_tables",
+      "pairs": 6,
+      "empirical_bayes": 0.20018823593854906,
+      "smoothed_mean_2": 0.2005207737286886,
+      "smoothed_mean_4": 0.20292733684182168,
+      "empirical_mean": 0.228742961337169
+    },
+    {
+      "benchmark": "cellverse/formatted_tables",
+      "pairs": 1,
+      "empirical_bayes": 0.3076738148927689,
+      "smoothed_mean_2": 0.3287386626005173,
+      "smoothed_mean_4": 0.30206899642944335,
+      "empirical_mean": 0.4403710812330246
+    },
+    {
+      "benchmark": "cruxeval/formatted_tables",
+      "pairs": 31,
+      "empirical_bayes": 0.24136589020490645,
+      "smoothed_mean_2": 0.24177647872317223,
+      "smoothed_mean_4": 0.23813300238501645,
+      "empirical_mean": 0.284248082772378
+    },
+    {
+      "benchmark": "dave/formatted_tables",
+      "pairs": 8,
+      "empirical_bayes": 0.24210440777242184,
+      "smoothed_mean_2": 0.2424070168286562,
+      "smoothed_mean_4": 0.2371009297668934,
+      "empirical_mean": 0.2947974616661668
+    },
+    {
+      "benchmark": "egoschema/formatted_tables",
+      "pairs": 11,
+      "empirical_bayes": 0.25803360776467754,
+      "smoothed_mean_2": 0.2655130160125819,
+      "smoothed_mean_4": 0.25671550753441724,
+      "empirical_mean": 0.32729211016134785
+    },
+    {
+      "benchmark": "evouna/formatted_tables",
+      "pairs": 5,
+      "empirical_bayes": 0.20939435109496118,
+      "smoothed_mean_2": 0.2135261695086956,
+      "smoothed_mean_4": 0.21147621095180513,
+      "empirical_mean": 0.26048530876636505
+    },
+    {
+      "benchmark": "financebench/formatted_tables",
+      "pairs": 16,
+      "empirical_bayes": 0.1978984257671982,
+      "smoothed_mean_2": 0.19564656582660975,
+      "smoothed_mean_4": 0.19891933952458205,
+      "empirical_mean": 0.2204206259455532
+    }
+  ],
+  "comparisons": {
+    "smoothed_mean_2": {
+      "pair_equal_delta": 0.002135830338638567,
+      "fold_deltas": [
+        0.008148442882840057,
+        -0.0014630877467868564,
+        -0.0002877159342549729
+      ],
+      "benchmarks_improved": 20,
+      "benchmarks_total": 36,
+      "worst_benchmark": "exploitgym/formatted_tables",
+      "worst_benchmark_delta": 0.02449136864510365,
+      "cluster_bootstrap_ci95": [
+        -0.002693551290915915,
+        0.00910388055332285
+      ]
+    },
+    "smoothed_mean_4": {
+      "pair_equal_delta": 0.001352806058010192,
+      "fold_deltas": [
+        0.0026365386094988896,
+        0.0025026956918707544,
+        -0.0010907492791159823
+      ],
+      "benchmarks_improved": 13,
+      "benchmarks_total": 36,
+      "worst_benchmark": "engdesign/formatted_tables",
+      "worst_benchmark_delta": 0.013091592118144035,
+      "cluster_bootstrap_ci95": [
+        -0.0016978580351310702,
+        0.004463249608367929
+      ]
+    },
+    "empirical_mean": {
+      "pair_equal_delta": -0.03012595588534145,
+      "fold_deltas": [
+        -0.010912607955307213,
+        -0.04712848592069463,
+        -0.03234579752653133
+      ],
+      "benchmarks_improved": 33,
+      "benchmarks_total": 36,
+      "worst_benchmark": "exploitgym/formatted_tables",
+      "worst_benchmark_delta": 0.03938712138682603,
+      "cluster_bootstrap_ci95": [
+        -0.04515172235036727,
+        -0.009889783005099602
+      ]
+    }
+  }
+}

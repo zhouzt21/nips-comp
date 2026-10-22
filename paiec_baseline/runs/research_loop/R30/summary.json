@@ -1,0 +1,381 @@
+{
+  "source_revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+  "scope": "counts exact; score reweighting is stratified extrapolation, NOT evaluation of omitted pairs/items",
+  "benchmarks": 36,
+  "evaluated_pairs": 737,
+  "eligible_pairs": 5242,
+  "pair_coverage": 0.1405951926745517,
+  "absolute_weight_shift_total_variation": 0.6804155146020789,
+  "observed_capped_scores": {
+    "separate": 0.20595295942205144,
+    "smoothed_mean_2": 0.20740836688589825
+  },
+  "stratified_extrapolation": {
+    "R25": 0.19406317180855812,
+    "smoothed2": 0.1977674999651218
+  },
+  "by_benchmark": [
+    {
+      "benchmark": "adaptivestep/formatted_tables",
+      "evaluated_pairs": 2,
+      "eligible_pairs": 2,
+      "coverage": 1.0,
+      "frozen_R25_benchmark_alc": 0.2502963978149382,
+      "frozen_baseline_benchmark_alc": 0.2554421612837087,
+      "proxy_weight": 0.0027137042062415195,
+      "full_count_weight": 0.00038153376573826786
+    },
+    {
+      "benchmark": "ai2d_test/formatted_tables",
+      "evaluated_pairs": 100,
+      "eligible_pairs": 254,
+      "coverage": 0.3937007874015748,
+      "frozen_R25_benchmark_alc": 0.21772868362576075,
+      "frozen_baseline_benchmark_alc": 0.21991038260335408,
+      "proxy_weight": 0.13568521031207598,
+      "full_count_weight": 0.04845478824876002
+    },
+    {
+      "benchmark": "bird_sql/formatted_tables",
+      "evaluated_pairs": 100,
+      "eligible_pairs": 120,
+      "coverage": 0.8333333333333334,
+      "frozen_R25_benchmark_alc": 0.11322440436130263,
+      "frozen_baseline_benchmark_alc": 0.11414026122593343,
+      "proxy_weight": 0.13568521031207598,
+      "full_count_weight": 0.022892025944296072
+    },
+    {
+      "benchmark": "braveguard/formatted_tables",
+      "evaluated_pairs": 2,
+      "eligible_pairs": 2,
+      "coverage": 1.0,
+      "frozen_R25_benchmark_alc": 0.14231701328374247,
+      "frozen_baseline_benchmark_alc": 0.1427298461890173,
+      "proxy_weight": 0.0027137042062415195,
+      "full_count_weight": 0.00038153376573826786
+    },
+    {
+      "benchmark": "ceval/formatted_tables",
+      "evaluated_pairs": 11,
+      "eligible_pairs": 11,
+      "coverage": 1.0,
+      "frozen_R25_benchmark_alc": 0.24621648579335925,
+      "frozen_baseline_benchmark_alc": 0.24652380813961178,
+      "proxy_weight": 0.014925373134328358,
+      "full_count_weight": 0.002098435711560473
+    },
+    {
+      "benchmark": "edu_circuit_hw/formatted_tables",
+      "evaluated_pairs": 6,
+      "eligible_pairs": 6,
+      "coverage": 1.0,
+      "frozen_R25_benchmark_alc": 0.23134237529376894,
+      "frozen_baseline_benchmark_alc": 0.23134237529376894,
+      "proxy_weight": 0.008141112618724558,
+      "full_count_weight": 0.0011446012972148034
+    },
+    {
+      "benchmark": "engdesign/formatted_tables",
+      "evaluated_pairs": 12,
+      "eligible_pairs": 12,
+      "coverage": 1.0,
+      "frozen_R25_benchmark_alc": 0.22295976185115596,
+      "frozen_baseline_benchmark_alc": 0.22393953218204055,
+      "proxy_weight": 0.016282225237449117,
+      "full_count_weight": 0.002289202594429607
+    },
+    {
+      "benchmark": "exploitgym/formatted_tables",
+      "evaluated_pairs": 5,
+      "eligible_pairs": 5,
+      "coverage": 1.0,
+      "frozen_R25_benchmark_alc": 0.11231644340540316,
+      "frozen_baseline_benchmark_alc": 0.1116379133448004,
+      "proxy_weight": 0.0067842605156037995,
+      "full_count_weight": 0.0009538344143456696
+    },
+    {
+      "benchmark": "felm/formatted_tables",
+      "evaluated_pairs": 1,
+      "eligible_pairs": 1,
+      "coverage": 1.0,
+      "frozen_R25_benchmark_alc": 0.18897762827605355,
+      "frozen_baseline_benchmark_alc": 0.1909630073998477,
+      "proxy_weight": 0.0013568521031207597,
+      "full_count_weight": 0.00019076688286913393
+    },
+    {
+      "benchmark": "healthadminbench/formatted_tables",
+      "evaluated_pairs": 7,
+      "eligible_pairs": 7,
+      "coverage": 1.0,
+      "frozen_R25_benchmark_alc": 0.23183103295748453,
+      "frozen_baseline_benchmark_alc": 0.23550995038444072,
+      "proxy_weight": 0.009497964721845319,
+      "full_count_weight": 0.0013353681800839375
+    },
+    {
+      "benchmark": "aegis/formatted_tables",
+      "evaluated_pairs": 1,
+      "eligible_pairs": 1,
+      "coverage": 1.0,
+      "frozen_R25_benchmark_alc": 0.2272786969251339,
+      "frozen_baseline_benchmark_alc": 0.22808383273271998,
+      "proxy_weight": 0.0013568521031207597,
+      "full_count_weight": 0.00019076688286913393
+    },
+    {
+      "benchmark": "appworld/formatted_tables",
+      "evaluated_pairs": 18,
+      "eligible_pairs": 18,
+      "coverage": 1.0,
+      "frozen_R25_benchmark_alc": 0.17860097339619743,
+      "frozen_baseline_benchmark_alc": 0.1811467575617763,
+      "proxy_weight": 0.024423337856173677,
+      "full_count_weight": 0.0034338038916444107
+    },
+    {
+      "benchmark": "bbq/formatted_tables",
+      "evaluated_pairs": 7,
+      "eligible_pairs": 7,
+      "coverage": 1.0,
+      "frozen_R25_benchmark_alc": 0.23720790024699415,
+      "frozen_baseline_benchmark_alc": 0.24206612700319668,
+      "proxy_weight": 0.009497964721845319,
+      "full_count_weight": 0.0013353681800839375
+    },
+    {
+      "benchmark": "beavertails/formatted_tables",
+      "evaluated_pairs": 4,
+      "eligible_pairs": 4,
+      "coverage": 1.0,
+      "frozen_R25_benchmark_alc": 0.18758000305857997,
+      "frozen_baseline_benchmark_alc": 0.1914380611948096,
+      "proxy_weight": 0.005427408412483039,
+      "full_count_weight": 0.0007630675314765357
+    },
+    {
+      "benchmark": "cmmlu/formatted_tables",
+      "evaluated_pairs": 22,
+      "eligible_pairs": 22,
+      "coverage": 1.0,
+      "frozen_R25_benchmark_alc": 0.2083777491895994,
+      "frozen_baseline_benchmark_alc": 0.20846880858893216,
+      "proxy_weight": 0.029850746268656716,
+      "full_count_weight": 0.004196871423120946
+    },
+    {
+      "benchmark": "devbench/formatted_tables",
+      "evaluated_pairs": 19,
+      "eligible_pairs": 19,
+      "coverage": 1.0,
+      "frozen_R25_benchmark_alc": 0.21154475318381705,
+      "frozen_baseline_benchmark_alc": 0.2170631783894666,
+      "proxy_weight": 0.025780189959294438,
+      "full_count_weight": 0.0036245707745135446
+    },
+    {
+      "benchmark": "editbench/formatted_tables",
+      "evaluated_pairs": 44,
+      "eligible_pairs": 44,
+      "coverage": 1.0,
+      "frozen_R25_benchmark_alc": 0.2601179548170143,
+      "frozen_baseline_benchmark_alc": 0.2607034885974341,
+      "proxy_weight": 0.05970149253731343,
+      "full_count_weight": 0.008393742846241892
+    },
+    {
+      "benchmark": "emoji_attack/formatted_tables",
+      "evaluated_pairs": 10,
+      "eligible_pairs": 10,
+      "coverage": 1.0,
+      "frozen_R25_benchmark_alc": 0.2114583329726362,
+      "frozen_baseline_benchmark_alc": 0.21517286999842733,
+      "proxy_weight": 0.013568521031207599,
+      "full_count_weight": 0.0019076688286913392
+    },
+    {
+      "benchmark": "enginemt_qa/formatted_tables",
+      "evaluated_pairs": 1,
+      "eligible_pairs": 1,
+      "coverage": 1.0,
+      "frozen_R25_benchmark_alc": 0.16469285350847784,
+      "frozen_baseline_benchmark_alc": 0.18153068376876313,
+      "proxy_weight": 0.0013568521031207597,
+      "full_count_weight": 0.00019076688286913393
+    },
+    {
+      "benchmark": "faithcot/formatted_tables",
+      "evaluated_pairs": 4,
+      "eligible_pairs": 4,
+      "coverage": 1.0,
+      "frozen_R25_benchmark_alc": 0.21548241009059432,
+      "frozen_baseline_benchmark_alc": 0.21672777943780303,
+      "proxy_weight": 0.005427408412483039,
+      "full_count_weight": 0.0007630675314765357
+    },
+    {
+      "benchmark": "fewshot_ttt_bbh/formatted_tables",
+      "evaluated_pairs": 11,
+      "eligible_pairs": 11,
+      "coverage": 1.0,
+      "frozen_R25_benchmark_alc": 0.26509305850588083,
+      "frozen_baseline_benchmark_alc": 0.26915951159761997,
+      "proxy_weight": 0.014925373134328358,
+      "full_count_weight": 0.002098435711560473
+    },
+    {
+      "benchmark": "finegrain_t2i/formatted_tables",
+      "evaluated_pairs": 5,
+      "eligible_pairs": 5,
+      "coverage": 1.0,
+      "frozen_R25_benchmark_alc": 0.2693555331313603,
+      "frozen_baseline_benchmark_alc": 0.26929764512030474,
+      "proxy_weight": 0.0067842605156037995,
+      "full_count_weight": 0.0009538344143456696
+    },
+    {
+      "benchmark": "hallusionbench/formatted_tables",
+      "evaluated_pairs": 100,
+      "eligible_pairs": 253,
+      "coverage": 0.3952569169960474,
+      "frozen_R25_benchmark_alc": 0.2530783340492636,
+      "frozen_baseline_benchmark_alc": 0.25378193019777245,
+      "proxy_weight": 0.13568521031207598,
+      "full_count_weight": 0.048264021365890884
+    },
+    {
+      "benchmark": "abstract_reason/formatted_tables",
+      "evaluated_pairs": 1,
+      "eligible_pairs": 1,
+      "coverage": 1.0,
+      "frozen_R25_benchmark_alc": 0.25154184868381774,
+      "frozen_baseline_benchmark_alc": 0.2545593019977872,
+      "proxy_weight": 0.0013568521031207597,
+      "full_count_weight": 0.00019076688286913393
+    },
+    {
+      "benchmark": "agentic_review_perturbation/formatted_tables",
+      "evaluated_pairs": 3,
+      "eligible_pairs": 3,
+      "coverage": 1.0,
+      "frozen_R25_benchmark_alc": 0.1300480003926104,
+      "frozen_baseline_benchmark_alc": 0.14323988397673104,
+      "proxy_weight": 0.004070556309362279,
+      "full_count_weight": 0.0005723006486074017
+    },
+    {
+      "benchmark": "agi_elo/formatted_tables",
+      "evaluated_pairs": 20,
+      "eligible_pairs": 20,
+      "coverage": 1.0,
+      "frozen_R25_benchmark_alc": 0.20738466995733032,
+      "frozen_baseline_benchmark_alc": 0.20660124364082558,
+      "proxy_weight": 0.027137042062415198,
+      "full_count_weight": 0.0038153376573826785
+    },
+    {
+      "benchmark": "algotune/formatted_tables",
+      "evaluated_pairs": 18,
+      "eligible_pairs": 18,
+      "coverage": 1.0,
+      "frozen_R25_benchmark_alc": 0.22317275718924562,
+      "frozen_baseline_benchmark_alc": 0.22234186044140505,
+      "proxy_weight": 0.024423337856173677,
+      "full_count_weight": 0.0034338038916444107
+    },
+    {
+      "benchmark": "alignment_faking/formatted_tables",
+      "evaluated_pairs": 100,
+      "eligible_pairs": 4278,
+      "coverage": 0.02337540906965872,
+      "frozen_R25_benchmark_alc": 0.18931932145794142,
+      "frozen_baseline_benchmark_alc": 0.19359971971195958,
+      "proxy_weight": 0.13568521031207598,
+      "full_count_weight": 0.8161007249141549
+    },
+    {
+      "benchmark": "benger/formatted_tables",
+      "evaluated_pairs": 25,
+      "eligible_pairs": 25,
+      "coverage": 1.0,
+      "frozen_R25_benchmark_alc": 0.1681934422251949,
+      "frozen_baseline_benchmark_alc": 0.1681934422251949,
+      "proxy_weight": 0.033921302578018994,
+      "full_count_weight": 0.0047691720717283476
+    },
+    {
+      "benchmark": "bertaqa/formatted_tables",
+      "evaluated_pairs": 6,
+      "eligible_pairs": 6,
+      "coverage": 1.0,
+      "frozen_R25_benchmark_alc": 0.2144620776718869,
+      "frozen_baseline_benchmark_alc": 0.21244417330604717,
+      "proxy_weight": 0.008141112618724558,
+      "full_count_weight": 0.0011446012972148034
+    },
+    {
+      "benchmark": "cellverse/formatted_tables",
+      "evaluated_pairs": 1,
+      "eligible_pairs": 1,
+      "coverage": 1.0,
+      "frozen_R25_benchmark_alc": 0.28423273054555487,
+      "frozen_baseline_benchmark_alc": 0.2849192825417858,
+      "proxy_weight": 0.0013568521031207597,
+      "full_count_weight": 0.00019076688286913393
+    },
+    {
+      "benchmark": "cruxeval/formatted_tables",
+      "evaluated_pairs": 31,
+      "eligible_pairs": 31,
+      "coverage": 1.0,
+      "frozen_R25_benchmark_alc": 0.2491623581746173,
+      "frozen_baseline_benchmark_alc": 0.24593589971731647,
+      "proxy_weight": 0.04206241519674356,
+      "full_count_weight": 0.005913773368943152
+    },
+    {
+      "benchmark": "dave/formatted_tables",
+      "evaluated_pairs": 8,
+      "eligible_pairs": 8,
+      "coverage": 1.0,
+      "frozen_R25_benchmark_alc": 0.2388118143240768,
+      "frozen_baseline_benchmark_alc": 0.237682415408505,
+      "proxy_weight": 0.010854816824966078,
+      "full_count_weight": 0.0015261350629530714
+    },
+    {
+      "benchmark": "egoschema/formatted_tables",
+      "evaluated_pairs": 11,
+      "eligible_pairs": 11,
+      "coverage": 1.0,
+      "frozen_R25_benchmark_alc": 0.2623411100883011,
+      "frozen_baseline_benchmark_alc": 0.26091436987192773,
+      "proxy_weight": 0.014925373134328358,
+      "full_count_weight": 0.002098435711560473
+    },
+    {
+      "benchmark": "evouna/formatted_tables",
+      "evaluated_pairs": 5,
+      "eligible_pairs": 5,
+      "coverage": 1.0,
+      "frozen_R25_benchmark_alc": 0.2056637043679817,
+      "frozen_baseline_benchmark_alc": 0.2037621501354463,
+      "proxy_weight": 0.0067842605156037995,
+      "full_count_weight": 0.0009538344143456696
+    },
+    {
+      "benchmark": "financebench/formatted_tables",
+      "evaluated_pairs": 16,
+      "eligible_pairs": 16,
+      "coverage": 1.0,
+      "frozen_R25_benchmark_alc": 0.19281513486433918,
+      "frozen_baseline_benchmark_alc": 0.19378374320758987,
+      "proxy_weight": 0.021709633649932156,
+      "full_count_weight": 0.003052270125906143
+    }
+  ],
+  "evaluation_items_per_pair_cap": 64,
+  "omitted_pair_scores_observed": false
+}

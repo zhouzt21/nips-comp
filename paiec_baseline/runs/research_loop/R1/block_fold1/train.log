@@ -1,0 +1,115 @@
+epoch=1 validation_pair_brier=0.221461
+epoch=2 validation_pair_brier=0.230470
+epoch=3 validation_pair_brier=0.212492
+epoch=4 validation_pair_brier=0.246550
+epoch=5 validation_pair_brier=0.214767
+epoch=6 validation_pair_brier=0.268512
+epoch=7 validation_pair_brier=0.312354
+epoch=8 validation_pair_brier=0.385276
+{
+  "source_revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+  "seed": 2026,
+  "train_benchmarks": [
+    "abstract_reason/formatted_tables",
+    "advprompter/formatted_tables",
+    "agentic_review_perturbation/formatted_tables",
+    "agi_elo/formatted_tables",
+    "aider/formatted_tables",
+    "algotune/formatted_tables",
+    "alignment_faking/formatted_tables",
+    "auditing_sabotage_bench/formatted_tables",
+    "benger/formatted_tables",
+    "bird_sql/formatted_tables",
+    "braveguard/formatted_tables",
+    "cellverse/formatted_tables",
+    "ceval/formatted_tables",
+    "chartmuseum/formatted_tables",
+    "chi_bench/formatted_tables",
+    "confagents/formatted_tables",
+    "cruxeval/formatted_tables",
+    "dave/formatted_tables",
+    "dbpa/formatted_tables",
+    "edu_circuit_hw/formatted_tables",
+    "egoschema/formatted_tables",
+    "ehrflowbench/formatted_tables",
+    "engdesign/formatted_tables",
+    "evouna/formatted_tables",
+    "exploitgym/formatted_tables",
+    "felm/formatted_tables",
+    "financebench/formatted_tables",
+    "haiid/formatted_tables",
+    "healthadminbench/formatted_tables"
+  ],
+  "validation_benchmarks": [
+    "ai2d_test/formatted_tables",
+    "adaptivestep/formatted_tables",
+    "bertaqa/formatted_tables"
+  ],
+  "development_benchmarks_untouched": [
+    "aegis/formatted_tables",
+    "appworld/formatted_tables",
+    "bbq/formatted_tables",
+    "beavertails/formatted_tables",
+    "cmmlu/formatted_tables",
+    "devbench/formatted_tables",
+    "editbench/formatted_tables",
+    "emoji_attack/formatted_tables",
+    "enginemt_qa/formatted_tables",
+    "faithcot/formatted_tables",
+    "fewshot_ttt_bbh/formatted_tables",
+    "finegrain_t2i/formatted_tables",
+    "hallusionbench/formatted_tables"
+  ],
+  "early_stopping_pool": "training",
+  "fixed_epochs": null,
+  "train_rows": 10219,
+  "validation_rows": 1200,
+  "train_pairs": 1140,
+  "validation_pairs": 205,
+  "max_rows_per_benchmark": 400,
+  "sampling": "response",
+  "best_epoch": 3,
+  "validation_pair_brier_at_budget_0": 0.21249229630906344,
+  "validation_history": [
+    {
+      "epoch": 1,
+      "pair_brier": 0.22146102213310948
+    },
+    {
+      "epoch": 2,
+      "pair_brier": 0.23046996780827098
+    },
+    {
+      "epoch": 3,
+      "pair_brier": 0.21249229630906344
+    },
+    {
+      "epoch": 4,
+      "pair_brier": 0.24655013756931232
+    },
+    {
+      "epoch": 5,
+      "pair_brier": 0.21476660518345833
+    },
+    {
+      "epoch": 6,
+      "pair_brier": 0.2685116609039886
+    },
+    {
+      "epoch": 7,
+      "pair_brier": 0.31235356846143697
+    },
+    {
+      "epoch": 8,
+      "pair_brier": 0.38527551183649417
+    }
+  ],
+  "split_file": "runs\\mlp_cv\\fold1_split.json",
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "feature_mode": "block",
+  "network_kind": "mlp",
+  "batch_size": 512,
+  "export_max_abs_error": 5.960464477539063e-08,
+  "weight_file": "runs\\research_loop\\R1\\block_fold1\\weights.npz"
+}

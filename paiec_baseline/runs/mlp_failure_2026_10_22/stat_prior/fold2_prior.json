@@ -1,0 +1,66 @@
+{
+  "source_revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+  "train_benchmarks": [
+    "adaptivestep/formatted_tables",
+    "advprompter/formatted_tables",
+    "aegis/formatted_tables",
+    "ai2d_test/formatted_tables",
+    "aider/formatted_tables",
+    "appworld/formatted_tables",
+    "auditing_sabotage_bench/formatted_tables",
+    "bbq/formatted_tables",
+    "beavertails/formatted_tables",
+    "bird_sql/formatted_tables",
+    "braveguard/formatted_tables",
+    "ceval/formatted_tables",
+    "chartmuseum/formatted_tables",
+    "chi_bench/formatted_tables",
+    "cmmlu/formatted_tables",
+    "confagents/formatted_tables",
+    "dbpa/formatted_tables",
+    "devbench/formatted_tables",
+    "editbench/formatted_tables",
+    "edu_circuit_hw/formatted_tables",
+    "ehrflowbench/formatted_tables",
+    "emoji_attack/formatted_tables",
+    "engdesign/formatted_tables",
+    "enginemt_qa/formatted_tables",
+    "exploitgym/formatted_tables",
+    "faithcot/formatted_tables",
+    "felm/formatted_tables",
+    "fewshot_ttt_bbh/formatted_tables",
+    "finegrain_t2i/formatted_tables",
+    "haiid/formatted_tables",
+    "hallusionbench/formatted_tables",
+    "healthadminbench/formatted_tables"
+  ],
+  "training_pairs": 819,
+  "training_pair_rate_mean": 0.5130213273570214,
+  "selection_method": "training-only exchangeable Binomial risk proxy",
+  "selected": {
+    "public_prior": {
+      "prior": 0.5130213273570214,
+      "alpha": 4.0,
+      "proxy_by_alpha": {
+        "1.0": 0.2209303740574866,
+        "2.0": 0.2162725162371431,
+        "4.0": 0.2158980529192262,
+        "8.0": 0.219365829117879,
+        "16.0": 0.22537907443588595
+      }
+    },
+    "smoothed_05": {
+      "prior": 0.5,
+      "alpha": 4.0,
+      "proxy_by_alpha": {
+        "1.0": 0.2209586056216728,
+        "2.0": 0.216312175297619,
+        "4.0": 0.21595399296702128,
+        "8.0": 0.21944197677194588,
+        "16.0": 0.22547752552047667
+      }
+    }
+  },
+  "priors": {},
+  "global_mean": 0.5130213273570214
+}

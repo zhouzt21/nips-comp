@@ -1,0 +1,11 @@
+# R45: complementary current-item evidence, without a mixture search
+
+Frozen after R44. R7 semantic has a better average than matched retained-text hashing, but that does not show its errors subsume the lexical estimator. R42's template-conditioned rule was rejected; do NOT use it here. Both estimators now see the SAME original128token window and current support labels. No new text/model, historical prior or budget coefficient.
+
+Use R25 semantic+metadata with original semantic ridge4/4/1 and metadata16. Lexical estimator hashes original retained MiniLM window (as R7/R42 old_lexical), ridge1 and same metadata16. Both use the original centered ridge predictor and smoothed2 baseline. Candidate is their arithmetic mean, fixed weight1/2. This is complementary local-evidence estimation, distinct from the rejected fixed blend with a zero-label MLP prior or constant0.5.
+
+Exact response-level identity: Brier((p+q)/2)=(Brier(p)+Brier(q))/2 - E[(p-q)^2]/4. Report lexical penalty versus semantic and disagreement dividend separately at each budget and by benchmark. Compare four permutations of lexical QUERY predictions before averaging (average losses), as a diagnostic of whether correspondence adds information beyond distribution/range smoothing. This control uses evaluation-set inputs only for the destructive diagnostic and is never a deployed estimator. No evaluation labels enter either predictor.
+
+Source-only pilot, original seed73/max25pairs and64queryitems/allresponses. Exact R25 and R42 old_lexical source replay. Entry to a later outer evaluation requires candidate to improve R25 in all three source pools, both pair- and benchmark-equal, and beat the permuted control in all three pair-equal comparisons. Otherwise stop this ensemble; do not tune its coefficient or choose different per-benchmark weights. Source observations remain development evidence. If admitted, freeze both predictors and perform actual5242pair/three-seed outer paired evaluation and original gate, then full-query confirmation if promising.
+
+Pre-run identity test including repeated-response weights. Preserve per-budget losses, disagreement dividend, comparison controls, source hashes and source-fold selection records. No promotion or submission from this pilot.

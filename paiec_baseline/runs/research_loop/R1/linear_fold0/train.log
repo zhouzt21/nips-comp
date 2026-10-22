@@ -1,0 +1,225 @@
+epoch=1 validation_pair_brier=0.242880
+epoch=2 validation_pair_brier=0.241904
+epoch=3 validation_pair_brier=0.241576
+epoch=4 validation_pair_brier=0.240700
+epoch=5 validation_pair_brier=0.240577
+epoch=6 validation_pair_brier=0.240109
+epoch=7 validation_pair_brier=0.239939
+epoch=8 validation_pair_brier=0.239485
+epoch=9 validation_pair_brier=0.239401
+epoch=10 validation_pair_brier=0.239122
+epoch=11 validation_pair_brier=0.238893
+epoch=12 validation_pair_brier=0.238739
+epoch=13 validation_pair_brier=0.238551
+epoch=14 validation_pair_brier=0.238321
+epoch=15 validation_pair_brier=0.238174
+epoch=16 validation_pair_brier=0.238133
+epoch=17 validation_pair_brier=0.237804
+epoch=18 validation_pair_brier=0.237863
+epoch=19 validation_pair_brier=0.237546
+epoch=20 validation_pair_brier=0.237635
+epoch=21 validation_pair_brier=0.237407
+epoch=22 validation_pair_brier=0.237295
+epoch=23 validation_pair_brier=0.237018
+epoch=24 validation_pair_brier=0.237398
+epoch=25 validation_pair_brier=0.237081
+epoch=26 validation_pair_brier=0.237041
+epoch=27 validation_pair_brier=0.237492
+epoch=28 validation_pair_brier=0.236748
+epoch=29 validation_pair_brier=0.237178
+epoch=30 validation_pair_brier=0.237025
+{
+  "source_revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+  "seed": 2026,
+  "train_benchmarks": [
+    "advprompter/formatted_tables",
+    "aegis/formatted_tables",
+    "agi_elo/formatted_tables",
+    "aider/formatted_tables",
+    "algotune/formatted_tables",
+    "alignment_faking/formatted_tables",
+    "appworld/formatted_tables",
+    "auditing_sabotage_bench/formatted_tables",
+    "bbq/formatted_tables",
+    "beavertails/formatted_tables",
+    "benger/formatted_tables",
+    "bertaqa/formatted_tables",
+    "cellverse/formatted_tables",
+    "chartmuseum/formatted_tables",
+    "chi_bench/formatted_tables",
+    "cmmlu/formatted_tables",
+    "confagents/formatted_tables",
+    "cruxeval/formatted_tables",
+    "dbpa/formatted_tables",
+    "devbench/formatted_tables",
+    "editbench/formatted_tables",
+    "egoschema/formatted_tables",
+    "ehrflowbench/formatted_tables",
+    "emoji_attack/formatted_tables",
+    "enginemt_qa/formatted_tables",
+    "evouna/formatted_tables",
+    "faithcot/formatted_tables",
+    "fewshot_ttt_bbh/formatted_tables",
+    "financebench/formatted_tables",
+    "finegrain_t2i/formatted_tables",
+    "haiid/formatted_tables"
+  ],
+  "validation_benchmarks": [
+    "hallusionbench/formatted_tables",
+    "agentic_review_perturbation/formatted_tables",
+    "dave/formatted_tables",
+    "abstract_reason/formatted_tables"
+  ],
+  "development_benchmarks_untouched": [
+    "adaptivestep/formatted_tables",
+    "ai2d_test/formatted_tables",
+    "bird_sql/formatted_tables",
+    "braveguard/formatted_tables",
+    "ceval/formatted_tables",
+    "edu_circuit_hw/formatted_tables",
+    "engdesign/formatted_tables",
+    "exploitgym/formatted_tables",
+    "felm/formatted_tables",
+    "healthadminbench/formatted_tables"
+  ],
+  "early_stopping_pool": "training",
+  "fixed_epochs": null,
+  "train_rows": 11104,
+  "validation_rows": 1515,
+  "train_pairs": 1117,
+  "validation_pairs": 206,
+  "max_rows_per_benchmark": 400,
+  "sampling": "response",
+  "best_epoch": 28,
+  "validation_pair_brier_at_budget_0": 0.23674759407469662,
+  "validation_history": [
+    {
+      "epoch": 1,
+      "pair_brier": 0.24287974941158694
+    },
+    {
+      "epoch": 2,
+      "pair_brier": 0.24190438550732213
+    },
+    {
+      "epoch": 3,
+      "pair_brier": 0.2415761249613288
+    },
+    {
+      "epoch": 4,
+      "pair_brier": 0.24070045987266023
+    },
+    {
+      "epoch": 5,
+      "pair_brier": 0.24057654395980696
+    },
+    {
+      "epoch": 6,
+      "pair_brier": 0.2401094285278499
+    },
+    {
+      "epoch": 7,
+      "pair_brier": 0.23993903152565782
+    },
+    {
+      "epoch": 8,
+      "pair_brier": 0.2394847918366624
+    },
+    {
+      "epoch": 9,
+      "pair_brier": 0.23940148251979584
+    },
+    {
+      "epoch": 10,
+      "pair_brier": 0.23912214674814705
+    },
+    {
+      "epoch": 11,
+      "pair_brier": 0.23889329671295242
+    },
+    {
+      "epoch": 12,
+      "pair_brier": 0.23873866384600403
+    },
+    {
+      "epoch": 13,
+      "pair_brier": 0.23855113871303288
+    },
+    {
+      "epoch": 14,
+      "pair_brier": 0.2383209109500464
+    },
+    {
+      "epoch": 15,
+      "pair_brier": 0.2381738690389561
+    },
+    {
+      "epoch": 16,
+      "pair_brier": 0.23813311254110056
+    },
+    {
+      "epoch": 17,
+      "pair_brier": 0.23780410081985862
+    },
+    {
+      "epoch": 18,
+      "pair_brier": 0.2378633826312036
+    },
+    {
+      "epoch": 19,
+      "pair_brier": 0.23754641435702448
+    },
+    {
+      "epoch": 20,
+      "pair_brier": 0.23763509198803268
+    },
+    {
+      "epoch": 21,
+      "pair_brier": 0.2374065550935075
+    },
+    {
+      "epoch": 22,
+      "pair_brier": 0.23729491561294555
+    },
+    {
+      "epoch": 23,
+      "pair_brier": 0.23701759899341435
+    },
+    {
+      "epoch": 24,
+      "pair_brier": 0.2373980330941067
+    },
+    {
+      "epoch": 25,
+      "pair_brier": 0.2370813215235555
+    },
+    {
+      "epoch": 26,
+      "pair_brier": 0.23704148879038828
+    },
+    {
+      "epoch": 27,
+      "pair_brier": 0.23749206019298877
+    },
+    {
+      "epoch": 28,
+      "pair_brier": 0.23674759407469662
+    },
+    {
+      "epoch": 29,
+      "pair_brier": 0.237177674603407
+    },
+    {
+      "epoch": 30,
+      "pair_brier": 0.23702471911038844
+    }
+  ],
+  "split_file": "runs\\mlp_cv\\fold0_split.json",
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "feature_mode": "all",
+  "network_kind": "linear",
+  "batch_size": 512,
+  "export_max_abs_error": 5.960464477539063e-08,
+  "weight_file": "runs\\research_loop\\R1\\linear_fold0\\weights.npz"
+}

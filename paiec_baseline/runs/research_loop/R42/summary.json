@@ -1,0 +1,297 @@
+{
+  "scope": "Source-only fixed-rule pilot; NO heldout generalization estimate",
+  "folds": [
+    {
+      "fold": 0,
+      "scope": "source-development only; not OOD",
+      "source_benchmarks": [
+        "abstract_reason/formatted_tables",
+        "advprompter/formatted_tables",
+        "aegis/formatted_tables",
+        "agentic_review_perturbation/formatted_tables",
+        "agi_elo/formatted_tables",
+        "aider/formatted_tables",
+        "algotune/formatted_tables",
+        "alignment_faking/formatted_tables",
+        "appworld/formatted_tables",
+        "auditing_sabotage_bench/formatted_tables",
+        "bbq/formatted_tables",
+        "beavertails/formatted_tables",
+        "benger/formatted_tables",
+        "bertaqa/formatted_tables",
+        "cellverse/formatted_tables",
+        "chartmuseum/formatted_tables",
+        "chi_bench/formatted_tables",
+        "cmmlu/formatted_tables",
+        "confagents/formatted_tables",
+        "cruxeval/formatted_tables",
+        "dave/formatted_tables",
+        "dbpa/formatted_tables",
+        "devbench/formatted_tables",
+        "editbench/formatted_tables",
+        "egoschema/formatted_tables",
+        "ehrflowbench/formatted_tables",
+        "emoji_attack/formatted_tables",
+        "enginemt_qa/formatted_tables",
+        "evouna/formatted_tables",
+        "faithcot/formatted_tables",
+        "fewshot_ttt_bbh/formatted_tables",
+        "financebench/formatted_tables",
+        "finegrain_t2i/formatted_tables",
+        "haiid/formatted_tables",
+        "hallusionbench/formatted_tables"
+      ],
+      "pairs": 316,
+      "brier": {
+        "context_semantic": [
+          0.25,
+          0.23982247049745387,
+          0.22144028601053964,
+          0.20660755541674092,
+          0.1995424923022556,
+          0.19233752828202114
+        ],
+        "old_semantic": [
+          0.25,
+          0.23982247049745387,
+          0.22140503592059607,
+          0.2066244338342705,
+          0.19956258809165342,
+          0.192346734325526
+        ],
+        "context_lexical": [
+          0.25,
+          0.23982247049745387,
+          0.22202467782063848,
+          0.20658103548541681,
+          0.19922110835980614,
+          0.1912120743720259
+        ],
+        "old_lexical": [
+          0.25,
+          0.23982247049745387,
+          0.22202401871781294,
+          0.20668851221368384,
+          0.19952686616911655,
+          0.1918288526941325
+        ],
+        "smoothed_mean_2": [
+          0.25,
+          0.23982247049745387,
+          0.22178873202023125,
+          0.20823332631559216,
+          0.20167847253589835,
+          0.19684497435802614
+        ]
+      },
+      "pair_equal_alc": {
+        "context_semantic": 0.21771631367360014,
+        "old_semantic": 0.21771757910134737,
+        "context_lexical": 0.21765106586986566,
+        "old_lexical": 0.2177952587890267,
+        "smoothed_mean_2": 0.21898909770963776
+      },
+      "benchmark_equal_alc": {
+        "context_semantic": 0.22049688856348124,
+        "old_semantic": 0.22051417527269274,
+        "context_lexical": 0.22001645161739905,
+        "old_lexical": 0.21990539680522853,
+        "smoothed_mean_2": 0.22287722420106684
+      }
+    },
+    {
+      "fold": 1,
+      "scope": "source-development only; not OOD",
+      "source_benchmarks": [
+        "abstract_reason/formatted_tables",
+        "adaptivestep/formatted_tables",
+        "advprompter/formatted_tables",
+        "agentic_review_perturbation/formatted_tables",
+        "agi_elo/formatted_tables",
+        "ai2d_test/formatted_tables",
+        "aider/formatted_tables",
+        "algotune/formatted_tables",
+        "alignment_faking/formatted_tables",
+        "auditing_sabotage_bench/formatted_tables",
+        "benger/formatted_tables",
+        "bertaqa/formatted_tables",
+        "bird_sql/formatted_tables",
+        "braveguard/formatted_tables",
+        "cellverse/formatted_tables",
+        "ceval/formatted_tables",
+        "chartmuseum/formatted_tables",
+        "chi_bench/formatted_tables",
+        "confagents/formatted_tables",
+        "cruxeval/formatted_tables",
+        "dave/formatted_tables",
+        "dbpa/formatted_tables",
+        "edu_circuit_hw/formatted_tables",
+        "egoschema/formatted_tables",
+        "ehrflowbench/formatted_tables",
+        "engdesign/formatted_tables",
+        "evouna/formatted_tables",
+        "exploitgym/formatted_tables",
+        "felm/formatted_tables",
+        "financebench/formatted_tables",
+        "haiid/formatted_tables",
+        "healthadminbench/formatted_tables"
+      ],
+      "pairs": 260,
+      "brier": {
+        "context_semantic": [
+          0.25,
+          0.22578863832864587,
+          0.20332180627093835,
+          0.18929791738128385,
+          0.17946299528981124,
+          0.17363459320253266
+        ],
+        "old_semantic": [
+          0.25,
+          0.22578863832864587,
+          0.20325809354379284,
+          0.1893400768647559,
+          0.17949306706534912,
+          0.17365944543427883
+        ],
+        "context_lexical": [
+          0.25,
+          0.22578863832864587,
+          0.20357036018326696,
+          0.18952221363705665,
+          0.1798647533496094,
+          0.17318961708290637
+        ],
+        "old_lexical": [
+          0.25,
+          0.22578863832864587,
+          0.20360447823186706,
+          0.18964502834515262,
+          0.18031194288298263,
+          0.17401318623674977
+        ],
+        "smoothed_mean_2": [
+          0.25,
+          0.22578863832864587,
+          0.2036104868435814,
+          0.1902333346932677,
+          0.18136992917422184,
+          0.17669887687102218
+        ]
+      },
+      "pair_equal_alc": {
+        "context_semantic": 0.20193773077438915,
+        "old_semantic": 0.20194191970393663,
+        "context_lexical": 0.20206815480800644,
+        "old_lexical": 0.20227133618140464,
+        "smoothed_mean_2": 0.20287036549504558
+      },
+      "benchmark_equal_alc": {
+        "context_semantic": 0.20481838903933072,
+        "old_semantic": 0.20487247837962266,
+        "context_lexical": 0.20457560040472847,
+        "old_lexical": 0.20453917453702383,
+        "smoothed_mean_2": 0.20611004220141896
+      }
+    },
+    {
+      "fold": 2,
+      "scope": "source-development only; not OOD",
+      "source_benchmarks": [
+        "adaptivestep/formatted_tables",
+        "advprompter/formatted_tables",
+        "aegis/formatted_tables",
+        "ai2d_test/formatted_tables",
+        "aider/formatted_tables",
+        "appworld/formatted_tables",
+        "auditing_sabotage_bench/formatted_tables",
+        "bbq/formatted_tables",
+        "beavertails/formatted_tables",
+        "bird_sql/formatted_tables",
+        "braveguard/formatted_tables",
+        "ceval/formatted_tables",
+        "chartmuseum/formatted_tables",
+        "chi_bench/formatted_tables",
+        "cmmlu/formatted_tables",
+        "confagents/formatted_tables",
+        "dbpa/formatted_tables",
+        "devbench/formatted_tables",
+        "editbench/formatted_tables",
+        "edu_circuit_hw/formatted_tables",
+        "ehrflowbench/formatted_tables",
+        "emoji_attack/formatted_tables",
+        "engdesign/formatted_tables",
+        "enginemt_qa/formatted_tables",
+        "exploitgym/formatted_tables",
+        "faithcot/formatted_tables",
+        "felm/formatted_tables",
+        "fewshot_ttt_bbh/formatted_tables",
+        "finegrain_t2i/formatted_tables",
+        "haiid/formatted_tables",
+        "hallusionbench/formatted_tables",
+        "healthadminbench/formatted_tables"
+      ],
+      "pairs": 248,
+      "brier": {
+        "context_semantic": [
+          0.25,
+          0.23676003320684125,
+          0.21906438184058122,
+          0.20064767360468683,
+          0.19112935002562847,
+          0.1857509451016134
+        ],
+        "old_semantic": [
+          0.25,
+          0.23676003320684125,
+          0.21903192856299836,
+          0.2006523439023548,
+          0.1911447470993599,
+          0.18573401712693005
+        ],
+        "context_lexical": [
+          0.25,
+          0.23676003320684125,
+          0.21940617590330666,
+          0.20036536898364612,
+          0.19046860779452413,
+          0.18345608041731692
+        ],
+        "old_lexical": [
+          0.25,
+          0.23676003320684125,
+          0.219333179810454,
+          0.20041917038774212,
+          0.19049602786469216,
+          0.1834552042704645
+        ],
+        "smoothed_mean_2": [
+          0.25,
+          0.23676003320684125,
+          0.2199952329859159,
+          0.20352418465614325,
+          0.19464780490648811,
+          0.1905671519065145
+        ]
+      },
+      "pair_equal_alc": {
+        "context_semantic": 0.2130953822457089,
+        "old_semantic": 0.2130912122670039,
+        "context_lexical": 0.21274564521939535,
+        "old_lexical": 0.21274720268099237,
+        "smoothed_mean_2": 0.21504216634172915
+      },
+      "benchmark_equal_alc": {
+        "context_semantic": 0.21144399601445651,
+        "old_semantic": 0.21141774871684116,
+        "context_lexical": 0.2113305246189884,
+        "old_lexical": 0.2114076808099938,
+        "smoothed_mean_2": 0.21572291834020044
+      }
+    }
+  ],
+  "admit_outer": false,
+  "new_embeddings_this_run": 4451,
+  "cache_path": "D:\\paiec_research_cache\\context_tokens\\7d59ba4a7721010053030369250664aa4df9a91c63cb55f3d5d68f16258f95e9.sqlite",
+  "elapsed_seconds": 91.37643790245056
+}

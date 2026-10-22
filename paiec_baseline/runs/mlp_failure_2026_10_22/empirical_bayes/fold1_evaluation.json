@@ -1,0 +1,377 @@
+{
+  "source_revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+  "split_file": "runs\\mlp_cv\\fold1_split.json",
+  "split_sha256": "f37156edba4974b04e3474d0dd442a643a8d058413fd7dd79f1b77252ff834cd",
+  "role": "development",
+  "budgets": [
+    0,
+    1,
+    3,
+    7,
+    15,
+    31
+  ],
+  "alc_weights": [
+    0.1,
+    0.2,
+    0.2,
+    0.2,
+    0.2,
+    0.1
+  ],
+  "seeds": 1,
+  "max_evaluation_items_per_pair": 64,
+  "max_pairs_per_benchmark": 100,
+  "prior_mixes": [
+    1.0
+  ],
+  "benchmarks_used": [
+    "aegis/formatted_tables",
+    "appworld/formatted_tables",
+    "bbq/formatted_tables",
+    "beavertails/formatted_tables",
+    "cmmlu/formatted_tables",
+    "devbench/formatted_tables",
+    "editbench/formatted_tables",
+    "emoji_attack/formatted_tables",
+    "enginemt_qa/formatted_tables",
+    "faithcot/formatted_tables",
+    "fewshot_ttt_bbh/formatted_tables",
+    "finegrain_t2i/formatted_tables",
+    "hallusionbench/formatted_tables"
+  ],
+  "pairs_per_seed": [
+    246
+  ],
+  "evaluation_responses_per_seed": [
+    15803
+  ],
+  "public_prior_file": null,
+  "eb_table_file": "runs\\mlp_failure_2026_10_22\\empirical_bayes\\fold1_lookup.json",
+  "public_prior_name_hits_per_seed": null,
+  "by_benchmark": {
+    "aegis/formatted_tables": {
+      "pairs_per_seed": [
+        1
+      ],
+      "alc_mean": {
+        "empirical_mean": 0.2184995770454407,
+        "constant_0.5": 0.25,
+        "smoothed_mean_2": 0.20921064913272858,
+        "smoothed_mean_4": 0.21487346887588502,
+        "smoothed_mean_8": 0.22237215340137484,
+        "empirical_bayes": 0.21128617823123935
+      }
+    },
+    "appworld/formatted_tables": {
+      "pairs_per_seed": [
+        18
+      ],
+      "alc_mean": {
+        "empirical_mean": 0.17516534545769297,
+        "constant_0.5": 0.25,
+        "smoothed_mean_2": 0.1694739644852234,
+        "smoothed_mean_4": 0.17812180739387662,
+        "smoothed_mean_8": 0.19030921975564624,
+        "empirical_bayes": 0.16934144106352406
+      }
+    },
+    "bbq/formatted_tables": {
+      "pairs_per_seed": [
+        7
+      ],
+      "alc_mean": {
+        "empirical_mean": 0.2865820490888187,
+        "constant_0.5": 0.25,
+        "smoothed_mean_2": 0.2424398175307683,
+        "smoothed_mean_4": 0.23886310287884305,
+        "smoothed_mean_8": 0.23841544219425748,
+        "empirical_bayes": 0.24095984037433354
+      }
+    },
+    "beavertails/formatted_tables": {
+      "pairs_per_seed": [
+        4
+      ],
+      "alc_mean": {
+        "empirical_mean": 0.19760562479496002,
+        "constant_0.5": 0.25,
+        "smoothed_mean_2": 0.1793676323242835,
+        "smoothed_mean_4": 0.18483273385791107,
+        "smoothed_mean_8": 0.1943394369678572,
+        "empirical_bayes": 0.18539892518892886
+      }
+    },
+    "cmmlu/formatted_tables": {
+      "pairs_per_seed": [
+        22
+      ],
+      "alc_mean": {
+        "empirical_mean": 0.2567092054608194,
+        "constant_0.5": 0.25,
+        "smoothed_mean_2": 0.2133633800208124,
+        "smoothed_mean_4": 0.2113942067805593,
+        "smoothed_mean_8": 0.21421732783148237,
+        "empirical_bayes": 0.2129694047178253
+      }
+    },
+    "devbench/formatted_tables": {
+      "pairs_per_seed": [
+        19
+      ],
+      "alc_mean": {
+        "empirical_mean": 0.26257525762837186,
+        "constant_0.5": 0.25,
+        "smoothed_mean_2": 0.22148188981962835,
+        "smoothed_mean_4": 0.2199707296529883,
+        "smoothed_mean_8": 0.22247149379629838,
+        "empirical_bayes": 0.22231076661693427
+      }
+    },
+    "editbench/formatted_tables": {
+      "pairs_per_seed": [
+        44
+      ],
+      "alc_mean": {
+        "empirical_mean": 0.3114421709694646,
+        "constant_0.5": 0.25,
+        "smoothed_mean_2": 0.2605248859998855,
+        "smoothed_mean_4": 0.25437713959677655,
+        "smoothed_mean_8": 0.25094118907370355,
+        "empirical_bayes": 0.259060865606774
+      }
+    },
+    "emoji_attack/formatted_tables": {
+      "pairs_per_seed": [
+        10
+      ],
+      "alc_mean": {
+        "empirical_mean": 0.2772645683959126,
+        "constant_0.5": 0.25,
+        "smoothed_mean_2": 0.2269908396154642,
+        "smoothed_mean_4": 0.22304350204765797,
+        "smoothed_mean_8": 0.22368007205426693,
+        "empirical_bayes": 0.22356301836669445
+      }
+    },
+    "enginemt_qa/formatted_tables": {
+      "pairs_per_seed": [
+        1
+      ],
+      "alc_mean": {
+        "empirical_mean": 0.299321873486042,
+        "constant_0.5": 0.25,
+        "smoothed_mean_2": 0.21848509907722474,
+        "smoothed_mean_4": 0.21132587492465976,
+        "smoothed_mean_8": 0.21189378201961517,
+        "empirical_bayes": 0.21896109879016878
+      }
+    },
+    "faithcot/formatted_tables": {
+      "pairs_per_seed": [
+        4
+      ],
+      "alc_mean": {
+        "empirical_mean": 0.24618918299674988,
+        "constant_0.5": 0.25,
+        "smoothed_mean_2": 0.21667292080819608,
+        "smoothed_mean_4": 0.21722936034202578,
+        "smoothed_mean_8": 0.22090303190052513,
+        "empirical_bayes": 0.21801964975893495
+      }
+    },
+    "fewshot_ttt_bbh/formatted_tables": {
+      "pairs_per_seed": [
+        11
+      ],
+      "alc_mean": {
+        "empirical_mean": 0.32530627155845815,
+        "constant_0.5": 0.25,
+        "smoothed_mean_2": 0.26467616111040115,
+        "smoothed_mean_4": 0.25595948574217886,
+        "smoothed_mean_8": 0.2508137495680289,
+        "empirical_bayes": 0.26123765043236996
+      }
+    },
+    "finegrain_t2i/formatted_tables": {
+      "pairs_per_seed": [
+        5
+      ],
+      "alc_mean": {
+        "empirical_mean": 0.34113260090351105,
+        "constant_0.5": 0.25,
+        "smoothed_mean_2": 0.27796950280666355,
+        "smoothed_mean_4": 0.26766087949275974,
+        "smoothed_mean_8": 0.26047058641910553,
+        "empirical_bayes": 0.27423777550458905
+      }
+    },
+    "hallusionbench/formatted_tables": {
+      "pairs_per_seed": [
+        100
+      ],
+      "alc_mean": {
+        "empirical_mean": 0.30403663881123066,
+        "constant_0.5": 0.25,
+        "smoothed_mean_2": 0.25322785809636117,
+        "smoothed_mean_4": 0.24723423771560193,
+        "smoothed_mean_8": 0.24456292228400706,
+        "empirical_bayes": 0.250916440308094
+      }
+    }
+  },
+  "weight_sha256": {},
+  "weight_feature_modes": {},
+  "results": {
+    "empirical_mean": {
+      "brier_by_seed": [
+        [
+          0.25,
+          0.4318241883765876,
+          0.2817942071554622,
+          0.24588726854663553,
+          0.23212962128918588,
+          0.2225172641437228
+        ]
+      ],
+      "brier_mean": [
+        0.25,
+        0.4318241883765876,
+        0.2817942071554622,
+        0.24588726854663553,
+        0.23212962128918588,
+        0.2225172641437228
+      ],
+      "alc_by_seed": [
+        0.2855787834879465
+      ],
+      "alc_mean": 0.2855787834879465,
+      "alc_std": null
+    },
+    "constant_0.5": {
+      "brier_by_seed": [
+        [
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25,
+          0.25
+        ]
+      ],
+      "brier_mean": [
+        0.25,
+        0.25,
+        0.25,
+        0.25,
+        0.25,
+        0.25
+      ],
+      "alc_by_seed": [
+        0.25
+      ],
+      "alc_mean": 0.25,
+      "alc_std": null
+    },
+    "smoothed_mean_2": {
+      "brier_by_seed": [
+        [
+          0.25,
+          0.25505249483919723,
+          0.24463208926826474,
+          0.23530869346066582,
+          0.2287228859287149,
+          0.221701526146702
+        ]
+      ],
+      "brier_mean": [
+        0.25,
+        0.25505249483919723,
+        0.24463208926826474,
+        0.23530869346066582,
+        0.2287228859287149,
+        0.221701526146702
+      ],
+      "alc_by_seed": [
+        0.23991338531403875
+      ],
+      "alc_mean": 0.23991338531403875,
+      "alc_std": null
+    },
+    "smoothed_mean_4": {
+      "brier_by_seed": [
+        [
+          0.25,
+          0.2463648350137036,
+          0.23868277260079618,
+          0.23199612933506325,
+          0.2270710778051639,
+          0.2212463892443575
+        ]
+      ],
+      "brier_mean": [
+        0.25,
+        0.2463648350137036,
+        0.23868277260079618,
+        0.23199612933506325,
+        0.2270710778051639,
+        0.2212463892443575
+      ],
+      "alc_by_seed": [
+        0.23594760187538114
+      ],
+      "alc_mean": 0.23594760187538114,
+      "alc_std": null
+    },
+    "smoothed_mean_8": {
+      "brier_by_seed": [
+        [
+          0.25,
+          0.24551133859932908,
+          0.2384691246883656,
+          0.23153148809584176,
+          0.2263065278302969,
+          0.22104836278405737
+        ]
+      ],
+      "brier_mean": [
+        0.25,
+        0.24551133859932908,
+        0.2384691246883656,
+        0.23153148809584176,
+        0.2263065278302969,
+        0.22104836278405737
+      ],
+      "alc_by_seed": [
+        0.2354685321211724
+      ],
+      "alc_mean": 0.2354685321211724,
+      "alc_std": null
+    },
+    "empirical_bayes": {
+      "brier_by_seed": [
+        [
+          0.25229383871807315,
+          0.2527161849344649,
+          0.24109044510538016,
+          0.2332640551333505,
+          0.22810185845180347,
+          0.22186404970444729
+        ]
+      ],
+      "brier_mean": [
+        0.25229383871807315,
+        0.2527161849344649,
+        0.24109044510538016,
+        0.2332640551333505,
+        0.22810185845180347,
+        0.22186404970444729
+      ],
+      "alc_by_seed": [
+        0.2384502975672519
+      ],
+      "alc_mean": 0.2384502975672519,
+      "alc_std": null
+    }
+  }
+}

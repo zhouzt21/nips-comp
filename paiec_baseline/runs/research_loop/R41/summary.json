@@ -1,0 +1,994 @@
+{
+  "scope": "Evaluation-label-fitted empirical approximation costs; NOT predictor scores, ALC, noise-floor estimates or blind-test evidence",
+  "pairs": 5242,
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "evaluation_item_cap": 64,
+  "model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "pair_equal_oracle_loss": {
+    "raw": 0.00197583822872284,
+    "canonical": 0.0022360799843478135,
+    "token_window": 0.0023051996634959383,
+    "R25_information": 0.003051371010421505
+  },
+  "pair_equal_collision_cost": 0.0010755327816986651,
+  "benchmark_equal_collision_cost": 0.012821598021012967,
+  "by_benchmark": [
+    {
+      "benchmark": "adaptivestep/formatted_tables",
+      "fold": 0,
+      "pairs": 2,
+      "episodes": 6,
+      "unique_items_tokenized": 368,
+      "oracle_loss": {
+        "raw": 0.07528432210286458,
+        "canonical": 0.07528432210286458,
+        "token_window": 0.07528432210286458,
+        "R25_information": 0.07528432210286458
+      },
+      "unique_classes_per_episode": {
+        "raw": 64.0,
+        "canonical": 64.0,
+        "token_window": 64.0,
+        "R25_information": 64.0
+      },
+      "merged_items_per_episode": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.0
+      },
+      "maximum_monotonicity_violation": 0.0,
+      "collision_cost": 0.0
+    },
+    {
+      "benchmark": "ai2d_test/formatted_tables",
+      "fold": 0,
+      "pairs": 254,
+      "episodes": 762,
+      "unique_items_tokenized": 3088,
+      "oracle_loss": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.0
+      },
+      "unique_classes_per_episode": {
+        "raw": 64.0,
+        "canonical": 64.0,
+        "token_window": 64.0,
+        "R25_information": 64.0
+      },
+      "merged_items_per_episode": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.0
+      },
+      "maximum_monotonicity_violation": 0.0,
+      "collision_cost": 0.0
+    },
+    {
+      "benchmark": "bird_sql/formatted_tables",
+      "fold": 0,
+      "pairs": 120,
+      "episodes": 360,
+      "unique_items_tokenized": 360,
+      "oracle_loss": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.0
+      },
+      "unique_classes_per_episode": {
+        "raw": 64.0,
+        "canonical": 64.0,
+        "token_window": 64.0,
+        "R25_information": 64.0
+      },
+      "merged_items_per_episode": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.0
+      },
+      "maximum_monotonicity_violation": 0.0,
+      "collision_cost": 0.0
+    },
+    {
+      "benchmark": "braveguard/formatted_tables",
+      "fold": 0,
+      "pairs": 2,
+      "episodes": 6,
+      "unique_items_tokenized": 295,
+      "oracle_loss": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.0
+      },
+      "unique_classes_per_episode": {
+        "raw": 64.0,
+        "canonical": 64.0,
+        "token_window": 64.0,
+        "R25_information": 64.0
+      },
+      "merged_items_per_episode": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.0
+      },
+      "maximum_monotonicity_violation": 0.0,
+      "collision_cost": 0.0
+    },
+    {
+      "benchmark": "ceval/formatted_tables",
+      "fold": 0,
+      "pairs": 11,
+      "episodes": 33,
+      "unique_items_tokenized": 1060,
+      "oracle_loss": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.0
+      },
+      "unique_classes_per_episode": {
+        "raw": 64.0,
+        "canonical": 64.0,
+        "token_window": 63.96969696969697,
+        "R25_information": 63.96969696969697
+      },
+      "merged_items_per_episode": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.030303030303030304,
+        "R25_information": 0.030303030303030304
+      },
+      "maximum_monotonicity_violation": 0.0,
+      "collision_cost": 0.0
+    },
+    {
+      "benchmark": "edu_circuit_hw/formatted_tables",
+      "fold": 0,
+      "pairs": 6,
+      "episodes": 18,
+      "unique_items_tokenized": 466,
+      "oracle_loss": {
+        "raw": 0.0,
+        "canonical": 0.20411512586805555,
+        "token_window": 0.20411512586805555,
+        "R25_information": 0.20411512586805555
+      },
+      "unique_classes_per_episode": {
+        "raw": 64.0,
+        "canonical": 1.0,
+        "token_window": 1.0,
+        "R25_information": 1.0
+      },
+      "merged_items_per_episode": {
+        "raw": 0.0,
+        "canonical": 63.0,
+        "token_window": 63.0,
+        "R25_information": 63.0
+      },
+      "maximum_monotonicity_violation": 0.0,
+      "collision_cost": 0.20411512586805555
+    },
+    {
+      "benchmark": "engdesign/formatted_tables",
+      "fold": 0,
+      "pairs": 12,
+      "episodes": 36,
+      "unique_items_tokenized": 101,
+      "oracle_loss": {
+        "raw": 0.03701724234065237,
+        "canonical": 0.03701724234065237,
+        "token_window": 0.03763026391796124,
+        "R25_information": 0.03763026391796124
+      },
+      "unique_classes_per_episode": {
+        "raw": 49.5,
+        "canonical": 49.5,
+        "token_window": 48.47222222222222,
+        "R25_information": 48.47222222222222
+      },
+      "merged_items_per_episode": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 1.0277777777777777,
+        "R25_information": 1.0277777777777777
+      },
+      "maximum_monotonicity_violation": 6.938893903907228e-18,
+      "collision_cost": 0.0006130215773088657
+    },
+    {
+      "benchmark": "exploitgym/formatted_tables",
+      "fold": 0,
+      "pairs": 5,
+      "episodes": 15,
+      "unique_items_tokenized": 700,
+      "oracle_loss": {
+        "raw": 0.03065929797642151,
+        "canonical": 0.03065929797642151,
+        "token_window": 0.03065929797642151,
+        "R25_information": 0.03065929797642151
+      },
+      "unique_classes_per_episode": {
+        "raw": 64.0,
+        "canonical": 64.0,
+        "token_window": 64.0,
+        "R25_information": 64.0
+      },
+      "merged_items_per_episode": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.0
+      },
+      "maximum_monotonicity_violation": 0.0,
+      "collision_cost": 0.0
+    },
+    {
+      "benchmark": "felm/formatted_tables",
+      "fold": 0,
+      "pairs": 1,
+      "episodes": 3,
+      "unique_items_tokenized": 191,
+      "oracle_loss": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.0
+      },
+      "unique_classes_per_episode": {
+        "raw": 61.666666666666664,
+        "canonical": 61.666666666666664,
+        "token_window": 61.666666666666664,
+        "R25_information": 61.666666666666664
+      },
+      "merged_items_per_episode": {
+        "raw": 2.3333333333333335,
+        "canonical": 2.3333333333333335,
+        "token_window": 2.3333333333333335,
+        "R25_information": 2.3333333333333335
+      },
+      "maximum_monotonicity_violation": 0.0,
+      "collision_cost": 0.0
+    },
+    {
+      "benchmark": "healthadminbench/formatted_tables",
+      "fold": 0,
+      "pairs": 7,
+      "episodes": 21,
+      "unique_items_tokenized": 415,
+      "oracle_loss": {
+        "raw": 0.07243397546969872,
+        "canonical": 0.07243397546969872,
+        "token_window": 0.07243397546969872,
+        "R25_information": 0.07243397546969872
+      },
+      "unique_classes_per_episode": {
+        "raw": 57.523809523809526,
+        "canonical": 57.523809523809526,
+        "token_window": 57.523809523809526,
+        "R25_information": 57.523809523809526
+      },
+      "merged_items_per_episode": {
+        "raw": 6.476190476190476,
+        "canonical": 6.476190476190476,
+        "token_window": 6.476190476190476,
+        "R25_information": 6.476190476190476
+      },
+      "maximum_monotonicity_violation": 0.0,
+      "collision_cost": 0.0
+    },
+    {
+      "benchmark": "aegis/formatted_tables",
+      "fold": 1,
+      "pairs": 1,
+      "episodes": 3,
+      "unique_items_tokenized": 192,
+      "oracle_loss": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.0
+      },
+      "unique_classes_per_episode": {
+        "raw": 64.0,
+        "canonical": 64.0,
+        "token_window": 64.0,
+        "R25_information": 64.0
+      },
+      "merged_items_per_episode": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.0
+      },
+      "maximum_monotonicity_violation": 0.0,
+      "collision_cost": 0.0
+    },
+    {
+      "benchmark": "appworld/formatted_tables",
+      "fold": 1,
+      "pairs": 18,
+      "episodes": 54,
+      "unique_items_tokenized": 583,
+      "oracle_loss": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.00043402777777777775
+      },
+      "unique_classes_per_episode": {
+        "raw": 64.0,
+        "canonical": 64.0,
+        "token_window": 64.0,
+        "R25_information": 62.888888888888886
+      },
+      "merged_items_per_episode": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 1.1111111111111112
+      },
+      "maximum_monotonicity_violation": 0.0,
+      "collision_cost": 0.00043402777777777775
+    },
+    {
+      "benchmark": "bbq/formatted_tables",
+      "fold": 1,
+      "pairs": 7,
+      "episodes": 21,
+      "unique_items_tokenized": 1339,
+      "oracle_loss": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.0
+      },
+      "unique_classes_per_episode": {
+        "raw": 64.0,
+        "canonical": 64.0,
+        "token_window": 64.0,
+        "R25_information": 64.0
+      },
+      "merged_items_per_episode": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.0
+      },
+      "maximum_monotonicity_violation": 0.0,
+      "collision_cost": 0.0
+    },
+    {
+      "benchmark": "beavertails/formatted_tables",
+      "fold": 1,
+      "pairs": 4,
+      "episodes": 12,
+      "unique_items_tokenized": 372,
+      "oracle_loss": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.005208333333333333
+      },
+      "unique_classes_per_episode": {
+        "raw": 64.0,
+        "canonical": 64.0,
+        "token_window": 64.0,
+        "R25_information": 55.0
+      },
+      "merged_items_per_episode": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 9.0
+      },
+      "maximum_monotonicity_violation": 0.0,
+      "collision_cost": 0.005208333333333333
+    },
+    {
+      "benchmark": "cmmlu/formatted_tables",
+      "fold": 1,
+      "pairs": 22,
+      "episodes": 66,
+      "unique_items_tokenized": 3808,
+      "oracle_loss": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.0
+      },
+      "unique_classes_per_episode": {
+        "raw": 64.0,
+        "canonical": 64.0,
+        "token_window": 64.0,
+        "R25_information": 64.0
+      },
+      "merged_items_per_episode": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.0
+      },
+      "maximum_monotonicity_violation": 0.0,
+      "collision_cost": 0.0
+    },
+    {
+      "benchmark": "devbench/formatted_tables",
+      "fold": 1,
+      "pairs": 19,
+      "episodes": 57,
+      "unique_items_tokenized": 271,
+      "oracle_loss": {
+        "raw": 0.0,
+        "canonical": 0.007341922514619885,
+        "token_window": 0.007341922514619885,
+        "R25_information": 0.007341922514619885
+      },
+      "unique_classes_per_episode": {
+        "raw": 64.0,
+        "canonical": 60.03508771929825,
+        "token_window": 60.03508771929825,
+        "R25_information": 60.03508771929825
+      },
+      "merged_items_per_episode": {
+        "raw": 0.0,
+        "canonical": 3.9649122807017543,
+        "token_window": 3.9649122807017543,
+        "R25_information": 3.9649122807017543
+      },
+      "maximum_monotonicity_violation": 0.0,
+      "collision_cost": 0.007341922514619885
+    },
+    {
+      "benchmark": "editbench/formatted_tables",
+      "fold": 1,
+      "pairs": 44,
+      "episodes": 132,
+      "unique_items_tokenized": 540,
+      "oracle_loss": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0064344252712308266,
+        "R25_information": 0.0064344252712308266
+      },
+      "unique_classes_per_episode": {
+        "raw": 63.77272727272727,
+        "canonical": 63.77272727272727,
+        "token_window": 61.89393939393939,
+        "R25_information": 61.89393939393939
+      },
+      "merged_items_per_episode": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 1.878787878787879,
+        "R25_information": 1.878787878787879
+      },
+      "maximum_monotonicity_violation": 0.0,
+      "collision_cost": 0.0064344252712308266
+    },
+    {
+      "benchmark": "emoji_attack/formatted_tables",
+      "fold": 1,
+      "pairs": 10,
+      "episodes": 30,
+      "unique_items_tokenized": 1662,
+      "oracle_loss": {
+        "raw": 0.006945216821760033,
+        "canonical": 0.006945216821760033,
+        "token_window": 0.007176698303241513,
+        "R25_information": 0.007176698303241513
+      },
+      "unique_classes_per_episode": {
+        "raw": 64.0,
+        "canonical": 64.0,
+        "token_window": 63.666666666666664,
+        "R25_information": 63.666666666666664
+      },
+      "merged_items_per_episode": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.3333333333333333,
+        "R25_information": 0.3333333333333333
+      },
+      "maximum_monotonicity_violation": 0.0,
+      "collision_cost": 0.00023148148148148008
+    },
+    {
+      "benchmark": "enginemt_qa/formatted_tables",
+      "fold": 1,
+      "pairs": 1,
+      "episodes": 3,
+      "unique_items_tokenized": 178,
+      "oracle_loss": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.03719819159335288
+      },
+      "unique_classes_per_episode": {
+        "raw": 64.0,
+        "canonical": 64.0,
+        "token_window": 64.0,
+        "R25_information": 6.333333333333333
+      },
+      "merged_items_per_episode": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 57.666666666666664
+      },
+      "maximum_monotonicity_violation": 0.0,
+      "collision_cost": 0.03719819159335288
+    },
+    {
+      "benchmark": "faithcot/formatted_tables",
+      "fold": 1,
+      "pairs": 4,
+      "episodes": 12,
+      "unique_items_tokenized": 457,
+      "oracle_loss": {
+        "raw": 0.006440304487179488,
+        "canonical": 0.006440304487179488,
+        "token_window": 0.006440304487179488,
+        "R25_information": 0.006440304487179488
+      },
+      "unique_classes_per_episode": {
+        "raw": 61.083333333333336,
+        "canonical": 61.083333333333336,
+        "token_window": 61.083333333333336,
+        "R25_information": 61.083333333333336
+      },
+      "merged_items_per_episode": {
+        "raw": 2.9166666666666665,
+        "canonical": 2.9166666666666665,
+        "token_window": 2.9166666666666665,
+        "R25_information": 2.9166666666666665
+      },
+      "maximum_monotonicity_violation": 0.0,
+      "collision_cost": 0.0
+    },
+    {
+      "benchmark": "fewshot_ttt_bbh/formatted_tables",
+      "fold": 1,
+      "pairs": 11,
+      "episodes": 33,
+      "unique_items_tokenized": 796,
+      "oracle_loss": {
+        "raw": 0.004680187512017667,
+        "canonical": 0.004680187512017667,
+        "token_window": 0.011001966822725978,
+        "R25_information": 0.011001966822725978
+      },
+      "unique_classes_per_episode": {
+        "raw": 64.0,
+        "canonical": 64.0,
+        "token_window": 62.42424242424242,
+        "R25_information": 62.42424242424242
+      },
+      "merged_items_per_episode": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 1.5757575757575757,
+        "R25_information": 1.5757575757575757
+      },
+      "maximum_monotonicity_violation": 0.0,
+      "collision_cost": 0.006321779310708311
+    },
+    {
+      "benchmark": "finegrain_t2i/formatted_tables",
+      "fold": 1,
+      "pairs": 5,
+      "episodes": 15,
+      "unique_items_tokenized": 556,
+      "oracle_loss": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.0
+      },
+      "unique_classes_per_episode": {
+        "raw": 64.0,
+        "canonical": 64.0,
+        "token_window": 64.0,
+        "R25_information": 64.0
+      },
+      "merged_items_per_episode": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.0
+      },
+      "maximum_monotonicity_violation": 0.0,
+      "collision_cost": 0.0
+    },
+    {
+      "benchmark": "hallusionbench/formatted_tables",
+      "fold": 1,
+      "pairs": 253,
+      "episodes": 759,
+      "unique_items_tokenized": 951,
+      "oracle_loss": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.0015096618357487923
+      },
+      "unique_classes_per_episode": {
+        "raw": 63.980237154150196,
+        "canonical": 63.980237154150196,
+        "token_window": 63.980237154150196,
+        "R25_information": 63.44664031620553
+      },
+      "merged_items_per_episode": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.5335968379446641
+      },
+      "maximum_monotonicity_violation": 0.0,
+      "collision_cost": 0.0015096618357487923
+    },
+    {
+      "benchmark": "abstract_reason/formatted_tables",
+      "fold": 2,
+      "pairs": 1,
+      "episodes": 3,
+      "unique_items_tokenized": 191,
+      "oracle_loss": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.0
+      },
+      "unique_classes_per_episode": {
+        "raw": 64.0,
+        "canonical": 64.0,
+        "token_window": 64.0,
+        "R25_information": 64.0
+      },
+      "merged_items_per_episode": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.0
+      },
+      "maximum_monotonicity_violation": 0.0,
+      "collision_cost": 0.0
+    },
+    {
+      "benchmark": "agentic_review_perturbation/formatted_tables",
+      "fold": 2,
+      "pairs": 3,
+      "episodes": 9,
+      "unique_items_tokenized": 105,
+      "oracle_loss": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.06094500072487494
+      },
+      "unique_classes_per_episode": {
+        "raw": 53.0,
+        "canonical": 53.0,
+        "token_window": 53.0,
+        "R25_information": 6.0
+      },
+      "merged_items_per_episode": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 47.0
+      },
+      "maximum_monotonicity_violation": 0.0,
+      "collision_cost": 0.06094500072487494
+    },
+    {
+      "benchmark": "agi_elo/formatted_tables",
+      "fold": 2,
+      "pairs": 20,
+      "episodes": 60,
+      "unique_items_tokenized": 3381,
+      "oracle_loss": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.0
+      },
+      "unique_classes_per_episode": {
+        "raw": 64.0,
+        "canonical": 64.0,
+        "token_window": 64.0,
+        "R25_information": 64.0
+      },
+      "merged_items_per_episode": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.0
+      },
+      "maximum_monotonicity_violation": 0.0,
+      "collision_cost": 0.0
+    },
+    {
+      "benchmark": "algotune/formatted_tables",
+      "fold": 2,
+      "pairs": 18,
+      "episodes": 54,
+      "unique_items_tokenized": 154,
+      "oracle_loss": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.0
+      },
+      "unique_classes_per_episode": {
+        "raw": 64.0,
+        "canonical": 64.0,
+        "token_window": 64.0,
+        "R25_information": 64.0
+      },
+      "merged_items_per_episode": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.0
+      },
+      "maximum_monotonicity_violation": 0.0,
+      "collision_cost": 0.0
+    },
+    {
+      "benchmark": "alignment_faking/formatted_tables",
+      "fold": 2,
+      "pairs": 4278,
+      "episodes": 12834,
+      "unique_items_tokenized": 1464,
+      "oracle_loss": {
+        "raw": 0.001605867380754962,
+        "canonical": 0.001605867380754962,
+        "token_window": 0.001605867380754962,
+        "R25_information": 0.001605867380754962
+      },
+      "unique_classes_per_episode": {
+        "raw": 64.0,
+        "canonical": 64.0,
+        "token_window": 64.0,
+        "R25_information": 64.0
+      },
+      "merged_items_per_episode": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.0
+      },
+      "maximum_monotonicity_violation": 0.0,
+      "collision_cost": 0.0
+    },
+    {
+      "benchmark": "benger/formatted_tables",
+      "fold": 2,
+      "pairs": 25,
+      "episodes": 75,
+      "unique_items_tokenized": 739,
+      "oracle_loss": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.1311924254115226
+      },
+      "unique_classes_per_episode": {
+        "raw": 63.24,
+        "canonical": 63.24,
+        "token_window": 63.24,
+        "R25_information": 1.0
+      },
+      "merged_items_per_episode": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 62.24
+      },
+      "maximum_monotonicity_violation": 0.0,
+      "collision_cost": 0.1311924254115226
+    },
+    {
+      "benchmark": "bertaqa/formatted_tables",
+      "fold": 2,
+      "pairs": 6,
+      "episodes": 18,
+      "unique_items_tokenized": 1144,
+      "oracle_loss": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.0
+      },
+      "unique_classes_per_episode": {
+        "raw": 64.0,
+        "canonical": 64.0,
+        "token_window": 64.0,
+        "R25_information": 64.0
+      },
+      "merged_items_per_episode": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.0
+      },
+      "maximum_monotonicity_violation": 0.0,
+      "collision_cost": 0.0
+    },
+    {
+      "benchmark": "cellverse/formatted_tables",
+      "fold": 2,
+      "pairs": 1,
+      "episodes": 3,
+      "unique_items_tokenized": 175,
+      "oracle_loss": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.0
+      },
+      "unique_classes_per_episode": {
+        "raw": 64.0,
+        "canonical": 64.0,
+        "token_window": 64.0,
+        "R25_information": 64.0
+      },
+      "merged_items_per_episode": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.0
+      },
+      "maximum_monotonicity_violation": 0.0,
+      "collision_cost": 0.0
+    },
+    {
+      "benchmark": "cruxeval/formatted_tables",
+      "fold": 2,
+      "pairs": 31,
+      "episodes": 93,
+      "unique_items_tokenized": 2379,
+      "oracle_loss": {
+        "raw": 0.0672786458333333,
+        "canonical": 0.0672786458333333,
+        "token_window": 0.0672786458333333,
+        "R25_information": 0.06731077788978491
+      },
+      "unique_classes_per_episode": {
+        "raw": 64.0,
+        "canonical": 64.0,
+        "token_window": 64.0,
+        "R25_information": 63.97849462365591
+      },
+      "merged_items_per_episode": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.021505376344086023
+      },
+      "maximum_monotonicity_violation": 0.0,
+      "collision_cost": 3.2132056451611435e-05
+    },
+    {
+      "benchmark": "dave/formatted_tables",
+      "fold": 2,
+      "pairs": 8,
+      "episodes": 24,
+      "unique_items_tokenized": 1247,
+      "oracle_loss": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.0
+      },
+      "unique_classes_per_episode": {
+        "raw": 64.0,
+        "canonical": 64.0,
+        "token_window": 64.0,
+        "R25_information": 64.0
+      },
+      "merged_items_per_episode": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.0
+      },
+      "maximum_monotonicity_violation": 0.0,
+      "collision_cost": 0.0
+    },
+    {
+      "benchmark": "egoschema/formatted_tables",
+      "fold": 2,
+      "pairs": 11,
+      "episodes": 33,
+      "unique_items_tokenized": 1695,
+      "oracle_loss": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.0
+      },
+      "unique_classes_per_episode": {
+        "raw": 64.0,
+        "canonical": 64.0,
+        "token_window": 64.0,
+        "R25_information": 64.0
+      },
+      "merged_items_per_episode": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.0
+      },
+      "maximum_monotonicity_violation": 0.0,
+      "collision_cost": 0.0
+    },
+    {
+      "benchmark": "evouna/formatted_tables",
+      "fold": 2,
+      "pairs": 5,
+      "episodes": 15,
+      "unique_items_tokenized": 889,
+      "oracle_loss": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.0
+      },
+      "unique_classes_per_episode": {
+        "raw": 64.0,
+        "canonical": 64.0,
+        "token_window": 64.0,
+        "R25_information": 64.0
+      },
+      "merged_items_per_episode": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.0
+      },
+      "maximum_monotonicity_violation": 0.0,
+      "collision_cost": 0.0
+    },
+    {
+      "benchmark": "financebench/formatted_tables",
+      "fold": 2,
+      "pairs": 16,
+      "episodes": 48,
+      "unique_items_tokenized": 150,
+      "oracle_loss": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.0
+      },
+      "unique_classes_per_episode": {
+        "raw": 64.0,
+        "canonical": 64.0,
+        "token_window": 64.0,
+        "R25_information": 64.0
+      },
+      "merged_items_per_episode": {
+        "raw": 0.0,
+        "canonical": 0.0,
+        "token_window": 0.0,
+        "R25_information": 0.0
+      },
+      "maximum_monotonicity_violation": 0.0,
+      "collision_cost": 0.0
+    }
+  ],
+  "elapsed_seconds": 52.63810205459595
+}

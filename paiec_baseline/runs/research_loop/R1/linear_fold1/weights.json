@@ -1,0 +1,131 @@
+{
+  "source_revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+  "seed": 2026,
+  "train_benchmarks": [
+    "abstract_reason/formatted_tables",
+    "advprompter/formatted_tables",
+    "agentic_review_perturbation/formatted_tables",
+    "agi_elo/formatted_tables",
+    "aider/formatted_tables",
+    "algotune/formatted_tables",
+    "alignment_faking/formatted_tables",
+    "auditing_sabotage_bench/formatted_tables",
+    "benger/formatted_tables",
+    "bird_sql/formatted_tables",
+    "braveguard/formatted_tables",
+    "cellverse/formatted_tables",
+    "ceval/formatted_tables",
+    "chartmuseum/formatted_tables",
+    "chi_bench/formatted_tables",
+    "confagents/formatted_tables",
+    "cruxeval/formatted_tables",
+    "dave/formatted_tables",
+    "dbpa/formatted_tables",
+    "edu_circuit_hw/formatted_tables",
+    "egoschema/formatted_tables",
+    "ehrflowbench/formatted_tables",
+    "engdesign/formatted_tables",
+    "evouna/formatted_tables",
+    "exploitgym/formatted_tables",
+    "felm/formatted_tables",
+    "financebench/formatted_tables",
+    "haiid/formatted_tables",
+    "healthadminbench/formatted_tables"
+  ],
+  "validation_benchmarks": [
+    "ai2d_test/formatted_tables",
+    "adaptivestep/formatted_tables",
+    "bertaqa/formatted_tables"
+  ],
+  "development_benchmarks_untouched": [
+    "aegis/formatted_tables",
+    "appworld/formatted_tables",
+    "bbq/formatted_tables",
+    "beavertails/formatted_tables",
+    "cmmlu/formatted_tables",
+    "devbench/formatted_tables",
+    "editbench/formatted_tables",
+    "emoji_attack/formatted_tables",
+    "enginemt_qa/formatted_tables",
+    "faithcot/formatted_tables",
+    "fewshot_ttt_bbh/formatted_tables",
+    "finegrain_t2i/formatted_tables",
+    "hallusionbench/formatted_tables"
+  ],
+  "early_stopping_pool": "training",
+  "fixed_epochs": null,
+  "train_rows": 10219,
+  "validation_rows": 1200,
+  "train_pairs": 1140,
+  "validation_pairs": 205,
+  "max_rows_per_benchmark": 400,
+  "sampling": "response",
+  "best_epoch": 9,
+  "validation_pair_brier_at_budget_0": 0.23385639583452228,
+  "validation_history": [
+    {
+      "epoch": 1,
+      "pair_brier": 0.24460586373093002
+    },
+    {
+      "epoch": 2,
+      "pair_brier": 0.24033281695489273
+    },
+    {
+      "epoch": 3,
+      "pair_brier": 0.23867936503339865
+    },
+    {
+      "epoch": 4,
+      "pair_brier": 0.2355944153405778
+    },
+    {
+      "epoch": 5,
+      "pair_brier": 0.2353671080320798
+    },
+    {
+      "epoch": 6,
+      "pair_brier": 0.23529133941816702
+    },
+    {
+      "epoch": 7,
+      "pair_brier": 0.23426680723359683
+    },
+    {
+      "epoch": 8,
+      "pair_brier": 0.23559568766172934
+    },
+    {
+      "epoch": 9,
+      "pair_brier": 0.23385639583452228
+    },
+    {
+      "epoch": 10,
+      "pair_brier": 0.23636319664437339
+    },
+    {
+      "epoch": 11,
+      "pair_brier": 0.23511653356362378
+    },
+    {
+      "epoch": 12,
+      "pair_brier": 0.23549220240938962
+    },
+    {
+      "epoch": 13,
+      "pair_brier": 0.23399437427548783
+    },
+    {
+      "epoch": 14,
+      "pair_brier": 0.23572863678975725
+    }
+  ],
+  "split_file": "runs\\mlp_cv\\fold1_split.json",
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "feature_mode": "all",
+  "network_kind": "linear",
+  "batch_size": 512,
+  "export_max_abs_error": 5.960464477539063e-08,
+  "weight_file": "runs\\research_loop\\R1\\linear_fold1\\weights.npz"
+}

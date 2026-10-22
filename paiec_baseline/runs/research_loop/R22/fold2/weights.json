@@ -1,0 +1,124 @@
+{
+  "source_revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+  "seed": 2026,
+  "train_benchmarks": [
+    "advprompter/formatted_tables",
+    "aegis/formatted_tables",
+    "ai2d_test/formatted_tables",
+    "aider/formatted_tables",
+    "appworld/formatted_tables",
+    "auditing_sabotage_bench/formatted_tables",
+    "bbq/formatted_tables",
+    "beavertails/formatted_tables",
+    "bird_sql/formatted_tables",
+    "braveguard/formatted_tables",
+    "ceval/formatted_tables",
+    "chartmuseum/formatted_tables",
+    "chi_bench/formatted_tables",
+    "cmmlu/formatted_tables",
+    "confagents/formatted_tables",
+    "dbpa/formatted_tables",
+    "devbench/formatted_tables",
+    "editbench/formatted_tables",
+    "ehrflowbench/formatted_tables",
+    "emoji_attack/formatted_tables",
+    "engdesign/formatted_tables",
+    "enginemt_qa/formatted_tables",
+    "exploitgym/formatted_tables",
+    "faithcot/formatted_tables",
+    "felm/formatted_tables",
+    "fewshot_ttt_bbh/formatted_tables",
+    "finegrain_t2i/formatted_tables",
+    "haiid/formatted_tables",
+    "healthadminbench/formatted_tables"
+  ],
+  "validation_benchmarks": [
+    "hallusionbench/formatted_tables",
+    "adaptivestep/formatted_tables",
+    "edu_circuit_hw/formatted_tables"
+  ],
+  "development_benchmarks_untouched": [
+    "abstract_reason/formatted_tables",
+    "agentic_review_perturbation/formatted_tables",
+    "agi_elo/formatted_tables",
+    "algotune/formatted_tables",
+    "alignment_faking/formatted_tables",
+    "benger/formatted_tables",
+    "bertaqa/formatted_tables",
+    "cellverse/formatted_tables",
+    "cruxeval/formatted_tables",
+    "dave/formatted_tables",
+    "egoschema/formatted_tables",
+    "evouna/formatted_tables",
+    "financebench/formatted_tables"
+  ],
+  "early_stopping_pool": "training",
+  "fixed_epochs": null,
+  "train_rows": 45474,
+  "validation_rows": 1200,
+  "max_validation_rows_per_benchmark": 400,
+  "rows_per_validation_cycle": 10304,
+  "unique_training_rows_exposed": 42803,
+  "optimizer_steps_executed": 231,
+  "selected_model_training_pool_pair_brier": 0.18197349571150875,
+  "train_pairs": 1622,
+  "validation_pairs": 202,
+  "max_rows_per_benchmark": 2000,
+  "sampling": "response",
+  "best_epoch": 6,
+  "validation_pair_brier_at_budget_0": 0.23496122001110722,
+  "validation_history": [
+    {
+      "epoch": 1,
+      "pair_brier": 0.2398798228881264
+    },
+    {
+      "epoch": 2,
+      "pair_brier": 0.23670393239051563
+    },
+    {
+      "epoch": 3,
+      "pair_brier": 0.2378150149715097
+    },
+    {
+      "epoch": 4,
+      "pair_brier": 0.23498951275677388
+    },
+    {
+      "epoch": 5,
+      "pair_brier": 0.2371998346240189
+    },
+    {
+      "epoch": 6,
+      "pair_brier": 0.23496122001110722
+    },
+    {
+      "epoch": 7,
+      "pair_brier": 0.2390148908549521
+    },
+    {
+      "epoch": 8,
+      "pair_brier": 0.24026041647747748
+    },
+    {
+      "epoch": 9,
+      "pair_brier": 0.24071480891331745
+    },
+    {
+      "epoch": 10,
+      "pair_brier": 0.24144000490239087
+    },
+    {
+      "epoch": 11,
+      "pair_brier": 0.2543361547139911
+    }
+  ],
+  "split_file": "runs\\mlp_cv\\fold2_split.json",
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "feature_mode": "semantic_block",
+  "network_kind": "mlp",
+  "batch_size": 512,
+  "export_max_abs_error": 2.9802322387695312e-08,
+  "weight_file": "runs\\research_loop\\R22\\fold2\\weights.npz"
+}

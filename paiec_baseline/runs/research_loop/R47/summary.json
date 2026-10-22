@@ -1,0 +1,60 @@
+{
+  "scope": "read-only public information and runtime contract audit; not a model experiment",
+  "dataset_revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+  "remote_revision_matches_local": true,
+  "assets": [
+    {
+      "benchmark": "ai2d_test",
+      "files": [
+        {
+          "path": "ai2d_test/formatted_tables/assets.parquet",
+          "bytes": 45514552
+        }
+      ]
+    },
+    {
+      "benchmark": "hallusionbench",
+      "files": [
+        {
+          "path": "hallusionbench/formatted_tables/assets.parquet",
+          "bytes": 142851270
+        }
+      ]
+    },
+    {
+      "benchmark": "edu_circuit_hw",
+      "files": [
+        {
+          "path": "edu_circuit_hw/formatted_tables/assets.parquet",
+          "bytes": 292507671
+        }
+      ]
+    }
+  ],
+  "runtime_pixel_access": "unverified; public asset schema does not establish hosted resolver",
+  "public_starting_kit_access": [
+    {
+      "url": "https://www.codabench.org/api/competitions/17828/",
+      "error_type": "SSLError",
+      "elapsed_seconds": 7.923108100891113
+    },
+    {
+      "url": "https://www.codabench.org/competitions/17828/",
+      "error_type": "SSLError",
+      "elapsed_seconds": 7.905251979827881
+    }
+  ],
+  "official_item_keys": [
+    "item_content",
+    "item_features",
+    "interactors",
+    "benchmark_id"
+  ],
+  "new_pixel_downloads": 0,
+  "new_model_downloads": 0,
+  "source_sha256": {
+    "research_loop/R47_protocol.md": "9873611347b5bb9dff4bba73a3ba9f1185b04ec9261c572fe70ab93364f6862e",
+    "research_loop/literature/raw/v3_curation_guidelines.txt": "edfb0649a5e01f1dd5638ec8b4f40701e81646bdf47d5a14c694b9fa2f0b9928",
+    "research_loop/literature/raw/v3_measurement_readme.md": "38702106f36b3adcd58fffc1f398a23d656a004f396c7e2d9a9620a4f9c28668"
+  }
+}

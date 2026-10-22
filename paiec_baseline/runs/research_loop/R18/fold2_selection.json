@@ -1,0 +1,80 @@
+{
+  "fold": 2,
+  "train_benchmarks": [
+    "adaptivestep/formatted_tables",
+    "advprompter/formatted_tables",
+    "aegis/formatted_tables",
+    "ai2d_test/formatted_tables",
+    "aider/formatted_tables",
+    "appworld/formatted_tables",
+    "auditing_sabotage_bench/formatted_tables",
+    "bbq/formatted_tables",
+    "beavertails/formatted_tables",
+    "bird_sql/formatted_tables",
+    "braveguard/formatted_tables",
+    "ceval/formatted_tables",
+    "chartmuseum/formatted_tables",
+    "chi_bench/formatted_tables",
+    "cmmlu/formatted_tables",
+    "confagents/formatted_tables",
+    "dbpa/formatted_tables",
+    "devbench/formatted_tables",
+    "editbench/formatted_tables",
+    "edu_circuit_hw/formatted_tables",
+    "ehrflowbench/formatted_tables",
+    "emoji_attack/formatted_tables",
+    "engdesign/formatted_tables",
+    "enginemt_qa/formatted_tables",
+    "exploitgym/formatted_tables",
+    "faithcot/formatted_tables",
+    "felm/formatted_tables",
+    "fewshot_ttt_bbh/formatted_tables",
+    "finegrain_t2i/formatted_tables",
+    "haiid/formatted_tables",
+    "hallusionbench/formatted_tables",
+    "healthadminbench/formatted_tables"
+  ],
+  "heldout_benchmarks": [
+    "abstract_reason/formatted_tables",
+    "agentic_review_perturbation/formatted_tables",
+    "agi_elo/formatted_tables",
+    "algotune/formatted_tables",
+    "alignment_faking/formatted_tables",
+    "benger/formatted_tables",
+    "bertaqa/formatted_tables",
+    "cellverse/formatted_tables",
+    "cruxeval/formatted_tables",
+    "dave/formatted_tables",
+    "egoschema/formatted_tables",
+    "evouna/formatted_tables",
+    "financebench/formatted_tables"
+  ],
+  "ridge_grid": [
+    null,
+    16.0,
+    4.0,
+    1.0,
+    0.25
+  ],
+  "training_pairs": 248,
+  "training_alc": {
+    "semantic": [
+      0.21504216634172924,
+      0.21440381955189913,
+      0.21340224446838119,
+      0.2133456304571417,
+      0.21731881767953082
+    ],
+    "text_hash": [
+      0.21504216634172924,
+      0.21470966530961444,
+      0.21405031433363716,
+      0.21336779058020586,
+      0.21511933573291045
+    ]
+  },
+  "selected_ridge": {
+    "semantic": 1.0,
+    "text_hash": 1.0
+  }
+}

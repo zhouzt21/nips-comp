@@ -1,0 +1,98 @@
+{
+  "fold": 0,
+  "train_benchmarks": [
+    "abstract_reason/formatted_tables",
+    "advprompter/formatted_tables",
+    "aegis/formatted_tables",
+    "agentic_review_perturbation/formatted_tables",
+    "agi_elo/formatted_tables",
+    "aider/formatted_tables",
+    "algotune/formatted_tables",
+    "alignment_faking/formatted_tables",
+    "appworld/formatted_tables",
+    "auditing_sabotage_bench/formatted_tables",
+    "bbq/formatted_tables",
+    "beavertails/formatted_tables",
+    "benger/formatted_tables",
+    "bertaqa/formatted_tables",
+    "cellverse/formatted_tables",
+    "chartmuseum/formatted_tables",
+    "chi_bench/formatted_tables",
+    "cmmlu/formatted_tables",
+    "confagents/formatted_tables",
+    "cruxeval/formatted_tables",
+    "dave/formatted_tables",
+    "dbpa/formatted_tables",
+    "devbench/formatted_tables",
+    "editbench/formatted_tables",
+    "egoschema/formatted_tables",
+    "ehrflowbench/formatted_tables",
+    "emoji_attack/formatted_tables",
+    "enginemt_qa/formatted_tables",
+    "evouna/formatted_tables",
+    "faithcot/formatted_tables",
+    "fewshot_ttt_bbh/formatted_tables",
+    "financebench/formatted_tables",
+    "finegrain_t2i/formatted_tables",
+    "haiid/formatted_tables",
+    "hallusionbench/formatted_tables"
+  ],
+  "heldout_benchmarks": [
+    "adaptivestep/formatted_tables",
+    "ai2d_test/formatted_tables",
+    "bird_sql/formatted_tables",
+    "braveguard/formatted_tables",
+    "ceval/formatted_tables",
+    "edu_circuit_hw/formatted_tables",
+    "engdesign/formatted_tables",
+    "exploitgym/formatted_tables",
+    "felm/formatted_tables",
+    "healthadminbench/formatted_tables"
+  ],
+  "semantic_ridge": 4.0,
+  "metadata_ridge": 16.0,
+  "training_pairs": 316,
+  "training_alc": [
+    0.2179457676988554,
+    0.21771757910134726,
+    0.21820330221552922,
+    0.22178447374605958,
+    0.22898553792670992
+  ],
+  "metadata_grid": [
+    null,
+    16.0,
+    4.0,
+    1.0,
+    0.25
+  ],
+  "source_seed": 73,
+  "max_pairs_per_source_benchmark": 25,
+  "source_pairs": 316,
+  "taus": [
+    null,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "constant_scales": [
+    0.5,
+    1.0,
+    2.0,
+    4.0
+  ],
+  "adaptive_source_alc": [
+    0.21771757910134687,
+    0.217838015106755,
+    0.2176759528753986,
+    0.21770958813718982
+  ],
+  "fixed_source_alc": [
+    0.2181280265027822,
+    0.21771757910134687,
+    0.2182452937983319,
+    0.2237751556254255
+  ],
+  "tau": 1.0,
+  "fixed_scale": 1.0
+}

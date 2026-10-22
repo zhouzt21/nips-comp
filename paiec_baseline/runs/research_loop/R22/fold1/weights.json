@@ -1,0 +1,108 @@
+{
+  "source_revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+  "seed": 2026,
+  "train_benchmarks": [
+    "abstract_reason/formatted_tables",
+    "advprompter/formatted_tables",
+    "agentic_review_perturbation/formatted_tables",
+    "agi_elo/formatted_tables",
+    "aider/formatted_tables",
+    "algotune/formatted_tables",
+    "alignment_faking/formatted_tables",
+    "auditing_sabotage_bench/formatted_tables",
+    "benger/formatted_tables",
+    "bird_sql/formatted_tables",
+    "braveguard/formatted_tables",
+    "cellverse/formatted_tables",
+    "ceval/formatted_tables",
+    "chartmuseum/formatted_tables",
+    "chi_bench/formatted_tables",
+    "confagents/formatted_tables",
+    "cruxeval/formatted_tables",
+    "dave/formatted_tables",
+    "dbpa/formatted_tables",
+    "edu_circuit_hw/formatted_tables",
+    "egoschema/formatted_tables",
+    "ehrflowbench/formatted_tables",
+    "engdesign/formatted_tables",
+    "evouna/formatted_tables",
+    "exploitgym/formatted_tables",
+    "felm/formatted_tables",
+    "financebench/formatted_tables",
+    "haiid/formatted_tables",
+    "healthadminbench/formatted_tables"
+  ],
+  "validation_benchmarks": [
+    "ai2d_test/formatted_tables",
+    "adaptivestep/formatted_tables",
+    "bertaqa/formatted_tables"
+  ],
+  "development_benchmarks_untouched": [
+    "aegis/formatted_tables",
+    "appworld/formatted_tables",
+    "bbq/formatted_tables",
+    "beavertails/formatted_tables",
+    "cmmlu/formatted_tables",
+    "devbench/formatted_tables",
+    "editbench/formatted_tables",
+    "emoji_attack/formatted_tables",
+    "enginemt_qa/formatted_tables",
+    "faithcot/formatted_tables",
+    "fewshot_ttt_bbh/formatted_tables",
+    "finegrain_t2i/formatted_tables",
+    "hallusionbench/formatted_tables"
+  ],
+  "early_stopping_pool": "training",
+  "fixed_epochs": null,
+  "train_rows": 44181,
+  "validation_rows": 1200,
+  "max_validation_rows_per_benchmark": 400,
+  "rows_per_validation_cycle": 10219,
+  "unique_training_rows_exposed": 37311,
+  "optimizer_steps_executed": 140,
+  "selected_model_training_pool_pair_brier": 0.2160434807472378,
+  "train_pairs": 2979,
+  "validation_pairs": 205,
+  "max_rows_per_benchmark": 2000,
+  "sampling": "response",
+  "best_epoch": 2,
+  "validation_pair_brier_at_budget_0": 0.22371893524477937,
+  "validation_history": [
+    {
+      "epoch": 1,
+      "pair_brier": 0.24564655801515414
+    },
+    {
+      "epoch": 2,
+      "pair_brier": 0.22371893524477937
+    },
+    {
+      "epoch": 3,
+      "pair_brier": 0.2609807224222303
+    },
+    {
+      "epoch": 4,
+      "pair_brier": 0.22897886239052948
+    },
+    {
+      "epoch": 5,
+      "pair_brier": 0.25315425015728954
+    },
+    {
+      "epoch": 6,
+      "pair_brier": 0.2582529853994232
+    },
+    {
+      "epoch": 7,
+      "pair_brier": 0.28660804687393715
+    }
+  ],
+  "split_file": "runs\\mlp_cv\\fold1_split.json",
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "feature_mode": "semantic_block",
+  "network_kind": "mlp",
+  "batch_size": 512,
+  "export_max_abs_error": 5.960464477539063e-08,
+  "weight_file": "runs\\research_loop\\R22\\fold1\\weights.npz"
+}

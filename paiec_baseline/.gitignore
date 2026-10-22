@@ -1,10 +1,8 @@
 __pycache__/
 *.py[cod]
 
-# Local outputs left by the retired fixed-retrieval pipeline. They are kept
-# ignored so an existing checkout can retain them without polluting Git.
+# Large local outputs from retrieval and research stay outside version control.
 /emb_cache/
-/runs/
 
 # Local secrets and environment configuration
 .env
@@ -21,6 +19,20 @@ __pycache__/
 blf_runs/
 submission_config.json
 models.txt
+/mlp/weights.npz
+/mlp/weights.json
 
 # Archived local development artifacts and compatibility paths.
 /paec_competition_submission/
+
+# Keep reproducibility records at their original paths. Large CSVs, fitted
+# arrays and generated binary artifacts remain ignored. These exceptions also
+# preserve historical code snapshots and execution logs used by the reports.
+/runs/**
+!/runs/**/
+!/runs/**/*.json
+!/runs/**/*.jsonl
+!/runs/**/*.md
+!/runs/**/*.py
+!/runs/**/*.txt
+!/runs/**/*.log

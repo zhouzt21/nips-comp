@@ -1,0 +1,85 @@
+{
+  "fold": 0,
+  "source_revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+  "train_benchmarks": [
+    "advprompter/formatted_tables",
+    "aegis/formatted_tables",
+    "agi_elo/formatted_tables",
+    "aider/formatted_tables",
+    "algotune/formatted_tables",
+    "alignment_faking/formatted_tables",
+    "appworld/formatted_tables",
+    "auditing_sabotage_bench/formatted_tables",
+    "bbq/formatted_tables",
+    "beavertails/formatted_tables",
+    "benger/formatted_tables",
+    "bertaqa/formatted_tables",
+    "cellverse/formatted_tables",
+    "chartmuseum/formatted_tables",
+    "chi_bench/formatted_tables",
+    "cmmlu/formatted_tables",
+    "confagents/formatted_tables",
+    "cruxeval/formatted_tables",
+    "dbpa/formatted_tables",
+    "devbench/formatted_tables",
+    "editbench/formatted_tables",
+    "egoschema/formatted_tables",
+    "ehrflowbench/formatted_tables",
+    "emoji_attack/formatted_tables",
+    "enginemt_qa/formatted_tables",
+    "evouna/formatted_tables",
+    "faithcot/formatted_tables",
+    "fewshot_ttt_bbh/formatted_tables",
+    "financebench/formatted_tables",
+    "finegrain_t2i/formatted_tables",
+    "haiid/formatted_tables"
+  ],
+  "validation_benchmarks": [
+    "hallusionbench/formatted_tables",
+    "agentic_review_perturbation/formatted_tables",
+    "dave/formatted_tables",
+    "abstract_reason/formatted_tables"
+  ],
+  "training_episodes": 279,
+  "validation_episodes": 37,
+  "best_epoch": 0,
+  "inner_alc": 0.23347651636278308,
+  "history": [
+    {
+      "epoch": 0,
+      "inner_alc": 0.23347651636278308
+    },
+    {
+      "epoch": 1,
+      "training_alc": 0.2158518937887043,
+      "inner_alc": 0.23347769274904923
+    },
+    {
+      "epoch": 2,
+      "training_alc": 0.21572295820680998,
+      "inner_alc": 0.2334771128119649
+    },
+    {
+      "epoch": 3,
+      "training_alc": 0.21562202246759526,
+      "inner_alc": 0.2334785604396382
+    },
+    {
+      "epoch": 4,
+      "training_alc": 0.21552193900536892,
+      "inner_alc": 0.23347690298750595
+    }
+  ],
+  "export_max_abs_error": 5.555114701571995e-08,
+  "ridge": 1.0,
+  "alpha": 2.0,
+  "learning_rate": 0.01,
+  "log_weight_l2": 0.01,
+  "seed": 2026,
+  "episode_seed": 73,
+  "max_pairs_per_benchmark": 25,
+  "weight_sha256": "881283f779a569559ba019b502b7e4ad074ed73eaa252af45e74e1ac7a42579d",
+  "log_weight_std": 0.0,
+  "log_weight_min": 0.0,
+  "log_weight_max": 0.0
+}

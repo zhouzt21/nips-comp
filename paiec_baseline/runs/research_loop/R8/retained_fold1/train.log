@@ -1,0 +1,115 @@
+epoch=1 validation_pair_brier=0.241050
+epoch=2 validation_pair_brier=0.245821
+epoch=3 validation_pair_brier=0.230454
+epoch=4 validation_pair_brier=0.303759
+epoch=5 validation_pair_brier=0.269626
+epoch=6 validation_pair_brier=0.384063
+epoch=7 validation_pair_brier=0.433433
+epoch=8 validation_pair_brier=0.504171
+{
+  "source_revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+  "seed": 2026,
+  "train_benchmarks": [
+    "abstract_reason/formatted_tables",
+    "advprompter/formatted_tables",
+    "agentic_review_perturbation/formatted_tables",
+    "agi_elo/formatted_tables",
+    "aider/formatted_tables",
+    "algotune/formatted_tables",
+    "alignment_faking/formatted_tables",
+    "auditing_sabotage_bench/formatted_tables",
+    "benger/formatted_tables",
+    "bird_sql/formatted_tables",
+    "braveguard/formatted_tables",
+    "cellverse/formatted_tables",
+    "ceval/formatted_tables",
+    "chartmuseum/formatted_tables",
+    "chi_bench/formatted_tables",
+    "confagents/formatted_tables",
+    "cruxeval/formatted_tables",
+    "dave/formatted_tables",
+    "dbpa/formatted_tables",
+    "edu_circuit_hw/formatted_tables",
+    "egoschema/formatted_tables",
+    "ehrflowbench/formatted_tables",
+    "engdesign/formatted_tables",
+    "evouna/formatted_tables",
+    "exploitgym/formatted_tables",
+    "felm/formatted_tables",
+    "financebench/formatted_tables",
+    "haiid/formatted_tables",
+    "healthadminbench/formatted_tables"
+  ],
+  "validation_benchmarks": [
+    "ai2d_test/formatted_tables",
+    "adaptivestep/formatted_tables",
+    "bertaqa/formatted_tables"
+  ],
+  "development_benchmarks_untouched": [
+    "aegis/formatted_tables",
+    "appworld/formatted_tables",
+    "bbq/formatted_tables",
+    "beavertails/formatted_tables",
+    "cmmlu/formatted_tables",
+    "devbench/formatted_tables",
+    "editbench/formatted_tables",
+    "emoji_attack/formatted_tables",
+    "enginemt_qa/formatted_tables",
+    "faithcot/formatted_tables",
+    "fewshot_ttt_bbh/formatted_tables",
+    "finegrain_t2i/formatted_tables",
+    "hallusionbench/formatted_tables"
+  ],
+  "early_stopping_pool": "training",
+  "fixed_epochs": null,
+  "train_rows": 10219,
+  "validation_rows": 1200,
+  "train_pairs": 1140,
+  "validation_pairs": 205,
+  "max_rows_per_benchmark": 400,
+  "sampling": "response",
+  "best_epoch": 3,
+  "validation_pair_brier_at_budget_0": 0.23045432668708857,
+  "validation_history": [
+    {
+      "epoch": 1,
+      "pair_brier": 0.24104958753369563
+    },
+    {
+      "epoch": 2,
+      "pair_brier": 0.24582077197890903
+    },
+    {
+      "epoch": 3,
+      "pair_brier": 0.23045432668708857
+    },
+    {
+      "epoch": 4,
+      "pair_brier": 0.3037587361143095
+    },
+    {
+      "epoch": 5,
+      "pair_brier": 0.2696256283795809
+    },
+    {
+      "epoch": 6,
+      "pair_brier": 0.3840631861401506
+    },
+    {
+      "epoch": 7,
+      "pair_brier": 0.433433130019905
+    },
+    {
+      "epoch": 8,
+      "pair_brier": 0.5041712619603594
+    }
+  ],
+  "split_file": "runs\\mlp_cv\\fold1_split.json",
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "feature_mode": "retained_block",
+  "network_kind": "mlp",
+  "batch_size": 512,
+  "export_max_abs_error": 5.960464477539063e-08,
+  "weight_file": "runs\\research_loop\\R8\\retained_fold1\\weights.npz"
+}

@@ -1,0 +1,333 @@
+{
+  "scope": "input-only, declared generic fields; no outcome-based selection",
+  "allowed_fields": [
+    "category",
+    "component",
+    "context_condition",
+    "data_modality",
+    "difficulty",
+    "domain",
+    "group",
+    "lang",
+    "mmlu_subject",
+    "natural_language",
+    "programming_language",
+    "prompt_condition",
+    "prompt_variant",
+    "question_polarity",
+    "question_type",
+    "shot",
+    "stage",
+    "subcategory",
+    "task",
+    "task_type",
+    "visual_input"
+  ],
+  "nonempty": 1900,
+  "varying_benchmarks": 18,
+  "by_benchmark": [
+    {
+      "benchmark": "abstract_reason/formatted_tables",
+      "items": 100,
+      "nonempty": 0,
+      "distinct": 1,
+      "fields": {}
+    },
+    {
+      "benchmark": "adaptivestep/formatted_tables",
+      "items": 100,
+      "nonempty": 0,
+      "distinct": 1,
+      "fields": {}
+    },
+    {
+      "benchmark": "aegis/formatted_tables",
+      "items": 100,
+      "nonempty": 0,
+      "distinct": 1,
+      "fields": {}
+    },
+    {
+      "benchmark": "agentic_review_perturbation/formatted_tables",
+      "items": 100,
+      "nonempty": 0,
+      "distinct": 1,
+      "fields": {}
+    },
+    {
+      "benchmark": "agi_elo/formatted_tables",
+      "items": 100,
+      "nonempty": 100,
+      "distinct": 43,
+      "fields": {
+        "mmlu_subject": 43
+      }
+    },
+    {
+      "benchmark": "ai2d_test/formatted_tables",
+      "items": 100,
+      "nonempty": 100,
+      "distinct": 10,
+      "fields": {
+        "category": 10
+      }
+    },
+    {
+      "benchmark": "algotune/formatted_tables",
+      "items": 100,
+      "nonempty": 0,
+      "distinct": 1,
+      "fields": {}
+    },
+    {
+      "benchmark": "alignment_faking/formatted_tables",
+      "items": 100,
+      "nonempty": 0,
+      "distinct": 1,
+      "fields": {}
+    },
+    {
+      "benchmark": "appworld/formatted_tables",
+      "items": 100,
+      "nonempty": 0,
+      "distinct": 1,
+      "fields": {}
+    },
+    {
+      "benchmark": "bbq/formatted_tables",
+      "items": 100,
+      "nonempty": 100,
+      "distinct": 40,
+      "fields": {
+        "category": 11,
+        "context_condition": 3,
+        "question_polarity": 2
+      }
+    },
+    {
+      "benchmark": "beavertails/formatted_tables",
+      "items": 100,
+      "nonempty": 0,
+      "distinct": 1,
+      "fields": {}
+    },
+    {
+      "benchmark": "benger/formatted_tables",
+      "items": 100,
+      "nonempty": 0,
+      "distinct": 1,
+      "fields": {}
+    },
+    {
+      "benchmark": "bertaqa/formatted_tables",
+      "items": 100,
+      "nonempty": 100,
+      "distinct": 66,
+      "fields": {
+        "category": 8,
+        "difficulty": 3,
+        "group": 2,
+        "lang": 2,
+        "shot": 1
+      }
+    },
+    {
+      "benchmark": "bird_sql/formatted_tables",
+      "items": 100,
+      "nonempty": 100,
+      "distinct": 3,
+      "fields": {
+        "difficulty": 3
+      }
+    },
+    {
+      "benchmark": "braveguard/formatted_tables",
+      "items": 100,
+      "nonempty": 0,
+      "distinct": 1,
+      "fields": {}
+    },
+    {
+      "benchmark": "cellverse/formatted_tables",
+      "items": 100,
+      "nonempty": 100,
+      "distinct": 1,
+      "fields": {
+        "data_modality": 1,
+        "task_type": 1
+      }
+    },
+    {
+      "benchmark": "ceval/formatted_tables",
+      "items": 100,
+      "nonempty": 100,
+      "distinct": 44,
+      "fields": {
+        "category": 44
+      }
+    },
+    {
+      "benchmark": "cmmlu/formatted_tables",
+      "items": 100,
+      "nonempty": 100,
+      "distinct": 71,
+      "fields": {
+        "category": 52,
+        "prompt_condition": 2
+      }
+    },
+    {
+      "benchmark": "cruxeval/formatted_tables",
+      "items": 100,
+      "nonempty": 100,
+      "distinct": 5,
+      "fields": {
+        "prompt_variant": 5,
+        "task": 2
+      }
+    },
+    {
+      "benchmark": "dave/formatted_tables",
+      "items": 100,
+      "nonempty": 100,
+      "distinct": 3,
+      "fields": {
+        "question_type": 3
+      }
+    },
+    {
+      "benchmark": "devbench/formatted_tables",
+      "items": 100,
+      "nonempty": 100,
+      "distinct": 3,
+      "fields": {
+        "component": 3
+      }
+    },
+    {
+      "benchmark": "editbench/formatted_tables",
+      "items": 100,
+      "nonempty": 100,
+      "distinct": 14,
+      "fields": {
+        "natural_language": 5,
+        "programming_language": 3
+      }
+    },
+    {
+      "benchmark": "edu_circuit_hw/formatted_tables",
+      "items": 100,
+      "nonempty": 0,
+      "distinct": 1,
+      "fields": {}
+    },
+    {
+      "benchmark": "egoschema/formatted_tables",
+      "items": 100,
+      "nonempty": 0,
+      "distinct": 1,
+      "fields": {}
+    },
+    {
+      "benchmark": "emoji_attack/formatted_tables",
+      "items": 100,
+      "nonempty": 0,
+      "distinct": 1,
+      "fields": {}
+    },
+    {
+      "benchmark": "engdesign/formatted_tables",
+      "items": 100,
+      "nonempty": 0,
+      "distinct": 1,
+      "fields": {}
+    },
+    {
+      "benchmark": "enginemt_qa/formatted_tables",
+      "items": 100,
+      "nonempty": 100,
+      "distinct": 2,
+      "fields": {
+        "stage": 2
+      }
+    },
+    {
+      "benchmark": "evouna/formatted_tables",
+      "items": 100,
+      "nonempty": 0,
+      "distinct": 1,
+      "fields": {}
+    },
+    {
+      "benchmark": "exploitgym/formatted_tables",
+      "items": 100,
+      "nonempty": 100,
+      "distinct": 3,
+      "fields": {
+        "domain": 3
+      }
+    },
+    {
+      "benchmark": "faithcot/formatted_tables",
+      "items": 100,
+      "nonempty": 100,
+      "distinct": 4,
+      "fields": {
+        "task": 4
+      }
+    },
+    {
+      "benchmark": "felm/formatted_tables",
+      "items": 100,
+      "nonempty": 100,
+      "distinct": 5,
+      "fields": {
+        "domain": 5
+      }
+    },
+    {
+      "benchmark": "fewshot_ttt_bbh/formatted_tables",
+      "items": 100,
+      "nonempty": 100,
+      "distinct": 26,
+      "fields": {
+        "task": 26
+      }
+    },
+    {
+      "benchmark": "financebench/formatted_tables",
+      "items": 100,
+      "nonempty": 0,
+      "distinct": 1,
+      "fields": {}
+    },
+    {
+      "benchmark": "finegrain_t2i/formatted_tables",
+      "items": 100,
+      "nonempty": 0,
+      "distinct": 1,
+      "fields": {}
+    },
+    {
+      "benchmark": "hallusionbench/formatted_tables",
+      "items": 100,
+      "nonempty": 100,
+      "distinct": 19,
+      "fields": {
+        "category": 2,
+        "subcategory": 8,
+        "visual_input": 3
+      }
+    },
+    {
+      "benchmark": "healthadminbench/formatted_tables",
+      "items": 100,
+      "nonempty": 100,
+      "distinct": 9,
+      "fields": {
+        "difficulty": 3,
+        "domain": 3
+      }
+    }
+  ]
+}

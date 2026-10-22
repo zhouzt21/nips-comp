@@ -1,0 +1,73 @@
+{
+  "experiment_series": "PAIEC-FM-20261022",
+  "scope": "public data, reused benchmark-grouped CV folds, not independent hidden test",
+  "source_revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+  "data_root": "D:\\paiec_payload\\data",
+  "fold_files": [
+    "runs/mlp_cv/fold0_split.json",
+    "runs/mlp_cv/fold1_split.json",
+    "runs/mlp_cv/fold2_split.json"
+  ],
+  "item_split_seed": 0,
+  "training_seed": 2026,
+  "max_evaluation_items_per_pair": 64,
+  "max_pairs_per_benchmark": 100,
+  "budgets": [0, 1, 3, 7, 15, 31],
+  "alc_weights": [0.1, 0.2, 0.2, 0.2, 0.2, 0.1],
+  "code_sha256": {
+    "mlp/train.py": "222dcd9135ecdbbb3b926638300eae30e6caab2343f02c7fa6497bb37cc4463e",
+    "mlp/evaluate.py": "fa87d4a75cd35474e6f2542aa7637b4c82ac784f7f5360713981454d5bf3c9ef",
+    "mlp/model.py": "0cbd3f598c57af696a0f7de42cddc6d2825ddcd538d31aa984d4fb05da20588f"
+  },
+  "experiments": [
+    {
+      "id": "PAIEC-FM-E0",
+      "status": "completed_posthoc_diagnostic",
+      "hypothesis": "Separate pair-level prior bias from item-level variation and adaptation",
+      "outputs": [
+        "runs/mlp_failure_2026_10_22/historical_decomposition.json",
+        "runs/mlp_failure_2026_10_22/prior_diagnostic.json"
+      ]
+    },
+    {
+      "id": "PAIEC-FM-E1",
+      "status": "completed_no_promotion",
+      "hypothesis": "Training-pair global prevalence may give a better zero-label shrinkage prior",
+      "candidate_pair_equal_alc": 0.20842925091278822,
+      "comparator_pair_equal_alc": 0.2083309034735572,
+      "outputs": [
+        "runs/mlp_failure_2026_10_22/stat_prior/pair_rates.json",
+        "runs/mlp_failure_2026_10_22/stat_prior/summary.json"
+      ]
+    },
+    {
+      "id": "PAIEC-FM-E2",
+      "status": "completed_no_promotion",
+      "hypothesis": "Pair-aware allocation of the same benchmark row cap may improve MLP transfer",
+      "candidate_pair_equal_alc": 0.21445790021790867,
+      "comparator_pair_equal_alc": 0.2083309034735572,
+      "weight_files": [
+        "runs/mlp_failure_2026_10_22/pair_balanced_fold0/weights.npz",
+        "runs/mlp_failure_2026_10_22/pair_balanced_fold1/weights.npz",
+        "runs/mlp_failure_2026_10_22/pair_balanced_fold2/weights.npz"
+      ],
+      "outputs": ["runs/mlp_failure_2026_10_22/pair_balanced_summary.json"]
+    },
+    {
+      "id": "PAIEC-FM-E3",
+      "status": "completed_no_promotion",
+      "hypothesis": "Multimodal training-pair prevalence prior may improve small-label adaptation",
+      "candidate_pair_equal_alc": 0.21046673381219577,
+      "comparator_pair_equal_alc": 0.2083309034735572,
+      "outputs": [
+        "runs/mlp_failure_2026_10_22/empirical_bayes/fold0_lookup.json",
+        "runs/mlp_failure_2026_10_22/empirical_bayes/fold1_lookup.json",
+        "runs/mlp_failure_2026_10_22/empirical_bayes/fold2_lookup.json",
+        "runs/mlp_failure_2026_10_22/empirical_bayes/summary.json"
+      ]
+    }
+  ],
+  "decision": "Keep dist/smoothed_mean_strength2.zip as the current evidence-backed fallback; no new ZIP promoted",
+  "runtime_seconds": null,
+  "runtime_note": "Elapsed times were not instrumented; no duration is claimed"
+}

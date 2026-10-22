@@ -1,0 +1,496 @@
+{
+  "source_files": [
+    "runs\\research_loop\\R10\\text_hash\\fold0_evaluation.json",
+    "runs\\research_loop\\R10\\text_hash\\fold1_evaluation.json",
+    "runs\\research_loop\\R10\\text_hash\\fold2_evaluation.json"
+  ],
+  "scope": "Post hoc mechanism diagnosis on reused public benchmarks; mean/query-shuffle controls are not deployable predictors",
+  "pair_equal_brier": {
+    "actual": [
+      0.25,
+      0.22829608351029024,
+      0.2104191970659835,
+      0.19539259322517571,
+      0.18515031358719963,
+      0.17889755469935242
+    ],
+    "baseline": [
+      0.25,
+      0.22829608351029024,
+      0.21041889205346376,
+      0.19585094207378326,
+      0.1865926882481124,
+      0.18176645708768277
+    ],
+    "mean_only": [
+      0.25,
+      0.22829608351029024,
+      0.21059300232834655,
+      0.1958236117785966,
+      0.18640776292419567,
+      0.18159252862805092
+    ],
+    "query_permutation_expectation": [
+      0.25,
+      0.22829608351029027,
+      0.2109644075428921,
+      0.19679367233760664,
+      0.1882700837932474,
+      0.18462239407518677
+    ],
+    "support_permuted": [
+      0.25,
+      0.22829608351029024,
+      0.21093847614396055,
+      0.1968757654235077,
+      0.18833991972662537,
+      0.18427813355664205
+    ]
+  },
+  "pair_equal_alc": {
+    "actual": 0.20674139294766508,
+    "baseline": 0.20740836688589823,
+    "mean_only": 0.20738334497109093,
+    "query_permutation_expectation": 0.20832708884432596,
+    "support_permuted": 0.208317862316541
+  },
+  "benchmark_equal_alc": {
+    "actual": 0.21302725660823996,
+    "baseline": 0.21485437217827974,
+    "mean_only": 0.21476664463584536,
+    "query_permutation_expectation": 0.21622699372867227,
+    "support_permuted": 0.21618540381920473
+  },
+  "folds": [
+    {
+      "source": "runs\\research_loop\\R10\\text_hash\\fold0_evaluation.json",
+      "pairs": 246,
+      "alc": {
+        "actual": 0.17604908975079506,
+        "baseline": 0.17636675265110557,
+        "mean_only": 0.17640278956217167,
+        "query_permutation_expectation": 0.17723332749299325,
+        "support_permuted": 0.17717274186810592
+      }
+    },
+    {
+      "source": "runs\\research_loop\\R10\\text_hash\\fold1_evaluation.json",
+      "pairs": 246,
+      "alc": {
+        "actual": 0.23869338098718693,
+        "baseline": 0.23990249859246587,
+        "mean_only": 0.2398636222476706,
+        "query_permutation_expectation": 0.24117840765835685,
+        "support_permuted": 0.24113202019379867
+      }
+    },
+    {
+      "source": "runs\\research_loop\\R10\\text_hash\\fold2_evaluation.json",
+      "pairs": 245,
+      "alc": {
+        "actual": 0.2054765665342269,
+        "baseline": 0.20594992077138127,
+        "mean_only": 0.20587750178968495,
+        "query_permutation_expectation": 0.20656235767769843,
+        "support_permuted": 0.2066420124900497
+      }
+    }
+  ],
+  "by_benchmark": [
+    {
+      "benchmark": "adaptivestep/formatted_tables",
+      "pairs": 2,
+      "actual": 0.24808908838205926,
+      "baseline": 0.2554421612837087,
+      "mean_only": 0.25456680949742705,
+      "query_permutation_expectation": 0.2573019977128571,
+      "support_permuted": 0.25852183726189903
+    },
+    {
+      "benchmark": "ai2d_test/formatted_tables",
+      "pairs": 100,
+      "actual": 0.2190238961749605,
+      "baseline": 0.21991038260335405,
+      "mean_only": 0.21991093378602292,
+      "query_permutation_expectation": 0.22019328911370945,
+      "support_permuted": 0.22018627196996787
+    },
+    {
+      "benchmark": "bird_sql/formatted_tables",
+      "pairs": 100,
+      "actual": 0.114420202932333,
+      "baseline": 0.11414026122593349,
+      "mean_only": 0.11426398398984942,
+      "query_permutation_expectation": 0.11543445478649797,
+      "support_permuted": 0.11524453655353757
+    },
+    {
+      "benchmark": "braveguard/formatted_tables",
+      "pairs": 2,
+      "actual": 0.14314396993374093,
+      "baseline": 0.1427298461890173,
+      "mean_only": 0.14267848958850654,
+      "query_permutation_expectation": 0.14280042899434647,
+      "support_permuted": 0.1428674916853597
+    },
+    {
+      "benchmark": "ceval/formatted_tables",
+      "pairs": 11,
+      "actual": 0.24710447238960143,
+      "baseline": 0.24652380813961172,
+      "mean_only": 0.2461090512595876,
+      "query_permutation_expectation": 0.24788372740866577,
+      "support_permuted": 0.2480321539319218
+    },
+    {
+      "benchmark": "edu_circuit_hw/formatted_tables",
+      "pairs": 6,
+      "actual": 0.2313423752937689,
+      "baseline": 0.2313423752937689,
+      "mean_only": 0.2313423752937689,
+      "query_permutation_expectation": 0.23134237529376891,
+      "support_permuted": 0.2313423752937689
+    },
+    {
+      "benchmark": "engdesign/formatted_tables",
+      "pairs": 12,
+      "actual": 0.22404719025952077,
+      "baseline": 0.22393953218204055,
+      "mean_only": 0.22442956940553083,
+      "query_permutation_expectation": 0.2258314170767842,
+      "support_permuted": 0.2256506262236303
+    },
+    {
+      "benchmark": "exploitgym/formatted_tables",
+      "pairs": 5,
+      "actual": 0.11402273136440703,
+      "baseline": 0.11163791334480042,
+      "mean_only": 0.11275757660371494,
+      "query_permutation_expectation": 0.11392213520557164,
+      "support_permuted": 0.11241319082592181
+    },
+    {
+      "benchmark": "felm/formatted_tables",
+      "pairs": 1,
+      "actual": 0.1899367227960112,
+      "baseline": 0.1909630073998477,
+      "mean_only": 0.1902554982511707,
+      "query_permutation_expectation": 0.1911141474374872,
+      "support_permuted": 0.1929055211704908
+    },
+    {
+      "benchmark": "healthadminbench/formatted_tables",
+      "pairs": 7,
+      "actual": 0.23233999150772972,
+      "baseline": 0.23550995038444067,
+      "mean_only": 0.23437883239727608,
+      "query_permutation_expectation": 0.23584889117092864,
+      "support_permuted": 0.23706400775879716
+    },
+    {
+      "benchmark": "aegis/formatted_tables",
+      "pairs": 1,
+      "actual": 0.22774837593804523,
+      "baseline": 0.22808383273271998,
+      "mean_only": 0.22791532886566795,
+      "query_permutation_expectation": 0.22860012385799017,
+      "support_permuted": 0.22836924275429824
+    },
+    {
+      "benchmark": "appworld/formatted_tables",
+      "pairs": 18,
+      "actual": 0.17792844183025075,
+      "baseline": 0.1811467575617763,
+      "mean_only": 0.1809976386459338,
+      "query_permutation_expectation": 0.18244558698746693,
+      "support_permuted": 0.18253622119305968
+    },
+    {
+      "benchmark": "bbq/formatted_tables",
+      "pairs": 7,
+      "actual": 0.23588859503592266,
+      "baseline": 0.24206612700319668,
+      "mean_only": 0.2422515125391512,
+      "query_permutation_expectation": 0.2441285728903551,
+      "support_permuted": 0.24331722396581992
+    },
+    {
+      "benchmark": "beavertails/formatted_tables",
+      "pairs": 4,
+      "actual": 0.18892462671123503,
+      "baseline": 0.1914380611948096,
+      "mean_only": 0.19118224144621698,
+      "query_permutation_expectation": 0.1918468658126727,
+      "support_permuted": 0.19184892933287329
+    },
+    {
+      "benchmark": "cmmlu/formatted_tables",
+      "pairs": 22,
+      "actual": 0.20805901504974986,
+      "baseline": 0.2084688085889322,
+      "mean_only": 0.20788520560452856,
+      "query_permutation_expectation": 0.20812489845789917,
+      "support_permuted": 0.2088285182279164
+    },
+    {
+      "benchmark": "devbench/formatted_tables",
+      "pairs": 19,
+      "actual": 0.21445598634127133,
+      "baseline": 0.2170631783894666,
+      "mean_only": 0.2169909892267004,
+      "query_permutation_expectation": 0.21826977828093097,
+      "support_permuted": 0.21786742213228483
+    },
+    {
+      "benchmark": "editbench/formatted_tables",
+      "pairs": 44,
+      "actual": 0.26084295879551894,
+      "baseline": 0.26070348859743403,
+      "mean_only": 0.26079444182871325,
+      "query_permutation_expectation": 0.26235170153728404,
+      "support_permuted": 0.26236005821429226
+    },
+    {
+      "benchmark": "emoji_attack/formatted_tables",
+      "pairs": 10,
+      "actual": 0.2098893069174716,
+      "baseline": 0.2151728699984273,
+      "mean_only": 0.2150097035153033,
+      "query_permutation_expectation": 0.21868392474303333,
+      "support_permuted": 0.2181984589462735
+    },
+    {
+      "benchmark": "enginemt_qa/formatted_tables",
+      "pairs": 1,
+      "actual": 0.15720272025051385,
+      "baseline": 0.18153068376876313,
+      "mean_only": 0.18405457318240281,
+      "query_permutation_expectation": 0.19261521011533192,
+      "support_permuted": 0.1859260920209191
+    },
+    {
+      "benchmark": "faithcot/formatted_tables",
+      "pairs": 4,
+      "actual": 0.2150463551895222,
+      "baseline": 0.21672777943780305,
+      "mean_only": 0.21624438232939613,
+      "query_permutation_expectation": 0.21783715866248252,
+      "support_permuted": 0.21841308730156497
+    },
+    {
+      "benchmark": "fewshot_ttt_bbh/formatted_tables",
+      "pairs": 11,
+      "actual": 0.2665074640876195,
+      "baseline": 0.26915951159761997,
+      "mean_only": 0.2685834615306286,
+      "query_permutation_expectation": 0.27342783496122103,
+      "support_permuted": 0.2736887842022879
+    },
+    {
+      "benchmark": "finegrain_t2i/formatted_tables",
+      "pairs": 5,
+      "actual": 0.2679434290088969,
+      "baseline": 0.26929764512030474,
+      "mean_only": 0.26901998592794596,
+      "query_permutation_expectation": 0.2697439653291096,
+      "support_permuted": 0.27031947291918973
+    },
+    {
+      "benchmark": "hallusionbench/formatted_tables",
+      "pairs": 100,
+      "actual": 0.25364560003095926,
+      "baseline": 0.2537819301977724,
+      "mean_only": 0.2539018279167558,
+      "query_permutation_expectation": 0.2546440259637367,
+      "support_permuted": 0.2545255145388541
+    },
+    {
+      "benchmark": "abstract_reason/formatted_tables",
+      "pairs": 1,
+      "actual": 0.2513605650653301,
+      "baseline": 0.2545593019977872,
+      "mean_only": 0.254032905277102,
+      "query_permutation_expectation": 0.2556806726534414,
+      "support_permuted": 0.25601925658925007
+    },
+    {
+      "benchmark": "agentic_review_perturbation/formatted_tables",
+      "pairs": 3,
+      "actual": 0.1394321410054324,
+      "baseline": 0.14323988397673104,
+      "mean_only": 0.14282589534623907,
+      "query_permutation_expectation": 0.14628577013792032,
+      "support_permuted": 0.1473832186459409
+    },
+    {
+      "benchmark": "agi_elo/formatted_tables",
+      "pairs": 20,
+      "actual": 0.2067708570974176,
+      "baseline": 0.2066012436408256,
+      "mean_only": 0.206094776948808,
+      "query_permutation_expectation": 0.20760800573217625,
+      "support_permuted": 0.20808279500663507
+    },
+    {
+      "benchmark": "algotune/formatted_tables",
+      "pairs": 18,
+      "actual": 0.22291574485797183,
+      "baseline": 0.22234186044140503,
+      "mean_only": 0.2224305052094766,
+      "query_permutation_expectation": 0.22372702003476697,
+      "support_permuted": 0.22369234437930285
+    },
+    {
+      "benchmark": "alignment_faking/formatted_tables",
+      "pairs": 100,
+      "actual": 0.19226238282688127,
+      "baseline": 0.1935997197119596,
+      "mean_only": 0.1935201800942363,
+      "query_permutation_expectation": 0.19356420643143607,
+      "support_permuted": 0.19363339068060686
+    },
+    {
+      "benchmark": "benger/formatted_tables",
+      "pairs": 25,
+      "actual": 0.16819344222519494,
+      "baseline": 0.16819344222519494,
+      "mean_only": 0.16819344222519494,
+      "query_permutation_expectation": 0.16819344222519492,
+      "support_permuted": 0.16819344222519494
+    },
+    {
+      "benchmark": "bertaqa/formatted_tables",
+      "pairs": 6,
+      "actual": 0.21292780470098288,
+      "baseline": 0.21244417330604717,
+      "mean_only": 0.21202488478398535,
+      "query_permutation_expectation": 0.21264465577285874,
+      "support_permuted": 0.21301268592500835
+    },
+    {
+      "benchmark": "cellverse/formatted_tables",
+      "pairs": 1,
+      "actual": 0.2860571803213206,
+      "baseline": 0.2849192825417858,
+      "mean_only": 0.2847721444031362,
+      "query_permutation_expectation": 0.284999495185131,
+      "support_permuted": 0.2851933744139701
+    },
+    {
+      "benchmark": "cruxeval/formatted_tables",
+      "pairs": 31,
+      "actual": 0.24743512114338184,
+      "baseline": 0.24593589971731644,
+      "mean_only": 0.24601367029408408,
+      "query_permutation_expectation": 0.24783409470525675,
+      "support_permuted": 0.24772479489881713
+    },
+    {
+      "benchmark": "dave/formatted_tables",
+      "pairs": 8,
+      "actual": 0.23759955136202804,
+      "baseline": 0.237682415408505,
+      "mean_only": 0.23770182473381826,
+      "query_permutation_expectation": 0.2380447154155988,
+      "support_permuted": 0.23801315617241692
+    },
+    {
+      "benchmark": "egoschema/formatted_tables",
+      "pairs": 11,
+      "actual": 0.2608147856533962,
+      "baseline": 0.26091436987192773,
+      "mean_only": 0.2612097626291142,
+      "query_permutation_expectation": 0.26172450088853405,
+      "support_permuted": 0.261544603819883
+    },
+    {
+      "benchmark": "evouna/formatted_tables",
+      "pairs": 5,
+      "actual": 0.20375229260186753,
+      "baseline": 0.20376215013544624,
+      "mean_only": 0.20357867333330038,
+      "query_permutation_expectation": 0.20417073244126055,
+      "support_permuted": 0.20427946175378753
+    },
+    {
+      "benchmark": "financebench/formatted_tables",
+      "pairs": 16,
+      "actual": 0.19190585281432132,
+      "baseline": 0.1937837432075899,
+      "mean_only": 0.19367612897973696,
+      "query_permutation_expectation": 0.1953019508084933,
+      "support_permuted": 0.19547497455562846
+    }
+  ],
+  "comparisons": {
+    "baseline": {
+      "pair_equal_delta": -0.0006669739382331452,
+      "fold_deltas": [
+        -0.0003176629003105169,
+        -0.0012091176052789476,
+        -0.00047335423715436087
+      ],
+      "benchmarks_improved": 23,
+      "benchmarks_total": 36,
+      "worst_benchmark": "exploitgym/formatted_tables",
+      "worst_benchmark_delta": 0.0023848180196066188,
+      "cluster_bootstrap_ci95": [
+        -0.0012275276826852718,
+        -0.00021806349119231737
+      ]
+    },
+    "mean_only": {
+      "pair_equal_delta": -0.0006419520234258458,
+      "fold_deltas": [
+        -0.00035369981137661766,
+        -0.0011702412604836787,
+        -0.00040093525545803477
+      ],
+      "benchmarks_improved": 22,
+      "benchmarks_total": 36,
+      "worst_benchmark": "cruxeval/formatted_tables",
+      "worst_benchmark_delta": 0.0014214508492977618,
+      "cluster_bootstrap_ci95": [
+        -0.0011570829966212365,
+        -0.00019861324873207204
+      ]
+    },
+    "query_permutation_expectation": {
+      "pair_equal_delta": -0.0015856958966608825,
+      "fold_deltas": [
+        -0.0011842377421981964,
+        -0.0024850266711699265,
+        -0.001085791143471515
+      ],
+      "benchmarks_improved": 31,
+      "benchmarks_total": 36,
+      "worst_benchmark": "cellverse/formatted_tables",
+      "worst_benchmark_delta": 0.00105768513618959,
+      "cluster_bootstrap_ci95": [
+        -0.0023089422273971853,
+        -0.0012000106625896557
+      ]
+    },
+    "support_permuted": {
+      "pair_equal_delta": -0.0015764693688759268,
+      "fold_deltas": [
+        -0.0011236521173108582,
+        -0.002438639206611748,
+        -0.001165445955822797
+      ],
+      "benchmarks_improved": 31,
+      "benchmarks_total": 36,
+      "worst_benchmark": "exploitgym/formatted_tables",
+      "worst_benchmark_delta": 0.0016095405384852213,
+      "cluster_bootstrap_ci95": [
+        -0.0023112560987395237,
+        -0.0011882799941828912
+      ]
+    }
+  },
+  "bootstrap_unit": "benchmark after averaging three trajectory seeds; permutations are not independent test units",
+  "components": {
+    "mean_gain": 2.5021914807299428e-05,
+    "item_gain": 0.0006419520234258458
+  }
+}
