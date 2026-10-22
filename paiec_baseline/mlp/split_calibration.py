@@ -1,6 +1,6 @@
 """R49 support-only direction/calibration splitting; no scored outcomes accepted."""
 import numpy as np
-from .run_metadata_round import prediction
+from mlp.run.run_metadata_round import prediction
 # Shared numerical solver, not the diagnostic runner or its fitted coefficients.
 # In this experimental module it receives ONLY current allowed support outcomes.
 from .oracle_scale import optimum_scale

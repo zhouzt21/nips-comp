@@ -23,7 +23,10 @@ empirical_mean/         Empirical mean predictor and its README
 smoothed_mean/          Smoothed empirical mean control
 mlp/                    Offline MLP predictor, trainer, and experiment tools
 empirical_mean_ble_acquisition/  Empirical mean with BLE acquisition
-tools/                  Data preparation, packaging, and local tests
+tools/                  Data preparation, packaging, and submission checks
+../tests/               Project test suite
+../reports/             Experiment reports and figures
+../research_loop/       Research protocols, state, and decision records
 check_submission_zip.py Submission archive validator
 submit_api.py           Codabench authentication and submission utility
 ```
@@ -57,7 +60,7 @@ All predictors use the competition's published
 
 The public-data audit, benchmark-disjoint MLP experiments, six-budget Brier
 tables, and limitations are documented in
-[`reports/mlp_benchmark_holdout_2026-10-22.md`](reports/mlp_benchmark_holdout_2026-10-22.md).
+[`reports/mlp_benchmark_holdout_2026-10-22.md`](../reports/mlp_benchmark_holdout_2026-10-22.md).
 The locally built MLP candidate can be checked without submitting it:
 
 ```powershell
@@ -95,7 +98,7 @@ datasets, large run artifacts, and generated archives in ignored paths. The exis
 without paid API calls:
 
 ```bash
-python -m unittest discover -s tools -p 'test_*.py'
+python -m pytest ../tests
 ```
 
 After selectively staging changes, review the staged diff and run the source

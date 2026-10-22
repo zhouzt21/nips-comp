@@ -1,6 +1,6 @@
 """Support-only local correction scale. No evaluation labels or cross-call state."""
 import numpy as np
-from .run_metadata_round import prediction
+from mlp.run.run_metadata_round import prediction
 
 
 def smoother(support):

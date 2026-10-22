@@ -4,7 +4,7 @@ from pathlib import Path
 import hashlib
 import numpy as np
 import pandas as pd
-from .audit_subject_overlap import identity
+from mlp.audit.audit_subject_overlap import identity
 from .model import _SUBJECT_FIELDS
 
 

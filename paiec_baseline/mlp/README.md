@@ -1,5 +1,29 @@
 # PAIEC offline MLP predictor
 
+## Code layout
+
+The package root contains predictor/model components, feature encoders,
+`train.py`, and `evaluate.py`. Experiment orchestration lives in subpackages:
+
+| Directory | Responsibility |
+| --- | --- |
+| `audit/` | Data audits, failure diagnostics, and diagnostic analyses |
+| `run/` | Experiment drivers |
+| `verify/` | Frozen-parameter checks and replay verification |
+| `reporting/` | Result summaries, plots, and report generation |
+| `state/` | Research status and checkpoint document updates |
+| `data/` | Benchmark holdout and cross-validation splits |
+
+Run modules from `paiec_baseline/`, for example
+`python -m mlp.audit.audit_evaluation_items` or
+`python -m mlp.run.run_metadata_round`. These commands run experiments;
+see the [reproduction guide](../../reports/research_loop_v3_reproduction.md)
+for their data dependencies and admission conditions. Historical module names
+are mapped in [module_path_migration.json](../../doc/module_path_migration.json).
+The competition entry point remains `model.py`.
+
+## Predictor
+
 `model.py` implements the competition's
 [`predict(input, labeled) -> float`](https://aims.stanford.edu/competition#task)
 interface. It needs NumPy and the adjacent fitted `weights.npz`; inference is
@@ -12,7 +36,7 @@ public measurement-db data at revision
 This is a **local research candidate**, not a verified private-test winner.
 The full data, split, training, baseline, six-budget comparison, negative
 results, and limitations are in
-[`reports/mlp_benchmark_holdout_2026-10-22.md`](../reports/mlp_benchmark_holdout_2026-10-22.md).
+[`reports/mlp_benchmark_holdout_2026-10-22.md`](../../reports/mlp_benchmark_holdout_2026-10-22.md).
 
 ## Method
 
@@ -41,7 +65,7 @@ proxy. See the report for all six budgets and fair simple-method comparisons.
 
 ```powershell
 python tools/prepare_data.py --out 'D:\paiec_payload' --no-embeddings --no-traces
-python -m mlp.make_split --data-root 'D:\paiec_payload\data' --seed 2026 --out 'runs\mlp_split_2026.json'
+python -m mlp.data.make_split --data-root 'D:\paiec_payload\data' --seed 2026 --out 'runs\mlp_split_2026.json'
 $env:OPENBLAS_NUM_THREADS='1'
 python -m mlp.train --data-root 'D:\paiec_payload\data' --split-file 'runs\mlp_split_2026.json' --out 'runs\mlp_trials\internal_val_cap400\weights.npz' --seed 2026 --max-rows-per-benchmark 400 --epochs 12 --batch-size 512 --learning-rate 0.001 --weight-decay 0.0001 --feature-mode all --internal-validation
 python -m mlp.evaluate --data-root 'D:\paiec_payload\data' --split-file 'runs\mlp_split_2026.json' --role development --weights 'internal=runs\mlp_trials\internal_val_cap400\weights.npz' --seeds 1 --max-evaluation-items 64 --alphas 2 4 8 16 --out 'runs\mlp_trials\development_replay.json'
