@@ -11,6 +11,7 @@ PAIEC 概率预测竞赛的本地研究工程，包含官方 baseline 的原始�
 - [版本管理与原版恢复](doc/GIT_WORKFLOW.md)
 - [实验记录的保存范围](paiec_baseline/runs/README.md)
 - [测试入口](tests/README.md)
+- [运行环境迁移与离线包说明](environment/README.md)
 - [目录迁移与历史路径说明](doc/README.md)
 
 ## 目录职责
