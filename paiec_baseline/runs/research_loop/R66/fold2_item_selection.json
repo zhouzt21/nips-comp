@@ -1,0 +1,91 @@
+{
+  "curve": [
+    0.2509570793981603,
+    0.2399380749721537,
+    0.23709035012339416,
+    0.2455656913635495,
+    0.27239324334982734,
+    0.30553384753975926,
+    0.31956102284326166,
+    0.3384178162832546,
+    0.3552272624920112,
+    0.3568209022210873,
+    0.40410632469754354,
+    0.4004461170770545,
+    0.4169261377779705,
+    0.41964528829434705,
+    0.43304967839012176,
+    0.4404823041319339,
+    0.44537794061288905,
+    0.4435481706566653,
+    0.4505720605325763,
+    0.44552994960454323,
+    0.4527902961041807,
+    0.4569518504538377,
+    0.46404573290027423,
+    0.46503633613741235,
+    0.46894648439805975,
+    0.4654543375395422,
+    0.46606748142921234,
+    0.46753144092142845,
+    0.47457028311019755,
+    0.47877431835088785,
+    0.47339040641834207
+  ],
+  "selection": {
+    "patience_epoch": 2,
+    "stop_epoch": 7,
+    "best_same_steps": 2,
+    "best20": 2,
+    "best30": 2,
+    "fixed20": 20,
+    "fixed30": 30,
+    "recovery_starts": [],
+    "stable_window": null
+  },
+  "directions": [
+    {
+      "selection": {
+        "patience_epoch": 2,
+        "stop_epoch": 7,
+        "best_same_steps": 2,
+        "best20": 2,
+        "best30": 2,
+        "fixed20": 20,
+        "fixed30": 30,
+        "recovery_starts": [],
+        "stable_window": null
+      },
+      "early_train": 0.1893225282430649,
+      "late_train": 0.07174477651715279,
+      "late_validation": 0.5165936669033001,
+      "overfit_no_recovery": true,
+      "initial_lazy": false,
+      "later_change": true,
+      "later_gain": false,
+      "initialization_trigger": false
+    },
+    {
+      "selection": {
+        "patience_epoch": 1,
+        "stop_epoch": 6,
+        "best_same_steps": 1,
+        "best20": 1,
+        "best30": 1,
+        "fixed20": 20,
+        "fixed30": 30,
+        "recovery_starts": [],
+        "stable_window": null
+      },
+      "early_train": 0.16987013518810273,
+      "late_train": 0.06405753828585148,
+      "late_validation": 0.42474506892719016,
+      "overfit_no_recovery": true,
+      "initial_lazy": false,
+      "later_change": true,
+      "later_gain": false,
+      "initialization_trigger": false
+    }
+  ],
+  "stop_delayed_search": true
+}

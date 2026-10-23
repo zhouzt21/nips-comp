@@ -1,0 +1,18 @@
+﻿## Search Results (3 results, 3105ms)
+
+### 1. Monotone Regression: A Simple and Fast O(n) PAVA Implementation
+- **URL**: https://doi.org/10.18637/jss.v102.c01
+- Efficient coding and improvements in the execution order of the up-and-down-blocks algorithm for monotone or isotonic regression leads to a significant increase in speed as well as a short and simple O(n) implementation. Algorithms that use monotone regression as a subroutine, e.g., unimodal or bivariate monotone regression, also benefit from the acceleration. A substantive comparison with and characterization of currently available implementations provides an extensive overview of up-and-down-blocks implementations for the pool-adjacent-violators algorithm for simple linear ordered monotone regression.
+
+### 2. Estimation and convergence rates in the distributional single index model
+- **URL**: http://arxiv.org/abs/2310.13973
+- The distributional single index model is a semiparametric regression model in which the conditional distribution functions $P(Y \leq y | X = x) = F_0(θ_0(x), y)$ of a real-valued outcome variable $Y$ depend on $d$-dimensional covariates $X$ through a univariate, parametric index function $θ_0(x)$, and increase stochastically as $θ_0(x)$ increases. We propose least squares approaches for the joint estimation of $θ_0$ and $F_0$ in the important case where $θ_0(x) = α_0^{\top}x$ and obtain convergence rates of $n^{-1/3}$, thereby improving an existing result that gives a rate of $n^{-1/6}$. A simulation study indicates that the convergence rate for the estimation of $α_0$ might be faster. Furthermore, we illustrate our methods in a real data application that demonstrates the advantages of shape restrictions in single index models.
+
+### 3. A Bayesian model of dose-response for cancer drug studies
+- **URL**: https://doi.org/10.1214/21-aoas1485
+- Exploratory cancer drug studies test multiple tumor cell lines against multiple candidate drugs. The goal in each paired (cell line, drug) experiment is to map out the dose-response curve of the cell line as the dose level of the drug increases. We propose Bayesian tensor filtering (BTF), a hierarchical Bayesian model for dose-response modeling in multisample, multitreatment cancer drug studies. BTF uses low-dimensional embeddings to share statistical strength between similar drugs and similar cell lines. Structured shrinkage priors in BTF encourage smoothness in the dose-response curves while remaining adaptive to sharp jumps when the data call for it. We focus on a pair of cancer drug studies exhibiting a particular pathology in their experimental design, leading us to a nonconjugate monotone mixture-of-gammas likelihood. To perform posterior inference, we develop a variant of the elliptical slice sampling algorithm for sampling from linearly-constrained multivariate normal priors with nonconjugate likelihoods. In benchmarks, BTF outperforms state-of-the-art methods for covariance regression and dynamic Poisson matrix factorization. On the two cancer drug studies, BTF outperforms the current standard approach in biology and reveals potential new biomarkers of drug sensitivity in cancer. Code is available at https://github.com/tansey/functionalmf.
+
+```yaml
+request_id: ca709b05-4725-46e8-8b1e-e208eaa7e408
+```
+

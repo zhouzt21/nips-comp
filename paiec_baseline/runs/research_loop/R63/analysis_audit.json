@@ -1,0 +1,140 @@
+{
+  "stage": "R63",
+  "trajectories": 15726,
+  "unique_pairs": 5242,
+  "benchmarks": 36,
+  "query_variant_predictions": 1005741,
+  "chunks": 149,
+  "rescore_max_error": 0.0,
+  "seconds": 25.490023600053973,
+  "decisions": {
+    "R43_query_best20": {
+      "simple_baseline_tests": {
+        "smoothed_mean_2": {
+          "gain_ge_005": false,
+          "all_folds_improve": true,
+          "BM_improve": true,
+          "CI_upper_below_zero": true,
+          "no_ge_03_regression": true
+        },
+        "training_selected_smoothed": {
+          "gain_ge_005": true,
+          "all_folds_improve": true,
+          "BM_improve": true,
+          "CI_upper_below_zero": true,
+          "no_ge_03_regression": true
+        }
+      },
+      "simple_numeric_gate_pass": false,
+      "r25_point_gain": false,
+      "r25_all_folds_improve": false,
+      "r25_CI_upper_below_zero": false,
+      "remaining_to_smoothed_target": 0.0019021802644778318,
+      "mechanism_gate": "requires bounded interpretation; numerical pass alone is insufficient",
+      "promotion": "not_promoted"
+    },
+    "R55_resampled_query": {
+      "simple_baseline_tests": {
+        "smoothed_mean_2": {
+          "gain_ge_005": false,
+          "all_folds_improve": true,
+          "BM_improve": true,
+          "CI_upper_below_zero": true,
+          "no_ge_03_regression": true
+        },
+        "training_selected_smoothed": {
+          "gain_ge_005": true,
+          "all_folds_improve": true,
+          "BM_improve": true,
+          "CI_upper_below_zero": true,
+          "no_ge_03_regression": true
+        }
+      },
+      "simple_numeric_gate_pass": false,
+      "r25_point_gain": true,
+      "r25_all_folds_improve": false,
+      "r25_CI_upper_below_zero": false,
+      "remaining_to_smoothed_target": 0.0014292653378544795,
+      "mechanism_gate": "requires bounded interpretation; numerical pass alone is insufficient",
+      "promotion": "not_promoted"
+    },
+    "R55_resampled_episode": {
+      "simple_baseline_tests": {
+        "smoothed_mean_2": {
+          "gain_ge_005": false,
+          "all_folds_improve": true,
+          "BM_improve": true,
+          "CI_upper_below_zero": true,
+          "no_ge_03_regression": true
+        },
+        "training_selected_smoothed": {
+          "gain_ge_005": true,
+          "all_folds_improve": true,
+          "BM_improve": true,
+          "CI_upper_below_zero": true,
+          "no_ge_03_regression": true
+        }
+      },
+      "simple_numeric_gate_pass": false,
+      "r25_point_gain": false,
+      "r25_all_folds_improve": false,
+      "r25_CI_upper_below_zero": false,
+      "remaining_to_smoothed_target": 0.0014699351655213522,
+      "mechanism_gate": "requires bounded interpretation; numerical pass alone is insufficient",
+      "promotion": "not_promoted"
+    }
+  },
+  "query_vs_episode": {
+    "delta": -4.066982766689403e-05,
+    "cluster_ci95": [
+      -5.2782685696117315e-05,
+      3.678633067854614e-05
+    ],
+    "benchmark_equal_delta": -0.0001138188760901302,
+    "fold_delta": [
+      1.1029250376303173e-05,
+      -3.598558896282271e-05,
+      -4.6001644085855656e-05
+    ]
+  },
+  "resampling_vs_fixed": {
+    "delta": -0.0004729149266233285,
+    "cluster_ci95": [
+      -0.0005454054687527479,
+      -1.714931570786005e-05
+    ],
+    "benchmark_equal_delta": -0.00022829239455462365,
+    "fold_delta": [
+      0.0,
+      0.0,
+      -0.0005604838447568365
+    ]
+  },
+  "policy_epochs": {
+    "R54": [
+      1,
+      2,
+      1
+    ],
+    "R56": [
+      1,
+      2,
+      1
+    ],
+    "R43_query_best20": [
+      0,
+      0,
+      20
+    ],
+    "R55_resampled_query": [
+      0,
+      0,
+      17
+    ],
+    "R55_resampled_episode": [
+      1,
+      20,
+      17
+    ]
+  }
+}

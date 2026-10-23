@@ -1,0 +1,69 @@
+{
+  "source_revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+  "train_benchmarks": [
+    "abstract_reason/formatted_tables",
+    "advprompter/formatted_tables",
+    "aegis/formatted_tables",
+    "agentic_review_perturbation/formatted_tables",
+    "agi_elo/formatted_tables",
+    "aider/formatted_tables",
+    "algotune/formatted_tables",
+    "alignment_faking/formatted_tables",
+    "appworld/formatted_tables",
+    "auditing_sabotage_bench/formatted_tables",
+    "bbq/formatted_tables",
+    "beavertails/formatted_tables",
+    "benger/formatted_tables",
+    "bertaqa/formatted_tables",
+    "cellverse/formatted_tables",
+    "chartmuseum/formatted_tables",
+    "chi_bench/formatted_tables",
+    "cmmlu/formatted_tables",
+    "confagents/formatted_tables",
+    "cruxeval/formatted_tables",
+    "dave/formatted_tables",
+    "dbpa/formatted_tables",
+    "devbench/formatted_tables",
+    "editbench/formatted_tables",
+    "egoschema/formatted_tables",
+    "ehrflowbench/formatted_tables",
+    "emoji_attack/formatted_tables",
+    "enginemt_qa/formatted_tables",
+    "evouna/formatted_tables",
+    "faithcot/formatted_tables",
+    "fewshot_ttt_bbh/formatted_tables",
+    "financebench/formatted_tables",
+    "finegrain_t2i/formatted_tables",
+    "haiid/formatted_tables",
+    "hallusionbench/formatted_tables"
+  ],
+  "training_pairs": 4822,
+  "training_pair_rate_mean": 0.42602209579107686,
+  "selection_method": "training-only exchangeable Binomial risk proxy",
+  "selected": {
+    "public_prior": {
+      "prior": 0.42602209579107686,
+      "alpha": 2.0,
+      "proxy_by_alpha": {
+        "1.0": 0.20069445912814704,
+        "2.0": 0.19799891772226186,
+        "4.0": 0.19974446907603882,
+        "8.0": 0.20541917474630877,
+        "16.0": 0.21363235584159662
+      }
+    },
+    "smoothed_05": {
+      "prior": 0.5,
+      "alpha": 2.0,
+      "proxy_by_alpha": {
+        "1.0": 0.20160569010280538,
+        "2.0": 0.19927899430934554,
+        "4.0": 0.20155004753915684,
+        "8.0": 0.20787699467352588,
+        "16.0": 0.2168100642100079
+      }
+    }
+  },
+  "priors": {},
+  "global_mean": 0.42602209579107686
+}

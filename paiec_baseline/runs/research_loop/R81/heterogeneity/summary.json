@@ -1,0 +1,825 @@
+{
+  "real": {
+    "actual": {
+      "15": {
+        "offset_risk": {
+          "mean": -0.00010166654944230902,
+          "ci95": [
+            -0.0004972739432685837,
+            0.0002312707724809059
+          ],
+          "benchmarks": 25
+        },
+        "repeat_cosine": {
+          "mean": 0.07469634243387739,
+          "ci95": [
+            0.005551684798163233,
+            0.16206561526880536
+          ],
+          "benchmarks": 23
+        }
+      },
+      "31": {
+        "offset_risk": {
+          "mean": -8.347736099354827e-05,
+          "ci95": [
+            -0.0008556398845336162,
+            0.0005314205608235288
+          ],
+          "benchmarks": 25
+        },
+        "repeat_cosine": {
+          "mean": 0.12923459231481452,
+          "ci95": [
+            0.0372405589168665,
+            0.2184970242344371
+          ],
+          "benchmarks": 23
+        }
+      }
+    },
+    "permuted": {
+      "15": {
+        "offset_risk": {
+          "mean": -0.0002277681620211778,
+          "ci95": [
+            -0.0006036227190072158,
+            0.00010932614069044968
+          ],
+          "benchmarks": 25
+        },
+        "repeat_cosine": {
+          "mean": 0.12249958996142159,
+          "ci95": [
+            0.043349476666118256,
+            0.21640142911046858
+          ],
+          "benchmarks": 23
+        }
+      },
+      "31": {
+        "offset_risk": {
+          "mean": -0.000458239552742071,
+          "ci95": [
+            -0.001012960844732659,
+            -4.817355176816014e-06
+          ],
+          "benchmarks": 25
+        },
+        "repeat_cosine": {
+          "mean": 0.17490010419305566,
+          "ci95": [
+            0.10500440216906375,
+            0.24223318604325383
+          ],
+          "benchmarks": 23
+        }
+      }
+    }
+  },
+  "synthetic": {
+    "common": {
+      "15": {
+        "pooled": {
+          "mean": -3.6648596447646934e-05,
+          "ci95": [
+            -0.00011108606788029687,
+            2.5080111581509254e-05
+          ],
+          "benchmarks": 25
+        },
+        "cost": {
+          "mean": 0.0001791646855763358,
+          "ci95": [
+            9.703842036381243e-05,
+            0.0002766685111481658
+          ],
+          "benchmarks": 25
+        },
+        "point": {
+          "mean": 7.734482643770738e-06,
+          "ci95": [
+            2.7444821815902047e-06,
+            1.3301548399774629e-05
+          ],
+          "benchmarks": 25
+        },
+        "own": {
+          "mean": -0.001804218296577898,
+          "ci95": [
+            -0.002720383498688656,
+            -0.0009095803436228413
+          ],
+          "benchmarks": 25
+        }
+      },
+      "31": {
+        "pooled": {
+          "mean": 2.1611214461518812e-05,
+          "ci95": [
+            -8.25889465293044e-05,
+            0.00010788723746181561
+          ],
+          "benchmarks": 25
+        },
+        "cost": {
+          "mean": 0.00034232396710251375,
+          "ci95": [
+            0.00019406667780623324,
+            0.0005112120825068538
+          ],
+          "benchmarks": 25
+        },
+        "point": {
+          "mean": 2.0754391479608755e-05,
+          "ci95": [
+            1.1076026962285371e-05,
+            3.213830540430692e-05
+          ],
+          "benchmarks": 25
+        },
+        "own": {
+          "mean": -0.0025252554698179737,
+          "ci95": [
+            -0.0033859330539121675,
+            -0.0016445201134398122
+          ],
+          "benchmarks": 25
+        }
+      }
+    },
+    "heterogeneous": {
+      "15": {
+        "pooled": {
+          "mean": -0.000504237694630264,
+          "ci95": [
+            -0.0006839497070727163,
+            -0.0003460288487813144
+          ],
+          "benchmarks": 25
+        },
+        "cost": {
+          "mean": -1.2050506640296429e-05,
+          "ci95": [
+            -0.00011295816666434334,
+            0.0001044261976784696
+          ],
+          "benchmarks": 25
+        },
+        "point": {
+          "mean": -6.289924460977201e-06,
+          "ci95": [
+            -1.4682236235231605e-05,
+            9.00898765052685e-07
+          ],
+          "benchmarks": 25
+        },
+        "own": {
+          "mean": 0.0007922037187747215,
+          "ci95": [
+            -0.000404925718198654,
+            0.0021392347504922407
+          ],
+          "benchmarks": 25
+        }
+      },
+      "31": {
+        "pooled": {
+          "mean": -0.0009869505184378607,
+          "ci95": [
+            -0.0014434860226565911,
+            -0.0006213699514696616
+          ],
+          "benchmarks": 25
+        },
+        "cost": {
+          "mean": -1.7502257115188843e-05,
+          "ci95": [
+            -0.00018953464430126226,
+            0.00016387444712619552
+          ],
+          "benchmarks": 25
+        },
+        "point": {
+          "mean": -1.3676895169610956e-05,
+          "ci95": [
+            -3.576426858550287e-05,
+            5.28585817995695e-06
+          ],
+          "benchmarks": 25
+        },
+        "own": {
+          "mean": 0.0012800558168919738,
+          "ci95": [
+            0.0002689108414157034,
+            0.002349550251690908
+          ],
+          "benchmarks": 25
+        }
+      }
+    }
+  },
+  "probability_clipping": [
+    {
+      "benchmark": "agi_elo/formatted_tables",
+      "budget": 15,
+      "world": "common",
+      "clip_fraction": 0.12341772151898735
+    },
+    {
+      "benchmark": "agi_elo/formatted_tables",
+      "budget": 15,
+      "world": "heterogeneous",
+      "clip_fraction": 0.22151898734177217
+    },
+    {
+      "benchmark": "agi_elo/formatted_tables",
+      "budget": 31,
+      "world": "common",
+      "clip_fraction": 0.20789473684210527
+    },
+    {
+      "benchmark": "agi_elo/formatted_tables",
+      "budget": 31,
+      "world": "heterogeneous",
+      "clip_fraction": 0.2868421052631579
+    },
+    {
+      "benchmark": "ai2d_test/formatted_tables",
+      "budget": 15,
+      "world": "common",
+      "clip_fraction": 0.08227848101265822
+    },
+    {
+      "benchmark": "ai2d_test/formatted_tables",
+      "budget": 15,
+      "world": "heterogeneous",
+      "clip_fraction": 0.11392405063291139
+    },
+    {
+      "benchmark": "ai2d_test/formatted_tables",
+      "budget": 31,
+      "world": "common",
+      "clip_fraction": 0.031578947368421054
+    },
+    {
+      "benchmark": "ai2d_test/formatted_tables",
+      "budget": 31,
+      "world": "heterogeneous",
+      "clip_fraction": 0.10789473684210527
+    },
+    {
+      "benchmark": "algotune/formatted_tables",
+      "budget": 15,
+      "world": "common",
+      "clip_fraction": 0.012658227848101266
+    },
+    {
+      "benchmark": "algotune/formatted_tables",
+      "budget": 15,
+      "world": "heterogeneous",
+      "clip_fraction": 0.07278481012658229
+    },
+    {
+      "benchmark": "algotune/formatted_tables",
+      "budget": 31,
+      "world": "common",
+      "clip_fraction": 0.005263157894736842
+    },
+    {
+      "benchmark": "algotune/formatted_tables",
+      "budget": 31,
+      "world": "heterogeneous",
+      "clip_fraction": 0.10526315789473684
+    },
+    {
+      "benchmark": "alignment_faking/formatted_tables",
+      "budget": 15,
+      "world": "common",
+      "clip_fraction": 0.06329113924050633
+    },
+    {
+      "benchmark": "alignment_faking/formatted_tables",
+      "budget": 15,
+      "world": "heterogeneous",
+      "clip_fraction": 0.07278481012658228
+    },
+    {
+      "benchmark": "alignment_faking/formatted_tables",
+      "budget": 31,
+      "world": "common",
+      "clip_fraction": 0.10526315789473684
+    },
+    {
+      "benchmark": "alignment_faking/formatted_tables",
+      "budget": 31,
+      "world": "heterogeneous",
+      "clip_fraction": 0.14473684210526316
+    },
+    {
+      "benchmark": "appworld/formatted_tables",
+      "budget": 15,
+      "world": "common",
+      "clip_fraction": 0.028481012658227847
+    },
+    {
+      "benchmark": "appworld/formatted_tables",
+      "budget": 15,
+      "world": "heterogeneous",
+      "clip_fraction": 0.16139240506329114
+    },
+    {
+      "benchmark": "appworld/formatted_tables",
+      "budget": 31,
+      "world": "common",
+      "clip_fraction": 0.05789473684210526
+    },
+    {
+      "benchmark": "appworld/formatted_tables",
+      "budget": 31,
+      "world": "heterogeneous",
+      "clip_fraction": 0.13421052631578947
+    },
+    {
+      "benchmark": "bbq/formatted_tables",
+      "budget": 15,
+      "world": "common",
+      "clip_fraction": 0.022151898734177215
+    },
+    {
+      "benchmark": "bbq/formatted_tables",
+      "budget": 15,
+      "world": "heterogeneous",
+      "clip_fraction": 0.09177215189873418
+    },
+    {
+      "benchmark": "bbq/formatted_tables",
+      "budget": 31,
+      "world": "common",
+      "clip_fraction": 0.021052631578947368
+    },
+    {
+      "benchmark": "bbq/formatted_tables",
+      "budget": 31,
+      "world": "heterogeneous",
+      "clip_fraction": 0.10526315789473684
+    },
+    {
+      "benchmark": "beavertails/formatted_tables",
+      "budget": 15,
+      "world": "common",
+      "clip_fraction": 0.2151898734177215
+    },
+    {
+      "benchmark": "beavertails/formatted_tables",
+      "budget": 15,
+      "world": "heterogeneous",
+      "clip_fraction": 0.23417721518987342
+    },
+    {
+      "benchmark": "beavertails/formatted_tables",
+      "budget": 31,
+      "world": "common",
+      "clip_fraction": 0.23157894736842105
+    },
+    {
+      "benchmark": "beavertails/formatted_tables",
+      "budget": 31,
+      "world": "heterogeneous",
+      "clip_fraction": 0.23157894736842105
+    },
+    {
+      "benchmark": "benger/formatted_tables",
+      "budget": 15,
+      "world": "common",
+      "clip_fraction": 0.0
+    },
+    {
+      "benchmark": "benger/formatted_tables",
+      "budget": 15,
+      "world": "heterogeneous",
+      "clip_fraction": 0.0
+    },
+    {
+      "benchmark": "benger/formatted_tables",
+      "budget": 31,
+      "world": "common",
+      "clip_fraction": 0.0
+    },
+    {
+      "benchmark": "benger/formatted_tables",
+      "budget": 31,
+      "world": "heterogeneous",
+      "clip_fraction": 0.0
+    },
+    {
+      "benchmark": "bertaqa/formatted_tables",
+      "budget": 15,
+      "world": "common",
+      "clip_fraction": 0.04746835443037975
+    },
+    {
+      "benchmark": "bertaqa/formatted_tables",
+      "budget": 15,
+      "world": "heterogeneous",
+      "clip_fraction": 0.18354430379746836
+    },
+    {
+      "benchmark": "bertaqa/formatted_tables",
+      "budget": 31,
+      "world": "common",
+      "clip_fraction": 0.04473684210526316
+    },
+    {
+      "benchmark": "bertaqa/formatted_tables",
+      "budget": 31,
+      "world": "heterogeneous",
+      "clip_fraction": 0.12894736842105262
+    },
+    {
+      "benchmark": "bird_sql/formatted_tables",
+      "budget": 15,
+      "world": "common",
+      "clip_fraction": 0.18987341772151897
+    },
+    {
+      "benchmark": "bird_sql/formatted_tables",
+      "budget": 15,
+      "world": "heterogeneous",
+      "clip_fraction": 0.2974683544303797
+    },
+    {
+      "benchmark": "bird_sql/formatted_tables",
+      "budget": 31,
+      "world": "common",
+      "clip_fraction": 0.35526315789473684
+    },
+    {
+      "benchmark": "bird_sql/formatted_tables",
+      "budget": 31,
+      "world": "heterogeneous",
+      "clip_fraction": 0.37631578947368416
+    },
+    {
+      "benchmark": "cmmlu/formatted_tables",
+      "budget": 15,
+      "world": "common",
+      "clip_fraction": 0.03481012658227848
+    },
+    {
+      "benchmark": "cmmlu/formatted_tables",
+      "budget": 15,
+      "world": "heterogeneous",
+      "clip_fraction": 0.08544303797468354
+    },
+    {
+      "benchmark": "cmmlu/formatted_tables",
+      "budget": 31,
+      "world": "common",
+      "clip_fraction": 0.08421052631578947
+    },
+    {
+      "benchmark": "cmmlu/formatted_tables",
+      "budget": 31,
+      "world": "heterogeneous",
+      "clip_fraction": 0.1894736842105263
+    },
+    {
+      "benchmark": "cruxeval/formatted_tables",
+      "budget": 15,
+      "world": "common",
+      "clip_fraction": 0.0
+    },
+    {
+      "benchmark": "cruxeval/formatted_tables",
+      "budget": 15,
+      "world": "heterogeneous",
+      "clip_fraction": 0.03164556962025317
+    },
+    {
+      "benchmark": "cruxeval/formatted_tables",
+      "budget": 31,
+      "world": "common",
+      "clip_fraction": 0.005263157894736842
+    },
+    {
+      "benchmark": "cruxeval/formatted_tables",
+      "budget": 31,
+      "world": "heterogeneous",
+      "clip_fraction": 0.01842105263157895
+    },
+    {
+      "benchmark": "dave/formatted_tables",
+      "budget": 15,
+      "world": "common",
+      "clip_fraction": 0.0
+    },
+    {
+      "benchmark": "dave/formatted_tables",
+      "budget": 15,
+      "world": "heterogeneous",
+      "clip_fraction": 0.056962025316455694
+    },
+    {
+      "benchmark": "dave/formatted_tables",
+      "budget": 31,
+      "world": "common",
+      "clip_fraction": 0.002631578947368421
+    },
+    {
+      "benchmark": "dave/formatted_tables",
+      "budget": 31,
+      "world": "heterogeneous",
+      "clip_fraction": 0.039473684210526314
+    },
+    {
+      "benchmark": "editbench/formatted_tables",
+      "budget": 15,
+      "world": "common",
+      "clip_fraction": 0.0
+    },
+    {
+      "benchmark": "editbench/formatted_tables",
+      "budget": 15,
+      "world": "heterogeneous",
+      "clip_fraction": 0.015822784810126583
+    },
+    {
+      "benchmark": "editbench/formatted_tables",
+      "budget": 31,
+      "world": "common",
+      "clip_fraction": 0.002631578947368421
+    },
+    {
+      "benchmark": "editbench/formatted_tables",
+      "budget": 31,
+      "world": "heterogeneous",
+      "clip_fraction": 0.06052631578947369
+    },
+    {
+      "benchmark": "edu_circuit_hw/formatted_tables",
+      "budget": 15,
+      "world": "common",
+      "clip_fraction": 0.0
+    },
+    {
+      "benchmark": "edu_circuit_hw/formatted_tables",
+      "budget": 15,
+      "world": "heterogeneous",
+      "clip_fraction": 0.0
+    },
+    {
+      "benchmark": "edu_circuit_hw/formatted_tables",
+      "budget": 31,
+      "world": "common",
+      "clip_fraction": 0.0
+    },
+    {
+      "benchmark": "edu_circuit_hw/formatted_tables",
+      "budget": 31,
+      "world": "heterogeneous",
+      "clip_fraction": 0.0
+    },
+    {
+      "benchmark": "egoschema/formatted_tables",
+      "budget": 15,
+      "world": "common",
+      "clip_fraction": 0.0
+    },
+    {
+      "benchmark": "egoschema/formatted_tables",
+      "budget": 15,
+      "world": "heterogeneous",
+      "clip_fraction": 0.03164556962025317
+    },
+    {
+      "benchmark": "egoschema/formatted_tables",
+      "budget": 31,
+      "world": "common",
+      "clip_fraction": 0.0
+    },
+    {
+      "benchmark": "egoschema/formatted_tables",
+      "budget": 31,
+      "world": "heterogeneous",
+      "clip_fraction": 0.031578947368421054
+    },
+    {
+      "benchmark": "engdesign/formatted_tables",
+      "budget": 15,
+      "world": "common",
+      "clip_fraction": 0.0
+    },
+    {
+      "benchmark": "engdesign/formatted_tables",
+      "budget": 15,
+      "world": "heterogeneous",
+      "clip_fraction": 0.03239289446185998
+    },
+    {
+      "benchmark": "engdesign/formatted_tables",
+      "budget": 31,
+      "world": "common",
+      "clip_fraction": 0.006756756756756757
+    },
+    {
+      "benchmark": "engdesign/formatted_tables",
+      "budget": 31,
+      "world": "heterogeneous",
+      "clip_fraction": 0.06567237969676995
+    },
+    {
+      "benchmark": "evouna/formatted_tables",
+      "budget": 15,
+      "world": "common",
+      "clip_fraction": 0.015822784810126583
+    },
+    {
+      "benchmark": "evouna/formatted_tables",
+      "budget": 15,
+      "world": "heterogeneous",
+      "clip_fraction": 0.1740506329113924
+    },
+    {
+      "benchmark": "evouna/formatted_tables",
+      "budget": 31,
+      "world": "common",
+      "clip_fraction": 0.013157894736842105
+    },
+    {
+      "benchmark": "evouna/formatted_tables",
+      "budget": 31,
+      "world": "heterogeneous",
+      "clip_fraction": 0.14210526315789473
+    },
+    {
+      "benchmark": "exploitgym/formatted_tables",
+      "budget": 15,
+      "world": "common",
+      "clip_fraction": 0.28164556962025317
+    },
+    {
+      "benchmark": "exploitgym/formatted_tables",
+      "budget": 15,
+      "world": "heterogeneous",
+      "clip_fraction": 0.3670886075949367
+    },
+    {
+      "benchmark": "exploitgym/formatted_tables",
+      "budget": 31,
+      "world": "common",
+      "clip_fraction": 0.3526315789473684
+    },
+    {
+      "benchmark": "exploitgym/formatted_tables",
+      "budget": 31,
+      "world": "heterogeneous",
+      "clip_fraction": 0.4342105263157895
+    },
+    {
+      "benchmark": "faithcot/formatted_tables",
+      "budget": 15,
+      "world": "common",
+      "clip_fraction": 0.006329113924050633
+    },
+    {
+      "benchmark": "faithcot/formatted_tables",
+      "budget": 15,
+      "world": "heterogeneous",
+      "clip_fraction": 0.12974683544303797
+    },
+    {
+      "benchmark": "faithcot/formatted_tables",
+      "budget": 31,
+      "world": "common",
+      "clip_fraction": 0.02894736842105263
+    },
+    {
+      "benchmark": "faithcot/formatted_tables",
+      "budget": 31,
+      "world": "heterogeneous",
+      "clip_fraction": 0.09736842105263159
+    },
+    {
+      "benchmark": "fewshot_ttt_bbh/formatted_tables",
+      "budget": 15,
+      "world": "common",
+      "clip_fraction": 0.0
+    },
+    {
+      "benchmark": "fewshot_ttt_bbh/formatted_tables",
+      "budget": 15,
+      "world": "heterogeneous",
+      "clip_fraction": 0.028481012658227847
+    },
+    {
+      "benchmark": "fewshot_ttt_bbh/formatted_tables",
+      "budget": 31,
+      "world": "common",
+      "clip_fraction": 0.0
+    },
+    {
+      "benchmark": "fewshot_ttt_bbh/formatted_tables",
+      "budget": 31,
+      "world": "heterogeneous",
+      "clip_fraction": 0.03684210526315789
+    },
+    {
+      "benchmark": "financebench/formatted_tables",
+      "budget": 15,
+      "world": "common",
+      "clip_fraction": 0.16455696202531644
+    },
+    {
+      "benchmark": "financebench/formatted_tables",
+      "budget": 15,
+      "world": "heterogeneous",
+      "clip_fraction": 0.23417721518987342
+    },
+    {
+      "benchmark": "financebench/formatted_tables",
+      "budget": 31,
+      "world": "common",
+      "clip_fraction": 0.10263157894736842
+    },
+    {
+      "benchmark": "financebench/formatted_tables",
+      "budget": 31,
+      "world": "heterogeneous",
+      "clip_fraction": 0.17368421052631577
+    },
+    {
+      "benchmark": "finegrain_t2i/formatted_tables",
+      "budget": 15,
+      "world": "common",
+      "clip_fraction": 0.0
+    },
+    {
+      "benchmark": "finegrain_t2i/formatted_tables",
+      "budget": 15,
+      "world": "heterogeneous",
+      "clip_fraction": 0.0
+    },
+    {
+      "benchmark": "finegrain_t2i/formatted_tables",
+      "budget": 31,
+      "world": "common",
+      "clip_fraction": 0.0
+    },
+    {
+      "benchmark": "finegrain_t2i/formatted_tables",
+      "budget": 31,
+      "world": "heterogeneous",
+      "clip_fraction": 0.018421052631578946
+    },
+    {
+      "benchmark": "hallusionbench/formatted_tables",
+      "budget": 15,
+      "world": "common",
+      "clip_fraction": 0.0
+    },
+    {
+      "benchmark": "hallusionbench/formatted_tables",
+      "budget": 15,
+      "world": "heterogeneous",
+      "clip_fraction": 0.012658227848101266
+    },
+    {
+      "benchmark": "hallusionbench/formatted_tables",
+      "budget": 31,
+      "world": "common",
+      "clip_fraction": 0.0
+    },
+    {
+      "benchmark": "hallusionbench/formatted_tables",
+      "budget": 31,
+      "world": "heterogeneous",
+      "clip_fraction": 0.018421052631578946
+    },
+    {
+      "benchmark": "healthadminbench/formatted_tables",
+      "budget": 15,
+      "world": "common",
+      "clip_fraction": 0.0031645569620253164
+    },
+    {
+      "benchmark": "healthadminbench/formatted_tables",
+      "budget": 15,
+      "world": "heterogeneous",
+      "clip_fraction": 0.06962025316455697
+    },
+    {
+      "benchmark": "healthadminbench/formatted_tables",
+      "budget": 31,
+      "world": "common",
+      "clip_fraction": 0.028947368421052628
+    },
+    {
+      "benchmark": "healthadminbench/formatted_tables",
+      "budget": 31,
+      "world": "heterogeneous",
+      "clip_fraction": 0.07631578947368423
+    }
+  ],
+  "synthetic_not_PAIEC_score": true
+}

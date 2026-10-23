@@ -1,0 +1,221 @@
+{
+  "R72": {
+    "unchanged_files": 1680,
+    "intentional_updates": [
+      {
+        "path": "D:\\nips-comp\\nips-comp\\research_loop\\HIGH_LEVEL_STATE.md",
+        "old": "78eb4d2bfd37c73d599faef0f11cf183e9ac06d6a6108ef6c412fa8614ba1580",
+        "current": "8c18c6c717685ce9265dad5be35cf92d95d678dc03618a0728f176965fb9d359",
+        "authorized_global_update": true
+      },
+      {
+        "path": "D:\\nips-comp\\nips-comp\\research_loop\\HISTORICAL_POSITIVE_SIGNAL_LEDGER.md",
+        "old": "926bc48009d7eed6c593315fa99cf0974bd617bd11768166db490f2c90444785",
+        "current": "55cb4cca4bd71624c8f132afab2eec912df8a1b190b7f2fab91ceb9e35052257",
+        "authorized_global_update": true
+      }
+    ]
+  },
+  "R76": {
+    "unchanged_files": 992,
+    "intentional_updates": []
+  },
+  "dual_track_v8": {
+    "unchanged_files": 1782,
+    "intentional_updates": [
+      {
+        "path": "D:\\nips-comp\\nips-comp\\research_loop\\HIGH_LEVEL_STATE.md",
+        "old": "96176f8dc06a69e033d1680aa91d663ec9cd814359d6e4e4096cad9473640965",
+        "current": "8c18c6c717685ce9265dad5be35cf92d95d678dc03618a0728f176965fb9d359",
+        "authorized_global_update": true
+      },
+      {
+        "path": "D:\\nips-comp\\nips-comp\\research_loop\\HISTORICAL_POSITIVE_SIGNAL_LEDGER.md",
+        "old": "23b16a20730eb2ff21dbb489e77e9da327f86e49da53db2168564cf53b36a57f",
+        "current": "55cb4cca4bd71624c8f132afab2eec912df8a1b190b7f2fab91ceb9e35052257",
+        "authorized_global_update": true
+      }
+    ]
+  },
+  "shared_reliability_v9": {
+    "unchanged_files": 1851,
+    "intentional_updates": [
+      {
+        "path": "D:\\nips-comp\\nips-comp\\research_loop\\HIGH_LEVEL_STATE.md",
+        "old": "ae9f6e728df5702bd75dc6def9f37b38930b38baaceb516fed8a29b0ce884afe",
+        "current": "8c18c6c717685ce9265dad5be35cf92d95d678dc03618a0728f176965fb9d359",
+        "authorized_global_update": true
+      },
+      {
+        "path": "D:\\nips-comp\\nips-comp\\research_loop\\HISTORICAL_POSITIVE_SIGNAL_LEDGER.md",
+        "old": "1dc9511ebcb2d65032d39cb77ef68a92cc573e339da9be30d87c771385aec92a",
+        "current": "55cb4cca4bd71624c8f132afab2eec912df8a1b190b7f2fab91ceb9e35052257",
+        "authorized_global_update": true
+      }
+    ]
+  },
+  "contracts": [
+    "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R62\\isolation",
+    "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R75\\contract",
+    "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R76\\full\\contract",
+    "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R77\\alternative\\contract",
+    "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R77\\full\\contract",
+    "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R77\\heterogeneity_contract",
+    "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R78\\contract",
+    "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R79\\source_contract",
+    "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R80\\contract",
+    "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R81\\contract",
+    "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R81\\heterogeneity\\contract"
+  ],
+  "conditional_decision": {
+    "status": "sharing_sign_not_identifiable",
+    "selected_estimator": null,
+    "tests": [
+      {
+        "estimator": "loio",
+        "tests": {
+          "BA_both_ge_060": false,
+          "both_non_degrading": false,
+          "material_paired_improvement": false,
+          "source_direction_and_harmful_group_confirmed": false
+        },
+        "passed": false,
+        "eligible_budgets": []
+      },
+      {
+        "estimator": "k5",
+        "tests": {
+          "BA_both_ge_060": false,
+          "both_non_degrading": false,
+          "material_paired_improvement": false,
+          "source_direction_and_harmful_group_confirmed": false
+        },
+        "passed": false,
+        "eligible_budgets": []
+      }
+    ],
+    "R82_authorized": false,
+    "R83_authorized": false,
+    "scope": "predeclared source evidence standard; failure does not prove zero information",
+    "finished": "2026-10-23T04:51:30.371817+00:00"
+  },
+  "numerical_replays": {
+    "R80": {
+      "max_error": 6.661338147750939e-16,
+      "source_trajectories": 1146,
+      "dedup_trajectories": 573,
+      "finished": "2026-10-23T04:51:30.373814+00:00"
+    },
+    "R81": {
+      "trajectories": 15726,
+      "pairs": 5242,
+      "benchmarks": 36,
+      "max_brier_error": 8.881784197001252e-16,
+      "max_accuracy_error": 0.0,
+      "max_raw_clip_error": 5.551115123125783e-16,
+      "max_risk_decomposition_error": 2.693700297540236e-16,
+      "finished": "2026-10-23T05:24:41.995745+00:00"
+    },
+    "R81_C": {
+      "max_real_brier_error": 0.0,
+      "max_expected_brier_error": 0.0,
+      "max_generated_probability_error": 0.0,
+      "max_repeat_cosine_error": 0.0,
+      "max_point_control_error": 0.0,
+      "paired_uniform_label_regenerations": 12800,
+      "real_metric_rows": 400,
+      "synthetic_metric_rows": 12800,
+      "benchmarks": 25,
+      "finished": "2026-10-23T05:27:04.500667+00:00"
+    }
+  },
+  "execution": {
+    "R80/execution.json": {
+      "seconds": 402.6936864000745,
+      "peak_working_set_mib": 1414.40234375,
+      "finished": "2026-10-23T04:49:13.019769+00:00"
+    },
+    "R80/analysis_execution.json": {
+      "seconds": 26.9470100000035,
+      "peak_working_set_mib": 418.9609375,
+      "finished": "2026-10-23T04:51:30.375817+00:00"
+    },
+    "R81/execution.json": {
+      "seconds": 1713.6890466000186,
+      "peak_working_set_mib": 4429.67578125,
+      "finished": "2026-10-23T05:21:53.399987+00:00"
+    },
+    "R81/heterogeneity/execution.json": {
+      "seconds": 77.30698069999926,
+      "peak_working_set_mib": 1250.26171875,
+      "finished": "2026-10-23T05:26:37.615998+00:00"
+    },
+    "R81/analysis_full_execution.json": {
+      "seconds": 161.13198010006454,
+      "peak_working_set_mib": 1276.32421875,
+      "finished": "2026-10-23T05:24:42.166146+00:00"
+    },
+    "R81/analysis_heterogeneity_execution.json": {
+      "seconds": 7.764414599980228,
+      "peak_working_set_mib": 289.5703125,
+      "finished": "2026-10-23T05:27:04.507687+00:00"
+    }
+  },
+  "fallback": [
+    {
+      "path": "D:\\nips-comp\\paiec-dataset\\paiec_git_backups\\layout_20261022_120427\\workspace\\paiec_baseline\\dist\\smoothed_mean_strength2.zip",
+      "sha256": "e55ee0b267f3b345685ef072cfa511c3c017d9082256573793961ea20feadcb9"
+    },
+    {
+      "path": "D:\\nips-comp\\paiec-dataset\\paiec_git_backups\\nips-comp_20261022_113534\\workspace\\paiec_baseline\\dist\\smoothed_mean_strength2.zip",
+      "sha256": "e55ee0b267f3b345685ef072cfa511c3c017d9082256573793961ea20feadcb9"
+    }
+  ],
+  "original_sources": [
+    {
+      "url": "https://www.jmlr.org/papers/volume5/grandvalet04a/grandvalet04a.pdf",
+      "file": "grandvalet04a.pdf",
+      "bytes": 129905,
+      "sha256": "9d9342f8bb5e69b14b3de257b5f813a5686ce6037c68a2a9723be0b3a0f34166"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/scikit-learn/scikit-learn/1.5.2/sklearn/model_selection/_split.py",
+      "file": "sklearn_1_5_2_split.py",
+      "bytes": 103809,
+      "sha256": "e3215fcbb8bd6368397658d208446f591bf9e2ffd44e2d98e447c96d4fb97189"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/jiayuzhou/MALSAR/fb9751594983df020ddc4f7e4a40520ee7c37989/MALSAR/functions/SRMTL/Least_SRMTL.m",
+      "file": "MALSAR_Least_SRMTL.m",
+      "bytes": 6781,
+      "sha256": "011524055ff234b312cf6febddffd0f8367599787b02454d295b91165d5d4f5b"
+    }
+  ],
+  "static_parse_files": 10,
+  "report_links": "passed",
+  "figure_inspection": {
+    "files": [
+      "risk_sign_and_error.png",
+      "cost_direction_controls.png"
+    ],
+    "method": "primary agent opened both exported PNGs and inspected axes, labels and confidence intervals"
+  },
+  "operational_notes": [
+    "Original PDF extraction initially lacked pypdf/fitz; reused installed TeX Live pdftotext, no environment changes.",
+    "Immutable R81 runner geometry CSV used the numerical-zero threshold only on pooled displacement. Canonical analysis recomputed direction masks with both displacements >1e-12; probabilities/risks unchanged.",
+    "Markdown table header literal pipes escaped in report generator; no metric changes."
+  ],
+  "review": "primary-agent deterministic identity, saved-probability, group-isolation, source-hash and immutable-history checks; not independent review",
+  "todo_sync": {
+    "status": "done",
+    "local_commit": "24818ac275de2c045bf9a9c59236272c64e9e867",
+    "files": [
+      "tasks/graph/nips-comp.partial8-identifiability-2026-10-23.md",
+      "reports/work-traces/nips-comp/2026-10-23-partial8-identifiability.md"
+    ],
+    "pushed": false,
+    "reason": "17 pre-existing unpublished commits and unrelated worktree changes; only the two current files were staged and committed"
+  },
+  "status": "passed",
+  "finished": "2026-10-23T05:35:24.019836+00:00"
+}

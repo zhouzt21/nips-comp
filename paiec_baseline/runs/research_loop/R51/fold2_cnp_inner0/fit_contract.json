@@ -1,0 +1,42 @@
+{
+  "seed": 5307,
+  "model_name": "cnp",
+  "source_fingerprint": "a739dcd55115c0bbb46e1487b917e75548b86d63d46fa91f2251fa85668af453",
+  "fit_benchmarks": [
+    "adaptivestep/formatted_tables",
+    "bbq/formatted_tables",
+    "ceval/formatted_tables",
+    "cmmlu/formatted_tables",
+    "devbench/formatted_tables",
+    "editbench/formatted_tables",
+    "edu_circuit_hw/formatted_tables",
+    "engdesign/formatted_tables",
+    "faithcot/formatted_tables",
+    "fewshot_ttt_bbh/formatted_tables",
+    "finegrain_t2i/formatted_tables",
+    "healthadminbench/formatted_tables"
+  ],
+  "validation_benchmarks": [
+    "aegis/formatted_tables",
+    "ai2d_test/formatted_tables",
+    "appworld/formatted_tables",
+    "beavertails/formatted_tables",
+    "bird_sql/formatted_tables",
+    "braveguard/formatted_tables",
+    "emoji_attack/formatted_tables",
+    "enginemt_qa/formatted_tables",
+    "exploitgym/formatted_tables",
+    "felm/formatted_tables",
+    "hallusionbench/formatted_tables"
+  ],
+  "training_pairs": 131,
+  "validation_pairs": 117,
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "batch_size": 8,
+  "epochs": 60,
+  "threads": 4,
+  "objective": "pair-equal six-budget-weighted Bernoulli NLL on disjoint query items",
+  "parameters": 102913
+}

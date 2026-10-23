@@ -1,0 +1,301 @@
+{
+  "commands": [
+    {
+      "command": [
+        "D:\\nips-comp\\paiec-final-acceptance\\win312\\Scripts\\python.exe",
+        "-I",
+        "-m",
+        "pip",
+        "check"
+      ],
+      "cwd": "D:\\nips-comp\\paiec-final-acceptance",
+      "exit_code": 0,
+      "error": null,
+      "seconds": 1.3544559000292793,
+      "stdout": "D:\\nips-comp\\nips-comp\\paiec_baseline\\final_candidates\\logs\\clean_pip_check.stdout.txt",
+      "stderr": "D:\\nips-comp\\nips-comp\\paiec_baseline\\final_candidates\\logs\\clean_pip_check.stderr.txt"
+    },
+    {
+      "command": [
+        "D:\\nips-comp\\paiec-final-acceptance\\win312\\Scripts\\python.exe",
+        "-I",
+        "-B",
+        "D:\\nips-comp\\paiec-final-acceptance\\accept_worker.py",
+        "D:\\nips-comp\\paiec-final-acceptance\\partial8_shared\\submission",
+        "D:\\nips-comp\\paiec-final-acceptance\\fixtures",
+        "D:\\nips-comp\\paiec-final-acceptance\\partial8_shared\\fresh1.json",
+        "fresh",
+        "partial8_shared"
+      ],
+      "cwd": "D:\\nips-comp\\paiec-final-acceptance\\partial8_shared",
+      "exit_code": 0,
+      "error": null,
+      "seconds": 8.381212999927811,
+      "stdout": "D:\\nips-comp\\nips-comp\\paiec_baseline\\final_candidates\\logs\\partial8_shared_fresh1.stdout.txt",
+      "stderr": "D:\\nips-comp\\nips-comp\\paiec_baseline\\final_candidates\\logs\\partial8_shared_fresh1.stderr.txt"
+    },
+    {
+      "command": [
+        "D:\\nips-comp\\paiec-final-acceptance\\win312\\Scripts\\python.exe",
+        "-I",
+        "-B",
+        "D:\\nips-comp\\paiec-final-acceptance\\accept_worker.py",
+        "D:\\nips-comp\\paiec-final-acceptance\\partial8_shared\\submission",
+        "D:\\nips-comp\\paiec-final-acceptance\\fixtures",
+        "D:\\nips-comp\\paiec-final-acceptance\\partial8_shared\\fresh2.json",
+        "fresh",
+        "partial8_shared"
+      ],
+      "cwd": "D:\\nips-comp\\paiec-final-acceptance\\partial8_shared",
+      "exit_code": 0,
+      "error": null,
+      "seconds": 8.960898300050758,
+      "stdout": "D:\\nips-comp\\nips-comp\\paiec_baseline\\final_candidates\\logs\\partial8_shared_fresh2.stdout.txt",
+      "stderr": "D:\\nips-comp\\nips-comp\\paiec_baseline\\final_candidates\\logs\\partial8_shared_fresh2.stderr.txt"
+    },
+    {
+      "command": [
+        "D:\\nips-comp\\paiec-final-acceptance\\win312\\Scripts\\python.exe",
+        "-I",
+        "-B",
+        "D:\\nips-comp\\paiec-final-acceptance\\accept_worker.py",
+        "D:\\nips-comp\\paiec-final-acceptance\\partial8_shared\\submission",
+        "D:\\nips-comp\\paiec-final-acceptance\\fixtures",
+        "D:\\nips-comp\\paiec-final-acceptance\\partial8_shared\\full.json",
+        "full",
+        "partial8_shared"
+      ],
+      "cwd": "D:\\nips-comp\\paiec-final-acceptance\\partial8_shared",
+      "exit_code": 1,
+      "error": null,
+      "seconds": 241.38759469997603,
+      "stdout": "D:\\nips-comp\\nips-comp\\paiec_baseline\\final_candidates\\logs\\partial8_shared_full.stdout.txt",
+      "stderr": "D:\\nips-comp\\nips-comp\\paiec_baseline\\final_candidates\\logs\\partial8_shared_full.stderr.txt"
+    },
+    {
+      "command": [
+        "D:\\nips-comp\\paiec-final-acceptance\\win312\\Scripts\\python.exe",
+        "-I",
+        "-B",
+        "D:\\nips-comp\\paiec-final-acceptance\\accept_worker.py",
+        "D:\\nips-comp\\paiec-final-acceptance\\partial8_shared\\submission",
+        "D:\\nips-comp\\paiec-final-acceptance\\fixtures",
+        "D:\\nips-comp\\paiec-final-acceptance\\partial8_shared\\full.json",
+        "full",
+        "partial8_shared"
+      ],
+      "cwd": "D:\\nips-comp\\paiec-final-acceptance\\partial8_shared",
+      "exit_code": 0,
+      "error": null,
+      "seconds": 235.57510529994033,
+      "stdout": "D:\\nips-comp\\nips-comp\\paiec_baseline\\final_candidates\\logs\\partial8_shared_full_recheck.stdout.txt",
+      "stderr": "D:\\nips-comp\\nips-comp\\paiec_baseline\\final_candidates\\logs\\partial8_shared_full_recheck.stderr.txt"
+    },
+    {
+      "command": [
+        "D:\\nips-comp\\paiec-final-acceptance\\win312\\Scripts\\python.exe",
+        "-I",
+        "-B",
+        "D:\\nips-comp\\paiec-final-acceptance\\public_streaming_probe.py",
+        "D:\\nips-comp\\paiec-final-acceptance\\partial8_shared\\submission",
+        "D:\\nips-comp\\paiec-final-acceptance\\streaming_ingestion.py",
+        "D:\\nips-comp\\paiec-final-acceptance\\fixtures\\alignment_faking.json",
+        "D:\\nips-comp\\paiec-final-acceptance\\partial8_shared\\streaming"
+      ],
+      "cwd": "D:\\nips-comp\\paiec-final-acceptance\\partial8_shared",
+      "exit_code": 0,
+      "error": null,
+      "seconds": 13.226706200046465,
+      "stdout": "D:\\nips-comp\\nips-comp\\paiec_baseline\\final_candidates\\logs\\partial8_shared_public_streaming.stdout.txt",
+      "stderr": "D:\\nips-comp\\nips-comp\\paiec_baseline\\final_candidates\\logs\\partial8_shared_public_streaming.stderr.txt"
+    },
+    {
+      "command": [
+        "D:\\nips-comp\\paiec-final-acceptance\\win312\\Scripts\\python.exe",
+        "-I",
+        "-B",
+        "D:\\nips-comp\\nips-comp\\paiec_baseline\\check_submission_zip.py",
+        "D:\\nips-comp\\nips-comp\\paiec_baseline\\dist\\paiec_partial8_shared_final_candidate.zip"
+      ],
+      "cwd": "D:\\nips-comp\\paiec-final-acceptance\\partial8_shared",
+      "exit_code": 0,
+      "error": null,
+      "seconds": 7.530810300027952,
+      "stdout": "D:\\nips-comp\\nips-comp\\paiec_baseline\\final_candidates\\logs\\partial8_shared_repo_zipcheck.stdout.txt",
+      "stderr": "D:\\nips-comp\\nips-comp\\paiec_baseline\\final_candidates\\logs\\partial8_shared_repo_zipcheck.stderr.txt"
+    },
+    {
+      "command": [
+        "D:\\nips-comp\\paiec-final-acceptance\\win312\\Scripts\\python.exe",
+        "-I",
+        "-B",
+        "D:\\nips-comp\\nips-comp\\paiec_baseline\\final_candidates\\official\\github\\cc88a959c1e5e7462f31a9215baba066ce6d6e2b\\check_submission_zip.py",
+        "D:\\nips-comp\\nips-comp\\paiec_baseline\\dist\\paiec_partial8_shared_final_candidate.zip"
+      ],
+      "cwd": "D:\\nips-comp\\paiec-final-acceptance\\partial8_shared",
+      "exit_code": 0,
+      "error": null,
+      "seconds": 7.509356599999592,
+      "stdout": "D:\\nips-comp\\nips-comp\\paiec_baseline\\final_candidates\\logs\\partial8_shared_upstream_zipcheck.stdout.txt",
+      "stderr": "D:\\nips-comp\\nips-comp\\paiec_baseline\\final_candidates\\logs\\partial8_shared_upstream_zipcheck.stderr.txt"
+    },
+    {
+      "command": [
+        "D:\\nips-comp\\paiec-final-acceptance\\win312\\Scripts\\python.exe",
+        "-I",
+        "-B",
+        "D:\\nips-comp\\paiec-final-acceptance\\accept_worker.py",
+        "D:\\nips-comp\\paiec-final-acceptance\\r25_nopeer\\submission",
+        "D:\\nips-comp\\paiec-final-acceptance\\fixtures",
+        "D:\\nips-comp\\paiec-final-acceptance\\r25_nopeer\\fresh1.json",
+        "fresh",
+        "r25_nopeer"
+      ],
+      "cwd": "D:\\nips-comp\\paiec-final-acceptance\\r25_nopeer",
+      "exit_code": 0,
+      "error": null,
+      "seconds": 7.8966837000334635,
+      "stdout": "D:\\nips-comp\\nips-comp\\paiec_baseline\\final_candidates\\logs\\r25_nopeer_fresh1.stdout.txt",
+      "stderr": "D:\\nips-comp\\nips-comp\\paiec_baseline\\final_candidates\\logs\\r25_nopeer_fresh1.stderr.txt"
+    },
+    {
+      "command": [
+        "D:\\nips-comp\\paiec-final-acceptance\\win312\\Scripts\\python.exe",
+        "-I",
+        "-B",
+        "D:\\nips-comp\\paiec-final-acceptance\\accept_worker.py",
+        "D:\\nips-comp\\paiec-final-acceptance\\r25_nopeer\\submission",
+        "D:\\nips-comp\\paiec-final-acceptance\\fixtures",
+        "D:\\nips-comp\\paiec-final-acceptance\\r25_nopeer\\fresh2.json",
+        "fresh",
+        "r25_nopeer"
+      ],
+      "cwd": "D:\\nips-comp\\paiec-final-acceptance\\r25_nopeer",
+      "exit_code": 0,
+      "error": null,
+      "seconds": 7.814236299949698,
+      "stdout": "D:\\nips-comp\\nips-comp\\paiec_baseline\\final_candidates\\logs\\r25_nopeer_fresh2.stdout.txt",
+      "stderr": "D:\\nips-comp\\nips-comp\\paiec_baseline\\final_candidates\\logs\\r25_nopeer_fresh2.stderr.txt"
+    },
+    {
+      "command": [
+        "D:\\nips-comp\\paiec-final-acceptance\\win312\\Scripts\\python.exe",
+        "-I",
+        "-B",
+        "D:\\nips-comp\\paiec-final-acceptance\\accept_worker.py",
+        "D:\\nips-comp\\paiec-final-acceptance\\r25_nopeer\\submission",
+        "D:\\nips-comp\\paiec-final-acceptance\\fixtures",
+        "D:\\nips-comp\\paiec-final-acceptance\\r25_nopeer\\full.json",
+        "full",
+        "r25_nopeer"
+      ],
+      "cwd": "D:\\nips-comp\\paiec-final-acceptance\\r25_nopeer",
+      "exit_code": 1,
+      "error": null,
+      "seconds": 138.72797110001557,
+      "stdout": "D:\\nips-comp\\nips-comp\\paiec_baseline\\final_candidates\\logs\\r25_nopeer_full.stdout.txt",
+      "stderr": "D:\\nips-comp\\nips-comp\\paiec_baseline\\final_candidates\\logs\\r25_nopeer_full.stderr.txt"
+    },
+    {
+      "command": [
+        "D:\\nips-comp\\paiec-final-acceptance\\win312\\Scripts\\python.exe",
+        "-I",
+        "-B",
+        "D:\\nips-comp\\paiec-final-acceptance\\accept_worker.py",
+        "D:\\nips-comp\\paiec-final-acceptance\\r25_nopeer\\submission",
+        "D:\\nips-comp\\paiec-final-acceptance\\fixtures",
+        "D:\\nips-comp\\paiec-final-acceptance\\r25_nopeer\\full.json",
+        "full",
+        "r25_nopeer"
+      ],
+      "cwd": "D:\\nips-comp\\paiec-final-acceptance\\r25_nopeer",
+      "exit_code": 0,
+      "error": null,
+      "seconds": 179.80037069995888,
+      "stdout": "D:\\nips-comp\\nips-comp\\paiec_baseline\\final_candidates\\logs\\r25_nopeer_full_recheck.stdout.txt",
+      "stderr": "D:\\nips-comp\\nips-comp\\paiec_baseline\\final_candidates\\logs\\r25_nopeer_full_recheck.stderr.txt"
+    },
+    {
+      "command": [
+        "D:\\nips-comp\\paiec-final-acceptance\\win312\\Scripts\\python.exe",
+        "-I",
+        "-B",
+        "D:\\nips-comp\\paiec-final-acceptance\\public_streaming_probe.py",
+        "D:\\nips-comp\\paiec-final-acceptance\\r25_nopeer\\submission",
+        "D:\\nips-comp\\paiec-final-acceptance\\streaming_ingestion.py",
+        "D:\\nips-comp\\paiec-final-acceptance\\fixtures\\alignment_faking.json",
+        "D:\\nips-comp\\paiec-final-acceptance\\r25_nopeer\\streaming"
+      ],
+      "cwd": "D:\\nips-comp\\paiec-final-acceptance\\r25_nopeer",
+      "exit_code": 0,
+      "error": null,
+      "seconds": 13.559212099993601,
+      "stdout": "D:\\nips-comp\\nips-comp\\paiec_baseline\\final_candidates\\logs\\r25_nopeer_public_streaming.stdout.txt",
+      "stderr": "D:\\nips-comp\\nips-comp\\paiec_baseline\\final_candidates\\logs\\r25_nopeer_public_streaming.stderr.txt"
+    },
+    {
+      "command": [
+        "D:\\nips-comp\\paiec-final-acceptance\\win312\\Scripts\\python.exe",
+        "-I",
+        "-B",
+        "D:\\nips-comp\\nips-comp\\paiec_baseline\\check_submission_zip.py",
+        "D:\\nips-comp\\nips-comp\\paiec_baseline\\dist\\paiec_r25_nopeer_final_candidate.zip"
+      ],
+      "cwd": "D:\\nips-comp\\paiec-final-acceptance\\r25_nopeer",
+      "exit_code": 0,
+      "error": null,
+      "seconds": 8.024342399905436,
+      "stdout": "D:\\nips-comp\\nips-comp\\paiec_baseline\\final_candidates\\logs\\r25_nopeer_repo_zipcheck.stdout.txt",
+      "stderr": "D:\\nips-comp\\nips-comp\\paiec_baseline\\final_candidates\\logs\\r25_nopeer_repo_zipcheck.stderr.txt"
+    },
+    {
+      "command": [
+        "D:\\nips-comp\\paiec-final-acceptance\\win312\\Scripts\\python.exe",
+        "-I",
+        "-B",
+        "D:\\nips-comp\\nips-comp\\paiec_baseline\\final_candidates\\official\\github\\cc88a959c1e5e7462f31a9215baba066ce6d6e2b\\check_submission_zip.py",
+        "D:\\nips-comp\\nips-comp\\paiec_baseline\\dist\\paiec_r25_nopeer_final_candidate.zip"
+      ],
+      "cwd": "D:\\nips-comp\\paiec-final-acceptance\\r25_nopeer",
+      "exit_code": 0,
+      "error": null,
+      "seconds": 7.55460040003527,
+      "stdout": "D:\\nips-comp\\nips-comp\\paiec_baseline\\final_candidates\\logs\\r25_nopeer_upstream_zipcheck.stdout.txt",
+      "stderr": "D:\\nips-comp\\nips-comp\\paiec_baseline\\final_candidates\\logs\\r25_nopeer_upstream_zipcheck.stderr.txt"
+    },
+    {
+      "command": [
+        "D:\\nips-comp\\paiec-final-acceptance\\win312\\Scripts\\python.exe",
+        "-I",
+        "-B",
+        "D:\\nips-comp\\nips-comp\\paiec_baseline\\final_candidates\\official\\github\\cc88a959c1e5e7462f31a9215baba066ce6d6e2b\\tools\\smoke_test.py",
+        "--mock"
+      ],
+      "cwd": "D:\\nips-comp\\paiec-final-acceptance",
+      "exit_code": 1,
+      "error": null,
+      "seconds": 0.5489085000008345,
+      "stdout": "D:\\nips-comp\\nips-comp\\paiec_baseline\\final_candidates\\logs\\upstream_ble_mock.stdout.txt",
+      "stderr": "D:\\nips-comp\\nips-comp\\paiec_baseline\\final_candidates\\logs\\upstream_ble_mock.stderr.txt"
+    },
+    {
+      "command": [
+        "D:\\nips-comp\\paiec-runtime-win64-py312-cpu\\runtime\\python.exe",
+        "-B",
+        "D:\\nips-comp\\nips-comp\\paiec_baseline\\final_candidates\\official\\github\\cc88a959c1e5e7462f31a9215baba066ce6d6e2b\\tools\\smoke_test.py",
+        "--mock"
+      ],
+      "cwd": "D:\\nips-comp\\paiec-final-acceptance",
+      "exit_code": 1,
+      "error": null,
+      "seconds": 3.5956836999394,
+      "stdout": "D:\\nips-comp\\nips-comp\\paiec_baseline\\final_candidates\\logs\\upstream_ble_mock_existing_research_env.stdout.txt",
+      "stderr": "D:\\nips-comp\\nips-comp\\paiec_baseline\\final_candidates\\logs\\upstream_ble_mock_existing_research_env.stderr.txt"
+    }
+  ],
+  "final_full_acceptance": [
+    "r25_nopeer_full_recheck",
+    "partial8_shared_full_recheck"
+  ],
+  "initial_failures_retained": true
+}

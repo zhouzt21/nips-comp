@@ -1,0 +1,11 @@
+# 原评分器的等价缓存加速
+
+初次全量评分对alignment_faking每300条轨迹约需164秒，预计整个阶段超过预设2小时计算预算。原因是4278个不同subject重复编码相同item；完整subject输入各不相同，不能直接跨subject复用整向量。
+
+实现仅缓存原始item逐坐标的有序加法操作。subject值为零的坐标采用缓存的零起点结果，其他坐标保留原加法顺序和每步float32赋值。没有将subject向量与item向量直接相加（那会改变舍入）。原`mlp/model.py`及冻结预测器、训练配置、选择规则、评价sampler均不修改。
+
+320个真实输入（alignment_faking/bird_sql/emoji_attack/ceval）逐位对齐通过，记录在`encoding_equivalence.json`。停止的是本轮拥有的原评分Python进程。所有已完成Benchmark结果保留；尚未完成的alignment_faking输出移至`incomplete_original/alignment_faking/`，未删除。由`run_historical_outer_cached.py`追加冻结缓存合同，重新计算这一未完成Benchmark并继续后续评分。
+
+必须在最终分析前由`audit_historical_cache_overlap.py`将原慢速路径所有完整chunk与加速路径的逐个概率数组、计数、身份记录作逐位比较。原sampler对每个Benchmark首pair的`_vectors`原实现比较也继续执行。该计算变化不能作为额外科学候选，不根据外层分数决定启用，也不改变统计或模型选择合同。
+
+原慢速日志`outer.log`、加速日志`outer_cached.log`分别保存；总计算说明应包含被停止路径，不能只报加速耗时。

@@ -1,0 +1,95 @@
+{
+  "rows": 4800,
+  "pairs": 154,
+  "benchmarks": 12,
+  "mass": {
+    "adaptivestep/formatted_tables": {
+      "pair": 0.012987014452616373,
+      "benchmark": 0.08333333333333333,
+      "mixture": 0.04816017786661784,
+      "pairs": 2
+    },
+    "bbq/formatted_tables": {
+      "pair": 0.045454546610514325,
+      "benchmark": 0.0833333396911621,
+      "mixture": 0.06439393997192383,
+      "pairs": 7
+    },
+    "ceval/formatted_tables": {
+      "pair": 0.07142857233683268,
+      "benchmark": 0.08333333333333333,
+      "mixture": 0.0773809560139974,
+      "pairs": 11
+    },
+    "cmmlu/formatted_tables": {
+      "pair": 0.14285714467366536,
+      "benchmark": 0.0833333396911621,
+      "mixture": 0.11309524536132813,
+      "pairs": 22
+    },
+    "devbench/formatted_tables": {
+      "pair": 0.12337664286295573,
+      "benchmark": 0.08333333333333333,
+      "mixture": 0.10335497538248697,
+      "pairs": 19
+    },
+    "editbench/formatted_tables": {
+      "pair": 0.28571431477864584,
+      "benchmark": 0.0833333396911621,
+      "mixture": 0.18452382405598958,
+      "pairs": 44
+    },
+    "edu_circuit_hw/formatted_tables": {
+      "pair": 0.03896104176839193,
+      "benchmark": 0.08333333333333333,
+      "mixture": 0.06114719390869141,
+      "pairs": 6
+    },
+    "engdesign/formatted_tables": {
+      "pair": 0.10389610290527344,
+      "benchmark": 0.08333333333333333,
+      "mixture": 0.09361471811930339,
+      "pairs": 16
+    },
+    "faithcot/formatted_tables": {
+      "pair": 0.025974027315775552,
+      "benchmark": 0.08333333333333333,
+      "mixture": 0.05465367635091146,
+      "pairs": 4
+    },
+    "fewshot_ttt_bbh/formatted_tables": {
+      "pair": 0.07142857869466146,
+      "benchmark": 0.08333333333333333,
+      "mixture": 0.07738094965616862,
+      "pairs": 11
+    },
+    "finegrain_t2i/formatted_tables": {
+      "pair": 0.032467530568440754,
+      "benchmark": 0.08333333333333333,
+      "mixture": 0.057900428771972656,
+      "pairs": 5
+    },
+    "healthadminbench/formatted_tables": {
+      "pair": 0.045454546610514325,
+      "benchmark": 0.08333333333333333,
+      "mixture": 0.06439393997192383,
+      "pairs": 7
+    }
+  },
+  "range": {
+    "pair": [
+      0.1477195918560028,
+      31.168832778930664
+    ],
+    "mixture": [
+      0.49613308906555176,
+      20.129871368408203
+    ]
+  },
+  "gradient": {
+    "pair_norm": 0.017540119869945074,
+    "mixture_norm": 0.01493488989554109,
+    "cosine": 0.9866360149862148,
+    "norm_ratio": 0.8514702297520763
+  }
+}

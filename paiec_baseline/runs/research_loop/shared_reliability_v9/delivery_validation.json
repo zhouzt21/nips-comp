@@ -1,0 +1,226 @@
+{
+  "R72": {
+    "unchanged_scientific_and_other_files": 1680,
+    "intentional_updates": [
+      {
+        "path": "D:\\nips-comp\\nips-comp\\research_loop\\HIGH_LEVEL_STATE.md",
+        "old": "78eb4d2bfd37c73d599faef0f11cf183e9ac06d6a6108ef6c412fa8614ba1580",
+        "current": "ae9f6e728df5702bd75dc6def9f37b38930b38baaceb516fed8a29b0ce884afe",
+        "authorized_global_update": true
+      },
+      {
+        "path": "D:\\nips-comp\\nips-comp\\research_loop\\HISTORICAL_POSITIVE_SIGNAL_LEDGER.md",
+        "old": "926bc48009d7eed6c593315fa99cf0974bd617bd11768166db490f2c90444785",
+        "current": "1dc9511ebcb2d65032d39cb77ef68a92cc573e339da9be30d87c771385aec92a",
+        "authorized_global_update": true
+      }
+    ]
+  },
+  "R76": {
+    "unchanged_scientific_and_other_files": 992,
+    "intentional_updates": []
+  },
+  "dual_track_v8": {
+    "unchanged_scientific_and_other_files": 1782,
+    "intentional_updates": [
+      {
+        "path": "D:\\nips-comp\\nips-comp\\research_loop\\HIGH_LEVEL_STATE.md",
+        "old": "96176f8dc06a69e033d1680aa91d663ec9cd814359d6e4e4096cad9473640965",
+        "current": "ae9f6e728df5702bd75dc6def9f37b38930b38baaceb516fed8a29b0ce884afe",
+        "authorized_global_update": true
+      },
+      {
+        "path": "D:\\nips-comp\\nips-comp\\research_loop\\HISTORICAL_POSITIVE_SIGNAL_LEDGER.md",
+        "old": "23b16a20730eb2ff21dbb489e77e9da327f86e49da53db2168564cf53b36a57f",
+        "current": "1dc9511ebcb2d65032d39cb77ef68a92cc573e339da9be30d87c771385aec92a",
+        "authorized_global_update": true
+      }
+    ]
+  },
+  "frozen_contracts": [
+    "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R62\\isolation",
+    "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R75\\contract",
+    "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R76\\full\\contract",
+    "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R77\\alternative\\contract",
+    "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R77\\full\\contract",
+    "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R77\\heterogeneity_contract",
+    "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R78\\contract",
+    "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R79\\source_contract"
+  ],
+  "R79_decision": {
+    "status": "source_policy_no_independent_gain",
+    "R78_signal_present": true,
+    "R79_source_executed": true,
+    "R79_outer_authorized": false,
+    "R79_outer_executed": false,
+    "criteria": {
+      "two_source_pools": false,
+      "partial_delta_ALC": false,
+      "partial_benchmark_equal_delta": false,
+      "partial_without_alignment_delta": false,
+      "partial_without_alignment_bm_delta": false,
+      "matched_mean_delta_ALC": false,
+      "matched_mean_benchmark_equal_delta": false,
+      "matched_mean_without_alignment_delta": false,
+      "matched_mean_without_alignment_bm_delta": false
+    },
+    "source_pools_improved_vs_both": 0,
+    "scope": "nested Benchmark source validation; not a new full outer result",
+    "no_threshold_scan": true,
+    "finished": "2026-10-22T21:04:55.861600+00:00"
+  },
+  "R78_decision": {
+    "status": "support_consistency_predictive_source_entry",
+    "descriptive_first_metric": "partial",
+    "tests": [
+      {
+        "metric": "partial",
+        "tests": {
+          "rho_CI_positive": true,
+          "pair_group_gap_negative": true,
+          "bm_group_gap_negative": true,
+          "without_alignment_pair_negative": true,
+          "without_alignment_bm_negative": true,
+          "group_sample_minimum": true,
+          "positive_in_two_source_pools": true
+        },
+        "pass": true
+      },
+      {
+        "metric": "pooled",
+        "tests": {
+          "rho_CI_positive": true,
+          "pair_group_gap_negative": true,
+          "bm_group_gap_negative": true,
+          "without_alignment_pair_negative": true,
+          "without_alignment_bm_negative": true,
+          "group_sample_minimum": true,
+          "positive_in_two_source_pools": true
+        },
+        "pass": true
+      },
+      {
+        "metric": "mean",
+        "tests": {
+          "rho_CI_positive": true,
+          "pair_group_gap_negative": true,
+          "bm_group_gap_negative": true,
+          "without_alignment_pair_negative": true,
+          "without_alignment_bm_negative": true,
+          "group_sample_minimum": true,
+          "positive_in_two_source_pools": true
+        },
+        "pass": true
+      },
+      {
+        "metric": "combined",
+        "tests": {
+          "rho_CI_positive": true,
+          "pair_group_gap_negative": true,
+          "bm_group_gap_negative": true,
+          "without_alignment_pair_negative": true,
+          "without_alignment_bm_negative": true,
+          "group_sample_minimum": true,
+          "positive_in_two_source_pools": true
+        },
+        "pass": true
+      }
+    ],
+    "outer_fold_source_only_choices": {
+      "0": {
+        "eligible_metrics": [
+          "partial",
+          "pooled",
+          "mean",
+          "combined"
+        ],
+        "first_eligible": "partial",
+        "scope": "only this fold legal source Benchmark outcomes"
+      },
+      "1": {
+        "eligible_metrics": [],
+        "first_eligible": null,
+        "scope": "only this fold legal source Benchmark outcomes"
+      },
+      "2": {
+        "eligible_metrics": [
+          "partial",
+          "pooled"
+        ],
+        "first_eligible": "partial",
+        "scope": "only this fold legal source Benchmark outcomes"
+      }
+    },
+    "R79_diagnostic_entry": true,
+    "R79_outer_authorized": false,
+    "note": "Any R79 still requires nested source strategy versus matched shrinkage; no global metric may be applied across outer folds."
+  },
+  "R77_decision": {
+    "cohorts_improved": 5,
+    "cohorts": 5,
+    "average_increment": -0.00017997173978446282,
+    "average_ci95": [
+      -0.00020101278064041874,
+      -4.029231458467796e-05
+    ],
+    "new_severe_partial_vs_pool": {},
+    "status": "partial_sharing_composition_robust_in_frozen_scenarios",
+    "no_best_cohort_selection": true,
+    "hosted": false,
+    "claim_scope": "fixed public cohort sensitivity, not new Benchmark blind validation"
+  },
+  "fallback": [
+    {
+      "path": "D:\\nips-comp\\paiec-dataset\\paiec_git_backups\\layout_20261022_120427\\workspace\\paiec_baseline\\dist\\smoothed_mean_strength2.zip",
+      "sha256": "e55ee0b267f3b345685ef072cfa511c3c017d9082256573793961ea20feadcb9"
+    },
+    {
+      "path": "D:\\nips-comp\\paiec-dataset\\paiec_git_backups\\nips-comp_20261022_113534\\workspace\\paiec_baseline\\dist\\smoothed_mean_strength2.zip",
+      "sha256": "e55ee0b267f3b345685ef072cfa511c3c017d9082256573793961ea20feadcb9"
+    }
+  ],
+  "original_source_hashes": {
+    "date": "2026-10-23",
+    "scope": "Original sources read during plan9; MALSAR executable source also covered by R75/R76 manifests",
+    "entries": [
+      {
+        "path": "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R75\\literature\\Evgeniou_Pontil_KDD2004.txt",
+        "bytes": 75353,
+        "sha256": "b87188242237eed60e90e5bacdbf813fdcccf7b43f000769c0ae527316fedfc2"
+      },
+      {
+        "path": "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R75\\literature\\MALSAR_Manual.txt",
+        "bytes": 151259,
+        "sha256": "e9c7fd89447313efe6f95937b3b7e50ae8f0ec25e62ee95757a0cba6967d183a"
+      },
+      {
+        "path": "D:\\nips-comp\\paiec-dataset\\training_mechanism_sources\\domainbed.pdf",
+        "bytes": 1787388,
+        "sha256": "92ea5bb1b5beed6af39f54de49cec2e1acc5450b021410a518cd54cc56e60dd4"
+      },
+      {
+        "path": "D:\\nips-comp\\paiec-dataset\\training_mechanism_sources\\domainbed.txt",
+        "bytes": 99737,
+        "sha256": "46cc5143a336fd351eaa78d9bc5ea0c413c8ddac0206be76fdfa594c5c266e53"
+      },
+      {
+        "path": "D:\\nips-comp\\paiec-dataset\\training_mechanism_sources\\domainbed\\domainbed\\model_selection.py",
+        "bytes": 6335,
+        "sha256": "717e0e78a1a1b5bf97f2ecda080c34f1c016d5d120668c04543f3ec796c8eee4"
+      }
+    ]
+  },
+  "figure_inspection": {
+    "files": [
+      "cohort_increment.png",
+      "benchmark_cohort_matrix.png",
+      "support_query_association.png"
+    ],
+    "method": "main agent opened all three exported images; axis overlap and colorbar clipping corrected; no change to data"
+  },
+  "python_static_parse_files": 15,
+  "report_links": "passed",
+  "review": "primary-agent deterministic source/identity/probability/leakage verification; no claim of independent external review",
+  "status": "passed",
+  "finished": "2026-10-22T21:18:50.929346+00:00"
+}

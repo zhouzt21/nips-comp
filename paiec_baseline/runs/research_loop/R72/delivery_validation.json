@@ -1,0 +1,67 @@
+{
+  "status": "complete",
+  "finished": "2026-10-22T17:17:32.445170+00:00",
+  "stages": {
+    "R70": {
+      "trajectories": 15726,
+      "pairs": 5242,
+      "benchmarks": 36,
+      "query_variant_rows": 1005741,
+      "chunks": 149,
+      "max_brier_error": 8.881784197001252e-16,
+      "max_accuracy_error": 0.0,
+      "random_energy_error": 0.0,
+      "seconds": 29.575979999965057,
+      "finished": "2026-10-22T16:32:52.196694+00:00"
+    },
+    "R71": {
+      "trajectories": 15726,
+      "pairs": 5242,
+      "benchmarks": 36,
+      "query_variant_rows": 1005741,
+      "chunks": 149,
+      "max_brier_error": 8.881784197001252e-16,
+      "max_accuracy_error": 0.0,
+      "random_energy_error": 1.4210854715202004e-14,
+      "seconds": 101.60369769996032,
+      "finished": "2026-10-22T16:45:33.036197+00:00"
+    },
+    "R72": {
+      "trajectories": 15726,
+      "pairs": 5242,
+      "benchmarks": 36,
+      "query_variant_rows": 1005741,
+      "chunks": 149,
+      "max_brier_error": 9.992007221626409e-16,
+      "max_accuracy_error": 0.0,
+      "random_energy_error": 0.0,
+      "seconds": 75.18750120000914,
+      "finished": "2026-10-22T17:06:35.342319+00:00"
+    }
+  },
+  "contracts_checked": [
+    "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R62\\isolation",
+    "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R70\\source_contract",
+    "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R70\\calibration_contract",
+    "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R70\\full\\contract",
+    "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R71\\full\\contract",
+    "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R72\\coverage_contract",
+    "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R72\\full\\contract"
+  ],
+  "old_frozen_assets_unchanged": 183,
+  "fallback_sha256": {
+    "D:\\nips-comp\\paiec-dataset\\paiec_git_backups\\layout_20261022_120427\\workspace\\paiec_baseline\\dist\\smoothed_mean_strength2.zip": "e55ee0b267f3b345685ef072cfa511c3c017d9082256573793961ea20feadcb9",
+    "D:\\nips-comp\\paiec-dataset\\paiec_git_backups\\nips-comp_20261022_113534\\workspace\\paiec_baseline\\dist\\smoothed_mean_strength2.zip": "e55ee0b267f3b345685ef072cfa511c3c017d9082256573793961ea20feadcb9"
+  },
+  "files": 1682,
+  "bytes": 3756988779,
+  "invalid_control_run_retained_and_excluded": true,
+  "new_neural_network_fits": 0,
+  "new_embeddings": 0,
+  "official_submission": false,
+  "R72_scope": "conditional_simulation; actual hosted coordinator not verified",
+  "seconds": 5.67240949999541,
+  "report_local_links_checked": 22,
+  "headline_ALC_values_checked": true,
+  "manifest_sha256": "8e028a9c34f5ad12c411e6f32555f7990cad92ade5f64187fcb066cdfddb6d83"
+}

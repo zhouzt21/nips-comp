@@ -1,0 +1,109 @@
+{
+  "status": "passed_synthetic_only",
+  "cases": {
+    "partial_primal_dual_graph_equivalence": {
+      "max_error": 7.771561172376096e-16,
+      "penalty_error": 1.1102230246251565e-16,
+      "MALSAR_half_SSE_rho_graph": 3.84,
+      "MALSAR_half_SSE_rho_L2": 0.16
+    },
+    "peers_0": {
+      "prediction": 0.5224215246636771,
+      "mode": "own_only",
+      "reasons": [
+        "no_peer_support"
+      ],
+      "own_labels": 4,
+      "peer_labels": 0,
+      "peers": 0
+    },
+    "peers_1": {
+      "prediction": 0.5122261345852895,
+      "mode": "pooled",
+      "reasons": [],
+      "own_labels": 4,
+      "peer_labels": 4,
+      "peers": 1
+    },
+    "peers_2": {
+      "prediction": 0.5,
+      "mode": "pooled",
+      "reasons": [],
+      "own_labels": 4,
+      "peer_labels": 8,
+      "peers": 2
+    },
+    "peers_3": {
+      "prediction": 0.5200688073394495,
+      "mode": "pooled",
+      "reasons": [],
+      "own_labels": 4,
+      "peer_labels": 12,
+      "peers": 3
+    },
+    "flat_labels_no_uniqueness_evidence": {
+      "prediction": 0.5224215246636771,
+      "mode": "own_only",
+      "reasons": [
+        "visible_subject_roster_unavailable"
+      ],
+      "own_labels": 4,
+      "peer_labels": 0,
+      "peers": 0
+    },
+    "duplicate_full_configuration": {
+      "prediction": 0.5224215246636771,
+      "mode": "own_only",
+      "reasons": [
+        "ambiguous_visible_subject_roster"
+      ],
+      "own_labels": 4,
+      "peer_labels": 0,
+      "peers": 0
+    },
+    "conflicting_label_for_visible_key": {
+      "prediction": 0.5224215246636771,
+      "mode": "own_only",
+      "reasons": [
+        "duplicate_or_conflicting_visible_evidence"
+      ],
+      "own_labels": 4,
+      "peer_labels": 0,
+      "peers": 0
+    },
+    "duplicate_visible_input": {
+      "prediction": 0.5224215246636771,
+      "mode": "own_only",
+      "reasons": [
+        "duplicate_or_conflicting_visible_evidence"
+      ],
+      "own_labels": 4,
+      "peer_labels": 0,
+      "peers": 0
+    },
+    "B0_visible_peers": {
+      "prediction": 0.5,
+      "mode": "own_only",
+      "reasons": [
+        "no_own_support"
+      ],
+      "own_labels": 0,
+      "peer_labels": 0,
+      "peers": 0
+    },
+    "cross_group_filtered": true,
+    "hidden_ids_ignored": true,
+    "no_cross_call_label_state": true,
+    "input_order_invariant": true,
+    "nonbinary_rejected": true,
+    "custom_no_peer_fallback": true
+  },
+  "count": 16,
+  "seconds": 0.010688399896025658,
+  "finished": "2026-10-22T18:54:03.897500+00:00",
+  "limitations": [
+    "Not Hosted acceptance",
+    "Roster must be explicitly current-visible",
+    "Undetectable hidden collisions cannot be resolved from flat visible dictionaries"
+  ]
+}

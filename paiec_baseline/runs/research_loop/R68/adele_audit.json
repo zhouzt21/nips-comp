@@ -1,0 +1,27 @@
+{
+  "status": "waiting_for_annotation_resources",
+  "requests": 512,
+  "distinct_items": 128,
+  "dimensions": {
+    "AS": 128,
+    "MCr": 128,
+    "QLl": 128,
+    "KNf": 128
+  },
+  "author_prompt_reconstruction": "all 512 exact strings and request bodies equal",
+  "upstream_commit": "816321f327dfe66910b72b514156aaa296b15f00",
+  "input_characters": 4413536,
+  "new_api_calls": 0,
+  "paid_usage": 0,
+  "new_models_downloaded": 0,
+  "model_snapshot": null,
+  "authorization": "prior user instruction: ADeLe waits for resources",
+  "cpu_alternative": "Only MiniLM is available in project model locations; no validated local generative rubric annotator. Heuristic length/type proxies are legal diagnostics, not original demand labels or a faithful ADeLe substitute.",
+  "hidden_inference": "single input task annotation would require the same frozen judge/rubrics and measured latency/resources; current empty model snapshot cannot run",
+  "hashes": {
+    "D:\\nips-comp\\paiec-dataset\\reproduction_v4\\adele_pilot\\manifest.json": "35ed5b87220ee6dd94e105e681bd6e92ac3a86fea81b5da53eba9f4eeb3c0f70",
+    "D:\\nips-comp\\paiec-dataset\\reproduction_v4\\adele_pilot\\items.json": "47547967b70e6d103b4e11406f386dc98b08fb03f756e6c3fce2393886860111",
+    "D:\\nips-comp\\paiec-dataset\\reproduction_v4\\adele_pilot\\requests.jsonl": "573243e3a4cd89a7dbbb7813abf33d418702e684318c044c652b7b221a6d1584",
+    "D:\\nips-comp\\paiec-dataset\\reproduction_sources\\adele\\upstream\\src\\adele\\annotation\\prompts.py": "db33a950daf11b5a4e9beaa65dd36972753058e7764ba2e4289b76100d7685a1"
+  }
+}

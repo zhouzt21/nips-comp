@@ -1,0 +1,198 @@
+﻿{
+    "schema_version":  1,
+    "retrieved_date":  "2026-10-22",
+    "source_root":  "D:\\nips-comp\\paiec-dataset\\reproduction_sources\\amortized_irt",
+    "search_provider":  "AnySearch",
+    "searches":  [
+                     {
+                         "query":  "Agent Psychometrics Ge 2026",
+                         "domain":  "academic",
+                         "request_id":  "1d720092-2249-4fdb-bd65-7199fd4bf624",
+                         "sub_domain":  "academic.search"
+                     },
+                     {
+                         "query":  "Truong reeval",
+                         "domain":  "general",
+                         "request_id":  "3571ecaa-861d-4e63-8e1c-b381b1fee420"
+                     },
+                     {
+                         "query":  "Reliable Efficient Amortized Model-based Evaluation ICML",
+                         "domain":  "general",
+                         "request_id":  "1fb4a738-3ed8-431f-8403-0d5c11864cd3"
+                     },
+                     {
+                         "query":  "Reliable Efficient Amortized Model-based Evaluation site:proceedings.mlr.press",
+                         "domain":  "general",
+                         "request_id":  "e82b7072-9525-48f2-bd3d-c3bff24aaec1"
+                     },
+                     {
+                         "query":  "Agent Psychometrics COLM 2026 Chris Ge",
+                         "domain":  "general",
+                         "request_id":  "5b54e6a6-a174-42fe-9260-0be9a35de293"
+                     }
+                 ],
+    "papers":  [
+                   {
+                       "id":  "truong_icml2025",
+                       "method_locations":  [
+                                                "Section 3 page 4",
+                                                "Section 4.1 page 4",
+                                                "Section 5.1 page 6",
+                                                "Section 5.2 page 7"
+                                            ],
+                       "official_page":  "https://proceedings.mlr.press/v267/truong25c.html",
+                       "pdf_url":  "https://raw.githubusercontent.com/mlresearch/v267/main/assets/truong25c/truong25c.pdf",
+                       "local_pdf":  "truong25c.pdf",
+                       "title":  "Reliable and Efficient Amortized Model-based Evaluation",
+                       "status":  "PMLR 267 ICML 2025 formal proceedings"
+                   },
+                   {
+                       "version":  "v2 2026-07-20",
+                       "method_locations":  [
+                                                "Section 2.1.2 pages 3-4",
+                                                "Sections 3.2.1 and 3.2.2 page 5",
+                                                "Section 5.3"
+                                            ],
+                       "official_page":  "https://arxiv.org/abs/2604.00594v2",
+                       "title":  "Agent Psychometrics: Task-Level Performance Prediction in Agentic Coding Benchmarks",
+                       "local_pdf":  "agent_psychometrics_2604.00594v2.pdf",
+                       "status":  "COLM 2026 per author PDF title page; OpenReview fetch browser-verification blocked",
+                       "pdf_url":  "https://arxiv.org/pdf/2604.00594v2",
+                       "id":  "ge_agent_psychometrics_v2"
+                   }
+               ],
+    "repositories":  [
+                         {
+                             "url":  "https://github.com/aims-foundations/reeval",
+                             "checkout":  "detached",
+                             "nuisance_samples":  150,
+                             "core":  "calibration/calibration.ipynb cell index 15",
+                             "implementation_license":  "No repository LICENSE found; independent implementation of equations with attribution",
+                             "commit":  "726cfe1ccedaa5576073665d9cda812d20a910c5",
+                             "original_url":  "https://github.com/sangttruong/reeval",
+                             "commit_date":  "2026-05-16",
+                             "local_path":  "reeval",
+                             "code_objective":  "mean expected negative Bernoulli log likelihood; not negative log marginal likelihood"
+                         },
+                         {
+                             "main_model":  "SVI IRT then ridge difficulty; categorical LLM plus scaffold abilities",
+                             "license":  "MIT Copyright 2026 Fulcrum",
+                             "commit_date":  "2026-08-30",
+                             "url":  "https://github.com/dariakryvosheieva/agent-psychometrics",
+                             "local_path":  "agent-psychometrics",
+                             "core":  "experiment_adaptive_testing/cat_simulation.py estimate_theta_mle",
+                             "checkout":  "detached sparse code checkout",
+                             "commit":  "1c34d34a0ee82c92b1c63deb834495c5440bd362"
+                         }
+                     ],
+    "retrieval_limits":  [
+                             "AnySearch arXiv HTML extraction failed for both papers; read direct official PDFs",
+                             "OpenReview returned browser verification; no bypass",
+                             "No upstream datasets or weights used in PAIEC training"
+                         ],
+    "adaptation_decisions":  [
+                                 "MiniLM384 plus metadata256 replaces original Llama4096 features",
+                                 "Stable allowed subject256 feature regression for cold start is a PAIEC adaptation",
+                                 "Training-subject Gaussian MAP precision1 is an explicit stabilization adaptation",
+                                 "Online Gaussian MAP prior centered on predicted ability has fixed precision1",
+                                 "Repeated responses remain count-weighted Bernoulli observations",
+                                 "Joint BCE Rasch is a separate adaptation control, not the original calibration procedure"
+                             ],
+    "artifacts":  [
+                      {
+                          "relative_path":  "truong25c.pdf",
+                          "sha256":  "7d936d4c5cd57f5cc55fbc6637d308c322eac0cd39ebd34ad338dcbfb546390b",
+                          "bytes":  9852245
+                      },
+                      {
+                          "relative_path":  "truong25c.txt",
+                          "sha256":  "fac3ff4dc456bc23c9dff2d083cc9b8907f60f9604d96b40583e59c102d6a138",
+                          "bytes":  148655
+                      },
+                      {
+                          "relative_path":  "agent_psychometrics_2604.00594v2.pdf",
+                          "sha256":  "9c277bcf4b03b02ff7f16e9eed07566e7af83411925ad3b9bc168351d060c639",
+                          "bytes":  858633
+                      },
+                      {
+                          "relative_path":  "agent_psychometrics_2604.00594v2.txt",
+                          "sha256":  "69402fce5806dd2e72d0083c519193bd1df90797b8064c610a07ddfa3076314d",
+                          "bytes":  131657
+                      },
+                      {
+                          "relative_path":  "reeval_pmlr.anysearch.json",
+                          "sha256":  "e8353ba8a64f43d8f111f1ba21850914bb032033b6ee9c002a7058851712c26b",
+                          "bytes":  7353
+                      },
+                      {
+                          "relative_path":  "reeval_icml.anysearch.json",
+                          "sha256":  "019e279bbbd1ae8344f27209848181aea6e38bcb3461d3465c7834639cbd69e5",
+                          "bytes":  3925
+                      },
+                      {
+                          "relative_path":  "reeval_arxiv_v1.anysearch.json",
+                          "sha256":  "97493a37f5c487f288c47d38e65b96f66beda7e1bd4c10570080e50e41218773",
+                          "bytes":  60
+                      },
+                      {
+                          "relative_path":  "agent_psychometrics_v2.anysearch.json",
+                          "sha256":  "97493a37f5c487f288c47d38e65b96f66beda7e1bd4c10570080e50e41218773",
+                          "bytes":  60
+                      },
+                      {
+                          "relative_path":  "agent_psychometrics_openreview.anysearch.json",
+                          "sha256":  "7d51b8b4d818f05b682995f01e7ae18104ce8a148017de975fd035aa2d3d5d35",
+                          "bytes":  367
+                      },
+                      {
+                          "relative_path":  "reeval_calibration_cells.txt",
+                          "sha256":  "54293129097f81e43142c9952d99666ee9c7ac22e503433f9372b94db3d7e9ee",
+                          "bytes":  20208
+                      },
+                      {
+                          "relative_path":  "reeval/calibration/calibration.ipynb",
+                          "sha256":  "d556ceea499d07b2d04dc5a5cd6b847a7c2e17e4af89c51cd0b5718d3db2c4e7",
+                          "bytes":  57753
+                      },
+                      {
+                          "relative_path":  "reeval/cat/adap_test.py",
+                          "sha256":  "70914e19ca9a6de405b15cf6e4df14bbbb7f51f24f9d4a638d17ece5bacc54d3",
+                          "bytes":  3231
+                      },
+                      {
+                          "relative_path":  "reeval/README.md",
+                          "sha256":  "da5a8b3e5c0048b0465721316d5fb70d7e0fd3ffc1681f3ba0561c19463dd0c6",
+                          "bytes":  2683
+                      },
+                      {
+                          "relative_path":  "agent-psychometrics/experiment_new_tasks/feature_irt.py",
+                          "sha256":  "5da8c946c9c5f5a012508e51e0fb5b057fcb7f554defccd55dd9ad3327112ead",
+                          "bytes":  23618
+                      },
+                      {
+                          "relative_path":  "agent-psychometrics/experiment_new_benchmarks/pipeline.py",
+                          "sha256":  "ea5a349f5f73aa433ccf390e4e786e81b0fbc51126e52f37807855f723786db4",
+                          "bytes":  19666
+                      },
+                      {
+                          "relative_path":  "agent-psychometrics/experiment_new_agents/README.md",
+                          "sha256":  "f9bfca7c4cc02e5c5637718468f6bd1202f30d61d05ef0c6d2c7cb456f401e19",
+                          "bytes":  1544
+                      },
+                      {
+                          "relative_path":  "agent-psychometrics/experiment_adaptive_testing/cat_simulation.py",
+                          "sha256":  "2b4321c755312cbcef1f650882937ea633e29b2718f91bc0f8d61e71bddd0076",
+                          "bytes":  18023
+                      },
+                      {
+                          "relative_path":  "agent-psychometrics/experiment_adaptive_testing/new_agent_simulation.py",
+                          "sha256":  "fd6fb977a33e153e637e73dafb456bba1d5fc82a028a6eac778c5be44f0642ab",
+                          "bytes":  16039
+                      },
+                      {
+                          "relative_path":  "agent-psychometrics/LICENSE",
+                          "sha256":  "9272dab2d5c00a41263eb5bb0cdd9d17d7cebe95eab60a90bd8c97b991bc21fc",
+                          "bytes":  1085
+                      }
+                  ]
+}

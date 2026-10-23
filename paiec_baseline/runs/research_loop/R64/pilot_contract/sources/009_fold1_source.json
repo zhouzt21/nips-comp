@@ -1,0 +1,95 @@
+{
+  "fold": 1,
+  "scope": "source-development only; not OOD",
+  "source_benchmarks": [
+    "abstract_reason/formatted_tables",
+    "adaptivestep/formatted_tables",
+    "advprompter/formatted_tables",
+    "agentic_review_perturbation/formatted_tables",
+    "agi_elo/formatted_tables",
+    "ai2d_test/formatted_tables",
+    "aider/formatted_tables",
+    "algotune/formatted_tables",
+    "alignment_faking/formatted_tables",
+    "auditing_sabotage_bench/formatted_tables",
+    "benger/formatted_tables",
+    "bertaqa/formatted_tables",
+    "bird_sql/formatted_tables",
+    "braveguard/formatted_tables",
+    "cellverse/formatted_tables",
+    "ceval/formatted_tables",
+    "chartmuseum/formatted_tables",
+    "chi_bench/formatted_tables",
+    "confagents/formatted_tables",
+    "cruxeval/formatted_tables",
+    "dave/formatted_tables",
+    "dbpa/formatted_tables",
+    "edu_circuit_hw/formatted_tables",
+    "egoschema/formatted_tables",
+    "ehrflowbench/formatted_tables",
+    "engdesign/formatted_tables",
+    "evouna/formatted_tables",
+    "exploitgym/formatted_tables",
+    "felm/formatted_tables",
+    "financebench/formatted_tables",
+    "haiid/formatted_tables",
+    "healthadminbench/formatted_tables"
+  ],
+  "pairs": 260,
+  "brier": {
+    "context_semantic": [
+      0.25,
+      0.22578863832864587,
+      0.20332180627093835,
+      0.18929791738128385,
+      0.17946299528981124,
+      0.17363459320253266
+    ],
+    "old_semantic": [
+      0.25,
+      0.22578863832864587,
+      0.20325809354379284,
+      0.1893400768647559,
+      0.17949306706534912,
+      0.17365944543427883
+    ],
+    "context_lexical": [
+      0.25,
+      0.22578863832864587,
+      0.20357036018326696,
+      0.18952221363705665,
+      0.1798647533496094,
+      0.17318961708290637
+    ],
+    "old_lexical": [
+      0.25,
+      0.22578863832864587,
+      0.20360447823186706,
+      0.18964502834515262,
+      0.18031194288298263,
+      0.17401318623674977
+    ],
+    "smoothed_mean_2": [
+      0.25,
+      0.22578863832864587,
+      0.2036104868435814,
+      0.1902333346932677,
+      0.18136992917422184,
+      0.17669887687102218
+    ]
+  },
+  "pair_equal_alc": {
+    "context_semantic": 0.20193773077438915,
+    "old_semantic": 0.20194191970393663,
+    "context_lexical": 0.20206815480800644,
+    "old_lexical": 0.20227133618140464,
+    "smoothed_mean_2": 0.20287036549504558
+  },
+  "benchmark_equal_alc": {
+    "context_semantic": 0.20481838903933072,
+    "old_semantic": 0.20487247837962266,
+    "context_lexical": 0.20457560040472847,
+    "old_lexical": 0.20453917453702383,
+    "smoothed_mean_2": 0.20611004220141896
+  }
+}

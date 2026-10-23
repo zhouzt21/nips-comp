@@ -1,0 +1,75 @@
+{
+  "status": "not_promoted",
+  "research_success": false,
+  "baseline_gates": {
+    "smoothed_mean_2": {
+      "gain_ge_005": false,
+      "three_folds_improve": true,
+      "benchmark_equal_improves": true,
+      "cluster_CI_upper_lt_zero": false,
+      "no_ge_03_regression": true
+    },
+    "training_selected_smoothed": {
+      "gain_ge_005": true,
+      "three_folds_improve": true,
+      "benchmark_equal_improves": true,
+      "cluster_CI_upper_lt_zero": false,
+      "no_ge_03_regression": true
+    }
+  },
+  "R25_comparison": {
+    "delta_alc": -0.0006750116240137566,
+    "benchmark_equal_delta": 0.0007432045069706299,
+    "fold_deltas": [
+      -0.0020061631287599524,
+      0.0004898531037566545,
+      -0.0006536906641197993
+    ],
+    "cluster_ci95": [
+      -0.002128034338374336,
+      0.0032522057761469577
+    ],
+    "benchmarks_improved": 17,
+    "benchmarks_unchanged": 0,
+    "worst_benchmark": "abstract_reason/formatted_tables",
+    "worst_delta": 0.02054433741714301,
+    "regression_ge_005": {
+      "abstract_reason/formatted_tables": 0.02054433741714301,
+      "algotune/formatted_tables": 0.013004126915102998,
+      "appworld/formatted_tables": 0.008286549559026857,
+      "benger/formatted_tables": 0.009030584126555219,
+      "bird_sql/formatted_tables": 0.005017890694296687,
+      "cellverse/formatted_tables": 0.00818459956209544,
+      "cruxeval/formatted_tables": 0.008333487422941849,
+      "egoschema/formatted_tables": 0.006441306538253255,
+      "enginemt_qa/formatted_tables": 0.007542628986355798
+    },
+    "regression_ge_03": {},
+    "alignment_faking_contribution": -0.0006954265785769243,
+    "others_contribution": 2.041495456316779e-05,
+    "without_alignment_delta": 0.00011101160977191448,
+    "per_budget_delta": [
+      -0.003081895264412632,
+      -0.0018341104878701886,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "R56_comparison": {
+    "delta": 0.0006435158222854791,
+    "cluster_ci95": [
+      -0.0012200363208006316,
+      0.0009528341167799718
+    ],
+    "benchmark_equal_delta": -0.0015779636751765635,
+    "fold_delta": [
+      0.0017770847830285473,
+      -0.001558355289535073,
+      0.0007345055600436319
+    ]
+  },
+  "stop": "No further item-only thresholds, mixtures, architecture or LR search on these outer results.",
+  "submission": "unchanged; no official submission"
+}

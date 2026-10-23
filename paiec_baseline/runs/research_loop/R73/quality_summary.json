@@ -1,0 +1,1377 @@
+{
+  "status": "complete",
+  "primary_records": 512,
+  "repeat_records": 64,
+  "source_records": [
+    {
+      "agent": "shard0",
+      "original_path": "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R73\\annotation_only\\annotations\\shard0.jsonl",
+      "normalized_copy": "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R73\\annotations\\shard0.jsonl",
+      "sha256": "8b5129f5dd780002106fcb2d9874f843ee44bcbc4b05f2fec55ecd1ebbe96163",
+      "copy_equals_original": true
+    },
+    {
+      "agent": "shard1",
+      "original_path": "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R73\\annotations\\shard1.jsonl",
+      "sha256": "527f08d93d1fa679c3b22511e281dc4dde21ebe106df866f83eb1d4086798180"
+    },
+    {
+      "agent": "shard2",
+      "original_path": "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R73\\annotations\\shard2.jsonl",
+      "sha256": "e397e1d077a5e09436bb6c2529713c91719518b416c2a1619c5e0e15acb1e4be"
+    },
+    {
+      "agent": "shard3",
+      "original_path": "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R73\\annotations\\shard3.jsonl",
+      "sha256": "1393e2ec8d189b0fd7a41453ee264ef53c45e7784cd3708cf537eb4ae3ad5b59"
+    },
+    {
+      "agent": "qc",
+      "original_path": "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R73\\annotation_only\\annotations\\qc.jsonl",
+      "normalized_copy": "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R73\\annotations\\qc.jsonl",
+      "sha256": "9e91f7715cc2b81f4259a01813ea239c65fd5d3acb02c47d44193ea747283fd1",
+      "copy_equals_original": true
+    }
+  ],
+  "final_sha256": "ab2c7d771ebd9b4010f7630209b8a876d4406467eb06bb6aac618832c781b8cf",
+  "invalid_parse_records": 0,
+  "missing_expected_records": 0,
+  "primary_distribution": {
+    "total": 512,
+    "valid": 436,
+    "null": 76,
+    "ambiguity_noted": 98,
+    "counts": {
+      "0": 188,
+      "1": 76,
+      "2": 89,
+      "3": 66,
+      "4": 16,
+      "5": 1
+    },
+    "mean": 1.194954128440367
+  },
+  "per_rubric": {
+    "AS": {
+      "total": 128,
+      "valid": 109,
+      "null": 19,
+      "ambiguity_noted": 26,
+      "counts": {
+        "0": 47,
+        "1": 24,
+        "2": 20,
+        "3": 17,
+        "4": 1
+      },
+      "mean": 1.091743119266055
+    },
+    "MCr": {
+      "total": 128,
+      "valid": 108,
+      "null": 20,
+      "ambiguity_noted": 31,
+      "counts": {
+        "0": 29,
+        "1": 21,
+        "2": 30,
+        "3": 22,
+        "4": 5,
+        "5": 1
+      },
+      "mean": 1.5925925925925926
+    },
+    "QLl": {
+      "total": 128,
+      "valid": 109,
+      "null": 19,
+      "ambiguity_noted": 21,
+      "counts": {
+        "0": 31,
+        "1": 23,
+        "2": 30,
+        "3": 22,
+        "4": 3
+      },
+      "mean": 1.4770642201834863
+    },
+    "KNf": {
+      "total": 128,
+      "valid": 110,
+      "null": 18,
+      "ambiguity_noted": 20,
+      "counts": {
+        "0": 81,
+        "1": 8,
+        "2": 9,
+        "3": 5,
+        "4": 7
+      },
+      "mean": 0.6272727272727273
+    }
+  },
+  "agreement": {
+    "repeat_records": 64,
+    "both_valid": 48,
+    "exact_agreement": 0.6875,
+    "over_one_level_fraction": 0.020833333333333332,
+    "mean_absolute_difference": 0.3333333333333333,
+    "null_status_agreement": 0.9375
+  },
+  "per_rubric_agreement": {
+    "AS": {
+      "repeat_records": 16,
+      "both_valid": 12,
+      "exact_agreement": 0.5833333333333334,
+      "over_one_level_fraction": 0.0,
+      "mean_absolute_difference": 0.4166666666666667,
+      "null_status_agreement": 0.9375
+    },
+    "MCr": {
+      "repeat_records": 16,
+      "both_valid": 12,
+      "exact_agreement": 0.5833333333333334,
+      "over_one_level_fraction": 0.08333333333333333,
+      "mean_absolute_difference": 0.5,
+      "null_status_agreement": 0.9375
+    },
+    "QLl": {
+      "repeat_records": 16,
+      "both_valid": 12,
+      "exact_agreement": 0.5833333333333334,
+      "over_one_level_fraction": 0.0,
+      "mean_absolute_difference": 0.4166666666666667,
+      "null_status_agreement": 0.9375
+    },
+    "KNf": {
+      "repeat_records": 16,
+      "both_valid": 12,
+      "exact_agreement": 1.0,
+      "over_one_level_fraction": 0.0,
+      "mean_absolute_difference": 0.0,
+      "null_status_agreement": 0.9375
+    }
+  },
+  "large_disagreements": [
+    {
+      "request_id": "paiec-r53-079-3f4b723ac9dca63a__MCr",
+      "item_index": 79,
+      "rubric_id": "MCr",
+      "primary_grade": 3,
+      "repeat_grade": 1,
+      "both_valid": true,
+      "absolute_difference": 2,
+      "null_status_agreement": true,
+      "primary_rationale": "Use the sparse matrix and perfect-matching constraints; disregard incidental metadata.",
+      "repeat_rationale": "输入格式、目标和输出字段均明确，相关信息容易筛选。"
+    }
+  ],
+  "null_disagreements": [
+    {
+      "request_id": "paiec-r53-093-c5c5757faec67445__AS",
+      "item_index": 93,
+      "rubric_id": "AS",
+      "primary_grade": null,
+      "repeat_grade": 1,
+      "both_valid": false,
+      "absolute_difference": null,
+      "null_status_agreement": false,
+      "primary_rationale": "Fan status depends on an omitted cycle signal.",
+      "repeat_rationale": "目标是单个周期的风扇状态，需查看信号以区分两类状态，搜索范围较小。"
+    },
+    {
+      "request_id": "paiec-r53-093-c5c5757faec67445__MCr",
+      "item_index": 93,
+      "rubric_id": "MCr",
+      "primary_grade": null,
+      "repeat_grade": 1,
+      "both_valid": false,
+      "absolute_difference": null,
+      "null_status_agreement": false,
+      "primary_rationale": "The evidence needed to identify relevant features is absent.",
+      "repeat_rationale": "信号与两个标签直接对应，需轻度识别哪类信息决定状态。"
+    },
+    {
+      "request_id": "paiec-r53-093-c5c5757faec67445__QLl",
+      "item_index": 93,
+      "rubric_id": "QLl",
+      "primary_grade": null,
+      "repeat_grade": 1,
+      "both_valid": false,
+      "absolute_difference": null,
+      "null_status_agreement": false,
+      "primary_rationale": "Without data, classification steps cannot be assessed.",
+      "repeat_rationale": "按信号状态作直接分类，题面未给出复杂规则链。"
+    },
+    {
+      "request_id": "paiec-r53-093-c5c5757faec67445__KNf",
+      "item_index": 93,
+      "rubric_id": "KNf",
+      "primary_grade": null,
+      "repeat_grade": 0,
+      "both_valid": false,
+      "absolute_difference": null,
+      "null_status_agreement": false,
+      "primary_rationale": "The missing signal prevents judging knowledge depth.",
+      "repeat_rationale": "简短状态分类未要求形式科学概念，标签本身已提供。"
+    }
+  ],
+  "benchmark_distributions": {
+    "abstract_reason/formatted_tables": {
+      "AS": {
+        "total": 6,
+        "valid": 6,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "0": 3,
+          "3": 2,
+          "4": 1
+        },
+        "mean": 1.6666666666666667
+      },
+      "MCr": {
+        "total": 6,
+        "valid": 5,
+        "null": 1,
+        "ambiguity_noted": 2,
+        "counts": {
+          "2": 1,
+          "3": 3,
+          "5": 1
+        },
+        "mean": 3.2
+      },
+      "QLl": {
+        "total": 6,
+        "valid": 5,
+        "null": 1,
+        "ambiguity_noted": 1,
+        "counts": {
+          "2": 3,
+          "3": 1,
+          "4": 1
+        },
+        "mean": 2.6
+      },
+      "KNf": {
+        "total": 6,
+        "valid": 6,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "0": 3,
+          "1": 1,
+          "2": 1,
+          "3": 1
+        },
+        "mean": 1.0
+      }
+    },
+    "aegis/formatted_tables": {
+      "AS": {
+        "total": 6,
+        "valid": 5,
+        "null": 1,
+        "ambiguity_noted": 1,
+        "counts": {
+          "0": 5
+        },
+        "mean": 0.0
+      },
+      "MCr": {
+        "total": 6,
+        "valid": 5,
+        "null": 1,
+        "ambiguity_noted": 2,
+        "counts": {
+          "0": 3,
+          "1": 1,
+          "2": 1
+        },
+        "mean": 0.6
+      },
+      "QLl": {
+        "total": 6,
+        "valid": 5,
+        "null": 1,
+        "ambiguity_noted": 1,
+        "counts": {
+          "0": 4,
+          "2": 1
+        },
+        "mean": 0.4
+      },
+      "KNf": {
+        "total": 6,
+        "valid": 5,
+        "null": 1,
+        "ambiguity_noted": 1,
+        "counts": {
+          "0": 5
+        },
+        "mean": 0.0
+      }
+    },
+    "agentic_review_perturbation/formatted_tables": {
+      "AS": {
+        "total": 6,
+        "valid": 1,
+        "null": 5,
+        "ambiguity_noted": 5,
+        "counts": {
+          "0": 1
+        },
+        "mean": 0.0
+      },
+      "MCr": {
+        "total": 6,
+        "valid": 1,
+        "null": 5,
+        "ambiguity_noted": 5,
+        "counts": {
+          "0": 1
+        },
+        "mean": 0.0
+      },
+      "QLl": {
+        "total": 6,
+        "valid": 1,
+        "null": 5,
+        "ambiguity_noted": 5,
+        "counts": {
+          "0": 1
+        },
+        "mean": 0.0
+      },
+      "KNf": {
+        "total": 6,
+        "valid": 1,
+        "null": 5,
+        "ambiguity_noted": 5,
+        "counts": {
+          "0": 1
+        },
+        "mean": 0.0
+      }
+    },
+    "agi_elo/formatted_tables": {
+      "AS": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "0": 2,
+          "1": 1,
+          "2": 2
+        },
+        "mean": 1.0
+      },
+      "MCr": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "0": 1,
+          "1": 2,
+          "2": 1,
+          "3": 1
+        },
+        "mean": 1.4
+      },
+      "QLl": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "0": 1,
+          "1": 1,
+          "2": 2,
+          "3": 1
+        },
+        "mean": 1.6
+      },
+      "KNf": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "0": 4,
+          "3": 1
+        },
+        "mean": 0.6
+      }
+    },
+    "algotune/formatted_tables": {
+      "AS": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "0": 1,
+          "1": 4
+        },
+        "mean": 0.8
+      },
+      "MCr": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "1": 1,
+          "2": 3,
+          "3": 1
+        },
+        "mean": 2.0
+      },
+      "QLl": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "3": 3,
+          "4": 2
+        },
+        "mean": 3.4
+      },
+      "KNf": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "4": 5
+        },
+        "mean": 4.0
+      }
+    },
+    "alignment_faking/formatted_tables": {
+      "AS": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "0": 5
+        },
+        "mean": 0.0
+      },
+      "MCr": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "0": 4,
+          "1": 1
+        },
+        "mean": 0.2
+      },
+      "QLl": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "0": 4,
+          "1": 1
+        },
+        "mean": 0.2
+      },
+      "KNf": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "0": 5
+        },
+        "mean": 0.0
+      }
+    },
+    "appworld/formatted_tables": {
+      "AS": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 1,
+        "counts": {
+          "2": 3,
+          "3": 2
+        },
+        "mean": 2.4
+      },
+      "MCr": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 1,
+        "counts": {
+          "1": 1,
+          "2": 1,
+          "3": 3
+        },
+        "mean": 2.4
+      },
+      "QLl": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "1": 1,
+          "2": 3,
+          "3": 1
+        },
+        "mean": 2.0
+      },
+      "KNf": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "0": 4,
+          "1": 1
+        },
+        "mean": 0.2
+      }
+    },
+    "bbq/formatted_tables": {
+      "AS": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "0": 2,
+          "1": 3
+        },
+        "mean": 0.6
+      },
+      "MCr": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "1": 4,
+          "2": 1
+        },
+        "mean": 1.2
+      },
+      "QLl": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "1": 5
+        },
+        "mean": 1.0
+      },
+      "KNf": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "0": 5
+        },
+        "mean": 0.0
+      }
+    },
+    "beavertails/formatted_tables": {
+      "AS": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "0": 5
+        },
+        "mean": 0.0
+      },
+      "MCr": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "0": 4,
+          "2": 1
+        },
+        "mean": 0.4
+      },
+      "QLl": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "0": 4,
+          "2": 1
+        },
+        "mean": 0.4
+      },
+      "KNf": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "0": 5
+        },
+        "mean": 0.0
+      }
+    },
+    "benger/formatted_tables": {
+      "AS": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "0": 1,
+          "1": 2,
+          "2": 2
+        },
+        "mean": 1.2
+      },
+      "MCr": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "2": 1,
+          "3": 4
+        },
+        "mean": 2.8
+      },
+      "QLl": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "3": 5
+        },
+        "mean": 3.0
+      },
+      "KNf": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "0": 5
+        },
+        "mean": 0.0
+      }
+    },
+    "cellverse/formatted_tables": {
+      "AS": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "3": 5
+        },
+        "mean": 3.0
+      },
+      "MCr": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "3": 1,
+          "4": 4
+        },
+        "mean": 3.8
+      },
+      "QLl": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "2": 3,
+          "3": 2
+        },
+        "mean": 2.4
+      },
+      "KNf": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "0": 5
+        },
+        "mean": 0.0
+      }
+    },
+    "cmmlu/formatted_tables": {
+      "AS": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "0": 2,
+          "1": 3
+        },
+        "mean": 0.6
+      },
+      "MCr": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "0": 2,
+          "1": 2,
+          "2": 1
+        },
+        "mean": 0.8
+      },
+      "QLl": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "0": 4,
+          "2": 1
+        },
+        "mean": 0.4
+      },
+      "KNf": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "0": 5
+        },
+        "mean": 0.0
+      }
+    },
+    "cruxeval/formatted_tables": {
+      "AS": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "0": 1,
+          "1": 4
+        },
+        "mean": 0.8
+      },
+      "MCr": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 1,
+        "counts": {
+          "1": 1,
+          "2": 3,
+          "3": 1
+        },
+        "mean": 2.0
+      },
+      "QLl": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "2": 3,
+          "3": 2
+        },
+        "mean": 2.4
+      },
+      "KNf": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "2": 5
+        },
+        "mean": 2.0
+      }
+    },
+    "dave/formatted_tables": {
+      "AS": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 1,
+        "counts": {
+          "3": 5
+        },
+        "mean": 3.0
+      },
+      "MCr": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 1,
+        "counts": {
+          "2": 5
+        },
+        "mean": 2.0
+      },
+      "QLl": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "1": 3,
+          "2": 2
+        },
+        "mean": 1.4
+      },
+      "KNf": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "0": 5
+        },
+        "mean": 0.0
+      }
+    },
+    "devbench/formatted_tables": {
+      "AS": {
+        "total": 5,
+        "valid": 0,
+        "null": 5,
+        "ambiguity_noted": 5,
+        "counts": {},
+        "mean": null
+      },
+      "MCr": {
+        "total": 5,
+        "valid": 0,
+        "null": 5,
+        "ambiguity_noted": 5,
+        "counts": {},
+        "mean": null
+      },
+      "QLl": {
+        "total": 5,
+        "valid": 0,
+        "null": 5,
+        "ambiguity_noted": 5,
+        "counts": {},
+        "mean": null
+      },
+      "KNf": {
+        "total": 5,
+        "valid": 0,
+        "null": 5,
+        "ambiguity_noted": 5,
+        "counts": {},
+        "mean": null
+      }
+    },
+    "editbench/formatted_tables": {
+      "AS": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "0": 2,
+          "1": 2,
+          "2": 1
+        },
+        "mean": 0.8
+      },
+      "MCr": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "1": 1,
+          "2": 4
+        },
+        "mean": 1.8
+      },
+      "QLl": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "2": 3,
+          "3": 2
+        },
+        "mean": 2.4
+      },
+      "KNf": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "2": 2,
+          "3": 1,
+          "4": 2
+        },
+        "mean": 3.0
+      }
+    },
+    "egoschema/formatted_tables": {
+      "AS": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "2": 2,
+          "3": 3
+        },
+        "mean": 2.6
+      },
+      "MCr": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "3": 4,
+          "4": 1
+        },
+        "mean": 3.2
+      },
+      "QLl": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "1": 1,
+          "2": 4
+        },
+        "mean": 1.8
+      },
+      "KNf": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "0": 5
+        },
+        "mean": 0.0
+      }
+    },
+    "emoji_attack/formatted_tables": {
+      "AS": {
+        "total": 5,
+        "valid": 4,
+        "null": 1,
+        "ambiguity_noted": 1,
+        "counts": {
+          "0": 4
+        },
+        "mean": 0.0
+      },
+      "MCr": {
+        "total": 5,
+        "valid": 4,
+        "null": 1,
+        "ambiguity_noted": 1,
+        "counts": {
+          "0": 3,
+          "1": 1
+        },
+        "mean": 0.25
+      },
+      "QLl": {
+        "total": 5,
+        "valid": 4,
+        "null": 1,
+        "ambiguity_noted": 1,
+        "counts": {
+          "0": 4
+        },
+        "mean": 0.0
+      },
+      "KNf": {
+        "total": 5,
+        "valid": 4,
+        "null": 1,
+        "ambiguity_noted": 1,
+        "counts": {
+          "0": 4
+        },
+        "mean": 0.0
+      }
+    },
+    "enginemt_qa/formatted_tables": {
+      "AS": {
+        "total": 5,
+        "valid": 2,
+        "null": 3,
+        "ambiguity_noted": 5,
+        "counts": {
+          "2": 2
+        },
+        "mean": 2.0
+      },
+      "MCr": {
+        "total": 5,
+        "valid": 2,
+        "null": 3,
+        "ambiguity_noted": 5,
+        "counts": {
+          "3": 2
+        },
+        "mean": 3.0
+      },
+      "QLl": {
+        "total": 5,
+        "valid": 2,
+        "null": 3,
+        "ambiguity_noted": 5,
+        "counts": {
+          "3": 2
+        },
+        "mean": 3.0
+      },
+      "KNf": {
+        "total": 5,
+        "valid": 2,
+        "null": 3,
+        "ambiguity_noted": 5,
+        "counts": {
+          "2": 1,
+          "3": 1
+        },
+        "mean": 2.5
+      }
+    },
+    "evouna/formatted_tables": {
+      "AS": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "0": 5
+        },
+        "mean": 0.0
+      },
+      "MCr": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "0": 5
+        },
+        "mean": 0.0
+      },
+      "QLl": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "0": 5
+        },
+        "mean": 0.0
+      },
+      "KNf": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "0": 4,
+          "1": 1
+        },
+        "mean": 0.2
+      }
+    },
+    "faithcot/formatted_tables": {
+      "AS": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "0": 1,
+          "1": 3,
+          "2": 1
+        },
+        "mean": 1.0
+      },
+      "MCr": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 1,
+        "counts": {
+          "0": 1,
+          "2": 3,
+          "3": 1
+        },
+        "mean": 1.8
+      },
+      "QLl": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "1": 4,
+          "2": 1
+        },
+        "mean": 1.2
+      },
+      "KNf": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "0": 3,
+          "1": 2
+        },
+        "mean": 0.4
+      }
+    },
+    "fewshot_ttt_bbh/formatted_tables": {
+      "AS": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "0": 2,
+          "1": 1,
+          "2": 2
+        },
+        "mean": 1.0
+      },
+      "MCr": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "1": 3,
+          "2": 1,
+          "3": 1
+        },
+        "mean": 1.6
+      },
+      "QLl": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "1": 1,
+          "2": 1,
+          "3": 3
+        },
+        "mean": 2.4
+      },
+      "KNf": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "0": 3,
+          "1": 1,
+          "3": 1
+        },
+        "mean": 0.8
+      }
+    },
+    "financebench/formatted_tables": {
+      "AS": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 1,
+        "counts": {
+          "0": 3,
+          "2": 2
+        },
+        "mean": 0.8
+      },
+      "MCr": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 1,
+        "counts": {
+          "0": 3,
+          "2": 2
+        },
+        "mean": 0.8
+      },
+      "QLl": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "0": 2,
+          "1": 1,
+          "2": 2
+        },
+        "mean": 1.0
+      },
+      "KNf": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "0": 4,
+          "1": 1
+        },
+        "mean": 0.2
+      }
+    },
+    "finegrain_t2i/formatted_tables": {
+      "AS": {
+        "total": 5,
+        "valid": 2,
+        "null": 3,
+        "ambiguity_noted": 3,
+        "counts": {
+          "0": 2
+        },
+        "mean": 0.0
+      },
+      "MCr": {
+        "total": 5,
+        "valid": 2,
+        "null": 3,
+        "ambiguity_noted": 3,
+        "counts": {
+          "0": 2
+        },
+        "mean": 0.0
+      },
+      "QLl": {
+        "total": 5,
+        "valid": 2,
+        "null": 3,
+        "ambiguity_noted": 3,
+        "counts": {
+          "0": 2
+        },
+        "mean": 0.0
+      },
+      "KNf": {
+        "total": 5,
+        "valid": 2,
+        "null": 3,
+        "ambiguity_noted": 3,
+        "counts": {
+          "0": 2
+        },
+        "mean": 0.0
+      }
+    },
+    "hallusionbench/formatted_tables": {
+      "AS": {
+        "total": 5,
+        "valid": 4,
+        "null": 1,
+        "ambiguity_noted": 3,
+        "counts": {
+          "1": 1,
+          "2": 3
+        },
+        "mean": 1.75
+      },
+      "MCr": {
+        "total": 5,
+        "valid": 4,
+        "null": 1,
+        "ambiguity_noted": 3,
+        "counts": {
+          "1": 3,
+          "2": 1
+        },
+        "mean": 1.25
+      },
+      "QLl": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "1": 5
+        },
+        "mean": 1.0
+      },
+      "KNf": {
+        "total": 5,
+        "valid": 5,
+        "null": 0,
+        "ambiguity_noted": 0,
+        "counts": {
+          "0": 4,
+          "1": 1
+        },
+        "mean": 0.2
+      }
+    }
+  },
+  "length_groups": {
+    "at_cap": {
+      "items": 6,
+      "complete_four_grades": 1,
+      "null_dimensions": 20
+    },
+    "below_cap": {
+      "items": 122,
+      "complete_four_grades": 107,
+      "null_dimensions": 56
+    },
+    "above_minilm_window": {
+      "items": 59,
+      "complete_four_grades": 52,
+      "null_dimensions": 26
+    },
+    "within_minilm_window": {
+      "items": 69,
+      "complete_four_grades": 56,
+      "null_dimensions": 50
+    }
+  },
+  "project_encoder_rule": "content first96+last30 if >126; +CLS/SEP total<=128; source mlp/semantic_features.py encode_many",
+  "complete_four_grade_items": 108,
+  "teacher_annotation_model": "gpt-6-luna",
+  "fixed_snapshot_available": false,
+  "arbitration": "none; preserve primary grades and independent repeat; source pilot excludes missing teacher dimensions instead of inventing labels",
+  "validity_boundary": "Same-model inter-rater agreement, not human truth or calibrated rubric validity. Per-BM grade differences do not establish bias without reference labels.",
+  "seconds": 4.5000586999813095
+}

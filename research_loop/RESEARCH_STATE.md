@@ -1,5 +1,25 @@
 # PAIEC continuous research state
 
+## 2026-10-22 当前：plan_5 R65–R68办结
+
+全部真实执行与条件审计完成：R65诊断、R66十二fit、R67三refit及5242pair×3seed全外层；R67_item_segment=0.194448914，弱于R56探索分段且未过研究Gate。ADeLe等待资源，共享路线等待完整hosted合同；两项未执行效果实验不算负训练。没有后台任务、无提交，R25/fallback保持。恢复入口：[TRANSFERABLE_PRIOR_DECISION.md](TRANSFERABLE_PRIOR_DECISION.md)、[主报告](../reports/transferable_prior_mechanism_findings.md)、[执行/审计入口](../reports/transferable_prior_reproduction.md)。下方原状态不覆盖本轮结论。
+
+## 2026-10-22 当前：plan_4补证完成
+
+R62/R63/R64完整外层及保存概率重计分全部完成。R56_segment有探索性点估计优势0.001318527但BM/一折/CI未通过；R55 query仅7.3e−6改善；R64模板平均虽改善原R46仍略差R25。原Research Gate未通过，R25/fallback不变，无正式提交，无待运行实验。恢复见[本轮状态](HISTORICAL_POSITIVE_FOLLOWUP_STATE.md)；下方旧状态不覆盖本轮执行。
+
+## 2026-10-22 当前：R59–R61来源阶段已执行
+
+按`doc/plan_3.md`完成冻结权重回放、Brier精确分解、预算分段和唯一B1首标签门控，新增fit0。MLP优势来自pair均值，但选择可靠性不足；R61三池ΔALC=+0.000313793/−0.000746241/−0.000396236，未通过联合来源条件，完整外层`condition_not_met`。数值、缓存哈希及单一只读结构复核完成；无训练任务、无新隐藏/全量成绩、无提交或fallback修改。主入口：[结果与机制认识](../reports/low_budget_prior_composition_findings.md)、[评分前合同](LOW_BUDGET_PRIOR_COMPOSITION_SPEC.md)、[算子决定](LOW_BUDGET_PRIOR_OPERATOR_DECISION.md)。
+
+## 2026-10-22 最新：R54–R58执行完成
+
+用户 `doc/plan_2.md` 五候选已按顺序执行及审计条件。36fits保存996个epoch checkpoint；普通MLP迟发恢复停止条件成立，R55/R56/R57未通过全来源准入；R58未触发新训练。没有新outer/隐藏成绩、组合或提交，原Research Gate仍未通过。当前无后台训练；ADeLe继续等待资源。最新入口：[TRAINING_MECHANISM_V5_STATE.md](TRAINING_MECHANISM_V5_STATE.md)、[结果与机制分析](../reports/training_mechanism_v5_findings.md)。
+
+## 2026-10-22 最新：R51/R52 来源内复现完成
+
+依据用户 `doc/复现与组合.md` 执行的CNP/attention与amortized IRT均未通过预声明进入条件，停止outer/扩容/组合；原研究Gate未通过、fallback不变。18次真实拟合完成、28项实现检查通过。ADeLe依用户决定等待资源，仅已完成来源与dry-run输入准备。无后台训练。恢复入口为 [REPRODUCTION_V4_STATE.md](REPRODUCTION_V4_STATE.md) 和 [结果分析](../reports/reproduction_v4_findings.md)；下方状态为历史检查点。
+
 <!-- current-v2-r29 -->
 ## 当前状态：R10–R31 均已完成
 

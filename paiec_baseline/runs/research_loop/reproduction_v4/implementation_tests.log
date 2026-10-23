@@ -1,0 +1,67 @@
+﻿powershell : test_attention_weights_follow_paired_labels (test_neural_process.NeuralProcessTests.test_attention_weights
+_follow_paired_labels) ... ok
+所在位置 行:2 字符: 1
++ powershell -NoProfile -ExecutionPolicy Bypass -File 'D:\nips-comp\pai ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (test_attention_..._labels) ... ok:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+test_context_set_and_target_order_contracts (test_neural_process.NeuralProcessTests.test_context_set_and_target_order_c
+ontracts) ... ok
+test_empty_context_and_six_budget_forward (test_neural_process.NeuralProcessTests.test_empty_context_and_six_budget_for
+ward) ... ok
+test_finite_training_update_and_portable_reload (test_neural_process.NeuralProcessTests.test_finite_training_update_and
+_portable_reload) ... ok
+test_full_forward_matches_independent_numpy_equations (test_neural_process.NeuralProcessTests.test_full_forward_matches
+_independent_numpy_equations) ... ok
+test_reject_mismatched_shapes (test_neural_process.NeuralProcessTests.test_reject_mismatched_shapes) ... ok
+test_support_label_correspondence_is_used (test_neural_process.NeuralProcessTests.test_support_label_correspondence_is_
+used) ... ok
+test_b0_and_centered_difficulty_gauge (test_amortized_irt.AmortizedIRTTests.test_b0_and_centered_difficulty_gauge) ... 
+ok
+test_budget_binary_and_training_guards (test_amortized_irt.AmortizedIRTTests.test_budget_binary_and_training_guards) ..
+. ok
+test_exact_notebook_expected_nll_and_gradient (test_amortized_irt.AmortizedIRTTests.test_exact_notebook_expected_nll_an
+d_gradient) ... ok
+test_map_stationarity_and_monotone_labels (test_amortized_irt.AmortizedIRTTests.test_map_stationarity_and_monotone_labe
+ls) ... ok
+test_mle_nonidentification_and_regularized_map (test_amortized_irt.AmortizedIRTTests.test_mle_nonidentification_and_reg
+ularized_map) ... ok
+test_repeats_are_exact_not_majority_vote (test_amortized_irt.AmortizedIRTTests.test_repeats_are_exact_not_majority_vote
+) ... ok
+test_state_roundtrip_and_extreme_finite_inputs (test_amortized_irt.AmortizedIRTTests.test_state_roundtrip_and_extreme_f
+inite_inputs) ... ok
+test_support_set_order_and_query_isolation (test_amortized_irt.AmortizedIRTTests.test_support_set_order_and_query_isola
+tion) ... ok
+test_checkpoint_keeps_transform_and_predictions (test_reproduction_pipeline.ReproductionPipelineTests.test_checkpoint_k
+eeps_transform_and_predictions) ... ok
+test_counted_nll_matches_repeated_binary_likelihood (test_reproduction_pipeline.ReproductionPipelineTests.test_counted_
+nll_matches_repeated_binary_likelihood) ... ok
+test_fit_transform_does_not_depend_on_any_labels (test_reproduction_pipeline.ReproductionPipelineTests.test_fit_transfo
+rm_does_not_depend_on_any_labels) ... ok
+test_padded_targets_have_zero_loss_mass (test_reproduction_pipeline.ReproductionPipelineTests.test_padded_targets_have_
+zero_loss_mass) ... ok
+test_pair_equal_and_benchmark_equal_are_distinct (test_reproduction_pipeline.ReproductionPipelineTests.test_pair_equal_
+and_benchmark_equal_are_distinct) ... ok
+test_response_metrics_and_decomposition_equal_expansion (test_reproduction_pipeline.ReproductionPipelineTests.test_resp
+onse_metrics_and_decomposition_equal_expansion) ... ok
+test_ablation_names_do_not_replace_primary (test_irt_training.IRTTrainingTests.test_ablation_names_do_not_replace_prima
+ry) ... ok
+test_expected_nll_pair_weight_and_chunk_gradient (test_irt_training.IRTTrainingTests.test_expected_nll_pair_weight_and_
+chunk_gradient) ... ok
+test_gate_requires_each_b1_baseline_and_strict_majority (test_irt_training.IRTTrainingTests.test_gate_requires_each_b1_
+baseline_and_strict_majority) ... ok
+test_only_query_targets_and_shared_subject_nuisance_index (test_irt_training.IRTTrainingTests.test_only_query_targets_a
+nd_shared_subject_nuisance_index) ... ok
+test_ridge_unpenalized_intercept_and_uniform_subjects (test_irt_training.IRTTrainingTests.test_ridge_unpenalized_interc
+ept_and_uniform_subjects) ... ok
+test_timeout_is_incomplete_not_negative_result (test_irt_training.IRTTrainingTests.test_timeout_is_incomplete_not_negat
+ive_result) ... ok
+{"fit": "D:\\nips-comp\\nips-comp\\irtfit-6d7jcxss", "outer_iteration": 1, "training_expected_nll": 0.7274291215641894, "loss_change": 0.08171069756289917, "gradient_inf": 1.299654874927468e-06, "stable_rounds": 0, "closure_calls": 19, "elapsed_seconds": 0.0470000000204891}
+test_tiny_fit_no_validation_targets_and_checkpoint_contract (test_irt_training.IRTTrainingTests.test_tiny_fit_no_valida
+tion_targets_and_checkpoint_contract) ... ok
+
+----------------------------------------------------------------------
+Ran 28 tests in 4.201s
+
+OK

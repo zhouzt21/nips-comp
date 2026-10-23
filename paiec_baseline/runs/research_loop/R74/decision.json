@@ -1,0 +1,49 @@
+{
+  "teacher_tests": {
+    "base": {
+      "two_pools": false,
+      "pair": false,
+      "benchmark": false,
+      "without_alignment": false
+    },
+    "teacher_permuted": {
+      "two_pools": false,
+      "pair": false,
+      "benchmark": false,
+      "without_alignment": false
+    }
+  },
+  "teacher_entry": false,
+  "deployable_entries": {
+    "prior_student": {
+      "tests": {
+        "two_pools_R25": true,
+        "pair_R25": true,
+        "benchmark_R25": true,
+        "without_alignment_R25": true,
+        "prior_base_pair": true,
+        "prior_base_benchmark": true,
+        "prior_permuted_student_pair": true,
+        "prior_permuted_student_benchmark": true
+      },
+      "pass": true
+    },
+    "local_student": {
+      "tests": {
+        "two_pools_R25": true,
+        "pair_R25": true,
+        "benchmark_R25": true,
+        "without_alignment_R25": true,
+        "R25_pair": true,
+        "R25_benchmark": true,
+        "local_permuted_student_pair": true,
+        "local_permuted_student_benchmark": true
+      },
+      "pass": true
+    }
+  },
+  "full_outer_authorized_by_source_contract": false,
+  "candidate": null,
+  "action": "stop_at_pilot_keep_R25",
+  "no_parameter_retuning": true
+}

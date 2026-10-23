@@ -1,0 +1,37 @@
+{
+  "source_fold": 2,
+  "source_benchmark": "finegrain_t2i/formatted_tables",
+  "subjects": [
+    "cdd7357ca5a0baa6",
+    "23101107161f5b81",
+    "04491c9187118fee",
+    "02f5910bd7259696",
+    "88827b91ac1991fe"
+  ],
+  "cohorts": {
+    "cdd7357ca5a0baa6": [
+      "04491c9187118fee",
+      "23101107161f5b81",
+      "88827b91ac1991fe"
+    ],
+    "02f5910bd7259696": [],
+    "23101107161f5b81": [
+      "04491c9187118fee",
+      "88827b91ac1991fe",
+      "cdd7357ca5a0baa6"
+    ],
+    "88827b91ac1991fe": [
+      "04491c9187118fee",
+      "23101107161f5b81",
+      "cdd7357ca5a0baa6"
+    ],
+    "04491c9187118fee": [
+      "23101107161f5b81",
+      "88827b91ac1991fe",
+      "cdd7357ca5a0baa6"
+    ]
+  },
+  "ridge_r25": 1.0,
+  "ridge_r36_original": 4.0,
+  "query_labels_used_for_selection": false
+}

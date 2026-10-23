@@ -1,0 +1,18 @@
+## Search Results (3 results, 1516ms)
+
+### 1. Regularized multi--task learning
+- **URL**: https://doi.org/10.1145/1014052.1014067
+- Past empirical work has shown that learning multiple related tasks from data simultaneously can be advantageous in terms of predictive performance relative to learning these tasks independently. In this paper we present an approach to multi--task learning based on the minimization of regularization functionals similar to existing ones, such as the one for Support Vector Machines (SVMs), that have been successfully used in the past for single--task learning. Our approach allows to model the relation between tasks in terms of a novel kernel function that uses a task--coupling parameter. We implement an instance of the proposed approach similar to SVMs and test it empirically using simulated as well as real data. The experimental results show that the proposed method performs better than existing multi--task learning methods and largely outperforms single--task learning using SVMs.
+
+### 2. RMTL: Regularized Multi-Task Learning
+- **URL**: http://dx.doi.org/10.32614/cran.package.rmtl
+- Efficient solvers for 10 regularized multi-task learning algorithms applicable for regression, classification, joint feature selection, task clustering, low-rank learning, sparse learning and network incorporation. Based on the accelerated gradient descent method, the algorithms feature a state-of-art computational complexity O(1/k^2). Sparse model structure is induced by the solving the proximal operator. The detail of the package is described in the paper of Han Cao and Emanuel Schwarz (2018) .
+
+### 3. Asymptotic performance of regularized multi-task learning
+- **URL**: https://arxiv.org/pdf/1805.12507.pdf
+- This paper analyzes asymptotic performance of a regularized multi-task learning model where task parameters are optimized jointly. If tasks are closely related, empirical work suggests multi-task learning models to outperform single-task ones in finite sample cases. As data size grows indefinitely, we show the learned multi-classifier to optimize an average misclassification error function which depicts the risk of applying multi-task learning algorithm to making decisions. This technique conclusion demonstrates the regularized multi-task learning model to be able to produce reliable decision rule for each task in the sense that it will asymptotically converge to the corresponding Bayes rule. Also, we find the interaction effect between tasks vanishes as data size growing indefinitely, which is quite different from the behavior in finite sample cases.
+
+```yaml
+request_id: fed05177-7cf9-4286-a14e-d33386d30e39
+```
+

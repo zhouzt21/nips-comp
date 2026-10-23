@@ -1,5 +1,69 @@
 # High-level problem state — loop_1.md
 
+## 2026-10-23 当前：plan_10 R80/R81完成，R82/R83未触发
+
+R80去重191pairs/35BM×3item seeds，half/LOIO/grouped5fold在B15/B31完成。LOIO减小fit-size失配与风险MAE，但符号BA .537646/.581774，相对half −.018586/+.007418、CI均跨零；83%–90%的请求条件区间跨零，名义有害组未被query证实。`sharing_sign_not_identifiable`仅限定本轮方法/预算，不是信息论不可能性。按事前条件停止R82/R83，没有新校准器、门控或策略外层。
+
+R81完整5242×3×6/5cohort重放完成。partial−pool平均−.000179972、CI全负；partial−point −.000017538、partial−exact-cost −.000192802，两CI跨零、BM-equal和去alignment均略退化。point保留约90.25%的partial−pool点估计收益；方向翻转存在，但独立效用未证实。25BM真实偏移有弱重复cosine .0747/.1292（23BM可估），留出风险改善CI跨零；合成异质世界partial胜pool，却未稳胜成本控制，B31差于own。支持收缩/逐item幅度整形的重要性，未证明真实Subject方向恢复主导。
+
+主Partial8 ALC .190547856/B31正确率79.1862%保持；dave对R25仍退化+.006632866，收益仍集中alignment。不晋级、不改fallback，固定Partial8保持conditional_simulation，Hosted继续暂停。全部预测与机制实验结束，无后台模型运行；独立重计分/raw clip/风险分解误差<1e−15，合成参数/标签/概率重建误差0。
+
+入口：[Q1–Q5及下一步](PARTIAL8_NEXT_DECISION.md)、[R80](../reports/partial8_identifiability_findings.md)、[R81](../reports/partial8_mechanism_findings.md)、[指标/正确率/成本/资源](../reports/partial8_decision_tables.md)、[复现入口](../reports/partial8_next_reproduction.md)。任务`D:/todo/tasks/graph/nips-comp.partial8-identifiability-2026-10-23.md`。以下“当前”为历史截点。
+
+## 2026-10-23 当前：plan_9 R77/R78与条件R79来源阶段完成
+
+R77补齐7502 partial，并完成五冻结cohort与主cohort压力评价：全部5242pairs×3item seeds×六预算。partial在5/5组成中优于同cohort pooled，平均ΔALC−0.000179972，BM-cluster CI[−0.000201013,−0.000040292]；未新增相对pooled的>=.005严重回归。93.77%增量仍来自alignment，dave相对R25五组均退化；不选最低分cohort、不自动晋级。H3辅助异质性关联不稳定，H4对幅度收缩的CI跨零，未唯一识别Subject特异方向适配。
+
+R78去重191pairs/35BM、B15/B31支持交叉预测诊断完成。partial的BM内平均rho .240675、CI[.065278,.405159]，方向BA .628506；但单预算CI跨零，“不可靠”组平均query Δ仍为−.000846417。有限正面排序信号满足预设入口，不代表收益零点校准可靠。
+
+R79实际执行严格嵌套来源策略验证；只有pool0一条内层lane准入，其余回退partial。gate−partial +.000020318、gate−matched-mean +.000006623，0/3来源池同时优于两对照；`source_policy_no_independent_gain`。错误关闭收益损失.000107159超过避免错误共享的.000086841。完整外层condition_not_met，停止本二值门控，不扫阈值/罚项、不扩B3/B7。固定Partial8仍为conditional_simulation研究候选；Hosted暂停、fallback未替换。
+
+R77/R78/R79保存概率重计分最大误差分别8.88e−16/0/0；R79来源隔离及预测构造复核5.55e−17。无后台实验。总入口：[研究决策Q1–Q5](SHARED_RELIABILITY_DECISION.md)、[R77](../reports/shared_cohort_robustness_findings.md)、[R78](../reports/support_sharing_reliability_findings.md)、[R79来源与停止](../reports/shared_reliability_policy_findings.md)、[指标/正确率/资源全表](../reports/shared_reliability_tables.md)。任务`D:/todo/tasks/graph/nips-comp.shared-reliability-2026-10-23.md`。以下“当前”为各历史轮次截点。
+
+## 2026-10-23 当前：plan_8 R73–R76双路线完成
+
+原始授权 `doc/plan_8.md`：Hosted下载/审计继续暂停。R73 Luna 512主标注与64独立复标完成：436有效评分/76null、108items四维完整，双方有效48条的一致率68.75%，>1级分歧2.08%。原作者rubric/prompt重建与解析通过；未用subject成功率标注。原生模型快照/温度未暴露，属于四维Luna适配，不称原GPT4o精确复现。
+
+R74教师B0相对同输入base退化+0.088423451，CI全正；CPU学生grade MAE0.991676仅略好于fit均值0.999972，学生先验新增ALC改善0.000079265的CI跨零，局部增量约0.000001632。联合来源门槛失败，`stop_at_pilot_keep_R25`；没有新No-Peer完整外层或扩标，不与共享模型组合。用户本次Luna授权已结束此前资源等待，但本轮效果条件未通过。
+
+R75来源诊断/消融触发固定partial8一次完整评价；R76完成5242pairs×3seeds×六预算。主随机cohort fully pooled为0.190728761，partial8为0.190547856；同cohort ΔALC −0.000180905，CI[−0.000202247,−0.000038056]，三fold/BM均改善。相对旧R72 pooled3的CI跨零、BM略差，不能称稳定取代历史R72。相对R25约96.98%增益来自alignment，dave仍退化+0.006632866；四项数值Gate通过但严重回归尚未解决，仍只保留conditional_simulation研究候选，不晋级部署。
+
+R74/R76保存概率重计分最大误差分别0/8.88e−16；16项合成协议smoke和fresh-item CPU wrapper smoke通过，单一只读结构复核无阻断。adapter按可见配置排序选peer，与离线随机cohort不等价；新item本地编码能力不等于Hosted验收。R25/R56/R72科学资产及两份fallback保留，全局状态和ledger按授权更新。总入口：[双路线结果与认识](../reports/dual_track_demand_sharing_findings.md)，[A全表](../reports/demand_pilot_tables.md)，[B全表](../reports/shared_slope_tables.md)，[交付验证](../paiec_baseline/runs/research_loop/dual_track_v8/delivery_validation.json)。任务登记 `D:/todo/tasks/graph/nips-comp.dual-track-demand-sharing-2026-10-23.md`。以下“当前/等待/运行中”为各轮历史截点，不覆盖本段。
+
+## 2026-10-23 当前：plan_6 R69–R72完成
+
+R69官方接口/client与PAVA原文/作者实现核查完成；没有真实Hosted样例，coordinator组成仍未知。R70/R71/R72均完成5242pairs×3seeds×6budgets及保存概率重计分，最大误差9.99e−16。R70 independent .195141844761、monotone/global=R64 .195129046979；R71 grouped .195138170529，均未改善R25，停止当前预算/近邻分组族。R71控制RNG错误部分批次保留且排除，修复后完整重跑。
+
+R72条件模拟出现正面增量：same3 .194752318424、pooled1 .193447868573、pooled3 .190683911490、diff3 .190885867939。pooled3比R25改善.004440014486，三fold/BM改善、clusterCI [−.005055159,−.000319164]；相对两均值基线过条件数值门槛。删除同输入peer后仍保留95.45%点估计收益，peer置换和仅增加标签均值控制支持内容对应的作用。96.35%总增益仍来自alignment，相对R56/匹配R36的CI跨零，BM-equal略差R36；不宣称普遍支配或Hosted成绩。
+
+无实验仍在运行；原183项冻结资产、R25/R56/R64与fallback不变，无提交。下一步等待实际Hosted peer样例/抽样合同，再回放冻结共享算子；ADeLe继续等待资源。入口：[主报告](../reports/lexical_peer_evidence_findings.md)、[分数/正确率与切片](../reports/lexical_peer_evidence_tables.md)、[复现说明](../reports/lexical_peer_evidence_reproduction.md)、[算子决定](LEXICAL_PEER_OPERATOR_DECISION.md)。任务卡：`D:/todo/tasks/graph/nips-comp.lexical-peer-evidence-2026-10-23.md`。下方为历史轮次状态，不覆盖本段。
+
+## 2026-10-22 当前：plan_5 R65–R68完成
+
+R65冻结概率诊断、R66匹配特征消融、R67全外层及R68资源/接口审计完成。新增15fits（R66十二次30epochs、R67三次短refit）。item-only在来源两池胜R25/full/常数，subject-only不稳定；固定item分段全外层ALC0.194448914，比R25改善0.000675012但弱于R56_segment，一折/BM/clusterCI未通过，收益仍由alignment主导。停止当前先验权重/门控/架构修补。
+
+高层认识：合法item字段可保留部分低预算均值信息，显式subject描述不是必要条件；这不证明非加性交互、通用任务难度或可靠跨Benchmark迁移。query整组统计仅离线诊断。R65 metadata描述缓存已修复，最终使用`R65/descriptor_v2`，原分解不变；R66/R67身份和保存概率重计分误差0，旧冻结输入/fallback未变。ADeLe512作者请求重建一致仍等待资源；官方多pair labeled可见性有依据，但hosted peer范围/状态/item匹配合同未完整确认。无后台实验、无晋级或提交。入口：[机制报告](../reports/transferable_prior_mechanism_findings.md)、[决策](TRANSFERABLE_PRIOR_DECISION.md)、[指标及正确率](../reports/transferable_prior_tables.md)。下方为各历史轮次状态。
+
+## 2026-10-22 当前：plan_4历史正面信号补证
+
+R62/R63/R64均完成5242pair×3seed完整评价和保存概率重计分，误差0。R56分段点估计0.193805399但收益集中主导Benchmark，BM/一折/CI未通过；R55 query仅改善约7.3e−6。R64模板平均0.195129047，修复原词法平均的大部分退化但仍略差R25。新增fit10次，复用R43权重3份，无新embedding、无待运行实验、无晋级或提交。详见[本轮状态](HISTORICAL_POSITIVE_FOLLOWUP_STATE.md)、[结果与机制认识](../reports/historical_positive_followup_findings.md)。下面“未做完整外层”等记录只指各历史轮次当时的状态。
+
+## 2026-10-22 当前：R59–R61低预算先验诊断与条件组合
+
+用户`doc/plan_3.md`已完成R59冻结预测诊断、R60单一无训练B1门控及R61来源pilot，数值与单一只读结构复核完成，无阻断问题。824次来源池pair记录对应412个不同pair，池之间重叠。R54/R56低预算总体优势由pair均值项主导；同pair内各题/variant的概率变化为净成本。R56主要改善均值项，而非普遍减少预测方差或提供独立信息源。
+
+无条件B0/B1预算分段在池0退化。首个合法支持标签的prior误差与收益有同向关系，故仅冻结`error<.25`的B1选择器，其他预算回退R25；实测三池ΔALC为+0.000313793/−0.000746241/−0.000396236，1/3池满足数值条件，整体未通过。没有阈值搜索、门控训练或新MLP训练；完整外层`condition_not_met`。主报告：[low_budget_prior_composition_findings.md](../reports/low_budget_prior_composition_findings.md)，合同：[LOW_BUDGET_PRIOR_COMPOSITION_SPEC.md](LOW_BUDGET_PRIOR_COMPOSITION_SPEC.md)。
+
+高层更新：pair均值信息存在于某些来源，不代表一条支持证据能够识别其可靠性。停止当前prior分段/单标签门控修补，下一问题是有哪些合法输入能在未知Benchmark上标定pair均值与误差方向。已复核R20/R36，跨subject仍有输入共享契约与强基线增益限制，不据旧弱peer对照自动开发。R25/fallback和原.005Gate保持；ADeLe等待资源。下方章节为历史。
+
+## 2026-10-22 最新：plan_2五候选已完成
+
+R54–R58按用户顺序和条件完成。36fits、996个epoch checkpoint：普通MLP三来源池双方向均为训练改善而来源外持续恶化；R43重采样、Benchmark风险及R43平均均未通过全部来源条件。MLP平均/初始化诊断未触发，不把未执行项说成训练失败。当前无后台训练；无新outer成绩或晋级，fallback不变。结果和理解见 [training_mechanism_v5_findings.md](../reports/training_mechanism_v5_findings.md)，恢复入口 [TRAINING_MECHANISM_V5_STATE.md](TRAINING_MECHANISM_V5_STATE.md)。下方R51/R52及更早内容保留为历史。
+
+## 2026-10-22 最新复现阶段
+
+用户授权 `doc/复现与组合.md` 后，R51 CNP/AttentiveCNP 与 R52 amortized IRT 已完成真实来源内实验，全部未通过进入条件；没有外层新成绩、组合或晋级。ADeLe原文与输入准备完成，用户确认等待资源。当前无后台训练。最新状态见 [REPRODUCTION_V4_STATE.md](REPRODUCTION_V4_STATE.md)，结果与认识见 [reproduction_v4_findings.md](../reports/reproduction_v4_findings.md)。以下v3及更早章节保留为历史证据；原Research Gate/fallback保持。
+
 <!-- current-v3 -->
 ## Loop v3 当前状态
 

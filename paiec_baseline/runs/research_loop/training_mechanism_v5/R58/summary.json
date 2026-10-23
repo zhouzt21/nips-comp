@@ -1,0 +1,144 @@
+{
+  "qualifying_source_pools": 0,
+  "source_pool_triggers": [
+    false,
+    false,
+    false
+  ],
+  "diagnostics": [
+    [
+      {
+        "selection": {
+          "patience_epoch": 2,
+          "stop_epoch": 7,
+          "best_same_steps": 2,
+          "best20": 2,
+          "best30": 2,
+          "fixed20": 20,
+          "fixed30": 30,
+          "recovery_starts": [],
+          "stable_window": null
+        },
+        "early_train": 0.20262522995471954,
+        "late_train": 0.014934551995247602,
+        "late_validation": 0.45274814297350324,
+        "overfit_no_recovery": true,
+        "initial_lazy": false,
+        "later_change": true,
+        "later_gain": false,
+        "initialization_trigger": false
+      },
+      {
+        "selection": {
+          "patience_epoch": 1,
+          "stop_epoch": 6,
+          "best_same_steps": 1,
+          "best20": 1,
+          "best30": 1,
+          "fixed20": 20,
+          "fixed30": 30,
+          "recovery_starts": [],
+          "stable_window": null
+        },
+        "early_train": 0.1817156046628952,
+        "late_train": 0.04049057215452194,
+        "late_validation": 0.4554522782500273,
+        "overfit_no_recovery": true,
+        "initial_lazy": false,
+        "later_change": true,
+        "later_gain": false,
+        "initialization_trigger": false
+      }
+    ],
+    [
+      {
+        "selection": {
+          "patience_epoch": 2,
+          "stop_epoch": 7,
+          "best_same_steps": 2,
+          "best20": 2,
+          "best30": 2,
+          "fixed20": 20,
+          "fixed30": 30,
+          "recovery_starts": [],
+          "stable_window": null
+        },
+        "early_train": 0.1497919887304306,
+        "late_train": 0.02429048977792263,
+        "late_validation": 0.4168363873869345,
+        "overfit_no_recovery": true,
+        "initial_lazy": false,
+        "later_change": true,
+        "later_gain": false,
+        "initialization_trigger": false
+      },
+      {
+        "selection": {
+          "patience_epoch": 2,
+          "stop_epoch": 7,
+          "best_same_steps": 2,
+          "best20": 2,
+          "best30": 2,
+          "fixed20": 20,
+          "fixed30": 30,
+          "recovery_starts": [],
+          "stable_window": null
+        },
+        "early_train": 0.1874396860599518,
+        "late_train": 0.013298382796347142,
+        "late_validation": 0.46142284883513185,
+        "overfit_no_recovery": true,
+        "initial_lazy": false,
+        "later_change": true,
+        "later_gain": false,
+        "initialization_trigger": false
+      }
+    ],
+    [
+      {
+        "selection": {
+          "patience_epoch": 2,
+          "stop_epoch": 7,
+          "best_same_steps": 2,
+          "best20": 2,
+          "best30": 2,
+          "fixed20": 20,
+          "fixed30": 30,
+          "recovery_starts": [],
+          "stable_window": null
+        },
+        "early_train": 0.18692225217819214,
+        "late_train": 0.05174155198037624,
+        "late_validation": 0.5340018207365803,
+        "overfit_no_recovery": true,
+        "initial_lazy": false,
+        "later_change": true,
+        "later_gain": false,
+        "initialization_trigger": false
+      },
+      {
+        "selection": {
+          "patience_epoch": 1,
+          "stop_epoch": 6,
+          "best_same_steps": 1,
+          "best20": 1,
+          "best30": 1,
+          "fixed20": 20,
+          "fixed30": 30,
+          "recovery_starts": [],
+          "stable_window": null
+        },
+        "early_train": 0.14242965430021287,
+        "late_train": 0.017645071912556886,
+        "late_validation": 0.43967246625952905,
+        "overfit_no_recovery": true,
+        "initial_lazy": false,
+        "later_change": true,
+        "later_gain": false,
+        "initialization_trigger": false
+      }
+    ]
+  ],
+  "status": "condition_not_met",
+  "fits_executed": 0
+}

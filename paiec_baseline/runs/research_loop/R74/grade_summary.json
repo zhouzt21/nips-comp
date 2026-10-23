@@ -1,0 +1,122 @@
+{
+  "AS": {
+    "exposures": 218,
+    "unique_items": 109,
+    "models": {
+      "student": {
+        "mae": 0.9936722388255445,
+        "rmse": 1.1652659590320444,
+        "rounded_exact_agreement": 0.22018348623853212,
+        "rounded_gt_one_error": 0.1743119266055046
+      },
+      "permuted_student": {
+        "mae": 0.9926657685073015,
+        "rmse": 1.1614738521463366,
+        "rounded_exact_agreement": 0.22018348623853212,
+        "rounded_gt_one_error": 0.16972477064220184
+      },
+      "fit_mean": {
+        "mae": 1.001693512775116,
+        "rmse": 1.1672999059371847,
+        "rounded_exact_agreement": 0.21559633027522937,
+        "rounded_gt_one_error": 0.2018348623853211
+      }
+    }
+  },
+  "MCr": {
+    "exposures": 216,
+    "unique_items": 108,
+    "models": {
+      "student": {
+        "mae": 1.0535960303324154,
+        "rmse": 1.225422809461043,
+        "rounded_exact_agreement": 0.25925925925925924,
+        "rounded_gt_one_error": 0.25925925925925924
+      },
+      "permuted_student": {
+        "mae": 1.0476832143223054,
+        "rmse": 1.221830068130051,
+        "rounded_exact_agreement": 0.25,
+        "rounded_gt_one_error": 0.24537037037037038
+      },
+      "fit_mean": {
+        "mae": 1.0533304851840757,
+        "rmse": 1.2426830787949246,
+        "rounded_exact_agreement": 0.28703703703703703,
+        "rounded_gt_one_error": 0.28703703703703703
+      }
+    }
+  },
+  "QLl": {
+    "exposures": 218,
+    "unique_items": 109,
+    "models": {
+      "student": {
+        "mae": 0.9981556496384515,
+        "rmse": 1.1678380310081844,
+        "rounded_exact_agreement": 0.3119266055045872,
+        "rounded_gt_one_error": 0.21559633027522937
+      },
+      "permuted_student": {
+        "mae": 1.009684841832777,
+        "rmse": 1.1783161294566544,
+        "rounded_exact_agreement": 0.3119266055045872,
+        "rounded_gt_one_error": 0.24770642201834864
+      },
+      "fit_mean": {
+        "mae": 1.008848226219373,
+        "rmse": 1.1761086149202677,
+        "rounded_exact_agreement": 0.26605504587155965,
+        "rounded_gt_one_error": 0.22477064220183487
+      }
+    }
+  },
+  "KNf": {
+    "exposures": 220,
+    "unique_items": 110,
+    "models": {
+      "student": {
+        "mae": 0.9224830089108836,
+        "rmse": 1.2427755481918048,
+        "rounded_exact_agreement": 0.31363636363636366,
+        "rounded_gt_one_error": 0.12727272727272726
+      },
+      "permuted_student": {
+        "mae": 0.9333483633884573,
+        "rmse": 1.250403988475313,
+        "rounded_exact_agreement": 0.3090909090909091,
+        "rounded_gt_one_error": 0.12727272727272726
+      },
+      "fit_mean": {
+        "mae": 0.9370819445474281,
+        "rmse": 1.2463501455238857,
+        "rounded_exact_agreement": 0.29545454545454547,
+        "rounded_gt_one_error": 0.1318181818181818
+      }
+    }
+  },
+  "ALL": {
+    "exposures": 872,
+    "unique_items": 110,
+    "models": {
+      "student": {
+        "mae": 0.9916760139877835,
+        "rmse": 1.2008575563810573,
+        "rounded_exact_agreement": 0.2763761467889908,
+        "rounded_gt_one_error": 0.1938073394495413
+      },
+      "permuted_student": {
+        "mae": 0.9955833111160731,
+        "rmse": 1.2035860320674978,
+        "rounded_exact_agreement": 0.27293577981651373,
+        "rounded_gt_one_error": 0.19724770642201836
+      },
+      "fit_mean": {
+        "mae": 0.9999719170882949,
+        "rmse": 1.2086722262614404,
+        "rounded_exact_agreement": 0.26605504587155965,
+        "rounded_gt_one_error": 0.21100917431192662
+      }
+    }
+  }
+}

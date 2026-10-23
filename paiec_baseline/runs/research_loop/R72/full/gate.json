@@ -1,0 +1,170 @@
+{
+  "R72_same1": {
+    "numerical_gate": false,
+    "criteria": {
+      "smoothed_mean_2": {
+        "gain_ge_005": false,
+        "three_fold_gain": true,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": true,
+        "no_large_unexplained_regression": true
+      },
+      "training_selected_smoothed": {
+        "gain_ge_005": true,
+        "three_fold_gain": true,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": true,
+        "no_large_unexplained_regression": true
+      }
+    },
+    "hosted_deployment": "unconfirmed_runtime",
+    "official_submission": false
+  },
+  "R72_same3": {
+    "numerical_gate": false,
+    "criteria": {
+      "smoothed_mean_2": {
+        "gain_ge_005": false,
+        "three_fold_gain": true,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": true,
+        "no_large_unexplained_regression": true
+      },
+      "training_selected_smoothed": {
+        "gain_ge_005": true,
+        "three_fold_gain": true,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": true,
+        "no_large_unexplained_regression": true
+      }
+    },
+    "hosted_deployment": "unconfirmed_runtime",
+    "official_submission": false
+  },
+  "R72_pooled1": {
+    "numerical_gate": true,
+    "criteria": {
+      "smoothed_mean_2": {
+        "gain_ge_005": true,
+        "three_fold_gain": true,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": true,
+        "no_large_unexplained_regression": true
+      },
+      "training_selected_smoothed": {
+        "gain_ge_005": true,
+        "three_fold_gain": true,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": true,
+        "no_large_unexplained_regression": true
+      }
+    },
+    "hosted_deployment": "unconfirmed_runtime",
+    "official_submission": false
+  },
+  "R72_pooled3": {
+    "numerical_gate": true,
+    "criteria": {
+      "smoothed_mean_2": {
+        "gain_ge_005": true,
+        "three_fold_gain": true,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": true,
+        "no_large_unexplained_regression": true
+      },
+      "training_selected_smoothed": {
+        "gain_ge_005": true,
+        "three_fold_gain": true,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": true,
+        "no_large_unexplained_regression": true
+      }
+    },
+    "hosted_deployment": "unconfirmed_runtime",
+    "official_submission": false
+  },
+  "R72_diff3": {
+    "numerical_gate": true,
+    "criteria": {
+      "smoothed_mean_2": {
+        "gain_ge_005": true,
+        "three_fold_gain": true,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": true,
+        "no_large_unexplained_regression": true
+      },
+      "training_selected_smoothed": {
+        "gain_ge_005": true,
+        "three_fold_gain": true,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": true,
+        "no_large_unexplained_regression": true
+      }
+    },
+    "hosted_deployment": "unconfirmed_runtime",
+    "official_submission": false
+  },
+  "R72_morelabels_mean3": {
+    "numerical_gate": false,
+    "criteria": {
+      "smoothed_mean_2": {
+        "gain_ge_005": false,
+        "three_fold_gain": false,
+        "benchmark_equal_gain": false,
+        "CI_upper_below_zero": false,
+        "no_large_unexplained_regression": false
+      },
+      "training_selected_smoothed": {
+        "gain_ge_005": false,
+        "three_fold_gain": false,
+        "benchmark_equal_gain": false,
+        "CI_upper_below_zero": false,
+        "no_large_unexplained_regression": false
+      }
+    },
+    "hosted_deployment": "unconfirmed_runtime",
+    "official_submission": false
+  },
+  "R36_own_pooled3": {
+    "numerical_gate": false,
+    "criteria": {
+      "smoothed_mean_2": {
+        "gain_ge_005": false,
+        "three_fold_gain": true,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": true,
+        "no_large_unexplained_regression": true
+      },
+      "training_selected_smoothed": {
+        "gain_ge_005": true,
+        "three_fold_gain": true,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": true,
+        "no_large_unexplained_regression": true
+      }
+    },
+    "hosted_deployment": "unconfirmed_runtime",
+    "official_submission": false
+  },
+  "R20_peer_pooled3": {
+    "numerical_gate": false,
+    "criteria": {
+      "smoothed_mean_2": {
+        "gain_ge_005": false,
+        "three_fold_gain": false,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": true,
+        "no_large_unexplained_regression": true
+      },
+      "training_selected_smoothed": {
+        "gain_ge_005": false,
+        "three_fold_gain": true,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": true,
+        "no_large_unexplained_regression": true
+      }
+    },
+    "hosted_deployment": "unconfirmed_runtime",
+    "official_submission": false
+  }
+}

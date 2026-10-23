@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "pairs_with_pool_repetition": 824,
+  "response_groups_with_pool_repetition": 52274,
+  "used_caches_verified_against_V5_inventory": 72,
+  "direct_success_failure_brier_max_error": 1.6653345369377348e-16,
+  "decomposition_max_error": 9.020562075079397e-16,
+  "author_metric_normalization_max_error": 1.6653345369377348e-16,
+  "gate_support_input_max_error": 9.020562075079397e-17,
+  "author_source_sha256": "d8a27d5c62eb04f0d6396ea8326ece44c2f3b41f1503182451a64aede67247f2",
+  "author_function": "brier_scores",
+  "author_transform": "binary_brier=(author_raw+1)/2; not raw score or binned decomposition",
+  "candidate_non_B1_predictions": "bitwise identical to R25",
+  "candidate_gate": "all flags recomputed from frozen weights and first support only",
+  "query_label_use": "scoring only; no fitted gate or threshold search",
+  "gate_diagnostics": [
+    {
+      "fold": 0,
+      "selected": 167,
+      "false_selections": 81,
+      "false_selection_fraction": 0.48502994011976047,
+      "missed_gains": 88,
+      "rejected": 149,
+      "selected_mean_B1_delta": 0.0029688163953722844,
+      "rejected_mean_potential_B1_delta": -0.0029900587899100452
+    },
+    {
+      "fold": 1,
+      "selected": 141,
+      "false_selections": 57,
+      "false_selection_fraction": 0.40425531914893614,
+      "missed_gains": 59,
+      "rejected": 119,
+      "selected_mean_B1_delta": -0.006880239542087593,
+      "rejected_mean_potential_B1_delta": -0.006306876118835511
+    },
+    {
+      "fold": 2,
+      "selected": 145,
+      "false_selections": 67,
+      "false_selection_fraction": 0.46206896551724136,
+      "missed_gains": 61,
+      "rejected": 103,
+      "selected_mean_B1_delta": -0.0033884981517029477,
+      "rejected_mean_potential_B1_delta": -0.007837623606198482
+    }
+  ]
+}

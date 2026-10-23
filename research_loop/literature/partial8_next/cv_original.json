@@ -1,0 +1,13 @@
+{
+  "utc": "2026-10-23T04:37:11.095576+00:00",
+  "args": [
+    "extract",
+    "https://www.jmlr.org/papers/v5/grandvalet04a.html"
+  ],
+  "returncode": 0,
+  "output": {
+    "url": "https://www.jmlr.org/papers/v5/grandvalet04a.html",
+    "title": "",
+    "content": "## No Unbiased Estimator of the Variance of K-Fold Cross-Validation\n\n***Yoshua Bengio, Yves Grandvalet***; 5(Sep):1089--1105, 2004.\n\n### Abstract\n\nMost machine learning researchers perform quantitative experiments to estimate generalization error and compare the performance of different algorithms (in particular, their proposed algorithm). In order to be able to draw statistically convincing conclusions, it is important to estimate the uncertainty of such estimates. This paper studies the very commonly used K-fold cross-validation estimator of generalization performance. The main theorem shows that there exists no universal (valid under all distributions) unbiased estimator of the variance of K-fold cross-validation. The analysis that accompanies this result is based on the eigen-decomposition of the covariance matrix of errors, which has only three different eigenvalues corresponding to three degrees of freedom of the matrix and three components of the total variance. This analysis helps to better understand the nature of the problem and how it can make naive estimators (that don't take into account the error correlations due to the overlap between training and test sets) grossly underestimate variance. This is confirmed by numerical experiments in which the three components of the variance are compared when the difficulty of the learning problem and the number of folds are varied.\n\n\\[abs]\\[[pdf](http://www.jmlr.org/papers/volume5/grandvalet04a/grandvalet04a.pdf)] \\[[ps.gz](http://www.jmlr.org/papers/volume5/grandvalet04a/grandvalet04a.ps.gz)] \\[[ps](http://www.jmlr.org/papers/volume5/grandvalet04a/grandvalet04a.ps)]"
+  }
+}

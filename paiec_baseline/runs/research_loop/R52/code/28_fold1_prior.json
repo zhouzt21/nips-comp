@@ -1,0 +1,66 @@
+{
+  "source_revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+  "train_benchmarks": [
+    "abstract_reason/formatted_tables",
+    "adaptivestep/formatted_tables",
+    "advprompter/formatted_tables",
+    "agentic_review_perturbation/formatted_tables",
+    "agi_elo/formatted_tables",
+    "ai2d_test/formatted_tables",
+    "aider/formatted_tables",
+    "algotune/formatted_tables",
+    "alignment_faking/formatted_tables",
+    "auditing_sabotage_bench/formatted_tables",
+    "benger/formatted_tables",
+    "bertaqa/formatted_tables",
+    "bird_sql/formatted_tables",
+    "braveguard/formatted_tables",
+    "cellverse/formatted_tables",
+    "ceval/formatted_tables",
+    "chartmuseum/formatted_tables",
+    "chi_bench/formatted_tables",
+    "confagents/formatted_tables",
+    "cruxeval/formatted_tables",
+    "dave/formatted_tables",
+    "dbpa/formatted_tables",
+    "edu_circuit_hw/formatted_tables",
+    "egoschema/formatted_tables",
+    "ehrflowbench/formatted_tables",
+    "engdesign/formatted_tables",
+    "evouna/formatted_tables",
+    "exploitgym/formatted_tables",
+    "felm/formatted_tables",
+    "financebench/formatted_tables",
+    "haiid/formatted_tables",
+    "healthadminbench/formatted_tables"
+  ],
+  "training_pairs": 4843,
+  "training_pair_rate_mean": 0.42107125368183995,
+  "selection_method": "training-only exchangeable Binomial risk proxy",
+  "selected": {
+    "public_prior": {
+      "prior": 0.42107125368183995,
+      "alpha": 2.0,
+      "proxy_by_alpha": {
+        "1.0": 0.19508987933525673,
+        "2.0": 0.19300000093880698,
+        "4.0": 0.19541716110259133,
+        "8.0": 0.2018053152315318,
+        "16.0": 0.21073916428065356
+      }
+    },
+    "smoothed_05": {
+      "prior": 0.5,
+      "alpha": 2.0,
+      "proxy_by_alpha": {
+        "1.0": 0.19612715654493276,
+        "2.0": 0.1944571444154317,
+        "4.0": 0.1974724966236171,
+        "8.0": 0.20460311366781275,
+        "16.0": 0.21435642989301457
+      }
+    }
+  },
+  "priors": {},
+  "global_mean": 0.42107125368183995
+}

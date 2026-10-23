@@ -1,0 +1,5570 @@
+[
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "5cfdaf4f3b2ab144",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "half",
+    "z": 0.007279688215740847,
+    "repeat_z": [
+      -0.003304454502328942,
+      0.01786383093381064
+    ],
+    "query_delta": -0.01151243482632583,
+    "masked_fit_query_delta": -0.006549173556812851,
+    "validation_gap": 0.0138288617725537,
+    "fit_size_gap": 0.004963261269512978,
+    "estimation_error": 0.018792123042066677,
+    "feature_mean_gap": 0.012969664147040594,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.01943497415184299,
+      "hi": 0.028957368129688583,
+      "bootstrap_positive_fraction": 0.735,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.16779457724164343,
+      "pooled": 0.1555035767131816,
+      "partial": 0.1562821424153176
+    },
+    "query_accuracy": {
+      "own": 0.796875,
+      "pooled": 0.796875,
+      "partial": 0.796875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "5cfdaf4f3b2ab144",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "loio",
+    "z": -0.003016284365246083,
+    "repeat_z": [
+      -0.003016284365246083
+    ],
+    "query_delta": -0.01151243482632583,
+    "masked_fit_query_delta": -0.01142990215727481,
+    "validation_gap": 0.008413617792028727,
+    "fit_size_gap": 8.253266905101919e-05,
+    "estimation_error": 0.008496150461079746,
+    "feature_mean_gap": 0.012969664147040594,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.030788554002225826,
+      "hi": 0.016680280555381698,
+      "bootstrap_positive_fraction": 0.436,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.16779457724164343,
+      "pooled": 0.1555035767131816,
+      "partial": 0.1562821424153176
+    },
+    "query_accuracy": {
+      "own": 0.796875,
+      "pooled": 0.796875,
+      "partial": 0.796875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "5cfdaf4f3b2ab144",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "k5",
+    "z": -0.002310674656202139,
+    "repeat_z": [
+      0.00041868489415867506,
+      -0.0050400342065629496
+    ],
+    "query_delta": -0.01151243482632583,
+    "masked_fit_query_delta": -0.011179932841886626,
+    "validation_gap": 0.008869258185684487,
+    "fit_size_gap": 0.0003325019844392027,
+    "estimation_error": 0.00920176017012369,
+    "feature_mean_gap": 0.012969664147040594,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.03061161806753215,
+      "hi": 0.017638312404999905,
+      "bootstrap_positive_fraction": 0.469,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.16779457724164343,
+      "pooled": 0.1555035767131816,
+      "partial": 0.1562821424153176
+    },
+    "query_accuracy": {
+      "own": 0.796875,
+      "pooled": 0.796875,
+      "partial": 0.796875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "5cfdaf4f3b2ab144",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "half",
+    "z": -0.014054205533469968,
+    "repeat_z": [
+      -0.018635034060632247,
+      -0.009473377006307685
+    ],
+    "query_delta": -0.010226513243306118,
+    "masked_fit_query_delta": -0.009553463178548192,
+    "validation_gap": -0.004500742354921776,
+    "fit_size_gap": 0.0006730500647579261,
+    "estimation_error": -0.00382769229016385,
+    "feature_mean_gap": 0.007342304374554706,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.032133930806672546,
+      "hi": 0.004638602509168212,
+      "bootstrap_positive_fraction": 0.07,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.16955224553084722,
+      "pooled": 0.15846452523199528,
+      "partial": 0.1593257322875411
+    },
+    "query_accuracy": {
+      "own": 0.796875,
+      "pooled": 0.796875,
+      "partial": 0.796875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "5cfdaf4f3b2ab144",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "loio",
+    "z": -0.010373985312624665,
+    "repeat_z": [
+      -0.010373985312624665
+    ],
+    "query_delta": -0.010226513243306118,
+    "masked_fit_query_delta": -0.010175812075462885,
+    "validation_gap": -0.0001981732371617792,
+    "fit_size_gap": 5.0701167843232586e-05,
+    "estimation_error": -0.00014747206931854662,
+    "feature_mean_gap": 0.007342304374554706,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.02868064542172429,
+      "hi": 0.005418206886834515,
+      "bootstrap_positive_fraction": 0.116,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.16955224553084722,
+      "pooled": 0.15846452523199528,
+      "partial": 0.1593257322875411
+    },
+    "query_accuracy": {
+      "own": 0.796875,
+      "pooled": 0.796875,
+      "partial": 0.796875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "5cfdaf4f3b2ab144",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "k5",
+    "z": -0.007125299217470573,
+    "repeat_z": [
+      -0.006283524272827206,
+      -0.007967074162113941
+    ],
+    "query_delta": -0.010226513243306118,
+    "masked_fit_query_delta": -0.009478066938214577,
+    "validation_gap": 0.002352767720744005,
+    "fit_size_gap": 0.0007484463050915404,
+    "estimation_error": 0.003101214025835545,
+    "feature_mean_gap": 0.007342304374554706,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.02426398917588717,
+      "hi": 0.007929936577173159,
+      "bootstrap_positive_fraction": 0.214,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.16955224553084722,
+      "pooled": 0.15846452523199528,
+      "partial": 0.1593257322875411
+    },
+    "query_accuracy": {
+      "own": 0.796875,
+      "pooled": 0.796875,
+      "partial": 0.796875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "5cfdaf4f3b2ab144",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "half",
+    "z": -0.0037920375640232494,
+    "repeat_z": [
+      -0.0032742166179070206,
+      -0.004309858510139482
+    ],
+    "query_delta": -0.003003303477198932,
+    "masked_fit_query_delta": -0.002471872123316212,
+    "validation_gap": -0.0013201654407070376,
+    "fit_size_gap": 0.0005314313538827202,
+    "estimation_error": -0.0007887340868243174,
+    "feature_mean_gap": 0.015148706235670776,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.02757231406474909,
+      "hi": 0.01992947805397915,
+      "bootstrap_positive_fraction": 0.404,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.21447441975374368,
+      "pooled": 0.21118083470510632,
+      "partial": 0.21147111627654475
+    },
+    "query_accuracy": {
+      "own": 0.71875,
+      "pooled": 0.71875,
+      "partial": 0.71875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "5cfdaf4f3b2ab144",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "loio",
+    "z": -0.004635078127297269,
+    "repeat_z": [
+      -0.004635078127297269
+    ],
+    "query_delta": -0.003003303477198932,
+    "masked_fit_query_delta": -0.003012701835493775,
+    "validation_gap": -0.0016223762918034942,
+    "fit_size_gap": -9.398358294842885e-06,
+    "estimation_error": -0.001631774650098337,
+    "feature_mean_gap": 0.015148706235670776,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.031735512171910965,
+      "hi": 0.021994403129776265,
+      "bootstrap_positive_fraction": 0.394,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.21447441975374368,
+      "pooled": 0.21118083470510632,
+      "partial": 0.21147111627654475
+    },
+    "query_accuracy": {
+      "own": 0.71875,
+      "pooled": 0.71875,
+      "partial": 0.71875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "5cfdaf4f3b2ab144",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "k5",
+    "z": -0.00523475912729719,
+    "repeat_z": [
+      -0.0008975757631037492,
+      -0.009571942491490628
+    ],
+    "query_delta": -0.003003303477198932,
+    "masked_fit_query_delta": -0.0031292075081191862,
+    "validation_gap": -0.0021055516191780034,
+    "fit_size_gap": -0.00012590403092025424,
+    "estimation_error": -0.0022314556500982576,
+    "feature_mean_gap": 0.015148706235670776,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.03315962841546221,
+      "hi": 0.021309838737376595,
+      "bootstrap_positive_fraction": 0.386,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.21447441975374368,
+      "pooled": 0.21118083470510632,
+      "partial": 0.21147111627654475
+    },
+    "query_accuracy": {
+      "own": 0.71875,
+      "pooled": 0.71875,
+      "partial": 0.71875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "5cfdaf4f3b2ab144",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "half",
+    "z": -0.007403256695330893,
+    "repeat_z": [
+      -0.005636536009294578,
+      -0.00916997738136721
+    ],
+    "query_delta": -0.008995115735331072,
+    "masked_fit_query_delta": -0.009252457824268132,
+    "validation_gap": 0.0018492011289372385,
+    "fit_size_gap": -0.0002573420889370598,
+    "estimation_error": 0.0015918590400001787,
+    "feature_mean_gap": 0.005443400175682701,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.028032914386226678,
+      "hi": 0.012559519707443467,
+      "bootstrap_positive_fraction": 0.239,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.214553930298789,
+      "pooled": 0.2051882259266391,
+      "partial": 0.20555881456345793
+    },
+    "query_accuracy": {
+      "own": 0.71875,
+      "pooled": 0.71875,
+      "partial": 0.71875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "5cfdaf4f3b2ab144",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "loio",
+    "z": -0.0027284987642554816,
+    "repeat_z": [
+      -0.0027284987642554816
+    ],
+    "query_delta": -0.008995115735331072,
+    "masked_fit_query_delta": -0.008946967965058047,
+    "validation_gap": 0.006218469200802566,
+    "fit_size_gap": 4.8147770273024304e-05,
+    "estimation_error": 0.006266616971075591,
+    "feature_mean_gap": 0.005443400175682701,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.019636707294349177,
+      "hi": 0.012640911599648346,
+      "bootstrap_positive_fraction": 0.394,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.214553930298789,
+      "pooled": 0.2051882259266391,
+      "partial": 0.20555881456345793
+    },
+    "query_accuracy": {
+      "own": 0.71875,
+      "pooled": 0.71875,
+      "partial": 0.71875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "5cfdaf4f3b2ab144",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "k5",
+    "z": -0.0030288144145177802,
+    "repeat_z": [
+      -0.002261798493627365,
+      -0.0037958303354081947
+    ],
+    "query_delta": -0.008995115735331072,
+    "masked_fit_query_delta": -0.008642724250248555,
+    "validation_gap": 0.005613909835730775,
+    "fit_size_gap": 0.00035239148508251633,
+    "estimation_error": 0.005966301320813291,
+    "feature_mean_gap": 0.005443400175682701,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.019900001820640955,
+      "hi": 0.012527640986991013,
+      "bootstrap_positive_fraction": 0.379,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.214553930298789,
+      "pooled": 0.2051882259266391,
+      "partial": 0.20555881456345793
+    },
+    "query_accuracy": {
+      "own": 0.71875,
+      "pooled": 0.71875,
+      "partial": 0.71875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "5cfdaf4f3b2ab144",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "half",
+    "z": 0.025430999243713268,
+    "repeat_z": [
+      0.0301448278434225,
+      0.020717170644004045
+    ],
+    "query_delta": -0.0035419619079521403,
+    "masked_fit_query_delta": 0.001922855025289486,
+    "validation_gap": 0.02350814421842378,
+    "fit_size_gap": 0.005464816933241626,
+    "estimation_error": 0.028972961151665408,
+    "feature_mean_gap": 0.01521856346996283,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.0076015929585630864,
+      "hi": 0.06364702485405446,
+      "bootstrap_positive_fraction": 0.92,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.19563103246001284,
+      "pooled": 0.19257428965368895,
+      "partial": 0.1920890705520607
+    },
+    "query_accuracy": {
+      "own": 0.75,
+      "pooled": 0.78125,
+      "partial": 0.78125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "5cfdaf4f3b2ab144",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "loio",
+    "z": 0.013314454803191881,
+    "repeat_z": [
+      0.013314454803191881
+    ],
+    "query_delta": -0.0035419619079521403,
+    "masked_fit_query_delta": -0.0033370434680539242,
+    "validation_gap": 0.016651498271245804,
+    "fit_size_gap": 0.00020491843989821606,
+    "estimation_error": 0.01685641671114402,
+    "feature_mean_gap": 0.01521856346996283,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.011707542370644478,
+      "hi": 0.04225715220527632,
+      "bootstrap_positive_fraction": 0.833,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.19563103246001284,
+      "pooled": 0.19257428965368895,
+      "partial": 0.1920890705520607
+    },
+    "query_accuracy": {
+      "own": 0.75,
+      "pooled": 0.78125,
+      "partial": 0.78125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "5cfdaf4f3b2ab144",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "k5",
+    "z": 0.01565216379775484,
+    "repeat_z": [
+      0.013991845780148178,
+      0.017312481815361498
+    ],
+    "query_delta": -0.0035419619079521403,
+    "masked_fit_query_delta": -0.0025030756634414654,
+    "validation_gap": 0.018155239461196307,
+    "fit_size_gap": 0.0010388862445106749,
+    "estimation_error": 0.019194125705706982,
+    "feature_mean_gap": 0.01521856346996283,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.009227766236959393,
+      "hi": 0.04467610923242191,
+      "bootstrap_positive_fraction": 0.867,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.19563103246001284,
+      "pooled": 0.19257428965368895,
+      "partial": 0.1920890705520607
+    },
+    "query_accuracy": {
+      "own": 0.75,
+      "pooled": 0.78125,
+      "partial": 0.78125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "5cfdaf4f3b2ab144",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "half",
+    "z": -0.0006893596866222855,
+    "repeat_z": [
+      -0.0020718386816441416,
+      0.0006931193083995658
+    ],
+    "query_delta": -0.0023442064712239363,
+    "masked_fit_query_delta": -0.002073211903097668,
+    "validation_gap": 0.0013838522164753824,
+    "fit_size_gap": 0.00027099456812626835,
+    "estimation_error": 0.0016548467846016508,
+    "feature_mean_gap": 0.007872540435378092,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.0283077448519457,
+      "hi": 0.028638953968815602,
+      "bootstrap_positive_fraction": 0.445,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.23271362857851785,
+      "pooled": 0.23035671400183683,
+      "partial": 0.23036942210729391
+    },
+    "query_accuracy": {
+      "own": 0.65625,
+      "pooled": 0.625,
+      "partial": 0.609375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "5cfdaf4f3b2ab144",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "loio",
+    "z": -0.0012723516881051934,
+    "repeat_z": [
+      -0.0012723516881051934
+    ],
+    "query_delta": -0.0023442064712239363,
+    "masked_fit_query_delta": -0.002325009699029369,
+    "validation_gap": 0.0010526580109241756,
+    "fit_size_gap": 1.9196772194567373e-05,
+    "estimation_error": 0.001071854783118743,
+    "feature_mean_gap": 0.007872540435378092,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.027734516785273472,
+      "hi": 0.027920718614334945,
+      "bootstrap_positive_fraction": 0.44,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.23271362857851785,
+      "pooled": 0.23035671400183683,
+      "partial": 0.23036942210729391
+    },
+    "query_accuracy": {
+      "own": 0.65625,
+      "pooled": 0.625,
+      "partial": 0.609375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "5cfdaf4f3b2ab144",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "k5",
+    "z": -0.0003280547485475332,
+    "repeat_z": [
+      0.0008034066454706673,
+      -0.0014595161425657382
+    ],
+    "query_delta": -0.0023442064712239363,
+    "masked_fit_query_delta": -0.0019889991285299835,
+    "validation_gap": 0.0016609443799824504,
+    "fit_size_gap": 0.0003552073426939528,
+    "estimation_error": 0.002016151722676403,
+    "feature_mean_gap": 0.007872540435378092,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.02636822798561188,
+      "hi": 0.02819828790796791,
+      "bootstrap_positive_fraction": 0.465,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.23271362857851785,
+      "pooled": 0.23035671400183683,
+      "partial": 0.23036942210729391
+    },
+    "query_accuracy": {
+      "own": 0.65625,
+      "pooled": 0.625,
+      "partial": 0.609375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "ce10059d5c8177f4",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "half",
+    "z": 0.012443491955320359,
+    "repeat_z": [
+      0.0018135575417278828,
+      0.023073426368912835
+    ],
+    "query_delta": 0.0029898039602730964,
+    "masked_fit_query_delta": 0.004175534043352115,
+    "validation_gap": 0.008267957911968243,
+    "fit_size_gap": 0.0011857300830790188,
+    "estimation_error": 0.009453687995047262,
+    "feature_mean_gap": 0.013476190108050446,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.011695324997451493,
+      "hi": 0.033452046155962784,
+      "bootstrap_positive_fraction": 0.844,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.20045069095655466,
+      "pooled": 0.20461708315660102,
+      "partial": 0.20344049491682775
+    },
+    "query_accuracy": {
+      "own": 0.765625,
+      "pooled": 0.765625,
+      "partial": 0.765625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "ce10059d5c8177f4",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "loio",
+    "z": 0.013226571075879883,
+    "repeat_z": [
+      0.013226571075879883
+    ],
+    "query_delta": 0.0029898039602730964,
+    "masked_fit_query_delta": 0.003164324695297464,
+    "validation_gap": 0.01006224638058242,
+    "fit_size_gap": 0.00017452073502436782,
+    "estimation_error": 0.010236767115606787,
+    "feature_mean_gap": 0.013476190108050446,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.00719462075729045,
+      "hi": 0.03121896925832181,
+      "bootstrap_positive_fraction": 0.882,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.20045069095655466,
+      "pooled": 0.20461708315660102,
+      "partial": 0.20344049491682775
+    },
+    "query_accuracy": {
+      "own": 0.765625,
+      "pooled": 0.765625,
+      "partial": 0.765625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "ce10059d5c8177f4",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "k5",
+    "z": 0.015560675530677807,
+    "repeat_z": [
+      0.012612832753197524,
+      0.018508518308158087
+    ],
+    "query_delta": 0.0029898039602730964,
+    "masked_fit_query_delta": 0.003752841307693206,
+    "validation_gap": 0.011807834222984601,
+    "fit_size_gap": 0.0007630373474201094,
+    "estimation_error": 0.01257087157040471,
+    "feature_mean_gap": 0.013476190108050446,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.004016953589826317,
+      "hi": 0.03274613060666798,
+      "bootstrap_positive_fraction": 0.936,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.20045069095655466,
+      "pooled": 0.20461708315660102,
+      "partial": 0.20344049491682775
+    },
+    "query_accuracy": {
+      "own": 0.765625,
+      "pooled": 0.765625,
+      "partial": 0.765625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "ce10059d5c8177f4",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "half",
+    "z": -0.005436539152830766,
+    "repeat_z": [
+      -0.007447440305807679,
+      -0.003425637999853854
+    ],
+    "query_delta": -0.004426233678598068,
+    "masked_fit_query_delta": -0.004832281702687488,
+    "validation_gap": -0.0006042574501432781,
+    "fit_size_gap": -0.0004060480240894197,
+    "estimation_error": -0.0010103054742326978,
+    "feature_mean_gap": 0.007218453938909427,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.02308231659295795,
+      "hi": 0.012385059639924659,
+      "bootstrap_positive_fraction": 0.275,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.18534497038642123,
+      "pooled": 0.1813854127574833,
+      "partial": 0.18091873670782316
+    },
+    "query_accuracy": {
+      "own": 0.765625,
+      "pooled": 0.75,
+      "partial": 0.75
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "ce10059d5c8177f4",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "loio",
+    "z": 3.920186165252567e-05,
+    "repeat_z": [
+      3.920186165252567e-05
+    ],
+    "query_delta": -0.004426233678598068,
+    "masked_fit_query_delta": -0.004388305518611044,
+    "validation_gap": 0.0044275073802635696,
+    "fit_size_gap": 3.792815998702407e-05,
+    "estimation_error": 0.004465435540250594,
+    "feature_mean_gap": 0.007218453938909427,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.017444738025405193,
+      "hi": 0.01843647467776036,
+      "bootstrap_positive_fraction": 0.522,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.18534497038642123,
+      "pooled": 0.1813854127574833,
+      "partial": 0.18091873670782316
+    },
+    "query_accuracy": {
+      "own": 0.765625,
+      "pooled": 0.75,
+      "partial": 0.75
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "ce10059d5c8177f4",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "k5",
+    "z": -0.001682888420682537,
+    "repeat_z": [
+      -0.0016909347384952208,
+      -0.0016748421028698495
+    ],
+    "query_delta": -0.004426233678598068,
+    "masked_fit_query_delta": -0.004194818999227791,
+    "validation_gap": 0.002511930578545254,
+    "fit_size_gap": 0.00023141467937027715,
+    "estimation_error": 0.0027433452579155313,
+    "feature_mean_gap": 0.007218453938909427,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.019182148485354197,
+      "hi": 0.016443141610934908,
+      "bootstrap_positive_fraction": 0.447,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.18534497038642123,
+      "pooled": 0.1813854127574833,
+      "partial": 0.18091873670782316
+    },
+    "query_accuracy": {
+      "own": 0.765625,
+      "pooled": 0.75,
+      "partial": 0.75
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "ce10059d5c8177f4",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "half",
+    "z": -0.004601311803270846,
+    "repeat_z": [
+      -0.010640656243929791,
+      0.001438032637388105
+    ],
+    "query_delta": 0.013346936108503016,
+    "masked_fit_query_delta": 0.010168699968879645,
+    "validation_gap": -0.01477001177215049,
+    "fit_size_gap": -0.003178236139623371,
+    "estimation_error": -0.017948247911773862,
+    "feature_mean_gap": 0.011091059794262632,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.03715156502011767,
+      "hi": 0.02289140108592406,
+      "bootstrap_positive_fraction": 0.389,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.20501902696946928,
+      "pooled": 0.21982394591224963,
+      "partial": 0.2183659630779723
+    },
+    "query_accuracy": {
+      "own": 0.71875,
+      "pooled": 0.71875,
+      "partial": 0.71875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "ce10059d5c8177f4",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "loio",
+    "z": 0.005011171219189331,
+    "repeat_z": [
+      0.005011171219189331
+    ],
+    "query_delta": 0.013346936108503016,
+    "masked_fit_query_delta": 0.013358716270661132,
+    "validation_gap": -0.0083475450514718,
+    "fit_size_gap": 1.1780162158116225e-05,
+    "estimation_error": -0.008335764889313684,
+    "feature_mean_gap": 0.011091059794262632,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.026502527244657414,
+      "hi": 0.03567571818358319,
+      "bootstrap_positive_fraction": 0.619,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.20501902696946928,
+      "pooled": 0.21982394591224963,
+      "partial": 0.2183659630779723
+    },
+    "query_accuracy": {
+      "own": 0.71875,
+      "pooled": 0.71875,
+      "partial": 0.71875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "ce10059d5c8177f4",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "k5",
+    "z": 0.005620825750927829,
+    "repeat_z": [
+      0.005016937018027292,
+      0.006224714483828366
+    ],
+    "query_delta": 0.013346936108503016,
+    "masked_fit_query_delta": 0.0134334484358185,
+    "validation_gap": -0.00781262268489067,
+    "fit_size_gap": 8.651232731548414e-05,
+    "estimation_error": -0.007726110357575187,
+    "feature_mean_gap": 0.011091059794262632,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.0239835835775968,
+      "hi": 0.03359575255591223,
+      "bootstrap_positive_fraction": 0.64,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.20501902696946928,
+      "pooled": 0.21982394591224963,
+      "partial": 0.2183659630779723
+    },
+    "query_accuracy": {
+      "own": 0.71875,
+      "pooled": 0.71875,
+      "partial": 0.71875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "ce10059d5c8177f4",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "half",
+    "z": -0.008193779423420443,
+    "repeat_z": [
+      -0.0062395978463151945,
+      -0.010147961000525693
+    ],
+    "query_delta": 0.01460168495438019,
+    "masked_fit_query_delta": 0.012482908403102313,
+    "validation_gap": -0.020676687826522756,
+    "fit_size_gap": -0.002118776551277877,
+    "estimation_error": -0.022795464377800632,
+    "feature_mean_gap": 0.005575898549187967,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.035058782460280255,
+      "hi": 0.015438297594591775,
+      "bootstrap_positive_fraction": 0.246,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.19880987326096128,
+      "pooled": 0.21455799447167512,
+      "partial": 0.21341155821534147
+    },
+    "query_accuracy": {
+      "own": 0.71875,
+      "pooled": 0.71875,
+      "partial": 0.71875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "ce10059d5c8177f4",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "loio",
+    "z": -0.002552894327429103,
+    "repeat_z": [
+      -0.002552894327429103
+    ],
+    "query_delta": 0.01460168495438019,
+    "masked_fit_query_delta": 0.014563351229297826,
+    "validation_gap": -0.01711624555672693,
+    "fit_size_gap": -3.833372508236371e-05,
+    "estimation_error": -0.017154579281809294,
+    "feature_mean_gap": 0.005575898549187967,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.026488207811079592,
+      "hi": 0.018763160394757433,
+      "bootstrap_positive_fraction": 0.423,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.19880987326096128,
+      "pooled": 0.21455799447167512,
+      "partial": 0.21341155821534147
+    },
+    "query_accuracy": {
+      "own": 0.71875,
+      "pooled": 0.71875,
+      "partial": 0.71875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "ce10059d5c8177f4",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "k5",
+    "z": -0.001241082362325387,
+    "repeat_z": [
+      -0.0011234139960100266,
+      -0.0013587507286407466
+    ],
+    "query_delta": 0.01460168495438019,
+    "masked_fit_query_delta": 0.014613407104529626,
+    "validation_gap": -0.015854489466855012,
+    "fit_size_gap": 1.1722150149436755e-05,
+    "estimation_error": -0.015842767316705576,
+    "feature_mean_gap": 0.005575898549187967,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.025123610955558852,
+      "hi": 0.020177186951797633,
+      "bootstrap_positive_fraction": 0.458,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.19880987326096128,
+      "pooled": 0.21455799447167512,
+      "partial": 0.21341155821534147
+    },
+    "query_accuracy": {
+      "own": 0.71875,
+      "pooled": 0.71875,
+      "partial": 0.71875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "ce10059d5c8177f4",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "half",
+    "z": 0.001223263535332148,
+    "repeat_z": [
+      0.0015257413243416479,
+      0.000920785746322647
+    ],
+    "query_delta": -0.002634789398600068,
+    "masked_fit_query_delta": -0.004904284396603443,
+    "validation_gap": 0.006127547931935591,
+    "fit_size_gap": -0.0022694949980033748,
+    "estimation_error": 0.003858052933932216,
+    "feature_mean_gap": 0.013526142879441498,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.011474358488871864,
+      "hi": 0.014807204481794926,
+      "bootstrap_positive_fraction": 0.586,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.15992106326236374,
+      "pooled": 0.15812359440352422,
+      "partial": 0.15728627386376368
+    },
+    "query_accuracy": {
+      "own": 0.78125,
+      "pooled": 0.78125,
+      "partial": 0.78125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "ce10059d5c8177f4",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "loio",
+    "z": 0.004521740832888576,
+    "repeat_z": [
+      0.004521740832888576
+    ],
+    "query_delta": -0.002634789398600068,
+    "masked_fit_query_delta": -0.002811759019934512,
+    "validation_gap": 0.007333499852823088,
+    "fit_size_gap": -0.00017696962133444388,
+    "estimation_error": 0.007156530231488644,
+    "feature_mean_gap": 0.013526142879441498,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.005967216175955826,
+      "hi": 0.016130977972117135,
+      "bootstrap_positive_fraction": 0.794,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.15992106326236374,
+      "pooled": 0.15812359440352422,
+      "partial": 0.15728627386376368
+    },
+    "query_accuracy": {
+      "own": 0.78125,
+      "pooled": 0.78125,
+      "partial": 0.78125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "ce10059d5c8177f4",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "k5",
+    "z": 0.0024143138698168847,
+    "repeat_z": [
+      0.003581607299416984,
+      0.0012470204402167868
+    ],
+    "query_delta": -0.002634789398600068,
+    "masked_fit_query_delta": -0.003338543275566652,
+    "validation_gap": 0.005752857145383537,
+    "fit_size_gap": -0.0007037538769665841,
+    "estimation_error": 0.005049103268416953,
+    "feature_mean_gap": 0.013526142879441498,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.008457838022851525,
+      "hi": 0.014578632409497482,
+      "bootstrap_positive_fraction": 0.662,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.15992106326236374,
+      "pooled": 0.15812359440352422,
+      "partial": 0.15728627386376368
+    },
+    "query_accuracy": {
+      "own": 0.78125,
+      "pooled": 0.78125,
+      "partial": 0.78125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "ce10059d5c8177f4",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "half",
+    "z": 0.0020369945286908262,
+    "repeat_z": [
+      0.0006264773331797549,
+      0.0034475117242019006
+    ],
+    "query_delta": -0.0032537048944785985,
+    "masked_fit_query_delta": -0.005363293893721866,
+    "validation_gap": 0.007400288422412693,
+    "fit_size_gap": -0.002109588999243268,
+    "estimation_error": 0.005290699423169424,
+    "feature_mean_gap": 0.008224933572605574,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.010546538935999392,
+      "hi": 0.015392763407761733,
+      "bootstrap_positive_fraction": 0.641,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1544277734859829,
+      "pooled": 0.15251875295807565,
+      "partial": 0.1511740685915043
+    },
+    "query_accuracy": {
+      "own": 0.78125,
+      "pooled": 0.78125,
+      "partial": 0.78125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "ce10059d5c8177f4",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "loio",
+    "z": 0.003387122666281818,
+    "repeat_z": [
+      0.003387122666281818
+    ],
+    "query_delta": -0.0032537048944785985,
+    "masked_fit_query_delta": -0.0033694654400200363,
+    "validation_gap": 0.0067565881063018545,
+    "fit_size_gap": -0.00011576054554143789,
+    "estimation_error": 0.006640827560760417,
+    "feature_mean_gap": 0.008224933572605574,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.00931218981265835,
+      "hi": 0.01660982275596718,
+      "bootstrap_positive_fraction": 0.7,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1544277734859829,
+      "pooled": 0.15251875295807565,
+      "partial": 0.1511740685915043
+    },
+    "query_accuracy": {
+      "own": 0.78125,
+      "pooled": 0.78125,
+      "partial": 0.78125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "ce10059d5c8177f4",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "k5",
+    "z": 0.0034693732577426484,
+    "repeat_z": [
+      0.0038894602617503267,
+      0.003049286253734973
+    ],
+    "query_delta": -0.0032537048944785985,
+    "masked_fit_query_delta": -0.0038274075200542467,
+    "validation_gap": 0.007296780777796896,
+    "fit_size_gap": -0.0005737026255756483,
+    "estimation_error": 0.006723078152221246,
+    "feature_mean_gap": 0.008224933572605574,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.008677924404401828,
+      "hi": 0.016260823364145315,
+      "bootstrap_positive_fraction": 0.711,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1544277734859829,
+      "pooled": 0.15251875295807565,
+      "partial": 0.1511740685915043
+    },
+    "query_accuracy": {
+      "own": 0.78125,
+      "pooled": 0.78125,
+      "partial": 0.78125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "513598c46143f461",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "half",
+    "z": -0.009279343353508003,
+    "repeat_z": [
+      -0.011196002426386705,
+      -0.007362684280629297
+    ],
+    "query_delta": -0.000588091317365258,
+    "masked_fit_query_delta": -0.000724947247789177,
+    "validation_gap": -0.008554396105718827,
+    "fit_size_gap": -0.00013685593042391897,
+    "estimation_error": -0.008691252036142745,
+    "feature_mean_gap": 0.014852375218439507,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.03565254363083683,
+      "hi": 0.007314896241115254,
+      "bootstrap_positive_fraction": 0.246,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.14113417328840455,
+      "pooled": 0.1406933449407082,
+      "partial": 0.1405460819710393
+    },
+    "query_accuracy": {
+      "own": 0.828125,
+      "pooled": 0.828125,
+      "partial": 0.828125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "513598c46143f461",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "loio",
+    "z": -0.006986072016399653,
+    "repeat_z": [
+      -0.006986072016399653
+    ],
+    "query_delta": -0.000588091317365258,
+    "masked_fit_query_delta": -0.0005830970113038032,
+    "validation_gap": -0.006402975005095849,
+    "fit_size_gap": 4.9943060614547445e-06,
+    "estimation_error": -0.006397980699034395,
+    "feature_mean_gap": 0.014852375218439507,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.03305662399056449,
+      "hi": 0.01118305368232576,
+      "bootstrap_positive_fraction": 0.313,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.14113417328840455,
+      "pooled": 0.1406933449407082,
+      "partial": 0.1405460819710393
+    },
+    "query_accuracy": {
+      "own": 0.828125,
+      "pooled": 0.828125,
+      "partial": 0.828125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "513598c46143f461",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "k5",
+    "z": -0.005904040799911513,
+    "repeat_z": [
+      -0.006307964751260411,
+      -0.005500116848562614
+    ],
+    "query_delta": -0.000588091317365258,
+    "masked_fit_query_delta": -0.00044900164764511975,
+    "validation_gap": -0.005455039152266393,
+    "fit_size_gap": 0.00013908966972013824,
+    "estimation_error": -0.005315949482546255,
+    "feature_mean_gap": 0.014852375218439507,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.03241840458602943,
+      "hi": 0.013775034455663209,
+      "bootstrap_positive_fraction": 0.338,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.14113417328840455,
+      "pooled": 0.1406933449407082,
+      "partial": 0.1405460819710393
+    },
+    "query_accuracy": {
+      "own": 0.828125,
+      "pooled": 0.828125,
+      "partial": 0.828125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "513598c46143f461",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "half",
+    "z": -0.009220030680666425,
+    "repeat_z": [
+      -0.008022838612655823,
+      -0.01041722274867703
+    ],
+    "query_delta": 0.0044600449934202036,
+    "masked_fit_query_delta": 0.0023867721931715414,
+    "validation_gap": -0.011606802873837967,
+    "fit_size_gap": -0.002073272800248662,
+    "estimation_error": -0.013680075674086628,
+    "feature_mean_gap": 0.007768883008466496,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.029865505931752783,
+      "hi": 0.0072871177388733055,
+      "bootstrap_positive_fraction": 0.164,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.139328341257438,
+      "pooled": 0.14450426974676733,
+      "partial": 0.1437883862508582
+    },
+    "query_accuracy": {
+      "own": 0.828125,
+      "pooled": 0.828125,
+      "partial": 0.828125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "513598c46143f461",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "loio",
+    "z": -0.004081732105385154,
+    "repeat_z": [
+      -0.004081732105385154
+    ],
+    "query_delta": 0.0044600449934202036,
+    "masked_fit_query_delta": 0.004442330424663866,
+    "validation_gap": -0.008524062530049021,
+    "fit_size_gap": -1.7714568756337437e-05,
+    "estimation_error": -0.008541777098805357,
+    "feature_mean_gap": 0.007768883008466496,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.021737387170137967,
+      "hi": 0.012544446373025786,
+      "bootstrap_positive_fraction": 0.313,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.139328341257438,
+      "pooled": 0.14450426974676733,
+      "partial": 0.1437883862508582
+    },
+    "query_accuracy": {
+      "own": 0.828125,
+      "pooled": 0.828125,
+      "partial": 0.828125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "513598c46143f461",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "k5",
+    "z": -0.0027287666027247565,
+    "repeat_z": [
+      -0.0021214470849738746,
+      -0.0033360861204756375
+    ],
+    "query_delta": 0.0044600449934202036,
+    "masked_fit_query_delta": 0.004487392087376306,
+    "validation_gap": -0.007216158690101062,
+    "fit_size_gap": 2.734709395610206e-05,
+    "estimation_error": -0.00718881159614496,
+    "feature_mean_gap": 0.007768883008466496,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.019834667232808915,
+      "hi": 0.012533751882651245,
+      "bootstrap_positive_fraction": 0.361,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.139328341257438,
+      "pooled": 0.14450426974676733,
+      "partial": 0.1437883862508582
+    },
+    "query_accuracy": {
+      "own": 0.828125,
+      "pooled": 0.828125,
+      "partial": 0.828125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "513598c46143f461",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "half",
+    "z": 0.022017223483511074,
+    "repeat_z": [
+      0.02239813010152826,
+      0.02163631686549388
+    ],
+    "query_delta": -0.012921170911529029,
+    "masked_fit_query_delta": -0.011311143749053105,
+    "validation_gap": 0.03332836723256418,
+    "fit_size_gap": 0.0016100271624759233,
+    "estimation_error": 0.0349383943950401,
+    "feature_mean_gap": 0.011852112968877936,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": 0.0020860438086927288,
+      "hi": 0.04503960092131357,
+      "bootstrap_positive_fraction": 0.981,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1398763820865537,
+      "pooled": 0.12662320413838646,
+      "partial": 0.12695521117502467
+    },
+    "query_accuracy": {
+      "own": 0.84375,
+      "pooled": 0.84375,
+      "partial": 0.84375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "513598c46143f461",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "loio",
+    "z": 0.017585382589977765,
+    "repeat_z": [
+      0.017585382589977765
+    ],
+    "query_delta": -0.012921170911529029,
+    "masked_fit_query_delta": -0.012800689391219077,
+    "validation_gap": 0.03038607198119684,
+    "fit_size_gap": 0.00012048152030995178,
+    "estimation_error": 0.030506553501506793,
+    "feature_mean_gap": 0.011852112968877936,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.00019467344375050043,
+      "hi": 0.03587752403718693,
+      "bootstrap_positive_fraction": 0.973,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1398763820865537,
+      "pooled": 0.12662320413838646,
+      "partial": 0.12695521117502467
+    },
+    "query_accuracy": {
+      "own": 0.84375,
+      "pooled": 0.84375,
+      "partial": 0.84375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "513598c46143f461",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "k5",
+    "z": 0.01367047782985511,
+    "repeat_z": [
+      0.01216349220693671,
+      0.015177463452773514
+    ],
+    "query_delta": -0.012921170911529029,
+    "masked_fit_query_delta": -0.012984406649728834,
+    "validation_gap": 0.026654884479583946,
+    "fit_size_gap": -6.323573819980513e-05,
+    "estimation_error": 0.026591648741384137,
+    "feature_mean_gap": 0.011852112968877936,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.0036885162562531547,
+      "hi": 0.030504552511623984,
+      "bootstrap_positive_fraction": 0.938,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1398763820865537,
+      "pooled": 0.12662320413838646,
+      "partial": 0.12695521117502467
+    },
+    "query_accuracy": {
+      "own": 0.84375,
+      "pooled": 0.84375,
+      "partial": 0.84375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "513598c46143f461",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "half",
+    "z": 0.020105584075040116,
+    "repeat_z": [
+      0.017855491985939335,
+      0.022355676164140904
+    ],
+    "query_delta": -0.013179748756060705,
+    "masked_fit_query_delta": -0.01181285901776065,
+    "validation_gap": 0.031918443092800765,
+    "fit_size_gap": 0.0013668897383000544,
+    "estimation_error": 0.03328533283110082,
+    "feature_mean_gap": 0.008296001528443765,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": 0.0035540674758966755,
+      "hi": 0.039351639751371126,
+      "bootstrap_positive_fraction": 0.989,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.13824862917195885,
+      "pooled": 0.12462769578969836,
+      "partial": 0.12506888041589814
+    },
+    "query_accuracy": {
+      "own": 0.84375,
+      "pooled": 0.84375,
+      "partial": 0.84375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "513598c46143f461",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "loio",
+    "z": 0.018760574767669836,
+    "repeat_z": [
+      0.018760574767669836
+    ],
+    "query_delta": -0.013179748756060705,
+    "masked_fit_query_delta": -0.013079994835929597,
+    "validation_gap": 0.03184056960359943,
+    "fit_size_gap": 9.975392013110776e-05,
+    "estimation_error": 0.03194032352373054,
+    "feature_mean_gap": 0.008296001528443765,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": 0.0024337469277214566,
+      "hi": 0.03789802780134447,
+      "bootstrap_positive_fraction": 0.987,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.13824862917195885,
+      "pooled": 0.12462769578969836,
+      "partial": 0.12506888041589814
+    },
+    "query_accuracy": {
+      "own": 0.84375,
+      "pooled": 0.84375,
+      "partial": 0.84375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "513598c46143f461",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "k5",
+    "z": 0.019065092354113952,
+    "repeat_z": [
+      0.019352321371149495,
+      0.01877786333707841
+    ],
+    "query_delta": -0.013179748756060705,
+    "masked_fit_query_delta": -0.012504671545505996,
+    "validation_gap": 0.03156976389961995,
+    "fit_size_gap": 0.0006750772105547087,
+    "estimation_error": 0.03224484111017466,
+    "feature_mean_gap": 0.008296001528443765,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": 0.0027898500223451743,
+      "hi": 0.03755666789312488,
+      "bootstrap_positive_fraction": 0.988,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.13824862917195885,
+      "pooled": 0.12462769578969836,
+      "partial": 0.12506888041589814
+    },
+    "query_accuracy": {
+      "own": 0.84375,
+      "pooled": 0.84375,
+      "partial": 0.84375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "513598c46143f461",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "half",
+    "z": 0.01849913798227811,
+    "repeat_z": [
+      0.020118180530162424,
+      0.016880095434393793
+    ],
+    "query_delta": -0.0011299433142494403,
+    "masked_fit_query_delta": -0.0011579259856797927,
+    "validation_gap": 0.0196570639679579,
+    "fit_size_gap": -2.798267143035247e-05,
+    "estimation_error": 0.01962908129652755,
+    "feature_mean_gap": 0.012338730289422839,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.0024652314270439545,
+      "hi": 0.046955992089386424,
+      "bootstrap_positive_fraction": 0.942,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.12378176247509491,
+      "pooled": 0.12264253227285932,
+      "partial": 0.12265181916084547
+    },
+    "query_accuracy": {
+      "own": 0.859375,
+      "pooled": 0.859375,
+      "partial": 0.859375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "513598c46143f461",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "loio",
+    "z": 0.013380456712247215,
+    "repeat_z": [
+      0.013380456712247215
+    ],
+    "query_delta": -0.0011299433142494403,
+    "masked_fit_query_delta": -0.0011270932485449672,
+    "validation_gap": 0.014507549960792182,
+    "fit_size_gap": 2.8500657044731002e-06,
+    "estimation_error": 0.014510400026496655,
+    "feature_mean_gap": 0.012338730289422839,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.005871880532217296,
+      "hi": 0.0397357044210937,
+      "bootstrap_positive_fraction": 0.874,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.12378176247509491,
+      "pooled": 0.12264253227285932,
+      "partial": 0.12265181916084547
+    },
+    "query_accuracy": {
+      "own": 0.859375,
+      "pooled": 0.859375,
+      "partial": 0.859375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "513598c46143f461",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "k5",
+    "z": 0.014782977274363614,
+    "repeat_z": [
+      0.014616965173775915,
+      0.014948989374951312
+    ],
+    "query_delta": -0.0011299433142494403,
+    "masked_fit_query_delta": -0.0010614760808739146,
+    "validation_gap": 0.01584445335523753,
+    "fit_size_gap": 6.846723337552573e-05,
+    "estimation_error": 0.015912920588613055,
+    "feature_mean_gap": 0.012338730289422839,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.0035923706993900976,
+      "hi": 0.040863864708415985,
+      "bootstrap_positive_fraction": 0.919,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.12378176247509491,
+      "pooled": 0.12264253227285932,
+      "partial": 0.12265181916084547
+    },
+    "query_accuracy": {
+      "own": 0.859375,
+      "pooled": 0.859375,
+      "partial": 0.859375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "513598c46143f461",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "half",
+    "z": 0.009021458643486956,
+    "repeat_z": [
+      0.010500280515275807,
+      0.007542636771698104
+    ],
+    "query_delta": -0.0029758235944029043,
+    "masked_fit_query_delta": -0.0022267920481243778,
+    "validation_gap": 0.011248250691611334,
+    "fit_size_gap": 0.0007490315462785266,
+    "estimation_error": 0.01199728223788986,
+    "feature_mean_gap": 0.007771496429025026,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": 0.0023127957407954223,
+      "hi": 0.017492278408241354,
+      "bootstrap_positive_fraction": 0.997,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.12499413062840076,
+      "pooled": 0.12205128537919044,
+      "partial": 0.12201830703399785
+    },
+    "query_accuracy": {
+      "own": 0.859375,
+      "pooled": 0.859375,
+      "partial": 0.859375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "513598c46143f461",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "loio",
+    "z": 0.005724970390933281,
+    "repeat_z": [
+      0.005724970390933281
+    ],
+    "query_delta": -0.0029758235944029043,
+    "masked_fit_query_delta": -0.002956629064578801,
+    "validation_gap": 0.008681599455512081,
+    "fit_size_gap": 1.919452982410315e-05,
+    "estimation_error": 0.008700793985336186,
+    "feature_mean_gap": 0.007771496429025026,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": 0.0005477356835777405,
+      "hi": 0.011869064887611563,
+      "bootstrap_positive_fraction": 0.983,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.12499413062840076,
+      "pooled": 0.12205128537919044,
+      "partial": 0.12201830703399785
+    },
+    "query_accuracy": {
+      "own": 0.859375,
+      "pooled": 0.859375,
+      "partial": 0.859375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "513598c46143f461",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "k5",
+    "z": 0.005767839369115938,
+    "repeat_z": [
+      0.003968926551469211,
+      0.007566752186762665
+    ],
+    "query_delta": -0.0029758235944029043,
+    "masked_fit_query_delta": -0.002756608486475714,
+    "validation_gap": 0.008524447855591652,
+    "fit_size_gap": 0.00021921510792719022,
+    "estimation_error": 0.008743662963518842,
+    "feature_mean_gap": 0.007771496429025026,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.00025858373374927813,
+      "hi": 0.012724935196717942,
+      "bootstrap_positive_fraction": 0.969,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.12499413062840076,
+      "pooled": 0.12205128537919044,
+      "partial": 0.12201830703399785
+    },
+    "query_accuracy": {
+      "own": 0.859375,
+      "pooled": 0.859375,
+      "partial": 0.859375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "2c175a4ddbaea2ce",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "half",
+    "z": -0.006785435880358264,
+    "repeat_z": [
+      -0.0030934562066189603,
+      -0.010477415554097563
+    ],
+    "query_delta": -0.006875046668870233,
+    "masked_fit_query_delta": -0.007932833388819976,
+    "validation_gap": 0.0011473975084617125,
+    "fit_size_gap": -0.0010577867199497437,
+    "estimation_error": 8.961078851196878e-05,
+    "feature_mean_gap": 0.012961038356769084,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.025951049482471105,
+      "hi": 0.01080417436233754,
+      "bootstrap_positive_fraction": 0.254,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.06801953874563833,
+      "pooled": 0.061450683368496836,
+      "partial": 0.0611444920767681
+    },
+    "query_accuracy": {
+      "own": 0.9375,
+      "pooled": 0.9375,
+      "partial": 0.9375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "2c175a4ddbaea2ce",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "loio",
+    "z": -0.012486697821096971,
+    "repeat_z": [
+      -0.012486697821096971
+    ],
+    "query_delta": -0.006875046668870233,
+    "masked_fit_query_delta": -0.007109768788336168,
+    "validation_gap": -0.0053769290327608035,
+    "fit_size_gap": -0.00023472211946593512,
+    "estimation_error": -0.005611651152226739,
+    "feature_mean_gap": 0.012961038356769084,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.0330731350615769,
+      "hi": 0.004093715210423232,
+      "bootstrap_positive_fraction": 0.084,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.06801953874563833,
+      "pooled": 0.061450683368496836,
+      "partial": 0.0611444920767681
+    },
+    "query_accuracy": {
+      "own": 0.9375,
+      "pooled": 0.9375,
+      "partial": 0.9375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "2c175a4ddbaea2ce",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "k5",
+    "z": -0.010756190001072537,
+    "repeat_z": [
+      -0.011171072255588162,
+      -0.010341307746556911
+    ],
+    "query_delta": -0.006875046668870233,
+    "masked_fit_query_delta": -0.007475193020379261,
+    "validation_gap": -0.0032809969806932753,
+    "fit_size_gap": -0.0006001463515090287,
+    "estimation_error": -0.003881143332202304,
+    "feature_mean_gap": 0.012961038356769084,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.03131925788926844,
+      "hi": 0.005807828277433207,
+      "bootstrap_positive_fraction": 0.122,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.06801953874563833,
+      "pooled": 0.061450683368496836,
+      "partial": 0.0611444920767681
+    },
+    "query_accuracy": {
+      "own": 0.9375,
+      "pooled": 0.9375,
+      "partial": 0.9375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "2c175a4ddbaea2ce",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "half",
+    "z": -0.006070195765085068,
+    "repeat_z": [
+      -0.005134756216425542,
+      -0.007005635313744598
+    ],
+    "query_delta": -0.0035605503931261245,
+    "masked_fit_query_delta": -0.00518422828908109,
+    "validation_gap": -0.0008859674760039781,
+    "fit_size_gap": -0.0016236778959549652,
+    "estimation_error": -0.0025096453719589433,
+    "feature_mean_gap": 0.007632432597534411,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.022285518458016674,
+      "hi": 0.006579083135457486,
+      "bootstrap_positive_fraction": 0.203,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.059991396075000786,
+      "pooled": 0.056605578574717444,
+      "partial": 0.05643084568187466
+    },
+    "query_accuracy": {
+      "own": 0.9375,
+      "pooled": 0.9375,
+      "partial": 0.9375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "2c175a4ddbaea2ce",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "loio",
+    "z": -0.005531782664876194,
+    "repeat_z": [
+      -0.005531782664876194
+    ],
+    "query_delta": -0.0035605503931261245,
+    "masked_fit_query_delta": -0.003617682957583259,
+    "validation_gap": -0.001914099707292935,
+    "fit_size_gap": -5.713256445713435e-05,
+    "estimation_error": -0.0019712322717500693,
+    "feature_mean_gap": 0.007632432597534411,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.022078833434244542,
+      "hi": 0.006792785047404421,
+      "bootstrap_positive_fraction": 0.228,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.059991396075000786,
+      "pooled": 0.056605578574717444,
+      "partial": 0.05643084568187466
+    },
+    "query_accuracy": {
+      "own": 0.9375,
+      "pooled": 0.9375,
+      "partial": 0.9375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "2c175a4ddbaea2ce",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "k5",
+    "z": -0.005064780061236221,
+    "repeat_z": [
+      -0.00412973571029382,
+      -0.00599982441217862
+    ],
+    "query_delta": -0.0035605503931261245,
+    "masked_fit_query_delta": -0.003999685164792291,
+    "validation_gap": -0.0010650948964439294,
+    "fit_size_gap": -0.0004391347716661666,
+    "estimation_error": -0.001504229668110096,
+    "feature_mean_gap": 0.007632432597534411,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.02255686419040839,
+      "hi": 0.008111692592035234,
+      "bootstrap_positive_fraction": 0.265,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.059991396075000786,
+      "pooled": 0.056605578574717444,
+      "partial": 0.05643084568187466
+    },
+    "query_accuracy": {
+      "own": 0.9375,
+      "pooled": 0.9375,
+      "partial": 0.9375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "2c175a4ddbaea2ce",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "half",
+    "z": -0.029443707556019393,
+    "repeat_z": [
+      -0.012144087316631894,
+      -0.0467433277954069
+    ],
+    "query_delta": -0.003428758810457788,
+    "masked_fit_query_delta": -0.00972845352662376,
+    "validation_gap": -0.019715254029395633,
+    "fit_size_gap": -0.006299694716165972,
+    "estimation_error": -0.026014948745561605,
+    "feature_mean_gap": 0.013899443248171352,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.05861286620686492,
+      "hi": -0.005494391279052704,
+      "bootstrap_positive_fraction": 0.005,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1367769286660579,
+      "pooled": 0.1343747189524785,
+      "partial": 0.1333481698556001
+    },
+    "query_accuracy": {
+      "own": 0.90625,
+      "pooled": 0.90625,
+      "partial": 0.90625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "2c175a4ddbaea2ce",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "loio",
+    "z": -0.017955543306410193,
+    "repeat_z": [
+      -0.017955543306410193
+    ],
+    "query_delta": -0.003428758810457788,
+    "masked_fit_query_delta": -0.00369586218381936,
+    "validation_gap": -0.014259681122590833,
+    "fit_size_gap": -0.000267103373361572,
+    "estimation_error": -0.014526784495952405,
+    "feature_mean_gap": 0.013899443248171352,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.04056937547961468,
+      "hi": 0.001054385591154785,
+      "bootstrap_positive_fraction": 0.033,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1367769286660579,
+      "pooled": 0.1343747189524785,
+      "partial": 0.1333481698556001
+    },
+    "query_accuracy": {
+      "own": 0.90625,
+      "pooled": 0.90625,
+      "partial": 0.90625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "2c175a4ddbaea2ce",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "k5",
+    "z": -0.021216548088101656,
+    "repeat_z": [
+      -0.02636146131233687,
+      -0.016071634863866445
+    ],
+    "query_delta": -0.003428758810457788,
+    "masked_fit_query_delta": -0.004551522234299133,
+    "validation_gap": -0.01666502585380252,
+    "fit_size_gap": -0.0011227634238413445,
+    "estimation_error": -0.017787789277643868,
+    "feature_mean_gap": 0.013899443248171352,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.04558198434723559,
+      "hi": -0.0003980054816224771,
+      "bootstrap_positive_fraction": 0.025,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1367769286660579,
+      "pooled": 0.1343747189524785,
+      "partial": 0.1333481698556001
+    },
+    "query_accuracy": {
+      "own": 0.90625,
+      "pooled": 0.90625,
+      "partial": 0.90625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "2c175a4ddbaea2ce",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "half",
+    "z": -0.0014178460244400706,
+    "repeat_z": [
+      -7.317014590761079e-05,
+      -0.0027625219029725344
+    ],
+    "query_delta": -0.0017230362471992305,
+    "masked_fit_query_delta": -0.002484836496032622,
+    "validation_gap": 0.0010669904715925513,
+    "fit_size_gap": -0.0007618002488333914,
+    "estimation_error": 0.00030519022275915996,
+    "feature_mean_gap": 0.01082221163314203,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.017153730034660995,
+      "hi": 0.010169651041146706,
+      "bootstrap_positive_fraction": 0.448,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.08707527830508825,
+      "pooled": 0.08584737080712213,
+      "partial": 0.08535224205788902
+    },
+    "query_accuracy": {
+      "own": 0.90625,
+      "pooled": 0.90625,
+      "partial": 0.90625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "2c175a4ddbaea2ce",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "loio",
+    "z": -0.0030664417695900354,
+    "repeat_z": [
+      -0.0030664417695900354
+    ],
+    "query_delta": -0.0017230362471992305,
+    "masked_fit_query_delta": -0.0017937502577123308,
+    "validation_gap": -0.0012726915118777046,
+    "fit_size_gap": -7.07140105131003e-05,
+    "estimation_error": -0.0013434055223908049,
+    "feature_mean_gap": 0.01082221163314203,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.01613800349037432,
+      "hi": 0.006596897771607234,
+      "bootstrap_positive_fraction": 0.34,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.08707527830508825,
+      "pooled": 0.08584737080712213,
+      "partial": 0.08535224205788902
+    },
+    "query_accuracy": {
+      "own": 0.90625,
+      "pooled": 0.90625,
+      "partial": 0.90625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "2c175a4ddbaea2ce",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "k5",
+    "z": -0.0017261291164834707,
+    "repeat_z": [
+      -0.001975864106728534,
+      -0.0014763941262384095
+    ],
+    "query_delta": -0.0017230362471992305,
+    "masked_fit_query_delta": -0.002036304325530368,
+    "validation_gap": 0.0003101752090468972,
+    "fit_size_gap": -0.0003132680783311374,
+    "estimation_error": -3.0928692842401885e-06,
+    "feature_mean_gap": 0.01082221163314203,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.015018868572875405,
+      "hi": 0.007891161203419539,
+      "bootstrap_positive_fraction": 0.427,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.08707527830508825,
+      "pooled": 0.08584737080712213,
+      "partial": 0.08535224205788902
+    },
+    "query_accuracy": {
+      "own": 0.90625,
+      "pooled": 0.90625,
+      "partial": 0.90625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "2c175a4ddbaea2ce",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "half",
+    "z": -0.006078927525226162,
+    "repeat_z": [
+      -0.006753552722412353,
+      -0.005404302328039968
+    ],
+    "query_delta": -0.009240707197011838,
+    "masked_fit_query_delta": -0.009785042700262076,
+    "validation_gap": 0.003706115175035915,
+    "fit_size_gap": -0.0005443355032502383,
+    "estimation_error": 0.0031617796717856765,
+    "feature_mean_gap": 0.014362670571007602,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.021989324407021525,
+      "hi": 0.005128011114797114,
+      "bootstrap_positive_fraction": 0.203,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.10214975453946633,
+      "pooled": 0.09278506132228032,
+      "partial": 0.09290904734245449
+    },
+    "query_accuracy": {
+      "own": 0.890625,
+      "pooled": 0.890625,
+      "partial": 0.890625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "2c175a4ddbaea2ce",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "loio",
+    "z": -0.007161541522864947,
+    "repeat_z": [
+      -0.007161541522864947
+    ],
+    "query_delta": -0.009240707197011838,
+    "masked_fit_query_delta": -0.009305151026231891,
+    "validation_gap": 0.002143609503366944,
+    "fit_size_gap": -6.444382922005283e-05,
+    "estimation_error": 0.002079165674146891,
+    "feature_mean_gap": 0.014362670571007602,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.024915969648772594,
+      "hi": 0.0046286838970787895,
+      "bootstrap_positive_fraction": 0.191,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.10214975453946633,
+      "pooled": 0.09278506132228032,
+      "partial": 0.09290904734245449
+    },
+    "query_accuracy": {
+      "own": 0.890625,
+      "pooled": 0.890625,
+      "partial": 0.890625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "2c175a4ddbaea2ce",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "k5",
+    "z": -0.007073550210627739,
+    "repeat_z": [
+      -0.007819343736795858,
+      -0.006327756684459622
+    ],
+    "query_delta": -0.009240707197011838,
+    "masked_fit_query_delta": -0.009407243821197628,
+    "validation_gap": 0.0023336936105698893,
+    "fit_size_gap": -0.00016653662418578997,
+    "estimation_error": 0.0021671569863840993,
+    "feature_mean_gap": 0.014362670571007602,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.024777414764004056,
+      "hi": 0.005239758159516958,
+      "bootstrap_positive_fraction": 0.179,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.10214975453946633,
+      "pooled": 0.09278506132228032,
+      "partial": 0.09290904734245449
+    },
+    "query_accuracy": {
+      "own": 0.890625,
+      "pooled": 0.890625,
+      "partial": 0.890625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "2c175a4ddbaea2ce",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "half",
+    "z": -0.0013936209609103794,
+    "repeat_z": [
+      0.0014244601347543071,
+      -0.004211702056575067
+    ],
+    "query_delta": -0.005946431035975405,
+    "masked_fit_query_delta": -0.005041211083481008,
+    "validation_gap": 0.0036475901225706286,
+    "fit_size_gap": 0.0009052199524943972,
+    "estimation_error": 0.004552810075065026,
+    "feature_mean_gap": 0.007659744298016946,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.013448892870851673,
+      "hi": 0.009069013861205785,
+      "bootstrap_positive_fraction": 0.418,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.09956575716896009,
+      "pooled": 0.09375105517902968,
+      "partial": 0.09361932613298468
+    },
+    "query_accuracy": {
+      "own": 0.890625,
+      "pooled": 0.890625,
+      "partial": 0.890625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "2c175a4ddbaea2ce",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "loio",
+    "z": -0.00010743423427021395,
+    "repeat_z": [
+      -0.00010743423427021395
+    ],
+    "query_delta": -0.005946431035975405,
+    "masked_fit_query_delta": -0.00588014671570626,
+    "validation_gap": 0.005772712481436046,
+    "fit_size_gap": 6.628432026914519e-05,
+    "estimation_error": 0.005838996801705191,
+    "feature_mean_gap": 0.007659744298016946,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.009951242655024686,
+      "hi": 0.00899371770937403,
+      "bootstrap_positive_fraction": 0.501,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.09956575716896009,
+      "pooled": 0.09375105517902968,
+      "partial": 0.09361932613298468
+    },
+    "query_accuracy": {
+      "own": 0.890625,
+      "pooled": 0.890625,
+      "partial": 0.890625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "2c175a4ddbaea2ce",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "k5",
+    "z": -0.00039338819014000486,
+    "repeat_z": [
+      0.0005442660650709233,
+      -0.0013310424453509323
+    ],
+    "query_delta": -0.005946431035975405,
+    "masked_fit_query_delta": -0.0055755233128501926,
+    "validation_gap": 0.0051821351227101875,
+    "fit_size_gap": 0.00037090772312521267,
+    "estimation_error": 0.0055530428458354,
+    "feature_mean_gap": 0.007659744298016946,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.01207971791468189,
+      "hi": 0.00964906553203925,
+      "bootstrap_positive_fraction": 0.488,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.09956575716896009,
+      "pooled": 0.09375105517902968,
+      "partial": 0.09361932613298468
+    },
+    "query_accuracy": {
+      "own": 0.890625,
+      "pooled": 0.890625,
+      "partial": 0.890625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "b6938baa28dd70c4",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "half",
+    "z": 0.003933860232701804,
+    "repeat_z": [
+      0.0026386949854424915,
+      0.005229025479961117
+    ],
+    "query_delta": -0.0050487261119238624,
+    "masked_fit_query_delta": -0.003120334028908922,
+    "validation_gap": 0.007054194261610726,
+    "fit_size_gap": 0.0019283920830149405,
+    "estimation_error": 0.008982586344625666,
+    "feature_mean_gap": 0.014265326533032183,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.001035924369882531,
+      "hi": 0.009276606068178135,
+      "bootstrap_positive_fraction": 0.939,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.168901384083045,
+      "pooled": 0.1637390573956276,
+      "partial": 0.16385265797112114
+    },
+    "query_accuracy": {
+      "own": 0.8125,
+      "pooled": 0.8125,
+      "partial": 0.8125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "b6938baa28dd70c4",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "loio",
+    "z": 0.0031203622075500256,
+    "repeat_z": [
+      0.0031203622075500256
+    ],
+    "query_delta": -0.0050487261119238624,
+    "masked_fit_query_delta": -0.004836551065631805,
+    "validation_gap": 0.00795691327318183,
+    "fit_size_gap": 0.0002121750462920572,
+    "estimation_error": 0.008169088319473888,
+    "feature_mean_gap": 0.014265326533032183,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": 0.00011173568482882894,
+      "hi": 0.006380100293333891,
+      "bootstrap_positive_fraction": 0.981,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.168901384083045,
+      "pooled": 0.1637390573956276,
+      "partial": 0.16385265797112114
+    },
+    "query_accuracy": {
+      "own": 0.8125,
+      "pooled": 0.8125,
+      "partial": 0.8125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "b6938baa28dd70c4",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "k5",
+    "z": 0.0031561054357386762,
+    "repeat_z": [
+      0.00331736467190479,
+      0.002994846199572562
+    ],
+    "query_delta": -0.0050487261119238624,
+    "masked_fit_query_delta": -0.004478010373078464,
+    "validation_gap": 0.00763411580881714,
+    "fit_size_gap": 0.0005707157388453983,
+    "estimation_error": 0.00820483154766254,
+    "feature_mean_gap": 0.014265326533032183,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.00016499538711367957,
+      "hi": 0.006521632755564531,
+      "bootstrap_positive_fraction": 0.968,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.168901384083045,
+      "pooled": 0.1637390573956276,
+      "partial": 0.16385265797112114
+    },
+    "query_accuracy": {
+      "own": 0.8125,
+      "pooled": 0.8125,
+      "partial": 0.8125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "b6938baa28dd70c4",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "half",
+    "z": -0.009634942405304468,
+    "repeat_z": [
+      -0.009693559013344595,
+      -0.009576325797264343
+    ],
+    "query_delta": -0.008091303107509357,
+    "masked_fit_query_delta": -0.008753434794986241,
+    "validation_gap": -0.0008815076103182266,
+    "fit_size_gap": -0.0006621316874768843,
+    "estimation_error": -0.001543639297795111,
+    "feature_mean_gap": 0.007520710603093589,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.03025567486745318,
+      "hi": 0.005626444059747316,
+      "bootstrap_positive_fraction": 0.148,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1594809842208786,
+      "pooled": 0.15128529696485263,
+      "partial": 0.15138968111336926
+    },
+    "query_accuracy": {
+      "own": 0.8125,
+      "pooled": 0.8125,
+      "partial": 0.8125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "b6938baa28dd70c4",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "loio",
+    "z": -0.010505030856788928,
+    "repeat_z": [
+      -0.010505030856788928
+    ],
+    "query_delta": -0.008091303107509357,
+    "masked_fit_query_delta": -0.008212322426912624,
+    "validation_gap": -0.002292708429876304,
+    "fit_size_gap": -0.00012101931940326771,
+    "estimation_error": -0.0024137277492795716,
+    "feature_mean_gap": 0.007520710603093589,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.03191415687574379,
+      "hi": 0.005405241550455128,
+      "bootstrap_positive_fraction": 0.137,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1594809842208786,
+      "pooled": 0.15128529696485263,
+      "partial": 0.15138968111336926
+    },
+    "query_accuracy": {
+      "own": 0.8125,
+      "pooled": 0.8125,
+      "partial": 0.8125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "b6938baa28dd70c4",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "k5",
+    "z": -0.010211522523990876,
+    "repeat_z": [
+      -0.009934545019169039,
+      -0.01048850002881271
+    ],
+    "query_delta": -0.008091303107509357,
+    "masked_fit_query_delta": -0.008594134987685737,
+    "validation_gap": -0.0016173875363051388,
+    "fit_size_gap": -0.0005028318801763802,
+    "estimation_error": -0.002120219416481519,
+    "feature_mean_gap": 0.007520710603093589,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.031045970380063084,
+      "hi": 0.005631794941206034,
+      "bootstrap_positive_fraction": 0.146,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1594809842208786,
+      "pooled": 0.15128529696485263,
+      "partial": 0.15138968111336926
+    },
+    "query_accuracy": {
+      "own": 0.8125,
+      "pooled": 0.8125,
+      "partial": 0.8125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "b6938baa28dd70c4",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "half",
+    "z": 0.0010978323123941578,
+    "repeat_z": [
+      -0.008223572618174975,
+      0.010419237242963285
+    ],
+    "query_delta": -0.0021786776814176068,
+    "masked_fit_query_delta": -0.0014425867465412614,
+    "validation_gap": 0.0025404190589354194,
+    "fit_size_gap": 0.0007360909348763454,
+    "estimation_error": 0.0032765099938117646,
+    "feature_mean_gap": 0.012821205096635988,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.03344362918925868,
+      "hi": 0.02642127566745724,
+      "bootstrap_positive_fraction": 0.529,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1418581552831998,
+      "pooled": 0.1397739738651426,
+      "partial": 0.1396794776017822
+    },
+    "query_accuracy": {
+      "own": 0.859375,
+      "pooled": 0.859375,
+      "partial": 0.859375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "b6938baa28dd70c4",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "loio",
+    "z": -0.004077256822216888,
+    "repeat_z": [
+      -0.004077256822216888
+    ],
+    "query_delta": -0.0021786776814176068,
+    "masked_fit_query_delta": -0.0023446530291534057,
+    "validation_gap": -0.0017326037930634822,
+    "fit_size_gap": -0.000165975347735799,
+    "estimation_error": -0.0018985791407992812,
+    "feature_mean_gap": 0.012821205096635988,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.03738892665081579,
+      "hi": 0.01985889448445609,
+      "bootstrap_positive_fraction": 0.404,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1418581552831998,
+      "pooled": 0.1397739738651426,
+      "partial": 0.1396794776017822
+    },
+    "query_accuracy": {
+      "own": 0.859375,
+      "pooled": 0.859375,
+      "partial": 0.859375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "b6938baa28dd70c4",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "k5",
+    "z": -0.0019188099064769368,
+    "repeat_z": [
+      -0.002176798193584353,
+      -0.0016608216193695236
+    ],
+    "query_delta": -0.0021786776814176068,
+    "masked_fit_query_delta": -0.0024094351631050045,
+    "validation_gap": 0.0004906252566280677,
+    "fit_size_gap": -0.0002307574816873977,
+    "estimation_error": 0.00025986777494067,
+    "feature_mean_gap": 0.012821205096635988,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.03422426913393053,
+      "hi": 0.022188291371808548,
+      "bootstrap_positive_fraction": 0.45,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1418581552831998,
+      "pooled": 0.1397739738651426,
+      "partial": 0.1396794776017822
+    },
+    "query_accuracy": {
+      "own": 0.859375,
+      "pooled": 0.859375,
+      "partial": 0.859375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "b6938baa28dd70c4",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "half",
+    "z": -0.012533237451336674,
+    "repeat_z": [
+      -0.010521969524546405,
+      -0.014544505378126946
+    ],
+    "query_delta": -0.006051756413759324,
+    "masked_fit_query_delta": -0.008432412216166224,
+    "validation_gap": -0.00410082523517045,
+    "fit_size_gap": -0.0023806558024069002,
+    "estimation_error": -0.00648148103757735,
+    "feature_mean_gap": 0.007822768252973424,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.03608850984049534,
+      "hi": 0.007511453532791077,
+      "bootstrap_positive_fraction": 0.13,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.14217949113430545,
+      "pooled": 0.1359291879052587,
+      "partial": 0.13612773472054612
+    },
+    "query_accuracy": {
+      "own": 0.859375,
+      "pooled": 0.875,
+      "partial": 0.875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "b6938baa28dd70c4",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "loio",
+    "z": -0.010836758134916273,
+    "repeat_z": [
+      -0.010836758134916273
+    ],
+    "query_delta": -0.006051756413759324,
+    "masked_fit_query_delta": -0.006164970672096733,
+    "validation_gap": -0.00467178746281954,
+    "fit_size_gap": -0.00011321425833740913,
+    "estimation_error": -0.004785001721156949,
+    "feature_mean_gap": 0.007822768252973424,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.03328516297127807,
+      "hi": 0.007331514497898924,
+      "bootstrap_positive_fraction": 0.14,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.14217949113430545,
+      "pooled": 0.1359291879052587,
+      "partial": 0.13612773472054612
+    },
+    "query_accuracy": {
+      "own": 0.859375,
+      "pooled": 0.875,
+      "partial": 0.875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "b6938baa28dd70c4",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "k5",
+    "z": -0.014153970857861695,
+    "repeat_z": [
+      -0.012612648941456835,
+      -0.015695292774266557
+    ],
+    "query_delta": -0.006051756413759324,
+    "masked_fit_query_delta": -0.00689320741274919,
+    "validation_gap": -0.007260763445112505,
+    "fit_size_gap": -0.0008414509989898662,
+    "estimation_error": -0.008102214444102371,
+    "feature_mean_gap": 0.007822768252973424,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.03762940167149851,
+      "hi": 0.00627371580339134,
+      "bootstrap_positive_fraction": 0.095,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.14217949113430545,
+      "pooled": 0.1359291879052587,
+      "partial": 0.13612773472054612
+    },
+    "query_accuracy": {
+      "own": 0.859375,
+      "pooled": 0.875,
+      "partial": 0.875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "b6938baa28dd70c4",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "half",
+    "z": 0.01943043625939499,
+    "repeat_z": [
+      0.023203414042274946,
+      0.01565745847651503
+    ],
+    "query_delta": -0.003669229698188392,
+    "masked_fit_query_delta": -0.001897173463477218,
+    "validation_gap": 0.021327609722872207,
+    "fit_size_gap": 0.001772056234711174,
+    "estimation_error": 0.023099665957583383,
+    "feature_mean_gap": 0.0139909827709483,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.007897079196512564,
+      "hi": 0.05158124540719059,
+      "bootstrap_positive_fraction": 0.911,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.18654336162074675,
+      "pooled": 0.18306094916013954,
+      "partial": 0.18287413192255836
+    },
+    "query_accuracy": {
+      "own": 0.75,
+      "pooled": 0.75,
+      "partial": 0.75
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "b6938baa28dd70c4",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "loio",
+    "z": 0.01975269622553798,
+    "repeat_z": [
+      0.01975269622553798
+    ],
+    "query_delta": -0.003669229698188392,
+    "masked_fit_query_delta": -0.0034641269985724887,
+    "validation_gap": 0.02321682322411047,
+    "fit_size_gap": 0.00020510269961590338,
+    "estimation_error": 0.023421925923726373,
+    "feature_mean_gap": 0.0139909827709483,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.007140784590505383,
+      "hi": 0.05164543135571288,
+      "bootstrap_positive_fraction": 0.917,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.18654336162074675,
+      "pooled": 0.18306094916013954,
+      "partial": 0.18287413192255836
+    },
+    "query_accuracy": {
+      "own": 0.75,
+      "pooled": 0.75,
+      "partial": 0.75
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "b6938baa28dd70c4",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "k5",
+    "z": 0.017539166902622035,
+    "repeat_z": [
+      0.015892718190504126,
+      0.01918561561473994
+    ],
+    "query_delta": -0.003669229698188392,
+    "masked_fit_query_delta": -0.0031636062502509773,
+    "validation_gap": 0.020702773152873014,
+    "fit_size_gap": 0.0005056234479374148,
+    "estimation_error": 0.021208396600810427,
+    "feature_mean_gap": 0.0139909827709483,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.0077499097695160534,
+      "hi": 0.046693172090767995,
+      "bootstrap_positive_fraction": 0.906,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.18654336162074675,
+      "pooled": 0.18306094916013954,
+      "partial": 0.18287413192255836
+    },
+    "query_accuracy": {
+      "own": 0.75,
+      "pooled": 0.75,
+      "partial": 0.75
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "b6938baa28dd70c4",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "half",
+    "z": 0.00887367590310618,
+    "repeat_z": [
+      0.007967380602606789,
+      0.009779971203605568
+    ],
+    "query_delta": -0.004717030638360986,
+    "masked_fit_query_delta": -0.004592138988660342,
+    "validation_gap": 0.013465814891766521,
+    "fit_size_gap": 0.00012489164970064422,
+    "estimation_error": 0.013590706541467166,
+    "feature_mean_gap": 0.010452406895594943,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.015017724065226053,
+      "hi": 0.030882284411809922,
+      "bootstrap_positive_fraction": 0.772,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.18592540464144103,
+      "pooled": 0.1813793985219323,
+      "partial": 0.18120837400308004
+    },
+    "query_accuracy": {
+      "own": 0.75,
+      "pooled": 0.75,
+      "partial": 0.75
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "b6938baa28dd70c4",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "loio",
+    "z": 0.007545250918879835,
+    "repeat_z": [
+      0.007545250918879835
+    ],
+    "query_delta": -0.004717030638360986,
+    "masked_fit_query_delta": -0.004736914693183939,
+    "validation_gap": 0.012282165612063774,
+    "fit_size_gap": -1.9884054822952996e-05,
+    "estimation_error": 0.012262281557240821,
+    "feature_mean_gap": 0.010452406895594943,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.014776946789060878,
+      "hi": 0.028153831881771157,
+      "bootstrap_positive_fraction": 0.745,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.18592540464144103,
+      "pooled": 0.1813793985219323,
+      "partial": 0.18120837400308004
+    },
+    "query_accuracy": {
+      "own": 0.75,
+      "pooled": 0.75,
+      "partial": 0.75
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "b6938baa28dd70c4",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "k5",
+    "z": 0.006028220399080626,
+    "repeat_z": [
+      0.005867049977548949,
+      0.006189390820612299
+    ],
+    "query_delta": -0.004717030638360986,
+    "masked_fit_query_delta": -0.00491362901230431,
+    "validation_gap": 0.010941849411384937,
+    "fit_size_gap": -0.00019659837394332344,
+    "estimation_error": 0.010745251037441613,
+    "feature_mean_gap": 0.010452406895594943,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.016406322392236553,
+      "hi": 0.02652069590610261,
+      "bootstrap_positive_fraction": 0.705,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.18592540464144103,
+      "pooled": 0.1813793985219323,
+      "partial": 0.18120837400308004
+    },
+    "query_accuracy": {
+      "own": 0.75,
+      "pooled": 0.75,
+      "partial": 0.75
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "59824b53af102e24",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "half",
+    "z": -0.03190460024386228,
+    "repeat_z": [
+      -0.04030173884910434,
+      -0.02350746163862023
+    ],
+    "query_delta": 0.004113800846969384,
+    "masked_fit_query_delta": -0.0018675172486782988,
+    "validation_gap": -0.030037082995183984,
+    "fit_size_gap": -0.005981318095647684,
+    "estimation_error": -0.03601840109083167,
+    "feature_mean_gap": 0.01703710255500211,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.05606331213082976,
+      "hi": -0.009690098678818714,
+      "bootstrap_positive_fraction": 0.001,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.16784704291792085,
+      "pooled": 0.17257813950880924,
+      "partial": 0.17196084376489024
+    },
+    "query_accuracy": {
+      "own": 0.828125,
+      "pooled": 0.828125,
+      "partial": 0.828125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "59824b53af102e24",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "loio",
+    "z": -0.023250969727172836,
+    "repeat_z": [
+      -0.023250969727172836
+    ],
+    "query_delta": 0.004113800846969384,
+    "masked_fit_query_delta": 0.0038719917091907634,
+    "validation_gap": -0.0271229614363636,
+    "fit_size_gap": -0.00024180913777862093,
+    "estimation_error": -0.02736477057414222,
+    "feature_mean_gap": 0.01703710255500211,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.04555713429939885,
+      "hi": -0.0033136058886659653,
+      "bootstrap_positive_fraction": 0.008,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.16784704291792085,
+      "pooled": 0.17257813950880924,
+      "partial": 0.17196084376489024
+    },
+    "query_accuracy": {
+      "own": 0.828125,
+      "pooled": 0.828125,
+      "partial": 0.828125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "59824b53af102e24",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "k5",
+    "z": -0.01961375032553169,
+    "repeat_z": [
+      -0.019829556276831885,
+      -0.019397944374231486
+    ],
+    "query_delta": 0.004113800846969384,
+    "masked_fit_query_delta": 0.003706522242029406,
+    "validation_gap": -0.0233202725675611,
+    "fit_size_gap": -0.0004072786049399784,
+    "estimation_error": -0.023727551172501075,
+    "feature_mean_gap": 0.01703710255500211,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.04098796685404448,
+      "hi": 4.3953165208170966e-05,
+      "bootstrap_positive_fraction": 0.026,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.16784704291792085,
+      "pooled": 0.17257813950880924,
+      "partial": 0.17196084376489024
+    },
+    "query_accuracy": {
+      "own": 0.828125,
+      "pooled": 0.828125,
+      "partial": 0.828125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "59824b53af102e24",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "half",
+    "z": -0.024059344310155648,
+    "repeat_z": [
+      -0.026671836391576404,
+      -0.021446852228734888
+    ],
+    "query_delta": 0.005895600425907671,
+    "masked_fit_query_delta": 0.005371144853503403,
+    "validation_gap": -0.02943048916365905,
+    "fit_size_gap": -0.0005244555724042681,
+    "estimation_error": -0.02995494473606332,
+    "feature_mean_gap": 0.009974575201880241,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.04279694693820113,
+      "hi": -0.008574227201639998,
+      "bootstrap_positive_fraction": 0.0,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.14384295397941843,
+      "pooled": 0.1502977936057679,
+      "partial": 0.1497385544053261
+    },
+    "query_accuracy": {
+      "own": 0.828125,
+      "pooled": 0.828125,
+      "partial": 0.828125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "59824b53af102e24",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "loio",
+    "z": -0.018441363341631028,
+    "repeat_z": [
+      -0.018441363341631028
+    ],
+    "query_delta": 0.005895600425907671,
+    "masked_fit_query_delta": 0.00590551287153548,
+    "validation_gap": -0.02434687621316651,
+    "fit_size_gap": 9.912445627808901e-06,
+    "estimation_error": -0.0243369637675387,
+    "feature_mean_gap": 0.009974575201880241,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.03689953619896655,
+      "hi": -0.003515283050209833,
+      "bootstrap_positive_fraction": 0.002,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.14384295397941843,
+      "pooled": 0.1502977936057679,
+      "partial": 0.1497385544053261
+    },
+    "query_accuracy": {
+      "own": 0.828125,
+      "pooled": 0.828125,
+      "partial": 0.828125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "59824b53af102e24",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "k5",
+    "z": -0.019560788929507664,
+    "repeat_z": [
+      -0.019748286577622513,
+      -0.019373291281392827
+    ],
+    "query_delta": 0.005895600425907671,
+    "masked_fit_query_delta": 0.005832426937351925,
+    "validation_gap": -0.025393215866859588,
+    "fit_size_gap": -6.317348855574591e-05,
+    "estimation_error": -0.025456389355415335,
+    "feature_mean_gap": 0.009974575201880241,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.03760486839244391,
+      "hi": -0.004820240042423656,
+      "bootstrap_positive_fraction": 0.002,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.14384295397941843,
+      "pooled": 0.1502977936057679,
+      "partial": 0.1497385544053261
+    },
+    "query_accuracy": {
+      "own": 0.828125,
+      "pooled": 0.828125,
+      "partial": 0.828125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "59824b53af102e24",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "half",
+    "z": 0.00253408507284991,
+    "repeat_z": [
+      0.0019758713062309795,
+      0.0030922988394688398
+    ],
+    "query_delta": -0.004576395224179755,
+    "masked_fit_query_delta": -0.004776401608042863,
+    "validation_gap": 0.0073104866808927724,
+    "fit_size_gap": -0.00020000638386310794,
+    "estimation_error": 0.007110480297029665,
+    "feature_mean_gap": 0.015698615742241316,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.003132387059076442,
+      "hi": 0.008727863132101842,
+      "bootstrap_positive_fraction": 0.788,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.12754108996539795,
+      "pooled": 0.12287677564577829,
+      "partial": 0.1229646947412182
+    },
+    "query_accuracy": {
+      "own": 0.859375,
+      "pooled": 0.859375,
+      "partial": 0.859375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "59824b53af102e24",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "loio",
+    "z": 0.0020557781217213768,
+    "repeat_z": [
+      0.0020557781217213768
+    ],
+    "query_delta": -0.004576395224179755,
+    "masked_fit_query_delta": -0.004442346432516779,
+    "validation_gap": 0.006498124554238156,
+    "fit_size_gap": 0.00013404879166297595,
+    "estimation_error": 0.006632173345901132,
+    "feature_mean_gap": 0.015698615742241316,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.0008492073876572427,
+      "hi": 0.005321501533887081,
+      "bootstrap_positive_fraction": 0.891,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.12754108996539795,
+      "pooled": 0.12287677564577829,
+      "partial": 0.1229646947412182
+    },
+    "query_accuracy": {
+      "own": 0.859375,
+      "pooled": 0.859375,
+      "partial": 0.859375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "59824b53af102e24",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "k5",
+    "z": 0.0021827899081455094,
+    "repeat_z": [
+      0.0021981065988056193,
+      0.0021674732174853995
+    ],
+    "query_delta": -0.004576395224179755,
+    "masked_fit_query_delta": -0.004281190258835234,
+    "validation_gap": 0.006463980166980744,
+    "fit_size_gap": 0.00029520496534452077,
+    "estimation_error": 0.0067591851323252645,
+    "feature_mean_gap": 0.015698615742241316,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.0011172004134805636,
+      "hi": 0.0058565151325146725,
+      "bootstrap_positive_fraction": 0.879,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.12754108996539795,
+      "pooled": 0.12287677564577829,
+      "partial": 0.1229646947412182
+    },
+    "query_accuracy": {
+      "own": 0.859375,
+      "pooled": 0.859375,
+      "partial": 0.859375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "59824b53af102e24",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "half",
+    "z": -0.006174204129815971,
+    "repeat_z": [
+      -0.006814526614267113,
+      -0.005533881645364831
+    ],
+    "query_delta": -0.003497881537894168,
+    "masked_fit_query_delta": -0.0056244098843075555,
+    "validation_gap": -0.0005497942455084158,
+    "fit_size_gap": -0.0021265283464133875,
+    "estimation_error": -0.0026763225919218033,
+    "feature_mean_gap": 0.011110565101382414,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.019491693178790317,
+      "hi": 0.005540735593269315,
+      "bootstrap_positive_fraction": 0.144,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.11241398083517275,
+      "pooled": 0.10979108893081332,
+      "partial": 0.10891609929727858
+    },
+    "query_accuracy": {
+      "own": 0.859375,
+      "pooled": 0.859375,
+      "partial": 0.859375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "59824b53af102e24",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "loio",
+    "z": -0.005053139140527432,
+    "repeat_z": [
+      -0.005053139140527432
+    ],
+    "query_delta": -0.003497881537894168,
+    "masked_fit_query_delta": -0.0035773964686008487,
+    "validation_gap": -0.0014757426719265829,
+    "fit_size_gap": -7.951493070668071e-05,
+    "estimation_error": -0.0015552576026332636,
+    "feature_mean_gap": 0.011110565101382414,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.018576718672868704,
+      "hi": 0.006237164172573856,
+      "bootstrap_positive_fraction": 0.194,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.11241398083517275,
+      "pooled": 0.10979108893081332,
+      "partial": 0.10891609929727858
+    },
+    "query_accuracy": {
+      "own": 0.859375,
+      "pooled": 0.859375,
+      "partial": 0.859375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "59824b53af102e24",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "k5",
+    "z": -0.008348776902280248,
+    "repeat_z": [
+      -0.011098274994594048,
+      -0.005599278809966448
+    ],
+    "query_delta": -0.003497881537894168,
+    "masked_fit_query_delta": -0.004413127080729983,
+    "validation_gap": -0.003935649821550265,
+    "fit_size_gap": -0.0009152455428358148,
+    "estimation_error": -0.0048508953643860795,
+    "feature_mean_gap": 0.011110565101382414,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.026434366650469655,
+      "hi": 0.005795064726917349,
+      "bootstrap_positive_fraction": 0.142,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.11241398083517275,
+      "pooled": 0.10979108893081332,
+      "partial": 0.10891609929727858
+    },
+    "query_accuracy": {
+      "own": 0.859375,
+      "pooled": 0.859375,
+      "partial": 0.859375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "59824b53af102e24",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "half",
+    "z": -0.02557173102365037,
+    "repeat_z": [
+      -0.023933635489695775,
+      -0.02720982655760497
+    ],
+    "query_delta": -0.011105059611852958,
+    "masked_fit_query_delta": -0.012759761522147006,
+    "validation_gap": -0.012811969501503364,
+    "fit_size_gap": -0.0016547019102940482,
+    "estimation_error": -0.014466671411797413,
+    "feature_mean_gap": 0.013186523891662348,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.0533344153940852,
+      "hi": 0.004153516063045184,
+      "bootstrap_positive_fraction": 0.039,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1822318956926649,
+      "pooled": 0.17221320607338075,
+      "partial": 0.17112683608081194
+    },
+    "query_accuracy": {
+      "own": 0.84375,
+      "pooled": 0.828125,
+      "partial": 0.828125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "59824b53af102e24",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "loio",
+    "z": -0.030058802729781956,
+    "repeat_z": [
+      -0.030058802729781956
+    ],
+    "query_delta": -0.011105059611852958,
+    "masked_fit_query_delta": -0.011331276809442589,
+    "validation_gap": -0.01872752592033937,
+    "fit_size_gap": -0.0002262171975896312,
+    "estimation_error": -0.018953743117929,
+    "feature_mean_gap": 0.013186523891662348,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.056958341561856925,
+      "hi": -0.001848486991140559,
+      "bootstrap_positive_fraction": 0.019,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1822318956926649,
+      "pooled": 0.17221320607338075,
+      "partial": 0.17112683608081194
+    },
+    "query_accuracy": {
+      "own": 0.84375,
+      "pooled": 0.828125,
+      "partial": 0.828125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "59824b53af102e24",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "k5",
+    "z": -0.03212710557108227,
+    "repeat_z": [
+      -0.03300012914522334,
+      -0.0312540819969412
+    ],
+    "query_delta": -0.011105059611852958,
+    "masked_fit_query_delta": -0.01180875991054238,
+    "validation_gap": -0.020318345660539888,
+    "fit_size_gap": -0.000703700298689422,
+    "estimation_error": -0.02102204595922931,
+    "feature_mean_gap": 0.013186523891662348,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.06176482859869813,
+      "hi": -0.003054770134921491,
+      "bootstrap_positive_fraction": 0.013,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1822318956926649,
+      "pooled": 0.17221320607338075,
+      "partial": 0.17112683608081194
+    },
+    "query_accuracy": {
+      "own": 0.84375,
+      "pooled": 0.828125,
+      "partial": 0.828125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "59824b53af102e24",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "half",
+    "z": -0.029780034857285576,
+    "repeat_z": [
+      -0.030094873318263618,
+      -0.029465196396307538
+    ],
+    "query_delta": -0.010133273026828704,
+    "masked_fit_query_delta": -0.012415457363562407,
+    "validation_gap": -0.01736457749372317,
+    "fit_size_gap": -0.002282184336733703,
+    "estimation_error": -0.019646761830456872,
+    "feature_mean_gap": 0.006699030118263792,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.049001574281773465,
+      "hi": -0.011551559377230052,
+      "bootstrap_positive_fraction": 0.0,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1527256498926421,
+      "pooled": 0.14296352998978978,
+      "partial": 0.14259237686581339
+    },
+    "query_accuracy": {
+      "own": 0.84375,
+      "pooled": 0.828125,
+      "partial": 0.828125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "59824b53af102e24",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "loio",
+    "z": -0.027491188296626817,
+    "repeat_z": [
+      -0.027491188296626817
+    ],
+    "query_delta": -0.010133273026828704,
+    "masked_fit_query_delta": -0.010275303845910803,
+    "validation_gap": -0.017215884450716014,
+    "fit_size_gap": -0.0001420308190820986,
+    "estimation_error": -0.017357915269798112,
+    "feature_mean_gap": 0.006699030118263792,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.04727075100324597,
+      "hi": -0.008876887785882035,
+      "bootstrap_positive_fraction": 0.001,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1527256498926421,
+      "pooled": 0.14296352998978978,
+      "partial": 0.14259237686581339
+    },
+    "query_accuracy": {
+      "own": 0.84375,
+      "pooled": 0.828125,
+      "partial": 0.828125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "59824b53af102e24",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "k5",
+    "z": -0.026407053141924045,
+    "repeat_z": [
+      -0.025432091858147467,
+      -0.027382014425700617
+    ],
+    "query_delta": -0.010133273026828704,
+    "masked_fit_query_delta": -0.010827006275201025,
+    "validation_gap": -0.01558004686672302,
+    "fit_size_gap": -0.0006937332483723212,
+    "estimation_error": -0.01627378011509534,
+    "feature_mean_gap": 0.006699030118263792,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.046626996795290525,
+      "hi": -0.007910593634754775,
+      "bootstrap_positive_fraction": 0.001,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1527256498926421,
+      "pooled": 0.14296352998978978,
+      "partial": 0.14259237686581339
+    },
+    "query_accuracy": {
+      "own": 0.84375,
+      "pooled": 0.828125,
+      "partial": 0.828125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "8ea3eb0e7757b735",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "half",
+    "z": 0.011045873071769836,
+    "repeat_z": [
+      0.008883084337740712,
+      0.013208661805798954
+    ],
+    "query_delta": -0.005290959289208891,
+    "masked_fit_query_delta": -0.0040071752068752894,
+    "validation_gap": 0.015053048278645125,
+    "fit_size_gap": 0.0012837840823336014,
+    "estimation_error": 0.01633683236097873,
+    "feature_mean_gap": 0.011442486903054364,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.025265555318345807,
+      "hi": 0.049665521472129416,
+      "bootstrap_positive_fraction": 0.682,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.24763167308707892,
+      "pooled": 0.24215212444059014,
+      "partial": 0.24234071379787003
+    },
+    "query_accuracy": {
+      "own": 0.53125,
+      "pooled": 0.546875,
+      "partial": 0.578125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "8ea3eb0e7757b735",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "loio",
+    "z": 0.009955635190239181,
+    "repeat_z": [
+      0.009955635190239181
+    ],
+    "query_delta": -0.005290959289208891,
+    "masked_fit_query_delta": -0.005110031836528108,
+    "validation_gap": 0.01506566702676729,
+    "fit_size_gap": 0.0001809274526807826,
+    "estimation_error": 0.015246594479448072,
+    "feature_mean_gap": 0.011442486903054364,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.025211005847183752,
+      "hi": 0.046983162146909924,
+      "bootstrap_positive_fraction": 0.673,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.24763167308707892,
+      "pooled": 0.24215212444059014,
+      "partial": 0.24234071379787003
+    },
+    "query_accuracy": {
+      "own": 0.53125,
+      "pooled": 0.546875,
+      "partial": 0.578125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "8ea3eb0e7757b735",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "k5",
+    "z": 0.008654550266849248,
+    "repeat_z": [
+      0.007626175652828882,
+      0.009682924880869616
+    ],
+    "query_delta": -0.005290959289208891,
+    "masked_fit_query_delta": -0.00501003830223632,
+    "validation_gap": 0.013664588569085569,
+    "fit_size_gap": 0.000280920986972571,
+    "estimation_error": 0.013945509556058139,
+    "feature_mean_gap": 0.011442486903054364,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.02495010001984774,
+      "hi": 0.04316508989439706,
+      "bootstrap_positive_fraction": 0.659,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.24763167308707892,
+      "pooled": 0.24215212444059014,
+      "partial": 0.24234071379787003
+    },
+    "query_accuracy": {
+      "own": 0.53125,
+      "pooled": 0.546875,
+      "partial": 0.578125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "8ea3eb0e7757b735",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "half",
+    "z": 0.025233136679359232,
+    "repeat_z": [
+      0.014016466539973278,
+      0.036449806818745184
+    ],
+    "query_delta": -0.009752465275491895,
+    "masked_fit_query_delta": -0.004645575011119583,
+    "validation_gap": 0.029878711690478815,
+    "fit_size_gap": 0.005106890264372312,
+    "estimation_error": 0.03498560195485113,
+    "feature_mean_gap": 0.006286825337549282,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.009085440550564254,
+      "hi": 0.05918800247904513,
+      "bootstrap_positive_fraction": 0.914,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.2515006215905672,
+      "pooled": 0.2418202185537486,
+      "partial": 0.2417481563150753
+    },
+    "query_accuracy": {
+      "own": 0.5625,
+      "pooled": 0.578125,
+      "partial": 0.578125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "8ea3eb0e7757b735",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "loio",
+    "z": 0.01642960193452238,
+    "repeat_z": [
+      0.01642960193452238
+    ],
+    "query_delta": -0.009752465275491895,
+    "masked_fit_query_delta": -0.009642885280429054,
+    "validation_gap": 0.026072487214951437,
+    "fit_size_gap": 0.00010957999506284143,
+    "estimation_error": 0.026182067210014277,
+    "feature_mean_gap": 0.006286825337549282,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.01411324007804036,
+      "hi": 0.04581968403480287,
+      "bootstrap_positive_fraction": 0.849,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.2515006215905672,
+      "pooled": 0.2418202185537486,
+      "partial": 0.2417481563150753
+    },
+    "query_accuracy": {
+      "own": 0.5625,
+      "pooled": 0.578125,
+      "partial": 0.578125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "8ea3eb0e7757b735",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "k5",
+    "z": 0.014105641917934222,
+    "repeat_z": [
+      0.01305806767144174,
+      0.015153216164426704
+    ],
+    "query_delta": -0.009752465275491895,
+    "masked_fit_query_delta": -0.009454669975402388,
+    "validation_gap": 0.02356031189333661,
+    "fit_size_gap": 0.00029779530008950707,
+    "estimation_error": 0.02385810719342612,
+    "feature_mean_gap": 0.006286825337549282,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.017181528885092258,
+      "hi": 0.044686705550104,
+      "bootstrap_positive_fraction": 0.797,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.2515006215905672,
+      "pooled": 0.2418202185537486,
+      "partial": 0.2417481563150753
+    },
+    "query_accuracy": {
+      "own": 0.5625,
+      "pooled": 0.578125,
+      "partial": 0.578125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "8ea3eb0e7757b735",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "half",
+    "z": -0.002009190085877994,
+    "repeat_z": [
+      -0.000305346987639298,
+      -0.0037130331841166895
+    ],
+    "query_delta": -0.01636840452473956,
+    "masked_fit_query_delta": -0.018129114850657425,
+    "validation_gap": 0.01611992476477943,
+    "fit_size_gap": -0.0017607103259178643,
+    "estimation_error": 0.014359214438861567,
+    "feature_mean_gap": 0.01485462453467315,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.015986510828241325,
+      "hi": 0.01129537848325571,
+      "bootstrap_positive_fraction": 0.44,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.2649086191566575,
+      "pooled": 0.2485097040245488,
+      "partial": 0.24854021463191792
+    },
+    "query_accuracy": {
+      "own": 0.4375,
+      "pooled": 0.46875,
+      "partial": 0.484375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "8ea3eb0e7757b735",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "loio",
+    "z": 0.003013648358600238,
+    "repeat_z": [
+      0.003013648358600238
+    ],
+    "query_delta": -0.01636840452473956,
+    "masked_fit_query_delta": -0.016362246063481228,
+    "validation_gap": 0.019375894422081465,
+    "fit_size_gap": 6.158461258332776e-06,
+    "estimation_error": 0.019382052883339797,
+    "feature_mean_gap": 0.01485462453467315,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.00917504378513203,
+      "hi": 0.015245633758282336,
+      "bootstrap_positive_fraction": 0.72,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.2649086191566575,
+      "pooled": 0.2485097040245488,
+      "partial": 0.24854021463191792
+    },
+    "query_accuracy": {
+      "own": 0.4375,
+      "pooled": 0.46875,
+      "partial": 0.484375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "8ea3eb0e7757b735",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "k5",
+    "z": 0.003924129625652655,
+    "repeat_z": [
+      0.00476822216025245,
+      0.003080037091052859
+    ],
+    "query_delta": -0.01636840452473956,
+    "masked_fit_query_delta": -0.016266768228927357,
+    "validation_gap": 0.02019089785458001,
+    "fit_size_gap": 0.00010163629581220329,
+    "estimation_error": 0.020292534150392214,
+    "feature_mean_gap": 0.01485462453467315,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.008529845763942666,
+      "hi": 0.01616373093999711,
+      "bootstrap_positive_fraction": 0.753,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.2649086191566575,
+      "pooled": 0.2485097040245488,
+      "partial": 0.24854021463191792
+    },
+    "query_accuracy": {
+      "own": 0.4375,
+      "pooled": 0.46875,
+      "partial": 0.484375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "8ea3eb0e7757b735",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "half",
+    "z": -0.0024391618460943808,
+    "repeat_z": [
+      1.3292754611095259e-05,
+      -0.004891616446799857
+    ],
+    "query_delta": -0.020871743353595096,
+    "masked_fit_query_delta": -0.020673799663043262,
+    "validation_gap": 0.01823463781694888,
+    "fit_size_gap": 0.0001979436905518335,
+    "estimation_error": 0.018432581507500715,
+    "feature_mean_gap": 0.0079849632673294,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.027707019560793644,
+      "hi": 0.024844007846179572,
+      "bootstrap_positive_fraction": 0.42,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.24896182022630042,
+      "pooled": 0.2272198783043537,
+      "partial": 0.22809007687270533
+    },
+    "query_accuracy": {
+      "own": 0.5625,
+      "pooled": 0.671875,
+      "partial": 0.671875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "8ea3eb0e7757b735",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "loio",
+    "z": -0.0051705018071353335,
+    "repeat_z": [
+      -0.0051705018071353335
+    ],
+    "query_delta": -0.020871743353595096,
+    "masked_fit_query_delta": -0.020944773152078155,
+    "validation_gap": 0.015774271344942824,
+    "fit_size_gap": -7.302979848305968e-05,
+    "estimation_error": 0.015701241546459764,
+    "feature_mean_gap": 0.0079849632673294,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.029860431312720002,
+      "hi": 0.01945786722592396,
+      "bootstrap_positive_fraction": 0.351,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.24896182022630042,
+      "pooled": 0.2272198783043537,
+      "partial": 0.22809007687270533
+    },
+    "query_accuracy": {
+      "own": 0.5625,
+      "pooled": 0.671875,
+      "partial": 0.671875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "8ea3eb0e7757b735",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "k5",
+    "z": -0.006906486800289652,
+    "repeat_z": [
+      -0.005466356927836258,
+      -0.008346616672743046
+    ],
+    "query_delta": -0.020871743353595096,
+    "masked_fit_query_delta": -0.02139870707143765,
+    "validation_gap": 0.014492220271147998,
+    "fit_size_gap": -0.0005269637178425546,
+    "estimation_error": 0.013965256553305444,
+    "feature_mean_gap": 0.0079849632673294,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.032233320882527346,
+      "hi": 0.018624893133848824,
+      "bootstrap_positive_fraction": 0.298,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.24896182022630042,
+      "pooled": 0.2272198783043537,
+      "partial": 0.22809007687270533
+    },
+    "query_accuracy": {
+      "own": 0.5625,
+      "pooled": 0.671875,
+      "partial": 0.671875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "8ea3eb0e7757b735",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "half",
+    "z": -0.009242905464242328,
+    "repeat_z": [
+      -0.011759478518750257,
+      -0.006726332409734402
+    ],
+    "query_delta": -0.00429780979348815,
+    "masked_fit_query_delta": -0.0045543682472794075,
+    "validation_gap": -0.00468853721696292,
+    "fit_size_gap": -0.00025655845379125766,
+    "estimation_error": -0.004945095670754178,
+    "feature_mean_gap": 0.013716493437415843,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.02556144142466382,
+      "hi": 0.005858301363374565,
+      "bootstrap_positive_fraction": 0.107,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.26149768127085266,
+      "pooled": 0.25648316376424324,
+      "partial": 0.2571998714773645
+    },
+    "query_accuracy": {
+      "own": 0.453125,
+      "pooled": 0.5,
+      "partial": 0.5
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "8ea3eb0e7757b735",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "loio",
+    "z": -0.009704168018877314,
+    "repeat_z": [
+      -0.009704168018877314
+    ],
+    "query_delta": -0.00429780979348815,
+    "masked_fit_query_delta": -0.004355999603212644,
+    "validation_gap": -0.00534816841566467,
+    "fit_size_gap": -5.818980972449421e-05,
+    "estimation_error": -0.005406358225389164,
+    "feature_mean_gap": 0.013716493437415843,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.026469906516837036,
+      "hi": 0.005295507854592011,
+      "bootstrap_positive_fraction": 0.112,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.26149768127085266,
+      "pooled": 0.25648316376424324,
+      "partial": 0.2571998714773645
+    },
+    "query_accuracy": {
+      "own": 0.453125,
+      "pooled": 0.5,
+      "partial": 0.5
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "8ea3eb0e7757b735",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "k5",
+    "z": -0.010075844782723773,
+    "repeat_z": [
+      -0.009937746162919885,
+      -0.010213943402527662
+    ],
+    "query_delta": -0.00429780979348815,
+    "masked_fit_query_delta": -0.004565831179877078,
+    "validation_gap": -0.0055100136028466955,
+    "fit_size_gap": -0.00026802138638892803,
+    "estimation_error": -0.005778034989235624,
+    "feature_mean_gap": 0.013716493437415843,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.028566975228896414,
+      "hi": 0.0075563427588905985,
+      "bootstrap_positive_fraction": 0.122,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.26149768127085266,
+      "pooled": 0.25648316376424324,
+      "partial": 0.2571998714773645
+    },
+    "query_accuracy": {
+      "own": 0.453125,
+      "pooled": 0.5,
+      "partial": 0.5
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "8ea3eb0e7757b735",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "half",
+    "z": -0.0018976154432982734,
+    "repeat_z": [
+      0.002582160440919736,
+      -0.006377391327516284
+    ],
+    "query_delta": -0.00562895740791669,
+    "masked_fit_query_delta": -0.004558550371997537,
+    "validation_gap": 0.0026609349286992635,
+    "fit_size_gap": 0.0010704070359191537,
+    "estimation_error": 0.0037313419646184173,
+    "feature_mean_gap": 0.00787969232907973,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.023729891272509695,
+      "hi": 0.020610137130084184,
+      "bootstrap_positive_fraction": 0.427,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.24033672754405455,
+      "pooled": 0.23474054621581125,
+      "partial": 0.23470777013613786
+    },
+    "query_accuracy": {
+      "own": 0.59375,
+      "pooled": 0.609375,
+      "partial": 0.609375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "8ea3eb0e7757b735",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "loio",
+    "z": -0.007466284075935253,
+    "repeat_z": [
+      -0.007466284075935253
+    ],
+    "query_delta": -0.00562895740791669,
+    "masked_fit_query_delta": -0.005675991943102981,
+    "validation_gap": -0.0017902921328322718,
+    "fit_size_gap": -4.7034535186290735e-05,
+    "estimation_error": -0.0018373266680185626,
+    "feature_mean_gap": 0.00787969232907973,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.026142816313700197,
+      "hi": 0.011917509160966483,
+      "bootstrap_positive_fraction": 0.23,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.24033672754405455,
+      "pooled": 0.23474054621581125,
+      "partial": 0.23470777013613786
+    },
+    "query_accuracy": {
+      "own": 0.59375,
+      "pooled": 0.609375,
+      "partial": 0.609375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "8ea3eb0e7757b735",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "k5",
+    "z": -0.007033828947613203,
+    "repeat_z": [
+      -0.005064207691117691,
+      -0.009003450204108716
+    ],
+    "query_delta": -0.00562895740791669,
+    "masked_fit_query_delta": -0.005985877570856722,
+    "validation_gap": -0.0010479513767564811,
+    "fit_size_gap": -0.0003569201629400314,
+    "estimation_error": -0.0014048715396965126,
+    "feature_mean_gap": 0.00787969232907973,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.026919260420392742,
+      "hi": 0.013107309908044916,
+      "bootstrap_positive_fraction": 0.259,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.24033672754405455,
+      "pooled": 0.23474054621581125,
+      "partial": 0.23470777013613786
+    },
+    "query_accuracy": {
+      "own": 0.59375,
+      "pooled": 0.609375,
+      "partial": 0.609375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "ffc6589b3e78727d",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "half",
+    "z": -0.025838591667788978,
+    "repeat_z": [
+      -0.02242426962273601,
+      -0.029252913712841954
+    ],
+    "query_delta": -0.013077424100881557,
+    "masked_fit_query_delta": -0.01607026029461045,
+    "validation_gap": -0.009768331373178528,
+    "fit_size_gap": -0.0029928361937288928,
+    "estimation_error": -0.01276116756690742,
+    "feature_mean_gap": 0.014453522418279264,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.05801565997509928,
+      "hi": -0.0055679735924398675,
+      "bootstrap_positive_fraction": 0.0,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.12949753897846614,
+      "pooled": 0.11675451171871695,
+      "partial": 0.11642011487758458
+    },
+    "query_accuracy": {
+      "own": 0.84375,
+      "pooled": 0.84375,
+      "partial": 0.84375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "ffc6589b3e78727d",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "loio",
+    "z": -0.022180152802214432,
+    "repeat_z": [
+      -0.022180152802214432
+    ],
+    "query_delta": -0.013077424100881557,
+    "masked_fit_query_delta": -0.013333718723954913,
+    "validation_gap": -0.008846434078259519,
+    "fit_size_gap": -0.0002562946230733557,
+    "estimation_error": -0.009102728701332875,
+    "feature_mean_gap": 0.014453522418279264,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.05318673311646789,
+      "hi": -0.0036117911829070502,
+      "bootstrap_positive_fraction": 0.0,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.12949753897846614,
+      "pooled": 0.11675451171871695,
+      "partial": 0.11642011487758458
+    },
+    "query_accuracy": {
+      "own": 0.84375,
+      "pooled": 0.84375,
+      "partial": 0.84375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "ffc6589b3e78727d",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "k5",
+    "z": -0.02368318051596213,
+    "repeat_z": [
+      -0.020453686470309953,
+      -0.026912674561614298
+    ],
+    "query_delta": -0.013077424100881557,
+    "masked_fit_query_delta": -0.013974362402073424,
+    "validation_gap": -0.009708818113888705,
+    "fit_size_gap": -0.0008969383011918665,
+    "estimation_error": -0.010605756415080572,
+    "feature_mean_gap": 0.014453522418279264,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.056389683723666296,
+      "hi": -0.0038940109121396965,
+      "bootstrap_positive_fraction": 0.0,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.12949753897846614,
+      "pooled": 0.11675451171871695,
+      "partial": 0.11642011487758458
+    },
+    "query_accuracy": {
+      "own": 0.84375,
+      "pooled": 0.84375,
+      "partial": 0.84375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "ffc6589b3e78727d",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "half",
+    "z": -0.015622914793340296,
+    "repeat_z": [
+      -0.020344837108628062,
+      -0.010900992478052532
+    ],
+    "query_delta": -0.006966192441338212,
+    "masked_fit_query_delta": -0.009606815731357174,
+    "validation_gap": -0.006016099061983122,
+    "fit_size_gap": -0.002640623290018962,
+    "estimation_error": -0.008656722352002084,
+    "feature_mean_gap": 0.006013719490440763,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.04466711694665384,
+      "hi": 0.007935706992353598,
+      "bootstrap_positive_fraction": 0.107,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.11843505414153659,
+      "pooled": 0.1124211899766711,
+      "partial": 0.11146886170019837
+    },
+    "query_accuracy": {
+      "own": 0.84375,
+      "pooled": 0.84375,
+      "partial": 0.84375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "ffc6589b3e78727d",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "loio",
+    "z": -0.017169593650972717,
+    "repeat_z": [
+      -0.017169593650972717
+    ],
+    "query_delta": -0.006966192441338212,
+    "masked_fit_query_delta": -0.007165490264795943,
+    "validation_gap": -0.010004103386176775,
+    "fit_size_gap": -0.000199297823457731,
+    "estimation_error": -0.010203401209634505,
+    "feature_mean_gap": 0.006013719490440763,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.04410702926760439,
+      "hi": 0.004546349079082565,
+      "bootstrap_positive_fraction": 0.059,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.11843505414153659,
+      "pooled": 0.1124211899766711,
+      "partial": 0.11146886170019837
+    },
+    "query_accuracy": {
+      "own": 0.84375,
+      "pooled": 0.84375,
+      "partial": 0.84375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "ffc6589b3e78727d",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "k5",
+    "z": -0.015756523655574037,
+    "repeat_z": [
+      -0.015512879318748216,
+      -0.016000167992399863
+    ],
+    "query_delta": -0.006966192441338212,
+    "masked_fit_query_delta": -0.008056589397543838,
+    "validation_gap": -0.0076999342580302,
+    "fit_size_gap": -0.0010903969562056255,
+    "estimation_error": -0.008790331214235825,
+    "feature_mean_gap": 0.006013719490440763,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.042061212201986935,
+      "hi": 0.0057252600935166,
+      "bootstrap_positive_fraction": 0.079,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.11843505414153659,
+      "pooled": 0.1124211899766711,
+      "partial": 0.11146886170019837
+    },
+    "query_accuracy": {
+      "own": 0.84375,
+      "pooled": 0.84375,
+      "partial": 0.84375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "ffc6589b3e78727d",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "half",
+    "z": -0.011171167432726942,
+    "repeat_z": [
+      -0.015719728821000777,
+      -0.006622606044453106
+    ],
+    "query_delta": -0.0027059264597725785,
+    "masked_fit_query_delta": -0.006283749642796812,
+    "validation_gap": -0.00488741778993013,
+    "fit_size_gap": -0.0035778231830242337,
+    "estimation_error": -0.008465240972954364,
+    "feature_mean_gap": 0.015348682368749112,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.033903043718179746,
+      "hi": 0.005067133778246388,
+      "bootstrap_positive_fraction": 0.11,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.17256746998369504,
+      "pooled": 0.17073644617777067,
+      "partial": 0.16986154352392246
+    },
+    "query_accuracy": {
+      "own": 0.765625,
+      "pooled": 0.765625,
+      "partial": 0.765625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "ffc6589b3e78727d",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "loio",
+    "z": -0.004506861972652002,
+    "repeat_z": [
+      -0.004506861972652002
+    ],
+    "query_delta": -0.0027059264597725785,
+    "masked_fit_query_delta": -0.002858185459852545,
+    "validation_gap": -0.0016486765127994574,
+    "fit_size_gap": -0.0001522590000799665,
+    "estimation_error": -0.0018009355128794239,
+    "feature_mean_gap": 0.015348682368749112,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.02410402516812901,
+      "hi": 0.008712662648613726,
+      "bootstrap_positive_fraction": 0.317,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.17256746998369504,
+      "pooled": 0.17073644617777067,
+      "partial": 0.16986154352392246
+    },
+    "query_accuracy": {
+      "own": 0.765625,
+      "pooled": 0.765625,
+      "partial": 0.765625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "ffc6589b3e78727d",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "k5",
+    "z": -0.0041172974885770415,
+    "repeat_z": [
+      -0.004613210620204974,
+      -0.0036213843569491097
+    ],
+    "query_delta": -0.0027059264597725785,
+    "masked_fit_query_delta": -0.0031028045327385983,
+    "validation_gap": -0.0010144929558384432,
+    "fit_size_gap": -0.00039687807296601976,
+    "estimation_error": -0.001411371028804463,
+    "feature_mean_gap": 0.015348682368749112,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.02346676023170398,
+      "hi": 0.00924563056526285,
+      "bootstrap_positive_fraction": 0.321,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.17256746998369504,
+      "pooled": 0.17073644617777067,
+      "partial": 0.16986154352392246
+    },
+    "query_accuracy": {
+      "own": 0.765625,
+      "pooled": 0.765625,
+      "partial": 0.765625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "ffc6589b3e78727d",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "half",
+    "z": -0.01558040295859538,
+    "repeat_z": [
+      -0.016093299988781166,
+      -0.015067505928409594
+    ],
+    "query_delta": -0.004401162911059103,
+    "masked_fit_query_delta": -0.006925356144203816,
+    "validation_gap": -0.008655046814391564,
+    "fit_size_gap": -0.002524193233144713,
+    "estimation_error": -0.011179240047536277,
+    "feature_mean_gap": 0.008593399621347135,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.034460828240514316,
+      "hi": -0.00014484977345730928,
+      "bootstrap_positive_fraction": 0.024,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1754599054234054,
+      "pooled": 0.17131054392153144,
+      "partial": 0.1710587425123463
+    },
+    "query_accuracy": {
+      "own": 0.765625,
+      "pooled": 0.765625,
+      "partial": 0.765625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "ffc6589b3e78727d",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "loio",
+    "z": -0.011642913714228443,
+    "repeat_z": [
+      -0.011642913714228443
+    ],
+    "query_delta": -0.004401162911059103,
+    "masked_fit_query_delta": -0.0045234692390652255,
+    "validation_gap": -0.007119444475163218,
+    "fit_size_gap": -0.00012230632800612224,
+    "estimation_error": -0.00724175080316934,
+    "feature_mean_gap": 0.008593399621347135,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.026336148340881296,
+      "hi": 0.000935518586674699,
+      "bootstrap_positive_fraction": 0.039,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1754599054234054,
+      "pooled": 0.17131054392153144,
+      "partial": 0.1710587425123463
+    },
+    "query_accuracy": {
+      "own": 0.765625,
+      "pooled": 0.765625,
+      "partial": 0.765625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "ffc6589b3e78727d",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "k5",
+    "z": -0.012986536153569758,
+    "repeat_z": [
+      -0.010996168502131604,
+      -0.014976903805007904
+    ],
+    "query_delta": -0.004401162911059103,
+    "masked_fit_query_delta": -0.005335853816122766,
+    "validation_gap": -0.007650682337446991,
+    "fit_size_gap": -0.0009346909050636631,
+    "estimation_error": -0.008585373242510654,
+    "feature_mean_gap": 0.008593399621347135,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.029631726718989886,
+      "hi": 0.0011031522388232162,
+      "bootstrap_positive_fraction": 0.039,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1754599054234054,
+      "pooled": 0.17131054392153144,
+      "partial": 0.1710587425123463
+    },
+    "query_accuracy": {
+      "own": 0.765625,
+      "pooled": 0.765625,
+      "partial": 0.765625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "ffc6589b3e78727d",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "half",
+    "z": -0.017956611377352806,
+    "repeat_z": [
+      -0.01624975236296036,
+      -0.019663470391745243
+    ],
+    "query_delta": -0.0072168898477914245,
+    "masked_fit_query_delta": -0.010390263979095472,
+    "validation_gap": -0.007566347398257334,
+    "fit_size_gap": -0.003173374131304047,
+    "estimation_error": -0.010739721529561382,
+    "feature_mean_gap": 0.010795334493904622,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.05276480760522889,
+      "hi": 0.012235402598775782,
+      "bootstrap_positive_fraction": 0.144,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1812040073896537,
+      "pooled": 0.174275419622891,
+      "partial": 0.17398711754186227
+    },
+    "query_accuracy": {
+      "own": 0.75,
+      "pooled": 0.75,
+      "partial": 0.75
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "ffc6589b3e78727d",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "loio",
+    "z": -0.017021609511305148,
+    "repeat_z": [
+      -0.017021609511305148
+    ],
+    "query_delta": -0.0072168898477914245,
+    "masked_fit_query_delta": -0.007454560631421334,
+    "validation_gap": -0.009567048879883813,
+    "fit_size_gap": -0.00023767078362990982,
+    "estimation_error": -0.009804719663513723,
+    "feature_mean_gap": 0.010795334493904622,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.05552853382645217,
+      "hi": 0.01575157342647554,
+      "bootstrap_positive_fraction": 0.172,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1812040073896537,
+      "pooled": 0.174275419622891,
+      "partial": 0.17398711754186227
+    },
+    "query_accuracy": {
+      "own": 0.75,
+      "pooled": 0.75,
+      "partial": 0.75
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "ffc6589b3e78727d",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "k5",
+    "z": -0.015681920524377977,
+    "repeat_z": [
+      -0.013448719837533093,
+      -0.01791512121122286
+    ],
+    "query_delta": -0.0072168898477914245,
+    "masked_fit_query_delta": -0.007849244667797711,
+    "validation_gap": -0.007832675856580266,
+    "fit_size_gap": -0.0006323548200062867,
+    "estimation_error": -0.008465030676586553,
+    "feature_mean_gap": 0.010795334493904622,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.05181514801160799,
+      "hi": 0.015024964132677954,
+      "bootstrap_positive_fraction": 0.172,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1812040073896537,
+      "pooled": 0.174275419622891,
+      "partial": 0.17398711754186227
+    },
+    "query_accuracy": {
+      "own": 0.75,
+      "pooled": 0.75,
+      "partial": 0.75
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "ffc6589b3e78727d",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "half",
+    "z": -0.022157632581669088,
+    "repeat_z": [
+      -0.028735739070795904,
+      -0.015579526092542267
+    ],
+    "query_delta": -0.013136587287777252,
+    "masked_fit_query_delta": -0.01752322663771276,
+    "validation_gap": -0.0046344059439563275,
+    "fit_size_gap": -0.004386639349935509,
+    "estimation_error": -0.009021045293891836,
+    "feature_mean_gap": 0.007642835648642371,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.04720900297132541,
+      "hi": 1.3920857715675467e-05,
+      "bootstrap_positive_fraction": 0.026,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1765746584684919,
+      "pooled": 0.16411738073977733,
+      "partial": 0.16343807118071466
+    },
+    "query_accuracy": {
+      "own": 0.75,
+      "pooled": 0.75,
+      "partial": 0.75
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "ffc6589b3e78727d",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "loio",
+    "z": -0.014284188559039068,
+    "repeat_z": [
+      -0.014284188559039068
+    ],
+    "query_delta": -0.013136587287777252,
+    "masked_fit_query_delta": -0.013237303200009033,
+    "validation_gap": -0.0010468853590300357,
+    "fit_size_gap": -0.00010071591223178092,
+    "estimation_error": -0.0011476012712618167,
+    "feature_mean_gap": 0.007642835648642371,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.038604023411879906,
+      "hi": 0.0070437911211811265,
+      "bootstrap_positive_fraction": 0.093,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1765746584684919,
+      "pooled": 0.16411738073977733,
+      "partial": 0.16343807118071466
+    },
+    "query_accuracy": {
+      "own": 0.75,
+      "pooled": 0.75,
+      "partial": 0.75
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "financebench/formatted_tables",
+    "subject_id": "ffc6589b3e78727d",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "k5",
+    "z": -0.01592800784139792,
+    "repeat_z": [
+      -0.01498748736813565,
+      -0.016868528314660194
+    ],
+    "query_delta": -0.013136587287777252,
+    "masked_fit_query_delta": -0.013968421164283767,
+    "validation_gap": -0.001959586677114154,
+    "fit_size_gap": -0.0008318338765065155,
+    "estimation_error": -0.0027914205536206695,
+    "feature_mean_gap": 0.007642835648642371,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.04047617192287197,
+      "hi": 0.004602761583455845,
+      "bootstrap_positive_fraction": 0.071,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1765746584684919,
+      "pooled": 0.16411738073977733,
+      "partial": 0.16343807118071466
+    },
+    "query_accuracy": {
+      "own": 0.75,
+      "pooled": 0.75,
+      "partial": 0.75
+    }
+  }
+]

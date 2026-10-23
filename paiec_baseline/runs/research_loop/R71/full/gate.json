@@ -1,0 +1,86 @@
+{
+  "R70_independent": {
+    "numerical_gate": false,
+    "criteria": {
+      "smoothed_mean_2": {
+        "gain_ge_005": false,
+        "three_fold_gain": true,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": true,
+        "no_large_unexplained_regression": true
+      },
+      "training_selected_smoothed": {
+        "gain_ge_005": true,
+        "three_fold_gain": true,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": true,
+        "no_large_unexplained_regression": true
+      }
+    },
+    "hosted_deployment": "stateless_inputs_available",
+    "official_submission": false
+  },
+  "R70_monotone": {
+    "numerical_gate": false,
+    "criteria": {
+      "smoothed_mean_2": {
+        "gain_ge_005": false,
+        "three_fold_gain": true,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": true,
+        "no_large_unexplained_regression": true
+      },
+      "training_selected_smoothed": {
+        "gain_ge_005": true,
+        "three_fold_gain": true,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": true,
+        "no_large_unexplained_regression": true
+      }
+    },
+    "hosted_deployment": "stateless_inputs_available",
+    "official_submission": false
+  },
+  "R70_global": {
+    "numerical_gate": false,
+    "criteria": {
+      "smoothed_mean_2": {
+        "gain_ge_005": false,
+        "three_fold_gain": true,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": true,
+        "no_large_unexplained_regression": true
+      },
+      "training_selected_smoothed": {
+        "gain_ge_005": true,
+        "three_fold_gain": true,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": true,
+        "no_large_unexplained_regression": true
+      }
+    },
+    "hosted_deployment": "stateless_inputs_available",
+    "official_submission": false
+  },
+  "R71_grouped": {
+    "numerical_gate": false,
+    "criteria": {
+      "smoothed_mean_2": {
+        "gain_ge_005": false,
+        "three_fold_gain": true,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": true,
+        "no_large_unexplained_regression": true
+      },
+      "training_selected_smoothed": {
+        "gain_ge_005": true,
+        "three_fold_gain": true,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": true,
+        "no_large_unexplained_regression": true
+      }
+    },
+    "hosted_deployment": "stateless_inputs_available",
+    "official_submission": false
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "cases": 320,
+  "bitwise_equal": true,
+  "max_error": 0.0,
+  "original_seconds": 1.5030181999318302,
+  "cache_first_seconds": 0.690297199995257,
+  "cache_warm_seconds": 0.021449899999424815,
+  "stats": {
+    "calls": 640,
+    "item_cache": {
+      "hits": 465,
+      "misses": 175,
+      "maxsize": 4096,
+      "currsize": 175
+    },
+    "subject_cache": {
+      "hits": 629,
+      "misses": 11,
+      "maxsize": 32,
+      "currsize": 11
+    }
+  },
+  "method": "same per-coordinate ordered additions, same float32 rounding; no summation shortcut",
+  "scope": "input-only exactness/compute audit, not candidate or hyperparameter selection",
+  "source_sha256": {
+    "D:\\nips-comp\\nips-comp\\research_loop\\check_historical_encoding_equivalence.py": "83434046568ef67b5bc36e680fc897c38192a6941cd537ab9e036964ccc5ca42",
+    "D:\\nips-comp\\nips-comp\\research_loop\\historical_exact_encoding_cache.py": "a13903f25135cfee9289997d7b135dd080050dec3534915182176621cc648be4",
+    "D:\\nips-comp\\nips-comp\\paiec_baseline\\mlp\\model.py": "f4e43b432fa472d88199fe5f97aa275fc27175c5413fa5f1b775cab96e9c6338"
+  }
+}

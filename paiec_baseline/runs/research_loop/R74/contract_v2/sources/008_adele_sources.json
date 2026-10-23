@@ -1,0 +1,220 @@
+{
+  "checked_date": "2026-10-22",
+  "status": "sources_verified_conditional_route_annotation_runtime_unavailable",
+  "title": "General scales unlock AI evaluation with explanatory and predictive power",
+  "lead_author": "Lexin Zhou",
+  "venue": "Nature",
+  "volume": "652",
+  "pages": "58-67",
+  "year": 2026,
+  "online_publication_date": "2026-04-01",
+  "peer_review_status": "published_journal_article",
+  "doi": "10.1038/s41586-026-10303-2",
+  "preprint": "https://arxiv.org/abs/2503.06378",
+  "method_version_read": "Nature published full article and Supplementary Information",
+  "project": "https://kinds-of-intelligence-cfi.github.io/ADELE/",
+  "repository": {
+    "url": "https://github.com/Kinds-of-Intelligence-CFI/ADeLe-AIEvaluation",
+    "commit": "816321f327dfe66910b72b514156aaa296b15f00",
+    "commit_date": "2026-10-12T14:16:19-04:00",
+    "local_path": "D:\\nips-comp\\paiec-dataset\\reproduction_sources\\adele\\upstream",
+    "code_license": "MIT",
+    "bundled_battery_license": "CC-BY-SA-4.0",
+    "checkout_contains_public_source_battery": true,
+    "external_battery_used_for_training": false,
+    "external_battery_inspection": "column names, row count, benchmark names only"
+  },
+  "retrieval": {
+    "search_tool": "AnySearch Python CLI",
+    "script": "C:/Users/Administrator/.codex/skills/anysearch/scripts/anysearch_cli.py",
+    "get_sub_domains": [
+      "academic",
+      "code"
+    ],
+    "queries": [
+      {
+        "query": "ADeLe general scales artificial intelligence Nature Zhou",
+        "domain": "academic",
+        "sub_domain": "academic.search",
+        "request_id": "88d2f427-eac7-403f-80bd-b6e0d6c75a44",
+        "result": "did_not_identify_target"
+      },
+      {
+        "query": "\"ADeLe\" \"General\" \"scales\"",
+        "domain": "general",
+        "request_id": "ae5cc736-27c8-4190-babc-457e90bae9dc",
+        "result": "identified_official_Nature_article_and_author_project"
+      }
+    ],
+    "extract_note": "Long AnySearch extracts were truncated. Exact official URLs discovered by AnySearch were subsequently downloaded directly to obtain complete official HTML/PDF and git clone; no alternate search engine used."
+  },
+  "author_method": {
+    "judge": "gpt-4o-0513 (Azure API, paper identifier)",
+    "temperature": 0,
+    "max_output_tokens": 1000,
+    "annotation_calls_per_item": 18,
+    "demand_scale": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "extra_control": "UG = 100*(1-1/n) for n choices; 100 for open-ended",
+    "input": "task prompt plus complete DeLeAn rubric; not subject response, correctness or gold answer",
+    "assessor": "subject-specific RandomForestClassifier over 18 demands plus UG",
+    "current_author_rf_defaults": {
+      "n_estimators": 100,
+      "min_samples_split": 50,
+      "criterion": "entropy"
+    },
+    "paper_tuned_min_samples_split": [
+      2,
+      50,
+      200
+    ],
+    "paper_protocol": "10 folds, 10 seeds; instance / task / benchmark heldout; AUROC and ECE",
+    "paper_alternate_judges": [
+      "DeepSeek-V3",
+      "LLaMA-3.1-8B-Instruct"
+    ],
+    "offline_minilm_checkpoint_found": false,
+    "weight_search_scope": "fixed official commit; no .pt/.bin/.safetensors demand encoder files found"
+  },
+  "paper_locations": [
+    {
+      "section": "LLM annotators and inter-rater analysis",
+      "pdf_page_1_based": 13
+    },
+    {
+      "section": "Assessors and metrics",
+      "pdf_pages_1_based": [
+        14,
+        15
+      ]
+    },
+    {
+      "section": "Supplementary 1.8; Tables 11-13",
+      "supplementary_pdf_pages_1_based": [
+        26,
+        27,
+        28,
+        29
+      ]
+    },
+    {
+      "section": "Supplementary Table 23 annotation prompt",
+      "supplementary_pdf_page_1_based": 58
+    }
+  ],
+  "execution": {
+    "paid_api_calls": 0,
+    "new_model_downloads": 0,
+    "adele_training_runs": 0,
+    "paiec_results_produced": false,
+    "large_models_installed": false,
+    "reason": "source feasibility audit only; conditional route and no faithful annotation runtime"
+  },
+  "source_gaps": [
+    "ADELE-G1 annotation runtime",
+    "ADELE-G2 deployment latency and budget",
+    "ADELE-G3 inventory and item alignment",
+    "ADELE-G4 local encoder weights",
+    "ADELE-G5 unseen subject conditioning",
+    "ADELE-G6 exact judge snapshot availability"
+  ],
+  "artifacts": [
+    {
+      "path": "D:\\nips-comp\\paiec-dataset\\reproduction_sources\\adele\\nature_paper.pdf",
+      "url": "https://www.nature.com/articles/s41586-026-10303-2.pdf",
+      "role": "official_published_fulltext",
+      "bytes": 13124063,
+      "sha256": "74590d2e0c3912be5e40af0d7e268ac2431f0f73f19dcaa09fa3f00ed80b2ebb"
+    },
+    {
+      "path": "D:\\nips-comp\\paiec-dataset\\reproduction_sources\\adele\\nature_supplementary.pdf",
+      "url": "https://media.springernature.com/original/springer-static/esm/art%3A10.1038%2Fs41586-026-10303-2/MediaObjects/41586_2026_10303_MOESM1_ESM.pdf",
+      "role": "official_supplementary_fulltext",
+      "bytes": 3243756,
+      "sha256": "94067d561a9ef2c44e51c8f851a07ce0ef16192484345e4bceb519a555e1bdee"
+    },
+    {
+      "path": "D:\\nips-comp\\paiec-dataset\\reproduction_sources\\adele\\nature_full.html",
+      "url": "https://www.nature.com/articles/s41586-026-10303-2",
+      "role": "official_article_html",
+      "bytes": 640217,
+      "sha256": "249e141d972c0a30ea8ea5ef69a22b0b88008cea783b0b8f8c83fb71e66d0ca7"
+    },
+    {
+      "path": "D:\\nips-comp\\paiec-dataset\\reproduction_sources\\adele\\nature_anysearch.md",
+      "url": "https://www.nature.com/articles/s41586-026-10303-2",
+      "role": "anysearch_extract_truncated",
+      "bytes": 50982,
+      "sha256": "63bfaff082584cd7564894cd137a653374417bed422bb7114a05c92ad9f7dc2f"
+    },
+    {
+      "path": "D:\\nips-comp\\paiec-dataset\\reproduction_sources\\adele\\project_anysearch.md",
+      "url": "https://kinds-of-intelligence-cfi.github.io/ADELE/",
+      "role": "anysearch_extract_truncated",
+      "bytes": 50247,
+      "sha256": "eb04e2ba078e8b241233c5046a6d8240d7a9750507d5bbc71eaf181267c9948e"
+    },
+    {
+      "path": "D:\\nips-comp\\paiec-dataset\\reproduction_sources\\adele\\upstream\\predictive_power\\predictive_power_stats_rf-assessor.ipynb",
+      "url": "https://github.com/Kinds-of-Intelligence-CFI/ADeLe-AIEvaluation/blob/816321f327dfe66910b72b514156aaa296b15f00/predictive_power/predictive_power_stats_rf-assessor.ipynb",
+      "role": "original_author_notebook",
+      "bytes": 4085773,
+      "sha256": "88b98cb0cf955ec0491801b5985bb547ed0a717038d284b4b55f62257a8e9f6f"
+    },
+    {
+      "path": "D:\\nips-comp\\paiec-dataset\\reproduction_sources\\adele\\upstream\\src\\adele\\annotation\\prompts.py",
+      "url": "https://github.com/Kinds-of-Intelligence-CFI/ADeLe-AIEvaluation/blob/816321f327dfe66910b72b514156aaa296b15f00/src/adele/annotation/prompts.py",
+      "role": "author_prompt_builder",
+      "bytes": 3512,
+      "sha256": "db33a950daf11b5a4e9beaa65dd36972753058e7764ba2e4289b76100d7685a1"
+    },
+    {
+      "path": "D:\\nips-comp\\paiec-dataset\\reproduction_sources\\adele\\upstream\\src\\adele\\annotation\\annotator.py",
+      "url": "https://github.com/Kinds-of-Intelligence-CFI/ADeLe-AIEvaluation/blob/816321f327dfe66910b72b514156aaa296b15f00/src/adele/annotation/annotator.py",
+      "role": "author_annotation_backend",
+      "bytes": 18297,
+      "sha256": "c15a560f34416a7a55288e8c279f4ac92d9804f5f745d743394f619f696de0d6"
+    },
+    {
+      "path": "D:\\nips-comp\\paiec-dataset\\reproduction_sources\\adele\\upstream\\src\\adele\\analysis\\prediction.py",
+      "url": "https://github.com/Kinds-of-Intelligence-CFI/ADeLe-AIEvaluation/blob/816321f327dfe66910b72b514156aaa296b15f00/src/adele/analysis/prediction.py",
+      "role": "author_refactored_rf_assessor",
+      "bytes": 13868,
+      "sha256": "18305ee7035f98501cc93d43998cf5d3632cca25e07cbd1a608147974a6c5c08"
+    },
+    {
+      "path": "D:\\nips-comp\\paiec-dataset\\reproduction_sources\\adele\\upstream\\src\\adele\\annotation\\parsing.py",
+      "url": "https://github.com/Kinds-of-Intelligence-CFI/ADeLe-AIEvaluation/blob/816321f327dfe66910b72b514156aaa296b15f00/src/adele/annotation/parsing.py",
+      "role": "author_annotation_parser_ug",
+      "bytes": 8758,
+      "sha256": "55f440580b479d3956d20dda565b42230bff4929b0a59a0461b41e5a5daeba6e"
+    },
+    {
+      "path": "D:\\nips-comp\\paiec-dataset\\reproduction_sources\\adele\\upstream\\src\\adele\\rubrics\\catalog.py",
+      "url": "https://github.com/Kinds-of-Intelligence-CFI/ADeLe-AIEvaluation/blob/816321f327dfe66910b72b514156aaa296b15f00/src/adele/rubrics/catalog.py",
+      "role": "author_rubric_catalog",
+      "bytes": 8494,
+      "sha256": "42e4add9c7d590ebea7bc73c5fef8c588acb851fcf69bd1b0ec34128f138d280"
+    },
+    {
+      "path": "D:\\nips-comp\\paiec-dataset\\reproduction_sources\\adele\\upstream\\LICENSE",
+      "url": "https://github.com/Kinds-of-Intelligence-CFI/ADeLe-AIEvaluation/blob/816321f327dfe66910b72b514156aaa296b15f00/LICENSE",
+      "role": "code_license",
+      "bytes": 1088,
+      "sha256": "f1b38fcf802e352d6cd17dcc470481620b462f7ae90ff0e92cfc75e9ad341f0c"
+    },
+    {
+      "path": "D:\\nips-comp\\paiec-dataset\\reproduction_sources\\adele\\upstream\\ADeLe_battery_data\\LICENSE",
+      "url": "https://github.com/Kinds-of-Intelligence-CFI/ADeLe-AIEvaluation/blob/816321f327dfe66910b72b514156aaa296b15f00/ADeLe_battery_data/LICENSE",
+      "role": "data_license",
+      "bytes": 1476,
+      "sha256": "f829a35c66bebd8f0e6ae151ed336f6719785ae0d218f8a62e9c1655024ab5a7"
+    }
+  ]
+}

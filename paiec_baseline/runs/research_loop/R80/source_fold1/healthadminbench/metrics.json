@@ -1,0 +1,4874 @@
+[
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "7fd8baeee1896835",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "half",
+    "z": -0.011605097112179311,
+    "repeat_z": [
+      -0.004825477164020411,
+      -0.018384717060338212
+    ],
+    "query_delta": -0.0035828933372143434,
+    "masked_fit_query_delta": -0.005553752281769558,
+    "validation_gap": -0.006051344830409753,
+    "fit_size_gap": -0.0019708589445552142,
+    "estimation_error": -0.008022203774964968,
+    "feature_mean_gap": 0.007566136452030031,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 30,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.030979878241898236,
+      "hi": 0.006261402640783665,
+      "bootstrap_positive_fraction": 0.11,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.23107509101463017,
+      "pooled": 0.2280275188443209,
+      "partial": 0.22749219767741582
+    },
+    "query_accuracy": {
+      "own": 0.6686046511627907,
+      "pooled": 0.6511627906976745,
+      "partial": 0.6453488372093024
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "7fd8baeee1896835",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "loio",
+    "z": -0.008102957843238107,
+    "repeat_z": [
+      -0.008102957843238107
+    ],
+    "query_delta": -0.0035828933372143434,
+    "masked_fit_query_delta": -0.0037277370442099526,
+    "validation_gap": -0.004375220799028154,
+    "fit_size_gap": -0.00014484370699560916,
+    "estimation_error": -0.0045200645060237635,
+    "feature_mean_gap": 0.007566136452030031,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 30,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.024405590648066324,
+      "hi": 0.008347015924456573,
+      "bootstrap_positive_fraction": 0.166,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.23107509101463017,
+      "pooled": 0.2280275188443209,
+      "partial": 0.22749219767741582
+    },
+    "query_accuracy": {
+      "own": 0.6686046511627907,
+      "pooled": 0.6511627906976745,
+      "partial": 0.6453488372093024
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "7fd8baeee1896835",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "k5",
+    "z": -0.010471458247040051,
+    "repeat_z": [
+      -0.006700476438078379,
+      -0.014242440056001723
+    ],
+    "query_delta": -0.0035828933372143434,
+    "masked_fit_query_delta": -0.004202433338221337,
+    "validation_gap": -0.006269024908818714,
+    "fit_size_gap": -0.000619540001006994,
+    "estimation_error": -0.006888564909825708,
+    "feature_mean_gap": 0.007566136452030031,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 30,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.026629443348199305,
+      "hi": 0.005399471286573195,
+      "bootstrap_positive_fraction": 0.112,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.23107509101463017,
+      "pooled": 0.2280275188443209,
+      "partial": 0.22749219767741582
+    },
+    "query_accuracy": {
+      "own": 0.6686046511627907,
+      "pooled": 0.6511627906976745,
+      "partial": 0.6453488372093024
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "7fd8baeee1896835",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "half",
+    "z": -0.013026909045388576,
+    "repeat_z": [
+      -0.015841233743971037,
+      -0.010212584346806115
+    ],
+    "query_delta": -0.01555426364545942,
+    "masked_fit_query_delta": -0.016491172160922107,
+    "validation_gap": 0.003464263115533531,
+    "fit_size_gap": -0.0009369085154626866,
+    "estimation_error": 0.0025273546000708445,
+    "feature_mean_gap": 0.006567185225784131,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 62,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.02213915715117322,
+      "hi": -0.0044453515310483105,
+      "bootstrap_positive_fraction": 0.001,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.2881877150337436,
+      "pooled": 0.27382133805943676,
+      "partial": 0.27263345138828415
+    },
+    "query_accuracy": {
+      "own": 0.45348837209302323,
+      "pooled": 0.45348837209302323,
+      "partial": 0.45348837209302323
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "7fd8baeee1896835",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "loio",
+    "z": -0.013536285861156442,
+    "repeat_z": [
+      -0.013536285861156442
+    ],
+    "query_delta": -0.01555426364545942,
+    "masked_fit_query_delta": -0.015704886127637235,
+    "validation_gap": 0.0021686002664807937,
+    "fit_size_gap": -0.0001506224821778146,
+    "estimation_error": 0.002017977784302979,
+    "feature_mean_gap": 0.006567185225784131,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 62,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.02420941874997362,
+      "hi": -0.0034525855250020403,
+      "bootstrap_positive_fraction": 0.003,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.2881877150337436,
+      "pooled": 0.27382133805943676,
+      "partial": 0.27263345138828415
+    },
+    "query_accuracy": {
+      "own": 0.45348837209302323,
+      "pooled": 0.45348837209302323,
+      "partial": 0.45348837209302323
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "7fd8baeee1896835",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "k5",
+    "z": -0.012732677024441096,
+    "repeat_z": [
+      -0.010767723572865599,
+      -0.014697630476016597
+    ],
+    "query_delta": -0.01555426364545942,
+    "masked_fit_query_delta": -0.016632453035338175,
+    "validation_gap": 0.003899776010897079,
+    "fit_size_gap": -0.0010781893898787545,
+    "estimation_error": 0.0028215866210183245,
+    "feature_mean_gap": 0.006567185225784131,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 62,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.023231253446218656,
+      "hi": -0.0030175924821227414,
+      "bootstrap_positive_fraction": 0.008,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.2881877150337436,
+      "pooled": 0.27382133805943676,
+      "partial": 0.27263345138828415
+    },
+    "query_accuracy": {
+      "own": 0.45348837209302323,
+      "pooled": 0.45348837209302323,
+      "partial": 0.45348837209302323
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "7fd8baeee1896835",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "half",
+    "z": -0.004537057967346337,
+    "repeat_z": [
+      -0.005163777295764941,
+      -0.003910338638927735
+    ],
+    "query_delta": 0.005070179019152077,
+    "masked_fit_query_delta": 0.004243319073083063,
+    "validation_gap": -0.0087803770404294,
+    "fit_size_gap": -0.000826859946069014,
+    "estimation_error": -0.009607236986498414,
+    "feature_mean_gap": 0.011562982632971387,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 30,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.02481652194721818,
+      "hi": 0.013710849730130443,
+      "bootstrap_positive_fraction": 0.344,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.3758622520122529,
+      "pooled": 0.3817645432389657,
+      "partial": 0.38093243103140495
+    },
+    "query_accuracy": {
+      "own": 0.2875,
+      "pooled": 0.2875,
+      "partial": 0.2875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "7fd8baeee1896835",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "loio",
+    "z": -0.0033024672570649153,
+    "repeat_z": [
+      -0.0033024672570649153
+    ],
+    "query_delta": 0.005070179019152077,
+    "masked_fit_query_delta": 0.005156616132935458,
+    "validation_gap": -0.008459083390000373,
+    "fit_size_gap": 8.643711378338113e-05,
+    "estimation_error": -0.008372646276216991,
+    "feature_mean_gap": 0.011562982632971387,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 30,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.019477394595854805,
+      "hi": 0.012365702437997759,
+      "bootstrap_positive_fraction": 0.349,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.3758622520122529,
+      "pooled": 0.3817645432389657,
+      "partial": 0.38093243103140495
+    },
+    "query_accuracy": {
+      "own": 0.2875,
+      "pooled": 0.2875,
+      "partial": 0.2875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "7fd8baeee1896835",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "k5",
+    "z": -0.006512453184663195,
+    "repeat_z": [
+      -0.005733962457401588,
+      -0.007290943911924804
+    ],
+    "query_delta": 0.005070179019152077,
+    "masked_fit_query_delta": 0.005328242471809197,
+    "validation_gap": -0.011840695656472392,
+    "fit_size_gap": 0.00025806345265712034,
+    "estimation_error": -0.011582632203815273,
+    "feature_mean_gap": 0.011562982632971387,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 30,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.022418640974218862,
+      "hi": 0.009154447993713608,
+      "bootstrap_positive_fraction": 0.218,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.3758622520122529,
+      "pooled": 0.3817645432389657,
+      "partial": 0.38093243103140495
+    },
+    "query_accuracy": {
+      "own": 0.2875,
+      "pooled": 0.2875,
+      "partial": 0.2875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "7fd8baeee1896835",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "half",
+    "z": 0.022543729834000867,
+    "repeat_z": [
+      0.023899636599932213,
+      0.021187823068069524
+    ],
+    "query_delta": -0.00991904981035402,
+    "masked_fit_query_delta": -0.005440801038016245,
+    "validation_gap": 0.027984530872017112,
+    "fit_size_gap": 0.004478248772337774,
+    "estimation_error": 0.032462779644354886,
+    "feature_mean_gap": 0.0068348909875378516,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 62,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.004560371010521028,
+      "hi": 0.053108474115979874,
+      "bootstrap_positive_fraction": 0.954,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.31461911948088833,
+      "pooled": 0.30589866343606686,
+      "partial": 0.3047000696705343
+    },
+    "query_accuracy": {
+      "own": 0.38125,
+      "pooled": 0.3875,
+      "partial": 0.3875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "7fd8baeee1896835",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "loio",
+    "z": 0.016052340860327707,
+    "repeat_z": [
+      0.016052340860327707
+    ],
+    "query_delta": -0.00991904981035402,
+    "masked_fit_query_delta": -0.009794848493540096,
+    "validation_gap": 0.025847189353867803,
+    "fit_size_gap": 0.00012420131681392318,
+    "estimation_error": 0.025971390670681726,
+    "feature_mean_gap": 0.0068348909875378516,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 62,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.008833791513962769,
+      "hi": 0.04552744081773815,
+      "bootstrap_positive_fraction": 0.884,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.31461911948088833,
+      "pooled": 0.30589866343606686,
+      "partial": 0.3047000696705343
+    },
+    "query_accuracy": {
+      "own": 0.38125,
+      "pooled": 0.3875,
+      "partial": 0.3875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "7fd8baeee1896835",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "k5",
+    "z": 0.021078231399749944,
+    "repeat_z": [
+      0.023385413080881805,
+      0.01877104971861808
+    ],
+    "query_delta": -0.00991904981035402,
+    "masked_fit_query_delta": -0.009052767404956905,
+    "validation_gap": 0.03013099880470685,
+    "fit_size_gap": 0.0008662824053971147,
+    "estimation_error": 0.030997281210103964,
+    "feature_mean_gap": 0.0068348909875378516,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 62,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.006442317033539743,
+      "hi": 0.05280185251254123,
+      "bootstrap_positive_fraction": 0.931,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.31461911948088833,
+      "pooled": 0.30589866343606686,
+      "partial": 0.3047000696705343
+    },
+    "query_accuracy": {
+      "own": 0.38125,
+      "pooled": 0.3875,
+      "partial": 0.3875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "7fd8baeee1896835",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "half",
+    "z": 0.003204463871972052,
+    "repeat_z": [
+      0.0015528676676068276,
+      0.004856060076337275
+    ],
+    "query_delta": 0.0006785152429094055,
+    "masked_fit_query_delta": -0.0004239512779777078,
+    "validation_gap": 0.00362841514994976,
+    "fit_size_gap": -0.0011024665208871133,
+    "estimation_error": 0.0025259486290626467,
+    "feature_mean_gap": 0.008618421477526849,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 30,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.021199372166525426,
+      "hi": 0.026987154464607026,
+      "bootstrap_positive_fraction": 0.601,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.3622453390401315,
+      "pooled": 0.36285231249855504,
+      "partial": 0.3629238542830409
+    },
+    "query_accuracy": {
+      "own": 0.325,
+      "pooled": 0.325,
+      "partial": 0.325
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "7fd8baeee1896835",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "loio",
+    "z": -0.004610997421048364,
+    "repeat_z": [
+      -0.004610997421048364
+    ],
+    "query_delta": 0.0006785152429094055,
+    "masked_fit_query_delta": 0.0005292920830944495,
+    "validation_gap": -0.005140289504142814,
+    "fit_size_gap": -0.00014922315981495595,
+    "estimation_error": -0.0052895126639577695,
+    "feature_mean_gap": 0.008618421477526849,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 30,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.026087802688075427,
+      "hi": 0.015017624213268521,
+      "bootstrap_positive_fraction": 0.328,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.3622453390401315,
+      "pooled": 0.36285231249855504,
+      "partial": 0.3629238542830409
+    },
+    "query_accuracy": {
+      "own": 0.325,
+      "pooled": 0.325,
+      "partial": 0.325
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "7fd8baeee1896835",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "k5",
+    "z": -0.003430496379100129,
+    "repeat_z": [
+      -0.0034248318031114425,
+      -0.003436160955088814
+    ],
+    "query_delta": 0.0006785152429094055,
+    "masked_fit_query_delta": 0.0005230291354873517,
+    "validation_gap": -0.0039535255145874805,
+    "fit_size_gap": -0.0001554861074220537,
+    "estimation_error": -0.004109011622009534,
+    "feature_mean_gap": 0.008618421477526849,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 30,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.025692763113486398,
+      "hi": 0.017704490123683272,
+      "bootstrap_positive_fraction": 0.387,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.3622453390401315,
+      "pooled": 0.36285231249855504,
+      "partial": 0.3629238542830409
+    },
+    "query_accuracy": {
+      "own": 0.325,
+      "pooled": 0.325,
+      "partial": 0.325
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "7fd8baeee1896835",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "half",
+    "z": 0.0017691613339363762,
+    "repeat_z": [
+      0.005232795850172248,
+      -0.0016944731822994973
+    ],
+    "query_delta": -0.026173074637548033,
+    "masked_fit_query_delta": -0.029094393939134378,
+    "validation_gap": 0.030863555273070754,
+    "fit_size_gap": -0.002921319301586345,
+    "estimation_error": 0.02794223597148441,
+    "feature_mean_gap": 0.004523123959066181,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 62,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.02207430207645323,
+      "hi": 0.025481283629757562,
+      "bootstrap_positive_fraction": 0.562,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.433879682375081,
+      "pooled": 0.40656794213803416,
+      "partial": 0.407706607737533
+    },
+    "query_accuracy": {
+      "own": 0.325,
+      "pooled": 0.325,
+      "partial": 0.325
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "7fd8baeee1896835",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "loio",
+    "z": 0.0034750176189478907,
+    "repeat_z": [
+      0.0034750176189478907
+    ],
+    "query_delta": -0.026173074637548033,
+    "masked_fit_query_delta": -0.026241383598487336,
+    "validation_gap": 0.029716401217435226,
+    "fit_size_gap": -6.830896093930339e-05,
+    "estimation_error": 0.029648092256495923,
+    "feature_mean_gap": 0.004523123959066181,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 62,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.01908076870119927,
+      "hi": 0.02590136906916391,
+      "bootstrap_positive_fraction": 0.611,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.433879682375081,
+      "pooled": 0.40656794213803416,
+      "partial": 0.407706607737533
+    },
+    "query_accuracy": {
+      "own": 0.325,
+      "pooled": 0.325,
+      "partial": 0.325
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "7fd8baeee1896835",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "k5",
+    "z": 0.002313924700042345,
+    "repeat_z": [
+      0.002916495967462595,
+      0.0017113534326220956
+    ],
+    "query_delta": -0.026173074637548033,
+    "masked_fit_query_delta": -0.026124383113902788,
+    "validation_gap": 0.028438307813945133,
+    "fit_size_gap": 4.869152364524523e-05,
+    "estimation_error": 0.028486999337590378,
+    "feature_mean_gap": 0.004523123959066181,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 62,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.019583148760087384,
+      "hi": 0.024459851748080002,
+      "bootstrap_positive_fraction": 0.571,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.433879682375081,
+      "pooled": 0.40656794213803416,
+      "partial": 0.407706607737533
+    },
+    "query_accuracy": {
+      "own": 0.325,
+      "pooled": 0.325,
+      "partial": 0.325
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "d136cc9e65aa222f",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "half",
+    "z": -0.022342290190372267,
+    "repeat_z": [
+      -0.012166876575136272,
+      -0.03251770380560826
+    ],
+    "query_delta": -0.009962352125827523,
+    "masked_fit_query_delta": -0.010823149800987045,
+    "validation_gap": -0.011519140389385223,
+    "fit_size_gap": -0.000860797675159522,
+    "estimation_error": -0.012379938064544745,
+    "feature_mean_gap": 0.007803401119530301,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.06806729537485104,
+      "hi": 0.025754516898929096,
+      "bootstrap_positive_fraction": 0.161,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.19081363951961464,
+      "pooled": 0.18123631129618104,
+      "partial": 0.1808512873937871
+    },
+    "query_accuracy": {
+      "own": 0.7265625,
+      "pooled": 0.7265625,
+      "partial": 0.7265625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "d136cc9e65aa222f",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "loio",
+    "z": -0.02942855078374535,
+    "repeat_z": [
+      -0.02942855078374535
+    ],
+    "query_delta": -0.009962352125827523,
+    "masked_fit_query_delta": -0.010481816242532964,
+    "validation_gap": -0.018946734541212387,
+    "fit_size_gap": -0.0005194641167054412,
+    "estimation_error": -0.01946619865791783,
+    "feature_mean_gap": 0.007803401119530301,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.07409325647846597,
+      "hi": 0.015576563698514758,
+      "bootstrap_positive_fraction": 0.094,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.19081363951961464,
+      "pooled": 0.18123631129618104,
+      "partial": 0.1808512873937871
+    },
+    "query_accuracy": {
+      "own": 0.7265625,
+      "pooled": 0.7265625,
+      "partial": 0.7265625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "d136cc9e65aa222f",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "k5",
+    "z": -0.03534679267887107,
+    "repeat_z": [
+      -0.034475680161683855,
+      -0.03621790519605829
+    ],
+    "query_delta": -0.009962352125827523,
+    "masked_fit_query_delta": -0.012188488202982737,
+    "validation_gap": -0.023158304475888333,
+    "fit_size_gap": -0.0022261360771552146,
+    "estimation_error": -0.02538444055304355,
+    "feature_mean_gap": 0.007803401119530301,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.08495512235198564,
+      "hi": 0.01287842037582404,
+      "bootstrap_positive_fraction": 0.072,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.19081363951961464,
+      "pooled": 0.18123631129618104,
+      "partial": 0.1808512873937871
+    },
+    "query_accuracy": {
+      "own": 0.7265625,
+      "pooled": 0.7265625,
+      "partial": 0.7265625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "d136cc9e65aa222f",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "half",
+    "z": -0.018515913368966408,
+    "repeat_z": [
+      -0.014265159714780961,
+      -0.022766667023151853
+    ],
+    "query_delta": -0.01123406987609038,
+    "masked_fit_query_delta": -0.014795073274590191,
+    "validation_gap": -0.0037208400943762165,
+    "fit_size_gap": -0.0035610033984998114,
+    "estimation_error": -0.007281843492876028,
+    "feature_mean_gap": 0.0063208150143331185,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.044133963253674614,
+      "hi": 0.004303719872529126,
+      "bootstrap_positive_fraction": 0.059,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.18919239327512866,
+      "pooled": 0.17823958374959298,
+      "partial": 0.17795832339903828
+    },
+    "query_accuracy": {
+      "own": 0.7265625,
+      "pooled": 0.7265625,
+      "partial": 0.7265625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "d136cc9e65aa222f",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "loio",
+    "z": -0.01724914617233822,
+    "repeat_z": [
+      -0.01724914617233822
+    ],
+    "query_delta": -0.01123406987609038,
+    "masked_fit_query_delta": -0.011456733145338452,
+    "validation_gap": -0.0057924130269997685,
+    "fit_size_gap": -0.00022266326924807144,
+    "estimation_error": -0.00601507629624784,
+    "feature_mean_gap": 0.0063208150143331185,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.04229745075291345,
+      "hi": 0.004488046930588183,
+      "bootstrap_positive_fraction": 0.067,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.18919239327512866,
+      "pooled": 0.17823958374959298,
+      "partial": 0.17795832339903828
+    },
+    "query_accuracy": {
+      "own": 0.7265625,
+      "pooled": 0.7265625,
+      "partial": 0.7265625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "d136cc9e65aa222f",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "k5",
+    "z": -0.015344262317838855,
+    "repeat_z": [
+      -0.01374867887508172,
+      -0.01693984576059599
+    ],
+    "query_delta": -0.01123406987609038,
+    "masked_fit_query_delta": -0.012463998399869908,
+    "validation_gap": -0.0028802639179689466,
+    "fit_size_gap": -0.0012299285237795284,
+    "estimation_error": -0.004110192441748475,
+    "feature_mean_gap": 0.0063208150143331185,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.04160123146844908,
+      "hi": 0.00795639198107807,
+      "bootstrap_positive_fraction": 0.104,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.18919239327512866,
+      "pooled": 0.17823958374959298,
+      "partial": 0.17795832339903828
+    },
+    "query_accuracy": {
+      "own": 0.7265625,
+      "pooled": 0.7265625,
+      "partial": 0.7265625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "d136cc9e65aa222f",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "half",
+    "z": -0.03190676976572363,
+    "repeat_z": [
+      -0.03197869206541627,
+      -0.031834847466030984
+    ],
+    "query_delta": 0.0013046429785900093,
+    "masked_fit_query_delta": -0.0025677149428854655,
+    "validation_gap": -0.029339054822838165,
+    "fit_size_gap": -0.003872357921475475,
+    "estimation_error": -0.03321141274431364,
+    "feature_mean_gap": 0.011500559089400146,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.060914557586926626,
+      "hi": -0.0024762649222825586,
+      "bootstrap_positive_fraction": 0.017,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.20048878826120903,
+      "pooled": 0.20260070753647558,
+      "partial": 0.20179343123979904
+    },
+    "query_accuracy": {
+      "own": 0.78125,
+      "pooled": 0.765625,
+      "partial": 0.75
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "d136cc9e65aa222f",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "loio",
+    "z": -0.03177637740493763,
+    "repeat_z": [
+      -0.03177637740493763
+    ],
+    "query_delta": 0.0013046429785900093,
+    "masked_fit_query_delta": 0.0010291285708214435,
+    "validation_gap": -0.03280550597575907,
+    "fit_size_gap": -0.0002755144077685658,
+    "estimation_error": -0.033081020383527636,
+    "feature_mean_gap": 0.011500559089400146,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.05670624994371809,
+      "hi": -0.007157946472528103,
+      "bootstrap_positive_fraction": 0.007,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.20048878826120903,
+      "pooled": 0.20260070753647558,
+      "partial": 0.20179343123979904
+    },
+    "query_accuracy": {
+      "own": 0.78125,
+      "pooled": 0.765625,
+      "partial": 0.75
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "d136cc9e65aa222f",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "k5",
+    "z": -0.04470476527744065,
+    "repeat_z": [
+      -0.03918902149707075,
+      -0.05022050905781053
+    ],
+    "query_delta": 0.0013046429785900093,
+    "masked_fit_query_delta": -0.0006065796040084031,
+    "validation_gap": -0.044098185673432246,
+    "fit_size_gap": -0.0019112225825984124,
+    "estimation_error": -0.04600940825603066,
+    "feature_mean_gap": 0.011500559089400146,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.07315908034682284,
+      "hi": -0.01660467884034909,
+      "bootstrap_positive_fraction": 0.001,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.20048878826120903,
+      "pooled": 0.20260070753647558,
+      "partial": 0.20179343123979904
+    },
+    "query_accuracy": {
+      "own": 0.78125,
+      "pooled": 0.765625,
+      "partial": 0.75
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "d136cc9e65aa222f",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "half",
+    "z": -0.03118313902544649,
+    "repeat_z": [
+      -0.030956483512298873,
+      -0.03140979453859411
+    ],
+    "query_delta": -0.0065630317521333525,
+    "masked_fit_query_delta": -0.009278531993526278,
+    "validation_gap": -0.021904607031920213,
+    "fit_size_gap": -0.0027155002413929256,
+    "estimation_error": -0.024620107273313138,
+    "feature_mean_gap": 0.00992623213344149,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.05520443936553666,
+      "hi": -0.006317022996047293,
+      "bootstrap_positive_fraction": 0.011,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.16922697850780233,
+      "pooled": 0.16316206318558368,
+      "partial": 0.16266394675566898
+    },
+    "query_accuracy": {
+      "own": 0.78125,
+      "pooled": 0.78125,
+      "partial": 0.78125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "d136cc9e65aa222f",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "loio",
+    "z": -0.029772721350710633,
+    "repeat_z": [
+      -0.029772721350710633
+    ],
+    "query_delta": -0.0065630317521333525,
+    "masked_fit_query_delta": -0.0067720695314438025,
+    "validation_gap": -0.023000651819266832,
+    "fit_size_gap": -0.00020903777931044996,
+    "estimation_error": -0.02320968959857728,
+    "feature_mean_gap": 0.00992623213344149,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.0543849962570686,
+      "hi": -0.006655466101089187,
+      "bootstrap_positive_fraction": 0.011,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.16922697850780233,
+      "pooled": 0.16316206318558368,
+      "partial": 0.16266394675566898
+    },
+    "query_accuracy": {
+      "own": 0.78125,
+      "pooled": 0.78125,
+      "partial": 0.78125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "d136cc9e65aa222f",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "k5",
+    "z": -0.031161093143528412,
+    "repeat_z": [
+      -0.03104624692800641,
+      -0.031275939359050424
+    ],
+    "query_delta": -0.0065630317521333525,
+    "masked_fit_query_delta": -0.007997773313101704,
+    "validation_gap": -0.023163319830426708,
+    "fit_size_gap": -0.0014347415609683514,
+    "estimation_error": -0.02459806139139506,
+    "feature_mean_gap": 0.00992623213344149,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.054752927347024964,
+      "hi": -0.0077345250353989745,
+      "bootstrap_positive_fraction": 0.011,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.16922697850780233,
+      "pooled": 0.16316206318558368,
+      "partial": 0.16266394675566898
+    },
+    "query_accuracy": {
+      "own": 0.78125,
+      "pooled": 0.78125,
+      "partial": 0.78125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "d136cc9e65aa222f",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "half",
+    "z": 0.002429475088721972,
+    "repeat_z": [
+      0.0032453368102862254,
+      0.0016136133671577194
+    ],
+    "query_delta": -0.009110364120890835,
+    "masked_fit_query_delta": -0.008227092392449264,
+    "validation_gap": 0.010656567481171237,
+    "fit_size_gap": 0.0008832717284415707,
+    "estimation_error": 0.011539839209612806,
+    "feature_mean_gap": 0.011116000549926806,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.002408355361637162,
+      "hi": 0.007663805022909872,
+      "bootstrap_positive_fraction": 0.825,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.23094182525951557,
+      "pooled": 0.22137695976844005,
+      "partial": 0.22183146113862473
+    },
+    "query_accuracy": {
+      "own": 0.7421875,
+      "pooled": 0.7421875,
+      "partial": 0.7421875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "d136cc9e65aa222f",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "loio",
+    "z": 0.0019392369104977122,
+    "repeat_z": [
+      0.0019392369104977122
+    ],
+    "query_delta": -0.009110364120890835,
+    "masked_fit_query_delta": -0.009034078753490764,
+    "validation_gap": 0.010973315663988476,
+    "fit_size_gap": 7.628536740007102e-05,
+    "estimation_error": 0.011049601031388547,
+    "feature_mean_gap": 0.011116000549926806,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.000873256115822809,
+      "hi": 0.0050060757854800365,
+      "bootstrap_positive_fraction": 0.905,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.23094182525951557,
+      "pooled": 0.22137695976844005,
+      "partial": 0.22183146113862473
+    },
+    "query_accuracy": {
+      "own": 0.7421875,
+      "pooled": 0.7421875,
+      "partial": 0.7421875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "d136cc9e65aa222f",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "k5",
+    "z": 0.002072692637572768,
+    "repeat_z": [
+      0.0020558247255282065,
+      0.0020895605496173302
+    ],
+    "query_delta": -0.009110364120890835,
+    "masked_fit_query_delta": -0.008828071905618325,
+    "validation_gap": 0.010900764543191093,
+    "fit_size_gap": 0.00028229221527250985,
+    "estimation_error": 0.011183056758463603,
+    "feature_mean_gap": 0.011116000549926806,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.0013171018448344576,
+      "hi": 0.005671253073646824,
+      "bootstrap_positive_fraction": 0.88,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.23094182525951557,
+      "pooled": 0.22137695976844005,
+      "partial": 0.22183146113862473
+    },
+    "query_accuracy": {
+      "own": 0.7421875,
+      "pooled": 0.7421875,
+      "partial": 0.7421875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "d136cc9e65aa222f",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "half",
+    "z": -0.008680280050549702,
+    "repeat_z": [
+      -0.005134277447344646,
+      -0.01222628265375476
+    ],
+    "query_delta": -0.008908354281176117,
+    "masked_fit_query_delta": -0.01106912717749761,
+    "validation_gap": 0.0023888471269479083,
+    "fit_size_gap": -0.0021607728963214928,
+    "estimation_error": 0.00022807423062641552,
+    "feature_mean_gap": 0.004036346866824098,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.023731001136592156,
+      "hi": 0.008188275554740118,
+      "bootstrap_positive_fraction": 0.146,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.18212632097896306,
+      "pooled": 0.17351652270612283,
+      "partial": 0.17321796669778694
+    },
+    "query_accuracy": {
+      "own": 0.7421875,
+      "pooled": 0.7421875,
+      "partial": 0.7421875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "d136cc9e65aa222f",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "loio",
+    "z": -0.0023940027399788765,
+    "repeat_z": [
+      -0.0023940027399788765
+    ],
+    "query_delta": -0.008908354281176117,
+    "masked_fit_query_delta": -0.00896294999906369,
+    "validation_gap": 0.006568947259084815,
+    "fit_size_gap": -5.4595717887573336e-05,
+    "estimation_error": 0.006514351541197241,
+    "feature_mean_gap": 0.004036346866824098,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.015373590023245311,
+      "hi": 0.014546062291536958,
+      "bootstrap_positive_fraction": 0.343,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.18212632097896306,
+      "pooled": 0.17351652270612283,
+      "partial": 0.17321796669778694
+    },
+    "query_accuracy": {
+      "own": 0.7421875,
+      "pooled": 0.7421875,
+      "partial": 0.7421875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "d136cc9e65aa222f",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "k5",
+    "z": -0.0064095860590696226,
+    "repeat_z": [
+      -0.006886770064523844,
+      -0.0059324020536154
+    ],
+    "query_delta": -0.008908354281176117,
+    "masked_fit_query_delta": -0.009686729052784664,
+    "validation_gap": 0.003277142993715041,
+    "fit_size_gap": -0.0007783747716085462,
+    "estimation_error": 0.002498768222106495,
+    "feature_mean_gap": 0.004036346866824098,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.021566419011079873,
+      "hi": 0.011010609724328163,
+      "bootstrap_positive_fraction": 0.213,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.18212632097896306,
+      "pooled": 0.17351652270612283,
+      "partial": 0.17321796669778694
+    },
+    "query_accuracy": {
+      "own": 0.7421875,
+      "pooled": 0.7421875,
+      "partial": 0.7421875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "a131170eba6c7264",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "half",
+    "z": -0.010703499417064546,
+    "repeat_z": [
+      -0.011852709840813129,
+      -0.009554288993315962
+    ],
+    "query_delta": -0.00785323665283491,
+    "masked_fit_query_delta": -0.009458771765016211,
+    "validation_gap": -0.0012447276520483348,
+    "fit_size_gap": -0.0016055351121813007,
+    "estimation_error": -0.0028502627642296354,
+    "feature_mean_gap": 0.008201382274297554,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 30,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.024183114362203554,
+      "hi": 0.0031296802261250533,
+      "bootstrap_positive_fraction": 0.059,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.22097306419198331,
+      "pooled": 0.2136058179494174,
+      "partial": 0.2131198275391484
+    },
+    "query_accuracy": {
+      "own": 0.65625,
+      "pooled": 0.65625,
+      "partial": 0.65625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "a131170eba6c7264",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "loio",
+    "z": -0.009571242492421103,
+    "repeat_z": [
+      -0.009571242492421103
+    ],
+    "query_delta": -0.00785323665283491,
+    "masked_fit_query_delta": -0.008041841119226179,
+    "validation_gap": -0.0015294013731949243,
+    "fit_size_gap": -0.00018860446639126782,
+    "estimation_error": -0.0017180058395861921,
+    "feature_mean_gap": 0.008201382274297554,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 30,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.023314318505381747,
+      "hi": 0.004240235140988956,
+      "bootstrap_positive_fraction": 0.094,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.22097306419198331,
+      "pooled": 0.2136058179494174,
+      "partial": 0.2131198275391484
+    },
+    "query_accuracy": {
+      "own": 0.65625,
+      "pooled": 0.65625,
+      "partial": 0.65625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "a131170eba6c7264",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "k5",
+    "z": -0.006949745632118759,
+    "repeat_z": [
+      -0.006385985924107515,
+      -0.007513505340130002
+    ],
+    "query_delta": -0.00785323665283491,
+    "masked_fit_query_delta": -0.008109011591066518,
+    "validation_gap": 0.0011592659589477593,
+    "fit_size_gap": -0.00025577493823160727,
+    "estimation_error": 0.0009034910207161521,
+    "feature_mean_gap": 0.008201382274297554,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 30,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.022016792260922086,
+      "hi": 0.007260160981696874,
+      "bootstrap_positive_fraction": 0.184,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.22097306419198331,
+      "pooled": 0.2136058179494174,
+      "partial": 0.2131198275391484
+    },
+    "query_accuracy": {
+      "own": 0.65625,
+      "pooled": 0.65625,
+      "partial": 0.65625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "a131170eba6c7264",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "half",
+    "z": -0.018208305890770268,
+    "repeat_z": [
+      -0.02349007719658964,
+      -0.012926534584950902
+    ],
+    "query_delta": -0.012438204043535517,
+    "masked_fit_query_delta": -0.018428857974584524,
+    "validation_gap": 0.00022055208381425648,
+    "fit_size_gap": -0.005990653931049007,
+    "estimation_error": -0.005770101847234751,
+    "feature_mean_gap": 0.006718361161363652,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 62,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.03103469350694371,
+      "hi": -0.006914428964649374,
+      "bootstrap_positive_fraction": 0.0,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1991541987787781,
+      "pooled": 0.18895072902429758,
+      "partial": 0.18671599473524259
+    },
+    "query_accuracy": {
+      "own": 0.65625,
+      "pooled": 0.65625,
+      "partial": 0.65625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "a131170eba6c7264",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "loio",
+    "z": -0.013317161142279713,
+    "repeat_z": [
+      -0.013317161142279713
+    ],
+    "query_delta": -0.012438204043535517,
+    "masked_fit_query_delta": -0.012677946584824518,
+    "validation_gap": -0.0006392145574551956,
+    "fit_size_gap": -0.00023974254128900085,
+    "estimation_error": -0.0008789570987441965,
+    "feature_mean_gap": 0.006718361161363652,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 62,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.02348811045459269,
+      "hi": -0.004398512894620276,
+      "bootstrap_positive_fraction": 0.0,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1991541987787781,
+      "pooled": 0.18895072902429758,
+      "partial": 0.18671599473524259
+    },
+    "query_accuracy": {
+      "own": 0.65625,
+      "pooled": 0.65625,
+      "partial": 0.65625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "a131170eba6c7264",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "k5",
+    "z": -0.012148631732338587,
+    "repeat_z": [
+      -0.01244391812923565,
+      -0.011853345335441518
+    ],
+    "query_delta": -0.012438204043535517,
+    "masked_fit_query_delta": -0.013937736863070644,
+    "validation_gap": 0.0017891051307320563,
+    "fit_size_gap": -0.0014995328195351269,
+    "estimation_error": 0.00028957231119692943,
+    "feature_mean_gap": 0.006718361161363652,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 62,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.022664753208502218,
+      "hi": -0.0029771736229017185,
+      "bootstrap_positive_fraction": 0.004,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1991541987787781,
+      "pooled": 0.18895072902429758,
+      "partial": 0.18671599473524259
+    },
+    "query_accuracy": {
+      "own": 0.65625,
+      "pooled": 0.65625,
+      "partial": 0.65625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "a131170eba6c7264",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "half",
+    "z": -0.0012204035242211193,
+    "repeat_z": [
+      -0.0033266078556390337,
+      0.000885800807196795
+    ],
+    "query_delta": -0.002045412635807098,
+    "masked_fit_query_delta": -0.0036073348021956496,
+    "validation_gap": 0.0023869312779745302,
+    "fit_size_gap": -0.0015619221663885517,
+    "estimation_error": 0.0008250091115859786,
+    "feature_mean_gap": 0.008675812185230503,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 30,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.0181024298233116,
+      "hi": 0.015587938350474125,
+      "bootstrap_positive_fraction": 0.455,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.16920287508761106,
+      "pooled": 0.16941162732642093,
+      "partial": 0.16715746245180396
+    },
+    "query_accuracy": {
+      "own": 0.8046875,
+      "pooled": 0.7734375,
+      "partial": 0.7734375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "a131170eba6c7264",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "loio",
+    "z": 5.135362391842369e-05,
+    "repeat_z": [
+      5.135362391842369e-05
+    ],
+    "query_delta": -0.002045412635807098,
+    "masked_fit_query_delta": -0.0021346852826074443,
+    "validation_gap": 0.002186038906525868,
+    "fit_size_gap": -8.92726468003464e-05,
+    "estimation_error": 0.0020967662597255214,
+    "feature_mean_gap": 0.008675812185230503,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 30,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.019543019575842466,
+      "hi": 0.017908786505341147,
+      "bootstrap_positive_fraction": 0.53,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.16920287508761106,
+      "pooled": 0.16941162732642093,
+      "partial": 0.16715746245180396
+    },
+    "query_accuracy": {
+      "own": 0.8046875,
+      "pooled": 0.7734375,
+      "partial": 0.7734375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "a131170eba6c7264",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "k5",
+    "z": -0.001172597309823087,
+    "repeat_z": [
+      -0.001259793231585792,
+      -0.0010854013880603835
+    ],
+    "query_delta": -0.002045412635807098,
+    "masked_fit_query_delta": -0.002371666500360045,
+    "validation_gap": 0.0011990691905369583,
+    "fit_size_gap": -0.00032625386455294733,
+    "estimation_error": 0.0008728153259840109,
+    "feature_mean_gap": 0.008675812185230503,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 30,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.019713799177843723,
+      "hi": 0.016004584024497396,
+      "bootstrap_positive_fraction": 0.472,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.16920287508761106,
+      "pooled": 0.16941162732642093,
+      "partial": 0.16715746245180396
+    },
+    "query_accuracy": {
+      "own": 0.8046875,
+      "pooled": 0.7734375,
+      "partial": 0.7734375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "a131170eba6c7264",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "half",
+    "z": 0.008123872580575746,
+    "repeat_z": [
+      0.007643695344577065,
+      0.00860404981657443
+    ],
+    "query_delta": 0.013467876737965984,
+    "masked_fit_query_delta": 0.013698359918180929,
+    "validation_gap": -0.005574487337605183,
+    "fit_size_gap": 0.00023048318021494547,
+    "estimation_error": -0.005344004157390237,
+    "feature_mean_gap": 0.005053809315859254,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 62,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.004370951870294143,
+      "hi": 0.02130230471381283,
+      "bootstrap_positive_fraction": 0.898,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1525076916126683,
+      "pooled": 0.1703226572002211,
+      "partial": 0.1659755683506343
+    },
+    "query_accuracy": {
+      "own": 0.7578125,
+      "pooled": 0.7578125,
+      "partial": 0.7578125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "a131170eba6c7264",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "loio",
+    "z": 0.0070630333904818385,
+    "repeat_z": [
+      0.0070630333904818385
+    ],
+    "query_delta": 0.013467876737965984,
+    "masked_fit_query_delta": 0.013497949013384792,
+    "validation_gap": -0.006434915622902953,
+    "fit_size_gap": 3.007227541880833e-05,
+    "estimation_error": -0.006404843347484145,
+    "feature_mean_gap": 0.005053809315859254,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 62,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.005683428498733481,
+      "hi": 0.02137894125629028,
+      "bootstrap_positive_fraction": 0.843,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1525076916126683,
+      "pooled": 0.1703226572002211,
+      "partial": 0.1659755683506343
+    },
+    "query_accuracy": {
+      "own": 0.7578125,
+      "pooled": 0.7578125,
+      "partial": 0.7578125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "a131170eba6c7264",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "k5",
+    "z": 0.008186674564942866,
+    "repeat_z": [
+      0.00870081224673262,
+      0.007672536883153114
+    ],
+    "query_delta": 0.013467876737965984,
+    "masked_fit_query_delta": 0.013684194492875442,
+    "validation_gap": -0.005497519927932576,
+    "fit_size_gap": 0.00021631775490945845,
+    "estimation_error": -0.005281202173023117,
+    "feature_mean_gap": 0.005053809315859254,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 62,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.00555437470620796,
+      "hi": 0.02321448440987216,
+      "bootstrap_positive_fraction": 0.867,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1525076916126683,
+      "pooled": 0.1703226572002211,
+      "partial": 0.1659755683506343
+    },
+    "query_accuracy": {
+      "own": 0.7578125,
+      "pooled": 0.7578125,
+      "partial": 0.7578125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "a131170eba6c7264",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "half",
+    "z": 0.004688954610522431,
+    "repeat_z": [
+      -0.004222694090781521,
+      0.013600603311826383
+    ],
+    "query_delta": 0.0040965905178179385,
+    "masked_fit_query_delta": 0.005174228728862369,
+    "validation_gap": -0.0004852741183399385,
+    "fit_size_gap": 0.0010776382110444307,
+    "estimation_error": 0.0005923640927044923,
+    "feature_mean_gap": 0.00998311732903281,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 30,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.025631526497173842,
+      "hi": 0.03780803161801644,
+      "bootstrap_positive_fraction": 0.582,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1569612292947518,
+      "pooled": 0.1613769870196756,
+      "partial": 0.16105781981256972
+    },
+    "query_accuracy": {
+      "own": 0.8046875,
+      "pooled": 0.8046875,
+      "partial": 0.8046875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "a131170eba6c7264",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "loio",
+    "z": -0.00011974108427668337,
+    "repeat_z": [
+      -0.00011974108427668337
+    ],
+    "query_delta": 0.0040965905178179385,
+    "masked_fit_query_delta": 0.004117581868707363,
+    "validation_gap": -0.004237322952984047,
+    "fit_size_gap": 2.0991350889424873e-05,
+    "estimation_error": -0.004216331602094622,
+    "feature_mean_gap": 0.00998311732903281,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 30,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.03005715122706973,
+      "hi": 0.03074577433877795,
+      "bootstrap_positive_fraction": 0.472,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1569612292947518,
+      "pooled": 0.1613769870196756,
+      "partial": 0.16105781981256972
+    },
+    "query_accuracy": {
+      "own": 0.8046875,
+      "pooled": 0.8046875,
+      "partial": 0.8046875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "a131170eba6c7264",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "k5",
+    "z": -0.001331468571895407,
+    "repeat_z": [
+      0.0001857736944884734,
+      -0.0028487108382792854
+    ],
+    "query_delta": 0.0040965905178179385,
+    "masked_fit_query_delta": 0.003977128111220044,
+    "validation_gap": -0.005308596683115452,
+    "fit_size_gap": -0.00011946240659789411,
+    "estimation_error": -0.005428059089713345,
+    "feature_mean_gap": 0.00998311732903281,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 30,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.032297205598997965,
+      "hi": 0.030223919969903135,
+      "bootstrap_positive_fraction": 0.449,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1569612292947518,
+      "pooled": 0.1613769870196756,
+      "partial": 0.16105781981256972
+    },
+    "query_accuracy": {
+      "own": 0.8046875,
+      "pooled": 0.8046875,
+      "partial": 0.8046875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "a131170eba6c7264",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "half",
+    "z": -0.01251554552210355,
+    "repeat_z": [
+      -0.013565679562308643,
+      -0.011465411481898457
+    ],
+    "query_delta": 0.002348506439347864,
+    "masked_fit_query_delta": 0.002467785233606525,
+    "validation_gap": -0.014983330755710076,
+    "fit_size_gap": 0.00011927879425866102,
+    "estimation_error": -0.014864051961451415,
+    "feature_mean_gap": 0.004886012322974977,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 62,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.02106686778034601,
+      "hi": -0.0026163763968466537,
+      "bootstrap_positive_fraction": 0.011,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.17325781861576972,
+      "pooled": 0.17502704315952566,
+      "partial": 0.17560632505511758
+    },
+    "query_accuracy": {
+      "own": 0.8203125,
+      "pooled": 0.8203125,
+      "partial": 0.8359375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "a131170eba6c7264",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "loio",
+    "z": -0.0105201046686643,
+    "repeat_z": [
+      -0.0105201046686643
+    ],
+    "query_delta": 0.002348506439347864,
+    "masked_fit_query_delta": 0.0023599964696169626,
+    "validation_gap": -0.012880101138281263,
+    "fit_size_gap": 1.149003026909871e-05,
+    "estimation_error": -0.012868611108012164,
+    "feature_mean_gap": 0.004886012322974977,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 62,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.01891741844561934,
+      "hi": -0.0019235715436229195,
+      "bootstrap_positive_fraction": 0.009,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.17325781861576972,
+      "pooled": 0.17502704315952566,
+      "partial": 0.17560632505511758
+    },
+    "query_accuracy": {
+      "own": 0.8203125,
+      "pooled": 0.8203125,
+      "partial": 0.8359375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "a131170eba6c7264",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "k5",
+    "z": -0.012814305827235828,
+    "repeat_z": [
+      -0.012995467402210721,
+      -0.012633144252260938
+    ],
+    "query_delta": 0.002348506439347864,
+    "masked_fit_query_delta": 0.0023098360686715767,
+    "validation_gap": -0.015124141895907404,
+    "fit_size_gap": -3.867037067628717e-05,
+    "estimation_error": -0.015162812266583692,
+    "feature_mean_gap": 0.004886012322974977,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 62,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.02165973475654033,
+      "hi": -0.003504018946768274,
+      "bootstrap_positive_fraction": 0.003,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.17325781861576972,
+      "pooled": 0.17502704315952566,
+      "partial": 0.17560632505511758
+    },
+    "query_accuracy": {
+      "own": 0.8203125,
+      "pooled": 0.8203125,
+      "partial": 0.8359375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "8a2698f692597a4c",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "half",
+    "z": 0.006564735964383331,
+    "repeat_z": [
+      0.005696690604241538,
+      0.007432781324525125
+    ],
+    "query_delta": -0.013467267425764456,
+    "masked_fit_query_delta": -0.012010086679132437,
+    "validation_gap": 0.01857482264351577,
+    "fit_size_gap": 0.001457180746632019,
+    "estimation_error": 0.02003200339014779,
+    "feature_mean_gap": 0.006829002456775798,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 30,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.0013088103597709542,
+      "hi": 0.015795665871696403,
+      "bootstrap_positive_fraction": 0.936,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.2033682958477509,
+      "pooled": 0.18897504849941754,
+      "partial": 0.18990102842198645
+    },
+    "query_accuracy": {
+      "own": 0.7734375,
+      "pooled": 0.7734375,
+      "partial": 0.7734375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "8a2698f692597a4c",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "loio",
+    "z": 0.005111424048797667,
+    "repeat_z": [
+      0.005111424048797667
+    ],
+    "query_delta": -0.013467267425764456,
+    "masked_fit_query_delta": -0.013352117757112007,
+    "validation_gap": 0.018463541805909672,
+    "fit_size_gap": 0.00011514966865244954,
+    "estimation_error": 0.018578691474562124,
+    "feature_mean_gap": 0.006829002456775798,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 30,
+    "active_peers": 2,
+    "interval": {
+      "lo": 0.00010759112073067286,
+      "hi": 0.01150984964543645,
+      "bootstrap_positive_fraction": 0.982,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.2033682958477509,
+      "pooled": 0.18897504849941754,
+      "partial": 0.18990102842198645
+    },
+    "query_accuracy": {
+      "own": 0.7734375,
+      "pooled": 0.7734375,
+      "partial": 0.7734375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "8a2698f692597a4c",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "k5",
+    "z": 0.005105167534806114,
+    "repeat_z": [
+      0.005101467946649494,
+      0.005108867122962736
+    ],
+    "query_delta": -0.013467267425764456,
+    "masked_fit_query_delta": -0.013017057598223039,
+    "validation_gap": 0.018122225133029152,
+    "fit_size_gap": 0.00045020982754141736,
+    "estimation_error": 0.01857243496057057,
+    "feature_mean_gap": 0.006829002456775798,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 30,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.00012445306701359382,
+      "hi": 0.011651154916066352,
+      "bootstrap_positive_fraction": 0.971,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.2033682958477509,
+      "pooled": 0.18897504849941754,
+      "partial": 0.18990102842198645
+    },
+    "query_accuracy": {
+      "own": 0.7734375,
+      "pooled": 0.7734375,
+      "partial": 0.7734375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "8a2698f692597a4c",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "half",
+    "z": 0.005485668527222786,
+    "repeat_z": [
+      0.0022160277822824764,
+      0.008755309272163095
+    ],
+    "query_delta": -0.02571208183943502,
+    "masked_fit_query_delta": -0.02659513577917171,
+    "validation_gap": 0.0320808043063945,
+    "fit_size_gap": -0.0008830539397366895,
+    "estimation_error": 0.031197750366657805,
+    "feature_mean_gap": 0.003391961803560574,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 62,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.007633002783432444,
+      "hi": 0.019812265958304074,
+      "bootstrap_positive_fraction": 0.8,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1917472713648739,
+      "pooled": 0.16474234864676174,
+      "partial": 0.1660351895254389
+    },
+    "query_accuracy": {
+      "own": 0.7734375,
+      "pooled": 0.7734375,
+      "partial": 0.7734375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "8a2698f692597a4c",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "loio",
+    "z": 0.00562947746650622,
+    "repeat_z": [
+      0.00562947746650622
+    ],
+    "query_delta": -0.02571208183943502,
+    "masked_fit_query_delta": -0.025790174523866075,
+    "validation_gap": 0.03141965199037229,
+    "fit_size_gap": -7.809268443105533e-05,
+    "estimation_error": 0.031341559305941236,
+    "feature_mean_gap": 0.003391961803560574,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 62,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.005692177408134916,
+      "hi": 0.018993964757879202,
+      "bootstrap_positive_fraction": 0.828,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1917472713648739,
+      "pooled": 0.16474234864676174,
+      "partial": 0.1660351895254389
+    },
+    "query_accuracy": {
+      "own": 0.7734375,
+      "pooled": 0.7734375,
+      "partial": 0.7734375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "8a2698f692597a4c",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "k5",
+    "z": 0.005024588156223704,
+    "repeat_z": [
+      0.003948322149146505,
+      0.006100854163300905
+    ],
+    "query_delta": -0.02571208183943502,
+    "masked_fit_query_delta": -0.026140262882153542,
+    "validation_gap": 0.031164851038377246,
+    "fit_size_gap": -0.00042818104271852286,
+    "estimation_error": 0.030736669995658723,
+    "feature_mean_gap": 0.003391961803560574,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 62,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.007461309492139983,
+      "hi": 0.019162613540929022,
+      "bootstrap_positive_fraction": 0.787,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1917472713648739,
+      "pooled": 0.16474234864676174,
+      "partial": 0.1660351895254389
+    },
+    "query_accuracy": {
+      "own": 0.7734375,
+      "pooled": 0.7734375,
+      "partial": 0.7734375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "8a2698f692597a4c",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "half",
+    "z": 0.011892950012611002,
+    "repeat_z": [
+      0.009896022731910144,
+      0.013889877293311858
+    ],
+    "query_delta": -0.012692947083144612,
+    "masked_fit_query_delta": -0.015627117778763695,
+    "validation_gap": 0.027520067791374697,
+    "fit_size_gap": -0.002934170695619083,
+    "estimation_error": 0.024585897095755614,
+    "feature_mean_gap": 0.008829451219558363,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 30,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.006253979390044152,
+      "hi": 0.031583462245677346,
+      "bootstrap_positive_fraction": 0.886,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.14238163406222432,
+      "pooled": 0.1296958744728275,
+      "partial": 0.1296886869790797
+    },
+    "query_accuracy": {
+      "own": 0.828125,
+      "pooled": 0.828125,
+      "partial": 0.828125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "8a2698f692597a4c",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "loio",
+    "z": 0.014270161684064446,
+    "repeat_z": [
+      0.014270161684064446
+    ],
+    "query_delta": -0.012692947083144612,
+    "masked_fit_query_delta": -0.012906549342253278,
+    "validation_gap": 0.027176711026317725,
+    "fit_size_gap": -0.00021360225910866532,
+    "estimation_error": 0.02696310876720906,
+    "feature_mean_gap": 0.008829451219558363,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 30,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.0032717009864173846,
+      "hi": 0.035696126440432976,
+      "bootstrap_positive_fraction": 0.938,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.14238163406222432,
+      "pooled": 0.1296958744728275,
+      "partial": 0.1296886869790797
+    },
+    "query_accuracy": {
+      "own": 0.828125,
+      "pooled": 0.828125,
+      "partial": 0.828125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "8a2698f692597a4c",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "k5",
+    "z": 0.014074565288893252,
+    "repeat_z": [
+      0.01671524297075909,
+      0.011433887607027413
+    ],
+    "query_delta": -0.012692947083144612,
+    "masked_fit_query_delta": -0.013287753663243747,
+    "validation_gap": 0.027362318952136998,
+    "fit_size_gap": -0.0005948065800991352,
+    "estimation_error": 0.026767512372037866,
+    "feature_mean_gap": 0.008829451219558363,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 30,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.0031852579731493904,
+      "hi": 0.0354321463455856,
+      "bootstrap_positive_fraction": 0.931,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.14238163406222432,
+      "pooled": 0.1296958744728275,
+      "partial": 0.1296886869790797
+    },
+    "query_accuracy": {
+      "own": 0.828125,
+      "pooled": 0.828125,
+      "partial": 0.828125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "8a2698f692597a4c",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "half",
+    "z": 0.0003370235180602953,
+    "repeat_z": [
+      0.0010633787761760982,
+      -0.0003893317400555083
+    ],
+    "query_delta": -0.00629171867913042,
+    "masked_fit_query_delta": -0.007042762067116545,
+    "validation_gap": 0.007379785585176841,
+    "fit_size_gap": -0.0007510433879861248,
+    "estimation_error": 0.006628742197190715,
+    "feature_mean_gap": 0.0035190145944683712,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 62,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.009112623831618266,
+      "hi": 0.008386464255886591,
+      "bootstrap_positive_fraction": 0.537,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.13867669116361836,
+      "pooled": 0.13294622269536016,
+      "partial": 0.13238497248448794
+    },
+    "query_accuracy": {
+      "own": 0.828125,
+      "pooled": 0.828125,
+      "partial": 0.828125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "8a2698f692597a4c",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "loio",
+    "z": -0.0016473570787166475,
+    "repeat_z": [
+      -0.0016473570787166475
+    ],
+    "query_delta": -0.00629171867913042,
+    "masked_fit_query_delta": -0.006366534837324033,
+    "validation_gap": 0.004719177758607386,
+    "fit_size_gap": -7.481615819361284e-05,
+    "estimation_error": 0.004644361600413773,
+    "feature_mean_gap": 0.0035190145944683712,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 62,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.009948410051529872,
+      "hi": 0.005282300219226854,
+      "bootstrap_positive_fraction": 0.351,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.13867669116361836,
+      "pooled": 0.13294622269536016,
+      "partial": 0.13238497248448794
+    },
+    "query_accuracy": {
+      "own": 0.828125,
+      "pooled": 0.828125,
+      "partial": 0.828125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "8a2698f692597a4c",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "k5",
+    "z": -0.0009985308683462056,
+    "repeat_z": [
+      -0.0012895138420273614,
+      -0.0007075478946650492
+    ],
+    "query_delta": -0.00629171867913042,
+    "masked_fit_query_delta": -0.006769968226219979,
+    "validation_gap": 0.005771437357873773,
+    "fit_size_gap": -0.0004782495470895586,
+    "estimation_error": 0.0052931878107842145,
+    "feature_mean_gap": 0.0035190145944683712,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 62,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.00911708590514621,
+      "hi": 0.005742703647909425,
+      "bootstrap_positive_fraction": 0.419,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.13867669116361836,
+      "pooled": 0.13294622269536016,
+      "partial": 0.13238497248448794
+    },
+    "query_accuracy": {
+      "own": 0.828125,
+      "pooled": 0.828125,
+      "partial": 0.828125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "8a2698f692597a4c",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "half",
+    "z": -0.005791638372616842,
+    "repeat_z": [
+      -0.005500381092913524,
+      -0.0060828956523201584
+    ],
+    "query_delta": -0.0031209377565252217,
+    "masked_fit_query_delta": -0.0059194224985514125,
+    "validation_gap": 0.00012778412593457064,
+    "fit_size_gap": -0.002798484742026191,
+    "estimation_error": -0.0026707006160916202,
+    "feature_mean_gap": 0.012211115339310016,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 30,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.02285491985643594,
+      "hi": 0.009258717180757131,
+      "bootstrap_positive_fraction": 0.236,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.13803712742770402,
+      "pooled": 0.13469219742394545,
+      "partial": 0.1349161896711788
+    },
+    "query_accuracy": {
+      "own": 0.8359375,
+      "pooled": 0.8359375,
+      "partial": 0.8359375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "8a2698f692597a4c",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "loio",
+    "z": -0.002622403331009824,
+    "repeat_z": [
+      -0.002622403331009824
+    ],
+    "query_delta": -0.0031209377565252217,
+    "masked_fit_query_delta": -0.0032805859593668567,
+    "validation_gap": 0.0006581826283570328,
+    "fit_size_gap": -0.00015964820284163506,
+    "estimation_error": 0.0004985344255153978,
+    "feature_mean_gap": 0.012211115339310016,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 30,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.016982831744618326,
+      "hi": 0.0097098876808273,
+      "bootstrap_positive_fraction": 0.346,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.13803712742770402,
+      "pooled": 0.13469219742394545,
+      "partial": 0.1349161896711788
+    },
+    "query_accuracy": {
+      "own": 0.8359375,
+      "pooled": 0.8359375,
+      "partial": 0.8359375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "8a2698f692597a4c",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "k5",
+    "z": -0.0017763540036770879,
+    "repeat_z": [
+      0.00035745201796878685,
+      -0.003910160025322962
+    ],
+    "query_delta": -0.0031209377565252217,
+    "masked_fit_query_delta": -0.0035492210030774493,
+    "validation_gap": 0.0017728669994003614,
+    "fit_size_gap": -0.00042828324655222764,
+    "estimation_error": 0.0013445837528481338,
+    "feature_mean_gap": 0.012211115339310016,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 30,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.016430746190204168,
+      "hi": 0.010633363460626061,
+      "bootstrap_positive_fraction": 0.409,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.13803712742770402,
+      "pooled": 0.13469219742394545,
+      "partial": 0.1349161896711788
+    },
+    "query_accuracy": {
+      "own": 0.8359375,
+      "pooled": 0.8359375,
+      "partial": 0.8359375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "8a2698f692597a4c",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "half",
+    "z": -0.006790237784917684,
+    "repeat_z": [
+      -0.0042398118254894914,
+      -0.009340663744345877
+    ],
+    "query_delta": -0.0011125060808990783,
+    "masked_fit_query_delta": -0.002423333072709874,
+    "validation_gap": -0.00436690471220781,
+    "fit_size_gap": -0.0013108269918107956,
+    "estimation_error": -0.005677731704018606,
+    "feature_mean_gap": 0.01341710606619716,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 62,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.02698588712547544,
+      "hi": 0.01186811929021209,
+      "bootstrap_positive_fraction": 0.233,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.13261626679435132,
+      "pooled": 0.1324924434962157,
+      "partial": 0.13150376071345224
+    },
+    "query_accuracy": {
+      "own": 0.8359375,
+      "pooled": 0.8359375,
+      "partial": 0.8359375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "8a2698f692597a4c",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "loio",
+    "z": -0.01083433073489923,
+    "repeat_z": [
+      -0.01083433073489923
+    ],
+    "query_delta": -0.0011125060808990783,
+    "masked_fit_query_delta": -0.0012237575958681183,
+    "validation_gap": -0.009610573139031112,
+    "fit_size_gap": -0.00011125151496904,
+    "estimation_error": -0.009721824654000151,
+    "feature_mean_gap": 0.01341710606619716,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 62,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.030230587174068946,
+      "hi": 0.005630002020366303,
+      "bootstrap_positive_fraction": 0.112,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.13261626679435132,
+      "pooled": 0.1324924434962157,
+      "partial": 0.13150376071345224
+    },
+    "query_accuracy": {
+      "own": 0.8359375,
+      "pooled": 0.8359375,
+      "partial": 0.8359375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "8a2698f692597a4c",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "k5",
+    "z": -0.009552008593812566,
+    "repeat_z": [
+      -0.007011371064716264,
+      -0.012092646122908871
+    ],
+    "query_delta": -0.0011125060808990783,
+    "masked_fit_query_delta": -0.0016580605413571237,
+    "validation_gap": -0.007893948052455442,
+    "fit_size_gap": -0.0005455544604580454,
+    "estimation_error": -0.008439502512913487,
+    "feature_mean_gap": 0.01341710606619716,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 62,
+    "active_peers": 2,
+    "interval": {
+      "lo": -0.030003743903806255,
+      "hi": 0.00837355981622298,
+      "bootstrap_positive_fraction": 0.167,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.13261626679435132,
+      "pooled": 0.1324924434962157,
+      "partial": 0.13150376071345224
+    },
+    "query_accuracy": {
+      "own": 0.8359375,
+      "pooled": 0.8359375,
+      "partial": 0.8359375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "37c6e4ce8a97e794",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "half",
+    "z": -0.019121424724029314,
+    "repeat_z": [
+      -0.02756616218502658,
+      -0.010676687263032041
+    ],
+    "query_delta": -0.0078571953526419,
+    "masked_fit_query_delta": -0.004958398110345073,
+    "validation_gap": -0.014163026613684241,
+    "fit_size_gap": 0.0028987972422968265,
+    "estimation_error": -0.011264229371387414,
+    "feature_mean_gap": 0.020591977379439165,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.06480826727530935,
+      "hi": 0.02184663699878392,
+      "bootstrap_positive_fraction": 0.199,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.19691396133773875,
+      "pooled": 0.18946924214701155,
+      "partial": 0.18905676598509685
+    },
+    "query_accuracy": {
+      "own": 0.7265625,
+      "pooled": 0.7265625,
+      "partial": 0.7265625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "37c6e4ce8a97e794",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "loio",
+    "z": -0.032673673816822436,
+    "repeat_z": [
+      -0.032673673816822436
+    ],
+    "query_delta": -0.0078571953526419,
+    "masked_fit_query_delta": -0.008148947586466278,
+    "validation_gap": -0.024524726230356158,
+    "fit_size_gap": -0.0002917522338243793,
+    "estimation_error": -0.024816478464180537,
+    "feature_mean_gap": 0.020591977379439165,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.07868472241596057,
+      "hi": 0.006451073827326806,
+      "bootstrap_positive_fraction": 0.06,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.19691396133773875,
+      "pooled": 0.18946924214701155,
+      "partial": 0.18905676598509685
+    },
+    "query_accuracy": {
+      "own": 0.7265625,
+      "pooled": 0.7265625,
+      "partial": 0.7265625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "37c6e4ce8a97e794",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "k5",
+    "z": -0.034755227358854106,
+    "repeat_z": [
+      -0.04185487418534956,
+      -0.02765558053235865
+    ],
+    "query_delta": -0.0078571953526419,
+    "masked_fit_query_delta": -0.009474133818008663,
+    "validation_gap": -0.025281093540845442,
+    "fit_size_gap": -0.0016169384653667643,
+    "estimation_error": -0.026898032006212207,
+    "feature_mean_gap": 0.020591977379439165,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.08142979508889173,
+      "hi": 0.006820349844415465,
+      "bootstrap_positive_fraction": 0.063,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.19691396133773875,
+      "pooled": 0.18946924214701155,
+      "partial": 0.18905676598509685
+    },
+    "query_accuracy": {
+      "own": 0.7265625,
+      "pooled": 0.7265625,
+      "partial": 0.7265625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "37c6e4ce8a97e794",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "half",
+    "z": -0.015201236590281978,
+    "repeat_z": [
+      -0.009364157038716186,
+      -0.02103831614184777
+    ],
+    "query_delta": -0.009198570667680567,
+    "masked_fit_query_delta": -0.010266118521886443,
+    "validation_gap": -0.0049351180683955345,
+    "fit_size_gap": -0.0010675478542058765,
+    "estimation_error": -0.006002665922601411,
+    "feature_mean_gap": 0.012711681732670857,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.037766120149022094,
+      "hi": 0.007406696161928032,
+      "bootstrap_positive_fraction": 0.113,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1966735796274167,
+      "pooled": 0.18761980582038668,
+      "partial": 0.18747500895973612
+    },
+    "query_accuracy": {
+      "own": 0.7265625,
+      "pooled": 0.7265625,
+      "partial": 0.7265625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "37c6e4ce8a97e794",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "loio",
+    "z": -0.020824375311483147,
+    "repeat_z": [
+      -0.020824375311483147
+    ],
+    "query_delta": -0.009198570667680567,
+    "masked_fit_query_delta": -0.009400966784982574,
+    "validation_gap": -0.011423408526500574,
+    "fit_size_gap": -0.00020239611730200717,
+    "estimation_error": -0.01162580464380258,
+    "feature_mean_gap": 0.012711681732670857,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.04441567937340614,
+      "hi": 0.0017636884579338825,
+      "bootstrap_positive_fraction": 0.037,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1966735796274167,
+      "pooled": 0.18761980582038668,
+      "partial": 0.18747500895973612
+    },
+    "query_accuracy": {
+      "own": 0.7265625,
+      "pooled": 0.7265625,
+      "partial": 0.7265625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "37c6e4ce8a97e794",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "k5",
+    "z": -0.02273818212504374,
+    "repeat_z": [
+      -0.025332593832157226,
+      -0.020143770417930255
+    ],
+    "query_delta": -0.009198570667680567,
+    "masked_fit_query_delta": -0.010731002325798454,
+    "validation_gap": -0.012007179799245284,
+    "fit_size_gap": -0.0015324316581178873,
+    "estimation_error": -0.013539611457363172,
+    "feature_mean_gap": 0.012711681732670857,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.04666123741908796,
+      "hi": -5.596085248908513e-05,
+      "bootstrap_positive_fraction": 0.025,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1966735796274167,
+      "pooled": 0.18761980582038668,
+      "partial": 0.18747500895973612
+    },
+    "query_accuracy": {
+      "own": 0.7265625,
+      "pooled": 0.7265625,
+      "partial": 0.7265625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "37c6e4ce8a97e794",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "half",
+    "z": -0.028020371634902414,
+    "repeat_z": [
+      -0.03703115144118094,
+      -0.019009591828623898
+    ],
+    "query_delta": -0.0002461523334078841,
+    "masked_fit_query_delta": -0.002624234437787659,
+    "validation_gap": -0.025396137197114754,
+    "fit_size_gap": -0.002378082104379775,
+    "estimation_error": -0.02777421930149453,
+    "feature_mean_gap": 0.008194738588622994,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.05214907974370913,
+      "hi": -0.004567741676909094,
+      "bootstrap_positive_fraction": 0.007,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1869070465456241,
+      "pooled": 0.1873157584537366,
+      "partial": 0.1866608942122162
+    },
+    "query_accuracy": {
+      "own": 0.75390625,
+      "pooled": 0.75390625,
+      "partial": 0.76171875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "37c6e4ce8a97e794",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "loio",
+    "z": -0.024015891642076202,
+    "repeat_z": [
+      -0.024015891642076202
+    ],
+    "query_delta": -0.0002461523334078841,
+    "masked_fit_query_delta": -0.0005458285745473652,
+    "validation_gap": -0.023470063067528836,
+    "fit_size_gap": -0.0002996762411394811,
+    "estimation_error": -0.023769739308668318,
+    "feature_mean_gap": 0.008194738588622994,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.04582969284331987,
+      "hi": -0.004292021758297352,
+      "bootstrap_positive_fraction": 0.004,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1869070465456241,
+      "pooled": 0.1873157584537366,
+      "partial": 0.1866608942122162
+    },
+    "query_accuracy": {
+      "own": 0.75390625,
+      "pooled": 0.75390625,
+      "partial": 0.76171875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "37c6e4ce8a97e794",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "k5",
+    "z": -0.02020597130126294,
+    "repeat_z": [
+      -0.018375987634755266,
+      -0.02203595496777061
+    ],
+    "query_delta": -0.0002461523334078841,
+    "masked_fit_query_delta": -0.0009760740309632839,
+    "validation_gap": -0.019229897270299657,
+    "fit_size_gap": -0.0007299216975553997,
+    "estimation_error": -0.019959818967855057,
+    "feature_mean_gap": 0.008194738588622994,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.040723771138344536,
+      "hi": -0.0011304986991907916,
+      "bootstrap_positive_fraction": 0.017,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1869070465456241,
+      "pooled": 0.1873157584537366,
+      "partial": 0.1866608942122162
+    },
+    "query_accuracy": {
+      "own": 0.75390625,
+      "pooled": 0.75390625,
+      "partial": 0.76171875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "37c6e4ce8a97e794",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "half",
+    "z": -0.043795302312450386,
+    "repeat_z": [
+      -0.030720664276522102,
+      -0.05686994034837865
+    ],
+    "query_delta": -0.006632030091849234,
+    "masked_fit_query_delta": -0.015415382836751645,
+    "validation_gap": -0.02837991947569874,
+    "fit_size_gap": -0.008783352744902412,
+    "estimation_error": -0.03716327222060115,
+    "feature_mean_gap": 0.00547743281013882,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.06790857683374248,
+      "hi": -0.014801493667728649,
+      "bootstrap_positive_fraction": 0.0,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.18500154742763578,
+      "pooled": 0.17878700745556889,
+      "partial": 0.17836951733578654
+    },
+    "query_accuracy": {
+      "own": 0.74609375,
+      "pooled": 0.75390625,
+      "partial": 0.76171875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "37c6e4ce8a97e794",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "loio",
+    "z": -0.028253336423907906,
+    "repeat_z": [
+      -0.028253336423907906
+    ],
+    "query_delta": -0.006632030091849234,
+    "masked_fit_query_delta": -0.006844452062405088,
+    "validation_gap": -0.021408884361502817,
+    "fit_size_gap": -0.0002124219705558544,
+    "estimation_error": -0.021621306332058672,
+    "feature_mean_gap": 0.00547743281013882,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.050600064051918525,
+      "hi": -0.001774318702171059,
+      "bootstrap_positive_fraction": 0.014,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.18500154742763578,
+      "pooled": 0.17878700745556889,
+      "partial": 0.17836951733578654
+    },
+    "query_accuracy": {
+      "own": 0.74609375,
+      "pooled": 0.75390625,
+      "partial": 0.76171875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "37c6e4ce8a97e794",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "k5",
+    "z": -0.02789055919045644,
+    "repeat_z": [
+      -0.032069570544468316,
+      -0.02371154783644457
+    ],
+    "query_delta": -0.006632030091849234,
+    "masked_fit_query_delta": -0.008053391175789827,
+    "validation_gap": -0.019837168014666614,
+    "fit_size_gap": -0.0014213610839405935,
+    "estimation_error": -0.021258529098607207,
+    "feature_mean_gap": 0.00547743281013882,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.051993521998176674,
+      "hi": -0.0003369176152935192,
+      "bootstrap_positive_fraction": 0.023,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.18500154742763578,
+      "pooled": 0.17878700745556889,
+      "partial": 0.17836951733578654
+    },
+    "query_accuracy": {
+      "own": 0.74609375,
+      "pooled": 0.75390625,
+      "partial": 0.76171875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "37c6e4ce8a97e794",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "half",
+    "z": 0.014331500265910914,
+    "repeat_z": [
+      0.02230675257495841,
+      0.006356247956863417
+    ],
+    "query_delta": 0.0001592824724892805,
+    "masked_fit_query_delta": 0.0014552655080344859,
+    "validation_gap": 0.012876234757876429,
+    "fit_size_gap": 0.0012959830355452054,
+    "estimation_error": 0.014172217793421633,
+    "feature_mean_gap": 0.0053832601485436365,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.007358998124759893,
+      "hi": 0.04072276720604676,
+      "bootstrap_positive_fraction": 0.867,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.20226537717690185,
+      "pooled": 0.20281306088435036,
+      "partial": 0.20242465964939113
+    },
+    "query_accuracy": {
+      "own": 0.71875,
+      "pooled": 0.71875,
+      "partial": 0.71875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "37c6e4ce8a97e794",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "loio",
+    "z": 0.014164943899865482,
+    "repeat_z": [
+      0.014164943899865482
+    ],
+    "query_delta": 0.0001592824724892805,
+    "masked_fit_query_delta": 0.00034507408134695956,
+    "validation_gap": 0.013819869818518522,
+    "fit_size_gap": 0.00018579160885767905,
+    "estimation_error": 0.014005661427376201,
+    "feature_mean_gap": 0.0053832601485436365,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.008232142357341996,
+      "hi": 0.04433544206660212,
+      "bootstrap_positive_fraction": 0.85,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.20226537717690185,
+      "pooled": 0.20281306088435036,
+      "partial": 0.20242465964939113
+    },
+    "query_accuracy": {
+      "own": 0.71875,
+      "pooled": 0.71875,
+      "partial": 0.71875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "37c6e4ce8a97e794",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "k5",
+    "z": 0.015173569098937264,
+    "repeat_z": [
+      0.017251512941913533,
+      0.013095625255960992
+    ],
+    "query_delta": 0.0001592824724892805,
+    "masked_fit_query_delta": 0.0008122700729043058,
+    "validation_gap": 0.014361299026032958,
+    "fit_size_gap": 0.0006529876004150253,
+    "estimation_error": 0.015014286626447984,
+    "feature_mean_gap": 0.0053832601485436365,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.004463936804888158,
+      "hi": 0.04250501058408376,
+      "bootstrap_positive_fraction": 0.899,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.20226537717690185,
+      "pooled": 0.20281306088435036,
+      "partial": 0.20242465964939113
+    },
+    "query_accuracy": {
+      "own": 0.71875,
+      "pooled": 0.71875,
+      "partial": 0.71875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "37c6e4ce8a97e794",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "half",
+    "z": -0.013010754522629184,
+    "repeat_z": [
+      -0.011683101858177355,
+      -0.014338407187081017
+    ],
+    "query_delta": -0.002300246782248744,
+    "masked_fit_query_delta": -0.0038051713922481857,
+    "validation_gap": -0.009205583130380997,
+    "fit_size_gap": -0.001504924609999442,
+    "estimation_error": -0.01071050774038044,
+    "feature_mean_gap": 0.002802635265501708,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.03781808808108496,
+      "hi": 0.00833284175185339,
+      "bootstrap_positive_fraction": 0.136,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1982128782366763,
+      "pooled": 0.19572291944558984,
+      "partial": 0.19591263145442755
+    },
+    "query_accuracy": {
+      "own": 0.71875,
+      "pooled": 0.7109375,
+      "partial": 0.7109375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "37c6e4ce8a97e794",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "loio",
+    "z": -0.014801519308855107,
+    "repeat_z": [
+      -0.014801519308855107
+    ],
+    "query_delta": -0.002300246782248744,
+    "masked_fit_query_delta": -0.0024405129514280476,
+    "validation_gap": -0.01236100635742706,
+    "fit_size_gap": -0.00014026616917930381,
+    "estimation_error": -0.012501272526606363,
+    "feature_mean_gap": 0.002802635265501708,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.036043779243269757,
+      "hi": 0.005092918615299461,
+      "bootstrap_positive_fraction": 0.07,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1982128782366763,
+      "pooled": 0.19572291944558984,
+      "partial": 0.19591263145442755
+    },
+    "query_accuracy": {
+      "own": 0.71875,
+      "pooled": 0.7109375,
+      "partial": 0.7109375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "37c6e4ce8a97e794",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "k5",
+    "z": -0.015963424571731097,
+    "repeat_z": [
+      -0.018613574548893588,
+      -0.013313274594568608
+    ],
+    "query_delta": -0.002300246782248744,
+    "masked_fit_query_delta": -0.0031893985607225096,
+    "validation_gap": -0.012774026011008587,
+    "fit_size_gap": -0.0008891517784737658,
+    "estimation_error": -0.013663177789482353,
+    "feature_mean_gap": 0.002802635265501708,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.04161297533945483,
+      "hi": 0.006782752312417603,
+      "bootstrap_positive_fraction": 0.079,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1982128782366763,
+      "pooled": 0.19572291944558984,
+      "partial": 0.19591263145442755
+    },
+    "query_accuracy": {
+      "own": 0.71875,
+      "pooled": 0.7109375,
+      "partial": 0.7109375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "459952e5d845f68a",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "half",
+    "z": -0.015551034122908909,
+    "repeat_z": [
+      -0.024918877401557748,
+      -0.006183190844260065
+    ],
+    "query_delta": 0.00023246215077771248,
+    "masked_fit_query_delta": -0.002040711814525153,
+    "validation_gap": -0.013510322308383756,
+    "fit_size_gap": -0.0022731739653028653,
+    "estimation_error": -0.015783496273686623,
+    "feature_mean_gap": 0.006944136137853569,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.06035794259071779,
+      "hi": 0.023027346207347466,
+      "bootstrap_positive_fraction": 0.231,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1308763229948769,
+      "pooled": 0.13212974116355236,
+      "partial": 0.1311087851456546
+    },
+    "query_accuracy": {
+      "own": 0.8671875,
+      "pooled": 0.84375,
+      "partial": 0.8359375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "459952e5d845f68a",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "loio",
+    "z": -0.0008097516743914864,
+    "repeat_z": [
+      -0.0008097516743914864
+    ],
+    "query_delta": 0.00023246215077771248,
+    "masked_fit_query_delta": 0.0003897451380464721,
+    "validation_gap": -0.0011994968124379585,
+    "fit_size_gap": 0.0001572829872687596,
+    "estimation_error": -0.0010422138251691988,
+    "feature_mean_gap": 0.006944136137853569,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.04044661779198072,
+      "hi": 0.035577595942493115,
+      "bootstrap_positive_fraction": 0.483,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1308763229948769,
+      "pooled": 0.13212974116355236,
+      "partial": 0.1311087851456546
+    },
+    "query_accuracy": {
+      "own": 0.8671875,
+      "pooled": 0.84375,
+      "partial": 0.8359375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "459952e5d845f68a",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "k5",
+    "z": -0.00025232568808678153,
+    "repeat_z": [
+      0.005477846486308479,
+      -0.005982497862482041
+    ],
+    "query_delta": 0.00023246215077771248,
+    "masked_fit_query_delta": 0.0008373680269849194,
+    "validation_gap": -0.001089693715071701,
+    "fit_size_gap": 0.0006049058762072069,
+    "estimation_error": -0.000484787838864494,
+    "feature_mean_gap": 0.006944136137853569,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.0389793505087034,
+      "hi": 0.035114045222473196,
+      "bootstrap_positive_fraction": 0.49,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.1308763229948769,
+      "pooled": 0.13212974116355236,
+      "partial": 0.1311087851456546
+    },
+    "query_accuracy": {
+      "own": 0.8671875,
+      "pooled": 0.84375,
+      "partial": 0.8359375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "459952e5d845f68a",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "half",
+    "z": -0.0033772779742842645,
+    "repeat_z": [
+      -0.008425588534859148,
+      0.001671032586290625
+    ],
+    "query_delta": -0.003447604255799014,
+    "masked_fit_query_delta": -0.003111396946203839,
+    "validation_gap": -0.0002658810280804255,
+    "fit_size_gap": 0.00033620730959517484,
+    "estimation_error": 7.032628151474934e-05,
+    "feature_mean_gap": 0.00332540602086,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.028383857780856878,
+      "hi": 0.02260238760569415,
+      "bootstrap_positive_fraction": 0.379,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.11630560484830799,
+      "pooled": 0.11380136853091792,
+      "partial": 0.11285800059250897
+    },
+    "query_accuracy": {
+      "own": 0.8671875,
+      "pooled": 0.8671875,
+      "partial": 0.8671875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "459952e5d845f68a",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "loio",
+    "z": -0.0075622969605813875,
+    "repeat_z": [
+      -0.0075622969605813875
+    ],
+    "query_delta": -0.003447604255799014,
+    "masked_fit_query_delta": -0.003503636854151825,
+    "validation_gap": -0.004058660106429563,
+    "fit_size_gap": -5.6032598352811006e-05,
+    "estimation_error": -0.004114692704782374,
+    "feature_mean_gap": 0.00332540602086,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.03176066587977684,
+      "hi": 0.01773175680092598,
+      "bootstrap_positive_fraction": 0.264,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.11630560484830799,
+      "pooled": 0.11380136853091792,
+      "partial": 0.11285800059250897
+    },
+    "query_accuracy": {
+      "own": 0.8671875,
+      "pooled": 0.8671875,
+      "partial": 0.8671875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "459952e5d845f68a",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "k5",
+    "z": -0.010574961397711673,
+    "repeat_z": [
+      -0.009774205594762138,
+      -0.011375717200661209
+    ],
+    "query_delta": -0.003447604255799014,
+    "masked_fit_query_delta": -0.004338300401026414,
+    "validation_gap": -0.006236660996685259,
+    "fit_size_gap": -0.0008906961452274003,
+    "estimation_error": -0.0071273571419126595,
+    "feature_mean_gap": 0.00332540602086,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.03471049419160141,
+      "hi": 0.014590846937374656,
+      "bootstrap_positive_fraction": 0.205,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.11630560484830799,
+      "pooled": 0.11380136853091792,
+      "partial": 0.11285800059250897
+    },
+    "query_accuracy": {
+      "own": 0.8671875,
+      "pooled": 0.8671875,
+      "partial": 0.8671875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "459952e5d845f68a",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "half",
+    "z": 0.006322090500511866,
+    "repeat_z": [
+      0.005363741963788523,
+      0.007280439037235213
+    ],
+    "query_delta": -0.007952962924138857,
+    "masked_fit_query_delta": -0.005731544090905767,
+    "validation_gap": 0.012053634591417634,
+    "fit_size_gap": 0.0022214188332330895,
+    "estimation_error": 0.014275053424650724,
+    "feature_mean_gap": 0.022184652102769264,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.0032203139659115632,
+      "hi": 0.018633169471208088,
+      "bootstrap_positive_fraction": 0.877,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.09996756055363323,
+      "pooled": 0.09164264675491894,
+      "partial": 0.09201459762949438
+    },
+    "query_accuracy": {
+      "own": 0.890625,
+      "pooled": 0.890625,
+      "partial": 0.890625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "459952e5d845f68a",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "loio",
+    "z": 0.005129286262338481,
+    "repeat_z": [
+      0.005129286262338481
+    ],
+    "query_delta": -0.007952962924138857,
+    "masked_fit_query_delta": -0.007838235074683437,
+    "validation_gap": 0.012967521337021918,
+    "fit_size_gap": 0.00011472784945541943,
+    "estimation_error": 0.013082249186477338,
+    "feature_mean_gap": 0.022184652102769264,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.0006332179838103069,
+      "hi": 0.013017351314441787,
+      "bootstrap_positive_fraction": 0.953,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.09996756055363323,
+      "pooled": 0.09164264675491894,
+      "partial": 0.09201459762949438
+    },
+    "query_accuracy": {
+      "own": 0.890625,
+      "pooled": 0.890625,
+      "partial": 0.890625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "459952e5d845f68a",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "k5",
+    "z": 0.0047862546904494235,
+    "repeat_z": [
+      0.004601330803784679,
+      0.004971178577114169
+    ],
+    "query_delta": -0.007952962924138857,
+    "masked_fit_query_delta": -0.007559372270131653,
+    "validation_gap": 0.012345626960581077,
+    "fit_size_gap": 0.0003935906540072035,
+    "estimation_error": 0.01273921761458828,
+    "feature_mean_gap": 0.022184652102769264,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.00131017609448842,
+      "hi": 0.012993124114049466,
+      "bootstrap_positive_fraction": 0.918,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.09996756055363323,
+      "pooled": 0.09164264675491894,
+      "partial": 0.09201459762949438
+    },
+    "query_accuracy": {
+      "own": 0.890625,
+      "pooled": 0.890625,
+      "partial": 0.890625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "459952e5d845f68a",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "half",
+    "z": -0.016951451098893584,
+    "repeat_z": [
+      -0.02306697880396217,
+      -0.010835923393824987
+    ],
+    "query_delta": 0.004757741987183969,
+    "masked_fit_query_delta": 0.0031771552334878828,
+    "validation_gap": -0.020128606332381466,
+    "fit_size_gap": -0.0015805867536960866,
+    "estimation_error": -0.021709193086077553,
+    "feature_mean_gap": 0.009640250573717115,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.04470213559818968,
+      "hi": 0.0034661273817570104,
+      "bootstrap_positive_fraction": 0.058,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.10084883500028156,
+      "pooled": 0.10508046508041921,
+      "partial": 0.10560657698746553
+    },
+    "query_accuracy": {
+      "own": 0.890625,
+      "pooled": 0.890625,
+      "partial": 0.890625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "459952e5d845f68a",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "loio",
+    "z": -0.014938931959169247,
+    "repeat_z": [
+      -0.014938931959169247
+    ],
+    "query_delta": 0.004757741987183969,
+    "masked_fit_query_delta": 0.004694237229865577,
+    "validation_gap": -0.01963316918903482,
+    "fit_size_gap": -6.350475731839271e-05,
+    "estimation_error": -0.019696673946353216,
+    "feature_mean_gap": 0.009640250573717115,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.04023503966862266,
+      "hi": 0.0026013069465523567,
+      "bootstrap_positive_fraction": 0.056,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.10084883500028156,
+      "pooled": 0.10508046508041921,
+      "partial": 0.10560657698746553
+    },
+    "query_accuracy": {
+      "own": 0.890625,
+      "pooled": 0.890625,
+      "partial": 0.890625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "459952e5d845f68a",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "k5",
+    "z": -0.014328780744969313,
+    "repeat_z": [
+      -0.014216101323075877,
+      -0.014441460166862752
+    ],
+    "query_delta": 0.004757741987183969,
+    "masked_fit_query_delta": 0.004674338536120119,
+    "validation_gap": -0.019003119281089432,
+    "fit_size_gap": -8.340345106385046e-05,
+    "estimation_error": -0.019086522732153284,
+    "feature_mean_gap": 0.009640250573717115,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.039644025328585505,
+      "hi": 0.003218924177952307,
+      "bootstrap_positive_fraction": 0.072,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.10084883500028156,
+      "pooled": 0.10508046508041921,
+      "partial": 0.10560657698746553
+    },
+    "query_accuracy": {
+      "own": 0.890625,
+      "pooled": 0.890625,
+      "partial": 0.890625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "459952e5d845f68a",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "half",
+    "z": -0.0023305066290408055,
+    "repeat_z": [
+      -0.0006185856461684449,
+      -0.0040424276119131654
+    ],
+    "query_delta": 0.004980871501327561,
+    "masked_fit_query_delta": 0.005003168964893022,
+    "validation_gap": -0.007333675593933827,
+    "fit_size_gap": 2.2297463565461306e-05,
+    "estimation_error": -0.007311378130368366,
+    "feature_mean_gap": 0.008050271582588494,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.012358284846355741,
+      "hi": 0.007945150806013655,
+      "bootstrap_positive_fraction": 0.319,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.11682531742671193,
+      "pooled": 0.12334179745535707,
+      "partial": 0.12180618892803949
+    },
+    "query_accuracy": {
+      "own": 0.8515625,
+      "pooled": 0.8515625,
+      "partial": 0.8515625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "459952e5d845f68a",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "loio",
+    "z": -0.0020203625537765103,
+    "repeat_z": [
+      -0.0020203625537765103
+    ],
+    "query_delta": 0.004980871501327561,
+    "masked_fit_query_delta": 0.005067771894828052,
+    "validation_gap": -0.007088134448604563,
+    "fit_size_gap": 8.690039350049174e-05,
+    "estimation_error": -0.007001234055104071,
+    "feature_mean_gap": 0.008050271582588494,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.012026239582713916,
+      "hi": 0.008098637344150492,
+      "bootstrap_positive_fraction": 0.351,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.11682531742671193,
+      "pooled": 0.12334179745535707,
+      "partial": 0.12180618892803949
+    },
+    "query_accuracy": {
+      "own": 0.8515625,
+      "pooled": 0.8515625,
+      "partial": 0.8515625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "459952e5d845f68a",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "k5",
+    "z": -0.00308137468799792,
+    "repeat_z": [
+      -0.0023084284889925404,
+      -0.0038543208870032986
+    ],
+    "query_delta": 0.004980871501327561,
+    "masked_fit_query_delta": 0.005128708434098077,
+    "validation_gap": -0.008210083122095996,
+    "fit_size_gap": 0.00014783693277051636,
+    "estimation_error": -0.008062246189325481,
+    "feature_mean_gap": 0.008050271582588494,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.013400885793795378,
+      "hi": 0.007501878269970751,
+      "bootstrap_positive_fraction": 0.281,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.11682531742671193,
+      "pooled": 0.12334179745535707,
+      "partial": 0.12180618892803949
+    },
+    "query_accuracy": {
+      "own": 0.8515625,
+      "pooled": 0.8515625,
+      "partial": 0.8515625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "459952e5d845f68a",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "half",
+    "z": -0.019419333703552637,
+    "repeat_z": [
+      -0.02199251955408602,
+      -0.016846147853019258
+    ],
+    "query_delta": 0.003910044577891833,
+    "masked_fit_query_delta": -0.0005291663413220302,
+    "validation_gap": -0.018890167362230606,
+    "fit_size_gap": -0.004439210919213863,
+    "estimation_error": -0.02332937828144447,
+    "feature_mean_gap": 0.006755763568833981,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.04589232084380528,
+      "hi": 0.0044317486822626016,
+      "bootstrap_positive_fraction": 0.073,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.11874232496726699,
+      "pooled": 0.1236036919452144,
+      "partial": 0.12265236954515882
+    },
+    "query_accuracy": {
+      "own": 0.8515625,
+      "pooled": 0.8515625,
+      "partial": 0.8515625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "459952e5d845f68a",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "loio",
+    "z": -0.012786148065329137,
+    "repeat_z": [
+      -0.012786148065329137
+    ],
+    "query_delta": 0.003910044577891833,
+    "masked_fit_query_delta": 0.0038494610087362866,
+    "validation_gap": -0.016635609074065423,
+    "fit_size_gap": -6.058356915554638e-05,
+    "estimation_error": -0.016696192643220968,
+    "feature_mean_gap": 0.006755763568833981,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.03797192900458881,
+      "hi": 0.009930639448739651,
+      "bootstrap_positive_fraction": 0.162,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.11874232496726699,
+      "pooled": 0.1236036919452144,
+      "partial": 0.12265236954515882
+    },
+    "query_accuracy": {
+      "own": 0.8515625,
+      "pooled": 0.8515625,
+      "partial": 0.8515625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "459952e5d845f68a",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "k5",
+    "z": -0.014445740603458369,
+    "repeat_z": [
+      -0.014787374405601229,
+      -0.014104106801315507
+    ],
+    "query_delta": 0.003910044577891833,
+    "masked_fit_query_delta": 0.0034071232936123807,
+    "validation_gap": -0.017852863897070748,
+    "fit_size_gap": -0.0005029212842794523,
+    "estimation_error": -0.0183557851813502,
+    "feature_mean_gap": 0.006755763568833981,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.04043154004652042,
+      "hi": 0.008056353784033906,
+      "bootstrap_positive_fraction": 0.128,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.11874232496726699,
+      "pooled": 0.1236036919452144,
+      "partial": 0.12265236954515882
+    },
+    "query_accuracy": {
+      "own": 0.8515625,
+      "pooled": 0.8515625,
+      "partial": 0.8515625
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "519b49900f96fb3b",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "half",
+    "z": -0.044737536484529605,
+    "repeat_z": [
+      -0.04222766431840908,
+      -0.04724740865065013
+    ],
+    "query_delta": -0.0221615175206476,
+    "masked_fit_query_delta": -0.03016382211965776,
+    "validation_gap": -0.014573714364871846,
+    "fit_size_gap": -0.00800230459901016,
+    "estimation_error": -0.022576018963882005,
+    "feature_mean_gap": 0.013259620344264719,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.07912929129201701,
+      "hi": -0.014266613703131583,
+      "bootstrap_positive_fraction": 0.0,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.36359937470633497,
+      "pooled": 0.3425262812061696,
+      "partial": 0.34143785718568737
+    },
+    "query_accuracy": {
+      "own": 0.2625,
+      "pooled": 0.26875,
+      "partial": 0.2875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "519b49900f96fb3b",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "loio",
+    "z": -0.03914004272376113,
+    "repeat_z": [
+      -0.03914004272376113
+    ],
+    "query_delta": -0.0221615175206476,
+    "masked_fit_query_delta": -0.02326735300055269,
+    "validation_gap": -0.015872689723208436,
+    "fit_size_gap": -0.0011058354799050908,
+    "estimation_error": -0.016978525203113527,
+    "feature_mean_gap": 0.013259620344264719,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.07346177677168605,
+      "hi": -0.009734713519473352,
+      "bootstrap_positive_fraction": 0.002,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.36359937470633497,
+      "pooled": 0.3425262812061696,
+      "partial": 0.34143785718568737
+    },
+    "query_accuracy": {
+      "own": 0.2625,
+      "pooled": 0.26875,
+      "partial": 0.2875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "519b49900f96fb3b",
+    "seed": 0,
+    "budget": 15,
+    "estimator": "k5",
+    "z": -0.04402492602684035,
+    "repeat_z": [
+      -0.03910785666858141,
+      -0.04894199538509929
+    ],
+    "query_delta": -0.0221615175206476,
+    "masked_fit_query_delta": -0.02582021749669079,
+    "validation_gap": -0.01820470853014956,
+    "fit_size_gap": -0.0036586999760431886,
+    "estimation_error": -0.02186340850619275,
+    "feature_mean_gap": 0.013259620344264719,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.08023919937102719,
+      "hi": -0.013037540824070682,
+      "bootstrap_positive_fraction": 0.001,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.36359937470633497,
+      "pooled": 0.3425262812061696,
+      "partial": 0.34143785718568737
+    },
+    "query_accuracy": {
+      "own": 0.2625,
+      "pooled": 0.26875,
+      "partial": 0.2875
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "519b49900f96fb3b",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "half",
+    "z": -0.022767772889656125,
+    "repeat_z": [
+      -0.02550527745615248,
+      -0.02003026832315977
+    ],
+    "query_delta": -0.026443881989230034,
+    "masked_fit_query_delta": -0.03503305347304306,
+    "validation_gap": 0.012265280583386932,
+    "fit_size_gap": -0.008589171483813024,
+    "estimation_error": 0.0036761090995739085,
+    "feature_mean_gap": 0.006536414883456082,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.04835190500555875,
+      "hi": 0.004615411711575739,
+      "bootstrap_positive_fraction": 0.049,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.3113776758366394,
+      "pooled": 0.2859688944772638,
+      "partial": 0.28493379384740936
+    },
+    "query_accuracy": {
+      "own": 0.38125,
+      "pooled": 0.39375,
+      "partial": 0.39375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "519b49900f96fb3b",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "loio",
+    "z": -0.019851232378006317,
+    "repeat_z": [
+      -0.019851232378006317
+    ],
+    "query_delta": -0.026443881989230034,
+    "masked_fit_query_delta": -0.026754318719564563,
+    "validation_gap": 0.006903086341558246,
+    "fit_size_gap": -0.0003104367303345297,
+    "estimation_error": 0.0065926496112237165,
+    "feature_mean_gap": 0.006536414883456082,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.04040101674900982,
+      "hi": 0.002199924487646209,
+      "bootstrap_positive_fraction": 0.037,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.3113776758366394,
+      "pooled": 0.2859688944772638,
+      "partial": 0.28493379384740936
+    },
+    "query_accuracy": {
+      "own": 0.38125,
+      "pooled": 0.39375,
+      "partial": 0.39375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "519b49900f96fb3b",
+    "seed": 0,
+    "budget": 31,
+    "estimator": "k5",
+    "z": -0.019382958827033295,
+    "repeat_z": [
+      -0.02379258306469964,
+      -0.014973334589366952
+    ],
+    "query_delta": -0.026443881989230034,
+    "masked_fit_query_delta": -0.02868876085693024,
+    "validation_gap": 0.009305802029896944,
+    "fit_size_gap": -0.0022448788677002056,
+    "estimation_error": 0.007060923162196739,
+    "feature_mean_gap": 0.006536414883456082,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.041855440170757666,
+      "hi": 0.004830895038060363,
+      "bootstrap_positive_fraction": 0.051,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.3113776758366394,
+      "pooled": 0.2859688944772638,
+      "partial": 0.28493379384740936
+    },
+    "query_accuracy": {
+      "own": 0.38125,
+      "pooled": 0.39375,
+      "partial": 0.39375
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "519b49900f96fb3b",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "half",
+    "z": -0.016061766858404606,
+    "repeat_z": [
+      -0.008225409369627186,
+      -0.023898124347182022
+    ],
+    "query_delta": -0.007102656938518859,
+    "masked_fit_query_delta": -0.009898748252605852,
+    "validation_gap": -0.006163018605798754,
+    "fit_size_gap": -0.002796091314086993,
+    "estimation_error": -0.008959109919885747,
+    "feature_mean_gap": 0.014611501726018593,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.04416660025827783,
+      "hi": 0.013947643245056925,
+      "bootstrap_positive_fraction": 0.145,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.25274856926830913,
+      "pooled": 0.2461977731293978,
+      "partial": 0.24564591232979027
+    },
+    "query_accuracy": {
+      "own": 0.5724137931034483,
+      "pooled": 0.5517241379310345,
+      "partial": 0.5517241379310345
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "519b49900f96fb3b",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "loio",
+    "z": -0.015513131194897683,
+    "repeat_z": [
+      -0.015513131194897683
+    ],
+    "query_delta": -0.007102656938518859,
+    "masked_fit_query_delta": -0.007395506399750431,
+    "validation_gap": -0.00811762479514725,
+    "fit_size_gap": -0.00029284946123157244,
+    "estimation_error": -0.008410474256378824,
+    "feature_mean_gap": 0.014611501726018593,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.039994605571889025,
+      "hi": 0.011796176210533419,
+      "bootstrap_positive_fraction": 0.132,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.25274856926830913,
+      "pooled": 0.2461977731293978,
+      "partial": 0.24564591232979027
+    },
+    "query_accuracy": {
+      "own": 0.5724137931034483,
+      "pooled": 0.5517241379310345,
+      "partial": 0.5517241379310345
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "519b49900f96fb3b",
+    "seed": 1,
+    "budget": 15,
+    "estimator": "k5",
+    "z": -0.014462062627389454,
+    "repeat_z": [
+      -0.01567855962942597,
+      -0.01324556562535294
+    ],
+    "query_delta": -0.007102656938518859,
+    "masked_fit_query_delta": -0.007843732941312668,
+    "validation_gap": -0.006618329686076787,
+    "fit_size_gap": -0.0007410760027938088,
+    "estimation_error": -0.007359405688870595,
+    "feature_mean_gap": 0.014611501726018593,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.03941140870107919,
+      "hi": 0.011786664412615,
+      "bootstrap_positive_fraction": 0.148,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.25274856926830913,
+      "pooled": 0.2461977731293978,
+      "partial": 0.24564591232979027
+    },
+    "query_accuracy": {
+      "own": 0.5724137931034483,
+      "pooled": 0.5517241379310345,
+      "partial": 0.5517241379310345
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "519b49900f96fb3b",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "half",
+    "z": -0.027333683191612574,
+    "repeat_z": [
+      -0.020390108747723176,
+      -0.034277257635501976
+    ],
+    "query_delta": 0.009300027069455763,
+    "masked_fit_query_delta": 0.006724996149090509,
+    "validation_gap": -0.034058679340703085,
+    "fit_size_gap": -0.0025750309203652543,
+    "estimation_error": -0.036633710261068334,
+    "feature_mean_gap": 0.0078005830455274185,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.04967872838024054,
+      "hi": -0.003516986284226382,
+      "bootstrap_positive_fraction": 0.012,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.2674567060045345,
+      "pooled": 0.2783318853269191,
+      "partial": 0.27675673307399024
+    },
+    "query_accuracy": {
+      "own": 0.36551724137931035,
+      "pooled": 0.43448275862068964,
+      "partial": 0.46206896551724136
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "519b49900f96fb3b",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "loio",
+    "z": -0.0312058405605842,
+    "repeat_z": [
+      -0.0312058405605842
+    ],
+    "query_delta": 0.009300027069455763,
+    "masked_fit_query_delta": 0.009200713918283693,
+    "validation_gap": -0.040406554478867894,
+    "fit_size_gap": -9.931315117206983e-05,
+    "estimation_error": -0.040505867630039966,
+    "feature_mean_gap": 0.0078005830455274185,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.04975715373875067,
+      "hi": -0.011427326568531342,
+      "bootstrap_positive_fraction": 0.0,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.2674567060045345,
+      "pooled": 0.2783318853269191,
+      "partial": 0.27675673307399024
+    },
+    "query_accuracy": {
+      "own": 0.36551724137931035,
+      "pooled": 0.43448275862068964,
+      "partial": 0.46206896551724136
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "519b49900f96fb3b",
+    "seed": 1,
+    "budget": 31,
+    "estimator": "k5",
+    "z": -0.032425354023841585,
+    "repeat_z": [
+      -0.039768370519642354,
+      -0.025082337528040823
+    ],
+    "query_delta": 0.009300027069455763,
+    "masked_fit_query_delta": 0.008635931275684725,
+    "validation_gap": -0.04106128529952631,
+    "fit_size_gap": -0.0006640957937710384,
+    "estimation_error": -0.04172538109329735,
+    "feature_mean_gap": 0.0078005830455274185,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.05273284643576531,
+      "hi": -0.01140920512953594,
+      "bootstrap_positive_fraction": 0.0,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.2674567060045345,
+      "pooled": 0.2783318853269191,
+      "partial": 0.27675673307399024
+    },
+    "query_accuracy": {
+      "own": 0.36551724137931035,
+      "pooled": 0.43448275862068964,
+      "partial": 0.46206896551724136
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "519b49900f96fb3b",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "half",
+    "z": 0.01115610425707798,
+    "repeat_z": [
+      0.0334951609524379,
+      -0.011182952438281945
+    ],
+    "query_delta": -0.011153417267781157,
+    "masked_fit_query_delta": -0.009409386543887744,
+    "validation_gap": 0.020565490800965723,
+    "fit_size_gap": 0.0017440307238934128,
+    "estimation_error": 0.022309521524859138,
+    "feature_mean_gap": 0.010292500517561566,
+    "fit_labels_mean": 7.5,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.01957420596992693,
+      "hi": 0.039478309742738346,
+      "bootstrap_positive_fraction": 0.764,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.25376091415939184,
+      "pooled": 0.24259945055535564,
+      "partial": 0.24260749689161068
+    },
+    "query_accuracy": {
+      "own": 0.45625,
+      "pooled": 0.61875,
+      "partial": 0.6125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "519b49900f96fb3b",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "loio",
+    "z": -0.004726314926944525,
+    "repeat_z": [
+      -0.004726314926944525
+    ],
+    "query_delta": -0.011153417267781157,
+    "masked_fit_query_delta": -0.011419983411260496,
+    "validation_gap": 0.006693668484315971,
+    "fit_size_gap": -0.00026656614347933885,
+    "estimation_error": 0.006427102340836632,
+    "feature_mean_gap": 0.010292500517561566,
+    "fit_labels_mean": 14.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.035668133091486254,
+      "hi": 0.02531820582611932,
+      "bootstrap_positive_fraction": 0.406,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.25376091415939184,
+      "pooled": 0.24259945055535564,
+      "partial": 0.24260749689161068
+    },
+    "query_accuracy": {
+      "own": 0.45625,
+      "pooled": 0.61875,
+      "partial": 0.6125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "519b49900f96fb3b",
+    "seed": 2,
+    "budget": 15,
+    "estimator": "k5",
+    "z": -0.0016970634086233226,
+    "repeat_z": [
+      -4.899052516945668e-05,
+      -0.0033451362920771887
+    ],
+    "query_delta": -0.011153417267781157,
+    "masked_fit_query_delta": -0.012216913609353267,
+    "validation_gap": 0.010519850200729944,
+    "fit_size_gap": -0.0010634963415721097,
+    "estimation_error": 0.009456353859157834,
+    "feature_mean_gap": 0.010292500517561566,
+    "fit_labels_mean": 12.0,
+    "own_labels": 15,
+    "peer_labels": 45,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.035713445812719756,
+      "hi": 0.03268301804123024,
+      "bootstrap_positive_fraction": 0.473,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.25376091415939184,
+      "pooled": 0.24259945055535564,
+      "partial": 0.24260749689161068
+    },
+    "query_accuracy": {
+      "own": 0.45625,
+      "pooled": 0.61875,
+      "partial": 0.6125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "519b49900f96fb3b",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "half",
+    "z": 0.009135796530950155,
+    "repeat_z": [
+      0.00643254474446833,
+      0.011839048317431978
+    ],
+    "query_delta": -0.022745923052391565,
+    "masked_fit_query_delta": -0.02274509102162922,
+    "validation_gap": 0.031880887552579375,
+    "fit_size_gap": 8.320307623432832e-07,
+    "estimation_error": 0.03188171958334172,
+    "feature_mean_gap": 0.006784882833441922,
+    "fit_labels_mean": 15.5,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.026352018468435785,
+      "hi": 0.04816618978748091,
+      "bootstrap_positive_fraction": 0.674,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.25962632076300834,
+      "pooled": 0.23738574482722719,
+      "partial": 0.23688039771061678
+    },
+    "query_accuracy": {
+      "own": 0.36875,
+      "pooled": 0.6125,
+      "partial": 0.58125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "519b49900f96fb3b",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "loio",
+    "z": -0.004636711401950599,
+    "repeat_z": [
+      -0.004636711401950599
+    ],
+    "query_delta": -0.022745923052391565,
+    "masked_fit_query_delta": -0.022876374172920988,
+    "validation_gap": 0.01823966277097039,
+    "fit_size_gap": -0.00013045112052942343,
+    "estimation_error": 0.018109211650440965,
+    "feature_mean_gap": 0.006784882833441922,
+    "fit_labels_mean": 30.0,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.0341558876212885,
+      "hi": 0.02847177661082202,
+      "bootstrap_positive_fraction": 0.364,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.25962632076300834,
+      "pooled": 0.23738574482722719,
+      "partial": 0.23688039771061678
+    },
+    "query_accuracy": {
+      "own": 0.36875,
+      "pooled": 0.6125,
+      "partial": 0.58125
+    }
+  },
+  {
+    "selection_fold": 1,
+    "benchmark": "healthadminbench/formatted_tables",
+    "subject_id": "519b49900f96fb3b",
+    "seed": 2,
+    "budget": 31,
+    "estimator": "k5",
+    "z": -0.004766398769084298,
+    "repeat_z": [
+      -0.0016126670134532577,
+      -0.007920130524715336
+    ],
+    "query_delta": -0.022745923052391565,
+    "masked_fit_query_delta": -0.023418261199662123,
+    "validation_gap": 0.018651862430577825,
+    "fit_size_gap": -0.0006723381472705584,
+    "estimation_error": 0.017979524283307267,
+    "feature_mean_gap": 0.006784882833441922,
+    "fit_labels_mean": 24.8,
+    "own_labels": 31,
+    "peer_labels": 93,
+    "active_peers": 3,
+    "interval": {
+      "lo": -0.03516658223076542,
+      "hi": 0.028697001696368934,
+      "bootstrap_positive_fraction": 0.363,
+      "scope": "conditional fixed-prediction item bootstrap, not guaranteed CV confidence coverage"
+    },
+    "query_brier": {
+      "own": 0.25962632076300834,
+      "pooled": 0.23738574482722719,
+      "partial": 0.23688039771061678
+    },
+    "query_accuracy": {
+      "own": 0.36875,
+      "pooled": 0.6125,
+      "partial": 0.58125
+    }
+  }
+]

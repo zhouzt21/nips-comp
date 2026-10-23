@@ -1,0 +1,41 @@
+{
+  "cpu_threads": 2,
+  "items": 8,
+  "repeats": 3,
+  "initialization_seconds": 1.9661067000124604,
+  "warmup_seconds": 5.559861600049771,
+  "batch8_seconds": [
+    0.30512969999108464,
+    0.31247189990244806,
+    0.31001319992356
+  ],
+  "median_batch8_seconds": 0.31001319992356,
+  "single_seconds": [
+    0.05728170007932931,
+    0.06528870004694909,
+    0.06988530000671744
+  ],
+  "median_single_seconds": 0.06528870004694909,
+  "heads_1000_median_seconds": 0.032105799997225404,
+  "item_identities": [
+    "paiec-r53-000-50b64751cce5b7ff",
+    "paiec-r53-001-c344db89009db88e",
+    "paiec-r53-002-92e3934cd8734d52",
+    "paiec-r53-003-a61cabf301bb2f83",
+    "paiec-r53-004-d0557af3d596645c",
+    "paiec-r53-005-70704748fc98e077",
+    "paiec-r53-006-a1de9e8d19f80140",
+    "paiec-r53-007-6f7b49d7fae5d04d"
+  ],
+  "grade_heads_bytes": 33941,
+  "includes": "canonicalization, original 126-content-token+2-special MiniLM CPU inference, legal metadata, four grade heads",
+  "excludes": "item parquet disk loading, process startup/import and response prior/local solve; initialization separately reported",
+  "cache_write": false,
+  "cuda_used": false,
+  "platform": "Windows-10-10.0.19045-SP0",
+  "model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "implementation": "dual_track_cpu_features.CPUItemFeatures",
+  "implementation_sha256": "35c53fc6e4184a724464e79e8d4fc63862b700dfadc55e633f8a6779e6faf948",
+  "historical_cached_feature_max_error": 7.450580596923828e-08,
+  "historical_cached_demand_max_error": 9.317360616378778e-08
+}

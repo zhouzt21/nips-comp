@@ -1,0 +1,236 @@
+{
+  "scope": "plan_8 R73-R76; completed conditional experiments, not research promotion or Hosted acceptance",
+  "contracts": [
+    {
+      "path": "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R62\\isolation\\contract.json",
+      "files": 183
+    },
+    {
+      "path": "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R70\\source_contract\\contract.json",
+      "files": 3
+    },
+    {
+      "path": "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R70\\calibration_contract\\contract.json",
+      "files": 6
+    },
+    {
+      "path": "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R70\\full\\contract\\contract.json",
+      "files": 3
+    },
+    {
+      "path": "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R71\\full\\contract\\contract.json",
+      "files": 4
+    },
+    {
+      "path": "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R72\\full\\contract\\contract.json",
+      "files": 8
+    },
+    {
+      "path": "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R72\\coverage_contract\\contract.json",
+      "files": 3
+    },
+    {
+      "path": "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R74\\contract_v2\\contract.json",
+      "files": 29
+    },
+    {
+      "path": "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R75\\contract\\contract.json",
+      "files": 6
+    },
+    {
+      "path": "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R76\\full\\contract\\contract.json",
+      "files": 5
+    },
+    {
+      "path": "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R76\\smoke\\contract\\contract.json",
+      "files": 3
+    },
+    {
+      "path": "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R76\\cpu_adapter_smoke\\contract\\contract.json",
+      "files": 5
+    }
+  ],
+  "R72_delivery_preservation": {
+    "unchanged_files": 1680,
+    "unchanged_bytes": 3756963427,
+    "authorized_global_updates": [
+      {
+        "path": "D:\\nips-comp\\nips-comp\\research_loop\\HIGH_LEVEL_STATE.md",
+        "old_sha256": "78eb4d2bfd37c73d599faef0f11cf183e9ac06d6a6108ef6c412fa8614ba1580",
+        "current_sha256": "96176f8dc06a69e033d1680aa91d663ec9cd814359d6e4e4096cad9473640965",
+        "reason": "plan_8 explicitly requires global state/ledger update"
+      },
+      {
+        "path": "D:\\nips-comp\\nips-comp\\research_loop\\HISTORICAL_POSITIVE_SIGNAL_LEDGER.md",
+        "old_sha256": "926bc48009d7eed6c593315fa99cf0974bd617bd11768166db490f2c90444785",
+        "current_sha256": "23b16a20730eb2ff21dbb489e77e9da327f86e49da53db2168564cf53b36a57f",
+        "reason": "plan_8 explicitly requires global state/ledger update"
+      }
+    ]
+  },
+  "worker_manifests": {
+    "R74": {
+      "unchanged_files": 216,
+      "unchanged_bytes": 91849738,
+      "authorized_global_updates": []
+    },
+    "R76": {
+      "unchanged_files": 992,
+      "unchanged_bytes": 892635432,
+      "authorized_global_updates": []
+    }
+  },
+  "fallback": [
+    {
+      "path": "D:\\nips-comp\\paiec-dataset\\paiec_git_backups\\layout_20261022_120427\\workspace\\paiec_baseline\\dist\\smoothed_mean_strength2.zip",
+      "sha256": "e55ee0b267f3b345685ef072cfa511c3c017d9082256573793961ea20feadcb9"
+    },
+    {
+      "path": "D:\\nips-comp\\paiec-dataset\\paiec_git_backups\\nips-comp_20261022_113534\\workspace\\paiec_baseline\\dist\\smoothed_mean_strength2.zip",
+      "sha256": "e55ee0b267f3b345685ef072cfa511c3c017d9082256573793961ea20feadcb9"
+    }
+  ],
+  "R73": {
+    "main_records": 512,
+    "numeric_grades": 436,
+    "deliberate_null": 76,
+    "packet_hashes_verified": 532,
+    "source_hashes_verified": 13,
+    "final_annotation_sha256": "ab2c7d771ebd9b4010f7630209b8a876d4406467eb06bb6aac618832c781b8cf"
+  },
+  "R74": {
+    "decision": {
+      "teacher_tests": {
+        "base": {
+          "two_pools": false,
+          "pair": false,
+          "benchmark": false,
+          "without_alignment": false
+        },
+        "teacher_permuted": {
+          "two_pools": false,
+          "pair": false,
+          "benchmark": false,
+          "without_alignment": false
+        }
+      },
+      "teacher_entry": false,
+      "deployable_entries": {
+        "prior_student": {
+          "tests": {
+            "two_pools_R25": true,
+            "pair_R25": true,
+            "benchmark_R25": true,
+            "without_alignment_R25": true,
+            "prior_base_pair": true,
+            "prior_base_benchmark": true,
+            "prior_permuted_student_pair": true,
+            "prior_permuted_student_benchmark": true
+          },
+          "pass": true
+        },
+        "local_student": {
+          "tests": {
+            "two_pools_R25": true,
+            "pair_R25": true,
+            "benchmark_R25": true,
+            "without_alignment_R25": true,
+            "R25_pair": true,
+            "R25_benchmark": true,
+            "local_permuted_student_pair": true,
+            "local_permuted_student_benchmark": true
+          },
+          "pass": true
+        }
+      },
+      "full_outer_authorized_by_source_contract": false,
+      "candidate": null,
+      "action": "stop_at_pilot_keep_R25",
+      "no_parameter_retuning": true
+    },
+    "probability_replay": {
+      "status": "pass",
+      "trajectory_stage_records": 1000,
+      "saved_probability_values": 4394670,
+      "max_brier_or_accuracy_replay_error": 0.0,
+      "checked_counts_successes_and_shapes": true,
+      "R25_R56_R66_original_source_score_replay_max_error": 0.0,
+      "historical_r25_max_probability_replay_error": 2.220446049250313e-16
+    }
+  },
+  "R76": {
+    "replay": {
+      "trajectories": 15726,
+      "pairs": 5242,
+      "benchmarks": 36,
+      "chunks": 149,
+      "query_variant_rows": 1005741,
+      "max_brier_error": 8.881784197001252e-16,
+      "max_accuracy_error": 0.0,
+      "source_replay_passed": true,
+      "seconds": 52.05964120000135,
+      "finished": "2026-10-22T19:09:34.139256+00:00"
+    },
+    "partial_gate": {
+      "four_numerical_conditions": true,
+      "regression_review_required": true,
+      "criteria": {
+        "smoothed_mean_2": {
+          "gain_ge_005": true,
+          "three_fold_gain": true,
+          "benchmark_equal_gain": true,
+          "CI_upper_below_zero": true,
+          "regression_ge_005_for_review": {
+            "dave/formatted_tables": 0.0077622653165171085
+          },
+          "regression_ge_03": {}
+        },
+        "training_selected_smoothed": {
+          "gain_ge_005": true,
+          "three_fold_gain": true,
+          "benchmark_equal_gain": true,
+          "CI_upper_below_zero": true,
+          "regression_ge_005_for_review": {
+            "cellverse/formatted_tables": 0.013352774692537595,
+            "cruxeval/formatted_tables": 0.00783205706605955,
+            "dave/formatted_tables": 0.011377514338495986,
+            "egoschema/formatted_tables": 0.009994080484305945
+          },
+          "regression_ge_03": {}
+        }
+      },
+      "scope": "conditional_simulation",
+      "hosted_deployment": false
+    },
+    "protocol_smoke_cases": 16,
+    "new_text_cpu_smoke": "passed_new_text_synthetic_only",
+    "cpu_resources": {
+      "peak_working_set_mb": 3550.80859375,
+      "sampling_count": 144,
+      "measurement": "Windows Get-Process lifetime PeakWorkingSet64",
+      "rejected_in_process_metric": "ctypes metric returned 0 and is invalid; source process peak unavailable",
+      "max_visible_labels": 124,
+      "max_dual_matrix_size": 124,
+      "dual_kernel_float64_bytes": 123008,
+      "seconds_prediction": 794.7330491999164,
+      "seconds_source": 91.26782189996447
+    },
+    "end_to_end_adapter_score_verified": false,
+    "hosted_verified": false
+  },
+  "documentation_links": "passed",
+  "python_static_parse": "passed; no experimental code altered",
+  "figures": {
+    "visual_inspection": "root viewed R73 annotation_quality, R74 source_comparisons/grade_mae and R76 budget_brier/cohort_delta_ci; readable",
+    "note": "static exported scientific figures; no Hosted UI acceptance implied"
+  },
+  "review": {
+    "path": "D:\\nips-comp\\nips-comp\\reports\\dual_track_structural_review.md",
+    "sha256": "96e28cb54816d5978ca677b696f51cbec6e0dacf737d1a77951835c693678707",
+    "independent_read_only_reviewers": 1,
+    "confirmed_blocking_findings": 0,
+    "not_a_dual_review": true
+  },
+  "status": "passed",
+  "finished_utc": "2026-10-22T19:25:01.044780+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-23",
+  "initial_delivery_check": {
+    "status": "failed_manifest_encoding_only",
+    "error": "JSONDecodeError: Unexpected UTF-8 BOM in original_source_hashes.json",
+    "cause": "Windows PowerShell Set-Content -Encoding UTF8 writes a BOM; existing project JSON reader expects plain UTF-8",
+    "repair": "Rewrote only the new original-source hash manifest as UTF-8 without BOM",
+    "scientific_results_changed": false,
+    "frozen_source_changed": false
+  },
+  "figure_revision": {
+    "reason": "cohort x ticks overlapped; matrix colorbar label clipped",
+    "repair": "Readable scientific tick units and constrained layout; regenerated from saved comparisons only",
+    "data_changed": false
+  },
+  "final_check": "See delivery_validation.json"
+}

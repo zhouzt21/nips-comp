@@ -1,0 +1,124 @@
+[
+  {
+    "epoch": 0,
+    "steps": 0,
+    "train_metric": 0.2503441274166107,
+    "validation": {
+      "pairs": 1,
+      "results": {
+        "model": {
+          "brier_mean": [
+            0.2463975854619037,
+            0.21511886949221248,
+            0.22845362640014544,
+            0.21526317597395034,
+            0.22452381762857565,
+            0.2214376156382889
+          ],
+          "alc_mean": 0.22345541800899604,
+          "accuracy_at_0_5": [
+            0.6875,
+            0.6875,
+            0.6875,
+            0.6875,
+            0.6875,
+            0.6875
+          ]
+        }
+      },
+      "by_benchmark": {
+        "bertaqa/formatted_tables": {
+          "pairs": 1,
+          "brier_mean": {
+            "model": [
+              0.2463975854619037,
+              0.21511886949221248,
+              0.22845362640014544,
+              0.21526317597395034,
+              0.22452381762857565,
+              0.2214376156382889
+            ]
+          },
+          "alc_mean": {
+            "model": 0.22345541800899604
+          }
+        }
+      },
+      "benchmark_equal_alc": {
+        "model": 0.22345541800899604
+      }
+    },
+    "diagnostic": {
+      "taylor_relative_error": 0.0,
+      "taylor_rmse": 0.0,
+      "logit_change_rmse": 0.0,
+      "hidden_cka": 1.0
+    },
+    "export_error": 5.960464477539063e-08,
+    "elapsed_seconds": 4.327999999979511,
+    "optimization_loss": null,
+    "gradient_norm": null,
+    "active_data_hash": "5f121d7a3833775b5d29a6204332877d93e34874469e43367a23abf2aacfae71"
+  },
+  {
+    "epoch": 1,
+    "steps": 41,
+    "train_metric": 0.22724446654319763,
+    "validation": {
+      "pairs": 1,
+      "results": {
+        "model": {
+          "brier_mean": [
+            0.21068084391483227,
+            0.22410132931203158,
+            0.24695909634520177,
+            0.21052241214415499,
+            0.21491562531839842,
+            0.2141242339044218
+          ],
+          "alc_mean": 0.22178020040588278,
+          "accuracy_at_0_5": [
+            0.6875,
+            0.6875,
+            0.6875,
+            0.6875,
+            0.6875,
+            0.6875
+          ]
+        }
+      },
+      "by_benchmark": {
+        "bertaqa/formatted_tables": {
+          "pairs": 1,
+          "brier_mean": {
+            "model": [
+              0.21068084391483227,
+              0.22410132931203158,
+              0.24695909634520177,
+              0.21052241214415499,
+              0.21491562531839842,
+              0.2141242339044218
+            ]
+          },
+          "alc_mean": {
+            "model": 0.22178020040588278
+          }
+        }
+      },
+      "benchmark_equal_alc": {
+        "model": 0.22178020040588278
+      }
+    },
+    "diagnostic": {
+      "taylor_relative_error": 0.7196059087294918,
+      "taylor_rmse": 0.6302040876214755,
+      "logit_change_rmse": 0.8757628020288097,
+      "hidden_cka": 0.6887572289270931
+    },
+    "export_error": 5.960464477539063e-08,
+    "elapsed_seconds": 4.780999999959022,
+    "optimization_loss": 0.23614940992215785,
+    "gradient_norm": 0.054654984803098,
+    "active_data_hash": "5f121d7a3833775b5d29a6204332877d93e34874469e43367a23abf2aacfae71"
+  }
+]

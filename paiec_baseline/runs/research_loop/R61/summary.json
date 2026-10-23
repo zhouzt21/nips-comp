@@ -1,0 +1,86 @@
+{
+  "candidate": "R56_support1_gate",
+  "source_gates": [
+    {
+      "fold": 0,
+      "pairs": 316,
+      "selected_R56_pairs": 167,
+      "alc": 0.21803137171565373,
+      "delta_R25": 0.00031379261900453894,
+      "benchmark_equal_delta_R25": 0.0005471637268750218,
+      "benchmarks_improved": 8,
+      "benchmarks": 26,
+      "severe_regressions": {
+        "agentic_review_perturbation/formatted_tables": 0.005633034447533325
+      },
+      "passes_numeric": false,
+      "pair_ci95": [
+        -0.00014278843789434202,
+        0.000751395464827144
+      ],
+      "benchmark_equal_ci95": [
+        5.222395657957676e-05,
+        0.001166027466189311
+      ],
+      "seed": 5907,
+      "replicates": 2000,
+      "clusters": 26,
+      "interpretation": "descriptive after adaptive source reuse, not confirmation"
+    },
+    {
+      "fold": 1,
+      "pairs": 260,
+      "selected_R56_pairs": 141,
+      "alc": 0.20119567833418964,
+      "delta_R25": -0.0007462413657187313,
+      "benchmark_equal_delta_R25": -0.00017362477786686537,
+      "benchmarks_improved": 11,
+      "benchmarks": 23,
+      "severe_regressions": {
+        "abstract_reason/formatted_tables": 0.014381515402884903
+      },
+      "passes_numeric": false,
+      "pair_ci95": [
+        -0.002590006531158984,
+        0.000781297215395103
+      ],
+      "benchmark_equal_ci95": [
+        -0.0018864395917612654,
+        0.0017604033903646972
+      ],
+      "seed": 5907,
+      "replicates": 2000,
+      "clusters": 23,
+      "interpretation": "descriptive after adaptive source reuse, not confirmation"
+    },
+    {
+      "fold": 2,
+      "pairs": 248,
+      "selected_R56_pairs": 145,
+      "alc": 0.21269497659500128,
+      "delta_R25": -0.00039623567096526397,
+      "benchmark_equal_delta_R25": -0.0002207620463634541,
+      "benchmarks_improved": 8,
+      "benchmarks": 23,
+      "severe_regressions": {},
+      "passes_numeric": true,
+      "pair_ci95": [
+        -0.001692225074344779,
+        0.0003966221867178125
+      ],
+      "benchmark_equal_ci95": [
+        -0.0009806180368477759,
+        0.0004142167679757973
+      ],
+      "seed": 5907,
+      "replicates": 2000,
+      "clusters": 23,
+      "interpretation": "descriptive after adaptive source reuse, not confirmation"
+    }
+  ],
+  "all_source_numeric_pass": false,
+  "outer_status": "condition_not_met",
+  "new_fits": 0,
+  "seconds": 1.036606700043194,
+  "finished_utc": "2026-10-22T12:01:48.770539+00:00"
+}

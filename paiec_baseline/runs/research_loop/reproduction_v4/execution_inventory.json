@@ -1,0 +1,3037 @@
+{
+  "captured_utc": "2026-10-22T09:20:07.111329+00:00",
+  "code_base_commit": "fd5b06df51233392ea9d482732af8063f4222ec1",
+  "python": "3.12.7 (tags/v3.12.7:0b05ead, Oct  1 2024, 03:06:41) [MSC v.1941 64 bit (AMD64)]",
+  "executable": "D:\\nips-comp\\paiec-runtime-win64-py312-cpu\\runtime\\python.exe",
+  "os": {
+    "system": "Windows",
+    "release": "10",
+    "version": "10.0.19045",
+    "machine": "AMD64"
+  },
+  "packages": {
+    "numpy": "1.26.4",
+    "pandas": "2.2.2",
+    "scipy": "1.13.1",
+    "scikit-learn": "1.5.2",
+    "torch": "2.9.1+cpu",
+    "transformers": "4.44.2",
+    "sentence-transformers": null,
+    "huggingface-hub": "0.35.3",
+    "pyarrow": "16.1.0",
+    "matplotlib": "3.9.2"
+  },
+  "hardware": "AMD Ryzen 7 4800H, 8 cores / 16 threads; 16 GiB RAM; CPU only",
+  "training_threads": 4,
+  "concurrent_training_processes": 1,
+  "runtime_lock_hashes": {
+    "requirements-win-cpu.lock": "bd0a95d68c10512f4ce5e07b482c1f6e0f167550701fa158b26ee56cd7b150bb",
+    "requirements-external.lock": "0ac3918ddca7aaeecd5cfa1abf542d799b6abcf6591aac8caeb1fd65ab514413",
+    "python.ps1": "9bdacb6330dce9cf889b8e5f0d8b8e16f0565d42b24854bb420b6d5ba1d8f991"
+  },
+  "weights_are_local_git_ignored": true,
+  "weights": {
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_000.pt": {
+      "bytes": 606299,
+      "sha256": "3757aaf647fd5457e16ca6c875e95e2f846bc192e871d3f9c849a0faaaf3de95"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_001.pt": {
+      "bytes": 606299,
+      "sha256": "3961c7aed6b2e52076ef251076397007961b2f4c951e8637e45065096ec16a9b"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_002.pt": {
+      "bytes": 606299,
+      "sha256": "7e92b9e3ab52260bd4c2d8435e47ce64fb6f446deb12507fff2d78c8308ebcef"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_003.pt": {
+      "bytes": 606299,
+      "sha256": "32ea915b0fcf46f78c7fe24f55758be669a7889ba4d1b92ac7bfd6541107232f"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_004.pt": {
+      "bytes": 606299,
+      "sha256": "6a673b426dbc4a09e43ea462e48e230b00d9c2a36f0a499685c944f3f134c7bd"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_005.pt": {
+      "bytes": 606299,
+      "sha256": "8d5dcd8f8c479b138a8b214e3db72baf932f32a9fe793f6c8a64fa3cf08f7d07"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_006.pt": {
+      "bytes": 606299,
+      "sha256": "1fc7ac5d8dae1aa77338eed131396a5101be7091aba23668b5aeacb7b864bf4c"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_007.pt": {
+      "bytes": 606299,
+      "sha256": "3b212801bb4bd86bbc667986dcd7b3d26e1a090cc85d77cc6bb4b3f27094f222"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_008.pt": {
+      "bytes": 606299,
+      "sha256": "1c40cbe156c3d6690f6f13b6a11f1bf80347c6ac03ef3b5c0936bf5a39f650f4"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_009.pt": {
+      "bytes": 606299,
+      "sha256": "3a997e77431895be01a2c59f4babe2270fd13a6182988b7ebe8f151d6e44d93a"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_010.pt": {
+      "bytes": 606299,
+      "sha256": "c80bd649adcd68dec1a49467f38a73d1a35622d066ea9d6ef9c38382b934d202"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_011.pt": {
+      "bytes": 606299,
+      "sha256": "624e35ad71f48b5d500585cc953c39b64aeddd919015255eb282c7d4d8b3598d"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_012.pt": {
+      "bytes": 606299,
+      "sha256": "d11288b325eb28c545fbc2dda471d2183fa8eb772f478baa9c2257692e73099f"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_013.pt": {
+      "bytes": 606299,
+      "sha256": "eace27cd0b46e717810e82c697520f262bbebb40840be26eb49f55ad42351174"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_014.pt": {
+      "bytes": 606299,
+      "sha256": "a2df3b0d475c33e7f5b9312c9abc9b412e10bce4825267046d269b850b4d1751"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_015.pt": {
+      "bytes": 606299,
+      "sha256": "5de6af0af574b6029fbb74f61f178c35ec699f6498f29edcb7978561096bd141"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_016.pt": {
+      "bytes": 606299,
+      "sha256": "cb9db92a604815fbe6138ecec13a2ca7f77f89be4a26efb022d23dd2f6e76e3a"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_017.pt": {
+      "bytes": 606299,
+      "sha256": "87914a68a13f230c1bc6370d5047e0181f66095136eeeaeac90a4823d52a7013"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_018.pt": {
+      "bytes": 606299,
+      "sha256": "24416cce9177f0aad62926d24b694d4d75dd5a4f892cf0d2dd01f142c13b60b6"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_019.pt": {
+      "bytes": 606299,
+      "sha256": "4989e448ee125d06e6717e45002ffbb3e59f72a06c76345111727d86b266042e"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_020.pt": {
+      "bytes": 606299,
+      "sha256": "862493e75e8ea430875168d87e2b6d1d0c27a0d14ec84fee6ee109875f31a020"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_021.pt": {
+      "bytes": 606299,
+      "sha256": "0760990e1ce4deeb87c10539f03a90e5d373137323ba7ebcc105f0636bb98441"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_022.pt": {
+      "bytes": 606299,
+      "sha256": "e0bac2704a5649aff5186964ed8d37765780e3035c346b5d26814fe420c0012c"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_023.pt": {
+      "bytes": 606299,
+      "sha256": "54c749f86584888347f432e943f743970ef85681fe321c8afdf4f168ac67b065"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_024.pt": {
+      "bytes": 606299,
+      "sha256": "42a65184e0effdbb21ddbb845f22f108ee3b512f69e12dfe71b51b38744a52d9"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_025.pt": {
+      "bytes": 606299,
+      "sha256": "c7287915521473dc4ea8cf8a15f15831bf541333618bc341cdfd17111f7ab6c6"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_026.pt": {
+      "bytes": 606299,
+      "sha256": "164b3e7a1e8042e89a081799ef14446f366c262fbd99214945250c7ef7feac02"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_027.pt": {
+      "bytes": 606299,
+      "sha256": "965d96454132d79ef41ec692e92650da3d0419f4dd0d0d307d11020cc4982e95"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_028.pt": {
+      "bytes": 606299,
+      "sha256": "8cf1471ce9d818ecf0b5aad89c9739b256742577d42b9393662657b1498dc2f8"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_029.pt": {
+      "bytes": 606299,
+      "sha256": "06933af4a90c041b5a9506c1843662d4697233ff7e9dbad5246f3d9931bdee0c"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_030.pt": {
+      "bytes": 606299,
+      "sha256": "e638d5cf8b16fe4496ee3b664d326750479e7f17a4166c76fa86d79f8bd5913e"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_031.pt": {
+      "bytes": 606299,
+      "sha256": "12db383a21b55122879f156c64e3a1e6a4df1e86c6d69127f753d94a88779000"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_032.pt": {
+      "bytes": 606299,
+      "sha256": "37e122b25b82ddfa042f4de111b25b98c77daca6dca33f73e8ff81b30f887857"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_033.pt": {
+      "bytes": 606299,
+      "sha256": "f553dbbdb09b822651ec03f493cf1d612f0f655422470cddbd7444278cad35a3"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_034.pt": {
+      "bytes": 606299,
+      "sha256": "36acffcd787f43212470bcda6eacb67390312f3f84821270a6d507795a602604"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_035.pt": {
+      "bytes": 606299,
+      "sha256": "6d09c50316a9195222937d914634e85987a07863b4cf379aa18c35d35cfaef9f"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_036.pt": {
+      "bytes": 606299,
+      "sha256": "940065bd6e8aded18cb19d59c5e931329b128c00183da190ba509e8f751b1135"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_037.pt": {
+      "bytes": 606299,
+      "sha256": "2422bf3e6029cb57b18cc9065bfe20cfd020a809a5c2d637eb2bdd1bc8a9a142"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_038.pt": {
+      "bytes": 606299,
+      "sha256": "04855f40ad493dd321d469163e7b2de6db559d208a4a531be79b7c9a0b6d880b"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_039.pt": {
+      "bytes": 606299,
+      "sha256": "fd7d61fe82d6b91d0ffd4e9c296505022b0814398deb4ae88f9c0e199476326a"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_040.pt": {
+      "bytes": 606299,
+      "sha256": "92b0b40cd53ad1b46d717e5802532c8e58676a2e4fd1ca9c37748be26f97f7af"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_041.pt": {
+      "bytes": 606299,
+      "sha256": "c032aff9dbd28c2279e35280d309e2e51d7aff38f7382d65785d6bbba80c4764"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_042.pt": {
+      "bytes": 606299,
+      "sha256": "f3d89511f2a0a1fa4173b4f5392b5559f0a1be0168b232b4461929641b3dafa7"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_043.pt": {
+      "bytes": 606299,
+      "sha256": "65bb829387f0abb1486faec941afafdd0f4a7b7b036972e542fd9247ab1ba08b"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_044.pt": {
+      "bytes": 606299,
+      "sha256": "5fea9dc103a3ae7720f6d22221fbb9d8b8e16e7e3e2b8fd57e79463089ddbdf0"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_045.pt": {
+      "bytes": 606299,
+      "sha256": "e78b18595d26d529cb26bed691ccb4a2acf31e79c1f9572e053d7da6d6894dca"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_046.pt": {
+      "bytes": 606299,
+      "sha256": "a19f33062d244be30e135f3265a5e957cf70e6083cd28725b707085ce1c72986"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_047.pt": {
+      "bytes": 606299,
+      "sha256": "40c73bae00d1b8752624e97a7e1c23a8ebd6458054f6652d80ac36ecefffb2e3"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_048.pt": {
+      "bytes": 606299,
+      "sha256": "bb412150e6f1a3287188ff35ead8a6fb345011e8de0749dff3fcc17bbe62c605"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_049.pt": {
+      "bytes": 606299,
+      "sha256": "94df539e60cf4dbc66fd569d87b02db5a110a7293add96357f218956ba10c725"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_050.pt": {
+      "bytes": 606299,
+      "sha256": "0cad108a6bdbfb23eb1d4f0fa61e82d3b68b94a768a5e606e2f312467b412b2b"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_051.pt": {
+      "bytes": 606299,
+      "sha256": "abdb965e9b2e75f999fffd71db698b4df5b2ca90bd7e5b5b1c5d76b4d1c4757c"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_052.pt": {
+      "bytes": 606299,
+      "sha256": "b086c17985c3b8166242448f7b286ef869b87e113f7398af50531dbfbcf51bbe"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_053.pt": {
+      "bytes": 606299,
+      "sha256": "c2b94a3a29de495d4bb5f0fcf1d167c9c465f3777fa0a8e0b96b420a27acb4cd"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_054.pt": {
+      "bytes": 606299,
+      "sha256": "e28ae385fb5291e29afc781fae71700696f576b1de567d2e274a7fa0a4ce051f"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_055.pt": {
+      "bytes": 606299,
+      "sha256": "ca52c544ec4fea312aba9557fe2f96143c63c3944f12c4bc88a53893fbea879a"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_056.pt": {
+      "bytes": 606299,
+      "sha256": "9b280fb84963b023c0ad00578316ec454b284a24a10ea56dbb1caad6d2c4d403"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_057.pt": {
+      "bytes": 606299,
+      "sha256": "2108030928557ee0b547d2f38dbd977b6cef6ad05d93e13cc0de1f37381a09e3"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_058.pt": {
+      "bytes": 606299,
+      "sha256": "77a565aea921127f4902cc5df8f36af060ca2ab3bec143fa6c2e5cb3a4534cbe"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_059.pt": {
+      "bytes": 606299,
+      "sha256": "e6a06af85e5d2adfc7785e9a25f58b60f3703dd9a492485a3373772ff14f1d0a"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner0\\epoch_060.pt": {
+      "bytes": 606299,
+      "sha256": "e872299af5f10f7dadbcd18fbbfd692483db066c4b7fa54a39e5e2a399db7edd"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_000.pt": {
+      "bytes": 606299,
+      "sha256": "d07d5e7e9b23ceda4f2f9a39bfaa6dfe885ca2cb7762fcf76f9527b54708f679"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_001.pt": {
+      "bytes": 606299,
+      "sha256": "f4f5c2293a84d0329846311d13307626c2bfe210a3f192e6fd0a5f51b08825c2"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_002.pt": {
+      "bytes": 606299,
+      "sha256": "809ce3901b944f4c7438d6f508de0c5d1b7cb5c38f716d540193c78bb4f4ca76"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_003.pt": {
+      "bytes": 606299,
+      "sha256": "d3ba5c434104b45cb330780dd2aee9ddf4c223de244b411f9b13d4ede10d1d39"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_004.pt": {
+      "bytes": 606299,
+      "sha256": "adef203a7164d322defacf94e92bef16f23c6f938c967d1817dad1fb38012eaa"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_005.pt": {
+      "bytes": 606299,
+      "sha256": "b65f0ce49450d64b3a711c66282e0b0edacef02342828087a7e9cd74f510b2a6"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_006.pt": {
+      "bytes": 606299,
+      "sha256": "b32e26ccc63191a9da9480145bad106c200f514f7de07d1f3282c479a6b00f60"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_007.pt": {
+      "bytes": 606299,
+      "sha256": "c6eccd5cc8195dfa67c0155f151b89089542b5277904cf3ca691ee63627947f0"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_008.pt": {
+      "bytes": 606299,
+      "sha256": "b79a485431581d83edba4b448821e69b71ccae61ae7216def2182fa1ede662e2"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_009.pt": {
+      "bytes": 606299,
+      "sha256": "fc39e32bc484f3d683b9dc7fa518bd7a06582cd25ec39be11fcb3f63d6927d0f"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_010.pt": {
+      "bytes": 606299,
+      "sha256": "1e612914d8e34d71a3fbca2f87bc701493d3b31d1c04945e351c6f6d5c2b2adf"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_011.pt": {
+      "bytes": 606299,
+      "sha256": "42decfa5b176b5fe5e45e9317f8e923b2082d00ed553bb0531fd50e0a821590d"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_012.pt": {
+      "bytes": 606299,
+      "sha256": "2ebd820f136bb3eebbc4984ecd862a5a0e8b7d1700c7dc5af60949e5ac981e28"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_013.pt": {
+      "bytes": 606299,
+      "sha256": "dc5468893816b89521eece8f63411c92363266a63d840b7ad3a9c58870ddc8e9"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_014.pt": {
+      "bytes": 606299,
+      "sha256": "d61442bbfcee14675a0e2193c27f43ab48ea89c8a42f0d9ce42d0754b8af8395"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_015.pt": {
+      "bytes": 606299,
+      "sha256": "d7f6109b9515b69600e736870f1e330409652e946f4cb7dd0b45bc8ce25bd01b"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_016.pt": {
+      "bytes": 606299,
+      "sha256": "c92ea6b0144d1e859439e9e8c7e114d6b04a79a874b9783b1d176ee4aa8c602a"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_017.pt": {
+      "bytes": 606299,
+      "sha256": "5c0eb84300a5307426a4839d975e9e19bbf2cfbeb9c390b42ca4740ee9d4f2c7"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_018.pt": {
+      "bytes": 606299,
+      "sha256": "76f0315a0349e022dbb899299761690edcbc34b269b40eaf4181cd058560d9b5"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_019.pt": {
+      "bytes": 606299,
+      "sha256": "4d278a798021ccb933827d9d4bd3faf5a5d514279bf9a0883c17cd80d4d6988c"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_020.pt": {
+      "bytes": 606299,
+      "sha256": "5b5377df25b9d768e677dafe39aed5f144cc0e4ea40112f94837f1d5f66ecd61"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_021.pt": {
+      "bytes": 606299,
+      "sha256": "6e9456333a24c38354686a1d4407f0d6f8cc0ad613ad51ed6c4a3e36c5a93479"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_022.pt": {
+      "bytes": 606299,
+      "sha256": "b02c3ff9036a22d037184dd2a244249c6e6ca18f229a551a034f5eb108fe86a8"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_023.pt": {
+      "bytes": 606299,
+      "sha256": "66b7129da73c8f1413075b24e513cf569582f74b9e9d459896acc6faf319a132"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_024.pt": {
+      "bytes": 606299,
+      "sha256": "9a8b63309ba4c4a1c25965512bbe167a6febcd7235bb7a0b3f1fdaf51668711f"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_025.pt": {
+      "bytes": 606299,
+      "sha256": "0a54753f38db683c15f23575bec51facee9ad435e3a381858fe55bbed638c603"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_026.pt": {
+      "bytes": 606299,
+      "sha256": "21bf1bfba2a70e91f2d2381894d4a1ed6e1318f4867ce2139c56c982613dfc35"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_027.pt": {
+      "bytes": 606299,
+      "sha256": "9f408a3f4d003273f504a7b7a8bae909a32494b928e7a3ccb14d14eec189ebd8"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_028.pt": {
+      "bytes": 606299,
+      "sha256": "833661b38933fa482f2c1f9348e7e7fea1622ccbd06128b504ee3cf3d2bb975f"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_029.pt": {
+      "bytes": 606299,
+      "sha256": "65fbd8c18a69410a07be903e14ce4112a89a7df63fd1bdac135de778e6629412"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_030.pt": {
+      "bytes": 606299,
+      "sha256": "21e89871e5464d403c32840949729f8fadfe0d6390c1aabc0a8b9d095e3693e4"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_031.pt": {
+      "bytes": 606299,
+      "sha256": "71e95602562368bf22adc19ee5ffb7342cbf2b9ace0a892618267e9a953aacb0"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_032.pt": {
+      "bytes": 606299,
+      "sha256": "b4412262ac56c33ddf8b39bac34c9f52a796a3d27befed469c7caab09d0ed9a2"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_033.pt": {
+      "bytes": 606299,
+      "sha256": "125c1bcd04d5e90961aca0ed0749c8a70eb551d675d468407f95c403516c7dff"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_034.pt": {
+      "bytes": 606299,
+      "sha256": "ff30e9f10ab92aa6668347cb4a95b9b0defccce4685fc1c48adaa4001218cad8"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_035.pt": {
+      "bytes": 606299,
+      "sha256": "c60de16b2103b9b883e5b901cba1568577dfaa5e7bfba5fbdc25b373d368da3c"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_036.pt": {
+      "bytes": 606299,
+      "sha256": "aa7ba962204ef91fc1bec6fa8521758627117f1f2d472f501703b65b7cff0a10"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_037.pt": {
+      "bytes": 606299,
+      "sha256": "e8ea63e3cc690d046a6fdd5d26f3b083ef5621bf4f235bcf2fff8b20debc77a2"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_038.pt": {
+      "bytes": 606299,
+      "sha256": "3d5f31d708ad2ade9c365bede9b334b506ad4b701f5a077178bb08b1e79f2194"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_039.pt": {
+      "bytes": 606299,
+      "sha256": "c58b5fb25a93724043d1ceda456c6f6445f4b7e3d5c382b04a91ce27a3438a4b"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_040.pt": {
+      "bytes": 606299,
+      "sha256": "0644e34dc27930dfab7eacd680d17dfb770cfb2408acf51ff7fe6e7f731f5ae2"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_041.pt": {
+      "bytes": 606299,
+      "sha256": "55eb979eaf56351aac3f9c7ec4501667835696a8b97baf7c70c7888952517d18"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_042.pt": {
+      "bytes": 606299,
+      "sha256": "6dd14071ec865396feab5d2c1470a02c2e010101e12bf97f9973bec766dd6c1e"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_043.pt": {
+      "bytes": 606299,
+      "sha256": "2c1d07f09450a4661a71868d504b3421d41132808fda7c1ca688d2525298c631"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_044.pt": {
+      "bytes": 606299,
+      "sha256": "351cd55a5817d7fa5929092a6b13f14ef93b40df9477e0bd70c864b083752c7c"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_045.pt": {
+      "bytes": 606299,
+      "sha256": "238b2a3aa7b849b84f28f8a6aef477be9f43723c991c60abf708efa9f90eda44"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_046.pt": {
+      "bytes": 606299,
+      "sha256": "bf4ebdcb819ed9b77fa40325b41ae807bda6ff54e80691484bdd56322a9825db"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_047.pt": {
+      "bytes": 606299,
+      "sha256": "02f9ef6ffae95edb32cc207cef091e99d378b9d6839882c1d5a982f31bc4bffb"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_048.pt": {
+      "bytes": 606299,
+      "sha256": "df0381395d9116c1fb9cee215f7efd5ca6c68dd1fed93e689dc229fe84ab652c"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_049.pt": {
+      "bytes": 606299,
+      "sha256": "d5b9de0f58eca7a4daa79d6342d9166bc54606702ac24923237ee13d57e52a70"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_050.pt": {
+      "bytes": 606299,
+      "sha256": "96395af67a7f39ff0851ea0681fb3f501d5720e684838d9eca55a3bce11a476c"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_051.pt": {
+      "bytes": 606299,
+      "sha256": "3cd5f9eb132761590cc3f775b615342b9a1f8f1803e0ca469e8c9d66d159717c"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_052.pt": {
+      "bytes": 606299,
+      "sha256": "506a266a83bb45f2abe149f5bbabd6507f2fe3dcaa5777a39cb9e4388194be63"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_053.pt": {
+      "bytes": 606299,
+      "sha256": "ffb0cfe71e2ad15b9ed33cbad0d4032ea4470115906653709a4aa9b795ff0d05"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_054.pt": {
+      "bytes": 606299,
+      "sha256": "127a332329ef463f795fd51066947f73597685eb9558ebfed49be14cecc6126a"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_055.pt": {
+      "bytes": 606299,
+      "sha256": "11edb34f31a73981696b1547ca2a78b8af127701f14fc0e2fce2dd12ed0e9347"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_056.pt": {
+      "bytes": 606299,
+      "sha256": "8b5e98a5b0fa48e49d9eb4254db6a68e14686ff5c98a06776687229ff957501e"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_057.pt": {
+      "bytes": 606299,
+      "sha256": "22584cabdbad51304b58890ec922b28da73fe2c20b66848d6efcaaa9a09850ef"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_058.pt": {
+      "bytes": 606299,
+      "sha256": "48ed57fac035a9a6dcc56254bb673b77263b6419adc803e83ffd6fba2f63d812"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_059.pt": {
+      "bytes": 606299,
+      "sha256": "018476850223be4fc76044265a33da0491b626e623c03e997757ad32153eaaa1"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_attentive_cnp_inner1\\epoch_060.pt": {
+      "bytes": 606299,
+      "sha256": "b459e05431e56859e3ee6e9ba19d3138fd451dcc6e70867af9ee268a37b9cb90"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_000.pt": {
+      "bytes": 424287,
+      "sha256": "154dcc68a2c6070039130cebf2c6bb561b1f9c841d79e21d525cfb4d652836d0"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_001.pt": {
+      "bytes": 424287,
+      "sha256": "370499352e20425883c453383637bae8ebbd8c65ee16af9d0be238bd78894b88"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_002.pt": {
+      "bytes": 424287,
+      "sha256": "03634de303d79f15249f89a44e53b57e271e32cc98b7a84b9000c5d2a06e4350"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_003.pt": {
+      "bytes": 424287,
+      "sha256": "db913752ab4d16a3111c03fbbf768c2b08227a4d0d9b3b6c92d3734d7637ad61"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_004.pt": {
+      "bytes": 424287,
+      "sha256": "1fb5ffb59eb2a45ff49977930ace3a07558166abd583257b14a2adb1b919de3e"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_005.pt": {
+      "bytes": 424287,
+      "sha256": "ec6a55865f6227e8c3a6a4ba78c31cacd7ccd9b66fcc5f3924021fca90b7d43e"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_006.pt": {
+      "bytes": 424287,
+      "sha256": "f58a4e3a6b053e1419245d83ed7137bf019d742f4e5e958bcd28b0ff67a4a9d9"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_007.pt": {
+      "bytes": 424287,
+      "sha256": "9fb4e1f60f836e4edb6bf6233a9e2c8332c5be9724377f04e20a34696413bdb3"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_008.pt": {
+      "bytes": 424287,
+      "sha256": "be8a884d83f9241e4ea89a6c81ba1eb9afb935791b279d6b47a070dbb7ea7285"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_009.pt": {
+      "bytes": 424287,
+      "sha256": "8897de875ee21b9649232a9af70b6d21dcf0369b99471a069e7c1ef793473157"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_010.pt": {
+      "bytes": 424287,
+      "sha256": "aac5956a61323098fc2d427d2134928ee334549350df30e6d88153970af46256"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_011.pt": {
+      "bytes": 424287,
+      "sha256": "9a9bf08a6f9bcdc6b41d7e6586eb41e30ee001e3c781801e78df7aedb192d962"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_012.pt": {
+      "bytes": 424287,
+      "sha256": "67c64b7abbe293c0ae408e09e0d0f78c2b4b302e27cf1e7acd99c29ac355bcf0"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_013.pt": {
+      "bytes": 424287,
+      "sha256": "af19faf6ee0202454140db51a344a3f96259074f8fd55b9ccd60951e37b541b5"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_014.pt": {
+      "bytes": 424287,
+      "sha256": "b708aed087dee304db53fa7c3f687355be6ec2cd955fd026825008cbc8b8d39b"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_015.pt": {
+      "bytes": 424287,
+      "sha256": "70cc99fd831ebf8c1a556316d3c82ad8134b2c3f5e4a576babe7c3c50a58bc73"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_016.pt": {
+      "bytes": 424287,
+      "sha256": "4c0e0414eaecd2c0b4f3c59245e7dbe84f59b7b896ebb19c172e32897b0df657"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_017.pt": {
+      "bytes": 424287,
+      "sha256": "a8dff35a5ae0c426f7577f0d7514443fe0c97358d8ec6fed8dcd5ff218625efe"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_018.pt": {
+      "bytes": 424287,
+      "sha256": "bc843e893fc37e4198dcc3c1acecaed5ba0c6559c2d2610b172036c514296171"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_019.pt": {
+      "bytes": 424287,
+      "sha256": "f16ed55780b9da5a027fbe6285b9a5547c11d4cfc0882c3d981bc94574d78c39"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_020.pt": {
+      "bytes": 424287,
+      "sha256": "b5ba21e14e4545e95c982df93d0340991a15461c964bc4cc961076134d510458"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_021.pt": {
+      "bytes": 424287,
+      "sha256": "9ccacb3f4dfa20586dccc03bf6d6439197f096dd18375696225cef9671128bb1"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_022.pt": {
+      "bytes": 424287,
+      "sha256": "c8871f43f6226336213f4f9f3b3206b6403acca678f5f741e8eb001c2c537158"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_023.pt": {
+      "bytes": 424287,
+      "sha256": "cf96eb79a78db181d4b822e932d721e096035df98992ffdf67de66931502366d"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_024.pt": {
+      "bytes": 424287,
+      "sha256": "3e3ba13051b4a82938257da7ae52c5f624d34fb9f11fe6ae617306433ec60bee"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_025.pt": {
+      "bytes": 424287,
+      "sha256": "c86aae1c0625c2fb28f377d4a00b580cf623d530791b10bc515befb4ed4c55cd"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_026.pt": {
+      "bytes": 424287,
+      "sha256": "4f0ef698f9e0d79ce26ceda7208c7214eda4ea03826cd1e56ac2a1a7a86c69a0"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_027.pt": {
+      "bytes": 424287,
+      "sha256": "a3aee3c06bc5b5a416dcef3ab82d6f5f96ac2d6ff166fc37209df569935467e3"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_028.pt": {
+      "bytes": 424287,
+      "sha256": "034dbeb6e87ed85135cc6445134c8d41b2c52542061c010288915502385cdd77"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_029.pt": {
+      "bytes": 424287,
+      "sha256": "24c273239408450d1596e7a788cfba08a167fac9f0b6c025dabea240e204cf07"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_030.pt": {
+      "bytes": 424287,
+      "sha256": "85eee5a375804fae70ae98aefbfda7c0e43c62ece3229875946fa011b080860e"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_031.pt": {
+      "bytes": 424287,
+      "sha256": "963d49761b6e0eef468d8a06a4023ccdbf10a49bbd7e0264efe7fcf533ea8713"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_032.pt": {
+      "bytes": 424287,
+      "sha256": "8968f5020b19fb1be51ddf9b46d25559bc951da517cb288d8b3d86d7edaac694"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_033.pt": {
+      "bytes": 424287,
+      "sha256": "21db3ebd63c7d563b98a1916b3ecee3f5f65e9db88faab0ab8eeeec386ac25ce"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_034.pt": {
+      "bytes": 424287,
+      "sha256": "d5c8509ef40fc721ab74fa45bdc0d756052aee102acafd99caf19002d4560fe1"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_035.pt": {
+      "bytes": 424287,
+      "sha256": "ab7254c61f757c2e89b9863e79f65c4558905e8729a724c0194cb8fefd35421a"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_036.pt": {
+      "bytes": 424287,
+      "sha256": "e00bcbcf8d2cb417882dc40888b56805ccb656c03399d7d1fae0fe9a03de6b38"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_037.pt": {
+      "bytes": 424287,
+      "sha256": "a1a58ee9892ae815b7e2d856db31bc11ade949d3332ec5ce6c373135cc8fd779"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_038.pt": {
+      "bytes": 424287,
+      "sha256": "edacc845fa7cf3e0ad0c4f1237339321eaae0ac418c3bed5e0ed9bbdda3bfc6e"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_039.pt": {
+      "bytes": 424287,
+      "sha256": "38c83e84eb854288d5f6e3221e27115a117e53210b2d3f000b08594417e23686"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_040.pt": {
+      "bytes": 424287,
+      "sha256": "1c19322a8c253a6abc7187891d7364a857973f7c8ea850eb2ed47e74a5677e37"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_041.pt": {
+      "bytes": 424287,
+      "sha256": "74112c98fd2eef781aaf6a432ec62b72df794e9afa8a2718d7742c0b96f6fc85"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_042.pt": {
+      "bytes": 424287,
+      "sha256": "5f62a283e482e454ce91a4a52470917ef523ff3a7b7cad8b192ab0a1ce1cc640"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_043.pt": {
+      "bytes": 424287,
+      "sha256": "22743705709e6e5dc4aab8a737fae8b568184008008a11d5fe3c2cbcdc7a9a51"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_044.pt": {
+      "bytes": 424287,
+      "sha256": "0fa503541f43bbf27dc2b6a8d3d09bc7a98de99f9e455e7509ceb2b0206c8613"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_045.pt": {
+      "bytes": 424287,
+      "sha256": "ac24141eef4a81bc4bb56951adf1b16ee7ab18471762eb2e993db7d3e2b96127"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_046.pt": {
+      "bytes": 424287,
+      "sha256": "22fd19c142d6e95efdea890f161f022d49630ecf48ac205815c5e943222f78ce"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_047.pt": {
+      "bytes": 424287,
+      "sha256": "12fcccfe48f2eb291e8b2d2b864a0ec1a78f3550dcd57772ea487365ea4cce76"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_048.pt": {
+      "bytes": 424287,
+      "sha256": "49a15a6593b994115ed71154ec0b453bf6d8456ad4746faca4919c019bd9d323"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_049.pt": {
+      "bytes": 424287,
+      "sha256": "d167653cc46fdd6a07bcdc7d17d4ea7b64cda5e43f048f2b428c3d2fe09941a3"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_050.pt": {
+      "bytes": 424287,
+      "sha256": "cbc4323a84ddcf0f77ce9c72cd6494e424ab39400bc7c7d987971905f934056c"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_051.pt": {
+      "bytes": 424287,
+      "sha256": "06d89158e76b37e0110f4a58f9ef0b22bfc93a4b6d8f8fcacbf794f0bd2e887e"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_052.pt": {
+      "bytes": 424287,
+      "sha256": "6cdf442a0e1aaf7acc891695d97deb2c5175c50fd8c6a8b591601be435137e86"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_053.pt": {
+      "bytes": 424287,
+      "sha256": "04f88f5ffb405d77801ac6235dae87e686e87cc5c91ad412868c8d21570171a6"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_054.pt": {
+      "bytes": 424287,
+      "sha256": "c9526ed3acee8f2a1c31d327079dc211d18614a6738f8e86da7495b63a1377f6"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_055.pt": {
+      "bytes": 424287,
+      "sha256": "0143edbace931bde5d2b3b1407628f615617ea051d4d44997b45c13627580af6"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_056.pt": {
+      "bytes": 424287,
+      "sha256": "d62b225abc0a6fd838cfa33fd49b131d715c535f3b742f072618f5e702a44832"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_057.pt": {
+      "bytes": 424287,
+      "sha256": "dad67595de89f4f33b403a8c3518d0094e7db4ffdfcb164ab6e3eb234ff254f5"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_058.pt": {
+      "bytes": 424287,
+      "sha256": "6212234ccff91e1b200954c9761a44f5ca190b481370bcf1d508d6f14a445a30"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_059.pt": {
+      "bytes": 424287,
+      "sha256": "f3fded05834ad497e9bdd5948f6c8a9382f9c83a207edfc2374b52b19880c8bf"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner0\\epoch_060.pt": {
+      "bytes": 424287,
+      "sha256": "9f14cdc7ebceb7ef5d46393ca2e68738f18792e7c172c7f8748f12d787022cd2"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_000.pt": {
+      "bytes": 424287,
+      "sha256": "63c6362d34885df9c5b52c77068c5736d5c7655f13384b8bddf3ed4dd559b1d4"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_001.pt": {
+      "bytes": 424287,
+      "sha256": "6e8eeefcabc06289221cf691bbd3386b067909c96484e538ddf645159fe6332b"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_002.pt": {
+      "bytes": 424287,
+      "sha256": "2bba155eb260791b71cb9b6f512a28dd76d5ac178659172682bf98115fd67936"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_003.pt": {
+      "bytes": 424287,
+      "sha256": "990283a4cf17744caf7a68bfc91ba97c4455c7caa944c7420df70b46f7c05233"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_004.pt": {
+      "bytes": 424287,
+      "sha256": "27cc5bfaf1b8f5c7295962396a2aec2160bf5e102a4477c9b1e3e77df436251f"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_005.pt": {
+      "bytes": 424287,
+      "sha256": "82d42aacff515be8acb5471ad6dcde189fca41cf4b377156fe2b1788d7007222"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_006.pt": {
+      "bytes": 424287,
+      "sha256": "55026380df6053842277be66d7876b2f165e90e3bb32a8878cde741f3e447c69"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_007.pt": {
+      "bytes": 424287,
+      "sha256": "ed9a49de28b3320586d627359c9e5a91abc742bc3e55b7d6a96ae92cc5fdbe7e"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_008.pt": {
+      "bytes": 424287,
+      "sha256": "4181ce70f462a1b013ec326c97da1a4ee492ede0c02aae808bf0cdfe8cdf72cf"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_009.pt": {
+      "bytes": 424287,
+      "sha256": "ca0b1e8cef8fde01189c88f181210ab72cbc8788b6228d6c1e245d7dc376452b"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_010.pt": {
+      "bytes": 424287,
+      "sha256": "84ffb6f80677fde75d73b6cfcfe05f00992a7b2d2ea40d5a5060ca92536fc2c6"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_011.pt": {
+      "bytes": 424287,
+      "sha256": "0fa983d7bfa771ff90676eb302335fdd197ad572cc834cd6db4d39f4b9319a20"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_012.pt": {
+      "bytes": 424287,
+      "sha256": "d3d366ccf92b8e6007d5acfe44cf89009731fc57481f6bfb1e7860ba2d4eb82f"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_013.pt": {
+      "bytes": 424287,
+      "sha256": "cb4e27d7bef6ca798aefb5525fe808763408779eaa3d17c4d60b78eb93be3df4"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_014.pt": {
+      "bytes": 424287,
+      "sha256": "5d99137edd00449ecf834ace9fc632f45ebec3b9df0e842a08c92ac85e62b2f4"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_015.pt": {
+      "bytes": 424287,
+      "sha256": "f5c69825ebd6d35cce8b8626cc781ca086a8abea4c2d0d42d8cdeaf31704a46a"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_016.pt": {
+      "bytes": 424287,
+      "sha256": "0a1adec7cf3818dd25f2edd98eb167ed031d9edc27ba0b49fa8c72be92eb1994"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_017.pt": {
+      "bytes": 424287,
+      "sha256": "35931588508650521cc0c08b1cf9fa26d5a1d88f7e9c9b22bb473f4110197621"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_018.pt": {
+      "bytes": 424287,
+      "sha256": "515bbe6fd3d38e3599159516330ac8eeab3b56d6d05ce295f7e497a2989874ee"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_019.pt": {
+      "bytes": 424287,
+      "sha256": "807e623e23af8b05901b8b758cb6c554b8d5f9fc27d904e7ba9b11c7363ad42e"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_020.pt": {
+      "bytes": 424287,
+      "sha256": "cb120db73ebc444a9bad3be935d004a972e5b48f536dbf672f109e73df27ccda"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_021.pt": {
+      "bytes": 424287,
+      "sha256": "9fc51043cefe3c35eb144da5478f9b1e3e47eb51f94d68eac0e984136500956b"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_022.pt": {
+      "bytes": 424287,
+      "sha256": "00f4f10fb56e7dd6f406071546202a203078c62fe39f6cceb402d0e26ba6cfc8"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_023.pt": {
+      "bytes": 424287,
+      "sha256": "2b0bf6b7d27ba5bd16d258f6f01e90e3f7939ff43dbb20952b31cbcd2b553171"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_024.pt": {
+      "bytes": 424287,
+      "sha256": "1c448fdfc2cdcaac921a9cd501fdb09f74d7d9be52d3df45b9c569a4bf454f31"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_025.pt": {
+      "bytes": 424287,
+      "sha256": "7624347ee128207d004bd99ce5434be06e6aa4d90e6fbf41a19e4ced3f40818b"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_026.pt": {
+      "bytes": 424287,
+      "sha256": "a881ae0fef140d4ddadbfebe92de6b31234235e55e9185fb6b5e5d3d202cccd7"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_027.pt": {
+      "bytes": 424287,
+      "sha256": "3338dce735532a7dc6303b01dc2dad320c164b248b709fc33e155820191f0ed3"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_028.pt": {
+      "bytes": 424287,
+      "sha256": "9eadf22fd72a7638e60fa510cdc52bc251353320bbf3326f8804f8d34b6b126c"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_029.pt": {
+      "bytes": 424287,
+      "sha256": "5a38b715e1ac873ce11cfa508babd2049fd3ebbdbac8adccf6fb9675fe2ad8ca"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_030.pt": {
+      "bytes": 424287,
+      "sha256": "3f12deab85f032cd107f280ad14297a4be9ec6daf6dd3c526021fb931b881571"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_031.pt": {
+      "bytes": 424287,
+      "sha256": "653582936e94e62489dba9faf186e0e71397107a2f35e8db72a038856414ce10"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_032.pt": {
+      "bytes": 424287,
+      "sha256": "8bc6560aa12da2b47ce2a3dbe43768a2afe3e33b518d0bd4c505cfa0dd7b40d0"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_033.pt": {
+      "bytes": 424287,
+      "sha256": "beade08a251fc210326fb5c3d23c73d30ea926b43950da0073e1adad6417696d"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_034.pt": {
+      "bytes": 424287,
+      "sha256": "ac358cd5ed79d66514ee1b7c36f8b0df94c549b3f1ee96b018ce6e981a054c7e"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_035.pt": {
+      "bytes": 424287,
+      "sha256": "c98d93aa3106458eea8109b2e1a026fe51a10e8168a1b554bc9d5c6ec9f323b1"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_036.pt": {
+      "bytes": 424287,
+      "sha256": "c5baf8b8bde74745e15219de321936b53a9672af24d6bb1c9855938aa17dd070"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_037.pt": {
+      "bytes": 424287,
+      "sha256": "e7a9704e8a90ccfb2cd2b0079b61d68b69c9c76504cadd9ddfbcdaa2b0d51f81"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_038.pt": {
+      "bytes": 424287,
+      "sha256": "3c0c888bd3873ddce4a38fb3b5094d0d2852d582f8453fd21725e2f659117ee8"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_039.pt": {
+      "bytes": 424287,
+      "sha256": "0d07da8f1838dcf31cad1c13254f329a2d018f8fa0ac62a87b60605867e90d5d"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_040.pt": {
+      "bytes": 424287,
+      "sha256": "69c5394c6f6ccd2d48d7fb12154a054aa6ffcabb22f20e6e9a2b9b9f459cc6f4"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_041.pt": {
+      "bytes": 424287,
+      "sha256": "ef2d3093bd533f8b44d5d7008874b2e44cde7dda9a14a1ac25c3038cb41dfbc2"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_042.pt": {
+      "bytes": 424287,
+      "sha256": "de518ee97f1766fabda5274caa4b5b1c29ee5e9f931c7e8cb48cc710b3bac7a8"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_043.pt": {
+      "bytes": 424287,
+      "sha256": "10b8c727d29cb19f471c1e77b956f54690c8273298b68d9d0988f4230bc13a89"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_044.pt": {
+      "bytes": 424287,
+      "sha256": "418beb4fa84f15bef8c29d4c982c8ceaeb28af091a7837a109ab862209a8b4de"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_045.pt": {
+      "bytes": 424287,
+      "sha256": "70957cb58338c6827fdaaf1a0ab1dc9c400fae9166055dd376954f0407f1cf9c"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_046.pt": {
+      "bytes": 424287,
+      "sha256": "22cb6d8f855ce25c72a097cca1b7d229c88bf18e040a8490f94110ec4caaa26e"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_047.pt": {
+      "bytes": 424287,
+      "sha256": "a102198748615ee38045e0a4628ab2faa7945a29e7302c29e1749eb23d66a071"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_048.pt": {
+      "bytes": 424287,
+      "sha256": "a5df27318ba68f79b2dba938a9a65b50ce4eb9fe93b392e259d486cf97c86fa3"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_049.pt": {
+      "bytes": 424287,
+      "sha256": "72f835dbebce2a2e1a6296a43b9353de744c66fbd1d206b888a817cf50d35331"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_050.pt": {
+      "bytes": 424287,
+      "sha256": "c87ba68afbebfb92139b60bacdc2bc71c2e7de2b0583fd7de51e17fe70875721"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_051.pt": {
+      "bytes": 424287,
+      "sha256": "fb843d8545e3683aa79c735348b9cedbf866adb4ab8afdddeb1123846da8de53"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_052.pt": {
+      "bytes": 424287,
+      "sha256": "b0e47ce0c7e30ecfcb762157aba644217c04c7aac171643cb9d206c3730bf8e6"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_053.pt": {
+      "bytes": 424287,
+      "sha256": "b7f81409522ce47e775eb797b5563d8f04440a59edf1d24e091548955f05414d"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_054.pt": {
+      "bytes": 424287,
+      "sha256": "afad733e061ab4341baa1f302cb33fdd97f8c4d5ee8b65487eda826248df55eb"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_055.pt": {
+      "bytes": 424287,
+      "sha256": "84de9882149efb1de3a1968df49f1595d08a1c6a8bdcb2057260ef4da40d2553"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_056.pt": {
+      "bytes": 424287,
+      "sha256": "52f3f90ef8c24584c0f1c97d3e3bc9f7285e080ef5dc0dd709c0752774fee561"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_057.pt": {
+      "bytes": 424287,
+      "sha256": "15de458e6773f74be53882b28bdc815446f626c983572c3b31660bec2cf69349"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_058.pt": {
+      "bytes": 424287,
+      "sha256": "6da5e55ba9c0e39ee1aa1e100e60e75462700453253e49c22e8ff3c7db00ae61"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_059.pt": {
+      "bytes": 424287,
+      "sha256": "a2e660ebb24163c5c38fa52c841c62be6401765c867c8806085ac68e62972d4d"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold0_cnp_inner1\\epoch_060.pt": {
+      "bytes": 424287,
+      "sha256": "23bd2603869108564348fdd57df3fa94a79a5a7e15fa8df6122c7e62e88eba54"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_000.pt": {
+      "bytes": 606235,
+      "sha256": "5ca7d9fca07aa266e3e5429b5d69fa5a5037da863febb0a1cd6339d5a5f53a75"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_001.pt": {
+      "bytes": 606235,
+      "sha256": "8bf67dcfb6553f8ebfbc9020b6cb5a887e0b032fe3069f93cc15708ed4ecee6f"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_002.pt": {
+      "bytes": 606235,
+      "sha256": "c267a6b1543153567d879a539dffc92ff7b7a64ef841d655dfe4f42428d099f1"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_003.pt": {
+      "bytes": 606235,
+      "sha256": "d38a7c39748e5f74e7c266173c0361cb4cce47bef20cf249e090fb0780452f58"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_004.pt": {
+      "bytes": 606235,
+      "sha256": "b0c385e50d1c2ba3d624c4cce3ea0c399c68890a8fca08658d2f05e695fa8f8f"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_005.pt": {
+      "bytes": 606235,
+      "sha256": "c13ddc8e13d484c91a6cc25984173978682d9b1e75d02cffe2f505cd4e5258ec"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_006.pt": {
+      "bytes": 606235,
+      "sha256": "180423219fd113c1fe8cc39bbe6ca7cc60db49b52513e996dfcf21224f77b5ad"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_007.pt": {
+      "bytes": 606235,
+      "sha256": "0b5572686bd457c508370cb7def03b526185c2f75d43c648fc036526a526ad3f"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_008.pt": {
+      "bytes": 606235,
+      "sha256": "4efa056f3acc64c4552234a929a9b4e9b30e1663aa2ffbb61417cb9391544ed6"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_009.pt": {
+      "bytes": 606235,
+      "sha256": "d479191400b6001b01e305b5b251227fe205883febd17fb799662db99148608f"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_010.pt": {
+      "bytes": 606235,
+      "sha256": "be0ce17cb0114fd27f8248f00849c2868f3b630e7ce4270ee522e37c58087efe"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_011.pt": {
+      "bytes": 606235,
+      "sha256": "1bfa6c00ca482319a8651d09ce30234337a0031afb11917b923e02dbd9939661"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_012.pt": {
+      "bytes": 606235,
+      "sha256": "16ccd73686a0a5d5a8c982e26a1b7b8398620d9009f928fa2d1a123d0938da93"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_013.pt": {
+      "bytes": 606235,
+      "sha256": "06c494435572acde65094fbfab6e286f981fe4211960de6f254c59d5a9469398"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_014.pt": {
+      "bytes": 606235,
+      "sha256": "3acf9903e245031af279c19bac44183e3ec4bcdbaf97d03236cfa44e9a4f8693"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_015.pt": {
+      "bytes": 606235,
+      "sha256": "a9cfc05ec6c28ca73cdaf74f6bdfb09fa28c7bda7f7c24ab507289754fc4fa9f"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_016.pt": {
+      "bytes": 606235,
+      "sha256": "15b363907379dfd416c4a27c616554c3dc085c4a6b576aba8559b781b48222da"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_017.pt": {
+      "bytes": 606235,
+      "sha256": "0dfc9a064b05ec60e3e2c379a70dc923f239ebaedf35e353ec6a1b77a22433ba"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_018.pt": {
+      "bytes": 606235,
+      "sha256": "56cc25c32dd08aa21daa5bf6f430acfd6318dbb745d5aaa35026fbbad071b91b"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_019.pt": {
+      "bytes": 606235,
+      "sha256": "84d4a31d55047b8225e4a99a73d672eaa2a94f9c870e33a1b2c49908a38c37c9"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_020.pt": {
+      "bytes": 606235,
+      "sha256": "ead5e06099173e3fae5a2ba2fd59339dc02d5fb20a024a361b9c019e56c23280"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_021.pt": {
+      "bytes": 606235,
+      "sha256": "f3d582e8eff3c1b8d04857d09830e6a3bf30cbdc4d244a512ddadacd955dc133"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_022.pt": {
+      "bytes": 606235,
+      "sha256": "664ac5633d11a671ccc2e3b683d3611dc69d2330fdb8ba07df074bb6be57590c"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_023.pt": {
+      "bytes": 606235,
+      "sha256": "fc52db28091f498c960756147f92f0f2a78ee0b12f0c44c84c1a378336a0c3fd"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_024.pt": {
+      "bytes": 606235,
+      "sha256": "960be4f472f702db38f1d5eaa139b5d16e607e7e72b6a0868be07e0fdb06a690"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_025.pt": {
+      "bytes": 606235,
+      "sha256": "edb2e3d72a12e81e9bc1422c19a824417c4238a644d3d07fc7956fa92218ea39"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_026.pt": {
+      "bytes": 606235,
+      "sha256": "61d73f346deec97550aef95ac7ca56c29cb29facd627f877737dedff8e0f32fa"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_027.pt": {
+      "bytes": 606235,
+      "sha256": "1f20c067d52edb68d87db9078c73369c6e5a575f5f0d55900c9c29769c73ffab"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_028.pt": {
+      "bytes": 606235,
+      "sha256": "7e333fe9da7aec3d12492b2963a1baba9bb84ca26f541e80b2aded231c9ae10c"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_029.pt": {
+      "bytes": 606235,
+      "sha256": "2561da52bb4574a00ba26723f6b7c6988d90044c251f1dbf7ff9470324e3ef31"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_030.pt": {
+      "bytes": 606235,
+      "sha256": "d7213eeb98b14478824d08d250875ed4363128c2ef00fe1aac51747ea40c52f0"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_031.pt": {
+      "bytes": 606235,
+      "sha256": "3ce481e10e7fc25f0ac6a37a238fbf583e5acaa3ea02703cc459dec202759733"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_032.pt": {
+      "bytes": 606235,
+      "sha256": "1b93bcb1a2e6af3f74fa5c63acd4da26234c8ace0f758d5109c158797dba220f"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_033.pt": {
+      "bytes": 606235,
+      "sha256": "55c91fd0d704af0e52260957d74e82ef40d93fd160e55093fee4bb8057cefb48"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_034.pt": {
+      "bytes": 606235,
+      "sha256": "364cf0627c59ca8f0d420c6a27ef9ab62d9be3cb4e36f40584af5f9a89388508"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_035.pt": {
+      "bytes": 606235,
+      "sha256": "a56c6bd05dba6df3ef4ac52db9f02c443f9ab3202cbb7858e6d6fc3021ae5bfa"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_036.pt": {
+      "bytes": 606235,
+      "sha256": "f01770a532da3a51cbe1adeb59c02d8f24861e8125b5ac603f06ee877889e76f"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_037.pt": {
+      "bytes": 606235,
+      "sha256": "739be6fbd3141cc56203716b79ad4f8b9b4b97992a48ad258efd4e920d09ff6e"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_038.pt": {
+      "bytes": 606235,
+      "sha256": "3f90d46d5d1e44bcb21ba3e47450bff3acf22c4479ad6719a6db2abe5f9d314b"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_039.pt": {
+      "bytes": 606235,
+      "sha256": "9f3985352622a7487cbdf014a87eb8eb13a8e861b7633e67fc624d3ac1d1fc1a"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_040.pt": {
+      "bytes": 606235,
+      "sha256": "52eacea44eff33d85d45d1bc8cc6668eeceb9da96627d7bfab6549077e9af7d8"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_041.pt": {
+      "bytes": 606235,
+      "sha256": "fcd0e6f22ec0470e0f82b8c3fd5b27a5a2925bcf117427bb849f58881624fc58"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_042.pt": {
+      "bytes": 606235,
+      "sha256": "26471eb956f12c613f0b8ae4b43429661dca90ee9e506c69599cae92707b72a2"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_043.pt": {
+      "bytes": 606235,
+      "sha256": "dfd14b627e4f64ddcd260c930ca08867c16bf055bcb9c7ba9fa7f54292a730ff"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_044.pt": {
+      "bytes": 606235,
+      "sha256": "66143f90d4b09a27d8dc46370b88651d13a02ee41ffebf3b116bbeae839f8aef"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_045.pt": {
+      "bytes": 606235,
+      "sha256": "df6e9e0ec1144740d70a5c0d42f0e360282f6e3af68de0075ce6a16a2bfb8fac"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_046.pt": {
+      "bytes": 606235,
+      "sha256": "8afcfc0a0ed2fd81f8b86b76743ccf83d8f4a016a56c3c2eba5bb87d462c58fd"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_047.pt": {
+      "bytes": 606235,
+      "sha256": "f61a0737eaf62bb56e9f405f32114f5125258090472e5f7bcf917c5f824fa6d1"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_048.pt": {
+      "bytes": 606235,
+      "sha256": "0d3658b9445aaee04aa66238a5119ec6605182280152d93590018b18c5965267"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_049.pt": {
+      "bytes": 606235,
+      "sha256": "1046f249c16644b8f218ae13058a8c47454ef1ea9628adb5d34a33b3f6662a79"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_050.pt": {
+      "bytes": 606235,
+      "sha256": "f1da0d596185892ce7e9dec2ce2d994d6d1494cbfd1db78dd1f225339ccff354"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_051.pt": {
+      "bytes": 606235,
+      "sha256": "03a91c97df06db9fd074fd5412073a24bfb0060b2770eff616c9aa4dd3a16e98"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_052.pt": {
+      "bytes": 606235,
+      "sha256": "4cdee8263a3d1ec1c4cbb7308c7e036f3b715a8a8838ccf9b1d57f5d827cf60c"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_053.pt": {
+      "bytes": 606235,
+      "sha256": "c7d567716577de9d7daadc8ec8b0cef063b1a12f7afd18506653f67abc6bfd0a"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_054.pt": {
+      "bytes": 606235,
+      "sha256": "eaf1ae779f9b98b18d48842da0b425cd8558198c345fa94fbe00190d1b303927"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_055.pt": {
+      "bytes": 606235,
+      "sha256": "c150924d481f2f128e8f83170c3ce6de3aa1919c9d554998f7097b5b2d38ebd3"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_056.pt": {
+      "bytes": 606235,
+      "sha256": "f1663cae953d81d36a50f55f0c003bcb4c99aa30f565f4fabcaa665c24342c44"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_057.pt": {
+      "bytes": 606235,
+      "sha256": "7ee68a80ba991f7eb8f0be33483ad5a13d0e361fef83109ca4c1c85b0ffcc185"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_058.pt": {
+      "bytes": 606235,
+      "sha256": "91a1b3b953dc841fb4a5da964108ec796fa52e8badc80ad8c9bd473eff64e9f0"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_059.pt": {
+      "bytes": 606235,
+      "sha256": "c0613b57aa98ccb45d38e42dd64bc0bddf156d5c41cba26b32dca232fe7da985"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner0\\epoch_060.pt": {
+      "bytes": 606235,
+      "sha256": "eaa09efa00790c9ec6355129c1e3604ba339576bd7c98620643e8ce8f71560f0"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_000.pt": {
+      "bytes": 606235,
+      "sha256": "d5ae739a6dcb0190dcd072e8547c2363819689d465dfd90d2631d11df4c44b67"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_001.pt": {
+      "bytes": 606235,
+      "sha256": "53e41001c2516a17a6be75032d696a1df83137214478c334b6fe847293286eaf"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_002.pt": {
+      "bytes": 606235,
+      "sha256": "493855bb34bbba10d47e5e54b9f92554bc076aecebd704650a45d0a48f86c366"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_003.pt": {
+      "bytes": 606235,
+      "sha256": "abe5d5bfd86b2309adb10b348c1ac4748dbe0cf483efbf948e8e0b1887399f2b"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_004.pt": {
+      "bytes": 606235,
+      "sha256": "9eef6c8e82a4c3a967017cd56fc2d5560d9dd432a38dead455235c5b4ed730c0"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_005.pt": {
+      "bytes": 606235,
+      "sha256": "0590c8dd8a25be1b3bdcf4c173a538c399f99025f8b5eb4f2bb75125b6d167c4"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_006.pt": {
+      "bytes": 606235,
+      "sha256": "02e1a16a59f15e5bbeebab8dccf6a230b0257a396ce653624e503c60a0195609"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_007.pt": {
+      "bytes": 606235,
+      "sha256": "f1de4ce01990df94e887bbba417fa38ae5a06e1f382a7205aa16ecbdcd8ecc57"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_008.pt": {
+      "bytes": 606235,
+      "sha256": "78db83aaf931c8e84ab14e6c030b3576a5b169762876ecb5fafbcd3d7adf92f6"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_009.pt": {
+      "bytes": 606235,
+      "sha256": "4e7784cfc8b847a5df35bc3c9917f417c79d40e18048efa4125bb0e3440f2137"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_010.pt": {
+      "bytes": 606235,
+      "sha256": "727a4b41fb0ff6f60726e97f47cfb72c8c827174a271d2c67083b5d0849480cf"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_011.pt": {
+      "bytes": 606235,
+      "sha256": "db4f765e7755354e230ca8c9d64c8f8b7e0d3e9c2d18465c1eccf3889f23a5e3"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_012.pt": {
+      "bytes": 606235,
+      "sha256": "6532f40c560206d1bbec603b38e1747203d92dd65b6f40f824985e65204ec4a1"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_013.pt": {
+      "bytes": 606235,
+      "sha256": "1d7f6bf5d684c5171f7e81c01b7d1ab43e6ab66f008adf0fb1bbc62f2a54c58e"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_014.pt": {
+      "bytes": 606235,
+      "sha256": "2d06b17fdfdc050b7c4ec1bf2cf7733d023dd7be4b6e1f27eb125cab760455f7"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_015.pt": {
+      "bytes": 606235,
+      "sha256": "de96bd7cd4e5a348ae250cc9d814313d56dc976a5395c2b3bbc89f6a9be12fa7"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_016.pt": {
+      "bytes": 606235,
+      "sha256": "8f299377b88fd57813aff6a891fce3c75da805c937ccc163894e9a9ab495443f"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_017.pt": {
+      "bytes": 606235,
+      "sha256": "8b5d434c65f2321933cbc02a282347ad96ba6bb6fa2e8d1edbd7df1b48e78c93"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_018.pt": {
+      "bytes": 606235,
+      "sha256": "b3f6ffdbda4a70922cc927435f00c65c9d8d72505eea5033c2bc9adc61bd2662"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_019.pt": {
+      "bytes": 606235,
+      "sha256": "2b557c67b5161580c0f18c524ba71be3fce140d830fe950ae7fb54dd1c1f9d7f"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_020.pt": {
+      "bytes": 606235,
+      "sha256": "0b6c6b365325fc2baea02492a70586633d1e77619d2e1cf634be3ffb47ff0ca1"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_021.pt": {
+      "bytes": 606235,
+      "sha256": "75b5833a248ee9eb8e27558849bff9baa7f5bdd0b33e5d4ce9157d2140964931"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_022.pt": {
+      "bytes": 606235,
+      "sha256": "822af124735bdc5164fe1cb43b82b3a13c8ead7e3fcfbcdfaf5bc2b8da8458fe"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_023.pt": {
+      "bytes": 606235,
+      "sha256": "7ce7e6f6d08c70ea02c436c6ce04f88a9603f0889e062d847e9f1c2be13ccb85"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_024.pt": {
+      "bytes": 606235,
+      "sha256": "a9a7b0321fc84c5c24350294271552e71dece46f4b30a73358a9d2b651ccb8e6"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_025.pt": {
+      "bytes": 606235,
+      "sha256": "78d552d66123ac0b784e896da58edd40541a0d9d54ea39a5a2436fa84d7cf587"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_026.pt": {
+      "bytes": 606235,
+      "sha256": "35d4df20364afec7b6f87037685ee91f13afbc31192b36c6c9940dd058873ae6"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_027.pt": {
+      "bytes": 606235,
+      "sha256": "4652a9f1142b8e99f393467b151dd2adc879c053928af23044193821e928b0d3"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_028.pt": {
+      "bytes": 606235,
+      "sha256": "44e815769387d4a0e60c6a5c44e1bcc208594dea04d18ae395767fd9f6dfb805"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_029.pt": {
+      "bytes": 606235,
+      "sha256": "fb536f3cf6fb79ccf97169ed51f0f538de21de288ee3acdbf21237e3e01bbdd5"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_030.pt": {
+      "bytes": 606235,
+      "sha256": "9ef6c5a0706cf73313b49f4c9376acb398af2a19f6580f1dad75e8935f65f4a7"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_031.pt": {
+      "bytes": 606235,
+      "sha256": "7e3ddd4343b08bb59d0bb6b58f4893e47d5ea4282a4ba926fcf94425e3c7ff32"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_032.pt": {
+      "bytes": 606235,
+      "sha256": "42c17556009cba8980ea735b4f729ea05c24d737f9703c1d616fb761ade03771"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_033.pt": {
+      "bytes": 606235,
+      "sha256": "662b6a0e295f6c5861945974e3764543a106deea8ec78ef6e412a1ecc58d7fd2"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_034.pt": {
+      "bytes": 606235,
+      "sha256": "05cc2a302ba4778fc303f796257e4e2d1d2830054a81c6653aad50de1fa87e2f"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_035.pt": {
+      "bytes": 606235,
+      "sha256": "db18ab1b0c915bca3aa1010a78b305de0373b4ee0657147ce271e651fa4b3024"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_036.pt": {
+      "bytes": 606235,
+      "sha256": "0a887d67717dc2b2547ac97e1eaf8b10ed788f07ded50c5b341b943bde7dd635"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_037.pt": {
+      "bytes": 606235,
+      "sha256": "605fa037f61a1e08132c6bc59250db68b59474c979b5c5fe9d7e4267f13e2ebc"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_038.pt": {
+      "bytes": 606235,
+      "sha256": "e81bf047df6994d4f242c7e0ee216674c9d25d89337f9e4c5cca72b3fc8ab924"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_039.pt": {
+      "bytes": 606235,
+      "sha256": "b77395f83c003aa1836fdd54e7c25285d6e8f65fb57b0a854514c100884093c2"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_040.pt": {
+      "bytes": 606235,
+      "sha256": "5b9b5130dee82fe754628c507497300b2a6b3f2f6e500bd8786b22d62a9c119a"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_041.pt": {
+      "bytes": 606235,
+      "sha256": "ba12d37b7c4dac17a3c5d3af87955f01078b5f7ec1f06417b2aa17a5a90efba8"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_042.pt": {
+      "bytes": 606235,
+      "sha256": "42725b1e199acb2adbc809886756bddfdc5c059582cbe27d1f13376392a18904"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_043.pt": {
+      "bytes": 606235,
+      "sha256": "ed2769dccd83d9c425acf0d26745c42a7ca00246f14d1c4744758a27689f0e17"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_044.pt": {
+      "bytes": 606235,
+      "sha256": "0cdc8b1d5ac884f4a17539593e65af2da8a6a496f87395eba27e821b95dd1588"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_045.pt": {
+      "bytes": 606235,
+      "sha256": "abf4f106ef8c9ddece455e6303e2a455de73cc471a20f49bbcd1e2a2e6ee2b9a"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_046.pt": {
+      "bytes": 606235,
+      "sha256": "d46fe28b46c4f85619530f2c2444e422951fc06f7e2ec3f304c7bf50b783d434"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_047.pt": {
+      "bytes": 606235,
+      "sha256": "cd8c32c02bdd867ac730fc1b834eb658afa4b1c6ad34bdcd74b74a25d52d40bc"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_048.pt": {
+      "bytes": 606235,
+      "sha256": "188ad036549a862dff906f4ea8d912957ce1e3a7e334e363912e60a6db0e7d5c"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_049.pt": {
+      "bytes": 606235,
+      "sha256": "2aa0364ee76df7d6345e5106b89302d634e3b6037e6a554ce49f596ed6eeaf4f"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_050.pt": {
+      "bytes": 606235,
+      "sha256": "9de0e4af2ec10e4317785cbee3a157115b7d60e1a051227880e9ba716c578453"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_051.pt": {
+      "bytes": 606235,
+      "sha256": "c576352bd32911a3e8179c5460ec3143b49dc80d805762a07cd388704aa02987"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_052.pt": {
+      "bytes": 606235,
+      "sha256": "e700198471fb4ca6f073802f37989cab7a75f9f8764c29dc5ddf63ba93a4dd00"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_053.pt": {
+      "bytes": 606235,
+      "sha256": "07ce3f0d81bbf69a2a01a6f0d2820e50b6237b5d27a97a5e671e98e6a9cc3f28"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_054.pt": {
+      "bytes": 606235,
+      "sha256": "5756182d506bb494476e23d75f5c48e3442217acae100c62f9ae5593cc4251b1"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_055.pt": {
+      "bytes": 606235,
+      "sha256": "a0fff5ee73421ad300be2013291545dc0b722b54c599f82b73320e3fd7ba4be7"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_056.pt": {
+      "bytes": 606235,
+      "sha256": "fc752c903919f156a33d3afb8cd89c72c8a4941f034246a0b9016d77f3fcd410"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_057.pt": {
+      "bytes": 606235,
+      "sha256": "821e45d97e555f566de0ae73f7a6374d9af62d036d04f577290007b90f17d2e8"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_058.pt": {
+      "bytes": 606235,
+      "sha256": "cfffae5a809096e5b24371ccee5ddea972a5e1c6904a35d265adcca55e81da31"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_059.pt": {
+      "bytes": 606235,
+      "sha256": "5f58325414eb981f10526329f189566fd30ad743c280d022a2adfa7e28a2a66a"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_attentive_cnp_inner1\\epoch_060.pt": {
+      "bytes": 606235,
+      "sha256": "7eaeb9d0f55a742c5e6b755a19d52aa9277c8dcb54ce13702b07d243c5129bca"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_000.pt": {
+      "bytes": 424223,
+      "sha256": "9dd9c813ff0b906791225588016e576c6b756d2ce2a54a64ab7eb427f4da5f11"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_001.pt": {
+      "bytes": 424223,
+      "sha256": "2ec8cac950c22cb741044c03e532f46911d4a63bf3c702461e22863c7d49b827"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_002.pt": {
+      "bytes": 424223,
+      "sha256": "0bf2a55c3b1e47959c31a006b2486ab60e265bc4233c10d0a9e22cb5a642b4eb"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_003.pt": {
+      "bytes": 424223,
+      "sha256": "4f4f7bbd172e94cf5c47790b4be19a29b55b12df5d3a6db0c21a3118cff7499a"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_004.pt": {
+      "bytes": 424223,
+      "sha256": "153706203d30a48617dddf549e2a7c2dee092a60b37566722fca0a036da6cc15"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_005.pt": {
+      "bytes": 424223,
+      "sha256": "3a07aa84615194d0e422ae1fc50ce714fd6bd41a7711838bc76fe1ce9ad8ade7"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_006.pt": {
+      "bytes": 424223,
+      "sha256": "85b8a21113041f8c36ae7a03329455d830f2ff3bae158cc47dd3894ca1c33142"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_007.pt": {
+      "bytes": 424223,
+      "sha256": "71b128e16067575183e97f0858c850fb478cecd7b4121359888bc2936d783740"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_008.pt": {
+      "bytes": 424223,
+      "sha256": "0eff23a3b15d406732706d79cf70de02944c1872925b5e06c7382263e8f924a1"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_009.pt": {
+      "bytes": 424223,
+      "sha256": "a5cbf780a5d7de96775c8ea755b59d317dc048e651af74e929c0a60f967b0d0c"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_010.pt": {
+      "bytes": 424223,
+      "sha256": "6c14464e4c57862b6fb2d468b7f3f5e36c86faf0566ad32042e11d090b55d9b8"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_011.pt": {
+      "bytes": 424223,
+      "sha256": "1ad287b8466b437717990619243e12f29ecfc747b3d8e1007f9c5955311e8272"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_012.pt": {
+      "bytes": 424223,
+      "sha256": "9edb2f853cc6fbb0dde1875eb36f7cc9e4d6cb8b3d8b42d3503a9e7878e009b5"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_013.pt": {
+      "bytes": 424223,
+      "sha256": "173703a801c37f977a2e5f1c4bfe9eade5460869afe12dc09b784ef6b9f078c6"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_014.pt": {
+      "bytes": 424223,
+      "sha256": "09b3c7ecef8341f88c67bbc699b027f48b68327b003d60a1b12d212194f4f2fd"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_015.pt": {
+      "bytes": 424223,
+      "sha256": "c1e3384ec9df0548c4b034a8b633a4c67aed575989a52c1be90d4f19d2370f00"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_016.pt": {
+      "bytes": 424223,
+      "sha256": "0e91c4d814ebe574f0dc429ebcda919e9f2be14267069cc4154139813a28f8c9"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_017.pt": {
+      "bytes": 424223,
+      "sha256": "2973a934ce59b69d1b4410f33de879423b249147d83708b761c9727c01f8ce92"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_018.pt": {
+      "bytes": 424223,
+      "sha256": "d0fc0edfc6f99e76c44f91614e39d12d91c74492c8ab05604617eea5f3f32596"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_019.pt": {
+      "bytes": 424223,
+      "sha256": "780ecc95415ed342f4ff741ba45cf26ccb16d4452ef42264986715753bae97ff"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_020.pt": {
+      "bytes": 424223,
+      "sha256": "f32b63877eb0f70a0ab40d1efe389793c67fc5562f09ed861d8fd42bf2f10384"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_021.pt": {
+      "bytes": 424223,
+      "sha256": "a2b99fadfc3a0dd8b998f6b3af3387ff03d111038487b7e46219d6ffa7b42f32"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_022.pt": {
+      "bytes": 424223,
+      "sha256": "c979578a308d9863f71bae0c517e9aab1e3738ac46a066542a47c4427caa48ca"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_023.pt": {
+      "bytes": 424223,
+      "sha256": "cbd7090d5448529f715abfb35ed69165c2b645c1510ba99b4e76be112defd575"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_024.pt": {
+      "bytes": 424223,
+      "sha256": "4016a1c9a8c585c4497291a1591cfcdeb649246620716f2460d1b677409f7327"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_025.pt": {
+      "bytes": 424223,
+      "sha256": "5fe6e2d0b38e4aa3f45810f752e98417bf1fdae06b52fa25c1611d6b4a6646ad"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_026.pt": {
+      "bytes": 424223,
+      "sha256": "00a1d38ecd692dacb93abc16e993eb755074c0837979890f9cea2016d035b2c3"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_027.pt": {
+      "bytes": 424223,
+      "sha256": "01ba30e2af1d4b4d2ff109562424170bd94b14a4da8dc282593399e047fd35ec"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_028.pt": {
+      "bytes": 424223,
+      "sha256": "2794832584f69b3146992853681a146994e5afbe57dec7465e0873c464bd8ab4"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_029.pt": {
+      "bytes": 424223,
+      "sha256": "11676ecf5d40142a2cfd98c84f9d7a8e591ad9a9a75506caf41471541b214312"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_030.pt": {
+      "bytes": 424223,
+      "sha256": "370fd402102af27c8dfb58aec20939d761a3e5cc862558d8df5acd85b96052f5"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_031.pt": {
+      "bytes": 424223,
+      "sha256": "23a0a012397e26feebe16b4174bae1f6e0449e656a8951ff27ecc5aeb64d8786"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_032.pt": {
+      "bytes": 424223,
+      "sha256": "1da5b40267136d0f2363d53083db1bbf49748520ff9fadded4dab19a2acdce19"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_033.pt": {
+      "bytes": 424223,
+      "sha256": "8c1fa708653e4c49935bef0ef4d162cd9367c2a648e57d02130050b71dd4b79a"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_034.pt": {
+      "bytes": 424223,
+      "sha256": "4b5fdef319e4293c790cb12d414d898b425560bdc066f17fa617109d2ab6a3d5"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_035.pt": {
+      "bytes": 424223,
+      "sha256": "05edfaebcf37be304f132d7bf75e9fdab698511f3a5a03905290978cd3de202b"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_036.pt": {
+      "bytes": 424223,
+      "sha256": "29b2632404e00e2d9162d261ac955a869481e6a454736c45612aab2584f2d5ef"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_037.pt": {
+      "bytes": 424223,
+      "sha256": "8c884f5f2056e9fe8ee34968372defb2d82947b3ddfa546c4630f0e9f108086f"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_038.pt": {
+      "bytes": 424223,
+      "sha256": "cb31eff3bb1b40b99f3bac73256b75dd988b3996fbc538fa627216690222d5bd"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_039.pt": {
+      "bytes": 424223,
+      "sha256": "d324d5bc72aeb50705ae3e187aa6e2ed822a656948873466b683414eb659094f"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_040.pt": {
+      "bytes": 424223,
+      "sha256": "c5e01da3811c155aab8814869bbda1855dc41d84aeacd028b3827295a1e9c623"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_041.pt": {
+      "bytes": 424223,
+      "sha256": "7ff717188cbd25d11e7bea51dc5dd3fe5b96db9d8fb6bbe2992ab37ae03b8feb"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_042.pt": {
+      "bytes": 424223,
+      "sha256": "ec29a2cab04b1a25e337eeecf239e68dc2fde42e7224286a9612b20f856ec7f4"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_043.pt": {
+      "bytes": 424223,
+      "sha256": "c11b715827561552cd69bda531377c2f451a46c6b73970d763593cf9f079cc5a"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_044.pt": {
+      "bytes": 424223,
+      "sha256": "a943447cdaea2cb45f4b60daf0ef5bba75fb5112551ba4f30f428dc592e11bd6"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_045.pt": {
+      "bytes": 424223,
+      "sha256": "e5f39858f06a00a6dfad466cb97d9ea0858c14eaa87728177eabced37fa9cb5b"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_046.pt": {
+      "bytes": 424223,
+      "sha256": "97090975727885e2fba8ab700a3af4bf49bff60870be26f0141004fbda4609ce"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_047.pt": {
+      "bytes": 424223,
+      "sha256": "9432c140f32f66e3e5a143d05a917a2a9b715e9a1fad73d11a67bd45b11e371a"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_048.pt": {
+      "bytes": 424223,
+      "sha256": "98e64153e5b40ff8344132a0ce30176bd0a29d530d94cde24091052a135d6cab"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_049.pt": {
+      "bytes": 424223,
+      "sha256": "cd7add3ce0929dce839b56211400711538e167464ace47abc9d02c8cdbabc2c9"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_050.pt": {
+      "bytes": 424223,
+      "sha256": "0ded4ee094c2da68f37f32c8329dd3250e7dc6b74192e5d3fddab3cd2938d372"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_051.pt": {
+      "bytes": 424223,
+      "sha256": "4ee4ee34caf1325cf28067ca890c9b081091eb752758b9deb32ea1342329c358"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_052.pt": {
+      "bytes": 424223,
+      "sha256": "7d00dde8cd29880ffea43adebfe1bba6be9129f14172a1633b4407e55c67a7ea"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_053.pt": {
+      "bytes": 424223,
+      "sha256": "df9327295f8fe3059a279fa801a6f71ced0e37850992995675e62dacd19f86d9"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_054.pt": {
+      "bytes": 424223,
+      "sha256": "c194f5cdbb48ae139e46d673b1166264b51da4d66641cbe103bf9a0d84b066bc"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_055.pt": {
+      "bytes": 424223,
+      "sha256": "e2f271fea91fa014d7348b78bac6bd25411ea2c438c9cad58a8f59c8b1541295"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_056.pt": {
+      "bytes": 424223,
+      "sha256": "a8380140bc6c9f5730a989062fa9625744beb35046bb8323757ba859584d446b"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_057.pt": {
+      "bytes": 424223,
+      "sha256": "104d259986b9011195cd23bee600210aa785fdfdae9d896caba67df1d9d6cd3b"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_058.pt": {
+      "bytes": 424223,
+      "sha256": "d229e9f2f0019fed09cd3e2ce054f6990865a7e8c9faf57f201c0eb7b9bb8bd1"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_059.pt": {
+      "bytes": 424223,
+      "sha256": "dd5652c87678b061e7a6dc346db8a72a165345273b3b132e1398a7990506739d"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner0\\epoch_060.pt": {
+      "bytes": 424223,
+      "sha256": "ab2ec288a30726226e604c74a0e1eabb45d4b7750eba1d88ef3c5c2d6475e314"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_000.pt": {
+      "bytes": 424223,
+      "sha256": "d541a16c2e941f96b8e88020432a6c5e67a93f01a92af1b8f9bc25682cf2bcb6"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_001.pt": {
+      "bytes": 424223,
+      "sha256": "510cb1696f118c096e729b3a615ebe74757afa508582de1eab9965e101ee42b7"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_002.pt": {
+      "bytes": 424223,
+      "sha256": "71b9880e5d4c7342ba98998b749b0c7b6ad64b0fe7f786ae009678b2eb9e4f1f"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_003.pt": {
+      "bytes": 424223,
+      "sha256": "b964e948d6152b391b8840a5a98a902193a1138a877396debbae181abb1c0c1b"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_004.pt": {
+      "bytes": 424223,
+      "sha256": "91ff889fae63cbcf371ed999dde3dd009345ceb0c988d07ee5bd2c61d57ec5f6"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_005.pt": {
+      "bytes": 424223,
+      "sha256": "a8f870db1fb6f4ae7e524b9ce0fdd774e3bd1416005692d815e46272881eb0fe"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_006.pt": {
+      "bytes": 424223,
+      "sha256": "9defc519dd69cca2170e9e527dffe64bd7de558f9b14439330899cd040d2ddef"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_007.pt": {
+      "bytes": 424223,
+      "sha256": "f21031accf30ed816c6eae8840ed65b22dc9b2642ba8692728baaf6ba040a44b"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_008.pt": {
+      "bytes": 424223,
+      "sha256": "a2248e321144c17c492f3e0802be5b2ceb7fda9964d4644e41677d03bc9018f0"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_009.pt": {
+      "bytes": 424223,
+      "sha256": "dddb4f8e8393a4d9029e7851db9082833380ca14474c71087026e3f24361c21f"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_010.pt": {
+      "bytes": 424223,
+      "sha256": "865d95c74fd8ee7f3b743a19fafb9279956531b8cb2b8af7680652890f5591a2"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_011.pt": {
+      "bytes": 424223,
+      "sha256": "f420b3bff6b59d21566b94e81f321df419179844d58a13c0b0b8456fd395a70e"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_012.pt": {
+      "bytes": 424223,
+      "sha256": "6ce325dc89b36de05175fa864711807d12d8c813118364f224cb21e7d4f51bf9"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_013.pt": {
+      "bytes": 424223,
+      "sha256": "9f8157a9276bd1870c33c1683a222d9f755c8e287b103fbd2bcfa4ced69f8cf7"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_014.pt": {
+      "bytes": 424223,
+      "sha256": "e4625e4832b4e1d515e364880c8d9e8f8ab0f163a3eee8249079e584372b2e08"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_015.pt": {
+      "bytes": 424223,
+      "sha256": "6dc64ad733cf196d9799e251c8a6ac1edabafa07a8f541f60149907642022978"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_016.pt": {
+      "bytes": 424223,
+      "sha256": "f82c1ba00c63652fa0a652b0d484ff7ad838a681a7333e37527bcd5187bbc819"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_017.pt": {
+      "bytes": 424223,
+      "sha256": "b2de20d68c234018ab5234a4d73996969e24a24d920e21f07cb52c66315221aa"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_018.pt": {
+      "bytes": 424223,
+      "sha256": "c4e0fc6664d51fbae1625f1d76e4f0172335b26c948627e71b936cd82407c93a"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_019.pt": {
+      "bytes": 424223,
+      "sha256": "96d7da04f2b71064983cf8f3ada6afb5d2182300c75aea92a466e5a8cd91bd71"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_020.pt": {
+      "bytes": 424223,
+      "sha256": "c012ff73e4ad26bd567d67c8c41b7387805f079bc22f96e63e61d6cd3fa2f35a"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_021.pt": {
+      "bytes": 424223,
+      "sha256": "7923e47ec8c0865fcbbb3313f473a9fa120edb9b29dfd72f3c9a91535ba102b9"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_022.pt": {
+      "bytes": 424223,
+      "sha256": "cb761c7d425313a017f33372989fc94c3885136d90d7d89577a9790e9e4c1531"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_023.pt": {
+      "bytes": 424223,
+      "sha256": "0a68051c74ad16e1de073be7eeddad46723dce5207d26ae492d629c0afb267cc"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_024.pt": {
+      "bytes": 424223,
+      "sha256": "9413d9236cd8595f77742b159999dd0f8d363140af59adf5e7d816b65d78820e"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_025.pt": {
+      "bytes": 424223,
+      "sha256": "cc93fa92be1fde2ba0b51b7d3a809fd57906b087bfd96dbd74a7c5c603f177cd"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_026.pt": {
+      "bytes": 424223,
+      "sha256": "828ab0029328bbdc43fb864e86375e922b7397c0867e52077f735381b534d74e"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_027.pt": {
+      "bytes": 424223,
+      "sha256": "deab7f8adbdb33db7199324959266d7b28c9d749fc71b6920bb8e33bd779cd53"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_028.pt": {
+      "bytes": 424223,
+      "sha256": "48c0a1b428ba2af9cd117f334c4f5521d823da9b6f877de7e51352a479af490e"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_029.pt": {
+      "bytes": 424223,
+      "sha256": "8dd83b3d59be61c8a415b8806e3ade97b8772aeda4b08b7481dd7335c864441d"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_030.pt": {
+      "bytes": 424223,
+      "sha256": "fa20a9599a867bd4bebf1bfe9878106aa7c4dc7167e5eb7faf14be47cdd39009"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_031.pt": {
+      "bytes": 424223,
+      "sha256": "e97f226ccd64297d98d1b1f81baf9c31b9099d96e2850aab3634919d66226e66"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_032.pt": {
+      "bytes": 424223,
+      "sha256": "189f35db91c0063d94a737d75ba759e479d3dce76b9e21da30c184593d7b27c9"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_033.pt": {
+      "bytes": 424223,
+      "sha256": "b0dc519e311ae9aaf4518abadd69f05c6cb2394c6c23cad0a936ba3de44c23e3"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_034.pt": {
+      "bytes": 424223,
+      "sha256": "89a28a206863fcf139e7eabcbf461e4dd1cbd6150610c4b8ae70f1979165b555"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_035.pt": {
+      "bytes": 424223,
+      "sha256": "2ac86fee679b50f057bd7322ad428b68babe6f38e706b81ff033cddb6d3fcf6e"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_036.pt": {
+      "bytes": 424223,
+      "sha256": "51e21f9dff454771ab291a1a2bdeea824f2532e047774680667fec443468c7a5"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_037.pt": {
+      "bytes": 424223,
+      "sha256": "14e11979ec7417cacbe91821d5b669253caadc13e2b87270b1ba02383f0c7eb8"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_038.pt": {
+      "bytes": 424223,
+      "sha256": "7d6ec3ef9167199610f668cb258b1af60dba014f7a2af43bac7f2b724403970d"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_039.pt": {
+      "bytes": 424223,
+      "sha256": "4d9aff11dbbc0147165ccf1060b344bf1bca12e7d3d26013651aba744f1db5fd"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_040.pt": {
+      "bytes": 424223,
+      "sha256": "8006fa556a262ac0b5388ffa1336ef95fc2ae0deaba64a7c285fe7a77ad4994a"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_041.pt": {
+      "bytes": 424223,
+      "sha256": "6f0a5e8f90f629611df1e9d2a53e21924168ff9db449e88d96f732a8b6b294a0"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_042.pt": {
+      "bytes": 424223,
+      "sha256": "1423b4b881a9da28215ab524e642aa73c0a73e419d0bf4e82fad9fecd2191955"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_043.pt": {
+      "bytes": 424223,
+      "sha256": "f92385a2e91ebbe47ad73d68120b6208ca46533a8b15f115a86c6d5ac5c3fe00"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_044.pt": {
+      "bytes": 424223,
+      "sha256": "2f9d1ace058943602e706237a7e2e41af5279a30f8e679e458adbed5cfd29b48"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_045.pt": {
+      "bytes": 424223,
+      "sha256": "334b2c9e0b1d876bc709b6a0f56339a3161e4c3024ddddbc151ce760f3278e50"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_046.pt": {
+      "bytes": 424223,
+      "sha256": "a9d40c8b560681604a524e9004e0534f8be56b0ef12658bf2dcc7fb195484593"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_047.pt": {
+      "bytes": 424223,
+      "sha256": "0e6652d69fae938f99ba7662015437257f723c15dcd3dd0d90c58b5a28de7aab"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_048.pt": {
+      "bytes": 424223,
+      "sha256": "ce8470cc0bd3ffddba8ce443d2106e8b7dd8e14b197e9afe75a6c6622d02a1d7"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_049.pt": {
+      "bytes": 424223,
+      "sha256": "7b7623a19dbf8554f499b567519a627f67759e4de03020fb4cae1c46f99d3d56"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_050.pt": {
+      "bytes": 424223,
+      "sha256": "1dffad470ce891f34a4f9da4dcda650b31825661f66dce20a9a16710799170b6"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_051.pt": {
+      "bytes": 424223,
+      "sha256": "bb16d4c162f578eda404b96b24611aba295afd20499f3f34bc9413b4f926a120"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_052.pt": {
+      "bytes": 424223,
+      "sha256": "c9d186016db54a7ddb41e4a39fb96b7482ce0a9d1f6c26aa8ece40424c378228"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_053.pt": {
+      "bytes": 424223,
+      "sha256": "cf0938744ce268b11866fc7d3b06a76471dd9c18b6336bd85570b34fa5264529"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_054.pt": {
+      "bytes": 424223,
+      "sha256": "bd0f84d795d6e5a2627b58e466c7df125f44aeba5c8808d4d5e4c152c1ffa081"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_055.pt": {
+      "bytes": 424223,
+      "sha256": "078c4a9f224b17d5e686aab405af6b02e344b1060ddaec9d35a68a08dc689bd6"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_056.pt": {
+      "bytes": 424223,
+      "sha256": "1085301ccf454f2f5e5f1309676442ef31680c47fbdb2b25c401dc125e34c691"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_057.pt": {
+      "bytes": 424223,
+      "sha256": "b99645a7310282e32057839779b36482004c77d61fe7ebf755625f737460921b"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_058.pt": {
+      "bytes": 424223,
+      "sha256": "b86ea62aa04b349edbcfd14aa2fe67ed0883e18a76dde2a2f3b16788d24c50fc"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_059.pt": {
+      "bytes": 424223,
+      "sha256": "acea7b6474b3ca09dc90208fccf019804ba40cdca2034610d95d33b12bbf5aeb"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold1_cnp_inner1\\epoch_060.pt": {
+      "bytes": 424223,
+      "sha256": "40f942319e7183e7f72ebe3d2e492f03552e829d1333405251b5b027aa26fcfd"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_000.pt": {
+      "bytes": 606171,
+      "sha256": "c8351f59085ad54c3692f3efa7afa2f61b3dc9d10f299435bbdab019a9b86f0f"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_001.pt": {
+      "bytes": 606171,
+      "sha256": "d62f319271e2cb80d9f9cefc6f397ccfe9b9f4eb611cf3da4b0d7c1f5fd06fd7"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_002.pt": {
+      "bytes": 606171,
+      "sha256": "146a63977ee01bfa31f545fb5e5d0ec0bcb2a4abb5f2952f4a634250f6dd9ff0"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_003.pt": {
+      "bytes": 606171,
+      "sha256": "f745c9dfb0603e53cb5c9135cfb761edbf6f7d43c08f76f8be1e9b2ce830af01"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_004.pt": {
+      "bytes": 606171,
+      "sha256": "d088ae5ff434cb08840f3446cfb85b60491e4d8b66fc070d2645f1466ae254ee"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_005.pt": {
+      "bytes": 606171,
+      "sha256": "c7964e4d9781b8e843e4f5db935f942279053587d41cb31d66a50afc09d2b582"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_006.pt": {
+      "bytes": 606171,
+      "sha256": "f0eb96a5b3ca3f00b8fae58cdf1314872d4ca9bf2889734d3e0f9ea7d4d9aee9"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_007.pt": {
+      "bytes": 606171,
+      "sha256": "151a37d4b1b3c7b354b3cf4ee3f78f1173bd269a4b84c7e8fb953ba47c57acb7"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_008.pt": {
+      "bytes": 606171,
+      "sha256": "17362171b68085cb691330a93df2310a64609176ecf8ac99f99021f189551bc1"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_009.pt": {
+      "bytes": 606171,
+      "sha256": "e7f3c27e12751d44f31776d92fa8db8d3e62f419a385a4a0e835a02727865e8d"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_010.pt": {
+      "bytes": 606171,
+      "sha256": "64dc14dec09dce093f37ff29537d90b423e9d963a89bfb36b9df2a4f73f9f50b"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_011.pt": {
+      "bytes": 606171,
+      "sha256": "9dd5a363143ca626f15c2a00c64df8e9aae9c36d3c6c9436ee50b689bc3ebd52"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_012.pt": {
+      "bytes": 606171,
+      "sha256": "617367d86cf4bf7b9bb57c92bafb584d8c0014dbba416b23f1855ea9767b5c4a"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_013.pt": {
+      "bytes": 606171,
+      "sha256": "4a375cb8ddcdbfe6e2dbebd7a448ce9c527a58c8166f2b72f15a6f200c3a0c48"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_014.pt": {
+      "bytes": 606171,
+      "sha256": "c1374ade845113911c54f95a68db244eeebf75a269458e44fd78c4dfcdd27d96"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_015.pt": {
+      "bytes": 606171,
+      "sha256": "797da41d746008552574297241ecc2a6aa1a7d74037644dc6db0a89c9d6809ca"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_016.pt": {
+      "bytes": 606171,
+      "sha256": "e66122fb05f46f41042b28a9ac38f5a7404e0850c398ece7d06f09e75d74674a"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_017.pt": {
+      "bytes": 606171,
+      "sha256": "107af01971ea9749b5b5d57f0cc40352ad3066ee82c59ebae968511aa2a3b313"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_018.pt": {
+      "bytes": 606171,
+      "sha256": "c89a62d4ac3adb95679320d6adab2a3b9488572f8b21f2c9f25300b9609b5862"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_019.pt": {
+      "bytes": 606171,
+      "sha256": "79d1a1e9d1d7277b986635b40d1aabfaf0952bab172df8a3dcff96355aeffc1f"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_020.pt": {
+      "bytes": 606171,
+      "sha256": "968e28b6c1270a6363f2679c646e6f5db73ada45f113e8f8ab0edcdee9847d61"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_021.pt": {
+      "bytes": 606171,
+      "sha256": "c19ff5cb43cb56ad656b9226570caffc2338276e07db642f1f0bbc192a36c0ff"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_022.pt": {
+      "bytes": 606171,
+      "sha256": "e27b6b9036ebb91eb741af406afa1d2a04f56fe7959553f97d11e941e98ab23e"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_023.pt": {
+      "bytes": 606171,
+      "sha256": "9291fc0d1091cbd667f561c2d610f20323ee12b33144f547b2e9fa1198ed5d9c"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_024.pt": {
+      "bytes": 606171,
+      "sha256": "cf9a36a01afa3d0f52b29f7ac5e074ff40b7e3bf76a7e62bdd1a6a916a7f1a7e"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_025.pt": {
+      "bytes": 606171,
+      "sha256": "cf2e86b10e15dd6b504af98317ea171275ab0453887ef78c7b74284ed03a6fd0"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_026.pt": {
+      "bytes": 606171,
+      "sha256": "eced91eda06243ad717611843ffd3fb6f355ad9c1ea2f3c2922e881a1b63f114"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_027.pt": {
+      "bytes": 606171,
+      "sha256": "f6dd1d7b491fc528520b2df702465f961dedf820932d290f72b366b75adb1308"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_028.pt": {
+      "bytes": 606171,
+      "sha256": "4b0535155c980f77da450bf0c39e02b2f77af6bdababea1272f55d6a045aba45"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_029.pt": {
+      "bytes": 606171,
+      "sha256": "bb310323406c3717e8639205f361e2f6af64d588072f93ce448c653067ee9ec0"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_030.pt": {
+      "bytes": 606171,
+      "sha256": "a009c6a55806bd417cf448cc66f4be88806a69ae0bfa950a1dfa8af7d3dc0cc0"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_031.pt": {
+      "bytes": 606171,
+      "sha256": "bac7c647f0891b53b52888f361e059c6acb643984df3245600d1ba39e8877237"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_032.pt": {
+      "bytes": 606171,
+      "sha256": "a4f7d5107c8c234ad78104444f59081c54d894d94f7f13d1603e9f588198a182"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_033.pt": {
+      "bytes": 606171,
+      "sha256": "501adbdccc461c2ab9ed621f3ddb219aa9f451c9e7c381d518d390d2c2467568"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_034.pt": {
+      "bytes": 606171,
+      "sha256": "8c66cbe15c282c5d1b3babcb59a0887786c1cbb63ce4098819871c589e269e17"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_035.pt": {
+      "bytes": 606171,
+      "sha256": "8fbd10a921a54f95d23f0d9202c6f5943858be45af8cbff8ff7f6efef2d837cd"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_036.pt": {
+      "bytes": 606171,
+      "sha256": "88eee4060206d614a0b1adc0ac4930bdb0b343a179660c1aba8fc94269cdc9f2"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_037.pt": {
+      "bytes": 606171,
+      "sha256": "cccf01e679b97bbd49df2c3c157b151d5c589f821f8e0b0a6cc28310f4081d54"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_038.pt": {
+      "bytes": 606171,
+      "sha256": "b0e50af5b9d1a523d623804cf027d7eebbd827ac0f691774ad88a143317e4b42"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_039.pt": {
+      "bytes": 606171,
+      "sha256": "be79a42bdabdeb6388a6c65004229912dd6b7b40fe2a511bf2a7c89fd865899c"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_040.pt": {
+      "bytes": 606171,
+      "sha256": "7400798ff5d3d9c77990ac464175b2e5002ed54b68091c6d79fceaa048c5bd80"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_041.pt": {
+      "bytes": 606171,
+      "sha256": "0afba8375ec1fb1e64590ce087f12a3cff1637ccdf2b76e11fc239e6a22b64a0"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_042.pt": {
+      "bytes": 606171,
+      "sha256": "0ba7f697f213f5767f0cc21466a64c9491ac232631b014595a6dc37ff44d6389"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_043.pt": {
+      "bytes": 606171,
+      "sha256": "d154021370d6999212bb64f88800794881b118322a753b2532d99a94323ebe29"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_044.pt": {
+      "bytes": 606171,
+      "sha256": "077059d9b0ae59cb263174f2821783f8660287347187410f8c34a820f6bfae84"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_045.pt": {
+      "bytes": 606171,
+      "sha256": "1859c5db79a25ca12555de715bd851a58e82ee4c13b331fd6f1b740f6e51b969"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_046.pt": {
+      "bytes": 606171,
+      "sha256": "7448450fed26451435b5e362b90a6ccfd1071e63d026617631a3f5c70dcb6012"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_047.pt": {
+      "bytes": 606171,
+      "sha256": "e1626b3137c4cc72b9ae0bffcfc4db091552955b1f81665b42a5886b31035d83"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_048.pt": {
+      "bytes": 606171,
+      "sha256": "125ee59a55dc5fb5438f141fda0ae72532053def625a21328a08ecb7707b9230"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_049.pt": {
+      "bytes": 606171,
+      "sha256": "dd44579a1efac23a6e18f11a7a46702024189b1b6c50963dbd79142068db2a4c"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_050.pt": {
+      "bytes": 606171,
+      "sha256": "bf92ad28e505416d45b4b2956d8576dfa01409433abae9e3e17368af968aa38e"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_051.pt": {
+      "bytes": 606171,
+      "sha256": "23a99623f0f3acfb7297156aed77f68e4db93968363d2d55e20e25b49799b962"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_052.pt": {
+      "bytes": 606171,
+      "sha256": "620eff39192d934e1d82a7558396ec97c8250993ed44ebc95aecc5e3a5d49e90"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_053.pt": {
+      "bytes": 606171,
+      "sha256": "c852ca91e4b3113eda0a5a5e9ff2eb549801af77a65e7da54bc696ab728a8bab"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_054.pt": {
+      "bytes": 606171,
+      "sha256": "5493cfe3d63f40801922ccd1ff6a03be2be66dd28a1b83d29a10f06d11e1b031"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_055.pt": {
+      "bytes": 606171,
+      "sha256": "105ba1204b791dadf5cddccc89b1477111c78d8e59875501edd8f3b4838e2822"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_056.pt": {
+      "bytes": 606171,
+      "sha256": "1c29ddc59535d92bf9442b68a84219c832d7e0870b827531a8917f6e629421da"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_057.pt": {
+      "bytes": 606171,
+      "sha256": "f04eeeccbbb03f666c1b3fdee40e678a84377d824a1cb3df4080c9e48c271932"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_058.pt": {
+      "bytes": 606171,
+      "sha256": "347e54a6286a21f70a4ef0591873902749eeead9a5393e98f435ade3a2ae8566"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_059.pt": {
+      "bytes": 606171,
+      "sha256": "1f6d024fd5a2593c0b85072821547307ee95e1b2ce987b313d57bf1ff9eef832"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner0\\epoch_060.pt": {
+      "bytes": 606171,
+      "sha256": "59c0158169fabbbf30c233f98a4223022edb9551ea9f76377c7fcf4f4bb9054e"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_000.pt": {
+      "bytes": 606171,
+      "sha256": "92d2f0305827fe422f8f1df4877b689ac678b608464f6e8088d6c5e738635d20"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_001.pt": {
+      "bytes": 606171,
+      "sha256": "b4ed9782019d30036015c341ed50524ae178f0f5f7bdde0a81d9a8540f35606b"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_002.pt": {
+      "bytes": 606171,
+      "sha256": "23455af67ce1c500b931dc9c7ed6287ffef07d1565babe6be5905d089d7b4525"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_003.pt": {
+      "bytes": 606171,
+      "sha256": "25665ec081c29de84c6ed6cae0255ac2d2c4cf91463857e704f2ba13c3968da0"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_004.pt": {
+      "bytes": 606171,
+      "sha256": "bf8f7f4d11f875c74656b887308ed4e897be5b08215743a8b563bd1058b426e8"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_005.pt": {
+      "bytes": 606171,
+      "sha256": "0592fea2b629e253ba4980cff59e5c3e92d575655e619b0e42c6ca11c5d9e52f"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_006.pt": {
+      "bytes": 606171,
+      "sha256": "dc6fd610b14394f0de7b01a002837bd4d47ee35e9794d1a7cf916fadcf1059b0"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_007.pt": {
+      "bytes": 606171,
+      "sha256": "7166c4801879f3712c1dddf3be7ecccece0aab8c2f7b28218d1353f5fa2682ad"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_008.pt": {
+      "bytes": 606171,
+      "sha256": "feb2781e2819f2692a51bf96af8eb068b2ec401766393fb11d6022cf2ac29141"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_009.pt": {
+      "bytes": 606171,
+      "sha256": "81da67870055adb0371ffd7d45b9f86c53b7910df4ef012ff3a4563970959553"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_010.pt": {
+      "bytes": 606171,
+      "sha256": "4360743d26a2b4c64eb294d28bedd286b0f3d3112a0f35e36a946eee09ac246b"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_011.pt": {
+      "bytes": 606171,
+      "sha256": "d18fc2e187a8add3ae828d4a069dbdae8b3957e3eff5e95b147f92ae372ea567"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_012.pt": {
+      "bytes": 606171,
+      "sha256": "d20c6d50d51da38400b085baf286868f3993c59c3d7d7fed977828d8b35d3240"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_013.pt": {
+      "bytes": 606171,
+      "sha256": "75ea1e998dfb14d6c16796d0846441ab29ba87619e226b862cd0d290e688dc26"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_014.pt": {
+      "bytes": 606171,
+      "sha256": "01c30896a1abf2b426db2222161b8f207c78a407a49672d00afdca11b82e0da5"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_015.pt": {
+      "bytes": 606171,
+      "sha256": "f4ef3fab27630d056ba0c19a35e4ea53e21e02fae0e45071f8b2c9d986fb2faa"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_016.pt": {
+      "bytes": 606171,
+      "sha256": "9311ed45388a7855aa8c2d902fdb286ae93c05002247d955df1f9e0d6c1b0792"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_017.pt": {
+      "bytes": 606171,
+      "sha256": "7175848e517f582b00c382c0fbabbac901856d9b5daea14e6fb6ee0f447eb5e4"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_018.pt": {
+      "bytes": 606171,
+      "sha256": "4a1aa3a4a4af8d937fcf8280abad1908332ff025bcc9c71e822ca155e8fa9d1c"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_019.pt": {
+      "bytes": 606171,
+      "sha256": "19a46f4d71f82dcbe7c738adb5fd1782aea66f260d83213c2542e4c8cdcebaf5"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_020.pt": {
+      "bytes": 606171,
+      "sha256": "02afd6038edd903632ca7c2f192787e0b316a371a485b6469c870701edcb0ec2"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_021.pt": {
+      "bytes": 606171,
+      "sha256": "d50f93e13bff684feb4006037d399e028a59f5ec2df55256bc770d617257d6a3"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_022.pt": {
+      "bytes": 606171,
+      "sha256": "ee42801bbfe9d41dec239bac59807cd1f4570806afeea68b415824f18f733854"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_023.pt": {
+      "bytes": 606171,
+      "sha256": "75e106d2ae7c3d54b3c6bd08deddc56b7aff92b9fa265b36c6c25a41ad598b00"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_024.pt": {
+      "bytes": 606171,
+      "sha256": "077baa17121ce012865cf1df5436bda7c91cecf24b2529bf00cf6520e443e6bc"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_025.pt": {
+      "bytes": 606171,
+      "sha256": "8b848c442888bd632edec284a4add7ec773775a881a9bd4d57a08ad7e48c27fd"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_026.pt": {
+      "bytes": 606171,
+      "sha256": "143408a40d2d608b94e9c9df6ea8c3d9d715d6aa68efdea98d0db63f3e19dd6f"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_027.pt": {
+      "bytes": 606171,
+      "sha256": "29d20a34533de9fb11ad30e65b20144a4a9ac5f7a9690be382b0b18acc5ba291"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_028.pt": {
+      "bytes": 606171,
+      "sha256": "7f71eb33c3b700a29103ccadc600f73a6a156031c20e2449d5ecb1a0303d064f"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_029.pt": {
+      "bytes": 606171,
+      "sha256": "8cd884aef599a12aace77efd71be0b53362bae0ffedda9154500ca30864eba22"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_030.pt": {
+      "bytes": 606171,
+      "sha256": "c9f56e0697fe117b560233dfef4e94d09b59bfd1501a9aebe6a03622e6fb8448"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_031.pt": {
+      "bytes": 606171,
+      "sha256": "ba22339ba4d404d749460015ad8944f0f0f7ae630ceedafa55ef76924a3aebfe"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_032.pt": {
+      "bytes": 606171,
+      "sha256": "28e4227785168840330b3418446398248072263db20fcd4f73d01bbc5b1585a1"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_033.pt": {
+      "bytes": 606171,
+      "sha256": "ccd420452f21b7aca4d63614b4a2d27ad9c358138e34d73f17d61f7deff73cb7"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_034.pt": {
+      "bytes": 606171,
+      "sha256": "d13fce0d25e20cbc5ad5b14d433707c836594c65da7966c39f0ef28fb525c0dd"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_035.pt": {
+      "bytes": 606171,
+      "sha256": "eb4c4f9f2211c293e58cf0b17ae5b63573653883cb45c773d38485e960f11ef5"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_036.pt": {
+      "bytes": 606171,
+      "sha256": "3662f1ab5d283faa2ecb02f197c78fc6cbee0b6fb8bd91b9b350bd4848174b21"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_037.pt": {
+      "bytes": 606171,
+      "sha256": "af1272d8a80dd130bc60cbe11a32ae47d5867be79719a437b756feea3c551fdf"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_038.pt": {
+      "bytes": 606171,
+      "sha256": "3f0aed63fe619b57e3a5587d244fd8720326ba126f8c2b92783fc44a79673f87"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_039.pt": {
+      "bytes": 606171,
+      "sha256": "35ec815285ab59c2146471ca014c258f885ade16f85511e3a7dd2f41f96e9a4b"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_040.pt": {
+      "bytes": 606171,
+      "sha256": "0feedac82a627eaec590988e5bab0b0494b8567c3c36dbb930caffc4339f6945"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_041.pt": {
+      "bytes": 606171,
+      "sha256": "1f63f666fb2c329d6eff98ce920bef664c988f810b34be6b4fe94b24e01749da"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_042.pt": {
+      "bytes": 606171,
+      "sha256": "3fec632b992a22421f5d1d302d839f6675c4e9eb68205424f60b7585fd46dca2"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_043.pt": {
+      "bytes": 606171,
+      "sha256": "b1a5dd2f34ac2d77490852658b533b9a012da8f9de3a90a2f10d4a94affa6d48"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_044.pt": {
+      "bytes": 606171,
+      "sha256": "b61ec8f13a1d5348e9b611a8a71ec7c7b7bdd5df409165193299698932fa5f2d"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_045.pt": {
+      "bytes": 606171,
+      "sha256": "f8e34729ee601328b091e3d6e75ecbad74cdbecd53892942d51ebf895221478f"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_046.pt": {
+      "bytes": 606171,
+      "sha256": "805c06385757ca0c3441bf9fd52bd9efce814f003704f2589a76abe4fdd23dc7"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_047.pt": {
+      "bytes": 606171,
+      "sha256": "0c22d350e839471dfbd7543a151323011f2711a01d88c383b87e2e5f44adaf27"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_048.pt": {
+      "bytes": 606171,
+      "sha256": "ea074ada4040e387729c241f019fc01d0d09203344d772d986f4214480a5a55e"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_049.pt": {
+      "bytes": 606171,
+      "sha256": "f83af6ca6c2b3136b721eaad64fda03fc6b13f2cd95be6f53c48951f7985cd48"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_050.pt": {
+      "bytes": 606171,
+      "sha256": "830af6b47b0bbc5463308c369f4ff81b6856d272d219e576475e8707e1f86bd6"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_051.pt": {
+      "bytes": 606171,
+      "sha256": "c60ccd39dd764f4d7982a9c5ada7e0a5e6838e9f484f3220ff5ee04f53e9e684"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_052.pt": {
+      "bytes": 606171,
+      "sha256": "7eb6f95d04514f5339d3d73b3eaf62f8cfd57861c3a5df3f5358def5bef33285"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_053.pt": {
+      "bytes": 606171,
+      "sha256": "78989ede26541644a04195cecbf6dedee1fd0c60852b5e676845a0ca07662725"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_054.pt": {
+      "bytes": 606171,
+      "sha256": "9e140a68547ba90e8e2ffcc3b34b06f7ecb925328e7a650e119b2f577ddf9093"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_055.pt": {
+      "bytes": 606171,
+      "sha256": "177937d5a462da25df3796fb151da2908f6a8d70ee18468fd7b337386f0a3b65"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_056.pt": {
+      "bytes": 606171,
+      "sha256": "75a2414a786dadef0251d41ffca3cf121e57ff0497a737dc070c263059ca4821"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_057.pt": {
+      "bytes": 606171,
+      "sha256": "1d594f7ba24819eaee16f61b6f23a3964e50a34e611f2bde56fa23a785278831"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_058.pt": {
+      "bytes": 606171,
+      "sha256": "b3775c3cd63fdf41c3737fd46a3aa87ba8f4d82fb99524f93a7f965445aae764"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_059.pt": {
+      "bytes": 606171,
+      "sha256": "7ed2ce638e0e8f98ec21b1dab38c63be5e1e45117abd5d1aaace40f4d24d80f5"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_attentive_cnp_inner1\\epoch_060.pt": {
+      "bytes": 606171,
+      "sha256": "24794d4f51da6862dbd644806b4cb730e4bc104bccfcf2ccda8baca24010b22c"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_000.pt": {
+      "bytes": 424223,
+      "sha256": "68c5731c665f0a8abb799f30238e4c9f952c28059d8f9d02ddb3c3cbaaa5ea9d"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_001.pt": {
+      "bytes": 424223,
+      "sha256": "32ac5622824bea8e5e735523626561541f23c27d524e920df8293969197266ad"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_002.pt": {
+      "bytes": 424223,
+      "sha256": "d749fbfd45026a441e402562fba079ed13019e1d456b1eaf05dd9958c9195fc2"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_003.pt": {
+      "bytes": 424223,
+      "sha256": "b732a7f34ebe9b470787b05fd74075d255a1ebd1d7775fef2de9fa2f01475549"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_004.pt": {
+      "bytes": 424223,
+      "sha256": "40b8098191d01569518951c73cda6c52596f787cd7524d4f5ff6940520ccbc53"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_005.pt": {
+      "bytes": 424223,
+      "sha256": "3bbe999fb472f1136d886eacffb51fa4b2ad8c23763d9740ee9cdea49a630348"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_006.pt": {
+      "bytes": 424223,
+      "sha256": "1d942e4294147ba2ae43bbf428382f9813f77df7e88a974016f42479deee7f89"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_007.pt": {
+      "bytes": 424223,
+      "sha256": "23abdc01ebabe9d31e6a7a31e25c192bfcea9b62603640e029c088ff72d9c7f7"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_008.pt": {
+      "bytes": 424223,
+      "sha256": "c01300aa1393fc4ea3ae202f0de3ad3cf77f6570cfbba7be2c2a6bc2e9d2c1a2"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_009.pt": {
+      "bytes": 424223,
+      "sha256": "e045a5165f866f628b03ea8822e9f3d8b6fe01c90c1dd78a9f4f9f0636a1baeb"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_010.pt": {
+      "bytes": 424223,
+      "sha256": "4e3fea1a95c1d98c93df89c01fa4f8e4f767bbaa3c42b4c72967971cf439538c"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_011.pt": {
+      "bytes": 424223,
+      "sha256": "7ab755de8a5892312bf93a11d4b833da2f3541deb8cabc6e78fe559f67e24d16"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_012.pt": {
+      "bytes": 424223,
+      "sha256": "40cd9d73be4a743b352f6e11c80ff9274370d5296a8c12c153cfd3ee523a4551"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_013.pt": {
+      "bytes": 424223,
+      "sha256": "a6e33d1094ddb6146bccd461677854232435354b87ff8c501fe2f850befe3bf6"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_014.pt": {
+      "bytes": 424223,
+      "sha256": "bad27537b0553eb0df69b892014476c3c7ac269cda8e7a1bc0b121cd5ea30e41"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_015.pt": {
+      "bytes": 424223,
+      "sha256": "17c27d2a7625e841ef30c03362a1865ce0703e10f904d6cf50d97003760f9d4a"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_016.pt": {
+      "bytes": 424223,
+      "sha256": "edf82b6e8801a8176ce342e7e60d611e588d1ed9493ed89c039e61b7b8657259"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_017.pt": {
+      "bytes": 424223,
+      "sha256": "2a4d2748781f45cb9b56e958956c75a8d0e117c125c8124e24b404e7a8a3ae52"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_018.pt": {
+      "bytes": 424223,
+      "sha256": "c8264e3b1c4a1176d2aa086513201645d639f6a7738295cf8978d40a1804d6bb"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_019.pt": {
+      "bytes": 424223,
+      "sha256": "a1974ed68a39ffd06d0d895378f42ebf09a4c0785039dbd3bd31a77c0ecbef3d"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_020.pt": {
+      "bytes": 424223,
+      "sha256": "5fd5b2e0c7748f75833317168c3b3cd439885c09b589c64af960715533af0068"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_021.pt": {
+      "bytes": 424223,
+      "sha256": "5cba67ff124e29d5b3bd750af3fdf2c799cd93a12464ff97a119aa5f8d92373e"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_022.pt": {
+      "bytes": 424223,
+      "sha256": "05f89f0f591bfb4b3c3de6846ac37f5271f62cc135a2eb35dfc86ce8e5187dd7"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_023.pt": {
+      "bytes": 424223,
+      "sha256": "76189e6b2902440b720d75b7a0feba02dae5ebe208368b5459464bc642c252e7"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_024.pt": {
+      "bytes": 424223,
+      "sha256": "85697e771a1d077e024d67ff344282e83530a543df5b9dd884c33e6491601b00"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_025.pt": {
+      "bytes": 424223,
+      "sha256": "c6370c7c423f6a5da2c1a3681ab9b282d1eb09069ff06225745700d48947b6bf"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_026.pt": {
+      "bytes": 424223,
+      "sha256": "e4707b838e9f1bc0b7387d84310dd263e5430d8a43e02dccea59d9fd156dcfe4"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_027.pt": {
+      "bytes": 424223,
+      "sha256": "c06be7a4fbb92b509c1882572f68db82c25d76c98cadcd2866e7f8c40fcf1841"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_028.pt": {
+      "bytes": 424223,
+      "sha256": "4599e997d570ae0483d006827ab7d076dcd62b55fbef4315b366e22bb73e2a31"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_029.pt": {
+      "bytes": 424223,
+      "sha256": "1499bf0923b138e3e7021a33ca10258c1f387d6669a8bba6a7072a6e2a548986"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_030.pt": {
+      "bytes": 424223,
+      "sha256": "b3da64e8f1a62d6cfe2bdf8c28032c00e0caeb6ea6e40dcb789aa8c33ff31815"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_031.pt": {
+      "bytes": 424223,
+      "sha256": "32263f5beacf767c47a8fbeca2bc3dff23ea78ccbb65d532354d3f6a549d0aa2"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_032.pt": {
+      "bytes": 424223,
+      "sha256": "aa5240bb7706f07101b56733498f89d971de64bcbe1c84043fcdb93317a782a5"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_033.pt": {
+      "bytes": 424223,
+      "sha256": "8d8df224dc14b52846d40170944b010e047e29abb0893ccfd12f61eadbae7097"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_034.pt": {
+      "bytes": 424223,
+      "sha256": "076dc9abb58c9db08c0d404b2ea68c946e7156965c94216f70463734902661ac"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_035.pt": {
+      "bytes": 424223,
+      "sha256": "b4cd5778781ecfa61d6bfd8211357abfa17642c337892bdfbfdbdfd4624d7225"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_036.pt": {
+      "bytes": 424223,
+      "sha256": "bc21da00fb407d888667ae21c3ae2ef25b72b1f13a5960a38632025c5031d0d0"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_037.pt": {
+      "bytes": 424223,
+      "sha256": "a5107341d5d4acd96a33b6788f0064898bc484fe0f201c2695c4ece5537ce073"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_038.pt": {
+      "bytes": 424223,
+      "sha256": "34476ffac4d92e10608deb2e8a4e28a061d42cf908f45aade561250ded2231ec"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_039.pt": {
+      "bytes": 424223,
+      "sha256": "0f702f21dbc4eff4c7713ea3ee132f43d285a9725e7f28284ac2ee3a807523dd"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_040.pt": {
+      "bytes": 424223,
+      "sha256": "68613b27e00064a8e39a065346e3debaeaa52cedb926baaaa921bb9c4de7c2d5"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_041.pt": {
+      "bytes": 424223,
+      "sha256": "84bb9ecaf520389ed82d8c258796decc120a926ddcbf5748caceb5b25ba50d42"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_042.pt": {
+      "bytes": 424223,
+      "sha256": "0316617a77a8a106b85db3d33bac8979a5669b7ce2bea6aa76476c8f25c2d137"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_043.pt": {
+      "bytes": 424223,
+      "sha256": "dc22ea1060116fcd7bc8052077ba7a526b5b5a964e07b1b56ce7c451d45bb3a1"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_044.pt": {
+      "bytes": 424223,
+      "sha256": "a5961a4441ccf79e5fde8fe48a5a1bf73f04eb2f5b33d722c98cd47bf94a7eaf"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_045.pt": {
+      "bytes": 424223,
+      "sha256": "9853ffb71d504a0c39532ef2f235d963aefd80a44273ad03a0699a327d3d47c1"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_046.pt": {
+      "bytes": 424223,
+      "sha256": "1806f2a0121e84a93359f3ff5eb7ad63286893f0a7b97af26778210ec644cde5"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_047.pt": {
+      "bytes": 424223,
+      "sha256": "ad08921c5db31796f699f3456aaabce80b9b2d6146d6491d1155c32ee7f18ec6"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_048.pt": {
+      "bytes": 424223,
+      "sha256": "9239bf1e5355f61ce9c435589c90359e1532d8b28e5a52c17aeb8fa42e5ce38a"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_049.pt": {
+      "bytes": 424223,
+      "sha256": "f0858c40089bf81da46b1c0bd2b04373833dc8a45b13793faf89fadf85178e4b"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_050.pt": {
+      "bytes": 424223,
+      "sha256": "b4110ee089a97ee0a2e525adf848ec86e2647ffac3e924032f2eb6c11698b07e"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_051.pt": {
+      "bytes": 424223,
+      "sha256": "aac40076962b4a6a9026d834d3d5cf6f2561aa37d72a779f9b04bf8b8c34d84b"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_052.pt": {
+      "bytes": 424223,
+      "sha256": "4db75ff1305982a673b42a778e5bc570bda56ec56a079d942d0a172ac0396ec7"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_053.pt": {
+      "bytes": 424223,
+      "sha256": "f6d671797815fd0af16dd901488cc77e3347cf7d77499bc85aae0d126132a81b"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_054.pt": {
+      "bytes": 424223,
+      "sha256": "5a787ba805caf674749c3a71b84767c946487fd0dc3c934ae1d46bce7601909a"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_055.pt": {
+      "bytes": 424223,
+      "sha256": "9dc9ab125032aaa1dbd4b10b19d6591da33a0d77b6e1761b6ca6249841b1a677"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_056.pt": {
+      "bytes": 424223,
+      "sha256": "7aff8ef8e7fd91af35429b0456cd71796e97924dfbd2ba971c1aaab27b0de779"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_057.pt": {
+      "bytes": 424223,
+      "sha256": "e1850e34eadebaf5d28e8f86cb6a1a9b24aa25040e75dd0a061d774627d94a37"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_058.pt": {
+      "bytes": 424223,
+      "sha256": "98fe21e74d64c3f36f8766d0fcce5e4cc25e0478cd9194263d84f0e0e78b73ff"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_059.pt": {
+      "bytes": 424223,
+      "sha256": "d7a5e8fb2e98f9c64a8f150999f3777d238aef7505b47e6df7b1653b17ae6259"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner0\\epoch_060.pt": {
+      "bytes": 424223,
+      "sha256": "9c33a0043ac00942a89cdfe04a056e5f5fcd46f1f4cc209453c0868680dc8762"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_000.pt": {
+      "bytes": 424223,
+      "sha256": "ccd04f64912a9b35ef53c63feb4123ceae51ce00c751614a0145cda892177ff9"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_001.pt": {
+      "bytes": 424223,
+      "sha256": "6733aa106aab6789082b7db4e6c3a3293993eeceae347aa7fc7a5a41388e660b"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_002.pt": {
+      "bytes": 424223,
+      "sha256": "f24eb4d23eecad672673a40f8f12f52d863029101e8c5d606f05e7b4e1593638"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_003.pt": {
+      "bytes": 424223,
+      "sha256": "1ab262bd85456e81a51eab09f6fa17c9db19802d320b920e8f432a18232b143a"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_004.pt": {
+      "bytes": 424223,
+      "sha256": "544579ae015862a0a4e3277a844b090a5f4f55cc548f9e417aebb8714a54c317"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_005.pt": {
+      "bytes": 424223,
+      "sha256": "9b297a9337007f3e98fc508dde8b2dc800e3c98aacda00797e575a20d0fd2e1f"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_006.pt": {
+      "bytes": 424223,
+      "sha256": "f0509e0ff943a2c06b82c44f32af499d6b7c005f48d46c56ed0837f142947907"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_007.pt": {
+      "bytes": 424223,
+      "sha256": "d91d5ae244bc5f6e9cf4647d8ce813d8273b31e390ca76dfee42099a8ae04fb2"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_008.pt": {
+      "bytes": 424223,
+      "sha256": "a9846087abdc3e69f6d6145dcfb48d6a7282444feed47d4a985cb557149e6e51"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_009.pt": {
+      "bytes": 424223,
+      "sha256": "290251cc7279a52682d0d5432c1663e2af421d35cc1de8e3ce8db1a62de9ac73"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_010.pt": {
+      "bytes": 424223,
+      "sha256": "582ef0c557b1178ea9754289bcd639bc02a48ad71b2c883c87c42b6035d3b16a"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_011.pt": {
+      "bytes": 424223,
+      "sha256": "8c3f6d9f8770d5204904f949428576b4d5114e770b3e07b3f85eeff493e3c979"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_012.pt": {
+      "bytes": 424223,
+      "sha256": "b3a8c3f1211bc90b8318d01ad83fbee170d372a8a03467170d75f065f25fee74"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_013.pt": {
+      "bytes": 424223,
+      "sha256": "9865065a30f0450ee003ab12f51aa2ee9f9c44a2e8ca2e6f7785409e8b0ae6c2"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_014.pt": {
+      "bytes": 424223,
+      "sha256": "caf10d162e5c8d73a1afa98175ffd6640c0fbdb03fa6b9b84b069fcffef4fb6e"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_015.pt": {
+      "bytes": 424223,
+      "sha256": "d6061c9f125e2e373ed9b6a0279bca726b6d1c2da183fbebfbb3d86f0ee31bb8"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_016.pt": {
+      "bytes": 424223,
+      "sha256": "ce6ff9b0198573cb05c26bfcb792c46841f0c105ec6def0648099ac375458ca1"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_017.pt": {
+      "bytes": 424223,
+      "sha256": "dcdb9a3821323afb7e9959ab67783a2a4d014eba0db1974a5d27e81570d73803"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_018.pt": {
+      "bytes": 424223,
+      "sha256": "73cfaaa19786420a016aa421e768887279c2035f0b6608b9f72f910f5ee1f469"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_019.pt": {
+      "bytes": 424223,
+      "sha256": "cd28acdc2b804b9b4ac9e8ec3150fe3a926185bd81841bf78d959593c6b9a586"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_020.pt": {
+      "bytes": 424223,
+      "sha256": "26d026d305d6dfa4a2473481bf7aab97ed3c9dc6eb2bb49322a99cc89997ab36"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_021.pt": {
+      "bytes": 424223,
+      "sha256": "a983b703607eb992b4ffb72681e1c7ea6e6c7fc0c482f56b34f5d02a6e173ee9"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_022.pt": {
+      "bytes": 424223,
+      "sha256": "760b7199d66502939d7a2da899f25512bc08a5bcec8318ed07bb39de036315d4"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_023.pt": {
+      "bytes": 424223,
+      "sha256": "76370bb08bcd6ebb114a1c4669940c25a0ff52cccb5c8475374da7acb8e08a7a"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_024.pt": {
+      "bytes": 424223,
+      "sha256": "57b89f6adbaea1df4451c71551f15ea4c68f9f2a695c320ef263dffadfbc42e6"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_025.pt": {
+      "bytes": 424223,
+      "sha256": "e284758dad701c32534813d87048ef011db3a748599aa0256d25878919385dd8"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_026.pt": {
+      "bytes": 424223,
+      "sha256": "3fa72fcf050e8eff03d29c74926481d869881765e9f168d36d56e470cdb2e11e"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_027.pt": {
+      "bytes": 424223,
+      "sha256": "05757f4443dbdedbfbbe76b5236f75945c88a56bcb945e0a27be589e7b81de5a"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_028.pt": {
+      "bytes": 424223,
+      "sha256": "7889a5aaa931db8032aef4e9381339811364b5c8e1b20cc4b04ca799a942da2e"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_029.pt": {
+      "bytes": 424223,
+      "sha256": "efc45c9ff42f4c6b2e661cb59ed8fa0dfc4e863bb35cab49ed51c8e931e7ba7e"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_030.pt": {
+      "bytes": 424223,
+      "sha256": "c23789890033f77277944db845698e24ee5e4f9497305cf8f892a7d0dea4404e"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_031.pt": {
+      "bytes": 424223,
+      "sha256": "2a7818228985d34204ed5dad8a69faad334e0a1a485702fe0783e17c271d27ee"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_032.pt": {
+      "bytes": 424223,
+      "sha256": "d01a0b099f2fb13d3336d21f07538898819bbf35161c971e46109b9572348af8"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_033.pt": {
+      "bytes": 424223,
+      "sha256": "32dac978a529c0eb4d4342b3003f67ecf261eaa33736c034bae631b07f21deb3"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_034.pt": {
+      "bytes": 424223,
+      "sha256": "ea92674fdacc8b720d2c2cce6dbb8b1b21b33806c4c4011e1f6368fb6794edb1"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_035.pt": {
+      "bytes": 424223,
+      "sha256": "c82c38a0994c75d616205874512c98547f9ecf6c833248d970db1808f0e3a806"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_036.pt": {
+      "bytes": 424223,
+      "sha256": "31313ff37bf2e23eb00916d4365072a2114061428a5a43c6d0563bdc30a18066"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_037.pt": {
+      "bytes": 424223,
+      "sha256": "692b2577ff4ce33edaf07d6aa529821093f23ec9520edb8888b3196185e3a600"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_038.pt": {
+      "bytes": 424223,
+      "sha256": "2f12a02b0d5940a0990cf80ebee51d4e2c9ac7ce1a9c74ace88f1e21d8aaa779"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_039.pt": {
+      "bytes": 424223,
+      "sha256": "b9882713a74f73889d3d78844442a954c0d96ce0699dcfb8521abb3193e0c07b"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_040.pt": {
+      "bytes": 424223,
+      "sha256": "4ae81fec5a14cfa03a7757ecd57eaa2efd3177f85d237704690a5d1816c62100"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_041.pt": {
+      "bytes": 424223,
+      "sha256": "bfca528a7c78e2c8c281621bcf3990b94b946fe547a81ded718f61bae98342c4"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_042.pt": {
+      "bytes": 424223,
+      "sha256": "5ec449a4312f758a6659a42cbe7a9db77fbb6f8dc4ff2faa7a8f877cbde72352"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_043.pt": {
+      "bytes": 424223,
+      "sha256": "2fb754ebd74212780665f1cd2c4950892c8ec03117d460b364c28f5ce7e92d37"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_044.pt": {
+      "bytes": 424223,
+      "sha256": "3c1cc7ff6cfd834b5389d5b570050ada527180eaca08d1d24d6e9af2e2265179"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_045.pt": {
+      "bytes": 424223,
+      "sha256": "d63a42c2308e730d83bdfce07860e6cd520a828a147b93e069f24c15b853f9d2"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_046.pt": {
+      "bytes": 424223,
+      "sha256": "b5cb444f39347b11c67ee8aa2841a0a1d33c2dafa9f291f888248c802d234a41"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_047.pt": {
+      "bytes": 424223,
+      "sha256": "e8c2cc36313f99ea020dfff9c0324a52133b815ca7011625fee516b2fa87de46"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_048.pt": {
+      "bytes": 424223,
+      "sha256": "edaa385136acdeafd8f915a746cc5cce7700071a4c17177c62d3b3bee60582e5"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_049.pt": {
+      "bytes": 424223,
+      "sha256": "29b27d8da8b3639851ae5d585158b90b0f730f56486f7b5c19185077b5e20217"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_050.pt": {
+      "bytes": 424223,
+      "sha256": "3404f6ae75ab844f521ed5a95040e3f99a9b89dd0e61a7aa37b0b20c152ee8c8"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_051.pt": {
+      "bytes": 424223,
+      "sha256": "d28ae57228ca9eea30d9d6dbb3517623399a359f8647d3fcbb85373ec5805353"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_052.pt": {
+      "bytes": 424223,
+      "sha256": "da958408037bf5a9281a1f6c6371fadd4a4d91a1fe0136e2cfd89f334629f5f8"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_053.pt": {
+      "bytes": 424223,
+      "sha256": "b60e45f93e8455460145c3916b9034f4bb8b277a0658750cadef9e8b941f9801"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_054.pt": {
+      "bytes": 424223,
+      "sha256": "d70a9392e82620a8722fb3c57115153eadc14b13d46ed6a3946ec2fffd8efeaa"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_055.pt": {
+      "bytes": 424223,
+      "sha256": "ea75fd9d5b65bbba7a6dade95a7153539a57974e3318255fce5b4081db571c31"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_056.pt": {
+      "bytes": 424223,
+      "sha256": "db9d990d0b64691e21131e66a6520f3c486aee08e220084b79f0c4a5eccc6145"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_057.pt": {
+      "bytes": 424223,
+      "sha256": "f0ca8567c6e6c29c95eedde39335075e381f427612b5be1e30a77399765c2e29"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_058.pt": {
+      "bytes": 424223,
+      "sha256": "9b6d579f5cfeead8c944b46d78f04f7bf804628a759da4dc62f900e44aac1424"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_059.pt": {
+      "bytes": 424223,
+      "sha256": "c277fbd636a43873bbd7958f877822158bbb7e81d59e0d6f2fd70f42682ff443"
+    },
+    "paiec_baseline\\runs\\research_loop\\R51\\fold2_cnp_inner1\\epoch_060.pt": {
+      "bytes": 424223,
+      "sha256": "e15d491cc155c7bf3ee726e660924af7556519fa5fc9c3ef3234a7513a08e081"
+    },
+    "paiec_baseline\\runs\\research_loop\\R52\\fold0_irt_calibration_inner0\\final.pt": {
+      "bytes": 14135,
+      "sha256": "146843f8acf8b87ea176cfecc0792098f3b074be40883edeb789e35460a04f19"
+    },
+    "paiec_baseline\\runs\\research_loop\\R52\\fold0_irt_calibration_inner0\\nuisance_abilities.pt": {
+      "bytes": 169654,
+      "sha256": "d3632a41a9274197ed6b8a58014e37cd8aa34fdc78dddb8a4526ff173bb56ab2"
+    },
+    "paiec_baseline\\runs\\research_loop\\R52\\fold0_irt_calibration_inner0\\zero_subject_prior.pt": {
+      "bytes": 14624,
+      "sha256": "2f26b6a088d57dd85265de1baba88dc10c74e959bdef6f3d7c727a7acb578976"
+    },
+    "paiec_baseline\\runs\\research_loop\\R52\\fold0_irt_calibration_inner1\\final.pt": {
+      "bytes": 14135,
+      "sha256": "2a6288842d64724ab91223112036979774d3e0f92c2e4056e78b97f81e939977"
+    },
+    "paiec_baseline\\runs\\research_loop\\R52\\fold0_irt_calibration_inner1\\nuisance_abilities.pt": {
+      "bytes": 181622,
+      "sha256": "52f25746124aa025f87736996cd38e36cd2c3d6da0853c43202e158d17f6f06d"
+    },
+    "paiec_baseline\\runs\\research_loop\\R52\\fold0_irt_calibration_inner1\\zero_subject_prior.pt": {
+      "bytes": 14624,
+      "sha256": "6994c15959cc9fff4bc9bc278c2a742463fbfd97e62df9bafcdbcbd77124eb0f"
+    },
+    "paiec_baseline\\runs\\research_loop\\R52\\fold1_irt_calibration_inner0\\final.pt": {
+      "bytes": 14007,
+      "sha256": "6481b903ced6e60bf58e5e402e2b8ccf43ecb904c5ecd713f077cf096b3612c1"
+    },
+    "paiec_baseline\\runs\\research_loop\\R52\\fold1_irt_calibration_inner0\\nuisance_abilities.pt": {
+      "bytes": 127606,
+      "sha256": "2345177ed30992387f066ee91ff6ee973c66553a1f4b4634521a91530fc875df"
+    },
+    "paiec_baseline\\runs\\research_loop\\R52\\fold1_irt_calibration_inner0\\zero_subject_prior.pt": {
+      "bytes": 14496,
+      "sha256": "5096f46be08662f74700bff97f6cb6d07767a33ad98287d5f918f81726353c7e"
+    },
+    "paiec_baseline\\runs\\research_loop\\R52\\fold1_irt_calibration_inner1\\final.pt": {
+      "bytes": 14007,
+      "sha256": "9f2b4be54ac7283c7e75902c297a3b7bf504c76ee26dac79a7051d4936dba854"
+    },
+    "paiec_baseline\\runs\\research_loop\\R52\\fold1_irt_calibration_inner1\\nuisance_abilities.pt": {
+      "bytes": 176822,
+      "sha256": "bee7764a96980e7ce48c8a59b19cd7a7254ffedecd7d1b0445f3de1bec315588"
+    },
+    "paiec_baseline\\runs\\research_loop\\R52\\fold1_irt_calibration_inner1\\zero_subject_prior.pt": {
+      "bytes": 14496,
+      "sha256": "caea5ad3c665b3cac2de01b3840ba87beff70c485b545aba9fb32b031dbc9423"
+    },
+    "paiec_baseline\\runs\\research_loop\\R52\\fold2_irt_calibration_inner0\\final.pt": {
+      "bytes": 14007,
+      "sha256": "b4d58c82024458d695bd93a42f945d6e100970ae0bda947c7f90ccde35ddeb11"
+    },
+    "paiec_baseline\\runs\\research_loop\\R52\\fold2_irt_calibration_inner0\\nuisance_abilities.pt": {
+      "bytes": 126454,
+      "sha256": "67f8cdff7fedd8b5237bda48e338ef6c09caebdd8a4e6cd745b34cd9ba38e98b"
+    },
+    "paiec_baseline\\runs\\research_loop\\R52\\fold2_irt_calibration_inner0\\zero_subject_prior.pt": {
+      "bytes": 14496,
+      "sha256": "a146c28614ee384ea99315662a20aaf33d4a1b7d62b62e46ea7df3850abbd2f5"
+    },
+    "paiec_baseline\\runs\\research_loop\\R52\\fold2_irt_calibration_inner1\\final.pt": {
+      "bytes": 14007,
+      "sha256": "bd7f9a92f8c2686460ddf761acdce4f90680e22aba2b374476732e47236b0bfe"
+    },
+    "paiec_baseline\\runs\\research_loop\\R52\\fold2_irt_calibration_inner1\\nuisance_abilities.pt": {
+      "bytes": 132406,
+      "sha256": "66d03e16ec1c21d45454129c4bdf6e8c15c141cba5d50d1c6b4844eda157b098"
+    },
+    "paiec_baseline\\runs\\research_loop\\R52\\fold2_irt_calibration_inner1\\zero_subject_prior.pt": {
+      "bytes": 14496,
+      "sha256": "1b08cc15e9ff8d470a8cbf8c5012a5e0ace77ecc145aeefa342676fb7ffbc4ec"
+    }
+  },
+  "data_revision": "54074453da7b9911be0f48e4c560be547bc84d21",
+  "embedding_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41"
+}

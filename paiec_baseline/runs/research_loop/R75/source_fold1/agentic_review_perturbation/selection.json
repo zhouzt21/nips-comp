@@ -1,0 +1,26 @@
+{
+  "source_fold": 1,
+  "source_benchmark": "agentic_review_perturbation/formatted_tables",
+  "subjects": [
+    "b26ad99ab26b5b8f",
+    "dde2a8f482339761",
+    "a6934833d7795a4c"
+  ],
+  "cohorts": {
+    "dde2a8f482339761": [
+      "b26ad99ab26b5b8f",
+      "a6934833d7795a4c"
+    ],
+    "b26ad99ab26b5b8f": [
+      "dde2a8f482339761",
+      "a6934833d7795a4c"
+    ],
+    "a6934833d7795a4c": [
+      "b26ad99ab26b5b8f",
+      "dde2a8f482339761"
+    ]
+  },
+  "ridge_r25": 4.0,
+  "ridge_r36_original": 4.0,
+  "query_labels_used_for_selection": false
+}

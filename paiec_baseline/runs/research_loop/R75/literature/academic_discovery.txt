@@ -1,0 +1,80 @@
+## academic Domain Capabilities (5 available)
+
+### academic.biomedical
+Biomedical and clinical literature search covering MEDLINE journals with MeSH terms and PMC full-text links
+
+**Parameters:**
+- `field`: Query field restriction. Values: `tiab` (title+abstract, default), `title` (title only), `author` (author), `journal` (journal), `mesh` (MeSH terms), `all` (all fields). Used to control PubMed field tags during query rewriting, avoiding ambiguity from automatic MeSH expansion.
+- `has_pdf`: Whether to return only publications with PDF full text.
+- `open_access`: Whether to return only open access publications.
+- `sort`: Sort order. Values: `relevance` (default, PubMed Best Match), `date` (newest first), `pub_date` (publication date), `author` (author surname), `journal` (journal name), `cited` (by citation count).
+- `source`: Data sub-database filter. Values: `MED` (PubMed/MEDLINE), `PMC` (PMC full text), `PPR` (preprints bioRxiv/medRxiv), `AGR` (Agricola agriculture), `PAT` (patents), etc.
+- `year_from`: Publication year/date lower bound. Format `YYYY` or `YYYY/MM/DD`.
+- `year_to`: Publication year/date upper bound. Format `YYYY` or `YYYY/MM/DD`.
+- `date_type`: Date filter dimension. Values: `pdat` (publication date, default), `edat` (entry date), `mdat` (modification date)
+
+### academic.citation
+Citation relationships, citation counts, reference lists by DOI or title
+
+**Parameters:**
+- `doi`: DOI identifier, e.g. 10.1038/s41586-021-03819-2
+- `op`: Operation type. Values: `metadata` (metadata query, default), `citations` (cited-by list), `references` (reference list), `citation-count` (citation count), `reference-count` (reference count), `author` (works by author), `editor` (works by editor), `venue-citation-count` (journal citation count), `citation` (single citation relationship, requires OCI)
+- `id_type`: Identifier type. Values: `doi`, `pmid`, `issn`, `isbn`, `orcid`, `omid`. When empty, auto-detected from query format (e.g., `10.xxx/yyy` → doi, pure digits → pmid).
+- `filter`: RAMOSE filter expression. Format: `field:value`, e.g., `creation:2020-*-*` (citations after 2020).
+- `sort`: RAMOSE sort expression. Format: `field:order`, e.g., `creation:desc` (descending by creation time).
+- `type`: 1. Document type filter. Values: `journal-article` (journal paper), `book` (book), `proceedings-article` (conference paper), `dataset` (dataset), `book-chapter` (book chapter), `posted-content` (preprint), `report` (report), etc. Maps to Crossref `filter=type:{value}`. 2. Publication type, comma-separated multi-value (no spaces). Valid values (13): `JournalArticle`, `Conference`, `Review`, `CaseReport`, `ClinicalTrial`, `Dataset`, `Editorial`, `LettersAndComments`, `MetaAnalysis`, `News`, `Study`, `Book`, `BookSection`. Maps to `publicationTypes` parameter.
+- `year_from`: Publication date lower bound. Format `YYYY`, `YYYY-MM`, or `YYYY-MM-DD`.
+- `year_to`: Publication date upper bound. Format `YYYY`, `YYYY-MM`, or `YYYY-MM-DD`.
+- `min_citations`: Minimum citation count, non-negative integer string, e.g., `100`. Used for academic quality filtering
+- `open_access`: Whether open access. Valid values: true, false
+- `venue`: Journal/conference name, comma-separated multi-value. Must match S2 database exactly. Common values: `NeurIPS`, `ICML`, `ICLR`, `CVPR`, `Nature`, `Science`, `Cell`, `Lancet`.
+- `category`: Subject category, comma-separated multi-value. Valid values (22): `Computer Science`, `Medicine`, `Biology`, `Chemistry`, `Physics`, `Mathematics`, `Materials Science`, `Engineering`, `Environmental Science`, `Geology`, `Geography`, `Sociology`, `Psychology`, `Economics`, `Business`, `Political Science`, `Linguistics`, `Philosophy`, `History`, `Art`, `Education`, `Law`.
+- `id` (required): Persistent identifier value extracted from user input. Do NOT include type prefixes like "doi:" or "pmid:". Formats: DOI (e.g. 10.1038/s41586-021-03819-2), PMID (pure digits, e.g. 33817056), ISSN (e.g. 0138-9130), ISBN (e.g. 9781402096327), ORCID (e.g. 0000-0003-0530-4305), OMID (e.g. br/06101801781), OCI (digits-digits, e.g. 06101801781-06180334099, only for op=citation).
+
+### academic.dataset
+Research datasets, open-source code and scientific software across Zenodo, Dryad, Figshare
+
+**Parameters:**
+- `year_to`: Publication year upper bound (inclusive), e.g., `2024`.
+- `client_id`: Data repository identifier. Examples: `cern.zenodo` (Zenodo), `figshare.ars` (Figshare), `bl.dryad` (Dryad).
+- `resource_type`: Resource type filter. Values: `Dataset` (datasets), `Software` (software), `Text` (text), `Image` (images), `Audiovisual` (audio/video), `Collection` (collections), `InteractiveResource` (interactive resources), etc.
+- `year_from`: Publication year lower bound (inclusive), e.g., `2020`.
+
+### academic.preprint
+Preprint paper search across CS, physics, math, biology, economics for cutting-edge research
+
+**Parameters:**
+- `sort`: Sort field. Values: `relevance` (relevance, default), `date_submitted` (submission date), `date_updated` (update date).
+- `order`: Sort direction. Values: `asc` (ascending), `desc` (descending, default). Only effective when `sort` is non-empty.
+- `field`: Query field restriction. Values: `ti` (title), `au` (author), `abs` (abstract), `co` (comments), `jr` (journal reference), `cat`/`category` (category), `all` (all fields, default).
+- `year_from`: Publication year lower bound (inclusive), e.g., `2020`.
+- `year_to`: Publication year upper bound (inclusive), e.g., `2024`.
+- `language`: Document language ISO code, e.g., `en` (English), `zh` (Chinese), `de` (German).
+- `doi`: DOI direct lookup. Skips keyword search and returns the single publication matching the DOI.
+Format: standard DOI, e.g., 10.1145/3292500.3330701
+When doi is provided, query may be empty and other filter parameters are ignored.
+- `open_access`: Whether to return only open access publications.
+Valid values: true / false
+- `type`: 1. Document type filter. Valid values: `article`, `book`, `book-chapter`, `dataset`, `dissertation`, `preprint`, `report`, `review`, `other`. 2. Publication type, comma-separated multi-value (no spaces). Valid values (13): `JournalArticle`, `Conference`, `Review`, `CaseReport`, `ClinicalTrial`, `Dataset`, `Editorial`, `LettersAndComments`, `MetaAnalysis`, `News`, `Study`, `Book`, `BookSection`.
+
+### academic.search
+Cross-discipline paper search by keyword, title, author, institution with metadata and open access links
+
+**Parameters:**
+- `min_citations`: Minimum citation count, non-negative integer string, e.g., `100`. Used for academic quality filtering. Maps to `minCitationCount` parameter.
+- `open_access`: Whether to return only open access publications.
+Valid values: true / false
+- `sort`: Sort field. Valid values: `cited_by_count`, `publication_date`, `publication_year`, `relevance_score`, `display_name`. Append `:asc` or `:desc` to specify direction, e.g., `cited_by_count:desc`. Default: sort by relevance.
+- `type`: 1. Document type filter. Valid values: `article`, `book`, `book-chapter`, `dataset`, `dissertation`, `preprint`, `report`, `review`, `other`. 2. Publication type, comma-separated multi-value (no spaces). Valid values (13): `JournalArticle`, `Conference`, `Review`, `CaseReport`, `ClinicalTrial`, `Dataset`, `Editorial`, `LettersAndComments`, `MetaAnalysis`, `News`, `Study`, `Book`, `BookSection`.
+- `venue`: Journal/conference name, comma-separated multi-value. Must match S2 database exactly. Common values: `NeurIPS`, `ICML`, `ICLR`, `CVPR`, `Nature`, `Science`, `Cell`, `Lancet`. Maps to `venue` parameter.
+- `year_to`: Publication year end (inclusive), four digits.
+Example: 2024
+For single-year queries, set year_from and year_to to the same value.
+- `category`: Subject category, comma-separated multi-value. Valid values (22): `Computer Science`, `Medicine`, `Biology`, `Chemistry`, `Physics`, `Mathematics`, `Materials Science`, `Engineering`, `Environmental Science`, `Geology`, `Geography`, `Sociology`, `Psychology`, `Economics`, `Business`, `Political Science`, `Linguistics`, `Philosophy`, `History`, `Art`, `Education`, `Law`.
+- `doi`: DOI direct lookup. Skips keyword search and returns the single publication matching the DOI.
+Format: standard DOI, e.g., 10.1145/3292500.3330701
+When doi is provided, query may be empty and other filter parameters are ignored.
+- `year_from`: Publication year start (inclusive), four digits.
+Example: 2020
+
+

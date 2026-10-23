@@ -1,0 +1,12 @@
+{
+  "version": "R69-client-addendum-20261023",
+  "base_contract": "PAIEC_RUNTIME_EVIDENCE_CONTRACT.json",
+  "official_commit": "cc88a959c1e5e7462f31a9215baba066ce6d6e2b",
+  "actual_hosted_run_observed": false,
+  "clauses": [
+    {"id": "official_streaming_client", "status": "verified_official", "evidence": "R69/official_baseline/tools/streaming_ingestion.py:1-4", "statement": "Public client says it is shipped in bundle and embedded in Modal; coordinator owns evidence; workers recreated per checkpoint."},
+    {"id": "evaluation_event_shared_labeled", "status": "verified_official", "evidence": "streaming_ingestion.py run_streaming evaluate branch", "statement": "One event labeled array is passed to prediction_stream for all unique inputs in that evaluation event."},
+    {"id": "coordinator_peer_sampling", "status": "unknown", "statement": "Client consumes event.labeled and event.targets; private coordinator selection and item overlap policy not included."},
+    {"id": "hosted_process_isolation", "status": "inferred_not_guaranteed", "statement": "Client documents fresh workers per budget; worker implementation and deployed coordinator revision not observed. Stateless remains conservative."}
+  ]
+}

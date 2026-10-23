@@ -1,0 +1,35 @@
+{
+  "source_fold": 0,
+  "source_benchmark": "faithcot/formatted_tables",
+  "subjects": [
+    "1b4378910f556d57",
+    "bfbac93344b0c1a7",
+    "6c362198bfd5d9b9",
+    "cb525f6e0a410d39"
+  ],
+  "cohorts": {
+    "cb525f6e0a410d39": [
+      "1b4378910f556d57",
+      "bfbac93344b0c1a7",
+      "6c362198bfd5d9b9"
+    ],
+    "bfbac93344b0c1a7": [
+      "1b4378910f556d57",
+      "cb525f6e0a410d39",
+      "6c362198bfd5d9b9"
+    ],
+    "6c362198bfd5d9b9": [
+      "1b4378910f556d57",
+      "cb525f6e0a410d39",
+      "bfbac93344b0c1a7"
+    ],
+    "1b4378910f556d57": [
+      "cb525f6e0a410d39",
+      "bfbac93344b0c1a7",
+      "6c362198bfd5d9b9"
+    ]
+  },
+  "ridge_r25": 4.0,
+  "ridge_r36_original": 4.0,
+  "query_labels_used_for_selection": false
+}

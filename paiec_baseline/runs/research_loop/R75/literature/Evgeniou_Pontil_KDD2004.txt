@@ -1,0 +1,771 @@
+                                     Regularized Multi–Task Learning
+
+                            Theodoros Evgeniou                                                    Massimiliano Pontil
+                     Technology Management                                                 Department of Computer Science
+                             INSEAD                                                           University College London
+           Bd de Constance, 77300 Fontainebleau, France                                    Gower St., London, WC1E 6BT UK
+                 theodoros.evgeniou@insead.edu                                                  m.pontil@cs.ucl.ac.uk
+
+
+ABSTRACT                                                                             a pool of similar objects; in ﬁnance forecasting models for
+                                                                                     predicting the value of many possibly related indicators si-
+Past empirical work has shown that learning multiple re-                             multaneously is often required; in marketing modeling the
+lated tasks from data simultaneously can be advantageous                             preferences of many individuals simultaneously is common
+in terms of predictive performance relative to learning these                        practice [1, 2].
+tasks independently. In this paper we present an approach                               When there are relations between the tasks to learn, it can
+to multi–task learning based on the minimization of regu-                            be advantageous to learn all tasks simultaneously instead
+larization functionals similar to existing ones, such as the                         of following the more traditional approach of learning each
+one for Support Vector Machines (SVMs), that have been                               task independently of the others. There has been a lot of
+successfully used in the past for single–task learning. Our                          experimental work showing the beneﬁts of such multi–task
+approach allows to model the relation between tasks in terms                         learning relative to individual task learning when tasks are
+of a novel kernel function that uses a task–coupling param-                          related, see [4, 11, 15, 22]. There have also been various
+eter. We implement an instance of the proposed approach                              attempts to theoretically study multi–task learning, see [4,
+similar to SVMs and test it empirically using simulated as                           5, 6, 7, 8, 15, 23].
+well as real data. The experimental results show that the pro-                          In this paper we develop methods for multi–task learning
+posed method performs better than existing multi–task learn-                         that are natural extensions of existing kernel based learn-
+ing methods and largely outperforms single–task learning us-                         ing methods for single task learning, such as Support Vec-
+ing SVMs.                                                                            tor Machines (SVMs) [25]. To the best of our knowledge,
+                                                                                     this is the ﬁrst generalization of regularization–based meth-
+Categories and Subject Descriptors                                                   ods from single–task to multi–task learning. We test an in-
+                                                                                     stance of the proposed methods experimentally using both
+I.2.6 [Artiﬁcial Intelligence]: Learning.
+                                                                                     simulated and real data. The experiments show that the
+                                                                                     proposed method performs better than existing multi–task
+General Terms                                                                        learning methods and largely outperforms single–task learn-
+Algorithms, Theory.                                                                  ing.
+
+
+Keywords                                                                             1.1 Related Work
+Multi–Task Learning, Support Vector Machines, Regular-                                  A statistical learning theory based approach to multi–task
+ization, Kernel Methods.                                                             learning has been developed in [5, 6] and [8]. In [6] the prob-
+                                                                                     lem of bias learning is considered, where the goal is to choose
+                                                                                     an optimal hypothesis space from a family of hypothesis
+1.     INTRODUCTION                                                                  spaces. In [6] the notion of the “extended VC dimension”
+   In many practical situations a number of statistical mod-                         (for a family of hypothesis spaces) is deﬁned and it is used
+els need to be estimated from data. For example multi–                               to derive generalization bounds on the average error of T
+modal human computer interface requires the modeling of                              tasks learned which is shown to decrease at best as T1 . In
+both, say, speech and vision; machine vision problems may                            [5] the same setup was used to answer the question “how
+themselves require the estimation of multiple models, for                            much information is needed per task in order to learn T
+example one for detecting each object, i.e. a face, from                             tasks” instead of “how many examples are needed for each
+                                                                                     task in order to learn T tasks”, and the theory is developed
+                                                                                     using Bayesian and information theory arguments instead of
+                                                                                     VC dimension ones. In [8] the extended VC dimension was
+Permission to make digital or hard copies of all or part of this work for            used to derive tighter bounds that hold for each task (not
+personal or classroom use is granted without fee provided that copies are            just the average error among tasks as considered in [6]) in
+not made or distributed for profit or commercial advantage and that copies           the case that the learning tasks are related in a particular
+bear this notice and the full citation on the first page. To copy otherwise, to      way deﬁned.
+republish, to post on servers or to redistribute to lists, requires prior specific      The problem of multi–task learning has been also stud-
+permission and/or a fee.
+KDD’04, August 22–25, 2004, Seattle, Washington, USA.                                ied in the statistics literature. Breiman and Friedman [9]
+Copyright 2004 ACM 1-58113-888-1/04/0008 ...$5.00.                                   propose the curds&whey method, where the relations be-
+tween the various tasks are modeled in a post–processing                              example through the appropriate choice of a matrix–valued
+fashion. Brown and Zidek [10] consider the case of regression                         kernel [20] discussed in section 2.2.
+and propose an extension of the standard ridge regression
+to multivariate ridge regression. Finally, a number of ap-                            2. METHODS FOR MULTI–TASK
+proaches for learning multiple tasks or for learning to learn
+[22] are Bayesian, where a probability model capturing the                               LEARNING
+relations between the diﬀerent tasks is estimated simultane-
+                                                                                         For simplicity we ﬁrst assume that function ft for the tth
+ously with the models’ parameters for each of the individ-
+                                                                                      task is a hyperplane, that is ft (x) = wt · x, where “·” de-
+ual tasks. In [1, 2] a hierarchical Bayes model is estimated.
+                                                                                      notes the standard inner product in Rd . The generalization
+First, it is assumed that the parameters of the T functions to
+                                                                                      to nonlinear models will then be done through the use of
+be learned are all sampled from an unknown Gaussian distri-
+                                                                                      Reproducing Kernel Hilbert Spaces (RKHS), see for exam-
+bution. Then, an iterative Gibbs sampling based approach
+                                                                                      ple [20, 25, 26]. In the case of classiﬁcation each yit takes
+is used to simultaneously estimate both the individual func-
+                                                                                      the values ±1, and ft is the sign of wt · x. Below we consider
+tions and the parameters of the Gaussian distribution. In
+                                                                                      this case – regression can be treated similarly.
+this model relatedness between the tasks is captured by this
+                                                                                         All previously proposed frameworks and methods for multi–
+Gaussian distribution: the smaller the variance of the Gaus-
+                                                                                      task learning (i.e. those discussed in the introduction) are
+sian the more related the tasks are. Finally, [4, 15] suggest a
+                                                                                      based on some formal deﬁnition of the notion of relatedness
+similar hierarchical model. In [4] a mixture of Gaussians for
+                                                                                      of the tasks. This relatedness is then formalized through
+the “upper level” distribution instead of a single Gaussian
+                                                                                      the design of a multi–task learning method. For example,
+is used. This leads to clustering the tasks, one cluster for
+                                                                                      hierarchical Bayesian methods [1, 2, 4, 15] assume that all
+each Gaussian in the mixture.
+                                                                                      functions wt come from a particular probability distribution
+                                                                                      such as a Gaussian. This implies that all wt are “close” to
+1.2 Notation and Setup                                                                some mean function w0 (the mean of the Gaussian).
+  We consider the following setup. We have T learning tasks                              We follow the intuition of Hierarchical Bayes [1, 2, 15]. In
+and we assume that all data for the tasks come from the                               particular we assume that all wt can be written, for every
+same space X × Y . For simplicity we assume that X ⊂ Rd                               t ∈ {1, . . . , T }, as
+and Y ⊂ R. For each task we have m data points
+                                                                                                                  wt = w0 + v t                            (1)
+                {(x1t , y1t ), (x2t , y2t ) . . . , (xmt , ymt )}                     where the vectors vt are “small” when the tasks are similar
+sampled from a distribution Pt on X × Y . So the total data                           to each other. In other words we assume that the tasks are
+available is:                                                                         related in a way that the true models are all close to some
+                                                                                      model w0 (playing the role of the mean of the Gaussian
+{{(x11 , y11 ), . . . , (xm1 , ym1 )}, . . . {(x1T , y1T ), . . . , (xmT , ymT )}}.   used for Hierarchical Bayes [1, 2]). We then estimate all vt
+                                                                                      as well as the (common) w0 simultaneously. To this end we
+ We assume that Pt is diﬀerent for each task but that the Pt ’s                       solve the following optimization problem which is analogous
+are related – as, for example, considered in [8]. The goal is to                      to SVMs used for single task learning:
+learn T functions f1 , f2 , . . . , fT such that ft (xit ) ≈ yit . The
+case T = 1 is the standard (single–task) learning problem.                               Problem 2.1.
+                                                                                                                       
+   There are various versions of this setup. A simpler version
+                                                                                                            min            J(w0 , vt , ξit ) :=
+is when the same input data xit are used for all the tasks.                                              w0 ,vt ,ξit
+That is, for every i ∈ {1, . . . , m} the vector xit is the same
+for all t ∈ {1, . . . , T }, but the output values yit diﬀer for                                                                                  
+                                                                                                    T 
+                                                                                                     m
+                                                                                                                 λ1 
+                                                                                                                             T
+each t. This is for example the standard setup in marketing                                      =         ξit +        vt 2 + λ2 w0 2                 (2)
+applications of preference modeling [1, 2] where the same                                          t=1 i=1
+                                                                                                                 T  t=1
+choice panel questions (the same “x’s”) are given to many
+                                                                                      subject, for all i ∈ {1, 2, . . . , m} and t ∈ {1, 2, . . . , T }, to the
+individual consumers, each individual provides his/her own
+                                                                                      constraints that
+preferences (the “y’s”), and we assume that there is some
+commonality among the preferences of the individuals (the                                               yit (w0 + vt ) · xit       ≥ 1 − ξit               (3)
+“ft ’s”). We consider this preference modeling application in                                                            ξit       ≥ 0.
+the experiments section below.
+   Clearly one can consider other scenarios, too. For ex-
+ample: a) the case of having the same output (“y’s”) and
+diﬀerent inputs (“x’s”), which corresponds to the problem                             In this problem, λ1 and λ2 are positive regularization param-
+of integrating information from heterogeneous databases [7];                          eters and the ξit are slack variables measuring the error that
+or, b) the case of multi–modal learning or learning by com-                           each of the ﬁnal models wt makes on the data. We therefore
+ponents, where the (x, y) data for each of the tasks do not                           impose a regularization constraint on the “average” model
+belong to the same space X × Y but data for task t come                               w0 and control how much the solutions wt diﬀer from each
+from a space Xt ×Yt – this is for example the machine vision                          other by controlling the size of the vt . Intuitively, for a ﬁxed
+case of learning to recognize a face by ﬁrst learning to rec-                         value of λ2 a large value of the ratio λλ12 , say λλ12 > 100, will
+ognize parts of the face, such as eyes, mouth, and nose [14].                         tend to make the models to be the same model (that is, the
+Each of these related tasks can be learned using images of                            vt are nearly equal to zero), while for a ﬁxed value of λ1
+diﬀerent size (or diﬀerent representations). The methods we                           a small value of the ratio λλ12 , say λλ12 < 0.01, will tend to
+develop below may be extended to handle such scenarios, for                           make all the tasks unrelated (w0 nearly equal to zero). In
+particular, when λ1 tends to inﬁnity problem 2.1 reduces to                      where the parameters ρ1 and ρ2 are related to λ1 and λ2 by
+solving one single–task learning problem (ﬁnding w0 , hav-                       the equations
+ing vt = 0 for every t ∈ {1, . . . , T }). On the other hand                                                       1 λ1 λ2
+when λ2 tends to inﬁnity problem 2.1 reduces to solving the                                                 ρ1 =                                        (7)
+                                                                                                                   T λ1 + λ2
+T tasks independently (ﬁnding the vt , having w0 = 0).
+  Let w0∗ and vt∗ be the optimal solution of problem 2.1                         and
+and wt∗ := w0∗ + vt∗ . Our next observation shows a relation                                                       1    λ21
+between these quantities.                                                                                   ρ2 =             .                          (8)
+                                                                                                                   T λ1 + λ2
+  Lemma 2.1. The optimal solution to the multi–task opti-
+mization method (3) satisfies the equation
+                                                                                    Proof. Using equations (1) and (4), we rewrite the sta-
+                                      1  ∗
+                                                T
+                                 λ1                                              bilizer in the objective function J in equation (2) as
+                        w0∗ =               wt .                          (4)
+                              λ2 + λ1 T t=1
+                                                                                                         1 
+                                                                                                            T
+                                                                                                    λ1         vt 2 + λ2 w0 2 =
+                                                                                                         T t=1
+  Proof. This result follows by inspecting the Lagrangian
+function for problem 2.1. This is given by the formula                                                                 T     
+                                                                                                                       2
+                                                                                               1 
+                                                                                                  T
+                L(w0 , vt , αit , γit ) = J(w0 , vt , ξit ) −                                                1   λ21         
+                                                                                          = λ1       wt  − 2
+                                                                                                          2
+                                                                                                                          wt  .                       (9)
+                                                                                               T t=1        T λ1 + λ2  t=1 
+     T 
+      m                                                 T 
+                                                          m
+ −             αit (yit (w0 + vt ) · xit − 1 + ξit ) −             γit ξit (5)   On the other hand the stabilizer in equation (6),
+     t=1 i=1                                             t=1 i=1                                                               2
+                                                                                             
+                                                                                             T             T           T      
+where αit and γit are nonnegative Lagrange multipliers. Set-                                                            s=1 ws 
+                                                                                          ρ1    wt  + ρ2
+                                                                                                     2
+                                                                                                                 wt −                                (10)
+ting the derivative of L with respect to w0 to zero gives the                                                             T    
+                                                                                              t=1                  t=1
+equation
+                                                                                 can be rewritten as
+                                 1 
+                                     T   m
+                       w0∗ =                αit yit xit .                                                             
+                                                                                                                      T
+                                2λ2 t=1 i=1                                                              (ρ1 + ρ2 )         wt 2 +
+The same operation for vt gives, for every t ∈ {1, . . . , T },                                                       t=1
+
+the equation                                                                                   T     2                                        
+                                                                                                      
+                                                                                             1                                      
+                                                                                                                       T                T
+                       T 
+                           m                                                                               2
+                                                                                                  wt  −                          ·         ws  =
+                vt∗ =         αit yit xit .                                            +ρ2
+                                                                                             T  t=1      T
+                                                                                                                               wt
+                      2λ1 i=1                                                                                            t=1            s=1
+
+By combining these equations we obtain that                                                                              T     2
+                                                                                                                     1 
+                                                                                                                         
+                                                                                                                                
+                                                                                                            T
+                                      λ1    
+                                            T
+                                                                                           = (ρ1 + ρ2 )     wt  − ρ2 
+                                                                                                                       2
+                                                                                                                             wt  .                    (11)
+                           w0∗ =             v∗ .                                                                     T  t=1 
+                                     T λ2 t=1 t                                                         t=1
+
+                                                                                 The result now follows by observing that equations (9) and
+The result now follows by this equation and equation (1).
+                                                                                 (11) coincide provided that ρ1 and ρ2 satisfy equations (7)
+                                                                                 and (8).
+  This lemma suggests that we can replace w0 in equation
+(3) with an expression of vt and obtain an optimization                            Thus our regularization method ﬁnds a trade oﬀ between
+problem which involves only the vt ’s. Replacing wt ’s for                       small size parameter vectors for each model and closeness of
+the vt ’s and choosing appropriate regularization parameters                     these model parameters to the average of the model param-
+instead, leads to the following lemma:                                           eters. In SVMs language we are ﬁnding a trade oﬀ between
+   Lemma 2.2. The multi–task problem 2.1 is equivalent to                        each SVM having large margin (this quantity is deﬁned as
+solving the following optimization problem:                                      1/wt ) and having each SVM close to the average SVM.
+  Problem 2.2.                                                                   2.1 Dual Optimization Problem
+                                     T m
+                                     
+                           min                  ξit +                               We now derive the dual of problem 2.1. To this end, one
+                          wt ,ξit                                                may follow the standard duality theory approach, see e.g.
+                                      t=1 i=1
+                                                                                 [19] to optimize the Lagrangian function (5). However, the
+                                    
+                                  T 
+                                                  2 
+                                                                             following observation allows us to directly link the dual of
+                                           1 
+                 T                           T
+                                                 
+         +ρ1           wt  + ρ2
+                            2
+                                     wt −     ws                        (6)    problem 2.1 to the standard SVM dual problem, see e.g.
+                                          T                                   [25].
+                 t=1                  t=1               s=1
+                                                                                    The set of functions ft (x) = wt · x, t = 1, . . . , T can be
+subject, for all i ∈ {1, 2, . . . , m}, t ∈ {1, 2, . . . , T }, to the
+                                                                                 identiﬁed by a real–valued function
+constraints that
+                         yit wt · xit    ≥ 1 − ξit                                                   F : X × {1, . . . , T } → R
+                                  ξit    ≥ 0                                     deﬁned as
+                                                                                                            F (x, t) = ft (x).                         (12)
+Learning this function requires examples of the type ((x, t), y),           method for selecting parameter µ, and we leave this as an
+where (x, t) ∈ X × {1, . . . , T } and y ∈ {−1, 1}.                         open question. In the experiments below we either report
+   We assume that the reader is familiar with the notion of                 the performances for all the parameters we tested (to see
+feature map and of kernels, see e.g. [25] for a discussion. We              their eﬀects) or simply selected both C and µ among a small
+note that F can be represented by means of the feature map                  number of choices (less than 20 pairs (C, µ) in total) based
+                           x                                                on the actual test performance. As observed in [13] when
+           Φ((x, t)) = ( √ , 0, . . . , 0, x, 0, . . . , 0) (13)            the number of test data is large (for all experiments below
+                             µ              
+                                           t−1           T −t               we have more than 2800 test data in total for all the tasks)
+                                                                            then model selection among only a small number of models
+where we have denoted by 0 the vector in Rd whose coor-                     leads to a choice that has actual test performance similar to
+dinates are all zero, µ = Tλλ12 , and we are now estimating a               the one observed on the test data used.
+vector                                                                         Moreover, notice that solving the optimization problem
+                        √                                                   2.3 requires solving a standard SVM problem with T m train-
+                  w = ( µw0 , v1 , . . . , vT ).
+                                                                            ing data. Assuming that a standard SVM training method
+By construction we have that                                                is used which requires O([number of training data]3 ]) time,
+                     w · Φ((x, t)) = (w0 + vt ) · x                         this implies that to solve problem 2.3 we need O(T 3 m3 )
+                                                                            time. Instead, if we were to solve each task independently
+and                                                                         we would only need O(T m3 ) time. In the experiments be-
+                                 
+                                 T                                          low, since we had only relatively small T s and ms, we did
+                     w2 =            vt 2 + µw0 2 .                   not have any signiﬁcant diﬀerences in the training time of
+                                 t=1                                        single versus multi-task SVM training. In many practical
+It is then clear that solving the SVM multi–task problem                    applications, however, this may be an issue. Optimizing the
+(1) is equivalent to learning the function F in equation (12)               running time of the multi-task learning method we propose
+with a standard SVM which uses the kernel associated to the                 is therefore an important practical issue that we leave as
+feature map (13). Consequently, using the standard SVM                      an open problem. We conjecture that with an appropriate
+dual problem, see e.g. [25], we have the following theorem:                 choice of kernels and parameters C for each task it may be
+                                                                            possible to solve T independent SVMs that will lead to the
+  Theorem 2.1. Let C := 2λ    T
+                                1
+                                  , µ = Tλλ12 , and define the              same solutions as the ones found using the proposed multi-
+kernel                                                                      task learning method.
+                           
+                     1
+     Kst (x, z) :=     + δst x · z, s, t = 1, . . . , T.  (14)              2.2 Non–linear multi–task learning
+                     µ
+                                                                               An important characteristic of SVM is that they can be
+The dual problem of 2.1 is given by
+                                                                            used to estimate highly non-linear functions through the use
+   Problem 2.3.                                                             of kernels [25]. We can clearly generalize the linear multi-
+                                  m T                                      task learning method outlined above to the non-linear case
+                                   
+                          max                    αit −                      using kernels as is done for SVM. Morevoer, the above ob-
+                           αit                                              servation in theorem 2.1 can be generalized to include non–
+                                       i=1 t=1
+                                                                            linear multi–task learning. We simply learn F by using a
+                                                                
+                                                                            nonlinear feature map
+        1 
+           m    T     m   T
+                          αis yis αjt yjt Kst (xis , xjt )          (15)
+        2 i=1 s=1 j=1 t=1                                                                         Φ : X × {1, . . . , T } → H
+
+subject, for all i ∈ {1, 2, . . . , m} and t ∈ {1, 2, . . . , T }, to the   where H is a separable Hilbert space (the feature space).
+constraints that the constraint that                                        The kernel associated to Φ is
+
+                                0 ≤ αit ≤ C.                                             G((x, t), (z, s)) = Φ((x, t)), Φ((z, s))
+In addition,    if α∗it
+                    is a solution to the above problem, the                 where ·, · is the inner product in H. In general we can
+solution to problem 2.1 is given by                                         also consider situations where each task is trained on diﬀer-
+                                                                            ent number of examples. That is, we sample our examples
+                                m 
+                                 T
+                                                                            ((xi , ti ), yi ) ∈ (X × {1, . . . , T }) × {−1, 1}, i = 1, . . . , N , and
+                    ft∗ (x) =             α∗is Kst (xis , x).
+                                i=1 s=1
+                                                                            learn the coeﬃcients βi for the function
+                                                                                                          
+                                                                                                          N
+                                                                                             F (x, t) =         βi G((x, t), (xi , ti ))         (16)
+  It is therefore required to select two parameters: the pa-                                              1=1
+rameter C for the training error as in the standard SVM                     by solving the standard SVM dual problem with kernel G,
+case, and the parameter µ that captures the similarity be-                  namely
+tween the tasks. These two parameters can be selected
+for example using a validation set or using some form of                      Problem 2.4.
+cross-validation. For example one may select µ through a                          N                                                      
+task-cross-validation process where instead of leaving train-                             1 
+                                                                                              N   N
+                                                                             max      βi −           βi yi βj yj G((xi , ti ), (xj , tj )) (17)
+ing points out as done for the typical cross validation case,                 βi
+                                                                                  i=1
+                                                                                           2 i=1 j=1
+tasks are left out. We do not have any theoretical justiﬁ-
+cation for doing this or any theory that can lead to some                   subject to the constraint that βi ∈ [0, C] for every i.
+In particular problem 2.3 reduces to problem 2.4 if we set        mean
+                                                                                                      
+N = mT , deﬁne, for i ∈ {1, . . . , N }                                                       1 1
+                                                                                        −β, − β, β, β .
+                 xi    =    x(i mod T )(i mod m)                                              3 3
+                 yi    =    y(i mod T )(i mod m)                  We used the same Gaussian for each of the four attributes.
+                                                                  The actual utility function wt was therefore a vector
+and use the kernel
+                                                                   wt = (wt1 , ..., wt4 , wt5 , ..., wt8 , wt9 , ..., wt12 , wt12 , ..., wt16 )
+             G((xi , ti ), (xj , tj )) = Kti tj (xi , xj )        where (wt1 , ..., wt4 ), (wt5 , ..., wt8 ), (wt9 , ..., wt12 ), and
+where K is given by equation (14) where we can replace            (wt12 , ..., wt16 ) are four 4–dimensional vectors sampled from
+the dot product x · z with a nonlinear kernel as is done          the aforementioned Gaussian. Notice that the functions wt
+for standard SVM. We note that the above ideas appear             we are estimating are real-valued, while the training data are
+in greater generality in [20] where the notion of operator–       vectors with values only {+1, −1, 0} as described above. It
+valued kernels is derived.                                        turns out that parameter β controls the noise of the data (i.e.
+                                                                  the response accuracy of the individual consumers) which is
+                                                                  modeled according to the assumptions of Hierarchial Bayes
+3.   EXPERIMENTS                                                  (HB), see [1, 2]. As in [3, 12, 24] we used β = 3 for low noise
+                                                                  in the data and β = 0.5 for high noise in the data. We mod-
+  We run two types of experiments. The ﬁrst one is with
+                                                                  eled the similarity among the 100 (or 30) individuals, hence
+simulated data in order to study the behavior of the pro-
+                                                                  the similarity among the 100 (or 30) tasks to be learned, by
+posed approach under varying conditions. We then tested
+                                                                  varying the variance σ 2 of the Gaussian from which the true
+the method on a real dataset.
+                                                                  utility functions wt were generated. The covariance ma-
+3.1 Simulated Data                                                trix of the Gaussian was a diagonal matrix with all diagonal
+                                                                  elements being σ 2 . We modeled low similarity among the
+   We tested the proposed method using data that capture          tasks using σ 2 = 3β, and high similarity using σ 2 = 0.5β,
+the preferences of individuals (consumers) when they choose       like again in [3, 12, 24]. As discussed in [3, 12, 24] these
+among products. This is the standard problem of conjoint          parameters are chosen so that the range of average utility
+analysis [1, 2] for preference modeling. It turns out [12] that   functions, noise, and similarities among the preferences of
+this problem is equivalent to solving a classiﬁcation problem,    the individual consumers found in practice is covered.
+therefore the results we report below can be seen as results         Therefore in this experiment we tested all 2 × 2 scenarios
+for a classiﬁcation problem.                                      in terms of: a) the amount of noise in the data (low versus
+   We followed the basic simulation design used by other          high), and b) the similarity among the tasks to be learned
+researchers in the past. In particular we simply replicated       (low versus high). All experiments were repeated ﬁve times –
+the experimental setup of [3, 12, 24]. For completeness we        so a total of 500 (or 150) individual utility functions wt were
+brieﬂy describe that setup.                                       estimated – and the average performance is reported. We
+   We generated data describing products with 4 attributes        used two measures of performance: a) the Root Mean Square
+(i.e. size, weight, functionality, and ease–of–use of a prod-     Error (RMSE) of the estimated utility functions relative to
+uct), each attribute taking 4 values (i.e. very high value        the true (supposedly unknown) utility functions – an error
+(1000), high value (0100), low value (0010), very low value       measure typically used for preference modeling [3, 12, 24];
+(0001)). Therefore each product was represented by a 4×4 =        b) the average hit errors (misclassiﬁcation) of the estimated
+16 dimensional binary vector. Each question given to an in-       functions on a test set of 16 questions per individual – hence
+dividual consumer consists of 4 such (vectors) products to        a total of 96 test data per individual for the corresponding
+choose from. Each question was subsequently transformed           classiﬁcation problem solved leading to 2880 and 9600 test
+into 6 data points (twice the number of comparisons of            data for the 30 and 100 tasks cases, respectively. We note
+the “winner” product among the four and the remaining             that the conclusions are qualitatively the same for both error
+3 “loser” products) of 16 dimensions each that were used          measures, as also observed by [12, 24].
+for the classiﬁcation learning problem corresponding to this         We compared our method with Hierarchical Bayes (HB)
+preference modeling problem [12]. Therefore the training          [1, 2] which is considered to be a state of the art method for
+data for each task are 16-dimensonal vectors with elements        preference modeling of a population of individual consumers.
+that take values only {+1, −1, 0} – the outcome of taking the     It is important to note that in all cases we generated the
+diﬀerence between two binary vectors describing two prod-         data in a way that gives an advantage to HB – that is, the
+ucts. The questions were generated randomly. We generated         data were generated, as described above, according to the
+16 questions per individual, hence the individual classiﬁca-      probability distributions assumed by HB.
+tion problems used 16×6 = 96 16–dimensional training data.           We tested various values (namely, 0.1, 0.5, 1, 2, 10, 1000)
+We simulated 100 or 30 individuals, hence we had a total of       of the task–coupling parameter µ used in the deﬁnition of
+100 (or 30) tasks: one task for each individual in order to es-   kernel (14) to examine its eﬀects. We also tested the case
+timate the “utility function” of that individual using his/her    of using one SVM for all tasks as if we assume that all data
+responses to the 16 questions given represented with the ±1       come from the same task – which corresponds to the limit
+labels (prefer or not prefer one product from another) of the     µ → 0. We did these for C = 0.1 and C = 1. In Figures 1
+96 training data used for the classiﬁcation problem for that      and 2 we show the eﬀects of µ for C = 0.1 and for 30 and
+individual.                                                       100 tasks, respectively – the plots are similar for C = 1. We
+   The four utility function coeﬃcients (corresponding to         report the results for RMSE – which are similar for the hit
+the four values an attribute can take) for each of the four       test error. The left-most point at each graph is for solving
+attributes were generated randomly from a Gaussian with           one SVM only for all tasks as if we assume that there is only
+one task, corresponding to µ → 0 – clearly we do not log the
+                                                                  0.75                                                  1.05
+
+
+                                                                                                                          1
+
+
+µ = 0 in the ﬁgure and we use instead a small µ to visualize       0.7
+
+                                                                                                                        0.95
+
+
+the results.                                                      0.65                                                   0.9
+
+
+
+   Firstly, the results show the importance of the parameter       0.6
+                                                                                                                        0.85
+
+
+
+
+µ, and that a wrong selection of µ may some times decrease        0.55
+                                                                                                                         0.8
+
+
+                                                                                                                        0.75
+
+performance relative to solving T SVMs. This is for example                                                              0.7
+                                                                   0.5
+
+the case when the tasks have low similarity (the right side of                                                          0.65
+
+
+Figures 1 and 2) and we use a very small µ – where, in the        0.45
+                                                                                                                         0.6
+
+
+limit, using only one SVM for all the data as if there is only     0.4
+                                                                     −4    −2   0       2       4       6       8
+                                                                                                                        0.55
+                                                                                                                           −4   −2   0   2   4   6   8
+
+
+one task (µ = 0) can hurt performance a lot. Moreover, the
+optimal µ can have a signiﬁcantly better performance than,
+                                                                                                                         1.4
+
+for example, a very large or a very small µ corresponding to       0.98
+
+
+
+
+having T SVMs or 1 SVM for all tasks, respectively. It is          0.96                                                  1.3
+
+
+
+
+therefore important to select µ correctly, an issue for which      0.94                                                  1.2
+
+
+
+we do not have currently a method as discussed in section          0.92                                                  1.1
+
+
+2.1.                                                                                                                      1
+                                                                    0.9
+
+   The results also show clearly the beneﬁts of solving all
+tasks simultaneously using the proposed method. The ad-            0.88                                                  0.9
+
+
+
+
+vantage of the proposed method relatively to learning each         0.86                                                  0.8
+
+
+
+task independently (estimating one utility function per in-        0.84
+                                                                      −4   −2       0       2       4       6       8
+                                                                                                                         0.7
+                                                                                                                           −4   −2   0   2   4   6       8
+
+dividual) is higher when there is more similarity among the
+tasks (similarity among the true utility functions of the in-        Figure 1:          Horizontal axis is the log(µ) (µ =
+dividuals). Moreover, the proposed method performs sim-              0.1, 0.5, 1, 2, 10, 1000) of the proposed method. As in
+ilarly or better than HB when µ is selected appropriately.           Table 1, the C of both the T individual SVMs and
+In Tables 1 and 2 we report the average performance of the           the proposed method is 0.1. The Vertical axis is the
+T independent SVMs, the performance of having a single               average RMSE of the estimated functions. Dashed
+SVM for all tasks (as if we assume all data come from the            straight line is the RMSE of HB. Dotted horizon-
+same task), the performance of HB, and the performance of            tal line is the average RMSE when we estimate one
+the proposed method for the best pair (C, µ) (from Figures 1         SVM per individual. The solid line is the average
+and 2) for both 30 and 100 tasks. Given that we have a large         RMSE of the proposed method - the left-most point
+test set (2880 and 9600 test data for the 30 and 100 tasks, re-      at each graph is for solving one SVM only for all
+spectively) and we choose (C, µ) among only 2×6 = 12 pairs           tasks as if we assume that there is only one task - the
+(C, µ) ∈ {(0.1, 1) × (0.1, 0.5, 1, 2, 10, 1000)} (or just among      limit of µ = 0 (we don’t log µ = 0 clearly). There are
+2 values of C (0.1, 1) for the T independent SVMs and for            30 individuals. The C of both the individual SVMs
+the 1 SVM), the test performances we report are very close           and of the proposed method is 0.1. Top: Noise is
+to the actual test performances, as we discussed in section          low. Bottom: Noise is high. Left: Similarity of tasks
+2.1. Notice also that when there are few tasks (30 in this           is high. Right: Similarity of tasks is low.
+case) the proposed method is relatively better than HB than
+when there are many tasks (100 in this case).
+                                                                        We also tested the method using the “school data” from
+ Noise    Similar     HB      µ = 0.1     T SVMs      1 SVM          the Inner London Education Authority available at
+  H          L       0.85      0.81∗        0.84       1.32          multilevel.ioe.ac.uk/intro/datasets.html.
+                    26.14%    25.86%∗     26.22%      38.2%          We selected this dataset to compare our method directly
+   H        H        0.90       0.86        0.97       0.96          with the work of [4] where a number of multi-task learn-
+                    31.03%    30.58%      31.60%      33.2%          ing methods are compared using this dataset. This data
+                                                                     consists of examination records of 15362 students from 139
+   L         L       0.60      0.58∗        0.65       1.00
+                                                                     secondary schools. The goal is to predict the exam scores of
+                    14.34%    14.12%∗     16.00%      24.1%
+                                                                     the students based on the following inputs: year of the exam,
+   L        H        0.48      0.46∗        0.68       0.57
+                                                                     gender, VR band, ethnic group, percentage of students eli-
+                    13.42%    13.19%∗     17.11%      15.8%
+                                                                     gible for free school meals in the school, percentage of stu-
+                                                                     dents in VR band one in the school, gender of the school
+Table 1: Comparison of methods using RMSE and
+                                                                     (i.e. male, female, mixed), and school denomination. We
+hit error rates. There are 30 individuals. The C
+                                                                     represented the categorical variables using binary (dummy)
+of both the T individual SVMs and the proposed
+                                                                     variables, so the total number of inputs for each student in
+method is 0.1. Bold indicates best or not signif-
+                                                                     each of the schools was 27. Since the goal is to predict the
+icantly diﬀerent than best at p < 0.05. A ∗ indi-
+                                                                     exam scores of the students we run regression using the SVM
+cates best or not signiﬁcantly diﬀerent than best at
+                                                                      –loss function [25] for the multi–task learning method pro-
+p < 0.10.
+                                                                     posed. We consider each school to be “one task”. Therefore
+                                                                     we had 139 tasks. We made 10 random splits of the data
+                                                                     into training (75% of the data, hence around 70 students
+                                                                     per school on average) and test (the remaining 25% of the
+                                                                     data, hence around 40 students per school on average) data
+3.2 Using a Real Dataset                                             and we measured the generalization performance using the
+0.75                                     1
+
+                                                                       Noise   Similar      HB       µ = 0.1    T SVMs      1 SVM
+                                   0.95
+ 0.7
+
+                                    0.9
+                                                                        H         L         0.81      0.79        0.82       1.31
+0.65
+                                   0.85
+                                                                                          24.65%     24.24%     24.98%      38.9%
+ 0.6
+                                    0.8
+                                                                         H        H        0.90       0.90        1.01       0.96
+0.55
+                                   0.75
+                                                                                          31.49%     31.48%     33.13%      33.0%
+                                    0.7                                  L        L        0.59       0.58        0.66       0.98
+ 0.5
+
+                                   0.65                                                   13.97%     14.02%     15.57%      23.9%
+0.45
+                                    0.6                                  L        H        0.47       0.46        0.66       0.57
+ 0.4
+   −4   −2   0   2   4    6    8
+                                   0.55
+                                      −4     −2   0   2   4   6   8                       13.05%     13.28%     16.98%      15.8%
+
+                                                                      Table 2: Comparison of methods using RMSE and
+1.02                               1.4
+
+                                                                      hit rates. There are 100 individuals. The C of both
+  1                                1.3
+                                                                      the T individual SVMs and the proposed method is
+0.98                               1.2                                0.1. Bold indicates best or not signiﬁcantly diﬀerent
+0.96                               1.1
+                                                                      than best at p < 0.05. A ∗ indicates best or not
+                                    1
+                                                                      signiﬁcantly diﬀerent than best at p < 0.10
+0.94
+
+
+
+
+0.92                               0.9
+
+
+
+
+ 0.9                               0.8
+
+
+
+
+0.88
+   −4   −2   0   2   4    6    8
+                                   0.7
+                                     −4      −2   0   2   4   6   8
+                                                                      dataset is close to being from a single task (despite this ob-
+                                                                      servation, we use this dataset for direct comparison with [4])
+ Figure 2:          Horizontal axis is the log(µ) (µ =                – this indicates that when the tasks are the same task, using
+ 0.1, 0.5, 1, 2, 10, 1000) of the proposed method. As in              the proposed multi-task learning method does not hurt as
+ Table 1, the C of both the T individual SVMs and                     long as a small enough µ is chosen.
+ the proposed method is 0.1. The Vertical axis is the
+ average RMSE of the estimated functions. Dashed
+                                                                                   µ = 0.5    34.30 ± 0.3   34.37 ± 0.4
+ straight line is the RMSE of HB. Dotted horizon-
+                                                                                    µ=1       34.28 ± 0.4   34.37 ± 0.3
+ tal line is the average RMSE when we estimate one
+ SVM per individual. The solid line is the average                                  µ=2       34.26 ± 0.4   34.11 ± 0.4
+ RMSE of the proposed method - the left-most point                                 µ = 10     34.32 ± 0.3   29.71 ± 0.4
+ at each graph is for solving one SVM only for all                                µ = 1000    11.92 ± 0.5   4.83 ± 0.4
+ tasks as if we assume that there is only one task - the                          Bayesian    29.5 ± 0.4    29.5 ± 0.4
+ limit of µ = 0 (we don’t log µ = 0 clearly). There are
+ 100 individuals. The C of both the individual SVMs                   Table 3: School Data: ﬁrst column shows the ex-
+ and of the proposed method is 0.1. Top: Noise is                     plained variance of the proposed method with C =
+ low. Bottom: Noise is high. Left: Similarity of tasks                0.1 and second column with C = 1. The last row is
+ is high. Right: Similarity of tasks is low.                          the explained variance for the Bayesian task cluster-
+                                                                      ing method of [4].
+
+ explained variance of the test data as a measure in order to
+ have a direct comparison with [4] where this error measure
+ is used. The explained variance is deﬁned in [4] to be the           4. DISCUSSION
+ total variance of the data minus the sum–squared error on
+ the test set as a percentage of the total data variance, which
+ is a percentage version of the standard R2 error measure for            We presented a new method for multi–task learning using
+ regression for the test data. Finally, we used a simple linear       a regularization approach. This is a natural extension of ex-
+ kernel for each of the tasks.                                        isting regularization based learning methods, such as SVMs,
+    The results for this experiment are reported in Table 3.          from single–task to multi–task learning. We tested the ap-
+ For comparison we also report the performance of the task            proach using both simulated and real data, and compared
+ clustering method reported in [4]. We show the results for           it with existing multi–task learning methods. The results
+ all the parameters C and µ we tested, other than µ = 0 cor-          a) show the strength of the proposed approach relative to
+ responding to having 1 SVM for all tasks. We let the ratio           other multi–task learning methods, and b) verify, in agree-
+ µ = Tλλ12 vary to see the eﬀects. As with the previous exper-        ment with past experimental work [4, 11, 15], the advantage
+ iments, when µ is large we get the performance of solving            of multi–task learning relative to single task learning. The
+ one SVM regression model per school (per task).                      proposed method also reduces to standard single–task learn-
+    The results, although still preliminary, show the advan-          ing when we set the task coupling parameter µ appearing in
+ tage of learning all tasks (for all schools) simultaneously in-      the matrix–valued kernel (14) to be very large: hence there
+ stead of learning them one by one. Moreover, even the sim-           is no risk using this multi–task learning method even when
+ ple linear kernel (14) signiﬁcantly outperforms the Bayesian         the tasks are not related. It is a matter of choosing the
+ method of [4], which is in turn better than other methods            appropriate parameter µ, which may be possible to do for
+ as compared in [4]. It turns out that for this dataset 1 SVM         example using some form of cross–validation or a validation
+ for all tasks performs the same as the best performance we           set [25]. How to select µ is currently an open problem which
+ report here for µ = 0.5, hence it appears that the particular        we believe is also related to the general question of how to
+model and measure the relatedness between tasks – e.g. how                   Xt = Rdt , where dt are some positive integers. This
+do we know a priori that tasks are related?                                  problem can be cast in the above framework by deﬁn-
+   A number of extensions of the methods discussed above                     ing the input space
+are possible. These concern for example the use of diﬀerent
+loss functions (i.e. square loss) and, especially, the use of                                  X := X1 × X2 × · · · XT
+more general matrix–valued kernels. We discuss some of                       and the vector–valued function f : X → Rn whose
+these below.                                                                 coordinates are given by ft (x) = gt (xt ), where x =
+   • The learning methods presented in this paper concern                    (x1 , . . . , xT ) ∈ X .
+     only SVMs with the Hinge loss function. These ideas                     For each s, t ∈ {1, . . . , T }, deﬁne the functions Cst :
+     can be applied as well to other loss functions and con-                 Xs × Xt → R so that the matrix–valued kernel
+     tinuous multi–task learning problems. In general this
+     problem is of the form                                                         Kst (x, z) = Cst (xs , zt ), s, t ∈ {1, . . . , T }
+
+                    
+                    N                                                        satisﬁes the properties in Proposition 1 of [20], where
+              min
+                w
+                          V (yi , w, Φ(xi , ti ) ) + λ w, w                  x = (x1 , . . . , xT ) and z = (z1 , . . . , zT ) ∈ X . In this
+                    i=1                                                      case the function
+     where V is the loss function and ·, · the inner prod-
+                                                                                            G((x, s), (z, t)) = Cst (xs , zt )
+     uct in a feature space. For example, in the “school
+     dataset” each function is a regression function and we                  is a kernel (is it symmetric and positive deﬁnite) and
+     used for V the –loss function of SVM regression [25].                   can be used in problem 2.4 indeed.
+     In virtue of the representer theorem, see e.g. [20], the
+     solution to this problem, F ∗ = w∗ , Φ has the form                   We leave the exploration of matrix–valued kernels for dif-
+     in equation (16).                                                  ferent types of multi–task learning applications as part of
+   • We observed above that the regularizer in problem 2.2              future work. On the theoretical side another important
+     (which is equivalent to problem 2.1) forces each model             problem will be to study generalization error bounds for
+     parameters to be close to the average of the model                 the proposed methods. In particular, it may be possible to
+     parameters. In many practical situations this assump-              link the matrix–valued kernels to the notion of relatedness
+     tion may be too restrictive. Instead, we may know                  between tasks discussed in [8].
+     that only tasks in some subgroups are similar to each
+     others. If I1 , . . . , Ic ⊆ {1, . . . , T } denotes the (possi-
+                                                                        Acknowledgements
+     bly overlapping) index sets of these similar tasks, we             We wish to thank Sayan Mukherjee, Tomaso Poggio, and
+     modify the stabilizer in problem 2.2 to be                         especially Charlie Micchelli for useful discussions.
+                                                              2
+             T                
+                               c+1               1         
+                                                               
+          ρ1     wt  + 2
+                                   ρi        wt −         w           5. REFERENCES
+                                                   Ti s∈I
+                                                             s 
+             t=1               i=2    t∈I 
+                                        i               i
+                                                               
+                                                                         [1] G.M. Allenby and P.E. Rossi. Marketing Models of
+     where Ti is the cardinality of the set Ii . We may even                 Consumer Heterogeneity. Journal of Econometrics,
+     consider learning these index sets. For example, one                    89, p. 57–78, 1999.
+     way to do so would be to use the task clustering ap-
+                                                                         [2] N. Arora G.M Allenby, and J. Ginter. A Hierarchical
+     proach in [4].
+                                                                             Bayes Model of Primary and Secondary Demand.
+   • Equation (1) can be generalized in diﬀerent ways by                     Marketing Science, 17,1, p. 29–44, 1998
+     means of nonlinear kernels. One immediate possibility               [3] N. Arora and J. Huber. Improving parameter
+     is to model ft as                                                       estimates and model prediction by aggregate
+                                                                             customization in choice experiments. Journal of
+                                ft = g + gt                                  Consumer Research, Vol. 28, September 2001.
+     where g is a function common to all tasks and gt are                [4] B. Bakker and T. Heskes. Task clustering and gating
+     individual functions for each task. If K1 is the kernel                 for Bayesian multi–task learning. Journal of Machine
+     used to model g and K2 is the kernel used to model                      Learning Research, 4: 83–99, 2003.
+     the gt , the matrix–valued kernel to be used in problem             [5] J. Baxter. A Bayesian/Information Theoretic Model of
+     2.4 becomes                                                             Learning to Learn via Multiple Task Sampling.
+                   1                                                         Machine Learning, 28, pp. 7–39, 1997.
+     Kst (x, z) := K1 (x, z) + δst K2 (x, z), s, t = 1, . . . , T.
+                   µ                                                     [6] J. Baxter. A Model for Inductive Bias Learning.
+                                                                             Journal of Artificial Intelligence Research, 12, p.
+     For example one can model g by a low-degree polyno-
+                                                                             149–198, 2000.
+     mial and allow a higher degree polynomial kernel to
+                                                                         [7] S. Ben-David, J. Gehrke, and R. Schuller. A
+     model the gt , for example K1 (x, z) = x · z, K2 (x, z) =
+                                                                             Theoretical Framework for Learning from a Pool of
+     (x · z)2 .
+                                                                             Disparate Data Sources. Proceedings of Knowledge
+   • Suppose each task/function uses diﬀerent types of fea-                  Discovery and Datamining (KDD), 2002.
+     tures, that is we have a collection of sets, Xt , t =               [8] S. Ben-David and R. Schuller. Exploiting Task
+     1, . . . , T , and for each set we wish to learn a target               Relatedness for Multiple Task Learning. Proceedings
+     function gt : Xt → R. For example, we could have                        of Computational Learning Theory (COLT), 2003.
+ [9] L. Breiman and J.H Friedman. Predicting                 [18] G.R.G. Lanckriet, T. De Bie, N. Cristianini,
+     Multivariate Responses in Multiple Linear Regression.        M.I. Jordan, and W.S. Noble. A framework for
+     Royal Statistical Society Series B, 1998.                    genomic data fusion and its application to membrane
+[10] P.J. Brown and J.V. Zidek. Adaptive Multivariate             protein prediction. Technical Report CSD–03–1273,
+     Ridge Regression. The Annals of Statistics, Vol. 8,          Division of Computer Science, University of
+     No. 1, p. 64–74, 1980.                                       California, Berkeley, 2003.
+[11] R. Caruana. Multi–Task Learning. Machine Learning,      [19] O.L. Mangasarian. Nonlinear Programming. Classics
+     28, p. 41–75, 1997.                                          in Applied Mathematics. SIAM, 1994.
+[12] T. Evgeniou, C. Boussios, and G. Zacharia.              [20] C.A. Micchelli and M. Pontil. On Learning
+     Generalized Robust Conjoint Estimation. INSEAD               Vector–Valued Functions. Research Note RN/03/08,
+     Working Paper, 2002.                                         Dept of Computer Science, UCL, July 2003.
+[13] T. Evgeniou, M. Pontil, and T. Poggio. Regularization   [21] D.L. Silver and R.E Mercer. The parallel transfer of
+     networks and support vector machines. Advances in            task knowledge using dynamic learning rates based on
+     Computational Mathematics, 13:1–50, 2000.                    a measure of relatedness. Connection Science, 8, p.
+[14] B. Heisele, T. Serre, M. Pontil, T. Vetter, and              277–294, 1996.
+     T. Poggio. Categorization by Learning and Combining     [22] S. Thrun and L. Pratt. Learning to Learn. Kluwer
+     Object Parts. In: Advances in Neural Information             Academic Publishers, November 1997.
+     Processing Systems 14, Vancouver, Canada, Vol. 2,       [23] S. Thrun and J. O’Sullivan. Clustering Learning Tasks
+     1239–1245, 2002.                                             and the Selective Cross–Task Transfer of Knowledge.
+[15] T. Heskes. Empirical Bayes for learning to learn.            In Learning To Learn, Editors S. Thrun and L.Y.
+     Proceedings of ICML–2000, ed. Langley, P., pp.               Pratt, Kluwer Academic Publishers, 1998.
+     367–374, 2000.                                          [24] O. Toubia, D.I. Simester, J.R. Hauser, and E. Dahan.
+[16] M.I. Jordan and R.A. Jacobs. Hierarchical Mixtures of        Fast Polyhedral Adaptive Conjoint Estimation.
+     Experts and the EM Algorithm. Neural Computation,            Working paper, MIT Sloan School of Management,
+     1993.                                                        2001.
+[17] J. Kim, G.M. Allenby, and P.E. Rossi. Modeling          [25] V. N. Vapnik. Statistical Learning Theory. Wiley, New
+     Consumer Demand for Variety. Marketing Science,              York, 1998.
+     Vol. 21, No. 3, pp. 229–250, Summer 2002.               [26] G. Wahba. Splines Models for Observational Data.
+                                                                  Series in Applied Mathematics, Vol. 59, SIAM,
+                                                                  Philadelphia, 1990.
+

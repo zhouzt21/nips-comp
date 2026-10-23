@@ -1,0 +1,259 @@
+{
+  "scope": "posthoc descriptive, not calibration",
+  "benchmarks": [
+    {
+      "benchmark": "abstract_reason/formatted_tables",
+      "active": true,
+      "nonincreasing_oracle": false,
+      "alpha_B3": 1.0,
+      "alpha_B31": 1.0
+    },
+    {
+      "benchmark": "adaptivestep/formatted_tables",
+      "active": true,
+      "nonincreasing_oracle": true,
+      "alpha_B3": 1.0,
+      "alpha_B31": 1.0
+    },
+    {
+      "benchmark": "aegis/formatted_tables",
+      "active": true,
+      "nonincreasing_oracle": false,
+      "alpha_B3": 1.0,
+      "alpha_B31": 0.658766644543626
+    },
+    {
+      "benchmark": "agentic_review_perturbation/formatted_tables",
+      "active": true,
+      "nonincreasing_oracle": false,
+      "alpha_B3": 0.0,
+      "alpha_B31": 0.0
+    },
+    {
+      "benchmark": "agi_elo/formatted_tables",
+      "active": true,
+      "nonincreasing_oracle": true,
+      "alpha_B3": 1.0,
+      "alpha_B31": 1.0
+    },
+    {
+      "benchmark": "ai2d_test/formatted_tables",
+      "active": true,
+      "nonincreasing_oracle": false,
+      "alpha_B3": 0.6884827595336818,
+      "alpha_B31": 0.4966266841325024
+    },
+    {
+      "benchmark": "algotune/formatted_tables",
+      "active": true,
+      "nonincreasing_oracle": false,
+      "alpha_B3": 0.564562442862819,
+      "alpha_B31": 1.0
+    },
+    {
+      "benchmark": "alignment_faking/formatted_tables",
+      "active": true,
+      "nonincreasing_oracle": true,
+      "alpha_B3": 1.0,
+      "alpha_B31": 0.2096044189392584
+    },
+    {
+      "benchmark": "appworld/formatted_tables",
+      "active": true,
+      "nonincreasing_oracle": false,
+      "alpha_B3": 0.0,
+      "alpha_B31": 1.0
+    },
+    {
+      "benchmark": "bbq/formatted_tables",
+      "active": true,
+      "nonincreasing_oracle": true,
+      "alpha_B3": 1.0,
+      "alpha_B31": 1.0
+    },
+    {
+      "benchmark": "beavertails/formatted_tables",
+      "active": true,
+      "nonincreasing_oracle": false,
+      "alpha_B3": 0.0,
+      "alpha_B31": 0.0
+    },
+    {
+      "benchmark": "benger/formatted_tables",
+      "active": true,
+      "nonincreasing_oracle": true,
+      "alpha_B3": 1.0,
+      "alpha_B31": 1.0
+    },
+    {
+      "benchmark": "bertaqa/formatted_tables",
+      "active": true,
+      "nonincreasing_oracle": true,
+      "alpha_B3": 1.0,
+      "alpha_B31": 1.0
+    },
+    {
+      "benchmark": "bird_sql/formatted_tables",
+      "active": true,
+      "nonincreasing_oracle": false,
+      "alpha_B3": 0.12597953669912365,
+      "alpha_B31": 0.0
+    },
+    {
+      "benchmark": "braveguard/formatted_tables",
+      "active": true,
+      "nonincreasing_oracle": false,
+      "alpha_B3": 0.0,
+      "alpha_B31": 1.0
+    },
+    {
+      "benchmark": "cellverse/formatted_tables",
+      "active": true,
+      "nonincreasing_oracle": false,
+      "alpha_B3": 0.0,
+      "alpha_B31": 1.0
+    },
+    {
+      "benchmark": "ceval/formatted_tables",
+      "active": true,
+      "nonincreasing_oracle": false,
+      "alpha_B3": 0.0,
+      "alpha_B31": 0.43434704035371785
+    },
+    {
+      "benchmark": "cmmlu/formatted_tables",
+      "active": true,
+      "nonincreasing_oracle": true,
+      "alpha_B3": 1.0,
+      "alpha_B31": 0.9776914287028229
+    },
+    {
+      "benchmark": "cruxeval/formatted_tables",
+      "active": true,
+      "nonincreasing_oracle": true,
+      "alpha_B3": 1.0,
+      "alpha_B31": 1.0
+    },
+    {
+      "benchmark": "dave/formatted_tables",
+      "active": true,
+      "nonincreasing_oracle": true,
+      "alpha_B3": 1.0,
+      "alpha_B31": 1.0
+    },
+    {
+      "benchmark": "devbench/formatted_tables",
+      "active": true,
+      "nonincreasing_oracle": false,
+      "alpha_B3": 0.0,
+      "alpha_B31": 0.5582663189299318
+    },
+    {
+      "benchmark": "editbench/formatted_tables",
+      "active": true,
+      "nonincreasing_oracle": false,
+      "alpha_B3": 0.0,
+      "alpha_B31": 0.5579535843763529
+    },
+    {
+      "benchmark": "edu_circuit_hw/formatted_tables",
+      "active": false,
+      "nonincreasing_oracle": true,
+      "alpha_B3": -0.0,
+      "alpha_B31": -0.0
+    },
+    {
+      "benchmark": "egoschema/formatted_tables",
+      "active": true,
+      "nonincreasing_oracle": false,
+      "alpha_B3": 0.7786455962646212,
+      "alpha_B31": 1.0
+    },
+    {
+      "benchmark": "emoji_attack/formatted_tables",
+      "active": true,
+      "nonincreasing_oracle": false,
+      "alpha_B3": 1.0,
+      "alpha_B31": 1.0
+    },
+    {
+      "benchmark": "engdesign/formatted_tables",
+      "active": true,
+      "nonincreasing_oracle": false,
+      "alpha_B3": 0.08863920560736968,
+      "alpha_B31": 0.21069137546093694
+    },
+    {
+      "benchmark": "enginemt_qa/formatted_tables",
+      "active": true,
+      "nonincreasing_oracle": false,
+      "alpha_B3": 0.4143493911253897,
+      "alpha_B31": 1.0
+    },
+    {
+      "benchmark": "evouna/formatted_tables",
+      "active": true,
+      "nonincreasing_oracle": true,
+      "alpha_B3": 1.0,
+      "alpha_B31": 1.0
+    },
+    {
+      "benchmark": "exploitgym/formatted_tables",
+      "active": true,
+      "nonincreasing_oracle": true,
+      "alpha_B3": 0.0,
+      "alpha_B31": 0.0
+    },
+    {
+      "benchmark": "faithcot/formatted_tables",
+      "active": true,
+      "nonincreasing_oracle": true,
+      "alpha_B3": 1.0,
+      "alpha_B31": 0.8259948650642399
+    },
+    {
+      "benchmark": "felm/formatted_tables",
+      "active": true,
+      "nonincreasing_oracle": true,
+      "alpha_B3": 1.0,
+      "alpha_B31": 0.0
+    },
+    {
+      "benchmark": "fewshot_ttt_bbh/formatted_tables",
+      "active": true,
+      "nonincreasing_oracle": false,
+      "alpha_B3": 0.6424208874425276,
+      "alpha_B31": 0.6027153631371416
+    },
+    {
+      "benchmark": "financebench/formatted_tables",
+      "active": true,
+      "nonincreasing_oracle": true,
+      "alpha_B3": 1.0,
+      "alpha_B31": 1.0
+    },
+    {
+      "benchmark": "finegrain_t2i/formatted_tables",
+      "active": true,
+      "nonincreasing_oracle": true,
+      "alpha_B3": 1.0,
+      "alpha_B31": 1.0
+    },
+    {
+      "benchmark": "hallusionbench/formatted_tables",
+      "active": true,
+      "nonincreasing_oracle": false,
+      "alpha_B3": 0.5866234315882701,
+      "alpha_B31": 0.9575193064709642
+    },
+    {
+      "benchmark": "healthadminbench/formatted_tables",
+      "active": true,
+      "nonincreasing_oracle": false,
+      "alpha_B3": 0.0,
+      "alpha_B31": 1.0
+    }
+  ],
+  "active": 35,
+  "nonincreasing_active": 15
+}

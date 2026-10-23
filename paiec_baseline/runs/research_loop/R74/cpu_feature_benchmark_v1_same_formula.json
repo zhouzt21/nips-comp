@@ -1,0 +1,37 @@
+{
+  "cpu_threads": 2,
+  "items": 8,
+  "repeats": 3,
+  "initialization_seconds": 1.1046415999298915,
+  "warmup_seconds": 14.709009099984542,
+  "batch8_seconds": [
+    0.30235559993889183,
+    0.35174489999189973,
+    0.32739109999965876
+  ],
+  "median_batch8_seconds": 0.32739109999965876,
+  "single_seconds": [
+    0.08062370005063713,
+    0.07762490003369749,
+    0.060342099983245134
+  ],
+  "median_single_seconds": 0.07762490003369749,
+  "heads_1000_median_seconds": 0.036235750012565404,
+  "item_identities": [
+    "paiec-r53-000-50b64751cce5b7ff",
+    "paiec-r53-001-c344db89009db88e",
+    "paiec-r53-002-92e3934cd8734d52",
+    "paiec-r53-003-a61cabf301bb2f83",
+    "paiec-r53-004-d0557af3d596645c",
+    "paiec-r53-005-70704748fc98e077",
+    "paiec-r53-006-a1de9e8d19f80140",
+    "paiec-r53-007-6f7b49d7fae5d04d"
+  ],
+  "grade_heads_bytes": 33941,
+  "includes": "canonicalization, original 126-content-token+2-special MiniLM CPU inference, legal metadata, four grade heads",
+  "excludes": "item parquet disk loading, process startup/import and response prior/local solve; initialization separately reported",
+  "cache_write": false,
+  "cuda_used": false,
+  "platform": "Windows-10-10.0.19045-SP0",
+  "model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41"
+}

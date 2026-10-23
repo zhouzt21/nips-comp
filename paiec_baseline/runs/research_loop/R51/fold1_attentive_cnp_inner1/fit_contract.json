@@ -1,0 +1,42 @@
+{
+  "seed": 5208,
+  "model_name": "attentive_cnp",
+  "source_fingerprint": "a739dcd55115c0bbb46e1487b917e75548b86d63d46fa91f2251fa85668af453",
+  "fit_benchmarks": [
+    "agentic_review_perturbation/formatted_tables",
+    "agi_elo/formatted_tables",
+    "algotune/formatted_tables",
+    "alignment_faking/formatted_tables",
+    "benger/formatted_tables",
+    "bird_sql/formatted_tables",
+    "cellverse/formatted_tables",
+    "exploitgym/formatted_tables",
+    "felm/formatted_tables",
+    "financebench/formatted_tables",
+    "healthadminbench/formatted_tables"
+  ],
+  "validation_benchmarks": [
+    "abstract_reason/formatted_tables",
+    "adaptivestep/formatted_tables",
+    "ai2d_test/formatted_tables",
+    "bertaqa/formatted_tables",
+    "braveguard/formatted_tables",
+    "ceval/formatted_tables",
+    "cruxeval/formatted_tables",
+    "dave/formatted_tables",
+    "edu_circuit_hw/formatted_tables",
+    "egoschema/formatted_tables",
+    "engdesign/formatted_tables",
+    "evouna/formatted_tables"
+  ],
+  "training_pairs": 146,
+  "validation_pairs": 114,
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "batch_size": 8,
+  "epochs": 60,
+  "threads": 4,
+  "objective": "pair-equal six-budget-weighted Bernoulli NLL on disjoint query items",
+  "parameters": 148097
+}

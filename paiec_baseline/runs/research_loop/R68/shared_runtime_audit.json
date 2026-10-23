@@ -1,0 +1,39 @@
+{
+  "status": "blocked_by_runtime_contract",
+  "public_interface_checked_utc": "2026-10-22T14:45:27.939768+00:00",
+  "official_commit": "cc88a959c1e5e7462f31a9215baba066ce6d6e2b",
+  "assets": [
+    {
+      "url": "https://raw.githubusercontent.com/aims-foundations/paiec_baseline/cc88a959c1e5e7462f31a9215baba066ce6d6e2b/README.md",
+      "path": "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R68\\official_baseline\\README.md",
+      "sha256": "7c3d550f7ca52cf3677eed5ea804984a5a99e02f9b00b551c4b9f5b634823860"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/aims-foundations/paiec_baseline/cc88a959c1e5e7462f31a9215baba066ce6d6e2b/empirical_mean/model.py",
+      "path": "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R68\\official_baseline\\empirical_mean\\model.py",
+      "sha256": "1e570641dd9b981baae988779b904ae58ad610a99bd44fb861647c60c93e935e"
+    }
+  ],
+  "confirmed": {
+    "input": "one subject dict and one item dict; plain strings",
+    "labeled": "[[subject,item],label] across sampled subject-benchmark pairs, allowed budget only; B0 empty",
+    "benchmark_matching": "stable anonymous benchmark_id supplied in item",
+    "subject_matching": "visible subject attributes available; no subject_id in prediction input",
+    "item_matching": "content, item_features, interactors available; no stable item_id in prediction interface"
+  },
+  "unresolved": [
+    "exact peer visibility/cohort composition at each scoring call",
+    "cross-pair process/state isolation and call order",
+    "whether identical content/metadata denotes the same task in all records; no stable item id"
+  ],
+  "starter_access": "AnySearch extract of public Codabench 17828 failed; public baseline repository is not the hosted runner",
+  "decision": "No new cohort simulation or hidden-state predictor. Multi-pair evidence is documented, but prior cohort4 results remain conditional and are not hosted gains.",
+  "historical_evidence": {
+    "R20_pooled": 0.202834515,
+    "R20_own_selected": 0.203917943,
+    "R36_own_mean_pooled_direction": 0.195253399,
+    "R36_strong_own": 0.19532506,
+    "interpretation": "R20 item correspondence adds information conditional on shared labels; R36 gain vs strong own is only 0.000071661 with fold regression and CI crossing zero."
+  },
+  "official_interface_sha256": "b13926295d6135c1ee09cbadbabbb0cffeaf3e10a159864f04aec5bbe2c97954"
+}

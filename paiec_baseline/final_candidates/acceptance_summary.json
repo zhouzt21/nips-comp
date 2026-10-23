@@ -1,0 +1,165 @@
+{
+  "finished": "2026-10-23T11:43:18.159722+00:00",
+  "candidates": {
+    "r25_nopeer": {
+      "status": "NOT_READY",
+      "local_acceptance": "PASS",
+      "sha256": "88d5e026015f219118b4e0c5bf91995397267d9983c757b56d4ec6e2756d69e9",
+      "bytes": 83506303,
+      "benchmarks": 36,
+      "real_query_inputs": 144,
+      "six_budgets": true,
+      "synthetic_cases": 34,
+      "max_probability_error": 5.9556700571228305e-08,
+      "max_scaled_feature_error": 5.960464477539063e-08,
+      "resources": {
+        "seconds": 178.87812240002677,
+        "cold_load_seconds": 0.8318658999633044,
+        "max_request_seconds": 7.523637200007215,
+        "median_request_seconds": 0.005014499998651445,
+        "p95_request_seconds": 0.3280774300219489,
+        "peak_rss_mib": 557.65234375,
+        "calls": 927
+      },
+      "fresh_process_repeat": "exact",
+      "public_streaming": "PASS_LOCAL_INJECTED_EXCHANGE",
+      "blockers": [
+        "Actual Starting Kit and Hosted dependency installation/runtime not verified",
+        "Linux clean-environment acceptance unavailable: WSL echo and Python calls hung; owned client probes stopped"
+      ],
+      "zip": "D:\\nips-comp\\nips-comp\\paiec_baseline\\dist\\paiec_r25_nopeer_final_candidate.zip"
+    },
+    "partial8_shared": {
+      "status": "NOT_READY",
+      "local_acceptance": "PASS",
+      "sha256": "7a294166bf22892cb8ee3e73f268263bdfaf28895a5f6d2a5452d16866feac73",
+      "bytes": 83506305,
+      "benchmarks": 36,
+      "real_query_inputs": 144,
+      "six_budgets": true,
+      "synthetic_cases": 34,
+      "max_probability_error": 8.508159166087381e-08,
+      "max_scaled_feature_error": 5.960464477539063e-08,
+      "resources": {
+        "seconds": 234.44511450000573,
+        "cold_load_seconds": 1.2466819999972358,
+        "max_request_seconds": 9.979484100011177,
+        "median_request_seconds": 0.0034075999865308404,
+        "p95_request_seconds": 0.40939499996602535,
+        "peak_rss_mib": 622.78515625,
+        "calls": 1791
+      },
+      "fresh_process_repeat": "exact",
+      "public_streaming": "PASS_LOCAL_INJECTED_EXCHANGE",
+      "blockers": [
+        "Actual Starting Kit and Hosted dependency installation/runtime not verified",
+        "Linux clean-environment acceptance unavailable: WSL echo and Python calls hung; owned client probes stopped",
+        "Trusted Subject roster absent from official predict signature; shared mode cannot activate there"
+      ],
+      "zip": "D:\\nips-comp\\nips-comp\\paiec_baseline\\dist\\paiec_partial8_shared_final_candidate.zip"
+    }
+  },
+  "historical_replay": {
+    "finished": "2026-10-23T11:21:29.442852+00:00",
+    "seconds": 422.9644837999949,
+    "benchmarks": 36,
+    "trajectories": 15726,
+    "unique_pairs": 5242,
+    "historical_alc_error": {
+      "R25": 0.0,
+      "Partial8": 0.0
+    },
+    "max_historical_probability_error": 3.3306690738754696e-16,
+    "historical_foldwise_score": {
+      "R25": {
+        "brier_mean": [
+          0.25,
+          0.22211948087392974,
+          0.19884281352445324,
+          0.1816234096272854,
+          0.16905498631865323,
+          0.15795787907130196
+        ],
+        "alc_mean": 0.19512392597599454,
+        "accuracy_at_0_5": [
+          0.4304656054350065,
+          0.6669748907115952,
+          0.6899300130611553,
+          0.7123691525006152,
+          0.7375180437443135,
+          0.7631699262384306
+        ]
+      },
+      "Partial8": {
+        "brier_mean": [
+          0.25,
+          0.22211948087392974,
+          0.19681634686225105,
+          0.17635824144909984,
+          0.15966938986161242,
+          0.14555164478089933
+        ],
+        "alc_mean": 0.19054785628746854,
+        "accuracy_at_0_5": [
+          0.4304656054350065,
+          0.6669748907115952,
+          0.6914568210483016,
+          0.7262229591045142,
+          0.7600433592436323,
+          0.791862463248405
+        ]
+      }
+    },
+    "release_fixed4_local_score": {
+      "R25": {
+        "brier_mean": [
+          0.25,
+          0.22211948087392974,
+          0.19941290295769923,
+          0.1835296803669149,
+          0.1733525316791443,
+          0.16602465345998138
+        ],
+        "alc_mean": 0.19728538452153577,
+        "accuracy_at_0_5": [
+          0.4304656054350065,
+          0.6669748907115952,
+          0.6899779776869127,
+          0.7077519984397769,
+          0.7210306317136923,
+          0.7399438838028578
+        ]
+      },
+      "Partial8": {
+        "brier_mean": [
+          0.25,
+          0.22211948087392974,
+          0.1985842534624946,
+          0.18131528353178109,
+          0.1687841928112681,
+          0.15814186751426507
+        ],
+        "alc_mean": 0.1949748288873212,
+        "accuracy_at_0_5": [
+          0.4304656054350065,
+          0.6669748907115952,
+          0.690118189010632,
+          0.7090712322216933,
+          0.7348574867952514,
+          0.7603404913179039
+        ]
+      }
+    },
+    "hosted_score": null
+  },
+  "preservation": {
+    "finished": "2026-10-23T11:36:32.288394+00:00",
+    "files_checked": 12843,
+    "unchanged": true,
+    "changed": []
+  },
+  "official_commit": "cc88a959c1e5e7462f31a9215baba066ce6d6e2b",
+  "real_hosted_calls": 0,
+  "official_submissions": 0,
+  "hosted_score": null
+}

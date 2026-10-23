@@ -1,0 +1,161 @@
+﻿{
+    "recorded_at":  "2026-10-22T16:40:43.5453988+08:00",
+    "source_root":  "D:/nips-comp/paiec-dataset/reproduction_sources/cnp_anp",
+    "repo_commit":  "aca7e38ea64b718fbd7f311ccae5d51d73447d15",
+    "repo_commit_date":  "2020-03-20T12:57:17Z",
+    "repo_url":  "https://github.com/google-deepmind/neural-processes",
+    "license":  "Apache-2.0",
+    "copyright":  "2018-2019 Google LLC",
+    "papers":  [
+                   {
+                       "id":  "cnp",
+                       "title":  "Conditional Neural Processes",
+                       "url":  "https://proceedings.mlr.press/v80/garnelo18a/garnelo18a.pdf",
+                       "venue":  "Proceedings of the 35th International Conference on Machine Learning",
+                       "version":  "PMLR 80:1704-1713 (2018)",
+                       "method_locator":  "Section 2.2 equations 1-3; Section 2.3 equation 4; PDF page 3"
+                   },
+                   {
+                       "id":  "anp",
+                       "title":  "Attentive Neural Processes",
+                       "url":  "https://arxiv.org/pdf/1901.05761",
+                       "venue":  "International Conference on Learning Representations 2019",
+                       "version":  "arXiv:1901.05761v2, 2019-07-09",
+                       "method_locator":  "Sections 2.1-3; equations 1-3; Figure 2; PDF pages 2-4; Section 4, page 5"
+                   }
+               ],
+    "retrieval":  {
+                      "search_engine":  "anysearch",
+                      "queries":  [
+                                      "Conditional Neural Processes Garnelo 2018",
+                                      "Attentive Neural Processes Kim 2019",
+                                      "Attentive Neural Processes"
+                                  ],
+                      "domain":  "academic",
+                      "sub_domain":  "academic.search",
+                      "request_ids":  [
+                                          "90157822-19ad-4302-b874-0d9f088aecdd",
+                                          "981fde57-19ae-4036-abe0-0daee44e01d7",
+                                          "845c0907-ba6b-45f7-b3f1-f48cdd4b06f4"
+                                      ],
+                      "pdf_extract":  "extract_failed for both PDFs; failures retained",
+                      "pdf_fallback":  "direct download of already identified primary PDFs; local pdftotext -layout; no alternate search engine"
+                  },
+    "implementation":  {
+                           "path":  "paiec_baseline/mlp/neural_process.py",
+                           "sha256":  "7a12aa728f2da537c377b71d04469270cc3b7e03bf0a3cb3d97994d7e97dbdc0",
+                           "models":  [
+                                          "CNP",
+                                          "AttentiveCNP"
+                                      ],
+                           "input_dim":  640,
+                           "hidden_dim":  64,
+                           "representation_dim":  64,
+                           "parameters":  {
+                                              "CNP":  102913,
+                                              "AttentiveCNP":  148097
+                                          },
+                           "loss":  "Bernoulli negative log likelihood in common harness",
+                           "complete_latent_anp":  false
+                       },
+    "verification":  {
+                         "tests_file":  "tests/test_neural_process.py",
+                         "test_file_sha256":  "aa8eb66e172d46d27d743f53f56a5823ae17fd8d3425f3089a46bd9543afce1f",
+                         "result":  "7 passed",
+                         "elapsed_seconds":  12.039,
+                         "command":  "powershell -NoProfile -ExecutionPolicy Bypass -File D:/nips-comp/paiec-runtime-win64-py312-cpu/python.ps1 -c \"import sys, unittest; sys.path.insert(0, \u0027paiec_baseline\u0027); suite=unittest.defaultTestLoader.discover(\u0027tests\u0027, pattern=\u0027test_neural_process.py\u0027); result=unittest.TextTestRunner(verbosity=2).run(suite); sys.exit(not result.wasSuccessful())\"",
+                         "independent_equation_backend":  "NumPy",
+                         "float64_atol":  1E-12,
+                         "float64_rtol":  1E-12,
+                         "tensorflow_installed":  false,
+                         "original_notebooks_executed":  false,
+                         "scope":  "upstream source static alignment plus independent NumPy equation equivalence, not original TensorFlow runtime parity or paper benchmark reproduction"
+                     },
+    "artifacts":  [
+                      {
+                          "path":  "cnp_search.md",
+                          "bytes":  7024,
+                          "sha256":  "0cac17dbb2058c8926f4c3aa9c5fd36d084c57acc43e92bb6d0febbb1049ce0a"
+                      },
+                      {
+                          "path":  "anp_search.md",
+                          "bytes":  6892,
+                          "sha256":  "e0a606e0ed35f1c0eeda8e0e0015a8a214418371ca9f3db7e64f2a5a0efb1b9d"
+                      },
+                      {
+                          "path":  "anp_search_exact.md",
+                          "bytes":  3943,
+                          "sha256":  "94de6b0ec91cc14ecbad12ac79290171e9c6181821ff6bf5a44b9dc30059dfb0"
+                      },
+                      {
+                          "path":  "cnp_proceedings.md",
+                          "bytes":  5057,
+                          "sha256":  "9d5c8f18468eb247ba631be6de6ea91a8fa8aeae54d68c69191a8b9406ae87fe"
+                      },
+                      {
+                          "path":  "official_repo_anysearch.md",
+                          "bytes":  7303,
+                          "sha256":  "39a08f9eabe84c962782cc406cc23435d225ac5de85990ff7ea8236a44cfeca9"
+                      },
+                      {
+                          "path":  "cnp_paper_anysearch.md",
+                          "bytes":  60,
+                          "sha256":  "97493a37f5c487f288c47d38e65b96f66beda7e1bd4c10570080e50e41218773"
+                      },
+                      {
+                          "path":  "anp_paper_anysearch.md",
+                          "bytes":  60,
+                          "sha256":  "97493a37f5c487f288c47d38e65b96f66beda7e1bd4c10570080e50e41218773"
+                      },
+                      {
+                          "path":  "cnp_paper.pdf",
+                          "bytes":  1264558,
+                          "sha256":  "4b8f0633fff65221863cad9457c7260957bf084fc3b6e0d9f514a1ed088e524e"
+                      },
+                      {
+                          "path":  "anp_paper.pdf",
+                          "bytes":  6102816,
+                          "sha256":  "6e58335ee133b0094e3adff9d06a223ebfac95285273a631855730e772749e35"
+                      },
+                      {
+                          "path":  "cnp_paper.txt",
+                          "bytes":  55198,
+                          "sha256":  "f00cbacdbec5b855d79269022ae6d4843d467b7ae1d5cb79d4ebff1debbb26e3"
+                      },
+                      {
+                          "path":  "anp_paper.txt",
+                          "bytes":  78466,
+                          "sha256":  "69228da7fdcaaf95ada755610d5e9a3dcb8d65d0e4f7b1fd0e3553d17ce8ed20"
+                      },
+                      {
+                          "path":  "conditional_neural_process.py",
+                          "bytes":  16097,
+                          "sha256":  "9dcf8ded1e27e1fcde52b1883362fe899689a2913aa4be7cf6e8eab518eaf290"
+                      },
+                      {
+                          "path":  "attentive_neural_process.py",
+                          "bytes":  30042,
+                          "sha256":  "18e9f7b590663a950265cf6800f33fe00f1afcb600de7227a660fa025909e8e1"
+                      },
+                      {
+                          "path":  "neural-processes/conditional_neural_process.ipynb",
+                          "bytes":  317358,
+                          "sha256":  "b169d581bc48966b8bebd12384fdeade743d7cb7673a79c4e73982cb3870b27f"
+                      },
+                      {
+                          "path":  "neural-processes/attentive_neural_process.ipynb",
+                          "bytes":  545702,
+                          "sha256":  "5ba912c696d2f7e84461bc65c6f28e87db4fe3041c7b95e625f1d7793bc0eb07"
+                      },
+                      {
+                          "path":  "neural-processes/README.md",
+                          "bytes":  2818,
+                          "sha256":  "013daeaa441468778245b4bfe303586a0c868609eda7a30424153e78c84fc517"
+                      },
+                      {
+                          "path":  "neural-processes/LICENSE",
+                          "bytes":  9986,
+                          "sha256":  "167806d693a5defd83e0b4722fff997915dd1c6ecdf29c05397716b03a60a5f7"
+                      }
+                  ]
+}

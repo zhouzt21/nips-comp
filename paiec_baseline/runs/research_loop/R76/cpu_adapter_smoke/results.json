@@ -1,0 +1,51 @@
+{
+  "status": "passed_new_text_synthetic_only",
+  "feature_dim": 640,
+  "model_revision": "1110a243fdf4706b3f48f1d95db1a4f5529b4d41",
+  "cold_load_seconds": 0.5297583999345079,
+  "pooled_request_seconds": 0.08928740001283586,
+  "total_seconds": 5.327338800067082,
+  "pooled": {
+    "prediction": 0.5227088195130587,
+    "mode": "pooled",
+    "reasons": [],
+    "own_labels": 2,
+    "peer_labels": 2,
+    "peers": 1
+  },
+  "fallback": {
+    "prediction": 0.5228628923489274,
+    "mode": "own_only",
+    "reasons": [
+      "visible_subject_roster_unavailable"
+    ],
+    "own_labels": 2,
+    "peer_labels": 0,
+    "peers": 0
+  },
+  "own": {
+    "prediction": 0.5228628923489274,
+    "mode": "own_only",
+    "reasons": [
+      "no_peer_support"
+    ],
+    "own_labels": 2,
+    "peer_labels": 0,
+    "peers": 0
+  },
+  "incomplete_configuration_hidden_ids_ignored": {
+    "prediction": 0.4282715519297744,
+    "mode": "own_only",
+    "reasons": [
+      "incomplete_subject_configuration",
+      "ambiguous_visible_subject_roster",
+      "incomplete_labeled_subject_configuration",
+      "no_peer_support"
+    ],
+    "own_labels": 2,
+    "peer_labels": 0,
+    "peers": 0
+  },
+  "finished": "2026-10-22T19:11:55.406503+00:00",
+  "scope": "New synthetic text encoded locally; not Hosted validation or an end-to-end R76 cohort score"
+}

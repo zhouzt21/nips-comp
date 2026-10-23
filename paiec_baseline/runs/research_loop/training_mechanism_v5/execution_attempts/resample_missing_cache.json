@@ -1,0 +1,14 @@
+{
+  "stage": "resample",
+  "start_utc": "2026-10-22T10:31:12.266473+00:00",
+  "source_hashes": {
+    "mlp\\run\\run_training_mechanism_round.py": "f0a007df57e7e54a0bbd2773ecc012683baf3be635bc4d07183aeade63b2fe91",
+    "mlp\\training_mechanism_stages.py": "8943f0b0f296eed8fa08740463ea8b23daeed3ac63f0a2df5df829c689aadec8",
+    "D:\\nips-comp\\nips-comp\\paiec_baseline\\mlp\\training_mechanism_guard.py": "117c08dac4adee9c27b65e8d733c4244cc4f49431540784c9c9459817cd19e29"
+  },
+  "command": "powershell -NoProfile -ExecutionPolicy Bypass -File D:/nips-comp/paiec-runtime-win64-py312-cpu/python.ps1 -m mlp.run.run_training_mechanism_round resample",
+  "status": "incomplete",
+  "error_type": "RuntimeError",
+  "error": "Required R7 semantic cache row absent",
+  "end_utc": "2026-10-22T10:31:13.736738+00:00"
+}

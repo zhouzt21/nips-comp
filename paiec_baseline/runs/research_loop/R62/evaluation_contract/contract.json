@@ -1,0 +1,63 @@
+{
+  "frozen_utc": "2026-10-22T13:06:09.940710+00:00",
+  "sha256": {
+    "D:\\nips-comp\\nips-comp\\research_loop\\run_historical_positive_outer.py": "5f8f131bca26b5ee05a2367a670a4f47477fad577f69250343e879c1ddfe5e3d",
+    "D:\\nips-comp\\nips-comp\\research_loop\\historical_positive_episodes.py": "981ab6b143bd359d40981ad77c662815da314a987dc39e884a497a57fefbe0ae",
+    "D:\\nips-comp\\nips-comp\\research_loop\\historical_positive_common.py": "feeb10cf03a69043a2899f841f1a09eadfa25add8b58dcdebece8db5830a9999",
+    "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R62\\models.json": "532a11cedab2ccd42cdcdc88e451c4e5687e682a3620011d351289cc6de517f3",
+    "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R62\\isolation\\contract.json": "465caa1a3a2322f556dbe8ec6c34bf39074cfe6401c82cef2589d78376507c10",
+    "D:\\nips-comp\\nips-comp\\research_loop\\HISTORICAL_POSITIVE_FOLLOWUP_SPEC.md": "5ddb970884557371b84808396acd55db7ccf0a08fdacdc98bea920707333d099",
+    "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R62\\refits\\fold0_R54\\epoch1.npz": "0fae6f2c391c3c553839cf6c0d35884a6e21b0bdda7f2b18c6376c9be21f1c55",
+    "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R62\\refits\\fold0_R56\\epoch1.npz": "67aa434dbf33b5241af57141e162bdf8f68e82f2070ce6b7fe40919ac0de1488",
+    "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R62\\refits\\fold1_R54\\epoch2.npz": "0d836fcf1f0cf997eec557ceb5597449bb1b1f3edd299be8a17fb8b2749a36a8",
+    "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R62\\refits\\fold1_R56\\epoch2.npz": "d824316ce97e323bc4d23d59d04ac3c42c6acf948a4d2520955ce6c629c9cda8",
+    "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R62\\refits\\fold2_R54\\epoch1.npz": "b16f4803de22a664c92837a6c87efede3cb2dc17a76eade40dec5a1dee452685",
+    "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R62\\refits\\fold2_R56\\epoch1.npz": "4d426d08b9724914a6ae08afeb3e829e557acff70b9bc8f310f8272cc06912c6"
+  },
+  "extra": {
+    "stage": "R62",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "pairs": 5242,
+    "epochs": {
+      "R54": [
+        1,
+        2,
+        1
+      ],
+      "R56": [
+        1,
+        2,
+        1
+      ],
+      "R43_query_best20": [
+        0,
+        0,
+        20
+      ],
+      "R55_resampled_query": [
+        0,
+        0,
+        17
+      ],
+      "R55_resampled_episode": [
+        1,
+        20,
+        17
+      ]
+    }
+  },
+  "command": [
+    "D:\\nips-comp\\paiec-runtime-win64-py312-cpu\\runtime\\python.exe",
+    "D:\\nips-comp\\nips-comp\\research_loop\\run_historical_positive_outer.py",
+    "R62"
+  ],
+  "cwd": "D:\\nips-comp\\nips-comp\\paiec_baseline",
+  "python": "3.12.7 (tags/v3.12.7:0b05ead, Oct  1 2024, 03:06:41) [MSC v.1941 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "commit": "fd5b06df51233392ea9d482732af8063f4222ec1",
+  "git_status": " M paiec_baseline/runs/README.md\n M research_loop/HIGH_LEVEL_STATE.md\n M research_loop/RESEARCH_STATE.md\n?? doc/plan_2.md\n?? doc/plan_3.md\n?? doc/plan_4.md\n?? \"doc/\\345\\244\\215\\347\\216\\260\\344\\270\\216\\347\\273\\204\\345\\220\\210.md\"\n?? paiec_baseline/mlp/amortized_irt.py\n?? paiec_baseline/mlp/irt_training.py\n?? paiec_baseline/mlp/neural_process.py\n?? paiec_baseline/mlp/reporting/reproduction_v4_inventory.py\n?? paiec_baseline/mlp/reporting/reproduction_v4_report.py\n?? paiec_baseline/mlp/reproduction_episodes.py\n?? paiec_baseline/mlp/reproduction_training.py\n?? paiec_baseline/mlp/run/audit_training_mechanism.py\n?? paiec_baseline/mlp/run/audit_training_mechanism_results.py\n?? paiec_baseline/mlp/run/prepare_adele_pilot.py\n?? paiec_baseline/mlp/run/prepare_training_mechanism_cache.py\n?? paiec_baseline/mlp/run/record_training_mechanism_environment.py\n?? paiec_baseline/mlp/run/report_training_mechanism.py\n?? paiec_baseline/mlp/run/run_amortized_irt_round.py\n?? paiec_baseline/mlp/run/run_low_budget_prior.py\n?? paiec_baseline/mlp/run/run_neural_process_round.py\n?? paiec_baseline/mlp/run/run_training_mechanism_round.py\n?? paiec_baseline/mlp/training_mechanism_data.py\n?? paiec_baseline/mlp/training_mechanism_guard.py\n?? paiec_baseline/mlp/training_mechanism_stages.py\n?? paiec_baseline/mlp/training_mechanism_training.py\n?? paiec_baseline/runs/research_loop/R51/\n?? paiec_baseline/runs/research_loop/R51_run.log\n?? paiec_baseline/runs/research_loop/R52/\n?? paiec_baseline/runs/research_loop/R52_run.log\n?? paiec_baseline/runs/research_loop/R59/\n?? paiec_baseline/runs/research_loop/R60/\n?? paiec_baseline/runs/research_loop/R61/\n?? paiec_baseline/runs/research_loop/R62/\n?? paiec_baseline/runs/research_loop/reproduction_v4/\n?? paiec_baseline/runs/research_loop/training_mechanism_v5/\n?? reports/figures/reproduction_v4_r51_learning.png\n?? reports/figures/reproduction_v4_r51_learning.svg\n?? reports/figures/reproduction_v4_r52_budgets.png\n?? reports/figures/reproduction_v4_r52_budgets.svg\n?? reports/low_budget_prior_composition_benchmark_metrics.csv\n?? reports/low_budget_prior_composition_figures/\n?? reports/low_budget_prior_composition_findings.md\n?? reports/low_budget_prior_composition_metrics.csv\n?? reports/low_budget_prior_composition_metrics.json\n?? reports/reproduction_v4_findings.md\n?? reports/reproduction_v4_metrics.csv\n?? reports/reproduction_v4_metrics.json\n?? reports/training_mechanism_v5_benchmark_metrics.csv\n?? reports/training_mechanism_v5_figures/\n?? reports/training_mechanism_v5_findings.md\n?? reports/training_mechanism_v5_metrics.csv\n?? reports/training_mechanism_v5_metrics.json\n?? research_loop/HISTORICAL_POSITIVE_FOLLOWUP_SPEC.md\n?? research_loop/LOW_BUDGET_PRIOR_COMPOSITION_SPEC.md\n?? research_loop/LOW_BUDGET_PRIOR_OPERATOR_DECISION.md\n?? research_loop/R51_protocol.md\n?? research_loop/R52_protocol.md\n?? research_loop/R53_annotation_feasibility.md\n?? research_loop/REPRODUCTION_V4_SPEC.md\n?? research_loop/REPRODUCTION_V4_STATE.md\n?? research_loop/TRAINING_MECHANISM_V5_ERRATA.md\n?? research_loop/TRAINING_MECHANISM_V5_SPEC.md\n?? research_loop/TRAINING_MECHANISM_V5_STATE.md\n?? research_loop/audit_low_budget_composition.py\n?? research_loop/finalize_low_budget_composition.py\n?? research_loop/historical_positive_common.py\n?? research_loop/historical_positive_episodes.py\n?? research_loop/literature/fetch_low_budget_sources.py\n?? research_loop/literature/low_budget_prior_composition.md\n?? research_loop/literature/reproduction_v4/\n?? research_loop/literature/training_mechanism_v5.md\n?? research_loop/literature/training_mechanism_v5_sources.json\n?? research_loop/low_budget_prior_composition_validation.md\n?? research_loop/report_low_budget_composition.py\n?? research_loop/reproduction_v4_validation.md\n?? research_loop/run_historical_positive_outer.py\n?? research_loop/run_historical_positive_refits.py\n?? research_loop/run_low_budget_composition_pilot.py\n?? research_loop/training_mechanism_v5_validation.md\n?? tests/test_amortized_irt.py\n?? tests/test_irt_training.py\n?? tests/test_neural_process.py\n?? tests/test_reproduction_pipeline.py\n"
+}

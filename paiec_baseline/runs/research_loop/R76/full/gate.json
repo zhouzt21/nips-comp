@@ -1,0 +1,304 @@
+{
+  "R76_peer0": {
+    "four_numerical_conditions": false,
+    "regression_review_required": true,
+    "criteria": {
+      "smoothed_mean_2": {
+        "gain_ge_005": false,
+        "three_fold_gain": true,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": true,
+        "regression_ge_005_for_review": {},
+        "regression_ge_03": {}
+      },
+      "training_selected_smoothed": {
+        "gain_ge_005": true,
+        "three_fold_gain": true,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": true,
+        "regression_ge_005_for_review": {
+          "cellverse/formatted_tables": 0.013352774692537595,
+          "cruxeval/formatted_tables": 0.007842135239170378,
+          "egoschema/formatted_tables": 0.008330946302573417
+        },
+        "regression_ge_03": {}
+      }
+    },
+    "scope": "conditional_simulation",
+    "hosted_deployment": false
+  },
+  "R76_peer1": {
+    "four_numerical_conditions": true,
+    "regression_review_required": true,
+    "criteria": {
+      "smoothed_mean_2": {
+        "gain_ge_005": true,
+        "three_fold_gain": true,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": true,
+        "regression_ge_005_for_review": {},
+        "regression_ge_03": {}
+      },
+      "training_selected_smoothed": {
+        "gain_ge_005": true,
+        "three_fold_gain": true,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": true,
+        "regression_ge_005_for_review": {
+          "cellverse/formatted_tables": 0.013352774692537595,
+          "cruxeval/formatted_tables": 0.008208811645819297,
+          "dave/formatted_tables": 0.007912212639318073,
+          "egoschema/formatted_tables": 0.008884807466137179
+        },
+        "regression_ge_03": {}
+      }
+    },
+    "scope": "conditional_simulation",
+    "hosted_deployment": false
+  },
+  "R76_peer2": {
+    "four_numerical_conditions": true,
+    "regression_review_required": true,
+    "criteria": {
+      "smoothed_mean_2": {
+        "gain_ge_005": true,
+        "three_fold_gain": true,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": true,
+        "regression_ge_005_for_review": {
+          "dave/formatted_tables": 0.00724898720331274
+        },
+        "regression_ge_03": {}
+      },
+      "training_selected_smoothed": {
+        "gain_ge_005": true,
+        "three_fold_gain": true,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": true,
+        "regression_ge_005_for_review": {
+          "cellverse/formatted_tables": 0.013352774692537595,
+          "cruxeval/formatted_tables": 0.008444931183377802,
+          "dave/formatted_tables": 0.010864236225291618,
+          "egoschema/formatted_tables": 0.009905274056773328
+        },
+        "regression_ge_03": {}
+      }
+    },
+    "scope": "conditional_simulation",
+    "hosted_deployment": false
+  },
+  "R76_peer3": {
+    "four_numerical_conditions": true,
+    "regression_review_required": true,
+    "criteria": {
+      "smoothed_mean_2": {
+        "gain_ge_005": true,
+        "three_fold_gain": true,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": true,
+        "regression_ge_005_for_review": {
+          "dave/formatted_tables": 0.008057130528856649
+        },
+        "regression_ge_03": {}
+      },
+      "training_selected_smoothed": {
+        "gain_ge_005": true,
+        "three_fold_gain": true,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": true,
+        "regression_ge_005_for_review": {
+          "cellverse/formatted_tables": 0.013352774692537595,
+          "cruxeval/formatted_tables": 0.00760913194510951,
+          "dave/formatted_tables": 0.011672379550835527,
+          "egoschema/formatted_tables": 0.009942135270994967
+        },
+        "regression_ge_03": {}
+      }
+    },
+    "scope": "conditional_simulation",
+    "hosted_deployment": false
+  },
+  "R76_missing": {
+    "four_numerical_conditions": true,
+    "regression_review_required": true,
+    "criteria": {
+      "smoothed_mean_2": {
+        "gain_ge_005": true,
+        "three_fold_gain": true,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": true,
+        "regression_ge_005_for_review": {},
+        "regression_ge_03": {}
+      },
+      "training_selected_smoothed": {
+        "gain_ge_005": true,
+        "three_fold_gain": true,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": true,
+        "regression_ge_005_for_review": {
+          "cellverse/formatted_tables": 0.013352774692537595,
+          "cruxeval/formatted_tables": 0.007627498027973856,
+          "dave/formatted_tables": 0.005954726613005501,
+          "egoschema/formatted_tables": 0.009595987838746878
+        },
+        "regression_ge_03": {}
+      }
+    },
+    "scope": "conditional_simulation",
+    "hosted_deployment": false
+  },
+  "R76_uneven": {
+    "four_numerical_conditions": true,
+    "regression_review_required": true,
+    "criteria": {
+      "smoothed_mean_2": {
+        "gain_ge_005": true,
+        "three_fold_gain": true,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": true,
+        "regression_ge_005_for_review": {
+          "dave/formatted_tables": 0.005728282496604842
+        },
+        "regression_ge_03": {}
+      },
+      "training_selected_smoothed": {
+        "gain_ge_005": true,
+        "three_fold_gain": true,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": true,
+        "regression_ge_005_for_review": {
+          "cellverse/formatted_tables": 0.013352774692537595,
+          "cruxeval/formatted_tables": 0.008031728566739366,
+          "dave/formatted_tables": 0.00934353151858372,
+          "egoschema/formatted_tables": 0.009320488282000383
+        },
+        "regression_ge_03": {}
+      }
+    },
+    "scope": "conditional_simulation",
+    "hosted_deployment": false
+  },
+  "R76_alt3": {
+    "four_numerical_conditions": true,
+    "regression_review_required": true,
+    "criteria": {
+      "smoothed_mean_2": {
+        "gain_ge_005": true,
+        "three_fold_gain": true,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": true,
+        "regression_ge_005_for_review": {
+          "dave/formatted_tables": 0.007751558557075128
+        },
+        "regression_ge_03": {}
+      },
+      "training_selected_smoothed": {
+        "gain_ge_005": true,
+        "three_fold_gain": true,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": true,
+        "regression_ge_005_for_review": {
+          "cellverse/formatted_tables": 0.013352774692537595,
+          "cruxeval/formatted_tables": 0.008824827014833864,
+          "dave/formatted_tables": 0.011366807579054006,
+          "egoschema/formatted_tables": 0.009450831582815677
+        },
+        "regression_ge_03": {}
+      }
+    },
+    "scope": "conditional_simulation",
+    "hosted_deployment": false
+  },
+  "R76_ambiguous": {
+    "four_numerical_conditions": false,
+    "regression_review_required": true,
+    "criteria": {
+      "smoothed_mean_2": {
+        "gain_ge_005": false,
+        "three_fold_gain": true,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": true,
+        "regression_ge_005_for_review": {},
+        "regression_ge_03": {}
+      },
+      "training_selected_smoothed": {
+        "gain_ge_005": true,
+        "three_fold_gain": true,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": true,
+        "regression_ge_005_for_review": {
+          "cellverse/formatted_tables": 0.013352774692537595,
+          "cruxeval/formatted_tables": 0.007842135239170378,
+          "egoschema/formatted_tables": 0.008330946302573417
+        },
+        "regression_ge_03": {}
+      }
+    },
+    "scope": "conditional_simulation",
+    "hosted_deployment": false
+  },
+  "R76_partial_selected": {
+    "four_numerical_conditions": true,
+    "regression_review_required": true,
+    "criteria": {
+      "smoothed_mean_2": {
+        "gain_ge_005": true,
+        "three_fold_gain": true,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": true,
+        "regression_ge_005_for_review": {
+          "dave/formatted_tables": 0.0077622653165171085
+        },
+        "regression_ge_03": {}
+      },
+      "training_selected_smoothed": {
+        "gain_ge_005": true,
+        "three_fold_gain": true,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": true,
+        "regression_ge_005_for_review": {
+          "cellverse/formatted_tables": 0.013352774692537595,
+          "cruxeval/formatted_tables": 0.00783205706605955,
+          "dave/formatted_tables": 0.011377514338495986,
+          "egoschema/formatted_tables": 0.009994080484305945
+        },
+        "regression_ge_03": {}
+      }
+    },
+    "scope": "conditional_simulation",
+    "hosted_deployment": false
+  },
+  "R76_partial_perm": {
+    "four_numerical_conditions": false,
+    "regression_review_required": true,
+    "criteria": {
+      "smoothed_mean_2": {
+        "gain_ge_005": false,
+        "three_fold_gain": false,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": false,
+        "regression_ge_005_for_review": {
+          "algotune/formatted_tables": 0.008058121869729123,
+          "evouna/formatted_tables": 0.006499967417667923
+        },
+        "regression_ge_03": {}
+      },
+      "training_selected_smoothed": {
+        "gain_ge_005": false,
+        "three_fold_gain": false,
+        "benchmark_equal_gain": true,
+        "CI_upper_below_zero": false,
+        "regression_ge_005_for_review": {
+          "algotune/formatted_tables": 0.009126648555495664,
+          "cellverse/formatted_tables": 0.013352774692537595,
+          "cruxeval/formatted_tables": 0.008842027214739395,
+          "dave/formatted_tables": 0.008062531635612907,
+          "egoschema/formatted_tables": 0.01082116952829687
+        },
+        "regression_ge_03": {}
+      }
+    },
+    "scope": "conditional_simulation",
+    "hosted_deployment": false
+  }
+}

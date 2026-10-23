@@ -1,0 +1,19 @@
+{
+  "seed": 5107,
+  "fit_benchmarks": [
+    "bbq/formatted_tables"
+  ],
+  "validation_benchmarks": [
+    "cmmlu/formatted_tables"
+  ],
+  "training_pairs": 2,
+  "validation_pairs": 2,
+  "optimizer": "AdamW",
+  "learning_rate": 0.001,
+  "weight_decay": 0.0001,
+  "batch_size": 2,
+  "epochs": 2,
+  "threads": 4,
+  "objective": "pair-equal six-budget-weighted Bernoulli NLL on disjoint query items",
+  "parameters": 102913
+}

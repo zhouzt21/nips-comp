@@ -1,0 +1,246 @@
+{
+  "stage": "R64",
+  "trajectories": 15726,
+  "unique_pairs": 5242,
+  "benchmarks": 36,
+  "query_variant_predictions": 1005741,
+  "chunks": 149,
+  "rescore_max_error": 0.0,
+  "seconds": 35.20816889998969,
+  "decisions": {
+    "template_lexical": {
+      "simple_baseline_tests": {
+        "smoothed_mean_2": {
+          "gain_ge_005": false,
+          "all_folds_improve": true,
+          "BM_improve": true,
+          "CI_upper_below_zero": true,
+          "no_ge_03_regression": true
+        },
+        "training_selected_smoothed": {
+          "gain_ge_005": true,
+          "all_folds_improve": true,
+          "BM_improve": true,
+          "CI_upper_below_zero": true,
+          "no_ge_03_regression": true
+        }
+      },
+      "simple_numeric_gate_pass": false,
+      "r25_point_gain": false,
+      "r25_all_folds_improve": false,
+      "r25_CI_upper_below_zero": false,
+      "remaining_to_smoothed_target": 0.001811751799107919,
+      "mechanism_gate": "requires bounded interpretation; numerical pass alone is insufficient",
+      "promotion": "not_promoted"
+    },
+    "raw_lexical": {
+      "simple_baseline_tests": {
+        "smoothed_mean_2": {
+          "gain_ge_005": false,
+          "all_folds_improve": true,
+          "BM_improve": true,
+          "CI_upper_below_zero": true,
+          "no_ge_03_regression": true
+        },
+        "training_selected_smoothed": {
+          "gain_ge_005": false,
+          "all_folds_improve": true,
+          "BM_improve": true,
+          "CI_upper_below_zero": true,
+          "no_ge_03_regression": true
+        }
+      },
+      "simple_numeric_gate_pass": false,
+      "r25_point_gain": false,
+      "r25_all_folds_improve": false,
+      "r25_CI_upper_below_zero": false,
+      "remaining_to_smoothed_target": 0.0036566234937584485,
+      "mechanism_gate": "requires bounded interpretation; numerical pass alone is insufficient",
+      "promotion": "not_promoted"
+    },
+    "R46_raw_average": {
+      "simple_baseline_tests": {
+        "smoothed_mean_2": {
+          "gain_ge_005": false,
+          "all_folds_improve": true,
+          "BM_improve": true,
+          "CI_upper_below_zero": true,
+          "no_ge_03_regression": true
+        },
+        "training_selected_smoothed": {
+          "gain_ge_005": true,
+          "all_folds_improve": true,
+          "BM_improve": true,
+          "CI_upper_below_zero": true,
+          "no_ge_03_regression": true
+        }
+      },
+      "simple_numeric_gate_pass": false,
+      "r25_point_gain": false,
+      "r25_all_folds_improve": false,
+      "r25_CI_upper_below_zero": false,
+      "remaining_to_smoothed_target": 0.0023457040022915876,
+      "mechanism_gate": "requires bounded interpretation; numerical pass alone is insufficient",
+      "promotion": "not_promoted"
+    },
+    "template_average": {
+      "simple_baseline_tests": {
+        "smoothed_mean_2": {
+          "gain_ge_005": false,
+          "all_folds_improve": true,
+          "BM_improve": true,
+          "CI_upper_below_zero": true,
+          "no_ge_03_regression": true
+        },
+        "training_selected_smoothed": {
+          "gain_ge_005": true,
+          "all_folds_improve": true,
+          "BM_improve": true,
+          "CI_upper_below_zero": true,
+          "no_ge_03_regression": true
+        }
+      },
+      "simple_numeric_gate_pass": false,
+      "r25_point_gain": false,
+      "r25_all_folds_improve": false,
+      "r25_CI_upper_below_zero": false,
+      "remaining_to_smoothed_target": 0.0014416842112514039,
+      "mechanism_gate": "requires bounded interpretation; numerical pass alone is insufficient",
+      "promotion": "not_promoted"
+    }
+  },
+  "template_vs_raw_average": {
+    "delta": -0.0009040197910401674,
+    "cluster_ci95": [
+      -0.0010607438873875199,
+      1.0915044337056961e-05
+    ],
+    "benchmark_equal_delta": -9.95954870783573e-06,
+    "fold_delta": [
+      -5.668909097735561e-06,
+      6.181293103135844e-06,
+      -0.0010714350302418404
+    ]
+  },
+  "permutation_comparisons": [
+    {
+      "delta": -0.00011344794737932442,
+      "cluster_ci95": [
+        -0.0005853484587939345,
+        -7.820175010819494e-05
+      ],
+      "benchmark_equal_delta": -0.0008526531993421475,
+      "fold_delta": [
+        -7.768202567632189e-05,
+        -0.0003048406604245936,
+        -9.957862669431392e-05
+      ]
+    },
+    {
+      "delta": -0.00011509522127568795,
+      "cluster_ci95": [
+        -0.0005702905018776646,
+        -8.0612102169438e-05
+      ],
+      "benchmark_equal_delta": -0.0008469251092945054,
+      "fold_delta": [
+        -9.03629712366555e-05,
+        -0.0002967218858387445,
+        -0.0001010591611028944
+      ]
+    },
+    {
+      "delta": -0.00012104773648923708,
+      "cluster_ci95": [
+        -0.0005954225327839851,
+        -8.56429710323444e-05
+      ],
+      "benchmark_equal_delta": -0.0008815249573513523,
+      "fold_delta": [
+        -5.905962338301172e-05,
+        -0.0003308980245935289,
+        -0.00010800336446821112
+      ]
+    },
+    {
+      "delta": -0.00012490200382517778,
+      "cluster_ci95": [
+        -0.0006064698511435343,
+        -8.703767024006045e-05
+      ],
+      "benchmark_equal_delta": -0.0007917685602872887,
+      "fold_delta": [
+        -7.671112227166631e-05,
+        -0.00035502466490378536,
+        -0.0001087186957722975
+      ]
+    }
+  ],
+  "permutation_boundary": "Only item-uniform residual mean before clipping is preserved; not pure causal correspondence effect",
+  "decomposition": {
+    "R25": {
+      "residual_alignment_term": -0.0001773522890648208,
+      "displacement_cost": 0.00018247329230706364,
+      "delta_brier": 5.121003242261637e-06
+    },
+    "R46_raw_average": {
+      "residual_alignment_term": -0.000944097159832795,
+      "displacement_cost": 4.007736879263333e-05,
+      "delta_brier": -0.0009040197910401549
+    }
+  },
+  "changed_query_counts_by_budget": [
+    0,
+    0,
+    692947,
+    784765,
+    787718,
+    786660
+  ],
+  "active_episode_counts_by_budget": [
+    0,
+    0,
+    12431,
+    12354,
+    12312,
+    12293
+  ],
+  "permutation_clipped_counts": [
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      2,
+      7,
+      6,
+      4
+    ],
+    [
+      43,
+      46,
+      51,
+      54
+    ],
+    [
+      765,
+      743,
+      696,
+      762
+    ]
+  ]
+}

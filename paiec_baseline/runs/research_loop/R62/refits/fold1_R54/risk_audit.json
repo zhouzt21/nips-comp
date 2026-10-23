@@ -1,0 +1,161 @@
+{
+  "rows": 9115,
+  "pairs": 902,
+  "benchmarks": 23,
+  "mass": {
+    "abstract_reason/formatted_tables": {
+      "pair": 0.0011086475960317707,
+      "benchmark": 0.043478261306268855,
+      "mixture": 0.02229344906286427,
+      "pairs": 1
+    },
+    "adaptivestep/formatted_tables": {
+      "pair": 0.0022172945643020607,
+      "benchmark": 0.043478257958207624,
+      "mixture": 0.02284777919080842,
+      "pairs": 2
+    },
+    "agentic_review_perturbation/formatted_tables": {
+      "pair": 0.003325942474214572,
+      "benchmark": 0.043478261306268855,
+      "mixture": 0.023402100948599493,
+      "pairs": 3
+    },
+    "agi_elo/formatted_tables": {
+      "pair": 0.02217294731705122,
+      "benchmark": 0.043478257958207624,
+      "mixture": 0.03282560431166004,
+      "pairs": 20
+    },
+    "ai2d_test/formatted_tables": {
+      "pair": 0.22172947986663466,
+      "benchmark": 0.043478261306268855,
+      "mixture": 0.13260387560854361,
+      "pairs": 200
+    },
+    "algotune/formatted_tables": {
+      "pair": 0.019955653589764467,
+      "benchmark": 0.043478257958207624,
+      "mixture": 0.03171695744801666,
+      "pairs": 18
+    },
+    "alignment_faking/formatted_tables": {
+      "pair": 0.42350333627605596,
+      "benchmark": 0.043478257958207624,
+      "mixture": 0.23349079042100931,
+      "pairs": 382
+    },
+    "benger/formatted_tables": {
+      "pair": 0.038802660315885557,
+      "benchmark": 0.043478261306268855,
+      "mixture": 0.04114046081107721,
+      "pairs": 35
+    },
+    "bertaqa/formatted_tables": {
+      "pair": 0.006651884111413835,
+      "benchmark": 0.043478257958207624,
+      "mixture": 0.025065072918095174,
+      "pairs": 6
+    },
+    "bird_sql/formatted_tables": {
+      "pair": 0.12638580272044705,
+      "benchmark": 0.043478257958207624,
+      "mixture": 0.08493203703544981,
+      "pairs": 114
+    },
+    "braveguard/formatted_tables": {
+      "pair": 0.0033259426834683988,
+      "benchmark": 0.043478261306268855,
+      "mixture": 0.023402100948599493,
+      "pairs": 3
+    },
+    "cellverse/formatted_tables": {
+      "pair": 0.0011086475960317707,
+      "benchmark": 0.043478261306268855,
+      "mixture": 0.02229344906286427,
+      "pairs": 1
+    },
+    "ceval/formatted_tables": {
+      "pair": 0.012195121359184295,
+      "benchmark": 0.043478257958207624,
+      "mixture": 0.027836691751234228,
+      "pairs": 11
+    },
+    "cruxeval/formatted_tables": {
+      "pair": 0.034368069513250825,
+      "benchmark": 0.043478257958207624,
+      "mixture": 0.038923167083790455,
+      "pairs": 31
+    },
+    "dave/formatted_tables": {
+      "pair": 0.00886917909422355,
+      "benchmark": 0.043478261306268855,
+      "mixture": 0.02617371978173855,
+      "pairs": 8
+    },
+    "edu_circuit_hw/formatted_tables": {
+      "pair": 0.006651884529921489,
+      "benchmark": 0.043478264654330086,
+      "mixture": 0.025065072918095174,
+      "pairs": 6
+    },
+    "egoschema/formatted_tables": {
+      "pair": 0.012195120522168987,
+      "benchmark": 0.043478257958207624,
+      "mixture": 0.027836691751234228,
+      "pairs": 11
+    },
+    "engdesign/formatted_tables": {
+      "pair": 0.0177383581884471,
+      "benchmark": 0.043478257958207624,
+      "mixture": 0.030608310584373286,
+      "pairs": 16
+    },
+    "evouna/formatted_tables": {
+      "pair": 0.005543236829262805,
+      "benchmark": 0.043478257958207624,
+      "mixture": 0.02451074781224287,
+      "pairs": 5
+    },
+    "exploitgym/formatted_tables": {
+      "pair": 0.005543237247770459,
+      "benchmark": 0.043478257958207624,
+      "mixture": 0.024510749486273485,
+      "pairs": 5
+    },
+    "felm/formatted_tables": {
+      "pair": 0.0011086475960317707,
+      "benchmark": 0.043478261306268855,
+      "mixture": 0.02229344906286427,
+      "pairs": 1
+    },
+    "financebench/formatted_tables": {
+      "pair": 0.017738359862477716,
+      "benchmark": 0.043478257958207624,
+      "mixture": 0.030608310584373286,
+      "pairs": 16
+    },
+    "healthadminbench/formatted_tables": {
+      "pair": 0.007760531393564866,
+      "benchmark": 0.043478257958207624,
+      "mixture": 0.025619398023947478,
+      "pairs": 7
+    }
+  },
+  "range": {
+    "pair": [
+      0.02526330202817917,
+      10.105320930480957
+    ],
+    "mixture": [
+      0.25533196330070496,
+      10.714151382446289
+    ]
+  },
+  "gradient": {
+    "pair_norm": 0.04735800761723857,
+    "mixture_norm": 0.037434651500965886,
+    "cosine": 0.9703073540157618,
+    "norm_ratio": 0.7904608615194249
+  }
+}

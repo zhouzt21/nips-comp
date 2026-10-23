@@ -1,0 +1,32 @@
+﻿{"stage": "resample_bank", "fold": 0, "benchmark": "bertaqa/formatted_tables"}
+powershell : Traceback (most recent call last):
+所在位置 行:2 字符: 1
++ powershell -NoProfile -ExecutionPolicy Bypass -File 'D:\nips-comp\pai ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Traceback (most recent call last)::String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  File "<frozen runpy>", line 198, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "D:\nips-comp\nips-comp\paiec_baseline\mlp\run\run_training_mechanism_round.py", line 98, in <module>
+    main()
+  File "D:\nips-comp\nips-comp\paiec_baseline\mlp\run\run_training_mechanism_round.py", line 94, in main
+    execute(args.stage, getattr(training_mechanism_stages,args.stage))
+  File "D:\nips-comp\nips-comp\paiec_baseline\mlp\training_mechanism_guard.py", line 85, in execute
+    callback()
+  File "D:\nips-comp\nips-comp\paiec_baseline\mlp\training_mechanism_stages.py", line 74, in resample
+    banks[name] = resampled_banks(name, engine, ridge)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\nips-comp\nips-comp\paiec_baseline\mlp\training_mechanism_data.py", line 207, in resampled_banks
+    for ep in raw_episodes(name, engine, ridge, seeds=missing):
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\nips-comp\nips-comp\paiec_baseline\mlp\training_mechanism_data.py", line 132, in raw_episodes
+    result.update(support=np.stack([vector(i) for i in aid]),
+                                    ^^^^^^^^^
+  File "D:\nips-comp\nips-comp\paiec_baseline\mlp\training_mechanism_data.py", line 99, in vector
+    vectors[i] = np.r_[engine.vector(items[i]['content']) / np.sqrt(ridge),
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\nips-comp\nips-comp\paiec_baseline\mlp\cohort_semantic.py", line 22, in vector
+    if row is None:raise RuntimeError('Required R7 semantic cache row absent')
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Required R7 semantic cache row absent

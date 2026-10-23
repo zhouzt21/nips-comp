@@ -1,0 +1,86 @@
+{
+  "status": "support_consistency_predictive_source_entry",
+  "descriptive_first_metric": "partial",
+  "tests": [
+    {
+      "metric": "partial",
+      "tests": {
+        "rho_CI_positive": true,
+        "pair_group_gap_negative": true,
+        "bm_group_gap_negative": true,
+        "without_alignment_pair_negative": true,
+        "without_alignment_bm_negative": true,
+        "group_sample_minimum": true,
+        "positive_in_two_source_pools": true
+      },
+      "pass": true
+    },
+    {
+      "metric": "pooled",
+      "tests": {
+        "rho_CI_positive": true,
+        "pair_group_gap_negative": true,
+        "bm_group_gap_negative": true,
+        "without_alignment_pair_negative": true,
+        "without_alignment_bm_negative": true,
+        "group_sample_minimum": true,
+        "positive_in_two_source_pools": true
+      },
+      "pass": true
+    },
+    {
+      "metric": "mean",
+      "tests": {
+        "rho_CI_positive": true,
+        "pair_group_gap_negative": true,
+        "bm_group_gap_negative": true,
+        "without_alignment_pair_negative": true,
+        "without_alignment_bm_negative": true,
+        "group_sample_minimum": true,
+        "positive_in_two_source_pools": true
+      },
+      "pass": true
+    },
+    {
+      "metric": "combined",
+      "tests": {
+        "rho_CI_positive": true,
+        "pair_group_gap_negative": true,
+        "bm_group_gap_negative": true,
+        "without_alignment_pair_negative": true,
+        "without_alignment_bm_negative": true,
+        "group_sample_minimum": true,
+        "positive_in_two_source_pools": true
+      },
+      "pass": true
+    }
+  ],
+  "outer_fold_source_only_choices": {
+    "0": {
+      "eligible_metrics": [
+        "partial",
+        "pooled",
+        "mean",
+        "combined"
+      ],
+      "first_eligible": "partial",
+      "scope": "only this fold legal source Benchmark outcomes"
+    },
+    "1": {
+      "eligible_metrics": [],
+      "first_eligible": null,
+      "scope": "only this fold legal source Benchmark outcomes"
+    },
+    "2": {
+      "eligible_metrics": [
+        "partial",
+        "pooled"
+      ],
+      "first_eligible": "partial",
+      "scope": "only this fold legal source Benchmark outcomes"
+    }
+  },
+  "R79_diagnostic_entry": true,
+  "R79_outer_authorized": false,
+  "note": "Any R79 still requires nested source strategy versus matched shrinkage; no global metric may be applied across outer folds."
+}

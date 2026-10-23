@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-22T16:11:02.418721+00:00",
+  "official_repo_commit": "cc88a959c1e5e7462f31a9215baba066ce6d6e2b",
+  "actual_hosted_runner_observed": false,
+  "clauses": [
+    {
+      "id": "multi_pair_labeled",
+      "status": "verified_official",
+      "statement": "labeled contains entries across sampled subject–benchmark pairs",
+      "evidence": "official_interface.md:131"
+    },
+    {
+      "id": "visible_subject_fields",
+      "status": "verified_official",
+      "statement": "Exactly eight plain-string subject fields, missing empty string",
+      "evidence": "official_interface.md:95"
+    },
+    {
+      "id": "visible_item_fields",
+      "status": "verified_official",
+      "statement": "item_content, item_features, interactors, anonymous stable benchmark_id; item_id absent",
+      "evidence": "official_interface.md:108"
+    },
+    {
+      "id": "budget_zero",
+      "status": "verified_official",
+      "statement": "labeled is empty at B0",
+      "evidence": "official_interface.md:120"
+    },
+    {
+      "id": "budget_nested",
+      "status": "verified_official",
+      "statement": "0,1,3,7,15,31 per pair; nested trajectory; same evaluation items",
+      "evidence": "official_interface.md:120"
+    },
+    {
+      "id": "acquisition_separation",
+      "status": "verified_official",
+      "statement": "50/50 items per pair; all repeated responses stay with item; evaluation outcomes never revealed",
+      "evidence": "official_interface.md:118"
+    },
+    {
+      "id": "exact_input_prediction_reuse",
+      "status": "verified_official",
+      "statement": "Identical subject/item input reuses one probability for repeats",
+      "evidence": "official_interface.md:87"
+    },
+    {
+      "id": "visible_subject_match",
+      "status": "verified_official",
+      "statement": "Official empirical mean matches complete subject dict and benchmark_id",
+      "evidence": "official_baseline/empirical_mean/model.py:26"
+    },
+    {
+      "id": "actual_hosted_peer_count",
+      "status": "unknown",
+      "statement": "No executable hosted runner or actual evidence sample obtained",
+      "evidence": null
+    },
+    {
+      "id": "hosted_peer_selection",
+      "status": "unknown",
+      "statement": "No guaranteed same-benchmark peer cohort or selection distribution",
+      "evidence": null
+    },
+    {
+      "id": "own_plus_peer_per_call",
+      "status": "inferred_not_guaranteed",
+      "statement": "Multi-pair schema permits it, but actual calls and timing not observed",
+      "evidence": null
+    },
+    {
+      "id": "target_query_peer_acquisition_overlap",
+      "status": "unknown",
+      "statement": "Per-pair split is explicit; cross-subject item overlap rules are not",
+      "evidence": null
+    },
+    {
+      "id": "cross_call_state",
+      "status": "unknown",
+      "statement": "Do not assume call order or persistent state, including across budgets",
+      "evidence": null
+    },
+    {
+      "id": "same_text_means_same_item",
+      "status": "unsupported",
+      "statement": "Identical text can differ in features/interactors; internal item_id unavailable",
+      "evidence": null
+    },
+    {
+      "id": "peer_labels_without_visibility",
+      "status": "unsupported",
+      "statement": "Never infer unseen labels from historical IDs or hidden evaluation outcomes",
+      "evidence": null
+    }
+  ],
+  "minimum_contract": {
+    "stateless": true,
+    "B0_empty": true,
+    "matching": "exact canonical tuple of all visible item fields; exact subject dict equality",
+    "exclude_same_visible_subject_as_peer": true,
+    "unknown_or_ambiguous_match": "no same-item correction; R25 fallback",
+    "peer_labels": "only supplied current-budget acquisition labels; never evaluation response of that peer",
+    "simulation": "0/1/3 distinct visible peers, deterministic attribute-only assignment; conditional_simulation"
+  },
+  "bounded_retrieval": "D:\\nips-comp\\nips-comp\\paiec_baseline\\runs\\research_loop\\R69\\retrieval.json"
+}
